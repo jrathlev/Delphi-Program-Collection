@@ -1,0 +1,1174 @@
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi units - Dutch translation\n"
+"POT-Creation-Date: 2024-10-20 12:58+0200\n"
+"PO-Revision-Date: 2024-10-20 13:34+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: TheDutchJewel <thedutchjewel@gmail.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+# Keine Fehler bei COM-Verbindung
+msgid "No errors on COM connection"
+msgstr "Geen fouten bij COM-verbinding"
+
+# Fehler beim Öffnen des COM-Ports
+msgid "Error opening COM port"
+msgstr "Fout bij openen COM-poort"
+
+# Fehler beim Setzen des COM-Port-Status
+msgid "Error setting COM port state"
+msgstr "Fout bij instelling COM-poortstatus"
+
+# Fehler beim Leeren der COM-Puffer
+msgid "Error flushing COM buffers"
+msgstr "Fout bij legen COM-buffers"
+
+# Fehler beim Initialisieren des COM-Ports
+msgid "Error initializing COM port"
+msgstr "Fout bij initialiseren COM-poort"
+
+# Fehler beim Öffnen von \"%s\"
+msgid "Error opening \"%s\""
+msgstr "Fout bij openen van \"%s\""
+
+# Fehler beim Erstellen von \"%s\"
+msgid "Error creating \"%s\""
+msgstr "Fout bij maken van \"%s\""
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error reading from \"%s\""
+msgstr "Fout bij lezen van \"%s\""
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error extracting from \"%s\""
+msgstr "Fout bij uitpakken van \"%s\""
+
+# Fehler beim Schreiben nach \"%s\"
+msgid "Error writing to \"%s\""
+msgstr "Fout bij schrijven naar \"%s\""
+
+# Fehler beim Überprüfen von \"%s\"
+msgid "Error verifying \"%s\""
+msgstr "Fout bij controleren van \"%s\""
+
+# Fehler beim Schließen von \"%s\"
+msgid "Error closing \"%s\""
+msgstr "Fout bij sluiten \"%s\""
+
+# Fehler beim Setzen der Attribute von
+# \"%s\"
+msgid "Error setting attributes of \"%s\""
+msgstr "Fout bij instellen van kenmerken van \"%s\""
+
+# Fehler beim Setzen der Zeitstempel von
+# \"%s\"
+msgid "Error setting timestamps of \"%s\""
+msgstr "Fout bij instellen van tijdstempel van \"%s\""
+
+# Fehler beim Setzen der Berechtigungen von
+# \"%s\"
+msgid "Error setting permissions of \"%s\""
+msgstr "Fout bij instellen van machtigingen voor \"%s\""
+
+# Fehler beim Schreiben eines Verzeichniseintrags:
+# \"%s\"
+msgid "Error writing directory entry: \"%s\""
+msgstr "Fout bij schrijven van mapingang: \"%s\""
+
+# Fehler beim Schreiben eines Verzeichniseintrags:
+# \"%s\"
+msgid "Error adding directory to \"%s\""
+msgstr "Fout bij toevoegen van map: \"%s\""
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error adding file to \"%s\""
+msgstr "Fout bij toevoegen van bestand \"%s\""
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error adding stream to \"%s\""
+msgstr "Fout bij toevoegen van stream \"%s\""
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error comparing file from \"%s\" to \"%s\""
+msgstr "Fout bij vergelijken van bestand van \"%s\" naar \"%s\""
+
+# Fehler beim Schreiben des Endblocks
+msgid "Error writing end record"
+msgstr "Fout bij schrijven van de laatste gegevensrij"
+
+# Datei nicht gefunden: \"%s\"
+msgid "File not found: \"%s\""
+msgstr "Bestand niet gevonden: \"%s\""
+
+# System-Fehler: %s
+msgid "System error: %s"
+msgstr "Systeemfout: %s"
+
+# Unbekannter Fehler
+msgid "No errors"
+msgstr "Geen fouten"
+
+# Fehler -
+msgid "Error - "
+msgstr "Fout - "
+
+# Fehler(2) -
+msgid "Error(2) - "
+msgstr "Fout(2) - "
+
+# Warnung -
+msgid "Warning - "
+msgstr "Waarschuwing - "
+
+# Info -
+msgid "Info - "
+msgstr "Info - "
+
+# Datei konnte nicht erstellt werden
+msgid "Could not create file"
+msgstr "Kon bestand niet aanmaken"
+
+# Datei konnte nicht geöffnet werden
+msgid "Could not open file"
+msgstr "Kon bestand niet openen"
+
+# Datei konnte nicht geschlossen werden
+msgid "Could not close file"
+msgstr "Kon bestand niet sluiten"
+
+# Aus der Datei konnte nicht gelesen werden
+msgid "Could not read from file"
+msgstr "Kon niet lezen uit bestand"
+
+# In die Datei konnte nicht geschrieben
+# werden
+msgid "Could not write to file"
+msgstr "Kon niet schrijven naar bestand"
+
+# Die Attribute konnten nicht gesetzt
+# werden
+msgid "Attributes could not be set"
+msgstr "Kenmerken van het bestand kunnen niet worden ingesteld"
+
+# Zu wenig Platz auf dem Datenträger
+msgid "Low disk space"
+msgstr "Onvoldoende schijfruimte"
+
+# Ungültiger Datei-Header
+msgid "Illegal file header"
+msgstr "Illegale bestandskop"
+
+# Beschädigte Datei
+msgid "Corrupt file"
+msgstr "Beschadigd bestand"
+
+# Die Verschlüsselung ist fehlgeschlagen
+msgid "Encryption failed"
+msgstr "Versleuteling mislukt"
+
+# Die Entschlüsselung ist fehlgeschlagen
+msgid "Decryption failed"
+msgstr "Ontsleuteling mislukt"
+
+# Die Überprüfung ist fehlgeschlagen
+msgid "Verification failed"
+msgstr "Controle mislukt"
+
+# Pfad zu lang
+msgid "Path too long"
+msgstr "Pad te lang"
+
+# Datei nicht gefunden
+msgid "File not found"
+msgstr "Bestand niet gevonden"
+
+# Der Zeitstempel konnte nicht gesetzt
+# werden
+msgid "Timestamp could not be set"
+msgstr "Tijdstempel kon niet worden ingesteld"
+
+msgid "Error copying document summary"
+msgstr "Fout bij kopiëren van documentsamenvatting"
+
+# Zeitüberschreitung beim Kopieren der
+# Datei
+msgid "Timeout error on copying file"
+msgstr "Tijdoverschrijdingsfout bij kopiëren van bestand"
+
+# Nicht definierter Stream
+msgid "Undefined stream"
+msgstr "Niet-gedefinieerde stroom"
+
+# Die Berechtigungen konnten nicht kopiert
+# werden
+msgid "Permissions could not be copied"
+msgstr "Machtigingen konden niet worden gekopieerd"
+
+# Datei bereits vorhanden
+msgid "File already exists"
+msgstr "Bestand bestaat al"
+
+# Unterschiedliche Größe
+msgid "Size mismatch"
+msgstr "Verschillende grootte"
+
+# Die FTP-Datenverbindung konnte nicht hergestellt
+# werden
+msgid "Could not open destination file for verification"
+msgstr "Doelbestand voor verificatie kon niet worden geopend"
+
+# Verzeichnis konnte nicht erstellt werden
+msgid "Could not create directory"
+msgstr "Kon map niet aanmaken"
+
+# Über FTP konnte nicht gelesen werden
+msgid "Could not read from FTP"
+msgstr "Kon niet lezen van FTP"
+
+# Über FTP konnte nicht geschrieben werden
+msgid "Could not write to FTP"
+msgstr "Kon niet schrijven naar FTP"
+
+# Die FTP-Verbindung konnte nicht aufgebaut
+# werden
+msgid "Could not connect to FTP server"
+msgstr "Kon geen verbinding maken met FTP-server"
+
+# Die FTP-Verbindung wurde vom Server
+# beendet
+msgid "FTP connection was closed by server"
+msgstr "FTP-verbinding is gesloten door server"
+
+# Die FTP-Datenverbindung konnte nicht hergestellt
+# werden
+msgid "Could not open FTP data connection"
+msgstr "FTP-gegevensverbinding kon niet worden geopend"
+
+# Zeitüberschreitung bei Kopieren per
+# FTP
+msgid "Timeout error on copying file via FTP"
+msgstr "Tijdoverschrijdingsfout bij kopiëren van bestand via FTP"
+
+# Unterschiedlicher Inhalt
+msgid "Different content"
+msgstr "Verschillende inhoud"
+
+# Fehler beim Erstellen von \"%s\"
+msgid "Error creating new zip segment"
+msgstr "Fout bij maken van nieuw zip-segment"
+
+# Ungültige Zip-Signatur
+msgid "Illegal zip signature"
+msgstr "Ongeldige ziphandtekening"
+
+# Datei konnte nicht extrahiert werden
+msgid "Could not extract file"
+msgstr "Kon bestand niet uitpakken"
+
+# Nicht unterstütztes Dateiformat
+msgid "Unsupported file format"
+msgstr "Bestandsindeling wordt niet ondersteund"
+
+# Temporäre Datei konnte nicht umbenannt
+# werden
+msgid "Could not rename temporary file"
+msgstr "Kon tijdelijke bestand niet hernoemen"
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error reading next zip segment"
+msgstr "Fout bij lezen van volgende zip-segment"
+
+msgid "Error copying alternate data streams"
+msgstr "Fout bij kopiëren van alternatieve gegevensstream"
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error deleting file"
+msgstr "Fout bij verwijderen van bestand"
+
+# Fehler beim Lesen von \"%s\"
+msgid "Error renaming file"
+msgstr "Fout bij hernoemen van bestand"
+
+# Abbruch durch den Benutzer
+msgid "Terminated by user"
+msgstr "Beëindigd door gebruiker"
+
+# Unbekannter Fehlercode ($%.8x)
+msgid "Unknown error code ($%.8x)"
+msgstr "Onbekende foutcode ($%.8x)"
+
+#  (Kopieren)
+msgid "Copy"
+msgstr "Kopiëren"
+
+#  (GZip)
+msgid "gzip"
+msgstr "gzip"
+
+#  (GUnzip)
+msgid "gunzip"
+msgstr "gunzip"
+
+#  (Zip)
+msgid "Zip"
+msgstr "Zip"
+
+#  (Unzip)
+msgid "Unzip"
+msgstr "Unzip"
+
+#  (Verschlüsseln)
+msgid "Encrypt"
+msgstr "Versleutelen"
+
+#  (Entschlüsseln)
+msgid "Decrypt"
+msgstr "Ontsleutelen"
+
+# nicht verfügbar
+msgid "File information not available"
+msgstr "Bestandsinformatie niet beschikbaar"
+
+# Die Entschlüsselung ist fehlgeschlagen
+msgid "Description: "
+msgstr "Beschrijving: "
+
+# Firma
+msgid "Company: "
+msgstr "Bedrijf: "
+
+msgid "Copyright: "
+msgstr "Copyright: "
+
+msgid "File version: "
+msgstr "Bestandsversie: "
+
+msgid "Last modified: "
+msgstr "Laatst gewijzigd: "
+
+# Storage-Fehler
+msgid "Format error: "
+msgstr "Indelingsfout: "
+
+# Globale Informationen
+msgid "Global info"
+msgstr "Algemene informatie"
+
+# Dokumenten-Informationen
+msgid "Document info"
+msgstr "Documentinformatie"
+
+# Benutzer-Informationen
+msgid "User info"
+msgstr "Gebruikersinformatie"
+
+# Audio-Informationen
+msgid "Audio info"
+msgstr "Audio-informatie"
+
+# Video-Informationen
+msgid "Video info"
+msgstr "Video-informatie"
+
+# Bild-Informationen
+msgid "Image info"
+msgstr "Afbeeldingsinformatie"
+
+# Medien-Informationen
+msgid "Media info"
+msgstr "Media-informatie"
+
+# Titel
+msgid "Title"
+msgstr "Titel"
+
+# Thema
+msgid "Subject"
+msgstr "Onderwerp"
+
+# Autor
+msgid "Author"
+msgstr "Auteur"
+
+# Stichwörter
+msgid "Keywords"
+msgstr "Trefwoorden"
+
+# Kommentare
+msgid "Comments"
+msgstr "Opmerkingen"
+
+# Vorlage
+msgid "Template"
+msgstr "Sjabloon"
+
+# Zuletzt gespeichert von
+msgid "Last saved by"
+msgstr "Laatst opgeslagen door"
+
+# Revisionsnummer
+msgid "Revision Number"
+msgstr "Revisienummer"
+
+# Gesamte Bearbeitungszeit
+msgid "Total editing time"
+msgstr "Totale bewerkingstijd"
+
+# Zuletzt gedruckt
+msgid "Last printed"
+msgstr "Laatst afgedrukt"
+
+# Erstellt am
+msgid "Content created"
+msgstr "Inhoud gemaakt"
+
+# Zuletzt gespeichert
+msgid "Date last saved"
+msgstr "Datum laatst opgeslagen"
+
+# Seiten
+msgid "Pages"
+msgstr "Pagina's"
+
+# Wortanzahl
+msgid "Word count"
+msgstr "Aantal woorden"
+
+# Zeichenanzahl
+msgid "Character count"
+msgstr "Aantal tekens"
+
+# Miniaturbild
+msgid "Thumbnail"
+msgstr "Miniatuur"
+
+# Anwendungsname
+msgid "Program name"
+msgstr "Programmanaam"
+
+# Sicherheit
+msgid "Security"
+msgstr "Veiligheid"
+
+# Kategorie
+msgid "Category"
+msgstr "Categorie"
+
+# Präsentationsformat
+msgid "Presentation format"
+msgstr "Presentatie-indeling"
+
+# Byteanzahl
+msgid "Byte count"
+msgstr "Aantal bytes"
+
+# Zeilenanzahl
+msgid "Line count"
+msgstr "Aantal regels"
+
+# Absatzanzahl
+msgid "Paragraph count"
+msgstr "Aantal paragrafen"
+
+# Folien
+msgid "Slides"
+msgstr "Dia's"
+
+# Hinweise
+msgid "Notes"
+msgstr "Notities"
+
+# Anzahl ausgeblendeter Elemente
+msgid "Hidden elements"
+msgstr "Verborgen elementen"
+
+# Multimediaclips
+msgid "Clips"
+msgstr "Clips"
+
+# Skalierung
+msgid "Scale"
+msgstr "Schaal"
+
+# Überschriftenpaare
+msgid "Heading pairs"
+msgstr "Rubriekparen"
+
+# Dokumententeile
+msgid "Document parts"
+msgstr "Documentdelen"
+
+# Manager
+msgid "Manager"
+msgstr "Bedrijfsleider"
+
+# Firma
+msgid "Company"
+msgstr "Bedrijf"
+
+# Zu aktualisierende Verknüpfungen
+msgid "Links to update"
+msgstr "Bij te werken koppelingen"
+
+# Ja
+msgid "Yes"
+msgstr "Ja"
+
+# Nein
+msgid "No"
+msgstr "Nee"
+
+# FTP-Verbindung
+msgid "FTP connection"
+msgstr "FTP-verbinding"
+
+# Die Verbindung zu FTP-Server wird aufgebaut
+msgid "Trying to connect to FTP server"
+msgstr "Probeer verbinding met FTP-server te maken"
+
+# Die Verbindung zum FTP-Server wurde
+# hergestellt
+msgid "Connection to FTP server established"
+msgstr "Verbinding met FTP-server ingesteld"
+
+# Die Verbindung zum FTP-Server ist fehlgeschlagen
+msgid "Connection to FTP server failed"
+msgstr "Verbinding met FTP-server mislukt"
+
+# Die Verbindung zum FTP-Server ist fehlgeschlagen
+msgid "Connection to FTP server: %s:%u"
+msgstr "Verbinding met FTP-server: %s:%u"
+
+# Die Verbindung zum FTP-Server: %s:%u\n
+# für den Benutzer: %s\n
+# erfordert ein Kennwort!
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Verbinding met FTP-server: %s:%u\n"
+"voor gebruiker: %s\n"
+"wachtwoord vereist!"
+
+# Die Verbindung zum FTP-Proxyserver: %s:%u\n
+# für den Benutzer: %s\n
+# erfordert ein Kennwort!
+msgid ""
+"Connection to FTP proxy server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Verbinding met FTP-proxyserver: %s:%u\n"
+"voor gebruiker: %s\n"
+"vereist een wachtwoord!"
+
+# FTP-Verbindung ist abgebrochen!
+msgid "FTP connection lost!"
+msgstr "FTP-verbinding verbroken!"
+
+# FTP-Verbindung
+msgid "Trying to reconnect"
+msgstr "Proberen opnieuw verbinding te maken"
+
+# FTP-Begrüßungsmeldung:
+msgid "FTP welcome message:"
+msgstr "FTP-welkomstbericht:"
+
+# FTP-Statusabfrage:
+msgid "FTP status query:"
+msgstr "FTP-status opvragen:"
+
+# Storage-Fehler
+msgid "Supported features: "
+msgstr "Ondersteunde functies: "
+
+# Antwortcode:
+msgid "Response code: "
+msgstr "Responscode: "
+
+# Letzte FTP-Antwort:
+msgid "Last FTP response: "
+msgstr "Laatste FTP-reactie: "
+
+# Storage-Fehler
+msgid "Reported error: "
+msgstr "Gemelde fout: "
+
+# Unerwartete Antwort auf den Befehl:
+msgid "Unexpected response to command: "
+msgstr "Onverwachte reactie op opdracht: "
+
+# Zeitüberschreitung bei Befehl:
+msgid "Timeout on command: "
+msgstr "Tijdoverschrijding bij opdracht: "
+
+# FTP-Stammverzeichnis:
+msgid "FTP root directory: \"%s\""
+msgstr "FTP-hoofdmap: \"%s\""
+
+# Aktuelles FTP-Verzeichnis:
+msgid "Current FTP directory: \"%s\""
+msgstr "Huidige FTP-map: \"%s\""
+
+# Vers.
+msgid "Version"
+msgstr "Versie"
+
+msgid "Serial number"
+msgstr "Serienummer"
+
+msgid "Issuer"
+msgstr "Uitgever"
+
+msgid "Valid until"
+msgstr "Geldig tot"
+
+msgid "Fingerprint"
+msgstr "Vingerafdruk"
+
+msgid "Error verifying server certificate"
+msgstr "Fout bij het verifiëren van het servercertificaat"
+
+# Fehler (öffnende/schließende Klammern)
+msgid "Error (left/right parenthesis)"
+msgstr "Fout (haakje openen/sluiten)"
+
+# Eingabefehler (fehlende öffnende Klammer)
+msgid "Input error (missing left parenthesis)"
+msgstr "Invoerfout (haakje openen ontbreekt)"
+
+# Eingabefehler (kein Klammerinhalt)
+msgid "Input error (empty parentheses)"
+msgstr "Invoerfout (lege haakjes)"
+
+# Division durch Null
+msgid "Division by zero"
+msgstr "Deling door nul"
+
+# Unzulässiges Argument
+msgid "Invalid argument"
+msgstr "Ongeldig argument"
+
+# Operation führt zu Überlauf
+msgid "Overflow on operation"
+msgstr "Overloop bij werking"
+
+# Ungültiger Ausdruck
+msgid "Invalid expression"
+msgstr "Ongeldige expressie"
+
+# Unerwartetes Operationssymbol
+msgid "Unexpected operator"
+msgstr "Onverwachte operator"
+
+# Operationssymbol fehlt
+msgid "Missing operator"
+msgstr "Ontbrekende operator"
+
+# Potenz mit unzulässiger (negativer)
+# Basis
+msgid "Power with invalid (negative) base"
+msgstr "Macht met ongeldige (negatieve) base"
+
+# \"Null hoch Null\"
+msgid "Zero to power of zero"
+msgstr "Nul tot de macht nul"
+
+# \"Null durch Null\"
+msgid "Divide zero by zero"
+msgstr "Nul delen door nul"
+
+# Unzulässige Kombination von Operanden
+msgid "Invalid combination of operands"
+msgstr "Ongeldige combinatie van operanden"
+
+# Unerlaubtes Zeichen
+msgid "Invalid character"
+msgstr "Ongeldig teken"
+
+# Unzulässiges Argument (Überlaufgefahr)
+msgid "Invalid argument (potential overflow)"
+msgstr "Ongeldig argument (potentiële overloop)"
+
+# Speicherplatz fehlt (\"stack overflow\")
+msgid "Low memory (\"stack overflow\")"
+msgstr "Weinig geheugen (\"stack overflow\")"
+
+# Speicherplatz fehlt (\"string overflow\")
+msgid "Low memory (\"string overflow\")"
+msgstr "Weinig geheugen (\"string overflow\")"
+
+# Unbekannter Fehler
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+# Unbekannter Systemfehler
+msgid "Unknown system error code"
+msgstr "Onbekende systeemfoutcode"
+
+msgid "Error code"
+msgstr "Foutcode"
+
+# Windows-Fehler
+msgid "Windows error"
+msgstr "Windows-fout"
+
+# Storage-Fehler
+msgid "Storage error"
+msgstr "Opslagfout"
+
+# Fehler beim Remote Procedure Call
+msgid "Remote procedure call error"
+msgstr "Fout bij Remote Procedure Call"
+
+# Interface-Fehler
+msgid "Interface error"
+msgstr "Interface-fout"
+
+# Dispatch-Fehler
+msgid "Dispatch error"
+msgstr "Dispatch-fout"
+
+# Fehler in SHFileOperation
+msgid "Error in SHFileOperation"
+msgstr "SHFileOperation-fout"
+
+# ShellExecute-Fehler
+msgid "ShellExecute error"
+msgstr "Fout in ShellExecute"
+
+# %s ist kein gültiger Hex-Wert
+msgid "%s is not a valid hex value"
+msgstr "%s is geen geldige hexadecimale waarde"
+
+# %s ist kein gültiger Oktal-Wert
+msgid "%s is not a valid octal value"
+msgstr "&s is geen geldige octale waarde"
+
+# %s ist kein gültiger Binär-Wert
+msgid "%s is not a valid binary value"
+msgstr "&s is geen geldige binaire waarde"
+
+# &System-Standard
+msgid "&System default"
+msgstr "&Systeemstandaard"
+
+# Der Wechsel der Sprache erfordert einen Neustart des
+# Programms!
+msgid "Changing language requires the program to be restarted!"
+msgstr "Taalwijzigingen vereisen een programmaherstart!"
+
+# Ungültiger regulärer Ausdruck!
+msgid "Illegal regular expression!"
+msgstr "Ongeldige reguliere expressie!"
+
+# Ungültiger Maske!
+msgid "Illegal mask!"
+msgstr "Ongeldig masker!"
+
+# Fehler beim Ausführen eines Prozesses
+msgid "Error executing process"
+msgstr "Fout bij uitvoeren proces"
+
+# Erzeugung einer Pipe für StdOut ist
+# fehlgeschlagen
+msgid "Stdout pipe creation failed"
+msgstr "Maken van pijp voor StdOut mislukt"
+
+# Die Funktion DuplicateHandle ist fehlgeschlagen
+msgid "DuplicateHandle failed"
+msgstr "DuplicateHandle is mislukt"
+
+# Das Schließen eines Handle ist fehlgeschlagen
+msgid "Closing handle failed"
+msgstr "Sluiten van handle is mislukt"
+
+msgid "%s%s (Version %s, Build %d, %s)"
+msgstr "%s%s (Versie %s, Build %d, %s)"
+
+msgid "%s (Version %s, %s)"
+msgstr "%s (Versie %s, %s)"
+
+# Windows-Fehler
+msgid "Windows 11"
+msgstr "Windows 11"
+
+# Professional mit Media Center
+msgid "Professional with Media Center"
+msgstr "Professional met Media Center"
+
+# Server Enterprise für Itanium-basierte
+# Systeme
+msgid "Server Enterprise for Itanium-based Systems"
+msgstr "Server Enterprise voor Itanium-gebaseerde systemen"
+
+# Essential Server ohne Hyper-V
+msgid "Essential Server without Hyper-V"
+msgstr "Essential Server zonder Hyper-V"
+
+# Nicht lizenziertes Produkt
+msgid "Unlicensed product"
+msgstr "Product zonder licentie"
+
+msgid "Beginning of spring"
+msgstr "Begin van de lente"
+
+msgid "Beginning of summer"
+msgstr "Begin van de zomer"
+
+msgid "Beginning of autumn"
+msgstr "Begin van de herfst"
+
+msgid "Beginning of winter"
+msgstr "Begin van de winter"
+
+#. Strings from PasswordStrength
+#. Programmer's name for it: rsVeryWeak
+#: UnitConsts.pas:123
+msgid "very weak"
+msgstr "zeer zwak"
+
+#. Programmer's name for it: rsWeak
+#: UnitConsts.pas:124
+msgid "weak"
+msgstr "zwak"
+
+#. Programmer's name for it: rsGood
+#: UnitConsts.pas:125
+msgid "good"
+msgstr "goed"
+
+#. Programmer's name for it: rsStrong
+#: UnitConsts.pas:126
+msgid "strong"
+msgstr "sterk"
+
+#. Programmer's name for it: rsVeryStrong
+#: UnitConsts.pas:127
+msgid "very strong"
+msgstr "zeer sterk"
+
+# %s Dr. J. Rathlev\n
+#  24222 Schwentinental, Germany
+msgid ""
+"%s Dr. J. Rathlev\n"
+" 24222 Schwentinental, Germany"
+msgstr ""
+"%s Dr. J. Rathlev\n"
+" 24222 Schwentinental, Germany"
+
+# %s Dr. J. Rathlev
+msgid "%s Dr. J. Rathlev"
+msgstr "%s Dr. J. Rathlev"
+
+# nicht verfügbar
+msgid "not available"
+msgstr "niet beschikbaar"
+
+msgid "unlabeled"
+msgstr "ongelabeld"
+
+# Verbinden mit ..
+msgid "Connect to .."
+msgstr "Verbinden met..."
+
+# <Unbekannt>
+msgid "<Unknown>"
+msgstr "<onbekend>"
+
+msgid "Strike any key to continue ..."
+msgstr "Druk op een willekeurige toets om verder te gaan..."
+
+# Die Volumen-Schattenkopie konnte auf diesem System nicht
+# initialisiert werden!
+msgid "Volume Shadow Copy could not be initialized on this system!"
+msgstr ""
+"Volumeschaduwkopie kon niet geïnitialiseerd worden op dit systeem!"
+
+# Das IVssBackupComponents-Interface wird initialisiert
+# ...
+msgid "Initializing IVssBackupComponents Interface ..."
+msgstr "IVssBackupComponents Interface initialiseren ..."
+
+# Writer-Metadaten werden initialisiert
+# ...
+msgid "Initialize writer metadata ..."
+msgstr "Writer-metagegevens initialiseren ..."
+
+# Writer-Metadaten werden erfasst ...
+msgid "Gathering writer metadata ..."
+msgstr "Writer-metagegevens verzamelen ..."
+
+# Status der Writer wird erfasst ...
+msgid "Gathering writer status ..."
+msgstr "Writer-status verzamelen ..."
+
+# Direkt auszuschließende Komponenten werden ermittelt
+# ...
+msgid "Discover directly excluded components ..."
+msgstr "Direct uitgesloten componenten bepalen ..."
+
+# Komponenten, die nicht zum Schattenkopiesatz gehören, werden
+# ermittelt ...
+msgid "Discover components that reside outside the shadow set ..."
+msgstr ""
+"Componenten die niet in de schaduwkopie behoren, worden bepaald ..."
+
+# Die ausgeschlossenen Komponenten werden ermittelt
+# ...
+msgid "Discover all excluded components ..."
+msgstr "Uitgesloten componenten bepalen ..."
+
+# Ausgeschlossene Writer werden ermittelt
+# ...
+msgid "Discover excluded writers ..."
+msgstr "Uitgesloten writers bepalen ..."
+
+# Ausdrücklich einzuschließende Komponenten werden ermittelt
+# ...
+msgid "Discover explicitly included components ..."
+msgstr "Expliciet ingesloten componenten bepalen ..."
+
+# Ausdrücklich einzuschließende Komponenten auswählen
+# ...
+msgid "Select explicitly included components ..."
+msgstr "Expliciet ingesloten componenten selecteren ..."
+
+# Das Backupkomponenten-Dokument wird gespeichert
+# ...
+msgid "Saving the backup components document ..."
+msgstr "Document met back-upcomponenten opslaan ..."
+
+# Dem Snapshotsatz werden Datenträger hinzugefügt
+# ...
+msgid "Add volumes to snapshot set ..."
+msgstr "Volume toevoegen aan schaduwkopie ..."
+
+# Das Backup wird vorbereitet ...
+msgid "Preparing for backup ..."
+msgstr "Back-up voorbereiden ..."
+
+# Die Schattenkopie wird erstellt ...
+msgid "Creating the shadow copy ..."
+msgstr "Schaduwkopie maken ..."
+
+# Der Schattenkopiesatz wurde erfolgreich
+# erstellt
+msgid "Shadow copy set successfully created"
+msgstr "Schaduwkopieset gemaakt"
+
+# Alle Schattenkopien im System werden abgefragt
+# ...
+msgid "Querying all shadow copies in the system ..."
+msgstr "Alle schaduwkopieën in het systeem opvragen ..."
+
+# Alle Schattenkopien mit dem SnapshotSetID %s werden abgefragt
+# ...
+msgid "Querying all shadow copies with the SnapshotSetID %s ..."
+msgstr "Alle schaduwkopiën met de SnapshotSetID %s opvragen ..."
+
+# Ein Schattenkopiesatz {%s} wird erstellt
+# ...
+msgid "Creating shadow set {%s} ..."
+msgstr "Schaduwkopie {%s} maken ..."
+
+# Das Backup wird abgeschlossen ...
+msgid "Completing the backup ..."
+msgstr "Back-up afsluiten ..."
+
+# <Unbekannt>
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Ready"
+msgstr "Gereed"
+
+msgid "Queued"
+msgstr "In wachtrij"
+
+msgid "Running"
+msgstr "Wordt uitgevoerd"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Start a program"
+msgstr "Een programma starten"
+
+msgid "File handler"
+msgstr "Bestandshandler"
+
+msgid "Send an email"
+msgstr "Een e-mail verzenden"
+
+msgid "Display a message"
+msgstr "Een bericht weergeven"
+
+msgid "On an event"
+msgstr "Bij een gebeurtenis"
+
+msgid "One time"
+msgstr "Eenmalig"
+
+msgid "Daily"
+msgstr "Dagelijks"
+
+msgid "Weekly"
+msgstr "Wekelijks"
+
+msgid "Monthly"
+msgstr "Maandelijks"
+
+msgid "On idle"
+msgstr "Bij niet actief"
+
+msgid "On task creation/modification"
+msgstr "Tijdens maken of wijzigen van taak"
+
+msgid "At startup"
+msgstr "Bij opstarten"
+
+msgid "At log on"
+msgstr "Bij aanmelden"
+
+msgid "On session state change"
+msgstr "Bij wijziging van sessiestatus"
+
+msgid "Custom trigger"
+msgstr "Aangepaste trigger"
+
+msgid "First"
+msgstr "Eerste"
+
+msgid "Second"
+msgstr "Tweede"
+
+msgid "Third"
+msgstr "Derde"
+
+msgid "Fourth"
+msgstr "Vierde"
+
+msgid "Fifth"
+msgstr "Vijfde"
+
+msgid "Last"
+msgstr "Laatste"
+
+msgid "second"
+msgstr "seconde"
+
+msgid "seconds"
+msgstr "seconden"
+
+msgid "every second"
+msgstr "elke seconde"
+
+msgid "every %u seconds"
+msgstr "elke %u seconden"
+
+msgid "minute"
+msgstr "minuut"
+
+msgid "minutes"
+msgstr "minuten"
+
+msgid "every minute"
+msgstr "elke minuut"
+
+msgid "every %u minutes"
+msgstr "elke %u minuten"
+
+msgid "hour"
+msgstr "uur"
+
+msgid "hours"
+msgstr "uren"
+
+msgid "every hour"
+msgstr "elk uur"
+
+msgid "every %u hours"
+msgstr "elke %u uur"
+
+msgid "day"
+msgstr "dag"
+
+msgid "%u days"
+msgstr "%u dagen"
+
+msgid "every day"
+msgstr "elke dag"
+
+msgid "every %u days"
+msgstr "elke %u dagen"
+
+msgid "At %0:s on %1:s"
+msgstr "Om %0:s op %1:s"
+
+msgid "At %s every day"
+msgstr "Elke dag om %s"
+
+msgid "At %0:s every %1:u days"
+msgstr "Elke %1:u dagen om %0:s"
+
+msgid "At %0:s every %1:s of every week, starting %2:s"
+msgstr "Om %0:s elke %1:s van elke week, beginnend op %2:s"
+
+msgid "At %0:s every %1:s of every %2:u weeks, starting %3:s"
+msgstr "Om %0:s elke %1:s elke %2:u week, beginnend op %3:s"
+
+msgid "At %0:s on %1:s of %2:s, starting %3:s"
+msgstr "Om %0:s op dag %1:s van %2:s, beginnend op %3:s"
+
+msgid "Runs on the %0:s %1:s, each %2:s starting %3:s"
+msgstr "Wordt uitgevoerd op de %0:s %1:s, elke %2:s, beginnend op %3:s"
+
+msgid "At logon of any user"
+msgstr "Bij aanmelden van elke gebruiker"
+
+msgid "At logon of %s"
+msgstr "Bij aanmelden van %s"
+
+msgid "At system startup"
+msgstr "Bij opstarten van de computer"
+
+msgid "When computer is idle"
+msgstr "Als computer niet wordt gebruikt"
+
+msgid ", starting at %0:s on %1:s"
+msgstr ", beginnend om %0:s op %1:s"
+
+msgid "When task is created or modified"
+msgstr "Als de taak wordt gemaakt of aangepast"
+
+msgid " - After triggered, repeat every %0:s for a duration of %1:s"
+msgstr " - Na trigger elke %0:s herhalen gedurende %1:s"
+
+msgid "deprecated"
+msgstr "afgeschaft"
+
+# Windows-Fehler
+msgid "Windows XP"
+msgstr "Windows XP"
+
+# Windows-Fehler
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+# Windows-Fehler
+msgid "Windows 7"
+msgstr "Windows 7"
+
+# Windows-Fehler
+msgid "Windows 10"
+msgstr "Windows 10"

@@ -1,0 +1,923 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi-Units\n"
+"POT-Creation-Date: 2024-10-20 12:58+0200\n"
+"PO-Revision-Date: 2024-10-20 13:38+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Kopejkin (kopejkin.ru@gmail.com)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "No errors on COM connection"
+msgstr "Немає помилок підключення COM"
+
+msgid "Error opening COM port"
+msgstr "Помилка відкриття COM-порту"
+
+msgid "Error setting COM port state"
+msgstr "Помилки налаштування стану COM порту"
+
+msgid "Error flushing COM buffers"
+msgstr "Помилка скидання буферів COM"
+
+msgid "Error initializing COM port"
+msgstr "Помилка ініціалізації COM-порту"
+
+msgid "Error opening \"%s\""
+msgstr "Помилка відкриття \"%s\""
+
+msgid "Error creating \"%s\""
+msgstr "Помилка створення \"%s\""
+
+msgid "Error reading from \"%s\""
+msgstr "Помилка читання з \"%s\""
+
+msgid "Error extracting from \"%s\""
+msgstr "Помилка видобування з \"%s\""
+
+msgid "Error writing to \"%s\""
+msgstr "Помилка запису в \"%s\""
+
+msgid "Error verifying \"%s\""
+msgstr "Помилка перевірки \"%s\""
+
+msgid "Error closing \"%s\""
+msgstr "Помилка закриття \"%s\""
+
+msgid "Error setting attributes of \"%s\""
+msgstr "Помилка налаштування атрибутів \"%s\""
+
+msgid "Error setting timestamps of \"%s\""
+msgstr "Помилка встановлення мітки часу \"%s\""
+
+msgid "Error setting permissions of \"%s\""
+msgstr "Помилка налаштування дозволів \"%s\""
+
+msgid "Error writing directory entry: \"%s\""
+msgstr "Помилка запису каталогу: \"%s\""
+
+msgid "Error adding directory to \"%s\""
+msgstr "Помилка додавання папки до \"%s\""
+
+msgid "Error adding file to \"%s\""
+msgstr "Помилка додавання файлу до \"%s\""
+
+msgid "Error adding stream to \"%s\""
+msgstr "Помилка додавання потоку до \"%s\""
+
+msgid "Error comparing file from \"%s\" to \"%s\""
+msgstr "Помилка порівняння файлу з \"%s\" з \"%s\""
+
+msgid "Error writing end record"
+msgstr "Помилка запису в кінець запису \"%s\""
+
+msgid "File not found: \"%s\""
+msgstr "Файл не знайдено: \"%s\""
+
+msgid "System error: %s"
+msgstr "Системна помилка: %s"
+
+msgid "No errors"
+msgstr "Немає помилок"
+
+msgid "Error - "
+msgstr "Помилка - "
+
+msgid "Error(2) - "
+msgstr "Помилка(2) - "
+
+msgid "Warning - "
+msgstr "Попередження - "
+
+msgid "Info - "
+msgstr "Інфо - "
+
+msgid "Could not create file"
+msgstr "Не вдалося створити файл"
+
+msgid "Could not open file"
+msgstr "Неможливо відкрити файл"
+
+msgid "Could not close file"
+msgstr "Не вдалося закрити файл"
+
+msgid "Could not read from file"
+msgstr "Не вдалося прочитати з файлу"
+
+msgid "Could not write to file"
+msgstr "Не вдалося записати у файл"
+
+msgid "Attributes could not be set"
+msgstr "Не вдалося встановити атрибути"
+
+msgid "Low disk space"
+msgstr "Недостатньо місця на диску"
+
+msgid "Illegal file header"
+msgstr "Неприпустимий заголовок файлу"
+
+msgid "Corrupt file"
+msgstr "Пошкоджений файл"
+
+msgid "Encryption failed"
+msgstr "Помилка шифрування"
+
+msgid "Decryption failed"
+msgstr "Не вдалося дешифрувати"
+
+msgid "Verification failed"
+msgstr "Збій перевірки"
+
+msgid "Path too long"
+msgstr "Шлях надто довгий"
+
+msgid "File not found"
+msgstr "Файл не знайдено"
+
+msgid "Timestamp could not be set"
+msgstr "Не вдалося встановити мітку часу"
+
+msgid "Error copying document summary"
+msgstr "Помилка копіювання відомостей документа"
+
+msgid "Timeout error on copying file"
+msgstr "Помилка часу очікування при копіювання файлу"
+
+msgid "Undefined stream"
+msgstr "Невизначений потік"
+
+msgid "Permissions could not be copied"
+msgstr "Не вдалося скопіювати дозволи"
+
+msgid "File already exists"
+msgstr "Файл вже існує"
+
+msgid "Size mismatch"
+msgstr "Розмір не збігається"
+
+msgid "Could not open destination file for verification"
+msgstr "Неможливо відкрити файл призначення для верифікації"
+
+msgid "Could not create directory"
+msgstr "Не вдалося створити каталог"
+
+msgid "Could not read from FTP"
+msgstr "Не вдалося прочитати з FTP"
+
+msgid "Could not write to FTP"
+msgstr "Не вдалося записати на FTP"
+
+msgid "Could not connect to FTP server"
+msgstr "Не вдалося підключитися до FTP-сервера"
+
+msgid "FTP connection was closed by server"
+msgstr "FTP-з'єднання було закрито сервером"
+
+msgid "Could not open FTP data connection"
+msgstr "Неможливо відкрити підключення даних FTP"
+
+msgid "Timeout error on copying file via FTP"
+msgstr "Помилка часу очікування при копіюванні файлів з FTP"
+
+msgid "Different content"
+msgstr "Різний контент"
+
+msgid "Error creating new zip segment"
+msgstr "Помилка створення zip сегменту"
+
+msgid "Illegal zip signature"
+msgstr "Неприпустимий підпис zip"
+
+msgid "Could not extract file"
+msgstr "Не вдалося вийняти файл"
+
+msgid "Unsupported file format"
+msgstr "Формат файлу, що не підтримується"
+
+msgid "Could not rename temporary file"
+msgstr "Не вдалося перейменувати тимчасовий файл"
+
+msgid "Error reading next zip segment"
+msgstr "Помилка читання наступного zip сегменту"
+
+msgid "Error copying alternate data streams"
+msgstr "Помилка копіювання альтернативних потоків даних"
+
+msgid "Error deleting file"
+msgstr "Помилка видалення файлу"
+
+msgid "Error renaming file"
+msgstr "Помилка перейменування файлу"
+
+msgid "Terminated by user"
+msgstr "Завершено користувачем"
+
+msgid "Unknown error code ($%.8x)"
+msgstr "Невідомий код помилки ($%.8x)"
+
+msgid "Copy"
+msgstr "Копіювання"
+
+msgid "gzip"
+msgstr "gzip"
+
+msgid "gunzip"
+msgstr "gunzip"
+
+msgid "Zip"
+msgstr "Zip"
+
+msgid "Unzip"
+msgstr "Розпакувати"
+
+msgid "Encrypt"
+msgstr "Зашифрувати"
+
+msgid "Decrypt"
+msgstr "Дешифрувати"
+
+msgid "File information not available"
+msgstr "Інформація про файл недоступна"
+
+msgid "Description: "
+msgstr "Опис: "
+
+msgid "Company: "
+msgstr "Компанія: "
+
+msgid "Copyright: "
+msgstr "Авторське право: "
+
+msgid "File version: "
+msgstr "Версія файлу: "
+
+msgid "Last modified: "
+msgstr "Змінено: "
+
+msgid "Format error: "
+msgstr "Помилка формату: "
+
+msgid "Global info"
+msgstr "Глобальна інформація"
+
+msgid "Document info"
+msgstr "Інформація про документ"
+
+msgid "User info"
+msgstr "Інформація про користувача"
+
+msgid "Audio info"
+msgstr "Аудіо інформація"
+
+msgid "Video info"
+msgstr "Відео інформація"
+
+msgid "Image info"
+msgstr "Інформація про зображення"
+
+msgid "Media info"
+msgstr "Інформація про медіа"
+
+msgid "Title"
+msgstr "Назва"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Keywords"
+msgstr "Ключові слова"
+
+msgid "Comments"
+msgstr "Коментарі"
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Last saved by"
+msgstr "Останній збережений"
+
+msgid "Revision Number"
+msgstr "Номер версії"
+
+msgid "Total editing time"
+msgstr "Загальний час редагування"
+
+msgid "Last printed"
+msgstr "Останній надрукований"
+
+msgid "Content created"
+msgstr "Зміст створено"
+
+msgid "Date last saved"
+msgstr "Останнє збереження"
+
+msgid "Pages"
+msgstr "Сторінок"
+
+msgid "Word count"
+msgstr "Кількість слів"
+
+msgid "Character count"
+msgstr "Кількість символів"
+
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+msgid "Program name"
+msgstr "Назва програми"
+
+msgid "Security"
+msgstr "Безпека"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Presentation format"
+msgstr "Формат подання"
+
+msgid "Byte count"
+msgstr "Кількість байт"
+
+msgid "Line count"
+msgstr "Кількість рядків"
+
+msgid "Paragraph count"
+msgstr "Кількість абзаців"
+
+msgid "Slides"
+msgstr "Слайди"
+
+msgid "Notes"
+msgstr "Примітки"
+
+msgid "Hidden elements"
+msgstr "Приховані елементи"
+
+msgid "Clips"
+msgstr "Кліпи"
+
+msgid "Scale"
+msgstr "Масштаб"
+
+msgid "Heading pairs"
+msgstr "Заголовок пар"
+
+msgid "Document parts"
+msgstr "Частини документа"
+
+msgid "Manager"
+msgstr "Диспетчер"
+
+msgid "Company"
+msgstr "Компанія"
+
+msgid "Links to update"
+msgstr "Посилання на оновлення"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "FTP connection"
+msgstr "FTP-з'єднання"
+
+msgid "Trying to connect to FTP server"
+msgstr "Спроба з'єднатися з сервером FTP"
+
+msgid "Connection to FTP server established"
+msgstr "Підключення до FTP-сервера створено"
+
+msgid "Connection to FTP server failed"
+msgstr "Не вдалося підключитися до FTP-сервера"
+
+msgid "Connection to FTP server: %s:%u"
+msgstr "Для підключення до FTP-сервера: %s: %u"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Для підключення до FTP-серверу: %s: %u\n"
+"користувачу: %s\n"
+"потрібен пароль!"
+
+msgid ""
+"Connection to FTP proxy server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Підключення до проксі FTP-сервера: %s:%u\n"
+"користувачу: %s\n"
+"потрібен пароль!"
+
+msgid "FTP connection lost!"
+msgstr "FTP-з'єднання втрачено!"
+
+msgid "Trying to reconnect"
+msgstr "Спроба відновити зв'язок"
+
+msgid "FTP welcome message:"
+msgstr "Повідомлення привітання FTP:"
+
+msgid "FTP status query:"
+msgstr "Запит стану FTP:"
+
+msgid "Supported features: "
+msgstr "Підтримувані функції: "
+
+msgid "Response code: "
+msgstr "Код відповіді: "
+
+msgid "Last FTP response: "
+msgstr "Остання відповідь FTP: "
+
+msgid "Reported error: "
+msgstr "Повідомлення про помилку: "
+
+msgid "Unexpected response to command: "
+msgstr "Несподівана відповідь на команду: "
+
+msgid "Timeout on command: "
+msgstr "Таймаут команди: "
+
+msgid "FTP root directory: \"%s\""
+msgstr "Кореневий FTP каталог: \"%s\""
+
+msgid "Current FTP directory: \"%s\""
+msgstr "Поточний каталог FTP: \"%s\""
+
+msgid "Version"
+msgstr "Версія"
+
+msgid "Serial number"
+msgstr "Серійний номер"
+
+msgid "Issuer"
+msgstr "Емітент"
+
+msgid "Valid until"
+msgstr "Дійсний до"
+
+msgid "Fingerprint"
+msgstr "Відбиток пальця"
+
+msgid "Error verifying server certificate"
+msgstr "Помилка перевірки сертифіката сервера"
+
+msgid "Error (left/right parenthesis)"
+msgstr "Помилка (ліва/права кругла дужка)"
+
+msgid "Input error (missing left parenthesis)"
+msgstr "Помилка введення (відсутня ліва кругла дужка)"
+
+msgid "Input error (empty parentheses)"
+msgstr "Помилка введення (порожні дужки)"
+
+msgid "Division by zero"
+msgstr "Поділ на нуль"
+
+msgid "Invalid argument"
+msgstr "Недійсний аргумент"
+
+msgid "Overflow on operation"
+msgstr "Переповнення під час операції"
+
+msgid "Invalid expression"
+msgstr "Неприпустимий вираз"
+
+msgid "Unexpected operator"
+msgstr "Несподіваний оператор"
+
+msgid "Missing operator"
+msgstr "Втрачено оператора"
+
+msgid "Power with invalid (negative) base"
+msgstr "Потужність з недійсною (негативною) основою"
+
+msgid "Zero to power of zero"
+msgstr "Нуль у ступені нуля"
+
+msgid "Divide zero by zero"
+msgstr "Поділ нуль на нуль"
+
+msgid "Invalid combination of operands"
+msgstr "Неприпустима комбінація операндів"
+
+msgid "Invalid character"
+msgstr "Неприпустимий символ"
+
+msgid "Invalid argument (potential overflow)"
+msgstr "Недійсний аргумент (потенційне переповнення)"
+
+msgid "Low memory (\"stack overflow\")"
+msgstr "Нестача пам'яті (\"stack overflow\")"
+
+msgid "Low memory (\"string overflow\")"
+msgstr "Нестача пам'яті (\"string overflow\")"
+
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+msgid "Unknown system error code"
+msgstr "Невідомий код системної помилки"
+
+msgid "Error code"
+msgstr "Код помилки"
+
+msgid "Windows error"
+msgstr "Помилка Windows"
+
+msgid "Storage error"
+msgstr "Помилка пристрою зберігання даних"
+
+msgid "Remote procedure call error"
+msgstr "Помилка виклику віддаленої процедури"
+
+msgid "Interface error"
+msgstr "Помилка інтерфейсу"
+
+msgid "Dispatch error"
+msgstr "Помилка відправлення"
+
+msgid "Error in SHFileOperation"
+msgstr "Помилка в SHFileOperation"
+
+msgid "ShellExecute error"
+msgstr "Помилка ShellExecute"
+
+msgid "%s is not a valid hex value"
+msgstr "%s не є припустимим шістнадцятковим значенням"
+
+msgid "%s is not a valid octal value"
+msgstr "%s не є припустимим вісімковим значенням"
+
+msgid "%s is not a valid binary value"
+msgstr "%s не є припустимим бінарним значенням"
+
+msgid "&System default"
+msgstr "&Системна (як усталено)"
+
+msgid "Changing language requires the program to be restarted!"
+msgstr "Для зміни мови потрібно перезапустити програму!"
+
+msgid "Illegal regular expression!"
+msgstr "Неприпустимий регулярний вираз!"
+
+msgid "Illegal mask!"
+msgstr "Неприпустима маска!"
+
+msgid "Error executing process"
+msgstr "Помилка виконання процесу"
+
+msgid "Stdout pipe creation failed"
+msgstr "Збій під час створення каналу stdout"
+
+msgid "DuplicateHandle failed"
+msgstr "Збій DuplicateHandle"
+
+msgid "Closing handle failed"
+msgstr "Не вдалося закрити дескриптор"
+
+msgid "%s%s (Version %s, Build %d, %s)"
+msgstr ""
+"%s%s \n"
+"(Version %s, Build %d, %s)"
+
+msgid "%s (Version %s, %s)"
+msgstr "%s (Version %s, %s)"
+
+msgid "Windows 11"
+msgstr "Windows 11"
+
+msgid "Professional with Media Center"
+msgstr "Professional with Media Center"
+
+msgid "Server Enterprise for Itanium-based Systems"
+msgstr "Server Enterprise for Itanium-based Systems"
+
+msgid "Essential Server without Hyper-V"
+msgstr "Essential Server без Hyper-V"
+
+msgid "Unlicensed product"
+msgstr "Неліцензований продукт"
+
+msgid "Beginning of spring"
+msgstr "Початок весни"
+
+msgid "Beginning of summer"
+msgstr "Початок літа"
+
+msgid "Beginning of autumn"
+msgstr "Початок осені"
+
+msgid "Beginning of winter"
+msgstr "Початок зими"
+
+#. Strings from PasswordStrength
+#. Programmer's name for it: rsVeryWeak
+#: UnitConsts.pas:123
+msgid "very weak"
+msgstr "дуже слабкий"
+
+#. Programmer's name for it: rsWeak
+#: UnitConsts.pas:124
+msgid "weak"
+msgstr "слабкий"
+
+#. Programmer's name for it: rsGood
+#: UnitConsts.pas:125
+msgid "good"
+msgstr "добре"
+
+#. Programmer's name for it: rsStrong
+#: UnitConsts.pas:126
+msgid "strong"
+msgstr "сильний"
+
+#. Programmer's name for it: rsVeryStrong
+#: UnitConsts.pas:127
+msgid "very strong"
+msgstr "дуже сильний"
+
+msgid ""
+"%s Dr. J. Rathlev\n"
+" 24222 Schwentinental, Germany"
+msgstr ""
+"%s Dr. J. Rathlev\n"
+"24222 Schwentinental, Німеччина\n"
+"Переклад: Kopejkin, 2017-2024"
+
+msgid "%s Dr. J. Rathlev"
+msgstr "%s Dr. J. Rathlev"
+
+msgid "not available"
+msgstr "не доступно"
+
+msgid "unlabeled"
+msgstr "немаркований"
+
+msgid "Connect to .."
+msgstr "Підключення до .."
+
+msgid "<Unknown>"
+msgstr "<Невідомо>"
+
+msgid "Strike any key to continue ..."
+msgstr "Натисніть будь-яку клавішу, щоб продовжити ..."
+
+msgid "Volume Shadow Copy could not be initialized on this system!"
+msgstr "Тіньове копіювання не може бути ініціалізоване на цій системі!"
+
+msgid "Initializing IVssBackupComponents Interface ..."
+msgstr "Ініціалізація інтерфейсу IVssBackupComponents..."
+
+msgid "Initialize writer metadata ..."
+msgstr "Ініціалізація запису метаданих..."
+
+msgid "Gathering writer metadata ..."
+msgstr "Збір метаданих writer..."
+
+msgid "Gathering writer status ..."
+msgstr "Отримання статусу writer..."
+
+msgid "Discover directly excluded components ..."
+msgstr "Дізнатися про безпосередньо виключені компоненти ..."
+
+msgid "Discover components that reside outside the shadow set ..."
+msgstr ""
+"Дізнатися про компоненти, що знаходяться поза тіньовим набором ..."
+
+msgid "Discover all excluded components ..."
+msgstr "Дізнатися про всі виключені компоненти ..."
+
+msgid "Discover excluded writers ..."
+msgstr "Дізнатися про виключені письменників ..."
+
+msgid "Discover explicitly included components ..."
+msgstr "Дізнатися про явно включені компоненти ..."
+
+msgid "Select explicitly included components ..."
+msgstr "Виберіть явно включені компоненти ..."
+
+msgid "Saving the backup components document ..."
+msgstr "Збереження компонентів резервної копії документа."
+
+msgid "Add volumes to snapshot set ..."
+msgstr "Додати томи до набору знімків ..."
+
+msgid "Preparing for backup ..."
+msgstr "Підготовка до резервного копіювання."
+
+msgid "Creating the shadow copy ..."
+msgstr "Створення тіньової копії."
+
+msgid "Shadow copy set successfully created"
+msgstr "Тіньову копію набору успішно створено"
+
+msgid "Querying all shadow copies in the system ..."
+msgstr "Запит усіх тіньових копій у системі..."
+
+msgid "Querying all shadow copies with the SnapshotSetID %s ..."
+msgstr "Запит усіх тіньових копій із SnapshotSetID %s..."
+
+msgid "Creating shadow set {%s} ..."
+msgstr "Створення тіньового набору {%s} ..."
+
+msgid "Completing the backup ..."
+msgstr "Завершення резервного копіювання ..."
+
+msgid "Unknown"
+msgstr "Невідомо"
+
+msgid "Ready"
+msgstr "В очікуванні"
+
+msgid "Queued"
+msgstr "В черзі"
+
+msgid "Running"
+msgstr "Виконання"
+
+msgid "Disabled"
+msgstr "ВИМК"
+
+msgid "Start a program"
+msgstr "Запуск програми"
+
+msgid "File handler"
+msgstr "Обробник"
+
+msgid "Send an email"
+msgstr "Надіслати листа"
+
+msgid "Display a message"
+msgstr "Показати повідомлення"
+
+msgid "On an event"
+msgstr "При події"
+
+msgid "One time"
+msgstr "Певний час"
+
+msgid "Daily"
+msgstr "Щодня"
+
+msgid "Weekly"
+msgstr "Щотижня"
+
+msgid "Monthly"
+msgstr "Щомісяця"
+
+msgid "On idle"
+msgstr "При простої"
+
+msgid "On task creation/modification"
+msgstr "Під час створення/зміни завдання"
+
+msgid "At startup"
+msgstr "При запуску"
+
+msgid "At log on"
+msgstr "При вході"
+
+msgid "On session state change"
+msgstr "При зміні стану сеансу"
+
+msgid "Custom trigger"
+msgstr "Власний тригер"
+
+msgid "First"
+msgstr "1"
+
+msgid "Second"
+msgstr "2"
+
+msgid "Third"
+msgstr "3"
+
+msgid "Fourth"
+msgstr "4"
+
+msgid "Fifth"
+msgstr "5"
+
+msgid "Last"
+msgstr "Остан."
+
+msgid "second"
+msgstr "сек."
+
+msgid "seconds"
+msgstr "сек."
+
+msgid "every second"
+msgstr "щосекунди"
+
+msgid "every %u seconds"
+msgstr "кожні %u сек."
+
+msgid "minute"
+msgstr "хв."
+
+msgid "minutes"
+msgstr "хв."
+
+msgid "every minute"
+msgstr "щохвилини"
+
+msgid "every %u minutes"
+msgstr "кожні %u хв."
+
+msgid "hour"
+msgstr "год."
+
+msgid "hours"
+msgstr "год."
+
+msgid "every hour"
+msgstr "щогодини"
+
+msgid "every %u hours"
+msgstr "кожні %u год."
+
+msgid "day"
+msgstr "день"
+
+msgid "%u days"
+msgstr "%u дн."
+
+msgid "every day"
+msgstr "щодня"
+
+msgid "every %u days"
+msgstr "кожні %u дн."
+
+msgid "At %0:s on %1:s"
+msgstr "%0:s %1:s"
+
+msgid "At %s every day"
+msgstr "В %s кожен день"
+
+msgid "At %0:s every %1:u days"
+msgstr "В %0:s кожні %1:u дн."
+
+msgid "At %0:s every %1:s of every week, starting %2:s"
+msgstr "В %0:s кожен %1:s щотижня, починаючи з %2:s"
+
+msgid "At %0:s every %1:s of every %2:u weeks, starting %3:s"
+msgstr "В %0:s кожен %1:s кожного %2:u тижня, починаючи з %3:s"
+
+msgid "At %0:s on %1:s of %2:s, starting %3:s"
+msgstr "В %0:s %1:s кожного %2:s, починаючи з %3:s"
+
+msgid "Runs on the %0:s %1:s, each %2:s starting %3:s"
+msgstr "Запускати %0:s %1:s, кожен %2:s починаючи з %3:s"
+
+msgid "At logon of any user"
+msgstr "При вході будь-якого користувача"
+
+msgid "At logon of %s"
+msgstr "При вході користувача %s"
+
+msgid "At system startup"
+msgstr "При запуску системи"
+
+msgid "When computer is idle"
+msgstr "При простої комп'ютера"
+
+msgid ", starting at %0:s on %1:s"
+msgstr ", починаючи з %0:s до %1:s"
+
+msgid "When task is created or modified"
+msgstr "Коли завдання створено або змінено"
+
+msgid " - After triggered, repeat every %0:s for a duration of %1:s"
+msgstr ""
+" - Після спрацювання тригера, повторювати кожні %0:s протягом %1:s"
+
+msgid "deprecated"
+msgstr "застарілі"
+
+msgid "Windows XP"
+msgstr "Windows XP"
+
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+msgid "Windows 7"
+msgstr "Windows 7"
+
+msgid "Windows 10"
+msgstr "Windows 10"

@@ -1,0 +1,1869 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi dialogs - Dutch translation\n"
+"POT-Creation-Date: 2024-10-25 12:38+0200\n"
+"PO-Revision-Date: 2025-02-10 17:55+0100\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: TheDutchJewel <thedutchjewel@gmail.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+# Kennwort anzeigen
+msgid "Show password"
+msgstr "Toon wachtwoord"
+
+# Abbrechen
+msgid "Cancel"
+msgstr "Annuleren"
+
+# OK
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Wachtwoord herhalen:"
+
+# Kennwort bestätigen
+msgid "Confirm password"
+msgstr "Bevestig wachtwoord"
+
+# Name:
+msgid "Name:"
+msgstr "Naam:"
+
+msgid "User name"
+msgstr "Gebruikersnaam"
+
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+# Kennwort
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "Edit application list"
+msgstr "Toepassingslijst bewerken"
+
+msgid "Application"
+msgstr "Toepassing"
+
+# Hinzufügen
+msgid "Add"
+msgstr "Toevoegen"
+
+# Entfernen
+msgid "Remove"
+msgstr "Verwijderen"
+
+# Ändern
+msgid "Change"
+msgstr "Wijzigen"
+
+# Umbenennen
+msgid "Rename"
+msgstr "Wijzigen"
+
+msgid "Change order"
+msgstr "Volgorde wijzigen"
+
+# Eintrag nach oben
+msgid "Move item up"
+msgstr "Item omhoog verplaatsen"
+
+# Eintrag nach unten
+msgid "Move item down"
+msgstr "Item omlaag verplaatsen"
+
+# Pfad:
+msgid "Path:"
+msgstr "Pad:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Programma's|*.exe|alle|*.*"
+
+msgid "Select application"
+msgstr "Toepassing selecteren"
+
+# Zeichentabelle
+msgid "Character table"
+msgstr "Tekentabel"
+
+# Auswählen
+msgid "Select"
+msgstr "Selecteren"
+
+msgid "Hex value:"
+msgstr "Hex-waarde:"
+
+# Spalten bearbeiten
+msgid "Edit columns"
+msgstr "Kolommen bewerken"
+
+# Name
+msgid "Name"
+msgstr "Naam"
+
+# Breite
+msgid "Width"
+msgstr "Breedte"
+
+# Sortieren
+msgid "Sort"
+msgstr "Sorteren"
+
+# Breite:
+msgid "Width:"
+msgstr "Breedte:"
+
+# Sortiere als
+msgid "Sort as"
+msgstr "Sorteren als"
+
+# Text
+msgid "Text"
+msgstr "Tekst"
+
+# Zahl
+msgid "Number"
+msgstr "Nummer"
+
+# Bestätigen
+msgid "Confirm"
+msgstr "Bevestigen"
+
+# Nein
+msgid "No"
+msgstr "Nee"
+
+# Ersetzen bestätigen
+msgid "Confirm replacement"
+msgstr "Vervanging bevestigen"
+
+# &Ja
+msgid "&Yes"
+msgstr "&Ja"
+
+# &Nein
+msgid "&No"
+msgstr "&Nee"
+
+# &Alle
+msgid "&All"
+msgstr "&Alles"
+
+# CSV-Daten importieren
+msgid "Import CSV data"
+msgstr "CSV-gegevens importeren"
+
+# Datei importieren:
+msgid "Import file:"
+msgstr "Bestand importeren:"
+
+# Spalten-Trenner
+msgid "Column separator"
+msgstr "Kolom scheidingsteken"
+
+# Leerzeichen
+msgid "Space"
+msgstr "Spatie"
+
+# Tab
+msgid "Tab"
+msgstr "Tab"
+
+# Semikolon
+msgid "Semicolon"
+msgstr "Puntkomma"
+
+# Komma
+msgid "Comma"
+msgstr "Komma"
+
+# Andere
+msgid "Other"
+msgstr "Andere"
+
+# Schrägstrich
+msgid "Slash"
+msgstr "Schuine streep"
+
+# Anführungszeichen
+msgid "Quote character"
+msgstr "Aanhalingsteken"
+
+# Keine
+msgid "None"
+msgstr "Geen"
+
+# Doppel-Anf.z.
+msgid "Double quote"
+msgstr "Dubbele aanhalingstekens"
+
+# Lese Daten ab
+msgid "Read data from"
+msgstr "Gegevens lezen van"
+
+# Zeile:
+msgid "Line:"
+msgstr "Rij:"
+
+# Dezimaltrenner
+msgid "Decimal separator"
+msgstr "Scheidingsteken voor decimalen"
+
+# Punkt
+msgid "Point"
+msgstr "Punt"
+
+# Vorschau
+msgid "Preview"
+msgstr "Voorbeeld"
+
+# Spalte 1
+msgid "Column 1"
+msgstr "Kolom 1"
+
+# Spalte 2
+msgid "Column 2"
+msgstr "Kolom 2"
+
+# Spalte 3
+msgid "Column 3"
+msgstr "Kolom 3"
+
+# Spalte 4
+msgid "Column 4"
+msgstr "Kolom 4"
+
+# Drucker-Einstellungen
+msgid "Date format settings"
+msgstr "Instellingen voor datumnotatie"
+
+# Schriftart auswählen
+msgid "Select format:"
+msgstr "Selecteer de indeling:"
+
+# Information
+msgid "Information"
+msgstr "Informatie"
+
+# &Details
+msgid "Details"
+msgstr "Details"
+
+msgid "Word 1:"
+msgstr "Woord 1:"
+
+msgid "Word 2:"
+msgstr "Woord 2:"
+
+# eine Zeile nach oben
+msgid "one line up"
+msgstr "één regel omhoog"
+
+# eine Zeile nach unten
+msgid "one line down"
+msgstr "één regel omlaag"
+
+# Wort löschen
+msgid "Delete word"
+msgstr "Woord verwijderen"
+
+# Wort einfügen
+msgid "Insert word"
+msgstr "Woord invoegen"
+
+# Wort ersetzen
+msgid "Replace word"
+msgstr "Woord vervangen"
+
+# Datei herunterladen
+msgid "Download file"
+msgstr "Bestand downloaden"
+
+# Herunterladen von URL:
+msgid "Download from URL:"
+msgstr "Downloaden van URL:"
+
+# Nach Datei:
+msgid "to file:"
+msgstr "naar bestand:"
+
+# Doppelte Textlisten bearbeiten
+msgid "Edit double stringlists"
+msgstr "Dubbele tekstlijsten bewerken"
+
+# Aus Datei laden
+msgid "Load from file"
+msgstr "Laden uit bestand"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+# Neu
+msgid "New"
+msgstr "Nieuw"
+
+# Gruppen:
+msgid "Groups:"
+msgstr "Groepen:"
+
+# Teile:
+msgid "Parts:"
+msgstr "Delen:"
+
+# Listeneinträge bearbeiten
+msgid "Edit list entries"
+msgstr "Bewerk lijstitems"
+
+# Eintrag entfernen
+msgid "Remove item"
+msgstr "Item verwijderen"
+
+# Eintrag verschieben
+msgid "Move entry"
+msgstr "Item verplaatsen"
+
+# Eintrag bearbeiten
+msgid "Edit item"
+msgstr "Item bewerken"
+
+# Listeneinträge bearbeiten
+msgid "Edit items from list"
+msgstr "Lijstitems bewerken"
+
+# Eintrag verschieben
+msgid "Move item"
+msgstr "Item verplaatsen"
+
+# Etiketten-Layout
+msgid "Label layout"
+msgstr "Etiketindeling"
+
+# Horizontal:
+msgid "Horizontal:"
+msgstr "Horizontaal:"
+
+# Rand (a):
+msgid "Margin (a):"
+msgstr "Marge (a):"
+
+# Breite (c):
+msgid "Width (c):"
+msgstr "Breedte (c):"
+
+# Abstand (e):
+msgid "Distance (e):"
+msgstr "Afstand (e):"
+
+# Anzahl:
+msgid "Count:"
+msgstr "Aantal:"
+
+# Vertikal:
+msgid "Vertical:"
+msgstr "Verticaal:"
+
+# Rand (b):
+msgid "Margin (b):"
+msgstr "Marge (b):"
+
+# Höhe (d):
+msgid "Height (d):"
+msgstr "Hoogte (d):"
+
+# Abstand (f)
+msgid "Distance (f):"
+msgstr "Afstand (f):"
+
+# Rahmen um Etikett
+msgid "Frame around label"
+msgstr "Kader rond etiket"
+
+# Import-/Exportformat
+msgid "Import/export format"
+msgstr "Import/exportformaat"
+
+# Zeichen zwischen den Spalten
+msgid "Character between columns"
+msgstr "Teken tussen kolommen"
+
+# anderes
+msgid "other"
+msgstr "andere"
+
+# Spaltenbreite
+msgid "Column width"
+msgstr "Kolombreedte"
+
+# fest
+msgid "fixed"
+msgstr "vaste"
+
+# variabel
+msgid "variable"
+msgstr "variabele"
+
+# Mit Umschließungszeichen (\")
+msgid "Use embrace characters  (\")"
+msgstr "Dubbele aanhalingstekens gebruiken (\")"
+
+# Beschreibung:
+msgid "Description:"
+msgstr "Beschrijving:"
+
+# Filter:
+msgid "Filter:"
+msgstr "Filter:"
+
+# Eine Zeile nach oben
+msgid "Move one line up"
+msgstr "Eén regel omhoog"
+
+# Eine Zeile nach unten
+msgid "Move one line down"
+msgstr "Eén regel omlaag"
+
+# Aus der Liste entfernen
+msgid "Remove from list"
+msgstr "Verwijderen uit lijst"
+
+# Zur Liste hinzufügen
+msgid "Add to list"
+msgstr "Toevoegen aan lijst"
+
+# In Liste ersetzen
+msgid "Replace in list"
+msgstr "Vervangen in lijst"
+
+msgid "Save list as new file"
+msgstr "Lijst opslaan als nieuw bestand"
+
+# Datei aus der Liste entfernen
+msgid "Remove file"
+msgstr "Bestand verwijderen"
+
+# Datei nach unten schieben
+msgid "Move file down"
+msgstr "Bestand omlaag verplaatsen"
+
+msgid "Add files"
+msgstr "Bestanden toevoegen"
+
+# Dateiliste:
+msgid "List of files:"
+msgstr "Lijst van bestanden:"
+
+# Gemeinsamer Pfad:
+msgid "Common path:"
+msgstr "Gemeenschappelijk pad:"
+
+# Datei nach oben schieben
+msgid "Move file up"
+msgstr "Bestand omhoog verplaatsen"
+
+# Textfilter-Dialog
+msgid "Text filter dialog"
+msgstr "Tekstfilter-dialoogvenster"
+
+# Alle passend zu
+msgid "All matching"
+msgstr "Alleen deze"
+
+# Alle nicht passend zu
+msgid "All not matching"
+msgstr "Alle behalve deze"
+
+# Alle
+msgid "All"
+msgstr "Alle"
+
+# Muster bearbeiten
+msgid "Edit expressions"
+msgstr "Expressies bewerken"
+
+# Reguläre Ausdrücke verwenden
+msgid "Filter expressions:"
+msgstr "Filterexpressies:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Meerdere expressies evalueren op"
+
+# Optionen
+msgid "OR operation"
+msgstr "OR-bewerking"
+
+msgid "AND operation"
+msgstr "EN werking"
+
+# Reguläre Ausdrücke verwenden
+msgid "Use regular expressions"
+msgstr "Reguliere expressies gebruiken"
+
+# Suchen und ersetzen
+msgid "Search and replace"
+msgstr "Zoeken en vervangen"
+
+# Suche nach:
+msgid "Search for:"
+msgstr "Zoek naar:"
+
+# Optionen
+msgid "Options"
+msgstr "Opties"
+
+# Groß-/Kleinschreibung
+msgid "Case sensitive"
+msgstr "Hoofdlettergevoelig"
+
+# ganze Wörter
+msgid "Whole words"
+msgstr "Hele woorden"
+
+# Starten
+msgid "Start "
+msgstr "Start "
+
+# ab Cursor
+msgid "from cursor"
+msgstr "vanaf cursor"
+
+# ab Textanfang
+msgid "from beginning"
+msgstr "vanaf begin"
+
+# Richtung
+msgid "Direction"
+msgstr "Richting"
+
+# Vorwärts
+msgid "Forward"
+msgstr "Naar voren"
+
+# Rückwärts
+msgid "Backward"
+msgstr "Achteruit"
+
+# Bereich
+msgid "Range"
+msgstr "Bereik"
+
+# Gesamter Text
+msgid "Whole text"
+msgstr "Hele tekst"
+
+# Markierter Text
+msgid "Selected text"
+msgstr "Geselecteerde tekst"
+
+# Schließen
+msgid "Close"
+msgstr "Sluiten"
+
+# &Suchen
+msgid "&Search"
+msgstr "&Zoeken"
+
+# &Alles ersetzen
+msgid "Replace &all"
+msgstr "Alles &vervangen"
+
+# &Weitersuchen
+msgid "&Continue"
+msgstr "&Doorgaan"
+
+# Dieses Fenster geöffnet halten
+msgid "Keep this window opened"
+msgstr "Hou dit venster open"
+
+# Ersetzen durch:
+msgid "Replace by:"
+msgstr "Vervangen door:"
+
+# Mit Bestätigung
+msgid "With confirmation"
+msgstr "Met bevestiging"
+
+# FTP-Unterverzeichnis auswählen
+msgid "Select FTP subdirectory"
+msgstr "FTP-submap selecteren"
+
+# Unterverzeichnisse:
+msgid "Subdirectories:"
+msgstr "Submappen:"
+
+msgid "One directory up"
+msgstr "Eén map omhoog"
+
+# Stammverzeichnis auf dem FTP-Server
+msgid "Root directory on FTP server"
+msgstr "Hoofdmap op FTP-server"
+
+# Ausgewähltes Unterverzeichnis:
+msgid "Selected subdirectory:"
+msgstr "Geselecteerde submap:"
+
+# FTP-Verbindung
+msgid "FTP connection"
+msgstr "FTP-verbinding"
+
+# Servername:
+msgid "Server name:"
+msgstr "Servernaam:"
+
+# Benutzername:
+msgid "User name:"
+msgstr "Gebruikersnaam:"
+
+# Verzeichnis auf dem Server:
+msgid "Remote directory:"
+msgstr "Externe map:"
+
+# Port:
+msgid "Port:"
+msgstr "Poort:"
+
+# Dateinamen:
+msgid "Filenames:"
+msgstr "Bestandsnamen:"
+
+# Einstellungen für Proxy-Server
+msgid "Proxy server settings"
+msgstr "Instellingen voor proxyserver"
+
+# Proxy-Server verwenden
+msgid "Use proxy server"
+msgstr "Proxyserver gebruiken"
+
+# nicht verändern
+msgid "do not change"
+msgstr "niet wijzigen"
+
+# Ändern auf alles klein
+msgid "change to lower case"
+msgstr "omzetten in kleine letters"
+
+# Ändern auf ALLES GROSS
+msgid "change to UPPER CASE"
+msgstr "omzetten in HOOFDLETTERS"
+
+# Passiv-Modus verwenden
+msgid "Use passive mode"
+msgstr "Passieve modus gebruiken"
+
+# Benutze HOST-Befehl
+msgid "Use HOST command"
+msgstr "HOST-commando gebruiken"
+
+# UTF-8-Kodierung erzwingen
+msgid "Force UTF-8 encoding"
+msgstr "UTF-8-codering forceren"
+
+# Sichere Verbindung verwenden
+msgid "Use secure data connection"
+msgstr "Veilige gegevensverbinding gebruiken"
+
+# Wenn verfügbar
+msgid "If available"
+msgstr "Indien beschikbaar"
+
+# Immer
+msgid "Always"
+msgstr "Altijd"
+
+# Anfordern
+msgid "Require"
+msgstr "Vereist"
+
+# Diese Option ist nur für Testzwecke
+# gedacht
+msgid "This option is only for debugging purposes"
+msgstr "Deze optie is alleen voor foutopsporing"
+
+# Schreibe Kommunikations-Protokoll in
+# Datei
+msgid "Write communication log to file"
+msgstr "Communicatielogboek naar bestand schrijven"
+
+# Erlaube Dateinamen in Anführungszeichen
+msgid "Allow filenames to be enclosed in quotes"
+msgstr "Bestandsnamen tussen aanhalingstekens toestaan"
+
+# FTP-Proxyserver-Einstellungen
+msgid "FTP proxy server options"
+msgstr "FTP-proxyserverinstellingen"
+
+# Verbindungsmethode
+msgid "Connection method"
+msgstr "Verbindingsmethode"
+
+# Sende Befehl USER user@hostname
+msgid "Send command USER user@hostname"
+msgstr "Opdracht USER user@hostname verzenden"
+
+# Sende Befehl SITE (mit Logon)
+msgid "Send command SITE (with logon)"
+msgstr "Opdracht SITE (inclusief aanmelding) verzenden"
+
+# Sende Befehl OPEN
+msgid "Send command OPEN"
+msgstr "Opdracht OPEN verzenden"
+
+# USER user@firewalluser@hostname
+msgid "USER user@firewalluser@hostname"
+msgstr "User user@firewalluser@hostname"
+
+# Transparent
+msgid "Transparent"
+msgstr "Transparant"
+
+# USER hostuserID@hostname firewallUsername
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+# Servername:
+msgid "Server name"
+msgstr "Servernaam"
+
+# Port:
+msgid "Port"
+msgstr "Poort"
+
+# Textur erzeugen
+msgid "Create texture"
+msgstr "Textuur maken"
+
+# Farbspektrum
+msgid "Color spectrum"
+msgstr "Kleurenspectrum"
+
+# Anfang:
+msgid "Start:"
+msgstr "Start:"
+
+# Bereich:
+msgid "Range:"
+msgstr "Bereik:"
+
+# Hilfe
+msgid "Help"
+msgstr "Help"
+
+# Zurück
+msgid "Previous"
+msgstr "Vorige"
+
+# Weiter
+msgid "Next"
+msgstr "Volgende"
+
+# an Anfang
+msgid "Home"
+msgstr "Home"
+
+# Ende
+msgid "End"
+msgstr "End"
+
+# HTTP-Proxy-Einstellungen
+msgid "HTTP proxy settings"
+msgstr "HTTP-proxyinstellingen"
+
+# Zahleneingabe
+msgid "Numeric input"
+msgstr "Numerieke invoer"
+
+msgid "Edit text"
+msgstr "Tekst bewerken"
+
+# Datum auswählen
+msgid "Select date"
+msgstr "Datum selecteren"
+
+# einen Monat zurück
+msgid "one month back"
+msgstr "een maand terug"
+
+# auf Januar
+msgid "to January"
+msgstr "tot januari"
+
+# 3 Monate zurück
+msgid "3 months back"
+msgstr "3 maanden terug"
+
+# einen Monat vor
+msgid "one month forward"
+msgstr "één maand vooruit"
+
+# 3 Monate vor
+msgid "3 months forward"
+msgstr "3 maanden vooruit"
+
+# auf Dezember
+msgid "to December"
+msgstr "tot en met december"
+
+# ein Jahr zurück
+msgid "one year back"
+msgstr "één jaar terug"
+
+# ein Jahr vor
+msgid "one year forward"
+msgstr "één jaar vooruit"
+
+# Monat auswählen
+msgid "Select month"
+msgstr "Maand selecteren"
+
+# Januar
+msgid "January"
+msgstr "Januari"
+
+# Februar
+msgid "February"
+msgstr "Februari"
+
+# März
+msgid "March"
+msgstr "Maart"
+
+# April
+msgid "April"
+msgstr "April"
+
+# Mai
+msgid "May"
+msgstr "Mei"
+
+# Juni
+msgid "June"
+msgstr "Juni"
+
+# Juli
+msgid "July"
+msgstr "Juli"
+
+# August
+msgid "August"
+msgstr "Augustus"
+
+# September
+msgid "September"
+msgstr "September"
+
+# Oktober
+msgid "October"
+msgstr "Oktober"
+
+# November
+msgid "November"
+msgstr "November"
+
+# Dezember
+msgid "December"
+msgstr "December"
+
+msgid "Select year"
+msgstr "Jaar selecteren"
+
+# Sprachen-Auswahl
+msgid "Language selection"
+msgstr "Taalselectie"
+
+# Neuer Eintrag:
+msgid "New item:"
+msgstr "Nieuw item:"
+
+# Eintrag hinzufügen
+msgid "Add item"
+msgstr "Item toevoegen"
+
+# Eintrag ersetzen
+msgid "Replace item"
+msgstr "Item vervangen"
+
+# Verbinden mit
+msgid "Connect to"
+msgstr "Verbinden met"
+
+# Anmelden
+msgid "Logon"
+msgstr "Aanmelden"
+
+# &Überspringen
+msgid "&Skip"
+msgstr "&Overslaan"
+
+# LPT-Auswahl
+msgid "LPT selection"
+msgstr "LPT-selectie"
+
+# Drucker (Port/Irq)
+msgid "Printer (Port/Irq)"
+msgstr "Printer (poort/irq)"
+
+# Port-Adr.:
+msgid "Port addr.:"
+msgstr "Poortadr.:"
+
+# Interrupt
+msgid "Interrupt"
+msgstr "Onderbreken"
+
+# Mail-Einstellungen
+msgid "Mail settings"
+msgstr "E-mailinstellingen"
+
+# Empfänger:
+msgid "Recipients:"
+msgstr "Geadresseerden:"
+
+# Empfänger hinzufügen
+msgid "Add recipient"
+msgstr "Geadresseerde toevoegen"
+
+# Empfänger entfernen
+msgid "Remove recipient"
+msgstr "Geadresseerde verwijderen"
+
+# Empfänger bearbeiten
+msgid "Edit recipient"
+msgstr "Geadresseerde bewerken"
+
+# Betreff:
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+# Absender:
+msgid "Sender:"
+msgstr "Afzender:"
+
+# Antwort-Adresse:
+msgid "Reply-To:"
+msgstr "Antwoordadres:"
+
+# SMTP-Server:
+msgid "SMTP server:"
+msgstr "SMTP-server:"
+
+msgid "Click button to enter password"
+msgstr "Klik op de knop om wachtwoord in te voeren"
+
+# Mailversand einschalten
+msgid "Enable mail delivery"
+msgstr "E-mailbezorging inschakelen"
+
+# Wenn verfügbar
+msgid "If available (explicit)"
+msgstr "Indien beschikbaar (expliciet)"
+
+msgid "Require (explicit)"
+msgstr "Op verzoek (expliciet)"
+
+msgid "Always (implicit)"
+msgstr "Altijd (impliciet)"
+
+# Ändern der Reihenfolge einer Liste
+msgid "Change order of list items"
+msgstr "Volgorde van lijstitems wijzigen"
+
+msgid "Enter password:"
+msgstr "Wachtwoord opgeven:"
+
+msgid "Quality:"
+msgstr "Kwaliteit:"
+
+# Dateien auswählen
+msgid "Select files"
+msgstr "Selecteer bestanden"
+
+# Verzeichnis:
+msgid "Directory:"
+msgstr "Map:"
+
+# Alle auswählen
+msgid "Select all"
+msgstr "Selecteer alle"
+
+# Keine auswählen
+msgid "Select none"
+msgstr "Selecteer geen"
+
+# Drucker-Einstellungen
+msgid "Printer settings"
+msgstr "Printerinstellingen"
+
+# Papiereinzug:
+msgid "Feeder offset:"
+msgstr "Papierinvoer:"
+
+# Seitenränder
+msgid "Page margins"
+msgstr "Paginamarges"
+
+# Oben:
+msgid "Top:"
+msgstr "Boven:"
+
+# Unten:
+msgid "Bottom:"
+msgstr "Onder:"
+
+# Links:
+msgid "Left:"
+msgstr "Links:"
+
+# Rechts:
+msgid "Right:"
+msgstr "Rechts:"
+
+# Seitenausrichtung
+msgid "Orientation"
+msgstr "Afdrukstand"
+
+# Hochformat
+msgid "Portrait"
+msgstr "Portret"
+
+# Querformat
+msgid "Landscape"
+msgstr "Landschap"
+
+# Status
+msgid "Status"
+msgstr "Status"
+
+# AES-Verschlüsselung:
+msgid "AES encryption depth:"
+msgstr "AES-encryptiediepte:"
+
+# 128 bit
+msgid "128 bit"
+msgstr "128 bit"
+
+# 256 bit
+msgid "256 bit"
+msgstr "256 bit"
+
+# Automatisch
+msgid "Automatic"
+msgstr "Automatisch"
+
+msgid "Paste from clipboard"
+msgstr "Plakken vanaf klembord"
+
+# Überspringen
+msgid "Skip"
+msgstr "Overslaan"
+
+# Papierränder
+msgid "Paper margins"
+msgstr "Papiermarges"
+
+# Ränder der Druckseite
+msgid "Print page margins"
+msgstr "Paginamarges afdrukken"
+
+# Liste mit Suchpfaden bearbeiten
+msgid "Edit search path list"
+msgstr "Lijst met zoekpaden bewerken"
+
+# Pfad auswählen
+msgid "Select path"
+msgstr "Pad selecteren"
+
+# Alle löschen
+msgid "Remove all"
+msgstr "Alle verwijderen"
+
+# Pfad in Suchliste ersetzen
+msgid "Replace path in search list"
+msgstr "Pad in zoeklijst vervangen"
+
+# Pfad ersetzen
+msgid "Replace path"
+msgstr "Pad vervangen"
+
+# Pfad zu Suchliste hinzufügen
+msgid "Add path to search list"
+msgstr "Pad aan zoeklijst toevoegen"
+
+# Pfad hinzufügen
+msgid "Add path"
+msgstr "Pad toevoegen"
+
+# Pfad von Suchliste entfernen
+msgid "Remove path from search list"
+msgstr "Pad uit zoeklijst verwijderen"
+
+# Pfad entfernen
+msgid "Remove path"
+msgstr "Pad verwijderen"
+
+# Farbe auswählen
+msgid "Select color"
+msgstr "Kleur selecteren"
+
+# Zusätzliche Farben:
+msgid "Additional colors:"
+msgstr "Extra kleuren:"
+
+#. SelectColorDialog.Label2.Caption
+#: SelectColorDlg.dfm:32
+msgid "Basic colors:"
+msgstr "Basiskleuren:"
+
+# Auswahl:
+msgid "Selection:"
+msgstr "Selectie:"
+
+# keine Farbe
+msgid "no color"
+msgstr "geen kleur"
+
+# andere &Farbe auswählen
+msgid "Select other color"
+msgstr "Selecteer andere kleur"
+
+# Datum
+msgid "Date"
+msgstr "Datum"
+
+msgid "Size"
+msgstr "Grootte"
+
+# Schriftart auswählen
+msgid "Select font"
+msgstr "Lettertype selecteren"
+
+# Fett
+msgid "Bold"
+msgstr "Vet"
+
+# Kursiv
+msgid "Italic"
+msgstr "Cursief"
+
+# Farbe
+msgid "Color"
+msgstr "Kleur"
+
+# Größe:
+msgid "Size:"
+msgstr "Grootte:"
+
+# Eintrag aus der Liste auswählen
+msgid "Select item from list"
+msgstr "Item uit lijst selecteren"
+
+# Einträge bearbeiten
+msgid "Edit items"
+msgstr "Items bewerken"
+
+msgid "Remove selected items"
+msgstr "Geselecteerde items verwijderen"
+
+# Auf Standardwerte zurücksetzen?
+msgid "Reset to default values"
+msgstr "Herstellen naar standaardwaardes"
+
+# Standard
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Remove all items"
+msgstr "Verwijder alle items"
+
+msgid "Prompt"
+msgstr "Vragen"
+
+# Eintrag auswählen
+msgid "Select items"
+msgstr "Item selecteren"
+
+# Verzeichnis auswählen
+msgid "Select directory"
+msgstr "Map selecteren"
+
+# Netzwerk
+msgid "Network"
+msgstr "Netwerk"
+
+# Computer
+msgid "Computer"
+msgstr "Computer"
+
+# Desktop
+msgid "Desktop"
+msgstr "Bureaublad"
+
+# Eigene Dokumente
+msgid "Documents"
+msgstr "Documenten"
+
+# Standardverzeichnis
+msgid "Go to default folder"
+msgstr "Naar standaardmap"
+
+# Eine Ebene nach oben
+msgid "One folder up"
+msgstr "Eén map omhoog"
+
+# Neues Verzeichnis erstellen
+msgid "Create new folder"
+msgstr "Nieuwe map maken"
+
+# Dateien anzeigen
+msgid "Show files"
+msgstr "Bestanden tonen"
+
+# Verzeichnis:
+msgid "Directory"
+msgstr "Map"
+
+# Verzeichnis erstellen
+msgid "Create folder"
+msgstr "Map maken"
+
+# Verzeichnis löschen
+msgid "Delete folder"
+msgstr "Map verwijderen"
+
+# Aktualisieren
+msgid "Update"
+msgstr "Update"
+
+# Eigene Dokumente
+msgid "My Documents"
+msgstr "Mijn documenten"
+
+# Zum zuletzt angezeigten Ordner wechseln
+msgid "Go to last folder displayed"
+msgstr "Naar laatste getoonde map"
+
+# Dateiname:
+msgid "Filename:"
+msgstr "Bestandsnaam:"
+
+# Datei-Typ:
+msgid "File type:"
+msgstr "Bestandstype:"
+
+# Alle Dateien (*.*)|*.*
+msgid "All files (*.*)|*.*"
+msgstr "Alle bestanden (*.*)|*.*"
+
+# Text anzeigen
+msgid "Show text"
+msgstr "Tekst weergeven"
+
+# &Öffnen
+msgid "&Open"
+msgstr "&Openen"
+
+# &Drucken
+msgid "&Print"
+msgstr "&Afdrukken"
+
+# &Löschen
+msgid "&Delete"
+msgstr "&Verwijderen"
+
+# zum vorherigen Fehler
+msgid "Go to previous error"
+msgstr "Naar vorige fout"
+
+# zum vorherigen Abschnitt
+msgid "Go to previous section"
+msgstr "Naar vorige sectie"
+
+# zum nächsten Fehler
+msgid "Go to next error"
+msgstr "Naar volgende fout"
+
+# zum nächsten Abschnitt
+msgid "Go to next section"
+msgstr "Naar volgende sectie"
+
+msgid "Select codepage"
+msgstr "Selecteer codepagina"
+
+# &Löschen
+msgid "&Erase"
+msgstr "&Wissen"
+
+# Kopieren
+msgid "&Copy"
+msgstr "&Kopiëren"
+
+# Papiergröße:
+msgid "Paper size:"
+msgstr "Papierformaat:"
+
+# Länge:
+msgid "Length:"
+msgstr "Lengte:"
+
+# Tastaturbelegung
+msgid "Keyboard layout"
+msgstr "Toetsenbordindeling"
+
+# Tastencode:
+msgid "Key code:"
+msgstr "Toetscode:"
+
+# Befehl:
+msgid "Command:"
+msgstr "Opdracht:"
+
+# Befehl
+msgid "Command"
+msgstr "Opdracht"
+
+# Tastencode
+msgid "Key code"
+msgstr "Toetscode"
+
+# Tastencode löschen
+msgid "Remove key code"
+msgstr "Toetscode verwijderen"
+
+# Tastencode ändern
+msgid "Change key code"
+msgstr "Toetscode wijzigen"
+
+# Ränder
+msgid "Margins"
+msgstr "Marges"
+
+# Heftrand:
+msgid "Gutter:"
+msgstr "Rugmarge:"
+
+# doppelseitiger Druck
+msgid "Duplex print"
+msgstr "Duplex afdrukken"
+
+# Zeilennummern drucken
+msgid "Print line numbers"
+msgstr "Regelnummers afdrukken"
+
+# lange Zeilen umbrechen
+msgid "Line break on long lines"
+msgstr "Lange regels afbreken"
+
+# Syntaxhervorhebung
+msgid "Syntax highlighting"
+msgstr "Syntaxiskleuring"
+
+# farbig drucken
+msgid "Color print"
+msgstr "Kleurenafdruk"
+
+# Abstand zum Text:
+msgid "Distance to text:"
+msgstr "Afstand tot tekst:"
+
+# Kopfzeile drucken
+msgid "Print header"
+msgstr "Koptekst afdrukken"
+
+# Schriftart:
+msgid "Font:"
+msgstr "Lettertype:"
+
+# Schriftgröße:
+msgid "Font size:"
+msgstr "Tekengrootte:"
+
+# Schrifttyp:
+msgid "Font style:"
+msgstr "Tekenstijl:"
+
+msgid "File timestamp comparison"
+msgstr "Vergelijking van tijdstempel bestand"
+
+msgid "Time comparison tolerance in s:"
+msgstr "Tijdvergelijkingstolerantie in s:"
+
+msgid ""
+"Ignore 1 hour time difference from daylight saving time (winter - "
+"summer)"
+msgstr "Negeer 1 uur tijdsverschil van zomertijd (winter - zomer)"
+
+# Transfer-Status
+msgid "Transfer status"
+msgstr "Status gegevensoverdracht"
+
+# Protokoll:
+msgid "Protocol:"
+msgstr "Protocol:"
+
+# Fenstergröße
+msgid "Window size"
+msgstr "Venstergrootte"
+
+# Global
+msgid "Global"
+msgstr "Globaal"
+
+msgid "Edit source text"
+msgstr "Brontekst bewerken"
+
+# Navigation
+msgid "Navigation"
+msgstr "Navigatie"
+
+# Neu laden
+msgid "Reload"
+msgstr "Opnieuw laden"
+
+# Vorherige Seite
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+# Nächste Seite
+msgid "Next page"
+msgstr "Volgende pagina"
+
+# Beenden
+msgid "Exit"
+msgstr "Afsluiten"
+
+# OK und schließen
+msgid "OK and close"
+msgstr "OK en sluit"
+
+# Sichern als:
+msgid "Save as:"
+msgstr "Opslaan als:"
+
+msgid "Open site"
+msgstr "Open website"
+
+# Das Kennwort muss mindestens %u Zeichen lang
+# sein!
+msgid "Minimum length of password is %u characters"
+msgstr "Minimumlengte van wachtwoord is %u tekens"
+
+# Die Kennwortangaben stimmen nicht überein!
+msgid "Passwords do not match!"
+msgstr "Wachtwoorden komen niet overeen!"
+
+msgid "Application (%s)"
+msgstr "Toepassing (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Toepassing verwijderen: \"%s\"?"
+
+# Ja
+msgid "Yes"
+msgstr "Ja"
+
+# alle|*.*
+msgid "all|*.*"
+msgstr "alles|*.*"
+
+# unbekannt
+msgid "unknown"
+msgstr "onbekend"
+
+# Fehler in Zeile %s
+msgid "Error in line %s"
+msgstr "Fout in regel %s"
+
+# Kürzel:
+msgid "Shortcut:"
+msgstr "Snelkoppeling:"
+
+# Gruppe: \"%s\" löschen?
+msgid "Remove group: \"%s\"?"
+msgstr "Groep: \"%s\" verwijderen?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Lijstitem \"%s\" al bestaat!"
+
+# Datei-Filter Dialog
+msgid "File filter dialog"
+msgstr "Bestandsfilter-dialoog"
+
+# Filtername
+msgid "Description"
+msgstr "Beschrijving"
+
+# Filter
+msgid "Filter"
+msgstr "Filter"
+
+# Ungültige Filtermaske!\n
+# Bsp.: %s oder %s
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Ongeldig filtermasker! \n"
+"Zou %s of %s kunnen zijn"
+
+# Text ersetzen
+msgid "Replace text"
+msgstr "Tekst vervangen"
+
+# &Ersetzen
+msgid "&Replace"
+msgstr "&Vervangen"
+
+# Text suchen
+msgid "Search for text"
+msgstr "Tekst zoeken"
+
+# Suche nach Verzeichnissen
+msgid "Searching for directories"
+msgstr "Zoeken naar mappen"
+
+# Die Verbindung zum FTP-Server: %s:%u\n
+# für den Benutzer: %s\n
+# erfordert ein Kennwort!
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Verbinding met FTP-server: %s:%u\n"
+"voor gebruiker: %s\n"
+"vereist een wachtwoord!"
+
+# Verbindung zu FTP-Server wird aufgebaut'
+msgid "Trying to connect to FTP server"
+msgstr "Verbinding met FTP-server maken"
+
+# Die FTP-Verbindung zum Server ist fehlgeschlagen
+msgid "Connection to FTP server failed"
+msgstr "Verbinding met FTP-server mislukt"
+
+# Sichere Übertragung:
+msgid "Secure mode: "
+msgstr "Veilige modus: "
+
+# Es wurde kein Server angegeben!
+msgid "No host specified!"
+msgstr "Geen host opgegeven!"
+
+msgid "No user name specified!"
+msgstr "Geen gebruikersnaam opgegeven!"
+
+# Fehler: Ungültige Port-Adresse (%s)
+msgid "Invalid port number (%s)"
+msgstr "Ongeldig poortadres (%s)"
+
+# Die Online-Hilfe ist auf diesem System nicht verfügbar!\n
+# Installieren Sie bitte den Internet Explorer Vers. 4 oder
+# neuer
+msgid ""
+"Online help is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer"
+msgstr ""
+"Onlinehelp is niet beschikbaar op uw systeem.\n"
+"U heeft Internet Explorer 4 of nieuwer nodig"
+
+# Fehler: Bereichsüberschreitung (%s)
+msgid "Error: Out of range (%s)"
+msgstr "Fout: Buiten bereik (%s)"
+
+# Liste bearbeiten
+msgid "Edit list"
+msgstr "Lijst bewerken"
+
+# Nr.
+msgid "No."
+msgstr "Nr."
+
+# Fehler: Ungültige Port-Adresse (%s)
+msgid "Error: Invalid port address (%s)"
+msgstr "Fout: Ongeldig poortadres (%s)"
+
+# Fehler: Ungültige Interruptadresse (%s)
+msgid "Error: Invalid interrupt (%s)"
+msgstr "Fout: Ongeldige interrupt (%s)"
+
+# Geben Sie bitte einen SMTP-Server an!
+msgid "Please specify an SMTP server!"
+msgstr "Specificeer een SMTP-server!"
+
+# Geben Sie bitte mindestens einen Empfänger
+# an!
+msgid "Please specify at least one recipient!"
+msgstr "Specificeer ten minste één geadresseerde!"
+
+# Neuer Mail-Empfänger
+msgid "New mail recipient"
+msgstr "Nieuw e-mailadres"
+
+# Adresse:
+msgid "Address:"
+msgstr "Adres:"
+
+# Empfänger:\n
+# %s\n
+# aus der Liste entfernen?
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Geadresseerde:\n"
+"%s\n"
+"uit lijst verwijderen?"
+
+# Mail-Empfänger bearbeiten
+msgid "Edit mail recipient"
+msgstr "Bewerken van e-mailadres"
+
+# Vom Benutzer abgebrochen
+msgid "Canceled by user"
+msgstr "Geannuleerd door gebruiker"
+
+# Suchpfad-Liste löschen?
+msgid "Clear search path list?"
+msgstr "Zoekpadenlijst verwijderen?"
+
+# Zehn Boxkämpfer jagen ..
+msgid "The quick brown fox jumps .."
+msgstr "Pa's wijze lynx bezag .."
+
+# Schriftfarbe auswählen
+msgid "Select font color"
+msgstr "Selecteer tekstkleur"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Ongeldige invoer: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Volledige lijst wissen"
+
+# Alle ausgewählten Einträge löschen?
+msgid "Remove all selected items?"
+msgstr "Alle geselecteerde items verwijderen?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Verwijder item: \"%s\"?"
+
+# Standard:
+msgid "Default: "
+msgstr "Standaard: "
+
+# Verzeichnis nicht gefunden:\n
+# %s!
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Map: %s\n"
+"niet gevonden!"
+
+# Neues Unterverzeichnis:
+msgid "New subdirectory:"
+msgstr "Nieuwe submap:"
+
+# Verzeichnis:\n
+# %s\n
+# konnte nicht erstellt werden!
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Map:\n"
+"%s\n"
+"kon niet worden gemaakt!"
+
+# Verzeichnis löschen
+msgid "Delete directory"
+msgstr "Map verwijderen"
+
+# Lösche \"%s\"
+msgid "Delete \"%s\""
+msgstr "Verwijder \"%s\""
+
+# Endgültig
+msgid "Definitely"
+msgstr "Definitief"
+
+# In Papierkorb
+msgid "To recycle bin"
+msgstr "Naar Prullenbak"
+
+# %u Verzeichnisse mit %u Dateien gelöscht!
+msgid "%u directories with %u files deleted!"
+msgstr "%u mappen met %u verwijderde bestanden!"
+
+# %s wurde in den Papierkorb verschoben!
+msgid "%s moved to Recycle Bin!"
+msgstr "%s naar Prullenbak verplaatst!"
+
+# Fehler beim Löschen des Verzeichnisses:\n
+# %s!
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Fout bij het verwijderen van map:\n"
+"%s!"
+
+msgid " free of "
+msgstr " vrij van "
+
+# Das Verzeichnis ist nicht leer, trotzdem
+# löschen?
+msgid "Directory is not empty, delete anyway?"
+msgstr "Map is niet leeg, toch verwijderen?"
+
+#  Zeile: %u von %u
+msgid " Line: %u of %u"
+msgstr " Rij: %u van %u"
+
+# Fehler in Zeile %s
+msgid "Error loading file: \"%s\""
+msgstr "Fout bij het laden van bestand: \"%s\""
+
+# Markierten Text löschen?
+msgid "Delete selected text?"
+msgstr "Geselecteerde tekst verwijderen?"
+
+# Seite: %u
+msgid "Page: %u"
+msgstr "Pagina: %u"
+
+# Datei:
+msgid "File: "
+msgstr "Bestand: "
+
+# Ausgewählte Zeilen drucken?
+msgid "Print selected lines?"
+msgstr "Geselecteerde rijen afdrukken?"
+
+# Datei \"%s\" löschen?'
+msgid "Delete file \"%s\"?"
+msgstr "Bestand \"%s\" verwijderen?"
+
+# \"%s\" nicht gefunden!
+msgid "\"%s\" not found!"
+msgstr "\"%s\" niet gevonden!"
+
+# Keine weitereren Abschnitte!
+msgid "No further sections!"
+msgstr "Geen andere secties!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr "Ongeldige codepagina - Windows standaard wordt gebruikt!"
+
+# Keine weitereren Fehler!
+msgid "No further errors!"
+msgstr "Geen andere fouten!"
+
+# Seite: '
+msgid "Page: "
+msgstr "Pagina: "
+
+# Datei: \"%s\" nicht gefunden!
+msgid "File: \"%s\" not found!"
+msgstr "Bestand: \"%s\" niet gevonden!"
+
+# <keine>
+msgid "<none>"
+msgstr "<geen>"
+
+# Normal
+msgid "Normal"
+msgstr "Normaal"
+
+# Fett kursiv
+msgid "Bold italic"
+msgstr "Vet cursief"
+
+# Ungültige Eingabe
+msgid "Invalid input"
+msgstr "Ongeldige invoer"
+
+# Löschen
+msgid "Deleting"
+msgstr "Verwijderen"
+
+# Lösche Dateien:
+msgid "Delete files:"
+msgstr "Bestanden verwijderen:"
+
+# Synchronisieren
+msgid "Synchronizing"
+msgstr "Synchroniseren"
+
+# Kopieren nach
+msgid "Copying to"
+msgstr "Kopiëren naar"
+
+# Kopiere Dateien:
+msgid "Copy files:"
+msgstr "Kopieer bestanden:"
+
+# %s von %s kopiert
+msgid "%s of %s copied"
+msgstr "%s van %s gekopieerd"
+
+# Abbruch durch den Benutzer!
+msgid "Canceled by user!"
+msgstr "Geannuleerd door gebruiker!"
+
+# Fehler beim Datentransfer!
+msgid "Error during file transfer!"
+msgstr "Fout tijdens bestandsoverdracht!"
+
+# %u Datei(en) gelöscht\n
+# %u Datei(en) kopiert!
+msgid ""
+"%u file(s) deleted\n"
+"%u file(s) copied!"
+msgstr ""
+"%u bestand(en) verwijderd\n"
+"%u bestand(en) gekopieerd!"
+
+# %u Datei(en) gelöscht!
+msgid "%u file(s) deleted!"
+msgstr "%u bestand(en) verwijderd!"
+
+# %u Datei(en) kopiert!
+msgid "%u file(s) copied"
+msgstr "%u bestand(en) gekopieerd"
+
+# Nichts zu tun!
+msgid "Nothing to do!"
+msgstr "Niets te doen!"
+
+# Der integrierte Web-Browser ist auf diesem System nicht verfügbar.\n
+# Es ist mindestens ein Internet Explorer der Vers. 4 oder neuer
+# erforderlich.
+msgid ""
+"The integrated web browser is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer."
+msgstr ""
+"De geïntegreerde webbrowser is niet beschikbaar op uw systeem.\n"
+"U heeft Internet Explorer 4 of nieuwer nodig."
+
+msgid "%s verification failed!"
+msgstr "%s-verificatie is mislukt!"
+
+msgid "%s hash file not found!"
+msgstr "%s-hashbestand niet gevonden!"
+
+msgid "Classic Browser"
+msgstr "Klassieke browser"
+
+msgid "Edge Browser"
+msgstr "Edge-browser"

@@ -1,0 +1,24 @@
+program SvgToIcon;
+
+uses
+  GnuGetText in '..\Units\GnuGetText.pas',
+  LangUtils in '..\Units\LangUtils.pas',
+  Vcl.Forms,
+  Vcl.Graphics,
+  SvgToIcoMain in 'SvgToIcoMain.pas' {MainForm},
+  ShellDirDlg in '..\Dialogs\ShellDirDlg.pas' {ShellDirDialog},
+  GraphUtils in 'GraphUtils.pas';
+
+{$R *.res}
+
+begin
+  TP_GlobalIgnoreClass(TFont);
+  // Subdirectory in AppData for user configuration files and supported languages
+  InitTranslation('JR-WeicheWare','',['delphi10','units']);
+
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.CreateForm(TShellDirDialog, ShellDirDialog);
+  Application.Run;
+end.

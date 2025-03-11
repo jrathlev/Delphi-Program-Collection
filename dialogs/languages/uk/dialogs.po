@@ -1,0 +1,1438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi dialogs\n"
+"POT-Creation-Date: 2024-10-25 12:38+0200\n"
+"PO-Revision-Date: 2025-02-10 17:56+0100\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Kopejkin (kopejkin.ru@gmail.com)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 "
+"&& n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Show password"
+msgstr "Показати пароль"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Повторіть пароль:"
+
+msgid "Confirm password"
+msgstr "Підтвердити пароль"
+
+msgid "Name:"
+msgstr "Ім'я:"
+
+msgid "User name"
+msgstr "Користувач"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Edit application list"
+msgstr "Редагування списку програм"
+
+msgid "Application"
+msgstr "Застосунок"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Remove"
+msgstr "Видалити"
+
+msgid "Change"
+msgstr "Змінити"
+
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgid "Change order"
+msgstr "Зміна порядку"
+
+msgid "Move item up"
+msgstr "Перемістити елемент вище"
+
+msgid "Move item down"
+msgstr "Перемістити елемент нижче"
+
+msgid "Path:"
+msgstr "Шлях:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Програми|*.exe|Всі|*.*"
+
+msgid "Select application"
+msgstr "Виберіть програму"
+
+msgid "Character table"
+msgstr "Таблиця символів"
+
+msgid "Select"
+msgstr "Вибрати"
+
+msgid "Hex value:"
+msgstr "Значення Hex:"
+
+msgid "Edit columns"
+msgstr "Редагування стовпців"
+
+msgid "Name"
+msgstr "Ім'я"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Sort"
+msgstr "Сортувати"
+
+msgid "Width:"
+msgstr "Ширина:"
+
+msgid "Sort as"
+msgstr "Сортувати як"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Number"
+msgstr "Число"
+
+msgid "Confirm"
+msgstr "Підтвердити"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "Confirm replacement"
+msgstr "Підтвердьте заміну"
+
+msgid "&Yes"
+msgstr "&Так"
+
+msgid "&No"
+msgstr "&Ні"
+
+msgid "&All"
+msgstr "&Всі"
+
+msgid "Import CSV data"
+msgstr "Імпорт CSV-даних"
+
+msgid "Import file:"
+msgstr "Імпорт файлу:"
+
+msgid "Column separator"
+msgstr "Розділювач стовпців"
+
+msgid "Space"
+msgstr "Пробіл"
+
+msgid "Tab"
+msgstr "Вкладка"
+
+msgid "Semicolon"
+msgstr "Крапка з комою"
+
+msgid "Comma"
+msgstr "Кома"
+
+msgid "Other"
+msgstr "Інший"
+
+msgid "Slash"
+msgstr "Похила риса"
+
+msgid "Quote character"
+msgstr "Символ лапок"
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Double quote"
+msgstr "Подвійні лапки"
+
+msgid "Read data from"
+msgstr "Прочитати дані з"
+
+msgid "Line:"
+msgstr "Рядок:"
+
+msgid "Decimal separator"
+msgstr "Десятковий роздільник"
+
+msgid "Point"
+msgstr "Крапка"
+
+msgid "Preview"
+msgstr "Перегляд"
+
+msgid "Column 1"
+msgstr "Стовпець 1"
+
+msgid "Column 2"
+msgstr "Стовпець 2"
+
+msgid "Column 3"
+msgstr "Стовпець 3"
+
+msgid "Column 4"
+msgstr "Стовпець 4"
+
+msgid "Date format settings"
+msgstr "Налаштування формату дати"
+
+msgid "Select format:"
+msgstr "Виберіть формат:"
+
+msgid "Information"
+msgstr "Інформація"
+
+msgid "Details"
+msgstr "Деталі"
+
+msgid "Word 1:"
+msgstr "Слово 1:"
+
+msgid "Word 2:"
+msgstr "Слово 2:"
+
+msgid "one line up"
+msgstr "на один рядок вгору"
+
+msgid "one line down"
+msgstr "на один рядок вниз"
+
+msgid "Delete word"
+msgstr "Видалити слово"
+
+msgid "Insert word"
+msgstr "Вставити слово"
+
+msgid "Replace word"
+msgstr "Замінити слово"
+
+msgid "Download file"
+msgstr "Завантаження файлу"
+
+msgid "Download from URL:"
+msgstr "Завантажити з URL:"
+
+msgid "to file:"
+msgstr "в файл:"
+
+msgid "Edit double stringlists"
+msgstr "Редагувати дубльовані рядкові списки"
+
+msgid "Load from file"
+msgstr "Завантажити з файлу"
+
+msgid "Edit"
+msgstr "Змінити"
+
+msgid "New"
+msgstr "Створити"
+
+msgid "Groups:"
+msgstr "Групи:"
+
+msgid "Parts:"
+msgstr "Частини:"
+
+msgid "Edit list entries"
+msgstr "Редагування списку записів"
+
+msgid "Remove item"
+msgstr "Видалити елемент"
+
+msgid "Move entry"
+msgstr "Перемістити запис"
+
+msgid "Edit item"
+msgstr "Редагування елемента"
+
+msgid "Edit items from list"
+msgstr "Редагування елементів зі списку"
+
+msgid "Move item"
+msgstr "Переміщення"
+
+msgid "Label layout"
+msgstr "Шаблон мітки"
+
+msgid "Horizontal:"
+msgstr "Горизонталь:"
+
+msgid "Margin (a):"
+msgstr "Поле (a):"
+
+msgid "Width (c):"
+msgstr "Ширина (c):"
+
+msgid "Distance (e):"
+msgstr "Відстань (e):"
+
+msgid "Count:"
+msgstr "Кількість:"
+
+msgid "Vertical:"
+msgstr "По вертикалі:"
+
+msgid "Margin (b):"
+msgstr "Поле (b):"
+
+msgid "Height (d):"
+msgstr "Висота (d):"
+
+msgid "Distance (f):"
+msgstr "Відстань (f):"
+
+msgid "Frame around label"
+msgstr "Рамка навколо мітки"
+
+msgid "Import/export format"
+msgstr "Формат імпорту/експорту"
+
+msgid "Character between columns"
+msgstr "Символ між стовпцями"
+
+msgid "other"
+msgstr "інший"
+
+msgid "Column width"
+msgstr "Ширина стовпця"
+
+msgid "fixed"
+msgstr "фіксований"
+
+msgid "variable"
+msgstr "змінна"
+
+msgid "Use embrace characters  (\")"
+msgstr "Використовувати символи (\")"
+
+msgid "Description:"
+msgstr "Опис:"
+
+msgid "Filter:"
+msgstr "Фільтр:"
+
+msgid "Move one line up"
+msgstr "Перемістити на один рядок вище"
+
+msgid "Move one line down"
+msgstr "Перемістити на один рядок нижче"
+
+msgid "Remove from list"
+msgstr "Видалити зі списку"
+
+msgid "Add to list"
+msgstr "Додати до списку"
+
+msgid "Replace in list"
+msgstr "Замінити у списку"
+
+msgid "Save list as new file"
+msgstr "Збережіть список у новому файлі"
+
+msgid "Remove file"
+msgstr "Видалити файл"
+
+msgid "Move file down"
+msgstr "Перемістити файл нижче"
+
+msgid "Add files"
+msgstr "Додати файли"
+
+msgid "List of files:"
+msgstr "Список файлів:"
+
+msgid "Common path:"
+msgstr "Загальний шлях:"
+
+msgid "Move file up"
+msgstr "Перемістити файл вище"
+
+msgid "Text filter dialog"
+msgstr "Діалог фільтру тексту"
+
+msgid "All matching"
+msgstr "Відповідає всім"
+
+msgid "All not matching"
+msgstr "Не відповідає нічому"
+
+msgid "All"
+msgstr "Всі"
+
+msgid "Edit expressions"
+msgstr "Редагувати вирази"
+
+msgid "Filter expressions:"
+msgstr "Вирази фільтра:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Оцініть кілька висловів щодо"
+
+msgid "OR operation"
+msgstr "OR операція"
+
+msgid "AND operation"
+msgstr "AND операція"
+
+msgid "Use regular expressions"
+msgstr "Використовувати регулярні вирази"
+
+msgid "Search and replace"
+msgstr "Пошук та заміна"
+
+msgid "Search for:"
+msgstr "Пошук:"
+
+msgid "Options"
+msgstr "Опції"
+
+msgid "Case sensitive"
+msgstr "З врахуванням регістру"
+
+msgid "Whole words"
+msgstr "Слова цілком"
+
+msgid "Start "
+msgstr "Запустити "
+
+msgid "from cursor"
+msgstr "від курсору"
+
+msgid "from beginning"
+msgstr "з початку"
+
+msgid "Direction"
+msgstr "Напрямок"
+
+msgid "Forward"
+msgstr "Вперед"
+
+msgid "Backward"
+msgstr "Назад"
+
+msgid "Range"
+msgstr "Діапазон"
+
+msgid "Whole text"
+msgstr "Текст повністю"
+
+msgid "Selected text"
+msgstr "Виділений текст"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "&Search"
+msgstr "&Пошук"
+
+msgid "Replace &all"
+msgstr "&Замінити всі"
+
+msgid "&Continue"
+msgstr "&Продовжити"
+
+msgid "Keep this window opened"
+msgstr "Утримувати це вікно відкритим"
+
+msgid "Replace by:"
+msgstr "Замінити на:"
+
+msgid "With confirmation"
+msgstr "З підтвердженням"
+
+msgid "Select FTP subdirectory"
+msgstr "Вибрати FTP підкаталог"
+
+msgid "Subdirectories:"
+msgstr "Підкаталоги:"
+
+msgid "One directory up"
+msgstr "На рівень вгору"
+
+msgid "Root directory on FTP server"
+msgstr "Кореневий каталог на FTP-сервері"
+
+msgid "Selected subdirectory:"
+msgstr "Вибраний підкаталог:"
+
+msgid "FTP connection"
+msgstr "FTP підключення"
+
+msgid "Server name:"
+msgstr "Ім'я сервера:"
+
+msgid "User name:"
+msgstr "Користувач:"
+
+msgid "Remote directory:"
+msgstr "Віддалений каталог:"
+
+msgid "Port:"
+msgstr "Порт:"
+
+msgid "Filenames:"
+msgstr "Імена файлів:"
+
+msgid "Proxy server settings"
+msgstr "Налаштування проксі-сервера"
+
+msgid "Use proxy server"
+msgstr "Використовувати проксі-сервер"
+
+msgid "do not change"
+msgstr "не змінювати"
+
+msgid "change to lower case"
+msgstr "у нижній регістр"
+
+msgid "change to UPPER CASE"
+msgstr "у ВЕРХНІЙ РЕГІСТР"
+
+msgid "Use passive mode"
+msgstr "Використовувати пасивний режим"
+
+msgid "Use HOST command"
+msgstr "Використовувати команду HOST"
+
+msgid "Force UTF-8 encoding"
+msgstr "Кодувати в UTF-8"
+
+msgid "Use secure data connection"
+msgstr "Використовувати безпечне підключення"
+
+msgid "If available"
+msgstr "Якщо доступно"
+
+msgid "Always"
+msgstr "Завжди"
+
+msgid "Require"
+msgstr "Вимагати"
+
+msgid "This option is only for debugging purposes"
+msgstr "Ця опція - лише для зневадження"
+
+msgid "Write communication log to file"
+msgstr "Записати журнал підключень до файлу"
+
+msgid "Allow filenames to be enclosed in quotes"
+msgstr "Дозволити укладання імен файлів у лапки"
+
+msgid "FTP proxy server options"
+msgstr "Опції FTP проксі-сервера"
+
+msgid "Connection method"
+msgstr "Метод підключення"
+
+msgid "Send command USER user@hostname"
+msgstr "Надіслати команду USER user@hostname"
+
+msgid "Send command SITE (with logon)"
+msgstr "Надіслати команду SITE (з входом до системи)"
+
+msgid "Send command OPEN"
+msgstr "Надіслати команду OPEN"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Transparent"
+msgstr "Прозорий"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "Server name"
+msgstr "Ім'я сервера"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Create texture"
+msgstr "Створити текстуру"
+
+msgid "Color spectrum"
+msgstr "Спектр кольорів"
+
+msgid "Start:"
+msgstr "Початок:"
+
+msgid "Range:"
+msgstr "Діапазон:"
+
+msgid "Help"
+msgstr "Довідка"
+
+msgid "Previous"
+msgstr "Попередній"
+
+msgid "Next"
+msgstr "Далі"
+
+msgid "Home"
+msgstr "Додому"
+
+msgid "End"
+msgstr "Вихід"
+
+msgid "HTTP proxy settings"
+msgstr "Налаштування HTTP проксі"
+
+msgid "Numeric input"
+msgstr "Числове введення"
+
+msgid "Edit text"
+msgstr "Редагувати текст"
+
+msgid "Select date"
+msgstr "Вибрати дату"
+
+msgid "one month back"
+msgstr "на один місяць назад"
+
+msgid "to January"
+msgstr "до січня"
+
+msgid "3 months back"
+msgstr "3 місяці назад"
+
+msgid "one month forward"
+msgstr "на один місяць вперед"
+
+msgid "3 months forward"
+msgstr "3 місяці вперед"
+
+msgid "to December"
+msgstr "до грудня"
+
+msgid "one year back"
+msgstr "на один рік назад"
+
+msgid "one year forward"
+msgstr "на один рік вперед"
+
+msgid "Select month"
+msgstr "Вибрати місяць"
+
+msgid "January"
+msgstr "Січень"
+
+msgid "February"
+msgstr "Лютий"
+
+msgid "March"
+msgstr "Березень"
+
+msgid "April"
+msgstr "Квітень"
+
+msgid "May"
+msgstr "Травень"
+
+msgid "June"
+msgstr "Червень"
+
+msgid "July"
+msgstr "Липень"
+
+msgid "August"
+msgstr "Серпень"
+
+msgid "September"
+msgstr "Вересень"
+
+msgid "October"
+msgstr "Жовтень"
+
+msgid "November"
+msgstr "Листопад"
+
+msgid "December"
+msgstr "Грудень"
+
+msgid "Select year"
+msgstr "Виберіть рік"
+
+msgid "Language selection"
+msgstr "Вибір мови"
+
+msgid "New item:"
+msgstr "Новий елемент:"
+
+msgid "Add item"
+msgstr "Додати елемент"
+
+msgid "Replace item"
+msgstr "Замінити елемент"
+
+msgid "Connect to"
+msgstr "Підключення до"
+
+msgid "Logon"
+msgstr "Вхід в систему"
+
+msgid "&Skip"
+msgstr "&Пропустити"
+
+msgid "LPT selection"
+msgstr "Вибір LPT"
+
+msgid "Printer (Port/Irq)"
+msgstr "Принтер (Port/Irq)"
+
+msgid "Port addr.:"
+msgstr "Порт: "
+
+msgid "Interrupt"
+msgstr "Переривання"
+
+msgid "Mail settings"
+msgstr "Налаштування пошти"
+
+msgid "Recipients:"
+msgstr "Адресати:"
+
+msgid "Add recipient"
+msgstr "Додати адресата"
+
+msgid "Remove recipient"
+msgstr "Видалити адресата"
+
+msgid "Edit recipient"
+msgstr "Редагування адресата"
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "Sender:"
+msgstr "Відправник:"
+
+msgid "Reply-To:"
+msgstr "Відповідь - Кому:"
+
+msgid "SMTP server:"
+msgstr "SMTP сервер:"
+
+msgid "Click button to enter password"
+msgstr "Натисніть кнопку, щоб ввести пароль"
+
+msgid "Enable mail delivery"
+msgstr "Увімкнути доставку пошти"
+
+msgid "If available (explicit)"
+msgstr "Якщо доступно (явно)"
+
+msgid "Require (explicit)"
+msgstr "Потрібно (явно)"
+
+msgid "Always (implicit)"
+msgstr "Завжди (неявно)"
+
+msgid "Change order of list items"
+msgstr "Змінити порядок елементів у списку"
+
+msgid "Enter password:"
+msgstr "Введіть пароль:"
+
+msgid "Quality:"
+msgstr "Якість:"
+
+msgid "Select files"
+msgstr "Вибрати файли"
+
+msgid "Directory:"
+msgstr "Каталог:"
+
+msgid "Select all"
+msgstr "Вибрати всі"
+
+msgid "Select none"
+msgstr "Очистити вибір"
+
+msgid "Printer settings"
+msgstr "Налаштування друку"
+
+msgid "Feeder offset:"
+msgstr "Зміщення подачі:"
+
+msgid "Page margins"
+msgstr "Поля сторінки"
+
+msgid "Top:"
+msgstr "Зверху:"
+
+msgid "Bottom:"
+msgstr "Внизу:"
+
+msgid "Left:"
+msgstr "Зліва:"
+
+msgid "Right:"
+msgstr "Справа:"
+
+msgid "Orientation"
+msgstr "Орієнтація"
+
+msgid "Portrait"
+msgstr "Книжка"
+
+msgid "Landscape"
+msgstr "Альбом"
+
+msgid "Status"
+msgstr "Стан"
+
+msgid "AES encryption depth:"
+msgstr "Глибина AES-шифрування:"
+
+msgid "128 bit"
+msgstr "128 біт"
+
+msgid "256 bit"
+msgstr "256 біт"
+
+msgid "Automatic"
+msgstr "Автоматично"
+
+msgid "Paste from clipboard"
+msgstr "Вставити з буфера обміну"
+
+msgid "Skip"
+msgstr "Пропустити"
+
+msgid "Paper margins"
+msgstr "Поля паперу"
+
+msgid "Print page margins"
+msgstr "Поля сторінки друку"
+
+msgid "Edit search path list"
+msgstr "Редагування списку шляхів пошуку"
+
+msgid "Select path"
+msgstr "Вибрати шлях"
+
+msgid "Remove all"
+msgstr "Видалити всі"
+
+msgid "Replace path in search list"
+msgstr "Замінити шлях списку"
+
+msgid "Replace path"
+msgstr "Замінити шлях"
+
+msgid "Add path to search list"
+msgstr "Додати шлях до списку пошуку"
+
+msgid "Add path"
+msgstr "Додати шлях"
+
+msgid "Remove path from search list"
+msgstr "Видалити шлях зі списку"
+
+msgid "Remove path"
+msgstr "Видалити шлях"
+
+msgid "Select color"
+msgstr "Вибрати колір"
+
+msgid "Additional colors:"
+msgstr "Додаткові кольори:"
+
+#. SelectColorDialog.Label2.Caption
+#: SelectColorDlg.dfm:32
+msgid "Basic colors:"
+msgstr "Основні кольори:"
+
+msgid "Selection:"
+msgstr "Вибір:"
+
+msgid "no color"
+msgstr "без кольору"
+
+msgid "Select other color"
+msgstr "Вибрати інший колір"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Select font"
+msgstr "Вибрати шрифт"
+
+msgid "Bold"
+msgstr "Жирний"
+
+msgid "Italic"
+msgstr "Курсив"
+
+msgid "Color"
+msgstr "Колір"
+
+msgid "Size:"
+msgstr "Розмір:"
+
+msgid "Select item from list"
+msgstr "Виберіть елемент зі списку"
+
+msgid "Edit items"
+msgstr "Редагування"
+
+msgid "Remove selected items"
+msgstr "Видалити вибрані елементи"
+
+msgid "Reset to default values"
+msgstr "Скинути до усталених значень"
+
+msgid "Default"
+msgstr "Як усталено"
+
+msgid "Remove all items"
+msgstr "Видалити всі продукті"
+
+msgid "Prompt"
+msgstr "Запит"
+
+msgid "Select items"
+msgstr "Вибрати елементи"
+
+msgid "Select directory"
+msgstr "Вибрати каталог"
+
+msgid "Network"
+msgstr "Мережа"
+
+msgid "Computer"
+msgstr "Комп'ютер"
+
+msgid "Desktop"
+msgstr "Робочий стіл"
+
+msgid "Documents"
+msgstr "Документи"
+
+msgid "Go to default folder"
+msgstr "Перейти до стандартної папки"
+
+msgid "One folder up"
+msgstr "На рівень вгору"
+
+msgid "Create new folder"
+msgstr "Створити нову папку"
+
+msgid "Show files"
+msgstr "Показати файли"
+
+msgid "Directory"
+msgstr "Каталог"
+
+msgid "Create folder"
+msgstr "Створити папку"
+
+msgid "Delete folder"
+msgstr "Видалити папку"
+
+msgid "Update"
+msgstr "Оновлення"
+
+msgid "My Documents"
+msgstr "Мої документи"
+
+msgid "Go to last folder displayed"
+msgstr "Перейти до останньої папки, що переглядається"
+
+msgid "Filename:"
+msgstr "Ім'я файлу:"
+
+msgid "File type:"
+msgstr "Тип файлу:"
+
+msgid "All files (*.*)|*.*"
+msgstr "Всі файли (*.*)|*.*"
+
+msgid "Show text"
+msgstr "Показати текст"
+
+msgid "&Open"
+msgstr "&Відкрити"
+
+msgid "&Print"
+msgstr "&Друк"
+
+msgid "&Delete"
+msgstr "&Видалити"
+
+msgid "Go to previous error"
+msgstr "Перейти до попередньої помилки"
+
+msgid "Go to previous section"
+msgstr "Перейти до попереднього розділу"
+
+msgid "Go to next error"
+msgstr "Перейти до наступної помилки"
+
+msgid "Go to next section"
+msgstr "Перейти до наступного розділу"
+
+msgid "Select codepage"
+msgstr "Виберіть кодову сторінку"
+
+msgid "&Erase"
+msgstr "&Стерти"
+
+msgid "&Copy"
+msgstr "&Копіювати"
+
+msgid "Paper size:"
+msgstr "Формат паперу:"
+
+msgid "Length:"
+msgstr "Довжина:"
+
+msgid "Keyboard layout"
+msgstr "Розкладка клавіатури"
+
+msgid "Key code:"
+msgstr "Код клавіші:"
+
+msgid "Command:"
+msgstr "Команда:"
+
+msgid "Command"
+msgstr "Команда"
+
+msgid "Key code"
+msgstr "Код клавіші"
+
+msgid "Remove key code"
+msgstr "Видалити код клавіші"
+
+msgid "Change key code"
+msgstr "Змінити код"
+
+msgid "Margins"
+msgstr "Поля"
+
+msgid "Gutter:"
+msgstr "Поле:"
+
+msgid "Duplex print"
+msgstr "Дуплексний друк"
+
+msgid "Print line numbers"
+msgstr "Друкувати номери рядків"
+
+msgid "Line break on long lines"
+msgstr "Розривати довгі рядки"
+
+msgid "Syntax highlighting"
+msgstr "Підсвічування синтаксису"
+
+msgid "Color print"
+msgstr "Кольоровий друк"
+
+msgid "Distance to text:"
+msgstr "Відстань до тексту:"
+
+msgid "Print header"
+msgstr "Друкувати заголовок"
+
+msgid "Font:"
+msgstr "Шрифт:"
+
+msgid "Font size:"
+msgstr "Розмір шрифту:"
+
+msgid "Font style:"
+msgstr "Стиль шрифту:"
+
+msgid "File timestamp comparison"
+msgstr "Порівняння міток часу файлу"
+
+msgid "Time comparison tolerance in s:"
+msgstr "Допуск порівняння часу в сек:"
+
+msgid ""
+"Ignore 1 hour time difference from daylight saving time (winter - "
+"summer)"
+msgstr ""
+"Ігнорувати 1 годину різниці у часі від літнього часу (зима - літо)"
+
+msgid "Transfer status"
+msgstr "Стан переадресації"
+
+msgid "Protocol:"
+msgstr "Протокол:"
+
+msgid "Window size"
+msgstr "Розмір вікна"
+
+msgid "Global"
+msgstr "Глобально"
+
+msgid "Edit source text"
+msgstr "Редагування вихідного тексту"
+
+msgid "Navigation"
+msgstr "Навігація"
+
+msgid "Reload"
+msgstr "Перезавантаження"
+
+msgid "Previous page"
+msgstr "Попередня сторінка"
+
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+msgid "Exit"
+msgstr "Вихід"
+
+msgid "OK and close"
+msgstr "OK та закрити"
+
+msgid "Save as:"
+msgstr "Зберегти як:"
+
+msgid "Open site"
+msgstr "Відкрити сайт"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Мінімальна довжина пароля - %u (симв.)"
+
+msgid "Passwords do not match!"
+msgstr "Паролі не збігаються!"
+
+msgid "Application (%s)"
+msgstr "Застосування (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Видалити програму: \"%s\"?"
+
+msgid "Yes"
+msgstr "Так"
+
+msgid "all|*.*"
+msgstr "Всі|*.*"
+
+msgid "unknown"
+msgstr "невідомо"
+
+msgid "Error in line %s"
+msgstr "Помилка у рядку %s"
+
+msgid "Shortcut:"
+msgstr "Ярлик:"
+
+msgid "Remove group: \"%s\"?"
+msgstr "Видалити групу: \"%s\"?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Елемент \"%s\" вже існує!"
+
+msgid "File filter dialog"
+msgstr "Діалог фільтру файлів"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Filter"
+msgstr "Фільтр"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Неприпустима маска фільтра!\n"
+"Повинен нагадати %s або %s"
+
+msgid "Replace text"
+msgstr "Замінити текст"
+
+msgid "&Replace"
+msgstr "&Замінити"
+
+msgid "Search for text"
+msgstr "Пошук тексту"
+
+msgid "Searching for directories"
+msgstr "Пошук каталогів"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Для підключення до FTP-серверу: %s: %u\n"
+"користувачу: %s\n"
+"потрібен пароль!"
+
+msgid "Trying to connect to FTP server"
+msgstr "Спроба з'єднатися з сервером FTP"
+
+msgid "Connection to FTP server failed"
+msgstr "Не вдалося підключитися до FTP-сервера"
+
+msgid "Secure mode: "
+msgstr "Безпечний режим: "
+
+msgid "No host specified!"
+msgstr "Хост не визначено!"
+
+msgid "No user name specified!"
+msgstr "Ім'я користувача не вказано!"
+
+msgid "Invalid port number (%s)"
+msgstr "Неприпустима адреса порту (%s)"
+
+msgid ""
+"Online help is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer"
+msgstr ""
+"Онлайн-довідка не доступна у вашій системі\n"
+"Необхідно встановити Internet Explorer версії 4 або новіші"
+
+msgid "Error: Out of range (%s)"
+msgstr "Помилка: Поза діапазоном (%s)"
+
+msgid "Edit list"
+msgstr "Редагування списку"
+
+msgid "No."
+msgstr "№"
+
+msgid "Error: Invalid port address (%s)"
+msgstr "Помилка: Неприпустима адреса порту (%s)"
+
+msgid "Error: Invalid interrupt (%s)"
+msgstr "Помилка: Неприпустиме переривання (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "Вкажіть SMTP-сервер!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Вкажіть щонайменше одного адресата!"
+
+msgid "New mail recipient"
+msgstr "Новий адресат"
+
+msgid "Address:"
+msgstr "Адреса:"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Видалити адресата:\n"
+"%s\n"
+" зі списку?"
+
+msgid "Edit mail recipient"
+msgstr "Редагування адресата"
+
+msgid "Canceled by user"
+msgstr "Скасовано користувачем"
+
+msgid "Clear search path list?"
+msgstr "Очистити список пошуку шляхів?"
+
+msgid "The quick brown fox jumps .."
+msgstr "Добрі вісті не лежать на місці .."
+
+msgid "Select font color"
+msgstr "Вибрати колір шрифту"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Неправильний елемент: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Очистити весь список"
+
+msgid "Remove all selected items?"
+msgstr "Видалити всі вибрані елементи?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Видалити елемент: \"%s\"?"
+
+msgid "Default: "
+msgstr "Як усталено: "
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Каталог не знайдено:\n"
+"%s!"
+
+msgid "New subdirectory:"
+msgstr "Новий підкаталог:"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Не вдалося створити каталог:\n"
+"%s!"
+
+msgid "Delete directory"
+msgstr "Видалити каталог"
+
+msgid "Delete \"%s\""
+msgstr "Видалити \"%s\""
+
+msgid "Definitely"
+msgstr "Безумовно"
+
+msgid "To recycle bin"
+msgstr "В Кошик"
+
+msgid "%u directories with %u files deleted!"
+msgstr "Каталоги (%u) із файлами (%u) видалено!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s переміщено в Кошик!"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Помилка видалення каталогу:\n"
+"%s!"
+
+msgid " free of "
+msgstr " вільно з "
+
+msgid "Directory is not empty, delete anyway?"
+msgstr "Каталог не порожній! Видалити так чи інакше?"
+
+msgid " Line: %u of %u"
+msgstr " Рядок: %u з %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "Помилка завантаження файлу: \"%s\""
+
+msgid "Delete selected text?"
+msgstr "Видалити виділений текст?"
+
+msgid "Page: %u"
+msgstr "Сторінка: %u"
+
+msgid "File: "
+msgstr "Файл: "
+
+msgid "Print selected lines?"
+msgstr "Роздрукувати вибрані рядки?"
+
+msgid "Delete file \"%s\"?"
+msgstr "Видалити файл \"%s\"?"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" не знайдено!"
+
+msgid "No further sections!"
+msgstr "Немає інших розділів!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr ""
+"Невірна сторінка коду - використовується Windows за замовчуванням!"
+
+msgid "No further errors!"
+msgstr "Немає інших помилок!"
+
+msgid "Page: "
+msgstr "Сторінка: "
+
+msgid "File: \"%s\" not found!"
+msgstr "Файл: \"%s\" не знайдено!"
+
+msgid "<none>"
+msgstr "<нічого>"
+
+msgid "Normal"
+msgstr "Нормальний"
+
+msgid "Bold italic"
+msgstr "Жирний курсив"
+
+msgid "Invalid input"
+msgstr "Неприпустиме введення"
+
+msgid "Deleting"
+msgstr "Видалення"
+
+msgid "Delete files:"
+msgstr "Видалити файли:"
+
+msgid "Synchronizing"
+msgstr "Синхронізація"
+
+msgid "Copying to"
+msgstr "Копіювання в"
+
+msgid "Copy files:"
+msgstr "Копіювати файли:"
+
+msgid "%s of %s copied"
+msgstr "%s з %s скопійовано"
+
+msgid "Canceled by user!"
+msgstr "Скасовано користувачем!"
+
+msgid "Error during file transfer!"
+msgstr "Помилка під час передачі файлів!"
+
+msgid ""
+"%u file(s) deleted\n"
+"%u file(s) copied!"
+msgstr ""
+"Файлів видалено - %u\n"
+"Файлів скопійовано - %u!"
+
+msgid "%u file(s) deleted!"
+msgstr "Видалено файлів: %u!"
+
+msgid "%u file(s) copied"
+msgstr "Скопійовано файлів: %u"
+
+msgid "Nothing to do!"
+msgstr "Нічого не робити!"
+
+msgid ""
+"The integrated web browser is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer."
+msgstr ""
+"В системі недоступний вбудований веб-браузер.\n"
+"Необхідно встановити Internet Explorer версії 4 або новіший."
+
+msgid "%s verification failed!"
+msgstr "%s збій перевірки!"
+
+msgid "%s hash file not found!"
+msgstr "%s хеш-файл не знайдено!"
+
+msgid "Classic Browser"
+msgstr "Класичний браузер"
+
+msgid "Edge Browser"
+msgstr "Браузер Edge"

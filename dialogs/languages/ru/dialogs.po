@@ -1,0 +1,1438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi dialogs\n"
+"POT-Creation-Date: 2024-10-25 12:38+0200\n"
+"PO-Revision-Date: 2025-02-10 17:56+0100\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Kopejkin, Ivan Laktionov\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Show password"
+msgstr "Показать пароль"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Повторите пароль:"
+
+msgid "Confirm password"
+msgstr "Подтвердить пароль"
+
+msgid "Name:"
+msgstr "Имя:"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Edit application list"
+msgstr "Отсечение списка приложений"
+
+msgid "Application"
+msgstr "Приложение"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Change"
+msgstr "Изменить"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Change order"
+msgstr "Изменение заказа"
+
+msgid "Move item up"
+msgstr "Переместить элемент выше"
+
+msgid "Move item down"
+msgstr "Переместить элемент ниже"
+
+msgid "Path:"
+msgstr "Путь:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Программы|*.exe|Все|*.*"
+
+msgid "Select application"
+msgstr "Выберите приложение"
+
+msgid "Character table"
+msgstr "Таблица символов"
+
+msgid "Select"
+msgstr "Выбрать"
+
+msgid "Hex value:"
+msgstr "Значение Hex:"
+
+msgid "Edit columns"
+msgstr "Правка столбцов"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Sort"
+msgstr "Сортировать"
+
+msgid "Width:"
+msgstr "Ширина:"
+
+msgid "Sort as"
+msgstr "Сортировать как"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Number"
+msgstr "Число"
+
+msgid "Confirm"
+msgstr "Подтверждение"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Confirm replacement"
+msgstr "Подтвердите замену"
+
+msgid "&Yes"
+msgstr "&Да"
+
+msgid "&No"
+msgstr "&Нет"
+
+msgid "&All"
+msgstr "&Все"
+
+msgid "Import CSV data"
+msgstr "Импорт CSV-данных"
+
+msgid "Import file:"
+msgstr "Импорт файла:"
+
+msgid "Column separator"
+msgstr "Разделитель столбцов"
+
+msgid "Space"
+msgstr "Пробел"
+
+msgid "Tab"
+msgstr "Вкладка"
+
+msgid "Semicolon"
+msgstr "Точка с запятой"
+
+msgid "Comma"
+msgstr "Запятая"
+
+msgid "Other"
+msgstr "Другой"
+
+msgid "Slash"
+msgstr "Наклонная черта"
+
+msgid "Quote character"
+msgstr "Символ кавычек"
+
+msgid "None"
+msgstr "Ничего"
+
+msgid "Double quote"
+msgstr "Двойные кавычки"
+
+msgid "Read data from"
+msgstr "Прочитать данные из"
+
+msgid "Line:"
+msgstr "Строка:"
+
+msgid "Decimal separator"
+msgstr "Десятичный разделитель"
+
+msgid "Point"
+msgstr "Точка"
+
+msgid "Preview"
+msgstr "Просмотр"
+
+msgid "Column 1"
+msgstr "Столбец 1"
+
+msgid "Column 2"
+msgstr "Столбец 2"
+
+msgid "Column 3"
+msgstr "Столбец 3"
+
+msgid "Column 4"
+msgstr "Столбец 4"
+
+msgid "Date format settings"
+msgstr "Настройки формата даты"
+
+msgid "Select format:"
+msgstr "Выберите формат:"
+
+msgid "Information"
+msgstr "Информация"
+
+msgid "Details"
+msgstr "Детали"
+
+msgid "Word 1:"
+msgstr "Слово 1:"
+
+msgid "Word 2:"
+msgstr "Слово 2:"
+
+msgid "one line up"
+msgstr "на одну строку вверх"
+
+msgid "one line down"
+msgstr "на одну строку вниз"
+
+msgid "Delete word"
+msgstr "Удалить слово"
+
+msgid "Insert word"
+msgstr "Вставить слово"
+
+msgid "Replace word"
+msgstr "Заменить слово"
+
+msgid "Download file"
+msgstr "Загрузка файла"
+
+msgid "Download from URL:"
+msgstr "Загрузить с URL:"
+
+msgid "to file:"
+msgstr "в файл:"
+
+msgid "Edit double stringlists"
+msgstr "Редактировать двойной stringlists"
+
+msgid "Load from file"
+msgstr "Загрузить из файла"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "New"
+msgstr "Создать"
+
+msgid "Groups:"
+msgstr "Группы:"
+
+msgid "Parts:"
+msgstr "Части:"
+
+msgid "Edit list entries"
+msgstr "Правка списка записей"
+
+msgid "Remove item"
+msgstr "Удалить элемент"
+
+msgid "Move entry"
+msgstr "Переместить запись"
+
+msgid "Edit item"
+msgstr "Правка элемента"
+
+msgid "Edit items from list"
+msgstr "Правка элементов из списка"
+
+msgid "Move item"
+msgstr "Перемещение"
+
+msgid "Label layout"
+msgstr "Шаблон метки"
+
+msgid "Horizontal:"
+msgstr "Горизонталь:"
+
+msgid "Margin (a):"
+msgstr "Поле (a):"
+
+msgid "Width (c):"
+msgstr "Ширина (c):"
+
+msgid "Distance (e):"
+msgstr "Расстояние (e):"
+
+msgid "Count:"
+msgstr "Количество:"
+
+msgid "Vertical:"
+msgstr "По вертикали:"
+
+msgid "Margin (b):"
+msgstr "Поле (b):"
+
+msgid "Height (d):"
+msgstr "Высота (d):"
+
+msgid "Distance (f):"
+msgstr "Расстояние (f):"
+
+msgid "Frame around label"
+msgstr "Рамка вокруг метки"
+
+msgid "Import/export format"
+msgstr "Формат импорта/экспорта"
+
+msgid "Character between columns"
+msgstr "Символ между столбцами"
+
+msgid "other"
+msgstr "другой"
+
+msgid "Column width"
+msgstr "Ширина столбца"
+
+msgid "fixed"
+msgstr "фиксированный"
+
+msgid "variable"
+msgstr "переменная"
+
+msgid "Use embrace characters  (\")"
+msgstr "Использовать символы  (\")"
+
+msgid "Description:"
+msgstr "Описание:"
+
+msgid "Filter:"
+msgstr "Фильтр:"
+
+msgid "Move one line up"
+msgstr "Переместить на одну строку выше"
+
+msgid "Move one line down"
+msgstr "Переместить на одну строку ниже"
+
+msgid "Remove from list"
+msgstr "Удалить из списка"
+
+msgid "Add to list"
+msgstr "Добавить в список"
+
+msgid "Replace in list"
+msgstr "Заменить в списке"
+
+msgid "Save list as new file"
+msgstr "Сохранить список в новом файле"
+
+msgid "Remove file"
+msgstr "Удалить файл"
+
+msgid "Move file down"
+msgstr "Переместить файл ниже"
+
+msgid "Add files"
+msgstr "Добавьте файлы"
+
+msgid "List of files:"
+msgstr "Список файлов:"
+
+msgid "Common path:"
+msgstr "Общий путь:"
+
+msgid "Move file up"
+msgstr "Переместить файл выше"
+
+msgid "Text filter dialog"
+msgstr "Диалог фильтра текста"
+
+msgid "All matching"
+msgstr "Соотв. всем"
+
+msgid "All not matching"
+msgstr "Не соотв. ничему"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Edit expressions"
+msgstr "Редактировать выражения"
+
+msgid "Filter expressions:"
+msgstr "Выражения фильтра:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Оцените несколько выражений по"
+
+msgid "OR operation"
+msgstr "ИЛИ операция"
+
+msgid "AND operation"
+msgstr "И операция"
+
+msgid "Use regular expressions"
+msgstr "Исп. регулярные выражения"
+
+msgid "Search and replace"
+msgstr "Поиск и замена"
+
+msgid "Search for:"
+msgstr "Поиск:"
+
+msgid "Options"
+msgstr "Опции"
+
+msgid "Case sensitive"
+msgstr "С учетом регистра"
+
+msgid "Whole words"
+msgstr "Слова целиком"
+
+msgid "Start "
+msgstr "Запустить "
+
+msgid "from cursor"
+msgstr "от курсора"
+
+msgid "from beginning"
+msgstr "с начала"
+
+msgid "Direction"
+msgstr "Направление"
+
+msgid "Forward"
+msgstr "Вперед"
+
+msgid "Backward"
+msgstr "Назад"
+
+msgid "Range"
+msgstr "Диапазон"
+
+msgid "Whole text"
+msgstr "Текст целиком"
+
+msgid "Selected text"
+msgstr "Выделенный текст"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "&Search"
+msgstr "&Поиск"
+
+msgid "Replace &all"
+msgstr "&Заменить все"
+
+msgid "&Continue"
+msgstr "&Продолжить"
+
+msgid "Keep this window opened"
+msgstr "Удерживать это окно открытым"
+
+msgid "Replace by:"
+msgstr "Заменить на:"
+
+msgid "With confirmation"
+msgstr "С подтверждением"
+
+msgid "Select FTP subdirectory"
+msgstr "Выбрать FTP подкаталог"
+
+msgid "Subdirectories:"
+msgstr "Подкаталоги:"
+
+msgid "One directory up"
+msgstr "На уровень вверх"
+
+msgid "Root directory on FTP server"
+msgstr "Корневой каталог на FTP-сервере"
+
+msgid "Selected subdirectory:"
+msgstr "Выбранный подкаталог:"
+
+msgid "FTP connection"
+msgstr "FTP подключение"
+
+msgid "Server name:"
+msgstr "Имя сервера:"
+
+msgid "User name:"
+msgstr "Пользователь:"
+
+msgid "Remote directory:"
+msgstr "Удаленный каталог:"
+
+msgid "Port:"
+msgstr "Порт:"
+
+msgid "Filenames:"
+msgstr "Имена файлов:"
+
+msgid "Proxy server settings"
+msgstr "Настройки прокси-сервера"
+
+msgid "Use proxy server"
+msgstr "Использовать прокси-сервер"
+
+msgid "do not change"
+msgstr "не изменять"
+
+msgid "change to lower case"
+msgstr "в нижний регистр"
+
+msgid "change to UPPER CASE"
+msgstr "в ВЕРХНИЙ РЕГИСТР"
+
+msgid "Use passive mode"
+msgstr "Использовать пассивный режим"
+
+msgid "Use HOST command"
+msgstr "Использовать команду HOST"
+
+msgid "Force UTF-8 encoding"
+msgstr "Кодировать в UTF-8"
+
+msgid "Use secure data connection"
+msgstr "Использовать безопасное подключение"
+
+msgid "If available"
+msgstr "Если доступно"
+
+msgid "Always"
+msgstr "Всегда"
+
+msgid "Require"
+msgstr "Требовать"
+
+msgid "This option is only for debugging purposes"
+msgstr "Эта опция - только для отладки"
+
+msgid "Write communication log to file"
+msgstr "Записать журнал подключений в файл"
+
+msgid "Allow filenames to be enclosed in quotes"
+msgstr "Разрешить заключение имен файлов в кавычки"
+
+msgid "FTP proxy server options"
+msgstr "Опции FTP прокси-сервера"
+
+msgid "Connection method"
+msgstr "Метод подключения"
+
+msgid "Send command USER user@hostname"
+msgstr "Отправить команду USER user@hostname"
+
+msgid "Send command SITE (with logon)"
+msgstr "Отправить команду SITE (с входом в систему)"
+
+msgid "Send command OPEN"
+msgstr "Отправить команду OPEN"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Transparent"
+msgstr "Прозрачный"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "Server name"
+msgstr "Имя сервера"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Create texture"
+msgstr "Создать текстуру"
+
+msgid "Color spectrum"
+msgstr "Спектр цветов"
+
+msgid "Start:"
+msgstr "Запустить:"
+
+msgid "Range:"
+msgstr "Диапазон:"
+
+msgid "Help"
+msgstr "Справка"
+
+msgid "Previous"
+msgstr "Предыдущий"
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "Home"
+msgstr "Домой"
+
+msgid "End"
+msgstr "Выход"
+
+msgid "HTTP proxy settings"
+msgstr "Настройки HTTP прокси"
+
+msgid "Numeric input"
+msgstr "Числовой ввод"
+
+msgid "Edit text"
+msgstr "Редактировать текст"
+
+msgid "Select date"
+msgstr "Выбрать дату"
+
+msgid "one month back"
+msgstr "на один месяц назад"
+
+msgid "to January"
+msgstr "до января"
+
+msgid "3 months back"
+msgstr "3 месяца назад"
+
+msgid "one month forward"
+msgstr "на один месяц вперед"
+
+msgid "3 months forward"
+msgstr "3 месяца вперед"
+
+msgid "to December"
+msgstr "до декабря"
+
+msgid "one year back"
+msgstr "на один год назад"
+
+msgid "one year forward"
+msgstr "на один год вперед"
+
+msgid "Select month"
+msgstr "Выбрать месяц"
+
+msgid "January"
+msgstr "Январь"
+
+msgid "February"
+msgstr "Февраль"
+
+msgid "March"
+msgstr "Март"
+
+msgid "April"
+msgstr "Апрель"
+
+msgid "May"
+msgstr "Май"
+
+msgid "June"
+msgstr "Июнь"
+
+msgid "July"
+msgstr "Июль"
+
+msgid "August"
+msgstr "Август"
+
+msgid "September"
+msgstr "Сентябрь"
+
+msgid "October"
+msgstr "Октябрь"
+
+msgid "November"
+msgstr "Ноябрь"
+
+msgid "December"
+msgstr "Декабрь"
+
+msgid "Select year"
+msgstr "Выберите год"
+
+msgid "Language selection"
+msgstr "Выбор языка"
+
+msgid "New item:"
+msgstr "Новый элемент:"
+
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgid "Replace item"
+msgstr "Заменить элемент"
+
+msgid "Connect to"
+msgstr "Подключение к"
+
+msgid "Logon"
+msgstr "Вход в систему"
+
+msgid "&Skip"
+msgstr "&Пропустить"
+
+msgid "LPT selection"
+msgstr "Выбор LPT"
+
+msgid "Printer (Port/Irq)"
+msgstr "Принтер (Port/Irq)"
+
+msgid "Port addr.:"
+msgstr "Порт:"
+
+msgid "Interrupt"
+msgstr "Прерывание"
+
+msgid "Mail settings"
+msgstr "Настройки почты"
+
+msgid "Recipients:"
+msgstr "Адресаты:"
+
+msgid "Add recipient"
+msgstr "Добавить адресата"
+
+msgid "Remove recipient"
+msgstr "Удалить адресата"
+
+msgid "Edit recipient"
+msgstr "Правка адресата"
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "Sender:"
+msgstr "Отправитель:"
+
+msgid "Reply-To:"
+msgstr "Ответ - Кому:"
+
+msgid "SMTP server:"
+msgstr "SMTP сервер:"
+
+msgid "Click button to enter password"
+msgstr "Нажмите кнопку, чтобы ввести пароль"
+
+msgid "Enable mail delivery"
+msgstr "Включить доставку почты"
+
+msgid "If available (explicit)"
+msgstr "Если доступно (явно)"
+
+msgid "Require (explicit)"
+msgstr "Требуется (явно)"
+
+msgid "Always (implicit)"
+msgstr "Всегда (неявно)"
+
+msgid "Change order of list items"
+msgstr "Изменить порядок элементов в списке"
+
+msgid "Enter password:"
+msgstr "Введите пароль:"
+
+msgid "Quality:"
+msgstr "Качество:"
+
+msgid "Select files"
+msgstr "Выбрать файлы"
+
+msgid "Directory:"
+msgstr "Каталог:"
+
+msgid "Select all"
+msgstr "Выбрать все"
+
+msgid "Select none"
+msgstr "Очистить выбор"
+
+msgid "Printer settings"
+msgstr "Настройки принтера"
+
+msgid "Feeder offset:"
+msgstr "Смещение подачи:"
+
+msgid "Page margins"
+msgstr "Поля страницы"
+
+msgid "Top:"
+msgstr "Вверху:"
+
+msgid "Bottom:"
+msgstr "Внизу:"
+
+msgid "Left:"
+msgstr "Слева:"
+
+msgid "Right:"
+msgstr "Справа:"
+
+msgid "Orientation"
+msgstr "Ориентация"
+
+msgid "Portrait"
+msgstr "Книжная"
+
+msgid "Landscape"
+msgstr "Альбомная"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "AES encryption depth:"
+msgstr "Глубина шифрования AES:"
+
+msgid "128 bit"
+msgstr "128 бит"
+
+msgid "256 bit"
+msgstr "256 бит"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Paste from clipboard"
+msgstr "Паста из буфера обмена"
+
+msgid "Skip"
+msgstr "Пропустить"
+
+msgid "Paper margins"
+msgstr "Поля бумаги"
+
+msgid "Print page margins"
+msgstr "Поля страницы печати"
+
+msgid "Edit search path list"
+msgstr "Правка списка путей поиска"
+
+msgid "Select path"
+msgstr "Выбрать путь"
+
+msgid "Remove all"
+msgstr "Удалить все"
+
+msgid "Replace path in search list"
+msgstr "Заменить путь списке"
+
+msgid "Replace path"
+msgstr "Заменить путь"
+
+msgid "Add path to search list"
+msgstr "Добавить путь в список поиска"
+
+msgid "Add path"
+msgstr "Добавить путь"
+
+msgid "Remove path from search list"
+msgstr "Удалить путь из списка"
+
+msgid "Remove path"
+msgstr "Удалить путь"
+
+msgid "Select color"
+msgstr "Выбрать цвет"
+
+msgid "Additional colors:"
+msgstr "Дополнительные цвета:"
+
+#. SelectColorDialog.Label2.Caption
+#: SelectColorDlg.dfm:32
+msgid "Basic colors:"
+msgstr "Основные цвета:"
+
+msgid "Selection:"
+msgstr "Выбор:"
+
+msgid "no color"
+msgstr "без цвета"
+
+msgid "Select other color"
+msgstr "Выбрать другой цвет"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Select font"
+msgstr "Выбрать шрифт"
+
+msgid "Bold"
+msgstr "Полужирный"
+
+msgid "Italic"
+msgstr "Курсив"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Size:"
+msgstr "Размер:"
+
+msgid "Select item from list"
+msgstr "Выберите элемент из списка"
+
+msgid "Edit items"
+msgstr "Редактирование"
+
+msgid "Remove selected items"
+msgstr "Удалить выбранные элементы"
+
+msgid "Reset to default values"
+msgstr "Сброс к типовым значениям"
+
+msgid "Default"
+msgstr "Стандарт"
+
+msgid "Remove all items"
+msgstr "Удалить все элементы"
+
+msgid "Prompt"
+msgstr "Подсказка"
+
+msgid "Select items"
+msgstr "Выбрать элементы"
+
+msgid "Select directory"
+msgstr "Выбрать каталог"
+
+msgid "Network"
+msgstr "Сеть"
+
+msgid "Computer"
+msgstr "Компьютер"
+
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+msgid "Documents"
+msgstr "Документы"
+
+msgid "Go to default folder"
+msgstr "Перейти к папке по умолчанию"
+
+msgid "One folder up"
+msgstr "На уровень вверх"
+
+msgid "Create new folder"
+msgstr "Создать новую папку"
+
+msgid "Show files"
+msgstr "Показать файлы"
+
+msgid "Directory"
+msgstr "Каталог"
+
+msgid "Create folder"
+msgstr "Создать папку"
+
+msgid "Delete folder"
+msgstr "Удалить папку"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "My Documents"
+msgstr "Мои документы"
+
+msgid "Go to last folder displayed"
+msgstr "Перейти к последней просматриваемой папке"
+
+msgid "Filename:"
+msgstr "Имя файла:"
+
+msgid "File type:"
+msgstr "Тип файла:"
+
+msgid "All files (*.*)|*.*"
+msgstr "Все файлы (*.*)|*.*"
+
+msgid "Show text"
+msgstr "Показать текст"
+
+msgid "&Open"
+msgstr "&Открыть"
+
+msgid "&Print"
+msgstr "&Печать"
+
+msgid "&Delete"
+msgstr "&Удалить"
+
+msgid "Go to previous error"
+msgstr "Перейти к предыдущей ошибке"
+
+msgid "Go to previous section"
+msgstr "Перейти к предыдущему разделу"
+
+msgid "Go to next error"
+msgstr "Перейти к следующей ошибке"
+
+msgid "Go to next section"
+msgstr "Перейти к следующему разделу"
+
+msgid "Select codepage"
+msgstr "Выберите кодовую страницу"
+
+msgid "&Erase"
+msgstr "&Стереть"
+
+msgid "&Copy"
+msgstr "&Копировать"
+
+msgid "Paper size:"
+msgstr "Формат бумаги:"
+
+msgid "Length:"
+msgstr "Длина:"
+
+msgid "Keyboard layout"
+msgstr "Раскладка клавиатуры"
+
+msgid "Key code:"
+msgstr "Код клавиши:"
+
+msgid "Command:"
+msgstr "Команда:"
+
+msgid "Command"
+msgstr "Команда"
+
+msgid "Key code"
+msgstr "Код клавиши"
+
+msgid "Remove key code"
+msgstr "Удалить код клавиши"
+
+msgid "Change key code"
+msgstr "Изменить код"
+
+msgid "Margins"
+msgstr "Поля"
+
+msgid "Gutter:"
+msgstr "Поле:"
+
+msgid "Duplex print"
+msgstr "Дуплексная печать"
+
+msgid "Print line numbers"
+msgstr "Печатать номера строк"
+
+msgid "Line break on long lines"
+msgstr "Разрыв строки на длинных линиях"
+
+msgid "Syntax highlighting"
+msgstr "Подсветка синтаксиса"
+
+msgid "Color print"
+msgstr "Цветная печать"
+
+msgid "Distance to text:"
+msgstr "Расстояние до текста:"
+
+msgid "Print header"
+msgstr "Печатать заголовок"
+
+msgid "Font:"
+msgstr "Шрифт:"
+
+msgid "Font size:"
+msgstr "Размер шрифта:"
+
+msgid "Font style:"
+msgstr "Стиль шрифта:"
+
+msgid "File timestamp comparison"
+msgstr "Сравнение таймштампов файла"
+
+msgid "Time comparison tolerance in s:"
+msgstr "Допуск сравнения времени в сек:"
+
+msgid ""
+"Ignore 1 hour time difference from daylight saving time (winter - "
+"summer)"
+msgstr ""
+"Игнорировать 1 час разница во времени от летнего времени (зима - лето)"
+
+msgid "Transfer status"
+msgstr "Состояние переадресации"
+
+msgid "Protocol:"
+msgstr "Протокол:"
+
+msgid "Window size"
+msgstr "Размер окна"
+
+msgid "Global"
+msgstr "Глобально"
+
+msgid "Edit source text"
+msgstr "Редактирование исходного текста"
+
+msgid "Navigation"
+msgstr "Навигация"
+
+msgid "Reload"
+msgstr "Перезагрузка"
+
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+msgid "Next page"
+msgstr "Следующая страница"
+
+msgid "Exit"
+msgstr "Выход"
+
+msgid "OK and close"
+msgstr "OK и закрыть"
+
+msgid "Save as:"
+msgstr "Сохранить как:"
+
+msgid "Open site"
+msgstr "Oоткрытый сайт"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Минимальная длина пароля - %u (симв.)"
+
+msgid "Passwords do not match!"
+msgstr "Пароли не совпадают!"
+
+msgid "Application (%s)"
+msgstr "Применение (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Удалить приложение: \"%s\"?"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "all|*.*"
+msgstr "все|*.*"
+
+msgid "unknown"
+msgstr "неизвестно"
+
+msgid "Error in line %s"
+msgstr "Ошибка в строке %s"
+
+msgid "Shortcut:"
+msgstr "Ярлык:"
+
+msgid "Remove group: \"%s\"?"
+msgstr "Удалить группу: \"%s\"?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Элемент \"%s\" уже существует"
+
+msgid "File filter dialog"
+msgstr "Диалог фильтра файлов"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Недопустимая маска фильтра!\n"
+"Должен напомнить %s или %s"
+
+msgid "Replace text"
+msgstr "Заменить текст"
+
+msgid "&Replace"
+msgstr "&Заменить"
+
+msgid "Search for text"
+msgstr "Поиск текста"
+
+msgid "Searching for directories"
+msgstr "Поиск каталогов"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Для подключения с FTP-серверу: %s: %u\n"
+"пользователю: %s\n"
+"требуется пароль!"
+
+msgid "Trying to connect to FTP server"
+msgstr "Попытка соединиться с FTP-сервером"
+
+msgid "Connection to FTP server failed"
+msgstr "Не удалось подключиться к FTP-серверу"
+
+msgid "Secure mode: "
+msgstr "Безопасный режим: "
+
+msgid "No host specified!"
+msgstr "Хост не определен!"
+
+msgid "No user name specified!"
+msgstr "Имя пользователя не указано!"
+
+msgid "Invalid port number (%s)"
+msgstr "Недопустимый адрес порта (%s)"
+
+msgid ""
+"Online help is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer"
+msgstr ""
+"Онлайн-справка не доступна в вашей системе\n"
+"Необходимо установить Internet Explorer версии 4 или новее"
+
+msgid "Error: Out of range (%s)"
+msgstr "Ошибка: Вне диапазона (%s)"
+
+msgid "Edit list"
+msgstr "Правка списка"
+
+msgid "No."
+msgstr "Нет."
+
+msgid "Error: Invalid port address (%s)"
+msgstr "Ошибка: Недопустимый адрес порта (%s)"
+
+msgid "Error: Invalid interrupt (%s)"
+msgstr "Ошибка: Недопустимое прерывание (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "Укажите SMTP-сервер!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Укажите по крайней мере одного адрессата!"
+
+msgid "New mail recipient"
+msgstr "Новый адресат"
+
+msgid "Address:"
+msgstr "Адрес:"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Удалить адрессата:\n"
+"%s\n"
+"из списка?"
+
+msgid "Edit mail recipient"
+msgstr "Редактирование адресата"
+
+msgid "Canceled by user"
+msgstr "Отменено пользователем"
+
+msgid "Clear search path list?"
+msgstr "Очистить список поиска путей?"
+
+msgid "The quick brown fox jumps .."
+msgstr "Съешь ещё этих мягких .."
+
+msgid "Select font color"
+msgstr "Выбрать цвет шрифта"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Неверный элемент: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Очистить весь список"
+
+msgid "Remove all selected items?"
+msgstr "Удалить все выбранные элементы?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Удалить элемент: \"%s\"?"
+
+msgid "Default: "
+msgstr "По умолчанию: "
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Каталог не найден:\n"
+"%s!"
+
+msgid "New subdirectory:"
+msgstr "Новый подкаталог:"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Не удалось создать каталог:\n"
+"%s!"
+
+msgid "Delete directory"
+msgstr "Удалить каталог"
+
+msgid "Delete \"%s\""
+msgstr "Удалить \"%s\""
+
+msgid "Definitely"
+msgstr "Определенно"
+
+msgid "To recycle bin"
+msgstr "В Корзину"
+
+msgid "%u directories with %u files deleted!"
+msgstr "Каталоги (%u) с файлами (%u) удалены!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s перемещено в Корзину!"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Ошибка удаления каталога:\n"
+"%s!"
+
+msgid " free of "
+msgstr " свободно из "
+
+msgid "Directory is not empty, delete anyway?"
+msgstr "Каталог не пустой! Удалить так или иначе?"
+
+msgid " Line: %u of %u"
+msgstr " Строка: %u из %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "Ошибка загрузки файла: \"%s\""
+
+msgid "Delete selected text?"
+msgstr "Удалить выделенный текст?"
+
+msgid "Page: %u"
+msgstr "Страница: %u"
+
+msgid "File: "
+msgstr "Файл: "
+
+msgid "Print selected lines?"
+msgstr "Распечатать выбранные строки?"
+
+msgid "Delete file \"%s\"?"
+msgstr "Удалить файл \"%s\"?"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" не найден!"
+
+msgid "No further sections!"
+msgstr "Нет других разделов!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr ""
+"Неверная кодовая страница - используется значение по умолчанию Windows!"
+
+msgid "No further errors!"
+msgstr "Нет других ошибок!"
+
+msgid "Page: "
+msgstr "Страница: "
+
+msgid "File: \"%s\" not found!"
+msgstr "Файл: \"%s\" не найден!"
+
+msgid "<none>"
+msgstr "<ничего>"
+
+msgid "Normal"
+msgstr "Нормальный"
+
+msgid "Bold italic"
+msgstr "Полужирный курсив"
+
+msgid "Invalid input"
+msgstr "Недопустимый ввод"
+
+msgid "Deleting"
+msgstr "Удаление"
+
+msgid "Delete files:"
+msgstr "Удалить файлы:"
+
+msgid "Synchronizing"
+msgstr "Синхронизация"
+
+msgid "Copying to"
+msgstr "Копирование в"
+
+msgid "Copy files:"
+msgstr "Копировать файлы:"
+
+msgid "%s of %s copied"
+msgstr "%s из %s скопировано"
+
+msgid "Canceled by user!"
+msgstr "Отменено пользователем!"
+
+msgid "Error during file transfer!"
+msgstr "Ошибка во время передачи файлов!"
+
+msgid ""
+"%u file(s) deleted\n"
+"%u file(s) copied!"
+msgstr ""
+"Файлов удалено - %u\n"
+"Файлов скопировано - %u!"
+
+msgid "%u file(s) deleted!"
+msgstr "%u файл(ов) удалено!"
+
+msgid "%u file(s) copied"
+msgstr "Скопировано файлов - %u"
+
+msgid "Nothing to do!"
+msgstr "Ничего не делать!"
+
+msgid ""
+"The integrated web browser is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer."
+msgstr ""
+"Интегрированный веб-браузер не доступен в вашей системе\n"
+"Необходимо установить Internet Explorer версии 4 или новее."
+
+msgid "%s verification failed!"
+msgstr "%s cбой проверки!"
+
+msgid "%s hash file not found!"
+msgstr "%s хеш-файл не найден!"
+
+msgid "Classic Browser"
+msgstr "Классический браузер"
+
+msgid "Edge Browser"
+msgstr "Браузер Edge"
