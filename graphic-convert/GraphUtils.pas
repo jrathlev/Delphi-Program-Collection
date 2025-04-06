@@ -13,7 +13,7 @@
    the specific language governing rights and limitations under the License.
 
    Vers. 1.0 - September 2024
-   last modified: September 2024
+   last modified: April 2025
    *)
 
 unit GraphUtils;
@@ -43,8 +43,8 @@ type
 const
   defBlockSize = 256*1024;
   defIconHeader : TIconHeader = (wReserved : 0; wImgType : 1; wImgCount : 1);
-  defIconDirEntry : TIconDirEntry = (bWidth : 0; bHeight : 0; bColors : 32; bReserved : 0;
-    wPlanes : 0; wBits : 0; cSize : 0; cOffset : 0);
+  defIconDirEntry : TIconDirEntry = (bWidth : 0; bHeight : 0; bColors : 0; bReserved : 0;
+    wPlanes : 1; wBits : 32; cSize : 0; cOffset : 0);
 
 function CopyStream (ss,sd : TStream) : boolean;
 var
@@ -98,7 +98,8 @@ begin
       fm:=TMemoryStream.Create; bp.SaveToStream(fm);
       with ide do begin
         bWidth:=bp.Width and $FF; bHeight:=bp.Height and $FF;
-        cSize:=fp.Size+fm.Size-2*BmHeaderSize-BmInfoSize; cOffset:=fi.Position;
+        cSize:=fp.Size+fm.Size-2*sizeof(TRGBQuad)-2*BmHeaderSize-BmInfoSize;
+        cOffset:=fi.Position;
         dh:=2*bp.Height;
         end;
       bp.Free;
