@@ -4,7 +4,7 @@
 
 The program is based on the SVGExplorer by 
 [Ethea](https://www.ethea.it/docs/SVGIconImageList)
-, a demo program from the [SVGIconImageList](https://github.com/EtheaDev/SVGIconImageList) package. The following extension and changes have been implemented:
+, a demo program from the [SVGIconImageList](https://github.com/EtheaDev/SVGIconImageList) package. The following changes and extensions have been implemented:
 - **ShellTreeView** component used for directory selection
 - **Improved preview** by replacing the *TIconImage* component with *TPaintBox* for better rendering
 - **Image properties** are displayed for the selected image
