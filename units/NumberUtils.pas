@@ -2,7 +2,7 @@
    number conversions
    ==================
 
-   - conversion of float numbers to engeneering format and to values with unit prefixes
+   - conversion of float numbers to engineering format and to values with unit prefixes
    - conversion Deg:Min:Sec -> String and back
    - conversion of Hex, Octal und Binary <-> string
    - conversion of set <-> hex
