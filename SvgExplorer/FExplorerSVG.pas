@@ -33,6 +33,7 @@
 // Calling of external program SvgCleaner implemented
 // ShellTreeView component implemented
 // TIconImage in preview replaced by TPaintBox for improved rendering
+// German localization added
 
 unit FExplorerSVG;
 
@@ -48,9 +49,28 @@ uses
   SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces;
 
 resourcestring
-  CONFIRM_DELETE_FILE = 'Do you really want to delete %u selected files?';
-  LOAD_IMAGES_TIME = 'Load %d images in %d ms';
-  sDirErr = 'Error creating directory "%s"!';
+  rsConfDelFile = 'Do you really want to delete %u selected files?';
+  rsLoadTime = 'Load %u images in %u ms';
+  rsDirErr = 'Error creating directory "%s"!';
+  rsOptDir = 'Directory for optimized images';
+  rsPngDir = 'Directory for PNG images';
+  rsModified = 'Modified: ';
+  rsSize = 'Size: ';
+  rsLayout = 'Layout: ';
+  rsListPreview = 'SVG Image List preview: %u images';
+  rsSubDir = 'New subdirectory:';
+  rsCreateErr = 'Could not create directory:'+sLineBreak+'%s!';
+  rsRename = 'Rename icon';
+  rsNewFile = 'New filename:';
+  rsRenameErr = 'Cannot rename: file "%s" already exists!';
+  rsImgSize = 'Image size';
+  rsWdtHgt = 'Width/Height';
+  rsWidth = 'Width';
+  rsHeight = 'Height';
+  rsConverted = '%u images converted to PNG';
+  rsExecErr = 'Exit code %u reported!';
+  rsError = 'Error';
+  rsOptimized = '%u images optimized!';
 
 type
   TSVGFactory = (svgImage32, svgDirect2D);
@@ -202,6 +222,7 @@ uses
   WinApi.ShellApi,
   WinApi.ShlObj,
   Vcl.ClipBrd,
+  GnuGetText,
   ListUtils,
   PathUtils,
   StringUtils,
@@ -226,16 +247,21 @@ const
   iniLeft = 'Left';
   iniTop  = 'Top';
   iniWdt  = 'Width';
-  iniSize = 'Size';
-  iniPrev = 'PreviewWidth';
   iniHgt  = 'Height';
+  iniSize = 'Size';
+  iniDWdt = 'DirWidth';
+  iniPrev = 'PreviewWidth';
   iniLast = 'LastDir';
   iniExp  = 'LastExpDir';
   iniOpt  = 'LastOptDir';
   iniOptPrg = 'OptimizeProg';
   iniOptOpt = 'OptimizeOptions';
 
+  IniExt = '.ini';
   SvgExt = '.svg';
+  PngExt = '.png';
+  SvgClean = 'svgcleaner-cli.exe';
+  DirOpt = 'optimized';
 
 procedure TfmExplorerSVG.FormCreate(Sender: TObject);
 var
@@ -244,23 +270,26 @@ var
   LastDir,LastExp,LastOpt : string;
   w,h : integer;
 begin
+  TranslateComponent(self);
   AppPath:=GetKnownFolder(FOLDERID_RoamingAppData);
   fpaPreviewSize := paPreview.Width;
-  IniName:=IncludeTrailingPathDelimiter(AppPath)+ChangeFileExt(ExtractFilename(Application.ExeName),'.ini');
+  IniName:=IncludeTrailingPathDelimiter(AppPath)+ChangeFileExt(ExtractFilename(Application.ExeName),IniExt);
   IniFile:=TMemIniFile.Create(IniName);
   with IniFile do begin
     Left:=ReadInteger(CfgSekt,iniLeft,Left);
     Top:=ReadInteger(CfgSekt,iniTop,Top);
     ClientWidth:=ReadInteger(CfgSekt,iniWdt,ClientWidth);
     ClientHeight:=ReadInteger(CfgSekt,iniHgt,ClientHeight);
+    with paDir do Width:=ReadInteger(CfgSekt,iniDWdt,Width);
     w:=ReadInteger(CfgSekt,iniPrev,Width);
     rgSize.ItemIndex:=ReadInteger(CfgSekt,iniSize,3);
     LastDir:=ReadString(CfgSekt,iniLast,'');
     LastExp:=ReadString(CfgSekt,iniExp,'png');
     ExpWidth:=ReadInteger(ExpSekt,iniWdt,64);
     ExpHeight:=ReadInteger(ExpSekt,iniHgt,64);
-    LastOpt:=ReadString(CfgSekt,iniOpt,'optimized');
-    OptProg:=ReadString(CfgSekt,iniOptPrg,'');
+    LastOpt:=ReadString(CfgSekt,iniOpt,DirOpt);
+    OptProg:=AddPath(ExtractFilePath(Application.ExeName),SvgClean);
+    OptProg:=ReadString(CfgSekt,iniOptPrg,OptProg);
     edOptions.Text:=ReadString(CfgSekt,iniOptOpt,'');
     end;
   LoadHistory(IniFile,DirSekt,cbxSelectedDir);
@@ -294,6 +323,7 @@ begin
     WriteInteger(CfgSekt,iniTop,Top);
     WriteInteger(CfgSekt,iniWdt,ClientWidth);
     WriteInteger(CfgSekt,iniHgt,ClientHeight);
+    WriteInteger(CfgSekt,iniDWdt,paDir.Width);
     WriteInteger(CfgSekt,iniPrev,paPreview.Width);
     WriteInteger(CfgSekt,iniSize,rgSize.ItemIndex);
     WriteString(CfgSekt,iniLast,cbxSelectedDir.Text);
@@ -315,9 +345,7 @@ begin
 
 procedure TfmExplorerSVG.FormShow(Sender: TObject);
 begin
-  if OptProg.IsEmpty or not FileExists(OptProg) then begin
-    SelectOptimizer;
-    end;
+  if not FileExists(OptProg) then SelectOptimizer;
   btnOptimize.Enabled:=FileExists(OptProg);
   pcTools.ActivePageIndex:=0;
   rgSizeClick(Sender);
@@ -328,7 +356,7 @@ procedure TfmExplorerSVG.SelectOptimizer;
 begin
   with FileOpenDialog do begin
     if ExtractFileDir(OptProg).IsEmpty then DefaultFolder:=GetProgramFolder(pfProgramFiles64);
-    Filename:='svgcleaner-cli.exe';
+    Filename:=SvgClean;
     if Execute then OptProg:=Filename;
     end;
   end;
@@ -362,9 +390,9 @@ var
 begin
   s:=cbxOptimizeDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(cbxSelectedDir.Text,s);
-  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+'optimized');
+  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+DirOpt);
   with DirOpenDialog do begin
-    Title:='Directory for optimized images';
+    Title:=rsOptDir;
     DefaultFolder:=s;
     FileName:=s;
     if Execute then begin
@@ -386,9 +414,9 @@ var
 begin
   s:=cbxExportDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(cbxSelectedDir.Text,s);
-  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+'png');
+  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+PngExt);
   with DirOpenDialog do begin
-    Title:='Directory for PNG images';
+    Title:=rsPngDir;
     DefaultFolder:=s;
     FileName:=s;
     if Execute then begin
@@ -425,7 +453,7 @@ var
   i,n,
   LOldImageIndex: Integer;
 begin
-  if MessageDlg(Format(CONFIRM_DELETE_FILE,[ImageView.SelCount]),mtWarning,[mbNo, mbYes],0,mbNo)=mrYes then begin
+  if MessageDlg(Format(rsConfDelFile,[ImageView.SelCount]),mtWarning,[mbNo, mbYes],0,mbNo)=mrYes then begin
     try
       Screen.Cursor := crHourGlass; LOldImageIndex:=-1;
       with ImageView do begin
@@ -505,14 +533,14 @@ var
 begin
   if SelectedIndex>= 0 then begin
     with SVGIconImageList.SVGIconItems[SelectedIndex] do begin
-      LFileName:=IconName+'.svg';
+      LFileName:=IconName+SvgExt;
       SVGMemo.Text := CharToCrLf(SVGText,#$0A);
       laImgName.Caption:=LFileName;
       LFileName:=IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+LFileName;
-      if FileAge(LFileName,dt) then laDate.Caption:='Modified: '+DateTimeToStr(dt)
+      if FileAge(LFileName,dt) then laDate.Caption:=rsModified+DateTimeToStr(dt)
       else laDate.Caption:='';
-      laSize.Caption:='Size: '+IntToDecimal(GetFileSize(LFileName));
-      laLayout.Caption:='Layout: '+IntToStr(round(SVG.Width))+'x'+IntToStr(round(SVG.Height));
+      laSize.Caption:=rsSize+IntToDecimal(GetFileSize(LFileName));
+      laLayout.Caption:=rsLayout+IntToStr(round(SVG.Width))+'x'+IntToStr(round(SVG.Height));
       s:=SVG.Source;
       end;
     with IconSvg do begin
@@ -548,7 +576,7 @@ var
   LItemsCount: Integer;
 begin
   LItemsCount := UpdateSVGIconListView(ImageView, '', False);
-  ImageListLabel.Caption := Format('SVG Image List Preview: %d icons',[LItemsCount]);
+  ImageListLabel.Caption := Format(rsListPreview,[LItemsCount]);
   laFoldername.Caption:=cbxSelectedDir.Text;
 end;
 
@@ -585,10 +613,10 @@ var
   s : string;
 begin
   s:='';
-  if InputQuery (ShellTreeView.Path,'New subdirectory:',s) then begin
+  if InputQuery (ShellTreeView.Path,rsSubDir,s) then begin
     s:=IncludeTrailingPathDelimiter(ShellTreeView.Path)+s;
     if not ForceDirectories(s) then
-      MessageDlg(Format('Could not create directory:'+sLineBreak+'%s!',[s]),mtError,[mbOk],0)
+      MessageDlg(Format(rsCreateErr,[s]),mtError,[mbOk],0)
     else with ShellTreeView do begin
       Root:='rfDesktop';
       try Path:=s; except end;
@@ -624,7 +652,7 @@ begin
     LErrors := '';
     LFilter:=AFilter;
     if length(LFilter)=0 then LFilter:='*';
-    LFilter:=IncludeTrailingPathDelimiter(APath)+ChangeFileExt(LFilter,'.svg');
+    LFilter:=IncludeTrailingPathDelimiter(APath)+ChangeFileExt(LFilter,SvgExt);
 //    LFilter := Format('%s%s.svg', [IncludeTrailingPathDelimiter(APath), AFilter]);
     {$WARN SYMBOL_PLATFORM OFF}
     if FindFirst(LFilter, faArchive, SR) = 0 then
@@ -642,7 +670,7 @@ begin
       end;
     UpdateHeader;
     LStop := GetTickCount;
-    LTime := Format(LOAD_IMAGES_TIME, [LFiles.Count, LStop - LStart]);
+    LTime := Format(rsLoadTime, [LFiles.Count, LStop - LStart]);
     PerformanceStatusBar.SimpleText := LTime;
     if LFiles.Count > 0 then
     begin
@@ -697,11 +725,11 @@ begin
   if not ContainsFullPath(se) then se:=AddPath(cbxSelectedDir.Text,se);
   if rbUserSize.Checked then begin
     if cbAspectRatio.Checked then begin
-      if not NumDialog(TopLeftPos(rbOrgSize),'Image size','Width/Height',MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
+      if not NumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWdtHgt,MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
       ExpHeight:=ExpWidth;
       end
     else begin
-      if not DNumDialog(TopLeftPos(rbOrgSize),'Image size','Width','Height',MinSize,MaxSize,8,imBinAuto,
+      if not DNumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWidth,rsHeight,MinSize,MaxSize,8,imBinAuto,
         MinSize,MaxSize,8,imBinAuto,ExpWidth,ExpHeight) then Exit;
       end;
     end;
@@ -715,12 +743,12 @@ begin
       else begin
         w:=round(si.SVG.Width); h:=round(si.SVG.Height);
         end;
-      SVGExportToPng(w,h,si.SVG,se,si.Name+'.png',cbAspectRatio.Checked);
+      SVGExportToPng(w,h,si.SVG,se,si.Name+PngExt,cbAspectRatio.Checked);
       inc(n);
       end;
-    if n>1 then MessageDlg(Format('%u images converted to png!',[n]),mtInformation,[mbOk],0,mbNo);
+    if n>1 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);
     end
-  else MessageDlg(Format(sDirErr,[se]),mtError,[mbOk],0,mbNo);
+  else MessageDlg(Format(rsDirErr,[se]),mtError,[mbOk],0,mbNo);
   end;
 
 procedure TfmExplorerSVG.OptimizeActionExecute(Sender: TObject);
@@ -738,31 +766,31 @@ begin
         s:= SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt;
           s:=MakeQuotedStr(OptProg)+Space+edOptions.Text+Space+ MakeQuotedStr(AddPath(cbxSelectedDir.Text,s))
           +Space+MakeQuotedStr(AddPath(sd,s));
-        hr:=ExecuteProcess(s,'',nil);
+        hr:=ExecuteConsoleProcess(s,'',nil);
         if(hr=0) or ((hr and UserError)<>0) then begin
           if (hr and UserError)<>0 then begin
-            MessageDlg(Format('Exit code %u reported!',[hr and $FFFF]),mtError,[mbOk],0,mbNo);
+            MessageDlg(Format(rsExecErr,[hr and $FFFF]),mtError,[mbOk],0,mbNo);
             Break;
             end
           else inc(n);
           end
          else begin
-           MessageDlg('Error'+ColSpace+SysErrorMessage(hr),mtError,[mbOk],0,mbNo);
+           MessageDlg(rsError+ColSpace+SysErrorMessage(hr),mtError,[mbOk],0,mbNo);
            Break;
            end;
          end;
     finally
       Screen.Cursor := crDefault;
       end;
-    if n>1 then MessageDlg(Format('%u images optimized!',[n]),mtInformation,[mbOk],0,mbNo);
+    if n>1 then MessageDlg(Format(rsOptimized,[n]),mtInformation,[mbOk],0,mbNo);
     end
-  else MessageDlg(Format(sDirErr,[sd]),mtError,[mbOk],0,mbNo);
+  else MessageDlg(Format(rsDirErr,[sd]),mtError,[mbOk],0,mbNo);
   end;
 
 procedure TfmExplorerSVG.OpenActionExecute(Sender: TObject);
 begin
   ShellExecute(Handle,'open',pchar(IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+
-    SVGIconImageList.Names[ImageView.Selected.ImageIndex]+'.svg'),nil,nil,SW_SHOW);
+    SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt),nil,nil,SW_SHOW);
   end;
 
 procedure TfmExplorerSVG.RefreshActionExecute(Sender: TObject);
@@ -808,15 +836,14 @@ begin
   begin
     LIndex := ImageView.Selected.ImageIndex;
     LFileName := SVGIconImageList.Names[LIndex];
-    LNewFileName := InputBox('Rename icon', 'New filename:', LFileName);
+    LNewFileName := InputBox(rsRename,rsNewFile, LFileName);
     if (LNewFileName <> '') and (LNewFileName <> LFileName) then
     begin
       LPath := IncludeTrailingPathDelimiter(cbxSelectedDir.Text);
-      if FileExists(LPath+LNewFileName+'.svg') then
-        raise Exception.CreateFmt('Cannot rename: file "%s" already exists!',
-          [LPath+LNewFileName+'.svg'])
+      if FileExists(LPath+LNewFileName+SvgExt) then
+        raise Exception.CreateFmt(rsRenameErr,[LPath+LNewFileName+SvgExt])
       else
-        RenameFile(LPath+LFileName+'.svg', LPath+LNewFileName+'.svg');
+        RenameFile(LPath+LFileName+SvgExt, LPath+LNewFileName+SvgExt);
       SVGIconImageList.Names[LIndex] := LNewFileName;
       UpdateHeader;
       UpdateView(LIndex);

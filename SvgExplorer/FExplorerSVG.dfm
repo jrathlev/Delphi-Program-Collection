@@ -87,11 +87,15 @@ object fmExplorerSVG: TfmExplorerSVG
       Align = alBottom
       BevelOuter = bvNone
       TabOrder = 2
+      DesignSize = (
+        214
+        69)
       object rgSize: TRadioGroup
         Left = 3
         Top = 5
         Width = 203
         Height = 61
+        Anchors = [akLeft, akTop, akRight]
         Caption = 'Icons size:'
         Columns = 3
         ItemIndex = 3
@@ -212,7 +216,7 @@ object fmExplorerSVG: TfmExplorerSVG
         Alignment = taCenter
         Anchors = [akLeft, akTop, akRight]
         AutoSize = False
-        Caption = 'SVG image'
+        Caption = 'SVG images'
         ExplicitWidth = 573
       end
       object laFoldername: TLabel
@@ -241,7 +245,7 @@ object fmExplorerSVG: TfmExplorerSVG
       object SearchBox: TSearchBox
         Left = 130
         Top = 10
-        Width = 351
+        Width = 326
         Height = 21
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 0
@@ -260,9 +264,9 @@ object fmExplorerSVG: TfmExplorerSVG
         OnClick = ShowTextCheckBoxClick
       end
       object btnResetFilter: TButton
-        Left = 485
+        Left = 460
         Top = 8
-        Width = 66
+        Width = 91
         Height = 26
         Anchors = [akTop, akRight]
         Caption = 'Reset'
@@ -404,7 +408,7 @@ object fmExplorerSVG: TfmExplorerSVG
       Top = 307
       Width = 199
       Height = 176
-      ActivePage = tsExport
+      ActivePage = tsOptimize
       Align = alBottom
       TabOrder = 4
       object tsExport: TTabSheet
@@ -788,7 +792,7 @@ object fmExplorerSVG: TfmExplorerSVG
   end
   object FileOpenDialog: TFileOpenDialog
     FavoriteLinks = <>
-    FileNameLabel = 'SVG cleaner'
+    FileNameLabel = 'SVG Cleaner program'
     FileTypes = <
       item
         DisplayName = 'exe files'

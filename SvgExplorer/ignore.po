@@ -1,0 +1,63 @@
+#. fmExplorerSVG.Font.Name
+#: FExplorerSVG.dfm:11
+#. fmExplorerSVG.paList.paImageList.Font.Name
+#: FExplorerSVG.dfm:203
+#. fmExplorerSVG.paList.paImageList.laFoldername.Font.Name
+#: FExplorerSVG.dfm:230
+#. fmExplorerSVG.paPreview.gbProperties.laImgName.Font.Name
+#: FExplorerSVG.dfm:361
+msgid "Tahoma"
+msgstr ""
+
+#. fmExplorerSVG.paList.paSVGText.SVGMemo.Font.Name
+#: FExplorerSVG.dfm:186
+msgid "Courier New"
+msgstr ""
+
+#. fmExplorerSVG.paDir.ShellTreeView.Root
+#: FExplorerSVG.dfm:119
+msgid "rfDesktop"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:103
+msgid "16 px"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:104
+msgid "20 px"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:105
+msgid "24 px"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:106
+msgid "32 px"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:107
+msgid "48 px"
+msgstr ""
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
+#: FExplorerSVG.dfm:108
+msgid "64 px"
+msgstr ""
+
+#  Doesn't have any letters
+#. fmExplorerSVG.pmDirs.N1.Caption
+#: FExplorerSVG.dfm:783
+msgid "-"
+msgstr ""
+
+#  Looks like a file extension or file mask
+#. fmExplorerSVG.FileOpenDialog.FileMask
+#: FExplorerSVG.dfm:799
+msgid "*.exe"
+msgstr ""
+

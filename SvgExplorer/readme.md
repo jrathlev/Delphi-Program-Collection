@@ -12,5 +12,7 @@ The program is based on the SVGExplorer by
 - **PNG export** in selectable size using the functions of *SVGIconUtils*
 - **SVG optimizing** by calling the external program [SvgCleaner](https://github.com/RazrFalcon/svgcleaner) to losslessly reduce the sizes of SVG images 
 
+**Languages:** English and German
+
 [Application download ](https://www.rathlev-home.de/index-e.html?graphtools.html)
 
