@@ -60,7 +60,7 @@ resourcestring
   rsListPreview = 'SVG Image List preview: %u images';
   rsSubDir = 'New subdirectory:';
   rsCreateErr = 'Could not create directory:'+sLineBreak+'%s!';
-  rsRename = 'Rename icon';
+  rsRename = 'Rename image';
   rsNewFile = 'New filename:';
   rsRenameErr = 'Cannot rename: file "%s" already exists!';
   rsImgSize = 'Image size';
@@ -71,6 +71,10 @@ resourcestring
   rsExecErr = 'Exit code %u reported!';
   rsError = 'Error';
   rsOptimized = '%u images optimized!';
+  rsNotValid = '"%s" is not a valid SVG image!';
+  rsSamePath = 'An image cannot be copied to the same path!';
+  rsFileExists = 'The image file "%s" already exists!';
+  rsOverwrite = 'Overwrite image';
 
 type
   TSVGFactory = (svgImage32, svgDirect2D);
@@ -153,6 +157,9 @@ type
     btnOptProg: TButton;
     edOptions: TLabeledEdit;
     OptimizeAction: TAction;
+    N2: TMenuItem;
+    pmiCopyImage: TMenuItem;
+    pmiPasteImage: TMenuItem;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -190,6 +197,8 @@ type
     procedure btnOptProgClick(Sender: TObject);
     procedure OptimizeActionExecute(Sender: TObject);
     procedure pmImagesPopup(Sender: TObject);
+    procedure pmiCopyImageClick(Sender: TObject);
+    procedure pmiPasteImageClick(Sender: TObject);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,OptProg : string;
@@ -198,6 +207,7 @@ type
     IconSvg : ISVG;
     procedure SetFactory(AFactory: TSVGFactory);
     procedure LoadFilesDir(const APath: string; const AFilter: string = '');
+    procedure ReloadImages (const ImgName : string);
     procedure UpdateHeader;
     procedure UpdateView(Index: Integer);
     procedure ShowSelectedItem(Index : integer);
@@ -229,6 +239,8 @@ uses
   NumDlg,
   WinShell,
   WinExecute,
+  FileUtils,
+  SelectDlg,
   Image32SVGFactory,
   D2DSVGFactory,
 //  SkiaSVGFactory,
@@ -545,6 +557,7 @@ begin
       end;
     with IconSvg do begin
       Source:=s;
+//      Invert:=true;
       PaintTo(SVGIconImage.Canvas.Handle,
         TRectF.Create(0, 0, SVGIconImage.Width, SVGIconImage.Height), true);
       end;
@@ -795,7 +808,6 @@ begin
 
 procedure TfmExplorerSVG.RefreshActionExecute(Sender: TObject);
 var
-  n : integer;
   sn : string;
 
   // Listview-Index from Caption
@@ -811,13 +823,60 @@ begin
     if assigned(Selected) then sn:=ImageView.Selected.Caption
     else sn:='';
     end;
+  ReloadImages(sn);
+  end;
+
+procedure TfmExplorerSVG.ReloadImages (const ImgName : string);
+var
+  n : integer;
+begin
   LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
-  n:=GetListViewIndex(ImageView,sn);
+  n:=GetListViewIndex(ImageView,ImgName);
   with ImageView do begin
     ClearSelection;
     if (n<0) and (Items.Count>0) then n:=0;
     ShowSelectedItem(n);
     end;
+  end;
+
+procedure TfmExplorerSVG.pmiCopyImageClick(Sender: TObject);
+begin
+  if ImageView.Selected <> nil then begin
+    ClipBoard.AsText:=AddPath(cbxSelectedDir.Text,SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt);
+    end;
+  end;
+
+procedure TfmExplorerSVG.pmiPasteImageClick(Sender: TObject);
+var
+  ss,sd : string;
+  ok    : boolean;
+  mr    : integer;
+begin
+  ss:=ClipBoard.AsText;
+  if AnsiSameText(ExtractFileExt(ss),SvgExt) and FileExists(ss) then begin
+    if SameFileName(ExtractFilePath(ss),IncludeTrailingPathDelimiter(cbxSelectedDir.Text)) then
+      MessageDlg(rsSamePath,mtError,[mbOk],0)
+    else begin
+      sd:=AddPath(cbxSelectedDir.Text,ExtractFileName(ss));
+      ok:= not FileExists(sd);
+      if not ok then begin
+        mr:=SelectOption(Format(rsFileExists,[ExtractFileName(ss)]),mtConfirmation,[fsBold],
+          [rsOverwrite,rsRename]);
+//        mr:=MessageDlg(Format(rsOverwrite,[ExtractFileName(ss)]),mtConfirmation,[mbYes,mbNo,mbCancel],0);
+        if mr=1 then begin // rename
+          sd:=ChangeFileExt(ExtractFileName(ss),'');
+          ok:=InputQuery(rsRename,rsNewFile,sd);
+          if ok then sd:=AddPath(cbxSelectedDir.Text,ChangeFileExt(sd,SvgExt));
+          end
+        else ok:=mr=0;
+        end;
+      if ok then begin  // copy file
+        CopyFileTS(ss,sd);
+        ReloadImages(ChangeFileExt(ExtractFilename(sd),''));
+        end;
+      end;
+    end
+  else MessageDlg(Format(rsNotValid,[ss]),mtError,[mbOk],0)
   end;
 
 procedure TfmExplorerSVG.pmiCopyNameClick(Sender: TObject);

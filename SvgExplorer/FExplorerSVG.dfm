@@ -289,7 +289,7 @@ object fmExplorerSVG: TfmExplorerSVG
       Width = 199
       Height = 88
       Cursor = crSizeAll
-      Hint = 'Left click to enlarge. Right click to shrink'
+      Hint = 'Left click to enlarge, right click to shrink'
       Margins.Left = 10
       Margins.Top = 10
       Margins.Right = 10
@@ -712,9 +712,11 @@ object fmExplorerSVG: TfmExplorerSVG
     Top = 160
     object pmiOpen: TMenuItem
       Action = OpenAction
+      Caption = 'Edit'
     end
     object pmiCopyName: TMenuItem
       Caption = 'Copy name'
+      ShortCut = 16462
       OnClick = pmiCopyNameClick
     end
     object pmiRename: TMenuItem
@@ -722,6 +724,19 @@ object fmExplorerSVG: TfmExplorerSVG
     end
     object pmiDelete: TMenuItem
       Action = DeleteAction
+    end
+    object N2: TMenuItem
+      Caption = '-'
+    end
+    object pmiCopyImage: TMenuItem
+      Caption = 'Copy image'
+      ShortCut = 16451
+      OnClick = pmiCopyImageClick
+    end
+    object pmiPasteImage: TMenuItem
+      Caption = 'Paste image'
+      ShortCut = 16470
+      OnClick = pmiPasteImageClick
     end
   end
   object ActionList: TActionList

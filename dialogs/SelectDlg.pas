@@ -14,7 +14,7 @@
    the specific language governing rights and limitations under the License.
 
    Vers. 1 - June 2009
-   last modified: August 2022
+   last modified: May 2025
    *)
 
 unit SelectDlg;
@@ -23,7 +23,7 @@ interface
 
 uses Winapi.Windows, System.SysUtils, System.Classes, Vcl.Graphics, Vcl.Forms, 
   Vcl.Controls, Vcl.StdCtrls, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls,
-  Vcl.ImgList, System.ImageList;
+  Vcl.ImgList, System.ImageList, Vcl.Imaging.pngimage;
 
 const
   OptionChecked = $100;
@@ -80,15 +80,20 @@ function SelectOption (const ATitle,ACaption : string;
                        PreSelection   : integer = -1;
                        const DefaultButton : string = '') : integer; overload;
 
+function SelectOption (const ACaption : string;
+                       DlgType        : TMsgDlgType;
+                       ACaptionFormat : TFontStyles;
+                       const AButtons : array of string;
+                       AOption        : string = '';
+                       ButtonWidth    : integer = 0;
+                       PreSelection   : integer = -1;
+                       const DefaultButton : string = '') : integer; overload;
 
 implementation
 
 {$R *.dfm}
 
-uses GnuGetText, WinUtils;
-
-var
-  Mult,Divi : integer;
+uses Vcl.Consts, GnuGetText, WinUtils;
 
 procedure TSelectDialog.FormCreate(Sender: TObject);
 begin
@@ -113,6 +118,10 @@ begin
   Selection:=(Sender as TButton).Tag;
   end;
 
+const
+  Captions: array[TMsgDlgType] of Pointer = (@SMsgDlgWarning, @SMsgDlgError,
+    @SMsgDlgInformation, @SMsgDlgConfirm, nil);
+
 //   Result = -1 : default or cancel button
 //             0,1,2,.. : Index of AButtons
 function TSelectDialog.Execute (APos : TPoint;
@@ -127,7 +136,8 @@ function TSelectDialog.Execute (APos : TPoint;
 var
   w,h,dh,i,j,n,nr,nl,k,l,bw,ppi,tw,tl : integer;
 begin
-  Caption:=ATitle;
+  if ATitle.IsEmpty then Caption:=LoadResString(Captions[DlgType])
+  else Caption:=ATitle;
   if ButtonWidth=0 then bw:=105 else bw:=ButtonWidth;
 //  w:=3*bw+70; l:=50;
   ppi:=Monitor.PixelsPerInch;
@@ -144,7 +154,7 @@ begin
     Left:=l; Height:=tl*MulDiv(abs(Font.Height),12,10)+n;
     if tw<w-l-n then tw:=w-l-n else w:=tw+l+n;
     Width:=tw;
-    h:=Top+Height+n;
+    h:=Top+Height+2*n;
     dh:=MulDiv(abs(Font.Height),24,10);
     TabOrder:=0; TabStop:=ActiveScreenReader;
     end;
@@ -152,7 +162,7 @@ begin
   with cbOption do begin
     Checked:=false;
     if length(AOption)>0 then begin
-      Left:=l; Width:=w-l-10; Top:=h-5; inc(h,Height);
+      Left:=l; Width:=w-l-n; Top:=h-n div 2; inc(h,Height);
 //      Caption:='PixelsPerInch = '+IntToStr(ppi)+'/'+IntToStr(PixelsPerInchOnDesign)+
 //       ' - '+IntToStr(Font.Size);
       Caption:=AOption;
@@ -167,10 +177,11 @@ begin
     ilIcons.GetBitmap(integer(DlgType),Picture.Bitmap);
     Show;
     end;
+  tw:=MulDiv(5,ppi,PixelsPerInchOnDesign);
   n:=length(AButtons)+1;
   nr:=(n-1) div 3;       // Anzahl Zeilen
   nl:=n-3*nr;            // Spalten in letzter Zeile
-  w:=ClientWidth-3*(bw+5)-5;
+  w:=ClientWidth-3*(bw+tw)-tw;
   SetLength(Buttons,n);
   for i:=0 to nr-1 do begin
     for j:=0 to 2 do begin
@@ -213,7 +224,7 @@ begin
       OnClick:=ButtonClick;
       end;
     end;
-  ClientHeight:=h+MulDiv(dh,30,26)+5;
+  ClientHeight:=h+MulDiv(dh,30,26)+tw;
   Selection:=-1;
   if PreSelection>0 then PreSelection:=PreSelection and OptionMask;
   if PreSelection>length(AButtons) then PreSelection:=-1;
@@ -244,7 +255,6 @@ function SelectOption (APos : TPoint;
                        const DefaultButton : string = '') : integer;
 begin
   if not assigned(SelectDialog)then SelectDialog:=TSelectDialog.Create(Application);
-//  SelectDialog.ScaleWindow(Mult,Divi);
   Result:=SelectDialog.Execute(APos,ATitle,ACaption,DlgType,ACaptionFormat,AButtons,
     AOption,ButtonWidth,PreSelection,DefaultButton);
   FreeAndNil(SelectDialog);
@@ -261,17 +271,22 @@ function SelectOption (const ATitle,ACaption : string;
                        const DefaultButton : string = '') : integer;
 begin
 if not assigned(SelectDialog)then SelectDialog:=TSelectDialog.Create(Application);
-//  SelectDialog.ScaleWindow(Mult,Divi);
   Result:=SelectDialog.Execute(CenterPos,ATitle,ACaption,DlgType,ACaptionFormat,AButtons,
     AOption,ButtonWidth,PreSelection,DefaultButton);
   FreeAndNil(SelectDialog);
   end;
 
-//procedure ScaleSelectOption (M,D : Integer);
-//begin
-//  Mult:=M; Divi:=D;
-//  end;
-
+function SelectOption (const ACaption : string;
+                       DlgType: TMsgDlgType;
+                       ACaptionFormat : TFontStyles;
+                       const AButtons : array of string;
+                       AOption        : string = '';
+                       ButtonWidth    : integer = 0;
+                       PreSelection   : integer = -1;
+                       const DefaultButton : string = '') : integer;
 begin
-  Mult:=1; Divi:=1;
+  Result:=SelectOption('',ACaption,DlgType,ACaptionFormat,AButtons,
+    AOption,ButtonWidth,PreSelection,DefaultButton);
+  end;
+
 end.
