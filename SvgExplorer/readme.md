@@ -11,7 +11,7 @@ The program is based on the SVGExplorer by
 - **Edit button** to start an SVG editor such as [Inkscape](https://inkscape.org/) for the selected image
 - **PNG export** in selectable size using the functions of *SVGIconUtils*
 - **SVG optimizing** by calling the external program [SvgCleaner](https://github.com/RazrFalcon/svgcleaner) to losslessly reduce the sizes of SVG images 
-- **Extended context menu** to copy and paste images
+- **Extended context menu** to copy and paste image files
 - **Localization** using [GnuGettext for Delphi](https://github.com/jrathlev/GnuGetText-for-Delphi)
 
 
