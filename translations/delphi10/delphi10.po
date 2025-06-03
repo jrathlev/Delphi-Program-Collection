@@ -1,0 +1,9604 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-12-29 11:45\n"
+"PO-Revision-Date: 2015-12-29 11:45\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 2.0.2\n"
+
+msgid "Colors"
+msgstr ""
+
+msgid "Choose Color"
+msgstr ""
+
+msgid "&Property Name:"
+msgstr ""
+
+msgid "&System Color:"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Regular"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Bold"
+msgstr ""
+
+msgid "Bold Italic"
+msgstr ""
+
+msgid "&Font:"
+msgstr ""
+
+msgid "Font St&yle:"
+msgstr ""
+
+msgid "&Size:"
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "&Underline"
+msgstr ""
+
+msgid "Stri&keout"
+msgstr ""
+
+msgid "Sample"
+msgstr ""
+
+msgid "AaBbYyZz"
+msgstr ""
+
+msgid "Pictures"
+msgstr ""
+
+msgid "&Browse..."
+msgstr ""
+
+msgid "P&review:"
+msgstr ""
+
+msgid "All (*.bmp;*.ico;*.emf;*.wmf)|*.bmp;*.ico;*.emf;*.wmf|Bitmaps "
+"(*.bmp)|*.bmp|Icons (*.ico)|*.ico|Enhanced Metafiles "
+"(*.emf)|*.emf|Metafiles (*.wmf)|*.wmf"
+msgstr ""
+
+msgid "Load Picture"
+msgstr ""
+
+msgid "CodeGear Socket Server"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "&Listen on Port:"
+msgstr ""
+
+msgid "Many values of Port are associated by convention with a particular "
+"service such as ftp or http. Port is the ID of the connection on "
+"which the server listens for client requests. "
+msgstr ""
+
+msgid "Thread Caching"
+msgstr ""
+
+msgid "&Thread Cache Size:"
+msgstr ""
+
+msgid "Thread Cache Size is the maximum number of threads that can be reused "
+"for new client connections."
+msgstr ""
+
+msgid "Intercept GUID"
+msgstr ""
+
+msgid "&GUID:"
+msgstr ""
+
+msgid "Intercept GUID is the GUID for a data interceptor COM object.  See "
+"help for the TSocketConnection for details."
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "&Inactive Timeout:"
+msgstr ""
+
+msgid "Inactive Timeout specifes the number of minutes a client can be "
+"inactive before being disconnected. (0 indicates "
+"infinite)"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Last Activity"
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "&Properties"
+msgstr ""
+
+msgid "&Ports"
+msgstr ""
+
+msgid "&Add"
+msgstr ""
+
+msgid "&Exit"
+msgstr ""
+
+msgid "&Connections"
+msgstr ""
+
+msgid "&Apply"
+msgstr ""
+
+msgid "&Disconnect"
+msgstr ""
+
+msgid "&Show Host Name"
+msgstr ""
+
+msgid "&Remove"
+msgstr ""
+
+msgid "&Registered Objects Only"
+msgstr ""
+
+msgid "&Allow XML Packets"
+msgstr ""
+
+msgid "Strings"
+msgstr ""
+
+msgid "<Press CTRL-ENTER for new line>"
+msgstr ""
+
+msgid "&Clear"
+msgstr ""
+
+msgid "Property Name:"
+msgstr ""
+
+msgid "Database Login"
+msgstr ""
+
+msgid "&OK"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Database:"
+msgstr ""
+
+msgid "&User Name:"
+msgstr ""
+
+msgid "&Password:"
+msgstr ""
+
+msgid "Enter password"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Re&move all"
+msgstr ""
+
+msgid "Update Error"
+msgstr ""
+
+msgid "Update Type:"
+msgstr ""
+
+msgid "Modified"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Error Message:"
+msgstr ""
+
+msgid " Reconcile Action "
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Show conflicting fields only"
+msgstr ""
+
+msgid "Show changed fields only"
+msgstr ""
+
+msgid "Node index %d is not valid."
+msgstr ""
+
+msgid "The owner of this entity is not the current "
+"graph."
+msgstr ""
+
+msgid "The graph must have a graph view to which is "
+"attached."
+msgstr ""
+
+msgid "Invalid class reference for TAppletApplication"
+msgstr ""
+
+msgid "LiveBindings"
+msgstr ""
+
+msgid "LiveBindings Misc"
+msgstr ""
+
+msgid "LiveBindings Deprecated"
+msgstr ""
+
+msgid "Invalid LiveBindings registration"
+msgstr ""
+
+msgid "Invalid LiveBindings unregistration"
+msgstr ""
+
+msgid "Invalid LiveBindings enumeration"
+msgstr ""
+
+msgid "Invalid LiveBindings creation"
+msgstr ""
+
+msgid "Invalid LiveBindings factory"
+msgstr ""
+
+msgid "Invalid LiveBindings factory enumeration"
+msgstr ""
+
+msgid "Invalid LiveBindings designer"
+msgstr ""
+
+msgid "Invalid data bound components"
+msgstr ""
+
+msgid "Display Text"
+msgstr ""
+
+msgid "Min Value"
+msgstr ""
+
+msgid "Max Value"
+msgstr ""
+
+msgid "Unexpected argument count"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Control Expression"
+msgstr ""
+
+msgid "Source Expression"
+msgstr ""
+
+msgid "Source Component"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Error in %0:s.  No dataset."
+msgstr ""
+
+msgid "Not implemented"
+msgstr ""
+
+msgid "Error in %0:s.  No list control editor available for "
+"%1:s"
+msgstr ""
+
+msgid "Error in %0:s.  No list control editor \"%2:s\" available for "
+"%1:s"
+msgstr ""
+
+msgid "Error in %0:s.  No enumerator available for "
+"%1:s"
+msgstr ""
+
+msgid "Error in %0:s.  Inserted item not available for "
+"%1:s"
+msgstr ""
+
+msgid "Error in %0:s.  No control component"
+msgstr ""
+
+msgid "Error in %0:s: Operation not allowed on a unidirectional data "
+"source"
+msgstr ""
+
+msgid "Error in %0:s.  No observer support for "
+"%1:s"
+msgstr ""
+
+msgid "Error in %0:s when attempting to fill a lookup list with a control "
+"(%1:s) which does not support lookups"
+msgstr ""
+
+msgid "A lookup list can't be created with a control (%0:s) which does not "
+"support lookups"
+msgstr ""
+
+msgid "TObject value expected"
+msgstr ""
+
+msgid "Unable to determine field name in %s"
+msgstr ""
+
+msgid "Unexpected grid current type in %s"
+msgstr ""
+
+msgid "Binding Expressions"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Quick Bindings"
+msgstr ""
+
+msgid "DB Links (deprecated)"
+msgstr ""
+
+msgid "CheckedState"
+msgstr ""
+
+msgid "Bidirectional method to either get the checked state of a control,\n"
+"or set the checked state in a control\n"
+"Example usage when binding to a TCheckBox:\n"
+"   CheckedState(Self)"
+msgstr ""
+
+msgid "SelectedText"
+msgstr ""
+
+msgid "Bidirectional method to either get the text selected in a control,\n"
+"or set the text selected in a control\n"
+"Example usage when binding to a TListBox:\n"
+"  SelectedText(Self)"
+msgstr ""
+
+msgid "SelectedItem"
+msgstr ""
+
+msgid "Bidirectional method to either get the selected item in a control,\n"
+"or set the selected item in a control\n"
+"Example usage when binding to a TListBox:\n"
+"  SelectedItem(Self).Text"
+msgstr ""
+
+msgid "SelectedLookupValue"
+msgstr ""
+
+msgid "Bidirectional method to either get the selected lookup value in a "
+"control\n"
+"Example usage when binding to a TListBox:\n"
+"  SelectedLookupValue(Self).AsString"
+msgstr ""
+
+msgid "SelectedValue"
+msgstr ""
+
+msgid "Bidirectional method to either get the selected value in a control,\n"
+"or set the selected lookup value in a control\n"
+"Example usage when binding to a TListBox:\n"
+"  SelectedLookupValue(Self).AsString"
+msgstr ""
+
+msgid "SelectedDateTime"
+msgstr ""
+
+msgid "Bidirectional method to either get the selected DateTime in a "
+"control,\n"
+"or set the selected DateTime value in a control\n"
+"Example usage when binding to a TCustomDateTimeEdit:\n"
+"   SelectedDateTime(Self)"
+msgstr ""
+
+msgid "Lookup"
+msgstr ""
+
+msgid "Lookup a value in a bind scope.  Returns the lookup value.\n"
+"Example usage:\n"
+"  Lookup(BindScope, \"keyfieldname\", lookupkeyvalue, "
+"\"valuefieldname\")"
+msgstr ""
+
+msgid "Error configuring %s: Object must implement "
+"IBindLink"
+msgstr ""
+
+msgid "Error configuring %s: Object must implement "
+"IBindPosition"
+msgstr ""
+
+msgid "Duplicate name '%s' in %s"
+msgstr ""
+
+msgid "Not editing"
+msgstr ""
+
+msgid "Field '%s' not found"
+msgstr ""
+
+msgid "No adapter"
+msgstr ""
+
+msgid "Error in %s: Source component and control component cannot be the "
+"same"
+msgstr ""
+
+msgid "Field Type"
+msgstr ""
+
+msgid "Generator"
+msgstr ""
+
+msgid "Error in %2:s: Member %0:s not found in "
+"%1:s"
+msgstr ""
+
+msgid "EvalError in %0:s: %1:s"
+msgstr ""
+
+msgid "First record"
+msgstr ""
+
+msgid "Prior record"
+msgstr ""
+
+msgid "Next record"
+msgstr ""
+
+msgid "Last record"
+msgstr ""
+
+msgid "Insert record"
+msgstr ""
+
+msgid "Delete record"
+msgstr ""
+
+msgid "Edit record"
+msgstr ""
+
+msgid "Post edit"
+msgstr ""
+
+msgid "Cancel edit"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Refresh data"
+msgstr ""
+
+msgid "Apply updates"
+msgstr ""
+
+msgid "Cancel updates"
+msgstr ""
+
+msgid "Delete record?"
+msgstr ""
+
+msgid "%s does not implement IScopeLookup"
+msgstr ""
+
+msgid "Lookup controls do not support bidirectional "
+"editing"
+msgstr ""
+
+msgid "Cannot modify a read-only data source"
+msgstr ""
+
+msgid "Cannot perform this operation on a closed "
+"dataset"
+msgstr ""
+
+msgid "New instance of type %0:s does not match expected type "
+"%1:s"
+msgstr ""
+
+msgid "List is nil"
+msgstr ""
+
+msgid "Unknown editor: %s"
+msgstr ""
+
+msgid "Control Member"
+msgstr ""
+
+msgid "Source Member"
+msgstr ""
+
+msgid "Custom Format"
+msgstr ""
+
+msgid "The shared key cannot be created. Please check that you have the "
+"required OpenSSL libraries."
+msgstr ""
+
+msgid "Invalid field size"
+msgstr ""
+
+msgid "Invalid FieldKind"
+msgstr ""
+
+msgid "Invalid field registration"
+msgstr ""
+
+msgid "Field '%s' is of an unknown type"
+msgstr ""
+
+msgid "Field name missing"
+msgstr ""
+
+msgid "Duplicate field name '%s'"
+msgstr ""
+
+msgid "Cannot access field '%s' as type %s"
+msgstr ""
+
+msgid "Invalid value for field '%s'"
+msgstr ""
+
+msgid "%g is not a valid value for field '%s'. The allowed range is %g to "
+"%g"
+msgstr ""
+
+msgid "%s is not a valid value for field '%s'. The allowed range is %s to "
+"%s"
+msgstr ""
+
+msgid "'%s' is not a valid integer value for field "
+"'%s'"
+msgstr ""
+
+msgid "'%s' is not a valid boolean value for field "
+"'%s'"
+msgstr ""
+
+msgid "'%s' is not a valid floating point value for field "
+"'%s'"
+msgstr ""
+
+msgid "Type mismatch for field '%s', expecting: %s actual: "
+"%s"
+msgstr ""
+
+msgid "Size mismatch for field '%s', expecting: %d actual: "
+"%d"
+msgstr ""
+
+msgid "Invalid variant type or size for field "
+"'%s'"
+msgstr ""
+
+msgid "Value of field '%s' is out of range"
+msgstr ""
+
+msgid "Error adjusting BCD precision"
+msgstr ""
+
+msgid "Field '%s' must have a value"
+msgstr ""
+
+msgid "Field '%s' has no dataset"
+msgstr ""
+
+msgid "Field '%s' cannot be a calculated or lookup "
+"field"
+msgstr ""
+
+msgid "Field '%s' cannot be modified"
+msgstr ""
+
+msgid "Field index out of range"
+msgstr ""
+
+msgid "No index currently active"
+msgstr ""
+
+msgid "Field '%s' is not indexed and cannot be "
+"modified"
+msgstr ""
+
+msgid "Cannot access index field '%s'"
+msgstr ""
+
+msgid "Duplicate index name '%s'"
+msgstr ""
+
+msgid "No index for fields '%s'"
+msgstr ""
+
+msgid "Index '%s' not found"
+msgstr ""
+
+msgid "Circular datalinks are not allowed"
+msgstr ""
+
+msgid "Lookup information for field '%s' is "
+"incomplete"
+msgstr ""
+
+msgid "New Lookup Field"
+msgstr ""
+
+msgid "DataSource cannot be changed"
+msgstr ""
+
+msgid "Nested datasets cannot have a MasterSource"
+msgstr ""
+
+msgid "Cannot perform this operation on an open "
+"dataset"
+msgstr ""
+
+msgid "Dataset not in edit or insert mode"
+msgstr ""
+
+msgid "Cannot perform this operation on an empty "
+"dataset"
+msgstr ""
+
+msgid "Cannot modify a read-only dataset"
+msgstr ""
+
+msgid "Nested dataset must inherit from %s"
+msgstr ""
+
+msgid "Filter expression incorrectly terminated"
+msgstr ""
+
+msgid "Unterminated field name"
+msgstr ""
+
+msgid "Unterminated string constant"
+msgstr ""
+
+msgid "Invalid filter expression character: "
+"'%s'"
+msgstr ""
+
+msgid "'(' expected but %s found"
+msgstr ""
+
+msgid "')' expected but %s found"
+msgstr ""
+
+msgid "')' or ',' expected but %s found"
+msgstr ""
+
+msgid "Expression expected but %s found"
+msgstr ""
+
+msgid "Field '%s' cannot be used in a filter "
+"expression"
+msgstr ""
+
+msgid "NULL only allowed with '=' and '<>'"
+msgstr ""
+
+msgid "Constant out of range"
+msgstr ""
+
+msgid "Field '%s' is not of type Boolean"
+msgstr ""
+
+msgid "Incorrectly formed filter expression"
+msgstr ""
+
+msgid "nothing"
+msgstr ""
+
+msgid "Type mismatch in expression"
+msgstr ""
+
+msgid "Operation cannot mix aggregate value with record-varying "
+"value"
+msgstr ""
+
+msgid "Arithmetic in filter expressions not "
+"supported"
+msgstr ""
+
+msgid "Expression is not an aggregate expression"
+msgstr ""
+
+msgid "Constant is not correct type %s"
+msgstr ""
+
+msgid "Aggregate expressions not allowed in "
+"filters"
+msgstr ""
+
+msgid "IN predicate list may not be empty"
+msgstr ""
+
+msgid "Invalid use of keyword"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "Parameter '%s' not found"
+msgstr ""
+
+msgid "Unable to load bind parameters"
+msgstr ""
+
+msgid "Parameter '%s', cannot save data larger than %d "
+"bytes"
+msgstr ""
+
+msgid "Field '%s' is of an unsupported type"
+msgstr ""
+
+msgid "Property may not be modified while aggregate is "
+"active"
+msgstr ""
+
+msgid "SQL not supported"
+msgstr ""
+
+msgid "Execute not supported"
+msgstr ""
+
+msgid "Field '%s' is not the correct type of calculated field to be used in "
+"an aggregate, use an internalcalc"
+msgstr ""
+
+msgid "Record not found or changed by another "
+"user"
+msgstr ""
+
+msgid "Operation not allowed on a unidirectional "
+"dataset"
+msgstr ""
+
+msgid "Unassigned variant value"
+msgstr ""
+
+msgid "Record not found"
+msgstr ""
+
+msgid "FileName property cannot be blank"
+msgstr ""
+
+msgid "Fieldname %s exceeds %d chars"
+msgstr ""
+
+msgid "BCD overflow"
+msgstr ""
+
+msgid "%s is not a valid BCD value"
+msgstr ""
+
+msgid "Invalid format type for BCD"
+msgstr ""
+
+msgid "Could not parse SQL TimeStamp string"
+msgstr ""
+
+msgid "Invalid SQL date/time values"
+msgstr ""
+
+msgid "Calendar time cannot be represented"
+msgstr ""
+
+msgid "Delete all selected records?"
+msgstr ""
+
+msgid "Grid requested to display more than 256 "
+"columns"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Abort"
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "Correct"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Inserted"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Update Error - %s"
+msgstr ""
+
+msgid "<Unchanged>"
+msgstr ""
+
+msgid "(Binary)"
+msgstr ""
+
+msgid "(ADT)"
+msgstr ""
+
+msgid "(Array)"
+msgstr ""
+
+msgid "Field Name"
+msgstr ""
+
+msgid "Original Value"
+msgstr ""
+
+msgid "Conflicting Value"
+msgstr ""
+
+msgid " Value"
+msgstr ""
+
+msgid "<No Records>"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Are you sure you want to delete the access policy from line %d "
+"?"
+msgstr ""
+
+msgid "New access policy"
+msgstr ""
+
+msgid "File content exceeds the current block size limit of 4 "
+"MB"
+msgstr ""
+
+msgid "Block blob content is limited to maximum 64 "
+"MB"
+msgstr ""
+
+msgid "Azure Blobs"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Access Control List"
+msgstr ""
+
+msgid "Page Regions"
+msgstr ""
+
+msgid "Block List"
+msgstr ""
+
+msgid "Metadata"
+msgstr ""
+
+msgid "Signed Identifier"
+msgstr ""
+
+msgid "Blob Public Access"
+msgstr ""
+
+msgid "Content Length"
+msgstr ""
+
+msgid "Committed Blocks"
+msgstr ""
+
+msgid "Uncommitted Blocks"
+msgstr ""
+
+msgid "Create Root Container"
+msgstr ""
+
+msgid "Create Container"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Delete Root Container"
+msgstr ""
+
+msgid "Root Container deletion failed with code: %d. A possible solution is "
+"to try again after a refresh."
+msgstr ""
+
+msgid "Root Container creation failed with code: %d. A possible solution is "
+"to try again after a refresh."
+msgstr ""
+
+msgid "Container's %s creation failed with code: "
+"%d"
+msgstr ""
+
+msgid "Create root container"
+msgstr ""
+
+msgid "Create a new container"
+msgstr ""
+
+msgid "Create Block Blob"
+msgstr ""
+
+msgid "Create Page Blob"
+msgstr ""
+
+msgid "Create a Block Blob in %s container"
+msgstr ""
+
+msgid "Create a Page Blob in %s container"
+msgstr ""
+
+msgid "Please allow 10 minutes per MB for the operation to "
+"complete"
+msgstr ""
+
+msgid "You are about to delete of %s %s. Proceed with "
+"it?"
+msgstr ""
+
+msgid "root container"
+msgstr ""
+
+msgid "container"
+msgstr ""
+
+msgid "blob"
+msgstr ""
+
+msgid "Add Page"
+msgstr ""
+
+msgid "Page management for %s/%s blob"
+msgstr ""
+
+msgid "Add Block"
+msgstr ""
+
+msgid "Block management for %s/%s blob"
+msgstr ""
+
+msgid "Delete Container"
+msgstr ""
+
+msgid "Delete Blob"
+msgstr ""
+
+msgid "You are about to delete the %s container and all its content. Proceed "
+"with the deletion?"
+msgstr ""
+
+msgid "You are about to delete the blob %s from the %s container. Proceed "
+"with the deletion?"
+msgstr ""
+
+msgid "Container %s deletion failed with code "
+"%d."
+msgstr ""
+
+msgid "Blob %s/%s deletion attempt failed with code "
+"%d."
+msgstr ""
+
+msgid "No more new operations are allowed until the completion of the "
+"previous one"
+msgstr ""
+
+msgid "Busy..."
+msgstr ""
+
+msgid "Edit Metadata"
+msgstr ""
+
+msgid "Blob's %s/%s metadata access failed. Error code is: "
+"%d."
+msgstr ""
+
+msgid "Edit Blob %s/%s Metadata"
+msgstr ""
+
+msgid "Container's %s metadata access failed. Error code is: "
+"%d."
+msgstr ""
+
+msgid "Edit Container %s Metadata"
+msgstr ""
+
+msgid "Accessing the properties of %s/%s blob failed. Error code is: "
+"%d."
+msgstr ""
+
+msgid "Properties of %s/%s"
+msgstr ""
+
+msgid "Edit Access Control List"
+msgstr ""
+
+msgid "Create Snapshot"
+msgstr ""
+
+msgid "Create snapshot of %s/%s"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy blob %s/%s into..."
+msgstr ""
+
+msgid "The destination container %s cannot be found. You can create it or "
+"refresh the storage content"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Are you sure you want to change the content of "
+"%s?"
+msgstr ""
+
+msgid "Commit Block List"
+msgstr ""
+
+msgid "Commit block list for blob %s/%s"
+msgstr ""
+
+msgid "Committing the block list of %s/%s failed. Error code is: "
+"%d."
+msgstr ""
+
+msgid "The block list is empty for blob %s/%s. Please use %s to add blocks "
+"into it and then commit them."
+msgstr ""
+
+msgid "Lease..."
+msgstr ""
+
+msgid "Acquire"
+msgstr ""
+
+msgid "Copy Lease ID"
+msgstr ""
+
+msgid "Renew"
+msgstr ""
+
+msgid "Release"
+msgstr ""
+
+msgid "Break"
+msgstr ""
+
+msgid "Lease on %s/%s is aquired for %d seconds"
+msgstr ""
+
+msgid "Lease on %s/%s is broken, a new lease can be acquired in %d "
+"seconds"
+msgstr ""
+
+msgid "Lease on %s/%s is renewed for another %d "
+"seconds"
+msgstr ""
+
+msgid "Lease on %s/%s is released"
+msgstr ""
+
+msgid "Update Blob Content"
+msgstr ""
+
+msgid "Update blob's %s/%s content"
+msgstr ""
+
+msgid "Cloud access error. "
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Azure Queues"
+msgstr ""
+
+msgid "Plus %d More..."
+msgstr ""
+
+msgid "Add Queue"
+msgstr ""
+
+msgid "Remove Queue"
+msgstr ""
+
+msgid "Azure Queue Metadata"
+msgstr ""
+
+msgid "Queue Metadata"
+msgstr ""
+
+msgid "Clear Messages"
+msgstr ""
+
+msgid "Add Message"
+msgstr ""
+
+msgid "Remove Message"
+msgstr ""
+
+msgid "Failed to add Queue: %s"
+msgstr ""
+
+msgid "Queue Metadata operation failed for: "
+"%s"
+msgstr ""
+
+msgid "Failed to remove Queue: %s"
+msgstr ""
+
+msgid "Enter New Queue Name:"
+msgstr ""
+
+msgid "Enter Message:"
+msgstr ""
+
+msgid "Failed to add Message to Queue: %s"
+msgstr ""
+
+msgid "Failed to remove Message(s) from Queue: "
+"%s"
+msgstr ""
+
+msgid "Azure Tables"
+msgstr ""
+
+msgid "Enter New Table Name:"
+msgstr ""
+
+msgid "Add Table"
+msgstr ""
+
+msgid "Delete Table"
+msgstr ""
+
+msgid "View Data"
+msgstr ""
+
+msgid "Failed to add Table: %s"
+msgstr ""
+
+msgid "Failed to remove Table: %s"
+msgstr ""
+
+msgid "Azure Table Editor"
+msgstr ""
+
+msgid "Azure Table Editor: %s"
+msgstr ""
+
+msgid "Load More"
+msgstr ""
+
+msgid "[new entity]"
+msgstr ""
+
+msgid "Add Entity"
+msgstr ""
+
+msgid "Delete Entity"
+msgstr ""
+
+msgid "Failed to remove Entity: %s"
+msgstr ""
+
+msgid "Failed to add Entity"
+msgstr ""
+
+msgid "Failed to update Entity"
+msgstr ""
+
+msgid "Import Entities"
+msgstr ""
+
+msgid "One or more Entities were not imported."
+msgstr ""
+
+msgid "Entity: %s"
+msgstr ""
+
+msgid "The specified name cannot be used."
+msgstr ""
+
+msgid "That name is already in use by another "
+"column."
+msgstr ""
+
+msgid "Add a Property"
+msgstr ""
+
+msgid "Delete Property"
+msgstr ""
+
+msgid "Data Type"
+msgstr ""
+
+msgid "Edit Property"
+msgstr ""
+
+msgid "You may not modify %s"
+msgstr ""
+
+msgid "Are you sure you want to delete this "
+"item?"
+msgstr ""
+
+msgid "Are you sure you want to delete these "
+"items?"
+msgstr ""
+
+msgid "Value is not a valid %s"
+msgstr ""
+
+msgid "Provided Name contains invalid characters."
+msgstr ""
+
+msgid "Add Property"
+msgstr ""
+
+msgid "Enter the new property's name"
+msgstr ""
+
+msgid "A Property with name '%s' already exists."
+msgstr ""
+
+msgid "Continue and lose current changes?"
+msgstr ""
+
+msgid "Results Truncated..."
+msgstr ""
+
+msgid "Cannot connect %s to server, SQLConnection and ServerClassName must "
+"both be set."
+msgstr ""
+
+msgid "Unknown command type"
+msgstr ""
+
+msgid "The parameter has an invalid number "
+"format"
+msgstr ""
+
+msgid "The callback tunnel is in an invalid state and should be "
+"terminated."
+msgstr ""
+
+msgid "Specified protocol in request %s is not supported. Current supported "
+"protocols are: %s, json, tunnel"
+msgstr ""
+
+msgid "none specified (uses rest)"
+msgstr ""
+
+msgid "Command %s in request is not supported. Accepted commands are: GET, "
+"POST, PUT and DELETE"
+msgstr ""
+
+msgid "Unknown data type for parameter %d: "
+"%d"
+msgstr ""
+
+msgid "Unknown data type: %s"
+msgstr ""
+
+msgid "OnGetClass event not set or it did not provide a class "
+"reference"
+msgstr ""
+
+msgid "Invalid request format. /className/methodName and eventual parameters "
+"expected."
+msgstr ""
+
+msgid "Server method %0:s has only %1:d parameters. Too many arguments "
+"actual arguments: %2:d."
+msgstr ""
+
+msgid "Server's method %0:s %1:d parameter in not an input parameter. Either "
+"call with less parameters or change the method "
+"definition."
+msgstr ""
+
+msgid "Message content is not a valid JSON "
+"value."
+msgstr ""
+
+msgid "Internal command %s not implemented."
+msgstr ""
+
+msgid "Cannot convert JSON value %0:s input into "
+"%1:s"
+msgstr ""
+
+msgid "No conversion exists for JSON value "
+"%0:s"
+msgstr ""
+
+msgid "Cannot convert DBX type %0:s into a JSON "
+"value"
+msgstr ""
+
+msgid "Server method %0:s consumed only %1:d input parameters out of %2:d. "
+"Either call with more parameters or change method "
+"definition."
+msgstr ""
+
+msgid "Request type %0:s has an empty content. A JSON command object is "
+"expected"
+msgstr ""
+
+msgid "JSON protocol expects a POST request instead of %0:s. Submit a POST "
+"request with a JSON command to receive proper "
+"response"
+msgstr ""
+
+msgid "JSON protocol expects a JSON array instead a %0:s type. Submit a POST "
+"request with a JSON command to receive proper "
+"response"
+msgstr ""
+
+msgid "Session expired"
+msgstr ""
+
+msgid "HTTP request is missing the session parameter. Add %s parameter with "
+"the session id."
+msgstr ""
+
+msgid "HTTP request misses the count parameter. Add %s parameter holding the "
+"byte count."
+msgstr ""
+
+msgid "Error redirecting byte flow to internal "
+"server."
+msgstr ""
+
+msgid "Error in method %s while waiting for a "
+"semaphore."
+msgstr ""
+
+msgid "Timeout occured in method %s while waiting for a "
+"semaphore."
+msgstr ""
+
+msgid "Communication was terminated."
+msgstr ""
+
+msgid "Invalid parameter naming. Expected [dcname.]field[numeric range] "
+"instead of %s"
+msgstr ""
+
+msgid "The output parameter (%d) cannot be converted by the selected "
+"converter (%s)"
+msgstr ""
+
+msgid "Value must be an instance of TJSONObject"
+msgstr ""
+
+msgid "Command %s not implemented"
+msgstr ""
+
+msgid "Invocation failed as there is currently no registered callback for "
+"the given id (%s)"
+msgstr ""
+
+msgid "Channel is terminated while %d are still registered with "
+"it"
+msgstr ""
+
+msgid "Authentication manager rejected user credentials. This may due to "
+"invalid combination of DS user name and "
+"password"
+msgstr ""
+
+msgid "The specified session has expired due to inactivity or was an invalid "
+"Session ID"
+msgstr ""
+
+msgid "%s class has already been added to the server class "
+"list"
+msgstr ""
+
+msgid "%s class not found in the server class "
+"list"
+msgstr ""
+
+msgid "%s method not found in the server method "
+"list"
+msgstr ""
+
+msgid "All open command objects must be close before changing the server "
+"connection"
+msgstr ""
+
+msgid "Invalid command handle:  %s"
+msgstr ""
+
+msgid "%s is an unrecognized command type"
+msgstr ""
+
+msgid "%s method has already been added to the server method "
+"list"
+msgstr ""
+
+msgid "Command closed or executed again"
+msgstr ""
+
+msgid "%s is not authorized to perform the requested "
+"action."
+msgstr ""
+
+msgid "The current session does not have permission to perform the requested "
+"action."
+msgstr ""
+
+msgid "Remote error: %s"
+msgstr ""
+
+msgid "Command closed or unassigned."
+msgstr ""
+
+msgid "An appropriate REST Service was not "
+"specified."
+msgstr ""
+
+msgid "There is no cached item with ID: %d"
+msgstr ""
+
+msgid "There is no parameter for command %d, parameter index "
+"%d."
+msgstr ""
+
+msgid "Connection cannot be nil.  Make sure the connection has been "
+"opened."
+msgstr ""
+
+msgid "Invalid response: cannot parse %s."
+msgstr ""
+
+msgid "Cannot write %d bytes. Only %d were "
+"delivered."
+msgstr ""
+
+msgid "Response size (%d bytes) is greater than expected (%d "
+"bytes)."
+msgstr ""
+
+msgid "Connection lost"
+msgstr ""
+
+msgid "Parameter not set for column number "
+"%d"
+msgstr ""
+
+msgid "Protocol %0:s can be used after an adequate instance of %1:s is "
+"registered with %2:s."
+msgstr ""
+
+msgid "Connection timeout error"
+msgstr ""
+
+msgid "Communication timeout error"
+msgstr ""
+
+msgid "Feature not implemented"
+msgstr ""
+
+msgid "The certificate has expired."
+msgstr ""
+
+msgid "The certificate is not yet valid."
+msgstr ""
+
+msgid "Invalid certificate File."
+msgstr ""
+
+msgid "Caused by: %s"
+msgstr ""
+
+msgid "Commands with output values must be "
+"prepared"
+msgstr ""
+
+msgid "Callback input argument cannot be parsed properly. This is due to a "
+"parser error or the server side-serialization"
+msgstr ""
+
+msgid "A callback parameter cannot be found at the provided "
+"index"
+msgstr ""
+
+msgid "Command needs more DBXReader parameters"
+msgstr ""
+
+msgid "Invalid metadata message format"
+msgstr ""
+
+msgid "Cannot parse properly the callback output "
+"argument"
+msgstr ""
+
+msgid "Invalid callback message format"
+msgstr ""
+
+msgid "Cannot parse properly the metadata value"
+msgstr ""
+
+msgid "MetaData cannot be provided from a Blackfish SQL server older than "
+"version 8.0"
+msgstr ""
+
+msgid "Invalid JSON header byte encountered"
+msgstr ""
+
+msgid "Close error"
+msgstr ""
+
+msgid "Read error"
+msgstr ""
+
+msgid "Unexpected header"
+msgstr ""
+
+msgid "Encryption key expected to be not null"
+msgstr ""
+
+msgid "Cypher filter needs to be setUp first"
+msgstr ""
+
+msgid "Operation %s cannot complete since it expects a container for at "
+"least %s bytes instead of %s"
+msgstr ""
+
+msgid "Cypher keys do not match, please use the same "
+"key"
+msgstr ""
+
+msgid "Read attempt when no read data is available"
+msgstr ""
+
+msgid "Write attempt when write data is already "
+"available"
+msgstr ""
+
+msgid "Communication filter %s is not registered. Filter class needs to be "
+"registered in order to communicate with the "
+"server."
+msgstr ""
+
+msgid "Filter %s rejected setup parameter %s given value %s. At this point "
+"the server communication is not possible due to this "
+"incompatibility."
+msgstr ""
+
+msgid "No connection"
+msgstr ""
+
+msgid "The Server has no matching %s filter."
+msgstr ""
+
+msgid "The Account Key you have entered is "
+"invalid."
+msgstr ""
+
+msgid "IPImplementationID cannot be change while transport is "
+"active"
+msgstr ""
+
+msgid "Unsupported variant type: %s"
+msgstr ""
+
+msgid "%s class already registered"
+msgstr ""
+
+msgid "%s class is not registered"
+msgstr ""
+
+msgid "%s class registered with a nil class "
+"reference"
+msgstr ""
+
+msgid "%s class cannot be found in %s"
+msgstr ""
+
+msgid "Cannot free TClassRegistry.ClassRegistry"
+msgstr ""
+
+msgid "Unable to load %s (ErrorCode %d).  It may be missing from the system "
+"path."
+msgstr ""
+
+msgid "Unable to find procedure %s"
+msgstr ""
+
+msgid "Unknown driver:  %s"
+msgstr ""
+
+msgid "Invalid argument:  %s"
+msgstr ""
+
+msgid "Invalid transaction Object"
+msgstr ""
+
+msgid "%s property not set"
+msgstr ""
+
+msgid "%s driver cannot be loaded.  Make sure your project either uses the "
+"%s unit or uses packages so the %s package can be loaded "
+"dynamically"
+msgstr ""
+
+msgid "Reader Next method has not been called"
+msgstr ""
+
+msgid "Reader has no more rows"
+msgstr ""
+
+msgid "%s type cannot be modified"
+msgstr ""
+
+msgid "%s parameter cannot be modified"
+msgstr ""
+
+msgid "Cannot set this singleton instance more than once or after it has "
+"been retrieved one or more times"
+msgstr ""
+
+msgid "Cannot find connection files from application directory (%s) or the "
+"system registry (%s)."
+msgstr ""
+
+msgid "Cannot delegate a connection more than 16 times:  "
+"%s"
+msgstr ""
+
+msgid "Invalid Ordinal:  %d"
+msgstr ""
+
+msgid "DBX Error:  %s"
+msgstr ""
+
+msgid "Error Code:  "
+msgstr ""
+
+msgid "Command can only be prepared once"
+msgstr ""
+
+msgid "%s value type cannot be accessed as %s value "
+"type"
+msgstr ""
+
+msgid "A driver instance with the %s name has already been "
+"loaded."
+msgstr ""
+
+msgid "Operation failed.  Connection was closed"
+msgstr ""
+
+msgid "Could not find metadata: %s; package: %s. Add %s to your "
+"uses."
+msgstr ""
+
+msgid "JSON byte stream cannot be parsed correctly into a JSON "
+"value"
+msgstr ""
+
+msgid "No statement to execute"
+msgstr ""
+
+msgid "%s.  Vendor error message:  %s."
+msgstr ""
+
+msgid "dbExpress driver does not support the %s data "
+"type"
+msgstr ""
+
+msgid "Unmatched brace found in format string: "
+"%s"
+msgstr ""
+
+msgid "Unmatched brace found in format string: "
+"%d"
+msgstr ""
+
+msgid "Connect request timed out after %s milliseconds"
+msgstr ""
+
+msgid "Unrecognized command:  %s"
+msgstr ""
+
+msgid "%s is an invalid setting for the %s property.\n"
+"Use '%s' or a semicolon separated list of one or more of the "
+"following:\n"
+"%s %s %s %s %s %s %s %s %s %s %s %s"
+msgstr ""
+
+msgid "Internal: Field %s has no serialized "
+"value"
+msgstr ""
+
+msgid "Internal: Field %s conversion is incomplete"
+msgstr ""
+
+msgid "Internal: Array expected instead of "
+"%s"
+msgstr ""
+
+msgid "Internal: Array expected instead of "
+"nil"
+msgstr ""
+
+msgid "Internal: Type expected"
+msgstr ""
+
+msgid "Internal: Type fields pair expected"
+msgstr ""
+
+msgid "Internal: JSON value expected instead of "
+"%s"
+msgstr ""
+
+msgid "Internal: Current context cannot accept a "
+"value"
+msgstr ""
+
+msgid "Internal: Object context expected when processing a "
+"pair"
+msgstr ""
+
+msgid "Internal: Current context cannot accept a "
+"pair"
+msgstr ""
+
+msgid "Internal: Type %s is not currently supported"
+msgstr ""
+
+msgid "Field attribute should provide a field interceptor instead of a type "
+"one on field %s"
+msgstr ""
+
+msgid "Internal: Conversion failed, converted object is most likely "
+"incomplete"
+msgstr ""
+
+msgid "Internal: No conversion possible for type: "
+"%s"
+msgstr ""
+
+msgid "Internal: Field %s cannot be found in type "
+"%s"
+msgstr ""
+
+msgid "Internal: Value %s cannot be converted to be assigned to field %s in "
+"type %s"
+msgstr ""
+
+msgid "Value %s cannot be converted into %s. You may use a user-defined "
+"reverter"
+msgstr ""
+
+msgid "Cannot set value for field %s as it is expected to be an array "
+"instead of %s"
+msgstr ""
+
+msgid "Internal: Cannot instantiate type %s"
+msgstr ""
+
+msgid "The input value is not a valid Object"
+msgstr ""
+
+msgid "Internal: Object type %s not found for id: "
+"%s"
+msgstr ""
+
+msgid "Internal: Invalid pair name %s: expected %s or "
+"%s"
+msgstr ""
+
+msgid "Un-marshaled array cannot be set as a field value. A reverter may be "
+"missing for field %s of %s"
+msgstr ""
+
+msgid "Object expected at position %d in JSON array "
+"%s"
+msgstr ""
+
+msgid "String expected at position %d in JSON array "
+"%s"
+msgstr ""
+
+msgid "JSON array expected for field %s in JSON "
+"%s"
+msgstr ""
+
+msgid "JSON object expected for field %s in JSON "
+"%s"
+msgstr ""
+
+msgid "JSON string expected for field %s in JSON "
+"%s"
+msgstr ""
+
+msgid "No Product name found for Data Provider. No metadata can be "
+"provided."
+msgstr ""
+
+msgid "No metadata could be loaded for: %s."
+msgstr ""
+
+msgid "Could not locate the type: %s."
+msgstr ""
+
+msgid "Invoke Next before getting data from a "
+"reader."
+msgstr ""
+
+msgid "No more data in reader."
+msgstr ""
+
+msgid "Unknown Data Type"
+msgstr ""
+
+msgid "Cannot load metadata for %s."
+msgstr ""
+
+msgid "Unexpected metadata type"
+msgstr ""
+
+msgid "Must call Insert before Post."
+msgstr ""
+
+msgid "Must call Post before moving away from a new "
+"row."
+msgstr ""
+
+msgid "Must call Edit before table can be modified."
+msgstr ""
+
+msgid "Additional columns must be added after the prescribed "
+"columns."
+msgstr ""
+
+msgid "Objecta are not supported with this metadata "
+"store."
+msgstr ""
+
+msgid "Unexpected data type %s"
+msgstr ""
+
+msgid "Driver already registered:  "
+msgstr ""
+
+msgid "No \"%s\" defined in %s"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Insufficient memory to complete the "
+"operation"
+msgstr ""
+
+msgid "Unsupported field type"
+msgstr ""
+
+msgid "Unexpected internal error. DBX Object such as a connection, command, "
+"or reader may already be closed."
+msgstr ""
+
+msgid "Not supported"
+msgstr ""
+
+msgid "Invalid time"
+msgstr ""
+
+msgid "Invalid type"
+msgstr ""
+
+msgid "Invalid ordinal"
+msgstr ""
+
+msgid "Invalid parameter"
+msgstr ""
+
+msgid "No more rows"
+msgstr ""
+
+msgid "Parameter not set"
+msgstr ""
+
+msgid "Invalid username or password"
+msgstr ""
+
+msgid "Invalid precision"
+msgstr ""
+
+msgid "Invalid length"
+msgstr ""
+
+msgid "Invalid isolation level"
+msgstr ""
+
+msgid "Invalid transaction id"
+msgstr ""
+
+msgid "Duplicate transaction id"
+msgstr ""
+
+msgid "Driver restricted"
+msgstr ""
+
+msgid "Transaction active"
+msgstr ""
+
+msgid "Multiple transaction not enabled"
+msgstr ""
+
+msgid "Connection failed"
+msgstr ""
+
+msgid "Driver could not be properly initialized.  Client library may be "
+"missing, not installed properly, of the wrong version, or the driver "
+"may be missing from the system path."
+msgstr ""
+
+msgid "Optimistic lock failed"
+msgstr ""
+
+msgid "Invalid reference"
+msgstr ""
+
+msgid "No table"
+msgstr ""
+
+msgid "Missing parameter marker"
+msgstr ""
+
+msgid "Driver incompatible"
+msgstr ""
+
+msgid "Invalid argument"
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "Vendor error"
+msgstr ""
+
+msgid "Unrecognized command type."
+msgstr ""
+
+msgid "Schema or user name separated by a '.' must be "
+"specified."
+msgstr ""
+
+msgid "Database must be specified."
+msgstr ""
+
+msgid "LibraryName must be specified."
+msgstr ""
+
+msgid "GetDriverFunc must be specified."
+msgstr ""
+
+msgid "VendorLib must be specified"
+msgstr ""
+
+msgid "Table cannot use column %s in an order by operation since it does not "
+"exist"
+msgstr ""
+
+msgid "Illegal argument"
+msgstr ""
+
+msgid "Unsupported operation"
+msgstr ""
+
+msgid "Unexpected string overflow.  Length('%s') >= "
+"%s)"
+msgstr ""
+
+msgid "Cannot convert JSON input into a stream"
+msgstr ""
+
+msgid "Cannot convert DBX type %s into a JSON "
+"value"
+msgstr ""
+
+msgid "Cannot convert JSON value %s input into "
+"%s"
+msgstr ""
+
+msgid "No conversion exists for JSON value "
+"%s"
+msgstr ""
+
+msgid "Literal Supported"
+msgstr ""
+
+msgid "Platform Type Name"
+msgstr ""
+
+msgid "Catalog Name"
+msgstr ""
+
+msgid "Procedure Type"
+msgstr ""
+
+msgid "Unclosed quotes were found in the metadata query: "
+"%s."
+msgstr ""
+
+msgid "Default Value"
+msgstr ""
+
+msgid "Foreign Key Name"
+msgstr ""
+
+msgid "Index Name"
+msgstr ""
+
+msgid "Unsigned"
+msgstr ""
+
+msgid "Unique"
+msgstr ""
+
+msgid "Primary Key Name"
+msgstr ""
+
+msgid "Ascending"
+msgstr ""
+
+msgid "Ordinal is outside the bounds of this "
+"cursor."
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Column Name"
+msgstr ""
+
+msgid "Table Schema Name"
+msgstr ""
+
+msgid "Primary Column Name"
+msgstr ""
+
+msgid "Ordinal"
+msgstr ""
+
+msgid "Wrong accessor method used for the datatype: "
+"%s."
+msgstr ""
+
+msgid "Case Sensitive"
+msgstr ""
+
+msgid "Minimum Version"
+msgstr ""
+
+msgid "Searchable With Like"
+msgstr ""
+
+msgid "Create Parameters"
+msgstr ""
+
+msgid "Package Name"
+msgstr ""
+
+msgid "Parameter Mode"
+msgstr ""
+
+msgid "Precision"
+msgstr ""
+
+msgid "Best Match"
+msgstr ""
+
+msgid "This method must be implemented in a derived "
+"class."
+msgstr ""
+
+msgid "No schema name specified."
+msgstr ""
+
+msgid "Maximum Version"
+msgstr ""
+
+msgid "Auto Increment"
+msgstr ""
+
+msgid "Literal Suffix"
+msgstr ""
+
+msgid "Create Format"
+msgstr ""
+
+msgid "Schema Name"
+msgstr ""
+
+msgid "Concurrency"
+msgstr ""
+
+msgid "Reserved Word"
+msgstr ""
+
+msgid "Primary Catalog Name"
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "External Definition"
+msgstr ""
+
+msgid "Type Name"
+msgstr ""
+
+msgid "Nullable"
+msgstr ""
+
+msgid "Provider Type"
+msgstr ""
+
+msgid "Fixed Length"
+msgstr ""
+
+msgid "Searchable"
+msgstr ""
+
+msgid "Constraint Name"
+msgstr ""
+
+msgid "Unknown schema name specified: %s"
+msgstr ""
+
+msgid "Parameter Name"
+msgstr ""
+
+msgid "Table Type"
+msgstr ""
+
+msgid "View Name"
+msgstr ""
+
+msgid "Minimum Scale"
+msgstr ""
+
+msgid "Column Size"
+msgstr ""
+
+msgid "Unicode"
+msgstr ""
+
+msgid "Fixed Precision"
+msgstr ""
+
+msgid "Could not parse the %1:s metadata command. Problem found near: %0:s. "
+"Original query: %2:s."
+msgstr ""
+
+msgid "Unknown table type specified:"
+msgstr ""
+
+msgid "A MetaData command was expected here e.g. "
+"GetTables."
+msgstr ""
+
+msgid "Literal Prefix"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Synonym Name"
+msgstr ""
+
+msgid "Role Name"
+msgstr ""
+
+msgid "Table Catalog Name"
+msgstr ""
+
+msgid "Maximum Scale"
+msgstr ""
+
+msgid "Primary Schema Name"
+msgstr ""
+
+msgid "Cursor is positioned before the first row, move to the next row "
+"before getting data"
+msgstr ""
+
+msgid "DbxType"
+msgstr ""
+
+msgid "Long"
+msgstr ""
+
+msgid "Primary Table Name"
+msgstr ""
+
+msgid "Max Inline"
+msgstr ""
+
+msgid "Table Name"
+msgstr ""
+
+msgid "Procedure Name"
+msgstr ""
+
+msgid "AutoIncrementable"
+msgstr ""
+
+msgid "No more data."
+msgstr ""
+
+msgid "Definition"
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But it is does "
+"not have sufficient precision."
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But is cannot be "
+"used for an auto increment column."
+msgstr ""
+
+msgid "No long %2:s type found for the column: %1:s in "
+"%0:s."
+msgstr ""
+
+msgid "Data type: %s is not recognized for SQL "
+"dialect."
+msgstr ""
+
+msgid "A view definition must start with the CREATE "
+"keyword."
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But it is "
+"unsigned."
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But the max "
+"precision is: %s which is less than the specified: "
+"%s."
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But the max scale "
+"is: %s which is less than the specified: "
+"%s."
+msgstr ""
+
+msgid "No %2:s type found for the column: %1:s in "
+"%0:s."
+msgstr ""
+
+msgid "The best type match in %s for the column: %s is %s. But it cannot "
+"hold unicode characters."
+msgstr ""
+
+msgid "The constraint: %s could not be recreated, because the column: %s was "
+"dropped."
+msgstr ""
+
+msgid "The Data type: %s requires a column: %s, which does not exist on the "
+"Column collection."
+msgstr ""
+
+msgid "Unsupported data type:  %s"
+msgstr ""
+
+msgid "Parameter not set for column number "
+"%s"
+msgstr ""
+
+msgid "Invalid Handle"
+msgstr ""
+
+msgid "Unexpected index: %d"
+msgstr ""
+
+msgid "Loading SSL module failed. One or more mapped methods are not "
+"available."
+msgstr ""
+
+msgid "SSL module was not loaded or it was not loaded successful. Use "
+"LoadSSL method to load the module"
+msgstr ""
+
+msgid "RSA key generation failed"
+msgstr ""
+
+msgid "Cannot %s more than %d bytes; current size is "
+"%d"
+msgstr ""
+
+msgid "encrypt"
+msgstr ""
+
+msgid "decrypt"
+msgstr ""
+
+msgid "SSL module was already loaded and the IP implementation cannot be "
+"changed."
+msgstr ""
+
+msgid "sqlite3.dll not found"
+msgstr ""
+
+msgid "Operation not supported by SQLite"
+msgstr ""
+
+msgid "ColumnMetaDataNotSupported"
+msgstr ""
+
+msgid "ColumnMetaDataSupported property must be "
+"set"
+msgstr ""
+
+msgid "Cannot connect to database '%s'"
+msgstr ""
+
+msgid "Cannot change connection on Active Monitor"
+msgstr ""
+
+msgid "Missing SQLConnection property"
+msgstr ""
+
+msgid "Cannot perform this operation on an open "
+"connection"
+msgstr ""
+
+msgid "Cannot perform this operation on a closed "
+"connection"
+msgstr ""
+
+msgid "SQLConnection property required for this "
+"operation"
+msgstr ""
+
+msgid "Connection name missing"
+msgstr ""
+
+msgid "No SQL statement available"
+msgstr ""
+
+msgid "No value for parameter '%s'"
+msgstr ""
+
+msgid "No parameter type for parameter '%s'"
+msgstr ""
+
+msgid ";Input;Output;Input/Output;Result"
+msgstr ""
+
+msgid ";String;SmallInt;Integer;Word;Boolean;Float;Currency;BCD;Date;Time;Dat"
+"eTime;;;;Blob;Memo;Graphic;;;;;Cursor;"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "Missing TableName property"
+msgstr ""
+
+msgid "Missing query, table name or procedure "
+"name"
+msgstr ""
+
+msgid "Missing DataSetField property"
+msgstr ""
+
+msgid "Not in cached update mode"
+msgstr ""
+
+msgid "Missing Database property"
+msgstr ""
+
+msgid "Missing DataSet property"
+msgstr ""
+
+msgid "Missing DriverName property"
+msgstr ""
+
+msgid "Unable to execute Query"
+msgstr ""
+
+msgid "Table/Procedure not found"
+msgstr ""
+
+msgid "Unable to determine field names for "
+"%s"
+msgstr ""
+
+msgid "There is no active transaction"
+msgstr ""
+
+msgid "A transaction is already active"
+msgstr ""
+
+msgid "Unable to Load %s"
+msgstr ""
+
+msgid "Unable to Find Procedure %s"
+msgstr ""
+
+msgid "&Edit Connection Properties"
+msgstr ""
+
+msgid "&Add ConnectionString Param"
+msgstr ""
+
+msgid "R&efresh ConnectionString Param"
+msgstr ""
+
+msgid "&Remove ConnectionString Param"
+msgstr ""
+
+msgid "&Edit CommandText"
+msgstr ""
+
+msgid "DLL/Shared Library Name not Set"
+msgstr ""
+
+msgid "Driver/Connection Registry File '%s' not "
+"found"
+msgstr ""
+
+msgid "Cannot find TableName in CommandText"
+msgstr ""
+
+msgid "Cursor not returned from Query"
+msgstr ""
+
+msgid "Unable to Open Metadata"
+msgstr ""
+
+msgid "SQL Error: Error mapping failed"
+msgstr ""
+
+msgid "Stored Procedures not supported by '%s' "
+"Server"
+msgstr ""
+
+msgid "Packages are not supported by '%s' Server"
+msgstr ""
+
+msgid "%s: Actual number of parameters (%d) exceeds the current number of "
+"stored procedure parameters (%d). Either uncheck the ParamCheck "
+"component property or review the parameter list "
+"content"
+msgstr ""
+
+msgid "dbExpress Error: Unknown Error Code "
+"'%s'"
+msgstr ""
+
+msgid "[0x0005]: Operation Not Supported"
+msgstr ""
+
+msgid "dbExpress Error: %s"
+msgstr ""
+
+msgid "Database Server Error: %s"
+msgstr ""
+
+msgid "Unable to move %s to %s"
+msgstr ""
+
+msgid "Configuration file %s not found"
+msgstr ""
+
+msgid "ObjectView must be True for Table with Object "
+"fields"
+msgstr ""
+
+msgid "Object type name required as parameter "
+"value"
+msgstr ""
+
+msgid "Cannot create file %s"
+msgstr ""
+
+msgid "Open trace log file"
+msgstr ""
+
+msgid "Text files (*.txt)|*.txt|All files (*.*)|*.*"
+msgstr ""
+
+msgid "Log files (*.log)"
+msgstr ""
+
+msgid "Circular provider references not allowed."
+msgstr ""
+
+msgid "Unknown data type:  %s for %s parameter"
+msgstr ""
+
+msgid "Save connection parameters"
+msgstr ""
+
+msgid "Reload connection parameters"
+msgstr ""
+
+msgid "Generate DataSnap client classes"
+msgstr ""
+
+msgid "Invalid Enum Value"
+msgstr ""
+
+msgid "Missing Connection or ConnectionString"
+msgstr ""
+
+msgid "Filter property cannot be used for detail "
+"tables"
+msgstr ""
+
+msgid "Dataset does not support bookmarks, which are required for "
+"multi-record data controls"
+msgstr ""
+
+msgid "Missing %s property"
+msgstr ""
+
+msgid "CommandText does not return a result "
+"set"
+msgstr ""
+
+msgid "Error creating object.  Please verify that the Microsoft Data Access "
+"Components 2.1 (or later) have been properly "
+"installed"
+msgstr ""
+
+msgid "Events are not supported with server side TableDirect "
+"cursors"
+msgstr ""
+
+msgid "Unsupported field type (%s) in field "
+"%s"
+msgstr ""
+
+msgid "No matching ADO data type for %s"
+msgstr ""
+
+msgid "A connection component is required for async "
+"ExecuteOptions"
+msgstr ""
+
+msgid "Cannot perform a requery after connection has "
+"changed"
+msgstr ""
+
+msgid "FilterOptions are not supported"
+msgstr ""
+
+msgid "Recordset is not open"
+msgstr ""
+
+msgid "Provider not exported: %s"
+msgstr ""
+
+msgid "Missing data provider or data packet"
+msgstr ""
+
+msgid "Invalid data packet"
+msgstr ""
+
+msgid "Must apply updates before refreshing "
+"data"
+msgstr ""
+
+msgid "Invalid provider. Provider was freed by the application "
+"server"
+msgstr ""
+
+msgid "Cannot connect, %s must contain a valid ServerName or "
+"ServerGUID"
+msgstr ""
+
+msgid "Cannot connect, %s must contain a valid repository "
+"id"
+msgstr ""
+
+msgid "Grouping level exceeds current index field "
+"count"
+msgstr ""
+
+msgid "Grouping level not defined"
+msgstr ""
+
+msgid "Circular provider references not allowed"
+msgstr ""
+
+msgid "Error loading MIDAS.DLL"
+msgstr ""
+
+msgid "No fields defined.  Cannot create dataset"
+msgstr ""
+
+msgid "CloneConnection invalid: distinct ClientDataSet "
+"descendents"
+msgstr ""
+
+msgid "Open MyBase table"
+msgstr ""
+
+msgid "Connection not allowed to TConnectionBroker"
+msgstr ""
+
+msgid "Error reading from socket"
+msgstr ""
+
+msgid "Provider name \"%s\" was not recognized by the "
+"server"
+msgstr ""
+
+msgid "Invalid action received: %d"
+msgstr ""
+
+msgid "ParentConnection is not assigned"
+msgstr ""
+
+msgid "ChildName cannot be blank"
+msgstr ""
+
+msgid "Invalid response"
+msgstr ""
+
+msgid "Update affected more than 1 record."
+msgstr ""
+
+msgid "Value cannot be stored in an optional "
+"parameter"
+msgstr ""
+
+msgid "Record or field constraint failed."
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Cannot apply updates to a ReadOnly provider"
+msgstr ""
+
+msgid "Unable to find record.  No key specified"
+msgstr ""
+
+msgid "Cannot resolve to dataset when using nested datasets or "
+"references"
+msgstr ""
+
+msgid "Preparation of record constraint failed with error "
+"\"%s\""
+msgstr ""
+
+msgid "Preparation of field constraint failed with error "
+"\"%s\""
+msgstr ""
+
+msgid "Preparation of default expression failed with error "
+"\"%s\""
+msgstr ""
+
+msgid "Array elements of type %s are not supported"
+msgstr ""
+
+msgid "Unable to resolve records.  Table name not "
+"found."
+msgstr ""
+
+msgid "Modifications are not allowed"
+msgstr ""
+
+msgid "Deletes are not allowed"
+msgstr ""
+
+msgid "Inserts are not allowed"
+msgstr ""
+
+msgid "CommandText changes are not allowed"
+msgstr ""
+
+msgid "Operation not allowed with aggregates "
+"active"
+msgstr ""
+
+msgid "No server available"
+msgstr ""
+
+msgid "<Invalid Registration: %s>"
+msgstr ""
+
+msgid "Requires Connection before opening"
+msgstr ""
+
+msgid "Circular reference to Connection not "
+"allowed"
+msgstr ""
+
+msgid "Expected return value not received"
+msgstr ""
+
+msgid "WinSock 2 must be installed to use the socket "
+"connection"
+msgstr ""
+
+msgid "URL required"
+msgstr ""
+
+msgid "http://server.company.com/scripts/httpsrvr.dll"
+msgstr ""
+
+msgid "URL must be in the form \"http://server.company.com/scripts/httpsrvr.dl"
+"l\""
+msgstr ""
+
+msgid "Server is busy"
+msgstr ""
+
+msgid "Object not available: %s"
+msgstr ""
+
+msgid "Cannot open detail table with master "
+"closed"
+msgstr ""
+
+msgid "Class not available"
+msgstr ""
+
+msgid "Out of memory"
+msgstr ""
+
+msgid "Unable to load Midas due to missing code page conversion "
+"library."
+msgstr ""
+
+msgid "Could not find server in ObjectManager "
+"list"
+msgstr ""
+
+msgid "NilToTBitmap"
+msgstr ""
+
+msgid "Assign nil to a TBitmap clears the bitmap"
+msgstr ""
+
+msgid "Operation not supported on selected "
+"printer"
+msgstr ""
+
+msgid "Printer selected is not valid"
+msgstr ""
+
+msgid "Printer index out of range"
+msgstr ""
+
+msgid "%s on %s"
+msgstr ""
+
+msgid "There is no default printer currently "
+"selected"
+msgstr ""
+
+msgid "Printer is not currently printing"
+msgstr ""
+
+msgid "Printing in progress"
+msgstr ""
+
+msgid "Invalid printing job settings"
+msgstr ""
+
+msgid "Invalid page format settings"
+msgstr ""
+
+msgid "Cannot start the printing job"
+msgstr ""
+
+msgid "Cannot end the printing job"
+msgstr ""
+
+msgid "Cannot add the page for printing"
+msgstr ""
+
+msgid "Cannot change the number of document "
+"copies"
+msgstr ""
+
+msgid "Cannot focus this control"
+msgstr ""
+
+msgid "The function '%s' must not return nil "
+"value"
+msgstr ""
+
+msgid "The style you have chosen is not available for your currently "
+"selected target platform. You can select a custom style or remove the "
+"stylebook to allow FireMonkey to automatically load the native style "
+"at run time"
+msgstr ""
+
+msgid "Can't load style from stream"
+msgstr ""
+
+msgid "Can't load style from resource"
+msgstr ""
+
+msgid "Can't load style from file %s"
+msgstr ""
+
+msgid "Invalid printer class: %s"
+msgstr ""
+
+msgid "Length of value array must be >= length of prompt "
+"array"
+msgstr ""
+
+msgid "Prompt array must not be empty"
+msgstr ""
+
+msgid "Unsupported InputQuery fields"
+msgstr ""
+
+msgid "Invalid Color string"
+msgstr ""
+
+msgid "Invalid FMX Handle: %s%.*x"
+msgstr ""
+
+msgid "At the moment you can't change the window's "
+"handle"
+msgstr ""
+
+msgid "Unsupported media file %s%"
+msgstr ""
+
+msgid "Unsupported platform service: %s"
+msgstr ""
+
+msgid "Service %s already registered"
+msgstr ""
+
+msgid "Unsupported OS version: %s"
+msgstr ""
+
+msgid "There is an instance of \"%s\" already. Multiple instances are not "
+"supported"
+msgstr ""
+
+msgid "Instance of \"%s\" not created"
+msgstr ""
+
+msgid "Class of flashing control, is not registered"
+msgstr ""
+
+msgid "Class %0:s does not support interface "
+"%1:s"
+msgstr ""
+
+msgid "Handled null exception"
+msgstr ""
+
+msgid "Unable to obtain device ID. Use SetTestModeDeviceID."
+msgstr ""
+
+msgid "An unknown combination of keys %s"
+msgstr ""
+
+msgid "You can use only the inheritors of class "
+"\"%s\""
+msgstr ""
+
+msgid "Cannot create menu ID. All IDs have already been "
+"assigned"
+msgstr ""
+
+msgid "Invalid gesture ID (%d)"
+msgstr ""
+
+msgid "Invalid stream format"
+msgstr ""
+
+msgid "Duplicate gesture name: %s"
+msgstr ""
+
+msgid "A recorded gesture named %s already "
+"exists"
+msgstr ""
+
+msgid "Control not found"
+msgstr ""
+
+msgid "The following registered gestures were not found:\n"
+"\n"
+"%s"
+msgstr ""
+
+msgid "Error loading previously saved settings file: %s\n"
+"Would you like to delete it?"
+msgstr ""
+
+msgid "Too many registered gestures"
+msgstr ""
+
+msgid "A registered gesture named %s already "
+"exists"
+msgstr ""
+
+msgid "Unable to save settings"
+msgstr ""
+
+msgid "Invalid gesture name (%s)"
+msgstr ""
+
+msgid "Value must be between %d and %d"
+msgstr ""
+
+msgid "Unable to add IStylusAsyncPlugin: %s"
+msgstr ""
+
+msgid "Unable to add IStylusSyncPlugin: %s"
+msgstr ""
+
+msgid "Unable to remove IStylusAsyncPlugin: "
+"%s"
+msgstr ""
+
+msgid "Unable to remove IStylusSyncPlugin: "
+"%s"
+msgstr ""
+
+msgid "Unable to get or set window handle: "
+"%s"
+msgstr ""
+
+msgid "Unable to enable or disable IRealTimeStylus: "
+"%s"
+msgstr ""
+
+msgid "Unable to enable or disable IGestureRecognizer: "
+"%s"
+msgstr ""
+
+msgid "Unable to retrieve initial gesture point"
+msgstr ""
+
+msgid "Unable to set stylus gestures: %s"
+msgstr ""
+
+msgid "The main menu can be only a single instance"
+msgstr ""
+
+msgid "A main menu only supports TMenuItem "
+"children"
+msgstr ""
+
+msgid "No %s implementation found"
+msgstr ""
+
+msgid "%s not implemented on this platform"
+msgstr ""
+
+msgid "On Android platform, only overloads with TInputCloseBoxProc or "
+"TInputCloseBoxEvent are supported"
+msgstr ""
+
+msgid "Bitmap size must be equal in copy operation"
+msgstr ""
+
+msgid "Blocking dialogs"
+msgstr ""
+
+msgid "Cannot create %s, because |CreateScrollContent| must return not nil "
+"object"
+msgstr ""
+
+msgid "Presentation received nil Content from TPresentedControl. Content "
+"cannot be nil."
+msgstr ""
+
+msgid "Point not in layout"
+msgstr ""
+
+msgid "TCaretPosition.Line has incorrect value"
+msgstr ""
+
+msgid "TCaretPosition.Pos has incorrect value"
+msgstr ""
+
+msgid "Invalid IScene.DisableUpdating/IScene.EnableUpdating call "
+"pair"
+msgstr ""
+
+msgid "No platform styles found"
+msgstr ""
+
+msgid "No platform style found for the current "
+"platform"
+msgstr ""
+
+msgid "Required IDeviceBehavior is not registered"
+msgstr ""
+
+msgid "Style resource does not exist"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "No help available"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Ignore"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "No to All"
+msgstr ""
+
+msgid "Yes to &All"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "%s requires Windows Vista or later"
+msgstr ""
+
+msgid "&Username"
+msgstr ""
+
+msgid "&Password"
+msgstr ""
+
+msgid "&Domain"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Quit %s"
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "Hide %s"
+msgstr ""
+
+msgid "Hide Others"
+msgstr ""
+
+msgid "<Application.Title>"
+msgstr ""
+
+msgid "application"
+msgstr ""
+
+msgid "Go to %s"
+msgstr ""
+
+msgid "Go to <Tab>"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "%3.0F %%"
+msgstr ""
+
+msgid "Google Play Services needs to be updated. Please go to Play Store to "
+"update  Google Play Services then, restart the "
+"application"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Cut"
+msgstr ""
+
+msgid "Paste"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "ERROR at line %d. %s expected but token %s "
+"found."
+msgstr ""
+
+msgid "ERROR at line %d. '%s' expected but char '%s' "
+"found."
+msgstr ""
+
+msgid "File is corrupt."
+msgstr ""
+
+msgid "Wrong materials number"
+msgstr ""
+
+msgid "Wrong vertex number"
+msgstr ""
+
+msgid "Wrong normal number"
+msgstr ""
+
+msgid "Wrong texture coord number"
+msgstr ""
+
+msgid "Wrong vertex index"
+msgstr ""
+
+msgid "Wrong faces number"
+msgstr ""
+
+msgid "Wrong faces index"
+msgstr ""
+
+msgid "Wrong triangle mesh number"
+msgstr ""
+
+msgid "Wrong triangle mesh index"
+msgstr ""
+
+msgid "Wrong texture coord index"
+msgstr ""
+
+msgid "Unexpected key word"
+msgstr ""
+
+msgid "Index data not found. File is corrupt."
+msgstr ""
+
+msgid "Effect id %s not found. File is corrupt."
+msgstr ""
+
+msgid "Mesh id %s not found. File is corrupt."
+msgstr ""
+
+msgid "Controller id %s not found. File is "
+"corrupt."
+msgstr ""
+
+msgid "Cannot create a circular dependency between "
+"components"
+msgstr ""
+
+msgid "%s property out of range"
+msgstr ""
+
+msgid "Active printer DPI can't be changed while "
+"printing"
+msgstr ""
+
+msgid "Error occured while reading printer settings: "
+"%s"
+msgstr ""
+
+msgid "Error occured while writing printer settings: "
+"%s"
+msgstr ""
+
+msgid "All Files"
+msgstr ""
+
+msgid "Bitmaps"
+msgstr ""
+
+msgid "Icons"
+msgstr ""
+
+msgid "TIFF Images"
+msgstr ""
+
+msgid "JPEG Images"
+msgstr ""
+
+msgid "PNG Images"
+msgstr ""
+
+msgid "GIF Images"
+msgstr ""
+
+msgid "Jpeg 2000 Images"
+msgstr ""
+
+msgid "TGA Images"
+msgstr ""
+
+msgid "WMP Images"
+msgstr ""
+
+msgid "AVI Files"
+msgstr ""
+
+msgid "WMV Files"
+msgstr ""
+
+msgid "Mpeg4 Files"
+msgstr ""
+
+msgid "QuickTime Files"
+msgstr ""
+
+msgid "M4V Files"
+msgstr ""
+
+msgid "Windows Media Audio Files"
+msgstr ""
+
+msgid "Mpeg Layer 3 Files"
+msgstr ""
+
+msgid "WAV Files"
+msgstr ""
+
+msgid "Apple Core Audio Format Files"
+msgstr ""
+
+msgid "3GP Audio Files"
+msgstr ""
+
+msgid "M4A Files"
+msgstr ""
+
+msgid "The \"%s\" cannot be modified (Fixed = "
+"True)"
+msgstr ""
+
+msgid "Duplicate scale value %s"
+msgstr ""
+
+msgid "Other scale"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Hi Res"
+msgstr ""
+
+msgid "Flash doesn't exist on this device"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "This version of Android does not have an implementation of list "
+"pickers"
+msgstr ""
+
+msgid "This version of Android does not have an implementation of Date/Time "
+"pickers"
+msgstr ""
+
+msgid "NotificationCenter: Title is not supported in "
+"iOS"
+msgstr ""
+
+msgid "NotificationCenter: Action is not supported in "
+"Android"
+msgstr ""
+
+msgid "Take Photo"
+msgstr ""
+
+msgid "Photo Library"
+msgstr ""
+
+msgid "Open to"
+msgstr ""
+
+msgid "Saved Photos"
+msgstr ""
+
+msgid "Image saved"
+msgstr ""
+
+msgid "Incorrect size of bitmap parameter(s)."
+msgstr ""
+
+msgid "Loading bitmap failed."
+msgstr ""
+
+msgid "Loading bitmap failed (%s)."
+msgstr ""
+
+msgid "Bitmap size too big."
+msgstr ""
+
+msgid "Invalid call of GetParameter."
+msgstr ""
+
+msgid "Loading thumbnail failed."
+msgstr ""
+
+msgid "Loading thumbnail failed (%s)."
+msgstr ""
+
+msgid "Saving bitmap failed."
+msgstr ""
+
+msgid "Saving bitmap failed (%s)."
+msgstr ""
+
+msgid "The specified bitmap format is not supported."
+msgstr ""
+
+msgid "Could not retrieve surface description."
+msgstr ""
+
+msgid "Could not retrieve surface contents."
+msgstr ""
+
+msgid "Failed acquiring access to bitmap."
+msgstr ""
+
+msgid "Failure during video feed capture."
+msgstr ""
+
+msgid "No CaptureDeviceManager implementation "
+"found"
+msgstr ""
+
+msgid "Invalid calling conditions for '%s'."
+msgstr ""
+
+msgid "Invalid rendering conditions for '%s'."
+msgstr ""
+
+msgid "Cannot create texture for '%s' because the size is too "
+"small."
+msgstr ""
+
+msgid "Cannot acquire bitmap access for '%s'."
+msgstr ""
+
+msgid "Cannot find a suitable pixel format for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot find a suitable shader for '%s'."
+msgstr ""
+
+msgid "Cannot determine Direct3D support level."
+msgstr ""
+
+msgid "Cannot create Direct3D object for '%s'."
+msgstr ""
+
+msgid "Cannot create Direct2D Factory object for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create DirectWrite Factory object for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create WIC Imaging Factory object for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create rendering target for '%s'."
+msgstr ""
+
+msgid "Cannot create Direct3D device for '%s'."
+msgstr ""
+
+msgid "Cannot acquire DXGI factory from Direct3D device for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot resize buffers for '%s'."
+msgstr ""
+
+msgid "Cannot associate the window handle for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot retrieve display mode for '%s'."
+msgstr ""
+
+msgid "Cannot retrieve buffer description for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create sampler state for '%s'."
+msgstr ""
+
+msgid "Cannot retreive surface for '%s'."
+msgstr ""
+
+msgid "Cannot create texture for '%s'."
+msgstr ""
+
+msgid "Cannot upload pixel data to texture for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot activate the texture for '%s'."
+msgstr ""
+
+msgid "Cannot acquire texture access for '%s'."
+msgstr ""
+
+msgid "Cannot copy texture resource '%s'."
+msgstr ""
+
+msgid "Cannot create render target view for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot activate frame buffers for '%s'."
+msgstr ""
+
+msgid "Cannot create render buffers for '%s'."
+msgstr ""
+
+msgid "Cannot retrieve device render buffers for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot activate render buffers for '%s'."
+msgstr ""
+
+msgid "Cannot begin rendering scene for '%s'."
+msgstr ""
+
+msgid "Cannot synchronize device buffers for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot upload device buffers for '%s'."
+msgstr ""
+
+msgid "Cannot create a depth/stencil buffer for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot retrieve device depth/stencil buffer for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot activate depth/stencil buffer for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create a swap chain for '%s'."
+msgstr ""
+
+msgid "Cannot resize swap chain for '%s'."
+msgstr ""
+
+msgid "Cannot activate swap chain for '%s'."
+msgstr ""
+
+msgid "Cannot create vertex shader for '%s'."
+msgstr ""
+
+msgid "Cannot create pixel shader for '%s'."
+msgstr ""
+
+msgid "Cannot create vertex layout for '%s'."
+msgstr ""
+
+msgid "Cannot create vertex declaration for "
+"'%s'."
+msgstr ""
+
+msgid "Cannot create vertex buffer for '%s'."
+msgstr ""
+
+msgid "Cannot create index buffer for '%s'."
+msgstr ""
+
+msgid "Cannot create shader for '%s'."
+msgstr ""
+
+msgid "Cannot find shader variable '%s'."
+msgstr ""
+
+msgid "Cannot activate shader program for '%s'."
+msgstr ""
+
+msgid "Cannot create OpenGL context for '%s'."
+msgstr ""
+
+msgid "Cannot update OpenGL context for '%s'."
+msgstr ""
+
+msgid "Cannot draw mesh object for '%s'."
+msgstr ""
+
+msgid "Error in context method '%s'."
+msgstr ""
+
+msgid "This feature is not supported in '%s'."
+msgstr ""
+
+msgid "Error compressing stream."
+msgstr ""
+
+msgid "Error decompressing stream."
+msgstr ""
+
+msgid "Error unpacking shader code."
+msgstr ""
+
+msgid "Cannot add columns or rows while expand style is fixed "
+"size"
+msgstr ""
+
+msgid "'%d' is not a valid span"
+msgstr ""
+
+msgid "Row index, %d, out of bounds"
+msgstr ""
+
+msgid "Column index, %d, out of bounds"
+msgstr ""
+
+msgid "ControlItem.Control cannot be set to owning "
+"GridPanel"
+msgstr ""
+
+msgid "Cannot delete a column that contains "
+"controls"
+msgstr ""
+
+msgid "You can't delete a column by default"
+msgstr ""
+
+msgid "Cannot delete a row that contains controls"
+msgstr ""
+
+msgid "Member"
+msgstr ""
+
+msgid "Size Type"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Percent"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Column%d"
+msgstr ""
+
+msgid "Row%d"
+msgstr ""
+
+msgid "Date exceeds maximum of \"%s\""
+msgstr ""
+
+msgid "Date is less than minimum of \"%s\""
+msgstr ""
+
+msgid "DateTime picker doesn't support psmDateTime on current "
+"platform"
+msgstr ""
+
+msgid "Send image using:"
+msgstr ""
+
+msgid "Send text using:"
+msgstr ""
+
+msgid "Send text/image using:"
+msgstr ""
+
+msgid "Native %s"
+msgstr ""
+
+msgid "In-App Purchase component is not setup"
+msgstr ""
+
+msgid "In-App Purchase component has no license "
+"key"
+msgstr ""
+
+msgid "Transaction payload verification failed"
+msgstr ""
+
+msgid "Item has already been purchased"
+msgstr ""
+
+msgid "Cannot consume an item you have not "
+"purchased"
+msgstr ""
+
+msgid "Problem setting up in-app billing"
+msgstr ""
+
+msgid "Argument problem in IAP API"
+msgstr ""
+
+msgid "Cannot connect to iTunes Store"
+msgstr ""
+
+msgid "Products request already in progress"
+msgstr ""
+
+msgid "Ad failed to load: %d"
+msgstr ""
+
+msgid "You can not create Presentation without "
+"MultiView"
+msgstr ""
+
+msgid "Drawer"
+msgstr ""
+
+msgid "Overlap Drawer"
+msgstr ""
+
+msgid "Docked Panel"
+msgstr ""
+
+msgid "Popover"
+msgstr ""
+
+msgid "Navigation Pane"
+msgstr ""
+
+msgid "\"%s\" cannot be a child of \"%s\""
+msgstr ""
+
+msgid "Model is not valid class. Expected [%s], but received "
+"[%s]"
+msgstr ""
+
+msgid "[%] parameter cannot be nil"
+msgstr ""
+
+msgid "[%s] without Presentation"
+msgstr ""
+
+msgid "AControlClass cannot be nil. Factory cannot generate presentation "
+"name."
+msgstr ""
+
+msgid "Cannot create presentation proxy with nil model or PresentedControl. "
+"Use overloaded version of constructor with parameters and pass "
+"correct values."
+msgstr ""
+
+msgid "Presentation Proxy class for presentation name [%s] is not "
+"found"
+msgstr ""
+
+msgid "APresentationProxyClass is nil. Factory cannot register presentation "
+"with a nil presentation proxy class."
+msgstr ""
+
+msgid "APresentationName is empty. Factory cannot register presentation with "
+"an empty presentation name"
+msgstr ""
+
+msgid "Presentation Proxy class [%s] for this presentation name [%s] has "
+"already been registered."
+msgstr ""
+
+msgid "%s (%s)"
+msgstr ""
+
+msgid "|AOwner| should be an instance of TCustomPresentedScrollBox"
+msgstr ""
+
+msgid "Could not create styled presentation because CreateAniCalculations "
+"returned nil."
+msgstr ""
+
+msgid "Key cannot be empty. Data model cannot set or get data by key with an "
+"empty name."
+msgstr ""
+
+msgid "Invalid Application ID"
+msgstr ""
+
+msgid "Privacy Notice:\n"
+"\n"
+"This application anonymously tracks your usage and sends it to us for "
+"analysis. We use this analysis to make the software work better for "
+"you.\n"
+"\n"
+"This tracking is completely anonymous. No personally identifying "
+"information is tracked, and nothing about your usage can be tracked "
+"back to you.\n"
+"\n"
+"Please click Yes to help us to improve this software. Thank "
+"you."
+msgstr ""
+
+msgid "AppAnalytics custom event error: category cannot be "
+"empty."
+msgstr ""
+
+msgid "First argument is not a TIBCustomDataset "
+"descendant"
+msgstr ""
+
+msgid "Second argument must be either a FieldIndex (integer) or FieldName "
+"(string)"
+msgstr ""
+
+msgid "Partial match at beginning"
+msgstr ""
+
+msgid "Partial match anywhere"
+msgstr ""
+
+msgid "Exact Match"
+msgstr ""
+
+msgid "Partial match at end"
+msgstr ""
+
+msgid "Match Range"
+msgstr ""
+
+msgid "Not "
+msgstr ""
+
+msgid "IBX Filter Dialog"
+msgstr ""
+
+msgid "IBFilterDialog only works with IBDataSet or IBQuery "
+"components"
+msgstr ""
+
+msgid "Da&tabase Editor..."
+msgstr ""
+
+msgid "&Transaction Editor..."
+msgstr ""
+
+msgid "Database Files (*.ib;*.gdb)|*.ib;*.gdb|All files "
+"(*.*)|*.*"
+msgstr ""
+
+msgid "Database is currently connected. Disconnect and "
+"continue?"
+msgstr ""
+
+msgid "Transaction is currently Active. Rollback and "
+"continue?"
+msgstr ""
+
+msgid "E&xecute"
+msgstr ""
+
+msgid "No dataset association"
+msgstr ""
+
+msgid "Must select at least one key field and one update "
+"field"
+msgstr ""
+
+msgid "Update SQL statements not generated, exit "
+"anyway?"
+msgstr ""
+
+msgid "&UpdateSQL Editor..."
+msgstr ""
+
+msgid "&Dataset Editor..."
+msgstr ""
+
+msgid "%s, Default"
+msgstr ""
+
+msgid "  Plan: "
+msgstr ""
+
+msgid "  Plan: Can't retrieve plan - too large"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "InterBase library %s not found in the path. Please install InterBase "
+"to use this functionality"
+msgstr ""
+
+msgid "InterBase Install DLL ibinstall.dll not found in the path. Please "
+"install InterBase 6 to use this functionality"
+msgstr ""
+
+msgid "%s is an InterBase 6 function. Please upgrade to InterBase 6 to use "
+"this functonality"
+msgstr ""
+
+msgid "Unsupported feature"
+msgstr ""
+
+msgid "Not permitted"
+msgstr ""
+
+msgid "Temporary file access error"
+msgstr ""
+
+msgid "Database connection timed out"
+msgstr ""
+
+msgid "Cannot set database"
+msgstr ""
+
+msgid "Cannot set transaction"
+msgstr ""
+
+msgid "Operation cancelled at user's request"
+msgstr ""
+
+msgid "DPB Constant (isc_dpb_%s) is unsupported"
+msgstr ""
+
+msgid "DPB Constant (%d) is unknown"
+msgstr ""
+
+msgid "TPB Constant (isc_tpb_%s) is unsupported"
+msgstr ""
+
+msgid "TPB Constant (%d) is unknown"
+msgstr ""
+
+msgid "Cannot perform operation -- DB is not "
+"open"
+msgstr ""
+
+msgid "Cannot perform operation -- DB is currently "
+"open"
+msgstr ""
+
+msgid "Database name is missing"
+msgstr ""
+
+msgid "Transaction is not active"
+msgstr ""
+
+msgid "Transaction is active"
+msgstr ""
+
+msgid "Timeout values cannot be negative"
+msgstr ""
+
+msgid "No databases are listed in transaction "
+"component"
+msgstr ""
+
+msgid "Updating wrong database"
+msgstr ""
+
+msgid "Updating wrong transaction. Unique transaction expected in "
+"set"
+msgstr ""
+
+msgid "Database not assigned"
+msgstr ""
+
+msgid "Transaction not assigned"
+msgstr ""
+
+msgid "XSQLDA index out of range"
+msgstr ""
+
+msgid "XSQLDA name does not exist (%s)"
+msgstr ""
+
+msgid "End of file"
+msgstr ""
+
+msgid "Beginning of file"
+msgstr ""
+
+msgid "Invalid statement handle"
+msgstr ""
+
+msgid "IBSQL Open"
+msgstr ""
+
+msgid "IBSQL Closed"
+msgstr ""
+
+msgid "Dataset open"
+msgstr ""
+
+msgid "Dataset closed"
+msgstr ""
+
+msgid "Unknown SQL Data type (%d)"
+msgstr ""
+
+msgid "Invalid column index (index exceeds permitted "
+"range)"
+msgstr ""
+
+msgid "Invalid parameter index (index exceeds permitted "
+"range)"
+msgstr ""
+
+msgid "Invalid data conversion"
+msgstr ""
+
+msgid "Column cannot be set to null (%s)"
+msgstr ""
+
+msgid "Blob stream cannot be read"
+msgstr ""
+
+msgid "Blob stream cannot be written"
+msgstr ""
+
+msgid "Empty query"
+msgstr ""
+
+msgid "Cannot \"open\" a non-select statement. Use "
+"ExecQuery"
+msgstr ""
+
+msgid "No access to field \"%s\""
+msgstr ""
+
+msgid "Field \"%s\" is read-only"
+msgstr ""
+
+msgid "Field \"%s\" not found"
+msgstr ""
+
+msgid "Not in edit mode"
+msgstr ""
+
+msgid "Cannot insert into dataset. (No insert "
+"query)"
+msgstr ""
+
+msgid "Cannot post. (No update/insert query)"
+msgstr ""
+
+msgid "Cannot update. (No update query)"
+msgstr ""
+
+msgid "Cannot delete from dataset. (No delete "
+"query)"
+msgstr ""
+
+msgid "Cannot refresh row. (No refresh query)"
+msgstr ""
+
+msgid "Buffer not set"
+msgstr ""
+
+msgid "Circular references not permitted"
+msgstr ""
+
+msgid "SQL Parse Error:\n"
+"\n"
+"%s"
+msgstr ""
+
+msgid "User abort"
+msgstr ""
+
+msgid "Data set is uni-directional"
+msgstr ""
+
+msgid "Cannot create shared resource. (Windows error "
+"%d)"
+msgstr ""
+
+msgid "Windows API error. (Windows error %d "
+"[$%.8x])"
+msgstr ""
+
+msgid "Column lists do not match"
+msgstr ""
+
+msgid "Column types don't match. (From index: %d; To index: "
+"%d)"
+msgstr ""
+
+msgid "Can't end a shared transaction unless it is forced and equal to the "
+"transaction's TimeoutAction"
+msgstr ""
+
+msgid "Unsupported Field Type"
+msgstr ""
+
+msgid "Circular DataLink Reference"
+msgstr ""
+
+msgid "Empty SQL Statement"
+msgstr ""
+
+msgid "use Open for a Select Statement"
+msgstr ""
+
+msgid "Required Param value not set"
+msgstr ""
+
+msgid "No Stored Procedure Name assigned"
+msgstr ""
+
+msgid "use ExecProc for Procedure; use TQuery for Select "
+"procedures"
+msgstr ""
+
+msgid "Update Failed"
+msgstr ""
+
+msgid "CachedUpdates not enabled"
+msgstr ""
+
+msgid "Request is not live - cannot modify"
+msgstr ""
+
+msgid "No Provider"
+msgstr ""
+
+msgid "No Records Affected"
+msgstr ""
+
+msgid "No Table Name assigned"
+msgstr ""
+
+msgid "Cannot Create Primary Index; are created "
+"automatically"
+msgstr ""
+
+msgid "Cannot Drop System Index"
+msgstr ""
+
+msgid "Table Name Mismatch"
+msgstr ""
+
+msgid "Index Field Missing"
+msgstr ""
+
+msgid "Cannot Cancel events while processing"
+msgstr ""
+
+msgid "Invalid Event"
+msgstr ""
+
+msgid "Exceded Maximum Event limits"
+msgstr ""
+
+msgid "No Events Registered"
+msgstr ""
+
+msgid "Invalid Queueing"
+msgstr ""
+
+msgid "Invalid Registration"
+msgstr ""
+
+msgid "Invalid Batch Move"
+msgstr ""
+
+msgid "SQL Dialect Invalid"
+msgstr ""
+
+msgid "SPB Constant Not supported"
+msgstr ""
+
+msgid "SPB Constant Unknown"
+msgstr ""
+
+msgid "Cannot perform operation -- service is not "
+"attached"
+msgstr ""
+
+msgid "Cannot perform operation -- service is "
+"attached"
+msgstr ""
+
+msgid "Server Name Missing"
+msgstr ""
+
+msgid "Query Parameters missing or incorrect"
+msgstr ""
+
+msgid "start Parameters missing or incorrect"
+msgstr ""
+
+msgid "Unexpected Output buffer value"
+msgstr ""
+
+msgid "Generic ServiceStart not applicable: Use Specific Procedures to set "
+"configuration params"
+msgstr ""
+
+msgid "SQL Monitor Instance is already present"
+msgstr ""
+
+msgid "Cannot print value"
+msgstr ""
+
+msgid "SEOFReached"
+msgstr ""
+
+msgid "EOF in comment detected"
+msgstr ""
+
+msgid "EOF in string detected"
+msgstr ""
+
+msgid "Parameter name expected"
+msgstr ""
+
+msgid "Successful execution"
+msgstr ""
+
+msgid "DelphiException %s"
+msgstr ""
+
+msgid "No Install Options selected"
+msgstr ""
+
+msgid "DestinationDirectory is not set"
+msgstr ""
+
+msgid "SourceDirectory is not set"
+msgstr ""
+
+msgid "Uninstall File Name is not set"
+msgstr ""
+
+msgid "%s component requires Client to function "
+"properly"
+msgstr ""
+
+msgid "%s component requires Server to function "
+"properly"
+msgstr ""
+
+msgid "Invalid option specified"
+msgstr ""
+
+msgid "Unexpected onError return value"
+msgstr ""
+
+msgid "Unexpected onStatus return value"
+msgstr ""
+
+msgid "InterBaseExpress 4.3"
+msgstr ""
+
+msgid "Edit SQL"
+msgstr ""
+
+msgid "DPB Constant (%s) is unknown"
+msgstr ""
+
+msgid "TPB Constant (%s) is unknown"
+msgstr ""
+
+msgid "InterBaseExpress %2.2f"
+msgstr ""
+
+msgid "Unknown Error - Can't retrieve plan"
+msgstr ""
+
+msgid "Size Mismatch - Field %s size is too small for "
+"data"
+msgstr ""
+
+msgid "Events already registered"
+msgstr ""
+
+msgid "Trying to store a string of length %d into a field that can only "
+"contain %d"
+msgstr ""
+
+msgid "&Service Editor ..."
+msgstr ""
+
+msgid "Successful Connection"
+msgstr ""
+
+msgid "Not enough timers available"
+msgstr ""
+
+msgid "%s is an InterBase 6.5 function. Please upgrade to InterBase 6.5 to "
+"use this functonality"
+msgstr ""
+
+msgid "Can not find default login prompt dialog.  Please add DBLogDlg to the "
+"uses section of your main file."
+msgstr ""
+
+msgid "Invalid statement"
+msgstr ""
+
+msgid "Invalid Comment"
+msgstr ""
+
+msgid "  Opening connection "
+msgstr ""
+
+msgid "Starting IBConnectionBroker Version "
+"1.0.1:"
+msgstr ""
+
+msgid "Database Name = "
+msgstr ""
+
+msgid "User Name = "
+msgstr ""
+
+msgid "Min Connections = "
+msgstr ""
+
+msgid "Max Connections = "
+msgstr ""
+
+msgid "IdleTimer = "
+msgstr ""
+
+msgid "gave out connection "
+msgstr ""
+
+msgid "Unable to create new connection: "
+msgstr ""
+
+msgid "-----> Connections Exhausted!  Will wait and try again in loop "
+msgstr ""
+
+msgid "Nil database tried to be released"
+msgstr ""
+
+msgid "Release connection "
+msgstr ""
+
+msgid "Database Settings"
+msgstr ""
+
+msgid "Section name can not be empty"
+msgstr ""
+
+msgid "%s is an InterBase 7.0 function. Please upgrade to InterBase 7.0 to "
+"use this functonality"
+msgstr ""
+
+msgid "%s is an InterBase 7.1 function. Please upgrade to InterBase 7.1 to "
+"use this functonality"
+msgstr ""
+
+msgid "%s is an InterBase 7.5 function. Please upgrade to InterBase 7.5 to "
+"use this functonality"
+msgstr ""
+
+msgid "%s is an InterBase 7.51 function. Please upgrade to InterBase 7.51 to "
+"use this functonality"
+msgstr ""
+
+msgid "%s is an InterBase 2007 function. Please upgrade to InterBase 2007 to "
+"use this functonality"
+msgstr ""
+
+msgid "Version infomation for this server is not "
+"retreived"
+msgstr ""
+
+msgid "If you supply sizes you must supply 1 size for every file in the "
+"Files list (last size optional)"
+msgstr ""
+
+msgid "Database can not be connected when performing an Online "
+"Dump"
+msgstr ""
+
+msgid "If you supply sizes you must supply 1 size for every file in the "
+"Directories list (last size optional)"
+msgstr ""
+
+msgid "Only DDL and DML (excluding Select statements) allowed within a Batch "
+"block"
+msgstr ""
+
+msgid "&Retrieve Journal Information"
+msgstr ""
+
+msgid "%s is not a registered server type"
+msgstr ""
+
+msgid "Invalid library type assigned.  Valid strings are "
+"%s"
+msgstr ""
+
+msgid "ServerType can not be changed on an active "
+"connection"
+msgstr ""
+
+msgid "Enter Password here"
+msgstr ""
+
+msgid "ServerType must not be empty. IBServer is the usual "
+"value"
+msgstr ""
+
+msgid "Both tablename and column name are required to set column level "
+"encryption passwords"
+msgstr ""
+
+msgid "Connection must be active to set encryption "
+"passwords"
+msgstr ""
+
+msgid "%s is an InterBase XE3 function. Please upgrade to InterBase XE3 to "
+"use this functonality"
+msgstr ""
+
+msgid "Malformed SSL connection string.  String must be terminated with a "
+"'??'"
+msgstr ""
+
+msgid "Malformed SSL connection string.  Starting '?ssl=true' not "
+"found"
+msgstr ""
+
+msgid "serverPublicFile and serverPublicPath are mutually exclusive "
+"options."
+msgstr ""
+
+msgid "clientPassPhraseFile and clientPassPhrase are mutually exclusive "
+"options."
+msgstr ""
+
+msgid "Install Library is not supported on "
+"iOS"
+msgstr ""
+
+msgid "Service API Online dump "
+msgstr ""
+
+msgid "Invalid SQL Override - Valid options are 0 (no override) 1 and "
+"3"
+msgstr ""
+
+msgid "Service API write mode"
+msgstr ""
+
+msgid "Invalid ODS Major Restore version. Valid options are 0 (no change) "
+"and >= ODS 13"
+msgstr ""
+
+msgid "Missing IBSQL object.  Either pass it as a parameter or set the IBSQL "
+"property."
+msgstr ""
+
+msgid "All Params must have a matching field with the same name in the "
+"passed TIBSQL"
+msgstr ""
+
+msgid "Element cannot be inserted at the current "
+"position"
+msgstr ""
+
+msgid "Error creating element: %0:s (%1:s)"
+msgstr ""
+
+msgid "The page you are working on is in flow layout mode, and objects will "
+"be arranged top-to-bottom as in a word processing document.\n"
+"\n"
+"To use absolute (x and y) positioning, change the pageLayout property "
+"of the DOCUMENT to GridLayout"
+msgstr ""
+
+msgid "The page you are working on is in flow layout mode, and objects will "
+"be arranged top-to-bottom as in a word processing "
+"document."
+msgstr ""
+
+msgid "The page you are working on is in grid layout mode, and objects will "
+"be arranged using absolute (x and y) coordinates.\n"
+"\n"
+"To use flow layout (top to bottom, as in a word processing document), "
+"change the pageLayout property of the DOCUMENT to "
+"FlowLayout"
+msgstr ""
+
+msgid "Attempting to attach behavior on a nil "
+"element"
+msgstr ""
+
+msgid "%s Factory property is not assigned"
+msgstr ""
+
+msgid "Multiselect is not enabled"
+msgstr ""
+
+msgid "%s.FinishPos must be set before calling "
+"FindText"
+msgstr ""
+
+msgid "No search string specified"
+msgstr ""
+
+msgid "Both StartPos and FinishPos must be set before calling "
+"InsertElement"
+msgstr ""
+
+msgid "StartPos must be set before calling "
+"InsertText"
+msgstr ""
+
+msgid "StartPos, FinishPos and InsertPos must be set before calling "
+"Copy"
+msgstr ""
+
+msgid "IMarkupServices not available"
+msgstr ""
+
+msgid "IMarkupServices2 not available"
+msgstr ""
+
+msgid "Find must be called prior to calling "
+"FindNext"
+msgstr ""
+
+msgid "Two behaviors (%s, %s) found for one URL "
+"(%s)"
+msgstr ""
+
+msgid "No markup services available"
+msgstr ""
+
+msgid "StartPos, FinishPos and InsertPos must be set before calling "
+"Move"
+msgstr ""
+
+msgid "%s.CreateBehavior failed with error: "
+"%s"
+msgstr ""
+
+msgid "No page loaded"
+msgstr ""
+
+msgid "Cannot register a nil provider"
+msgstr ""
+
+msgid "Invalid service provider GUID"
+msgstr ""
+
+msgid "%s only supports sinking of method calls!"
+msgstr ""
+
+msgid "%s.WebBrowser property not assigned"
+msgstr ""
+
+msgid "Cannot activate an edit designer (%s) when there is no active "
+"document"
+msgstr ""
+
+msgid "Attempting to hook child windows twice"
+msgstr ""
+
+msgid "Save the current file?"
+msgstr ""
+
+msgid "RTTI for type %s was not found.  Perhaps missing "
+"{$M+}?"
+msgstr ""
+
+msgid "ObjectiveC class %s could not be found"
+msgstr ""
+
+msgid "%s is not a valid ObjectiveC type"
+msgstr ""
+
+msgid "Internal error creating binding for "
+"'%s'"
+msgstr ""
+
+msgid "Method '%s' of type '%s' must have cdecl calling "
+"convention"
+msgstr ""
+
+msgid "'%s' must be an interface derived from "
+"IObjectiveCClass"
+msgstr ""
+
+msgid "'%s' must be an interface derived from "
+"IObjectiveCInstance"
+msgstr ""
+
+msgid "'%s' must be an interface derived from "
+"IObjectiveCProtocol"
+msgstr ""
+
+msgid "Unable to create ObjectiveC persona for instance of "
+"'%s'"
+msgstr ""
+
+msgid "Fatal error invoking interface"
+msgstr ""
+
+msgid "The type '%s' is not supported with ObjectiveC "
+"interoperability"
+msgstr ""
+
+msgid "Unspecific state of location sensor"
+msgstr ""
+
+msgid "The Socket Server can only be run as a service on NT 3.51 and "
+"prior"
+msgstr ""
+
+msgid "Cannot exit when there are active connections. Kill "
+"connections?"
+msgstr ""
+
+msgid "Cannot change settings when there are active connections. Kill "
+"connections?"
+msgstr ""
+
+msgid "Disconnecting clients can cause application errors. "
+"Continue?"
+msgstr ""
+
+msgid "Error opening port %d with error: %s"
+msgstr ""
+
+msgid "(Unknown)"
+msgstr ""
+
+msgid "(Not Shown)"
+msgstr ""
+
+msgid "%d current connections"
+msgstr ""
+
+msgid "The Socket Server is already running"
+msgstr ""
+
+msgid "This change will not take affect until the Socket Server is "
+"restarted"
+msgstr ""
+
+msgid "Maximum number of arguments allowed exceeded "
+"(%d)"
+msgstr ""
+
+msgid "Expected at least one variable for Format() "
+"call"
+msgstr ""
+
+msgid "First argument to Format() must be a "
+"string"
+msgstr ""
+
+msgid "Unsupported Format() type found: %s"
+msgstr ""
+
+msgid "Expected %d arguments, but received "
+"%d"
+msgstr ""
+
+msgid "Expected 1 argument to ToStr"
+msgstr ""
+
+msgid "Manager cannot be Nil."
+msgstr ""
+
+msgid "Owner cannot be Nil."
+msgstr ""
+
+msgid "Scope obj cannot be Nil."
+msgstr ""
+
+msgid "The expression has not been compiled "
+"yet."
+msgstr ""
+
+msgid "Manager does not support IBindingNotification."
+msgstr ""
+
+msgid "ClassType must be specified."
+msgstr ""
+
+msgid "Output expression evaluates a read only "
+"value"
+msgstr ""
+
+msgid "Unable to create notifier"
+msgstr ""
+
+msgid "No conversion is available from type %s to "
+"%s"
+msgstr ""
+
+msgid "Unable to cast or find converters between types %s and "
+"%s."
+msgstr ""
+
+msgid "Converter ID must be specified"
+msgstr ""
+
+msgid "No converter with the name %s has been "
+"registered"
+msgstr ""
+
+msgid "The converter named \"%s\" with an identical input type (%s) and output "
+"type (%s) has already been added"
+msgstr ""
+
+msgid "Method signature does not match expected"
+msgstr ""
+
+msgid "A method with name %s already exists"
+msgstr ""
+
+msgid "No method with the name %s has been "
+"registered"
+msgstr ""
+
+msgid "Class %s must provide an override for "
+"DoSetUp"
+msgstr ""
+
+msgid "Object must be valid"
+msgstr ""
+
+msgid "No handler to link types %s and %s."
+msgstr ""
+
+msgid "%s needs to be activated first."
+msgstr ""
+
+msgid "%s needs to be disabled before changed."
+msgstr ""
+
+msgid "Cannot attach the specified object because it is not of the same type "
+"as the metaclass."
+msgstr ""
+
+msgid "MetaClass cannot be nil."
+msgstr ""
+
+msgid "Overload group %s must all have same number of arguments "
+"(%d)"
+msgstr ""
+
+msgid "Invalid number of arguments to %s: expected %d, received "
+"%d"
+msgstr ""
+
+msgid "Wrong number of args: expected %d, got "
+"%d"
+msgstr ""
+
+msgid "No matching overload for %s found"
+msgstr ""
+
+msgid "Ambiguous overloaded call to %s"
+msgstr ""
+
+msgid "Don't know how to add \"%s\" and \"%s\""
+msgstr ""
+
+msgid "Don't know how to subtract \"%s\" and "
+"\"%s\""
+msgstr ""
+
+msgid "Don't know how to multiply \"%s\" and "
+"\"%s\""
+msgstr ""
+
+msgid "Don't know how to divide \"%s\" and \"%s\""
+msgstr ""
+
+msgid "Don't know how to negate \"%s\""
+msgstr ""
+
+msgid "Don't know how to compare \"%s\" and \"%s\""
+msgstr ""
+
+msgid "Expected %s but got %s"
+msgstr ""
+
+msgid "Invalid floating-point constant - expected one or more digits after "
+"\".\""
+msgstr ""
+
+msgid "Invalid floating-point constant - expected one or more digits as part "
+"of exponent"
+msgstr ""
+
+msgid "Unterminated string found"
+msgstr ""
+
+msgid "Invalid operator in source (%s)"
+msgstr ""
+
+msgid "Invalid character in source (#%d)"
+msgstr ""
+
+msgid "Expected EOF - trailing text in expression"
+msgstr ""
+
+msgid "Too many arguments"
+msgstr ""
+
+msgid "Expected an identifier, number or string"
+msgstr ""
+
+msgid "Expression too complex (too many constants)"
+msgstr ""
+
+msgid "Stack underflow"
+msgstr ""
+
+msgid "Couldn't find %s"
+msgstr ""
+
+msgid "Tried to invoke non-function / non-indexed-property"
+msgstr ""
+
+msgid "Cannot determine value because the wrapper does not support "
+"IValue"
+msgstr ""
+
+msgid "Cannot find result wrapper because the member wrapper does not "
+"support IGroup"
+msgstr ""
+
+msgid "Unable to wrap: %s"
+msgstr ""
+
+msgid "Expression evaluated an empty (nil) value and cannot be "
+"assigned"
+msgstr ""
+
+msgid "Unexpected class conflict"
+msgstr ""
+
+msgid "Object type %s not registered"
+msgstr ""
+
+msgid "Scope class %s not registered"
+msgstr ""
+
+msgid "Scope class %s is already registered"
+msgstr ""
+
+msgid "The given custom wrapper does not support "
+"%s"
+msgstr ""
+
+msgid "Property %s not found"
+msgstr ""
+
+msgid "Need at least a getter or a setter."
+msgstr ""
+
+msgid "Unable to recompile output expression for %s "
+"(%s)"
+msgstr ""
+
+msgid "An output scope is required"
+msgstr ""
+
+msgid "Virtual members are read-only."
+msgstr ""
+
+msgid "Cannot convert wrapper. It does not support "
+"%s"
+msgstr ""
+
+msgid "NilToDateTime"
+msgstr ""
+
+msgid "NilToTStrings"
+msgstr ""
+
+msgid "PersistentToPersistent"
+msgstr ""
+
+msgid "BoolToString"
+msgstr ""
+
+msgid "StringToBool"
+msgstr ""
+
+msgid "NilToNumber"
+msgstr ""
+
+msgid "IntegerToString"
+msgstr ""
+
+msgid "StringToInteger"
+msgstr ""
+
+msgid "FloatToString"
+msgstr ""
+
+msgid "StrToTDateTime"
+msgstr ""
+
+msgid "TDateTimeToStr"
+msgstr ""
+
+msgid "TStrTDate"
+msgstr ""
+
+msgid "TStrTTime"
+msgstr ""
+
+msgid "NilToString"
+msgstr ""
+
+msgid "NilToBoolean"
+msgstr ""
+
+msgid "NilToVariant"
+msgstr ""
+
+msgid "StringToVariant"
+msgstr ""
+
+msgid "FloatToVariant"
+msgstr ""
+
+msgid "IntToVariant"
+msgstr ""
+
+msgid "BoolToVariant"
+msgstr ""
+
+msgid "VariantToBool"
+msgstr ""
+
+msgid "StrToFloat"
+msgstr ""
+
+msgid "FloatToInteger"
+msgstr ""
+
+msgid "Convert float to integer using Round()"
+msgstr ""
+
+msgid "TStringsToString"
+msgstr ""
+
+msgid "StringToTStrings"
+msgstr ""
+
+msgid "StringToChar"
+msgstr ""
+
+msgid "UTF8: A start byte not followed by enough continuation bytes in "
+"position %s"
+msgstr ""
+
+msgid "UTF8: An unexpected continuation byte in %s-byte UTF8 in position "
+"%s"
+msgstr ""
+
+msgid "UTF8: Type cannot be determined out of header byte at position "
+"%s"
+msgstr ""
+
+msgid "Value '%s' not found"
+msgstr ""
+
+msgid "Conversion from %0:s to %1:s is not "
+"supported"
+msgstr ""
+
+msgid "End of path"
+msgstr ""
+
+msgid "Error in path"
+msgstr ""
+
+msgid "Bad JSON escape sequence: %s"
+msgstr ""
+
+msgid "Could not convert string to DateTime: "
+"%s"
+msgstr ""
+
+msgid "Could not convert string to double: "
+"%s"
+msgstr ""
+
+msgid "Could not convert string to integer: "
+"%s"
+msgstr ""
+
+msgid ", line %d, position %d"
+msgstr ""
+
+msgid "Path '%s'"
+msgstr ""
+
+msgid "Indentation value must be greater than "
+"0"
+msgstr ""
+
+msgid "Input string %s is not a valid double"
+msgstr ""
+
+msgid "Input string %s is not a valid integer"
+msgstr ""
+
+msgid "Input string %s is not a valid number"
+msgstr ""
+
+msgid "Invalid character after parsing property name. Expected ':' but got: "
+"%s"
+msgstr ""
+
+msgid "Not a valid close JsonToken: %s"
+msgstr ""
+
+msgid "Invalid JavaScript property identifier character: "
+"%s."
+msgstr ""
+
+msgid "Invalid JavaScript string quote character. Valid quote characters are "
+"' and \""
+msgstr ""
+
+msgid "Invalid JsonToken: %s"
+msgstr ""
+
+msgid "An ObjectId must be 12 bytes"
+msgstr ""
+
+msgid "Invalid property identifier character: "
+"%s"
+msgstr ""
+
+msgid "Invalid state: %s"
+msgstr ""
+
+msgid "JsonToken %s is not valid for closing JsonType "
+"%s."
+msgstr ""
+
+msgid "No close token for type %s"
+msgstr ""
+
+msgid "No token to close."
+msgstr ""
+
+msgid "Error parsing boolean value."
+msgstr ""
+
+msgid "Error parsing comment. Expected: *, got "
+"%s."
+msgstr ""
+
+msgid "Cannot read NaN value."
+msgstr ""
+
+msgid "Cannot read Infinity value"
+msgstr ""
+
+msgid "Error parsing null value."
+msgstr ""
+
+msgid "Cannot read -Infinity value"
+msgstr ""
+
+msgid "Error parsing undefined value"
+msgstr ""
+
+msgid "Read past end of current container context"
+msgstr ""
+
+msgid "Additional text encountered after finished reading JSON content: "
+"%s."
+msgstr ""
+
+msgid "The reader's MaxDepth of %s has been "
+"exceeded."
+msgstr ""
+
+msgid "A name is required when setting property name "
+"state"
+msgstr ""
+
+msgid "Token %s in state %s would result in an invalid JSON "
+"object."
+msgstr ""
+
+msgid "After parsing a value an unexpected character was encountered: "
+"%s"
+msgstr ""
+
+msgid "Unexpected end when reading bytes."
+msgstr ""
+
+msgid "Unexpected character while parsing constructor: "
+"%s"
+msgstr ""
+
+msgid "Unexpected character encountered while parsing number: "
+"%s"
+msgstr ""
+
+msgid "Unexpected character encountered while parsing value: "
+"%s."
+msgstr ""
+
+msgid "Unexpected end while parsing comment"
+msgstr ""
+
+msgid "Unexpected end while parsing constructor."
+msgstr ""
+
+msgid "Unexpected end"
+msgstr ""
+
+msgid "Unexpected end when reading date constructor"
+msgstr ""
+
+msgid "Unexpected content while parsing JSON"
+msgstr ""
+
+msgid "Unexpected end of object byte value"
+msgstr ""
+
+msgid "Unexpected state: %s"
+msgstr ""
+
+msgid "Error reading code with scope. Unexpected token: "
+"%s"
+msgstr ""
+
+msgid "Error reading date. Unexpected token: "
+"%s"
+msgstr ""
+
+msgid "Unexpected token when reading date constructor. Expected "
+"EndConstructor, got %s"
+msgstr ""
+
+msgid "Unexpected token when reading date constructor. Expected Integer, got "
+"%s"
+msgstr ""
+
+msgid "Error reading double. Unexpected token: "
+"%s"
+msgstr ""
+
+msgid "Error reading integer. Unexpected token: "
+"%s"
+msgstr ""
+
+msgid "Unexpected token when reading bytes: "
+"%s"
+msgstr ""
+
+msgid "Error reading string. Unexpected token: "
+"%s"
+msgstr ""
+
+msgid "Unexpected type when writing end: %s"
+msgstr ""
+
+msgid "Unexpected end while parsing unicode "
+"character"
+msgstr ""
+
+msgid "Unexpected end while parsing unquoted property "
+"name"
+msgstr ""
+
+msgid "Unknown JsonType: %s"
+msgstr ""
+
+msgid "Cannot write JSON constructor as BSON"
+msgstr ""
+
+msgid "Cannot write raw JSON as BSON"
+msgstr ""
+
+msgid "Write raw JSON is unsupported"
+msgstr ""
+
+msgid "Write constructor is unsupported"
+msgstr ""
+
+msgid "Cannot write JSON comment as BSON"
+msgstr ""
+
+msgid "Unsupported type: %s"
+msgstr ""
+
+msgid "Unterminated string. Expected delimiter: "
+"%s."
+msgstr ""
+
+msgid "Only white space characters should be "
+"used."
+msgstr ""
+
+msgid "Unexpected token when reading Extended JSON value %s. Expected token: "
+"%s"
+msgstr ""
+
+msgid "This operation is not permitted after pairs or elements have been "
+"added"
+msgstr ""
+
+msgid "This operation is not permitted on the current JSON "
+"type"
+msgstr ""
+
+msgid "Cannot add element of unsupported TVarRec type "
+"%d"
+msgstr ""
+
+msgid "Cannot add element of unsupported Variant type "
+"%d"
+msgstr ""
+
+msgid "Failed to append open array on item with index  "
+"%d"
+msgstr ""
+
+msgid "Failed to append not properly closed set of "
+"items"
+msgstr ""
+
+msgid "This operation is not permitted without assigned "
+"callback"
+msgstr ""
+
+msgid "Cannot iterate due to invalid iterator "
+"state"
+msgstr ""
+
+msgid "Scheme \"%s\" already registered for %s"
+msgstr ""
+
+msgid "Credential without user or password"
+msgstr ""
+
+msgid "Platform-dependant function not implemented"
+msgstr ""
+
+msgid "Scheme-dependant function not implemented"
+msgstr ""
+
+msgid "Method already assigned"
+msgstr ""
+
+msgid "URL already assigned"
+msgstr ""
+
+msgid "Parameter index (%d) out of range (%d..%d)"
+msgstr ""
+
+msgid "Invalid URL: \"%s\""
+msgstr ""
+
+msgid "Parameter \"%s\" not found"
+msgstr ""
+
+msgid "Maximum number of redirections (%d) "
+"exceeded"
+msgstr ""
+
+msgid "Error getting Server Certificate"
+msgstr ""
+
+msgid "Server Certificate Invalid or not present"
+msgstr ""
+
+msgid "Server Certificate not accepted"
+msgstr ""
+
+msgid "Empty certificate list"
+msgstr ""
+
+msgid "Unspecified certificate from client"
+msgstr ""
+
+msgid "Client rejected the certificate"
+msgstr ""
+
+msgid "Error obtaining identities"
+msgstr ""
+
+msgid "Error obtaining certificates"
+msgstr ""
+
+msgid "Error getting the identity of the certificate"
+msgstr ""
+
+msgid "Error importing certificate"
+msgstr ""
+
+msgid "Execution of request terminated with unknown "
+"error"
+msgstr ""
+
+msgid "Error %d accessing to %s: %s"
+msgstr ""
+
+msgid "Client not assigned to request component"
+msgstr ""
+
+msgid "Error querying headers: (%d) %s"
+msgstr ""
+
+msgid "Error obtaining session handle"
+msgstr ""
+
+msgid "Error sending data: (%d) %s"
+msgstr ""
+
+msgid "Error connecting to server: %s"
+msgstr ""
+
+msgid "Error opening request: (%d) %s"
+msgstr ""
+
+msgid "Error adding header: (%d) %s"
+msgstr ""
+
+msgid "Error removing header: (%d) %s"
+msgstr ""
+
+msgid "Error querying data available: (%d) "
+"%s"
+msgstr ""
+
+msgid "Error reading data: (%d) %s"
+msgstr ""
+
+msgid "Error obtaining response data"
+msgstr ""
+
+msgid "Beacon API not available on Windows"
+msgstr ""
+
+msgid "No Beacon device registered"
+msgstr ""
+
+msgid "You are not allowed to use location "
+"services."
+msgstr ""
+
+msgid "Beacon type cannot be changed in this "
+"mode"
+msgstr ""
+
+msgid "Monitoring is not available on this "
+"device."
+msgstr ""
+
+msgid "This manager can only be used in %s "
+"mode."
+msgstr ""
+
+msgid "You must provide a proximity UUID"
+msgstr ""
+
+msgid "Incorrect ManufacturerId"
+msgstr ""
+
+msgid "Network socket error: %s (%d), on API "
+"'%s'"
+msgstr ""
+
+msgid "Socket already closed"
+msgstr ""
+
+msgid "Socket not listening"
+msgstr ""
+
+msgid "Socket type not compatible with call"
+msgstr ""
+
+msgid "Only UDP socket types support broadcasts"
+msgstr ""
+
+msgid "Invalid socket handle"
+msgstr ""
+
+msgid "Number of sockets must not exceed FD_SETSIZE(%d)"
+msgstr ""
+
+msgid "Async function must not be nil"
+msgstr ""
+
+msgid "Operation not supported with this descriptor kind: "
+"%s"
+msgstr ""
+
+msgid "No BluetoothManager implementation found"
+msgstr ""
+
+msgid "Invalid service name, you must provide "
+"one."
+msgstr ""
+
+msgid "Bluetooth device not found: disconnected or turned "
+"off"
+msgstr ""
+
+msgid "Cannot set discoverable mode"
+msgstr ""
+
+msgid "Cannot connect to device: %s"
+msgstr ""
+
+msgid "Cannot get service record for the service: %s on device: "
+"%s"
+msgstr ""
+
+msgid "Cannot get RFCOMM channel ID to connect to the device: %s, service: "
+"%s"
+msgstr ""
+
+msgid "Cannot remove service: %s"
+msgstr ""
+
+msgid "Channel is closed, cannot read data"
+msgstr ""
+
+msgid "Error sending data over current channel"
+msgstr ""
+
+msgid "The bluetooth adapter is in unknown scan "
+"mode"
+msgstr ""
+
+msgid "Cannot retrieve the state of the bluetooth "
+"adapter"
+msgstr ""
+
+msgid "Operation \"%s\" not supported on %s"
+msgstr ""
+
+msgid "Cannot get state for device: %s"
+msgstr ""
+
+msgid "Cannot create Socket Output Stream"
+msgstr ""
+
+msgid "Error while working with characteristic, error message: %s, "
+"%d"
+msgstr ""
+
+msgid "Error setting property: %s"
+msgstr ""
+
+msgid "Need at least Android %s (API %s)"
+msgstr ""
+
+msgid "Error getting service list: (%d) %s"
+msgstr ""
+
+msgid "Error getting device info: (%d) %s"
+msgstr ""
+
+msgid "Error trying to accept connections"
+msgstr ""
+
+msgid "Error unregistering service: %s"
+msgstr ""
+
+msgid "Unable to create server socket"
+msgstr ""
+
+msgid "Cannot create server socket: %s"
+msgstr ""
+
+msgid "Service registration error(%d): %s"
+msgstr ""
+
+msgid "Service %s is already added to this "
+"server"
+msgstr ""
+
+msgid "Error calling setsockopt SO_RCVTIMEO: "
+"%s"
+msgstr ""
+
+msgid "Bluetooth: Unable to initialize Winsock"
+msgstr ""
+
+msgid "Bluetooth: Unable to clean up Winsock"
+msgstr ""
+
+msgid "Error calling setsockopt: %s"
+msgstr ""
+
+msgid "Cannot create client socket"
+msgstr ""
+
+msgid "Cannot connect to device: (%d) %s"
+msgstr ""
+
+msgid "Cannot send data: (%d) %s"
+msgstr ""
+
+msgid "Bluetooth: WSALookupServiceBegin error: (%d) "
+"%s"
+msgstr ""
+
+msgid "Unable to create server socket: the specified GUID is in "
+"use"
+msgstr ""
+
+msgid "Format type (%d) for Integer conversion is not "
+"supported"
+msgstr ""
+
+msgid "Format type (%d) for Single conversion is not "
+"supported"
+msgstr ""
+
+msgid "Cannot find characteristic: %s"
+msgstr ""
+
+msgid "Cannot find descriptor: %s"
+msgstr ""
+
+msgid "Cannot discover services for device: "
+"%s"
+msgstr ""
+
+msgid "Cannot get list of included services for service: "
+"%s"
+msgstr ""
+
+msgid "Characteristic with UUID: %s already "
+"exists"
+msgstr ""
+
+msgid "Cannot get list of characteristics for service: "
+"%s"
+msgstr ""
+
+msgid "Cannot get list of descriptors for characteristic: "
+"%s"
+msgstr ""
+
+msgid "At least MacOS X 10.9 or iOS 6 is required to create Gatt "
+"servers"
+msgstr ""
+
+msgid "Cannot get list of LE devices: (%d) "
+"%s"
+msgstr ""
+
+msgid "Cannot get the LE device"
+msgstr ""
+
+msgid "No Device assigned"
+msgstr ""
+
+msgid "Bluetooth: Create LE device handle error: (%d) "
+"%s"
+msgstr ""
+
+msgid "Bluetooth: BluetoothGATTGetServices res: %d(%X) error: (%d) "
+"%s"
+msgstr ""
+
+msgid "Bluetooth: BluetoothGATTGetIncludedServices error:  (%d) "
+"%s"
+msgstr ""
+
+msgid "SetupDiGetClassDevs error: (%d) %s"
+msgstr ""
+
+msgid "No Service assigned"
+msgstr ""
+
+msgid "The device does not support peripheral "
+"mode"
+msgstr ""
+
+msgid "Failed to start advertising as the advertise data to be broadcasted "
+"is larger than 31 bytes"
+msgstr ""
+
+msgid "Failed to start advertising because no advertising instance is "
+"available"
+msgstr ""
+
+msgid "Failed to start advertising as the advertising is already "
+"started"
+msgstr ""
+
+msgid "Operation failed due to an internal "
+"error"
+msgstr ""
+
+msgid "This feature is not supported on this "
+"platform"
+msgstr ""
+
+msgid "A regular expression specified in RegEx is "
+"required"
+msgstr ""
+
+msgid "Error in regular expression at offset %d: "
+"%s"
+msgstr ""
+
+msgid "Error studying the regex: %s"
+msgstr ""
+
+msgid "Successful match required"
+msgstr ""
+
+msgid "Strings parameter cannot be nil"
+msgstr ""
+
+msgid "Invalid index type"
+msgstr ""
+
+msgid "Index out of bounds (%d)"
+msgstr ""
+
+msgid "Invalid group name (%s)"
+msgstr ""
+
+msgid "Ancestor for '%s' not found"
+msgstr ""
+
+msgid "Cannot assign a %s to a %s"
+msgstr ""
+
+msgid "Bits index out of range"
+msgstr ""
+
+msgid "List is locked during an active ForEach"
+msgstr ""
+
+msgid "Can't write to a read-only resource "
+"stream"
+msgstr ""
+
+msgid "''%s'' expected"
+msgstr ""
+
+msgid "CheckSynchronize called from thread $%x, which is NOT the main "
+"thread"
+msgstr ""
+
+msgid "Class %s not found"
+msgstr ""
+
+msgid "Delimiter and QuoteChar properties cannot have the same "
+"value"
+msgstr ""
+
+msgid "A class named %s already exists"
+msgstr ""
+
+msgid "List does not allow duplicates ($0%x)"
+msgstr ""
+
+msgid "A component named %s already exists"
+msgstr ""
+
+msgid "String list does not allow duplicates"
+msgstr ""
+
+msgid "Cannot create file \"%s\". %s"
+msgstr ""
+
+msgid "Fixed column count must be less than column "
+"count"
+msgstr ""
+
+msgid "Fixed row count must be less than row "
+"count"
+msgstr ""
+
+msgid "Cannot open file %s"
+msgstr ""
+
+msgid "Cannot open file \"%s\". %s"
+msgstr ""
+
+msgid "Grid too large for operation"
+msgstr ""
+
+msgid "Identifier expected"
+msgstr ""
+
+msgid "Grid index out of range"
+msgstr ""
+
+msgid "Unable to write to %s"
+msgstr ""
+
+msgid "Invalid action creation"
+msgstr ""
+
+msgid "Invalid action enumeration"
+msgstr ""
+
+msgid "Invalid action registration"
+msgstr ""
+
+msgid "Invalid action unregistration"
+msgstr ""
+
+msgid "The client can not be an instance of class "
+"%s"
+msgstr ""
+
+msgid "Class %s does not support the action"
+msgstr ""
+
+msgid "Invalid binary value"
+msgstr ""
+
+msgid "Invalid file name - %s"
+msgstr ""
+
+msgid "'%s' is an invalid mask at (%d)"
+msgstr ""
+
+msgid "''%s'' is not a valid component name"
+msgstr ""
+
+msgid "Invalid property value"
+msgstr ""
+
+msgid "Invalid property element: %s"
+msgstr ""
+
+msgid "Invalid property path"
+msgstr ""
+
+msgid "Invalid property type: %s"
+msgstr ""
+
+msgid "Invalid data type for '%s'"
+msgstr ""
+
+msgid "Invalid string constant"
+msgstr ""
+
+msgid "Cannot insert or delete rows from grid"
+msgstr ""
+
+msgid "Item not found ($0%x)"
+msgstr ""
+
+msgid "Line too long"
+msgstr ""
+
+msgid "List capacity out of bounds (%d)"
+msgstr ""
+
+msgid "List count out of bounds (%d)"
+msgstr ""
+
+msgid "List index out of bounds (%d)"
+msgstr ""
+
+msgid "Invalid input value"
+msgstr ""
+
+msgid "Invalid input value.  Use escape key to abandon "
+"changes"
+msgstr ""
+
+msgid "Memory Buffer overrun"
+msgstr ""
+
+msgid "Out of memory while expanding memory "
+"stream"
+msgstr ""
+
+msgid "%s has not been registered as a COM "
+"class"
+msgstr ""
+
+msgid "Number expected"
+msgstr ""
+
+msgid "ANSI or UTF8 encoding expected"
+msgstr ""
+
+msgid "%s on line %d"
+msgstr ""
+
+msgid "Component name '%s' exceeds 64 character "
+"limit"
+msgstr ""
+
+msgid "Error reading %s%s%s: %s"
+msgstr ""
+
+msgid "Stream read error"
+msgstr ""
+
+msgid "Property is read-only"
+msgstr ""
+
+msgid "Failed to create key %s"
+msgstr ""
+
+msgid "Failed to get data for '%s'"
+msgstr ""
+
+msgid "Invalid component registration"
+msgstr ""
+
+msgid "Failed to set data for '%s'"
+msgstr ""
+
+msgid "Resource %s not found"
+msgstr ""
+
+msgid "%s.Seek not implemented"
+msgstr ""
+
+msgid "Operation not allowed on sorted list"
+msgstr ""
+
+msgid "String expected"
+msgstr ""
+
+msgid "%s expected"
+msgstr ""
+
+msgid "Too many rows or columns deleted"
+msgstr ""
+
+msgid "%s not in a class registration group"
+msgstr ""
+
+msgid "Property %s does not exist"
+msgstr ""
+
+msgid "Stream write error"
+msgstr ""
+
+msgid "Error setting stream size"
+msgstr ""
+
+msgid "Thread creation error: %s"
+msgstr ""
+
+msgid "Thread Error: %s (%d)"
+msgstr ""
+
+msgid "Cannot terminate an externally created "
+"thread"
+msgstr ""
+
+msgid "Cannot wait for an externally created "
+"thread"
+msgstr ""
+
+msgid "Cannot call Start on a running or suspended "
+"thread"
+msgstr ""
+
+msgid "Cannot call CheckTerminated on an externally created "
+"thread"
+msgstr ""
+
+msgid "Cannot call SetReturnValue on an externally create "
+"thread"
+msgstr ""
+
+msgid "Parameter %s cannot be nil"
+msgstr ""
+
+msgid "Parameter %s cannot be a negative value"
+msgstr ""
+
+msgid "Input buffer exceeded for %s = %d, %s = "
+"%d"
+msgstr ""
+
+msgid "Invalid characters in path"
+msgstr ""
+
+msgid "Invalid characters in file name"
+msgstr ""
+
+msgid "Invalid characters in search pattern"
+msgstr ""
+
+msgid "The specified path is too long"
+msgstr ""
+
+msgid "The specified path was not found"
+msgstr ""
+
+msgid "The path format is not supported"
+msgstr ""
+
+msgid "The specified directory is not empty"
+msgstr ""
+
+msgid "The specified directory already exists"
+msgstr ""
+
+msgid "The specified directory name is invalid"
+msgstr ""
+
+msgid "The source directory is the same as the destination "
+"directory"
+msgstr ""
+
+msgid "The source file is the same as the destination "
+"file"
+msgstr ""
+
+msgid "The path must specify a file"
+msgstr ""
+
+msgid "The source and destination paths must contain the same root "
+"drive"
+msgstr ""
+
+msgid "The drive cannot be found"
+msgstr ""
+
+msgid "The specified file was not found"
+msgstr ""
+
+msgid "The specified file already exists"
+msgstr ""
+
+msgid "(%d, %d) is not a valid DateDay pair"
+msgstr ""
+
+msgid "(%d, %d, %d) is not a valid DateWeek "
+"triplet"
+msgstr ""
+
+msgid "(%d, %d, %d, %d) is not a valid DateMonthWeek "
+"quad"
+msgstr ""
+
+msgid "(%d, %d, %d, %d) is not a valid DayOfWeekInMonth "
+"quad"
+msgstr ""
+
+msgid "%f Julian cannot be represented as a "
+"DateTime"
+msgstr ""
+
+msgid "Dates before Year 1 are not supported"
+msgstr ""
+
+msgid "The given \"%s\" local time is invalid (situated within the missing "
+"period prior to DST)."
+msgstr ""
+
+msgid "Incompatible conversion types [%s, %s]"
+msgstr ""
+
+msgid "Incompatible conversion types [%s, %s, "
+"%s]"
+msgstr ""
+
+msgid "Incompatible conversion types [%s - %s, %s - "
+"%s]"
+msgstr ""
+
+msgid "Unknown conversion type %s"
+msgstr ""
+
+msgid "Conversion type (%s) already registered in "
+"%s"
+msgstr ""
+
+msgid "Unknown conversion family %s"
+msgstr ""
+
+msgid "Conversion family (%s) already registered"
+msgstr ""
+
+msgid "Illegal type"
+msgstr ""
+
+msgid "Illegal family"
+msgstr ""
+
+msgid "%s has a factor of zero"
+msgstr ""
+
+msgid "Could not parse %s"
+msgstr ""
+
+msgid "TStrings descendant %s failed to call inherited "
+"constructor"
+msgstr ""
+
+msgid "Windows socket error: %s (%d), on API "
+"'%s'"
+msgstr ""
+
+msgid "Asynchronous socket error %d"
+msgstr ""
+
+msgid "No address specified"
+msgstr ""
+
+msgid "Can't listen on an open socket"
+msgstr ""
+
+msgid "Can't create new socket"
+msgstr ""
+
+msgid "Socket already open"
+msgstr ""
+
+msgid "Can't change value while socket is active"
+msgstr ""
+
+msgid "Socket must be in blocking mode"
+msgstr ""
+
+msgid "%s error %d, %s"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Could not parse imaginary portion"
+msgstr ""
+
+msgid "Could not parse required '%s' symbol"
+msgstr ""
+
+msgid "Could not parse required '+' (or '-') "
+"symbol"
+msgstr ""
+
+msgid "Could not parse real portion"
+msgstr ""
+
+msgid "Unexpected end of string [%s]"
+msgstr ""
+
+msgid "Unexpected characters"
+msgstr ""
+
+msgid "%s [%s<?>%s]"
+msgstr ""
+
+msgid "No Help Manager installed."
+msgstr ""
+
+msgid "No topic-based help installed."
+msgstr ""
+
+msgid "No context-sensitive help installed."
+msgstr ""
+
+msgid "No help found for context %d."
+msgstr ""
+
+msgid "No help found for \"%s\""
+msgstr ""
+
+msgid "No Table of Contents found."
+msgstr ""
+
+msgid "No help viewer that supports filters"
+msgstr ""
+
+msgid "A valid high surrogate character is >= $D800 and <= "
+"$DBFF"
+msgstr ""
+
+msgid "A valid low surrogate character is >= $DC00 and <= "
+"$DFFF"
+msgstr ""
+
+msgid "Index out of range (%d).  Must be >= 0 and < "
+"%d"
+msgstr ""
+
+msgid "String index out of range (%d).  Must be >= %d and <= "
+"%d"
+msgstr ""
+
+msgid "Invalid UTF32 character value.  Must be >= 0 and <= $10FFFF, "
+"excluding surrogate pair ranges"
+msgstr ""
+
+msgid "High surrogate char without a following low surrogate char at index: "
+"%d. Check that the string is encoded "
+"properly"
+msgstr ""
+
+msgid "Low surrogate char without a preceding high surrogate char at index: "
+"%d. Check that the string is encoded "
+"properly"
+msgstr ""
+
+msgid "Argument, %s, must be >= 0"
+msgstr ""
+
+msgid "Offset and length are invalid for the given "
+"array"
+msgstr ""
+
+msgid "Length of Strings and Objects arrays must be "
+"equal"
+msgstr ""
+
+msgid "Source and Destination arrays must not be the "
+"same"
+msgstr ""
+
+msgid "Class %s is not intended to be constructed"
+msgstr ""
+
+msgid "Cannot call Acquire on TConditionVariable.  Must call WaitFor with an "
+"external TMutex"
+msgstr ""
+
+msgid "Invalid Timeout value: %s"
+msgstr ""
+
+msgid "Named synchronization objects not supported on this "
+"platform"
+msgstr ""
+
+msgid "Invalid InitialCount: %d"
+msgstr ""
+
+msgid "Invalid MaxCount: %d"
+msgstr ""
+
+msgid "Invalid operation. Semaphore canceled"
+msgstr ""
+
+msgid "Invalid semaphore release count: %d"
+msgstr ""
+
+msgid "Semaphore reached MaxCount"
+msgstr ""
+
+msgid "Error Creating Semaphore"
+msgstr ""
+
+msgid "Error Creating Event"
+msgstr ""
+
+msgid "SpinCount out of range. Must be between 0 and "
+"%d"
+msgstr ""
+
+msgid "Countdown canceled"
+msgstr ""
+
+msgid "Invalid Reset Count: %d"
+msgstr ""
+
+msgid "Invalid Count: %d"
+msgstr ""
+
+msgid "Invalid Decrement Count: %d"
+msgstr ""
+
+msgid "Invalid Increment Count: %d"
+msgstr ""
+
+msgid "Decrement amount will cause invalid results: Count: %d, CurCount: "
+"%d"
+msgstr ""
+
+msgid "Count already max: Amount: %d, CurCount: "
+"%d"
+msgstr ""
+
+msgid "Countdown already reached zero (0)"
+msgstr ""
+
+msgid "Timespan too long"
+msgstr ""
+
+msgid "The duration cannot be returned because the absolute value exceeds "
+"the value of TTimeSpan.MaxValue"
+msgstr ""
+
+msgid "Value cannot be NaN"
+msgstr ""
+
+msgid "Negating the minimum value of a Timespan is "
+"invalid"
+msgstr ""
+
+msgid "Invalid Timespan format"
+msgstr ""
+
+msgid "Timespan element too long"
+msgstr ""
+
+msgid "Distance"
+msgstr ""
+
+msgid "Micromicrons"
+msgstr ""
+
+msgid "Angstroms"
+msgstr ""
+
+msgid "Millimicrons"
+msgstr ""
+
+msgid "Microns"
+msgstr ""
+
+msgid "Millimeters"
+msgstr ""
+
+msgid "Centimeters"
+msgstr ""
+
+msgid "Decimeters"
+msgstr ""
+
+msgid "Meters"
+msgstr ""
+
+msgid "Decameters"
+msgstr ""
+
+msgid "Hectometers"
+msgstr ""
+
+msgid "Kilometers"
+msgstr ""
+
+msgid "Megameters"
+msgstr ""
+
+msgid "Gigameters"
+msgstr ""
+
+msgid "Inches"
+msgstr ""
+
+msgid "Feet"
+msgstr ""
+
+msgid "Yards"
+msgstr ""
+
+msgid "Miles"
+msgstr ""
+
+msgid "NauticalMiles"
+msgstr ""
+
+msgid "AstronomicalUnits"
+msgstr ""
+
+msgid "LightYears"
+msgstr ""
+
+msgid "Parsecs"
+msgstr ""
+
+msgid "Cubits"
+msgstr ""
+
+msgid "Fathoms"
+msgstr ""
+
+msgid "Furlongs"
+msgstr ""
+
+msgid "Hands"
+msgstr ""
+
+msgid "Paces"
+msgstr ""
+
+msgid "Rods"
+msgstr ""
+
+msgid "Chains"
+msgstr ""
+
+msgid "Picas"
+msgstr ""
+
+msgid "Points"
+msgstr ""
+
+msgid "Area"
+msgstr ""
+
+msgid "SquareMillimeters"
+msgstr ""
+
+msgid "SquareCentimeters"
+msgstr ""
+
+msgid "SquareDecimeters"
+msgstr ""
+
+msgid "SquareMeters"
+msgstr ""
+
+msgid "SquareDecameters"
+msgstr ""
+
+msgid "SquareHectometers"
+msgstr ""
+
+msgid "SquareKilometers"
+msgstr ""
+
+msgid "SquareInches"
+msgstr ""
+
+msgid "SquareFeet"
+msgstr ""
+
+msgid "SquareYards"
+msgstr ""
+
+msgid "SquareMiles"
+msgstr ""
+
+msgid "Acres"
+msgstr ""
+
+msgid "Centares"
+msgstr ""
+
+msgid "Ares"
+msgstr ""
+
+msgid "Hectares"
+msgstr ""
+
+msgid "SquareRods"
+msgstr ""
+
+msgid "Volume"
+msgstr ""
+
+msgid "CubicMillimeters"
+msgstr ""
+
+msgid "CubicCentimeters"
+msgstr ""
+
+msgid "CubicDecimeters"
+msgstr ""
+
+msgid "CubicMeters"
+msgstr ""
+
+msgid "CubicDecameters"
+msgstr ""
+
+msgid "CubicHectometers"
+msgstr ""
+
+msgid "CubicKilometers"
+msgstr ""
+
+msgid "CubicInches"
+msgstr ""
+
+msgid "CubicFeet"
+msgstr ""
+
+msgid "CubicYards"
+msgstr ""
+
+msgid "CubicMiles"
+msgstr ""
+
+msgid "MilliLiters"
+msgstr ""
+
+msgid "CentiLiters"
+msgstr ""
+
+msgid "DeciLiters"
+msgstr ""
+
+msgid "Liters"
+msgstr ""
+
+msgid "DecaLiters"
+msgstr ""
+
+msgid "HectoLiters"
+msgstr ""
+
+msgid "KiloLiters"
+msgstr ""
+
+msgid "AcreFeet"
+msgstr ""
+
+msgid "AcreInches"
+msgstr ""
+
+msgid "Cords"
+msgstr ""
+
+msgid "CordFeet"
+msgstr ""
+
+msgid "Decisteres"
+msgstr ""
+
+msgid "Steres"
+msgstr ""
+
+msgid "Decasteres"
+msgstr ""
+
+msgid "FluidGallons"
+msgstr ""
+
+msgid "FluidQuarts"
+msgstr ""
+
+msgid "FluidPints"
+msgstr ""
+
+msgid "FluidCups"
+msgstr ""
+
+msgid "FluidGills"
+msgstr ""
+
+msgid "FluidOunces"
+msgstr ""
+
+msgid "FluidTablespoons"
+msgstr ""
+
+msgid "FluidTeaspoons"
+msgstr ""
+
+msgid "DryGallons"
+msgstr ""
+
+msgid "DryQuarts"
+msgstr ""
+
+msgid "DryPints"
+msgstr ""
+
+msgid "DryPecks"
+msgstr ""
+
+msgid "DryBuckets"
+msgstr ""
+
+msgid "DryBushels"
+msgstr ""
+
+msgid "UKGallons"
+msgstr ""
+
+msgid "UKPottle"
+msgstr ""
+
+msgid "UKQuarts"
+msgstr ""
+
+msgid "UKPints"
+msgstr ""
+
+msgid "UKGill"
+msgstr ""
+
+msgid "UKOunces"
+msgstr ""
+
+msgid "UKPecks"
+msgstr ""
+
+msgid "UKBuckets"
+msgstr ""
+
+msgid "UKBushels"
+msgstr ""
+
+msgid "Mass"
+msgstr ""
+
+msgid "Nanograms"
+msgstr ""
+
+msgid "Micrograms"
+msgstr ""
+
+msgid "Milligrams"
+msgstr ""
+
+msgid "Centigrams"
+msgstr ""
+
+msgid "Decigrams"
+msgstr ""
+
+msgid "Grams"
+msgstr ""
+
+msgid "Decagrams"
+msgstr ""
+
+msgid "Hectograms"
+msgstr ""
+
+msgid "Kilograms"
+msgstr ""
+
+msgid "MetricTons"
+msgstr ""
+
+msgid "Drams"
+msgstr ""
+
+msgid "Grains"
+msgstr ""
+
+msgid "Tons"
+msgstr ""
+
+msgid "LongTons"
+msgstr ""
+
+msgid "Ounces"
+msgstr ""
+
+msgid "Pounds"
+msgstr ""
+
+msgid "Stones"
+msgstr ""
+
+msgid "Temperature"
+msgstr ""
+
+msgid "Celsius"
+msgstr ""
+
+msgid "Kelvin"
+msgstr ""
+
+msgid "Fahrenheit"
+msgstr ""
+
+msgid "Rankine"
+msgstr ""
+
+msgid "Reaumur"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "MilliSeconds"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Minutes"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "Fortnights"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Years"
+msgstr ""
+
+msgid "Decades"
+msgstr ""
+
+msgid "Centuries"
+msgstr ""
+
+msgid "Millennia"
+msgstr ""
+
+msgid "DateTime"
+msgstr ""
+
+msgid "JulianDate"
+msgstr ""
+
+msgid "ModifiedJulianDate"
+msgstr ""
+
+msgid "''%s'' is not a valid date"
+msgstr ""
+
+msgid "''%s'' is not a valid date and time"
+msgstr ""
+
+msgid "''%s'' is not a valid integer value"
+msgstr ""
+
+msgid "''%s'' is not a valid time"
+msgstr ""
+
+msgid "Invalid argument to time encode"
+msgstr ""
+
+msgid "GUID '%s' was previously registered"
+msgstr ""
+
+msgid "Constructing COM object '%s' for which there is no wrapper "
+"component"
+msgstr ""
+
+msgid "%s.GetComClass returned nil"
+msgstr ""
+
+msgid "No ComClass specified"
+msgstr ""
+
+msgid "No COM classes have been registered"
+msgstr ""
+
+msgid "No context-sensitive help installed"
+msgstr ""
+
+msgid "No help found for context %d"
+msgstr ""
+
+msgid "Unable to open Index"
+msgstr ""
+
+msgid "Unable to open Search"
+msgstr ""
+
+msgid "Unable to find a Table of Contents"
+msgstr ""
+
+msgid "No topic-based help system installed"
+msgstr ""
+
+msgid "No help found for %s"
+msgstr ""
+
+msgid "Method %s of class %s not found"
+msgstr ""
+
+msgid "Type mismatch in parameter %d for method "
+"%s"
+msgstr ""
+
+msgid "Invalid DispID for parameter %d in method "
+"%s"
+msgstr ""
+
+msgid "Parameter %d required for method %s"
+msgstr ""
+
+msgid "Method definition for %s has over %d "
+"parameters"
+msgstr ""
+
+msgid "Too many parameters for method %s"
+msgstr ""
+
+msgid "Unable to invoke method %s that use unpublished "
+"type"
+msgstr ""
+
+msgid "10bytes-Extended type in method %s' return type is not "
+"supported"
+msgstr ""
+
+msgid "10bytes-Extended type in parameter %d in method %s is not "
+"supported"
+msgstr ""
+
+msgid "Argument out of range"
+msgstr ""
+
+msgid "Argument must not be nil"
+msgstr ""
+
+msgid "Cannot modify a collection while iterating"
+msgstr ""
+
+msgid "Unbalanced stack or queue operation"
+msgstr ""
+
+msgid "Item not found"
+msgstr ""
+
+msgid "Duplicates not allowed"
+msgstr ""
+
+msgid "Thread tracking isn't enabled"
+msgstr ""
+
+msgid "SpinLock has been re-entered on the same "
+"thread"
+msgstr ""
+
+msgid "SpinLock not owned by the current thread"
+msgstr ""
+
+msgid "Insufficient RTTI available to support this "
+"operation"
+msgstr ""
+
+msgid "Parameter count mismatch"
+msgstr ""
+
+msgid "Parameter count exceeded"
+msgstr ""
+
+msgid "Incompatible type"
+msgstr ""
+
+msgid "Type '%s' is not declared in the interface section of a "
+"unit"
+msgstr ""
+
+msgid "VAR and OUT arguments must match parameter type "
+"exactly"
+msgstr ""
+
+msgid "Insufficient buffer for requested data"
+msgstr ""
+
+msgid "Invalid 7 bit integer stream encoding"
+msgstr ""
+
+msgid "Surrogates not allowed as a single char"
+msgstr ""
+
+msgid "Invalid string length"
+msgstr ""
+
+msgid "Attempt to read past end of stream"
+msgstr ""
+
+msgid "Byte array for GUID must be exactly %d bytes "
+"long"
+msgstr ""
+
+msgid "Specified Login Credential Service not "
+"found"
+msgstr ""
+
+msgid "Group[%d] - Active: %s"
+msgstr ""
+
+msgid "  Group Classes"
+msgstr ""
+
+msgid "  Classes"
+msgstr ""
+
+msgid "  Class Aliases"
+msgstr ""
+
+msgid "Invalid conversion from %s to %s"
+msgstr ""
+
+msgid "Invalid CFPropertyList type"
+msgstr ""
+
+msgid "Cannot convert CFArray of CFArray"
+msgstr ""
+
+msgid "Cannot convert CFArray of CFDictionary"
+msgstr ""
+
+msgid "Cannot translate CFDictionary to Delphi "
+"type"
+msgstr ""
+
+msgid "Key not present"
+msgstr ""
+
+msgid "Unable to create class '%s'"
+msgstr ""
+
+msgid "Selector '%s' not found"
+msgstr ""
+
+msgid "Unable to register class '%s'"
+msgstr ""
+
+msgid "Fatal error during function invocation"
+msgstr ""
+
+msgid "%s (Version %d.%d, Build %d, %5:s)"
+msgstr ""
+
+msgid "%s Service Pack %4:d (Version %1:d.%2:d, Build %3:d, "
+"%5:s)"
+msgstr ""
+
+msgid "32-bit Edition"
+msgstr ""
+
+msgid "64-bit Edition"
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid "Windows Vista"
+msgstr ""
+
+msgid "Windows Server 2008"
+msgstr ""
+
+msgid "Windows 7"
+msgstr ""
+
+msgid "Windows Server 2008 R2"
+msgstr ""
+
+msgid "Windows 2000"
+msgstr ""
+
+msgid "Windows XP"
+msgstr ""
+
+msgid "Windows Server 2003"
+msgstr ""
+
+msgid "Windows Server 2003 R2"
+msgstr ""
+
+msgid "Windows Server 2012"
+msgstr ""
+
+msgid "Windows Server 2012 R2"
+msgstr ""
+
+msgid "Windows 8"
+msgstr ""
+
+msgid "Windows 8.1"
+msgstr ""
+
+msgid "Windows 10"
+msgstr ""
+
+msgid "%s interface is not supported on this OS "
+"version"
+msgstr ""
+
+msgid "Could not hook messages, buttons and preview events will not "
+"work"
+msgstr ""
+
+msgid "Could not initialize taskbar. Error: "
+"%d"
+msgstr ""
+
+msgid "There is another taskbar control instance"
+msgstr ""
+
+msgid "Windows taskbar only supports %d buttons on preview "
+"tabs"
+msgstr ""
+
+msgid "Could not register tab. Error %d"
+msgstr ""
+
+msgid "%d is incorrect. Should be between 0 and "
+"%d"
+msgstr ""
+
+msgid "Failed to set bitmap as thumbnail preview. Error: "
+"%d"
+msgstr ""
+
+msgid "Failed to set bitmap as preview. Error: "
+"%d"
+msgstr ""
+
+msgid "No RTTI information found for class "
+"%s"
+msgstr ""
+
+msgid "Cannot create instance of class %s"
+msgstr ""
+
+msgid "The created instance of class %s is "
+"wrong"
+msgstr ""
+
+msgid "Error creating HString for %s"
+msgstr ""
+
+msgid "Cannot get factory for class %s"
+msgstr ""
+
+msgid "The factory obtained for %s is wrong"
+msgstr ""
+
+msgid "Cannot create interop class"
+msgstr ""
+
+msgid "%s (Version %d.%d.%d)"
+msgstr ""
+
+msgid "Error reading zip file"
+msgstr ""
+
+msgid "Error writing zip file"
+msgstr ""
+
+msgid "Invalid Zip Local Header signature"
+msgstr ""
+
+msgid "Invalid Zip Central Header signature"
+msgstr ""
+
+msgid "Support for compression method not registered: "
+"%s"
+msgstr ""
+
+msgid "File must be open"
+msgstr ""
+
+msgid "File must be open for writing"
+msgstr ""
+
+msgid "File must be open for reading"
+msgstr ""
+
+msgid "Zip file must be empty"
+msgstr ""
+
+msgid "File name must not be empty"
+msgstr ""
+
+msgid "Observer is not supported"
+msgstr ""
+
+msgid "Cannot have multiple single cast observers added to the observers "
+"collection"
+msgstr ""
+
+msgid "The object does not implement the observer "
+"interface"
+msgstr ""
+
+msgid "No single cast observer with ID %d was added to the observer "
+"collection"
+msgstr ""
+
+msgid "No multi cast observer with ID %d was added to the observer "
+"collection"
+msgstr ""
+
+msgid "Observer is not available"
+msgstr ""
+
+msgid "Cannot initiate two or more geocoding requests at the same "
+"time"
+msgstr ""
+
+msgid "The location sensor is started"
+msgstr ""
+
+msgid "The sensor on the specified index (%d) is not "
+"found"
+msgstr ""
+
+msgid "Unauthorized to use location services"
+msgstr ""
+
+msgid "Location services are disabled"
+msgstr ""
+
+msgid "Cannot deploy, \"%s\" file not found in "
+"assets"
+msgstr ""
+
+msgid "Cannot have access to external storage on "
+"device"
+msgstr ""
+
+msgid "Invalid date string: %s"
+msgstr ""
+
+msgid "Invalid time string: %s"
+msgstr ""
+
+msgid "Invalid time Offset string: %s"
+msgstr ""
+
+msgid "Manual construction of TDeviceInfo is not "
+"supported"
+msgstr ""
+
+msgid "Attribute '%s' already exists"
+msgstr ""
+
+msgid "Device '%s' already exists"
+msgstr ""
+
+msgid "MD5: Cannot update a finalized hash"
+msgstr ""
+
+msgid "SHA1: Cannot update a finalized hash"
+msgstr ""
+
+msgid "SHA2: Cannot update a finalized hash"
+msgstr ""
+
+msgid "Error decoding URL style (%%XX) encoded string at position "
+"%d"
+msgstr ""
+
+msgid "Invalid URL encoded character (%s) at position "
+"%d"
+msgstr ""
+
+msgid "Invalid HTML encoded character (%s) at position "
+"%d"
+msgstr ""
+
+msgid "The Break method was previously called. Break and Stop may not be "
+"used in combination in iterations of the same "
+"loop"
+msgstr ""
+
+msgid "The Stop method was previously called. Break and Stop may not be used "
+"in combination in iterations of the same "
+"loop"
+msgstr ""
+
+msgid "Cannot construct an ITask in this manner"
+msgstr ""
+
+msgid "List of tasks to Join method empty"
+msgstr ""
+
+msgid "At least one task in array nil"
+msgstr ""
+
+msgid "Cannot start a task that has already "
+"completed"
+msgstr ""
+
+msgid "One or more tasks were cancelled"
+msgstr ""
+
+msgid "One or more errors occurred"
+msgstr ""
+
+msgid "Must wait on at least one event"
+msgstr ""
+
+msgid "Cannot call BeginInvoke on a TComponent in the process of "
+"destruction"
+msgstr ""
+
+msgid "ShareContract not available"
+msgstr ""
+
+msgid "Sharing not supported under %s"
+msgstr ""
+
+msgid "TShareContract.OnProcessMessages event must be assigned "
+"first"
+msgstr ""
+
+msgid "<unknown>"
+msgstr ""
+
+msgid "'%s' is not a valid integer value"
+msgstr ""
+
+msgid "'%s' is not a valid floating point value"
+msgstr ""
+
+msgid "'%s' is not a valid currency value"
+msgstr ""
+
+msgid "'%s' is not a valid date"
+msgstr ""
+
+msgid "'%s' is not a valid time"
+msgstr ""
+
+msgid "'%s' is not a valid date and time"
+msgstr ""
+
+msgid "'%g' is not a valid date and time"
+msgstr ""
+
+msgid "'%d.%d' is not a valid timestamp"
+msgstr ""
+
+msgid "'%s' is not a valid GUID value"
+msgstr ""
+
+msgid "'%s' is not a valid boolean value"
+msgstr ""
+
+msgid "Invalid argument to date encode"
+msgstr ""
+
+msgid "I/O error %d"
+msgstr ""
+
+msgid "File not found"
+msgstr ""
+
+msgid "Invalid filename"
+msgstr ""
+
+msgid "Too many open files"
+msgstr ""
+
+msgid "File access denied"
+msgstr ""
+
+msgid "Read beyond end of file"
+msgstr ""
+
+msgid "Disk full"
+msgstr ""
+
+msgid "Invalid numeric input"
+msgstr ""
+
+msgid "Division by zero"
+msgstr ""
+
+msgid "Range check error"
+msgstr ""
+
+msgid "Integer overflow"
+msgstr ""
+
+msgid "Invalid floating point operation"
+msgstr ""
+
+msgid "Floating point division by zero"
+msgstr ""
+
+msgid "Floating point overflow"
+msgstr ""
+
+msgid "Floating point underflow"
+msgstr ""
+
+msgid "Invalid pointer operation"
+msgstr ""
+
+msgid "Invalid class typecast"
+msgstr ""
+
+msgid "Access violation at address %p. %s of address "
+"%p"
+msgstr ""
+
+msgid "Access violation at address %p, accessing address "
+"%p"
+msgstr ""
+
+msgid "Access violation"
+msgstr ""
+
+msgid "Stack overflow"
+msgstr ""
+
+msgid "Control-C hit"
+msgstr ""
+
+msgid "Quit key hit"
+msgstr ""
+
+msgid "Privileged instruction"
+msgstr ""
+
+msgid "Operation aborted"
+msgstr ""
+
+msgid "Exception %s in module %s at %p.\n"
+"%s%s\n"
+msgstr ""
+
+msgid "Application Error"
+msgstr ""
+
+msgid "sigaction call failed"
+msgstr ""
+
+msgid "OS exception handling initialization "
+"failed"
+msgstr ""
+
+msgid "Format '%s' invalid or incompatible with "
+"argument"
+msgstr ""
+
+msgid "No argument for format '%s'"
+msgstr ""
+
+msgid "Variant method calls not supported"
+msgstr ""
+
+msgid "Execution"
+msgstr ""
+
+msgid "Invalid access"
+msgstr ""
+
+msgid "Format result longer than 4096 characters"
+msgstr ""
+
+msgid "Format string too long"
+msgstr ""
+
+msgid "Error creating CFString"
+msgstr ""
+
+msgid "ICU Error: %d, %s"
+msgstr ""
+
+msgid "ICU Overflow Error: %d, %s, Needed Length=%d"
+msgstr ""
+
+msgid "Error creating variant or safe array"
+msgstr ""
+
+msgid "Variant or safe array index out of bounds"
+msgstr ""
+
+msgid "Variant or safe array is locked"
+msgstr ""
+
+msgid "Unexpected variant or safe array error: "
+"%s%.8x"
+msgstr ""
+
+msgid "Invalid variant type conversion"
+msgstr ""
+
+msgid "Invalid variant operation"
+msgstr ""
+
+msgid "Invalid NULL variant operation"
+msgstr ""
+
+msgid "Invalid variant operation (%s%.8x)\n"
+"%s"
+msgstr ""
+
+msgid "Range check error for variant of type "
+"(%s)"
+msgstr ""
+
+msgid "Range check error while converting variant of type (%s) into type "
+"(%s)"
+msgstr ""
+
+msgid "Custom variant type (%s%.4x) is out of "
+"range"
+msgstr ""
+
+msgid "Custom variant type (%s%.4x) already used by "
+"%s"
+msgstr ""
+
+msgid "Custom variant type (%s%.4x) is not "
+"usable"
+msgstr ""
+
+msgid "Too many custom variant types have been "
+"registered"
+msgstr ""
+
+msgid "Variant is not an array"
+msgstr ""
+
+msgid "Unknown custom variant type ($%.4x)"
+msgstr ""
+
+msgid "Custom variant type ($%.4x) is out of "
+"range"
+msgstr ""
+
+msgid "Custom variant type ($%.4x) already used by "
+"%s"
+msgstr ""
+
+msgid "Custom variant type ($%.4x) is not usable"
+msgstr ""
+
+msgid "Invalid variant operation ($%.8x)"
+msgstr ""
+
+msgid "Could not convert variant of type (%s) into type "
+"(%s)"
+msgstr ""
+
+msgid "Overflow while converting variant of type (%s) into type "
+"(%s)"
+msgstr ""
+
+msgid "Variant overflow"
+msgstr ""
+
+msgid "Invalid variant type"
+msgstr ""
+
+msgid "Operation not supported"
+msgstr ""
+
+msgid "Variant operation ran out memory"
+msgstr ""
+
+msgid "Unexpected variant error"
+msgstr ""
+
+msgid "Recursion while doing a VarDataClear"
+msgstr ""
+
+msgid "Recursion while doing a VarDataCopy"
+msgstr ""
+
+msgid "Recursion while doing a VarDataCopyNoInd"
+msgstr ""
+
+msgid "Recursion while doing a VarDataInit"
+msgstr ""
+
+msgid "Recursion while doing a VarDataCastTo"
+msgstr ""
+
+msgid "Variant is empty"
+msgstr ""
+
+msgid "Cannot convert from the specified type"
+msgstr ""
+
+msgid "Cannot convert to the specified type"
+msgstr ""
+
+msgid "External exception %x"
+msgstr ""
+
+msgid "Assertion failed"
+msgstr ""
+
+msgid "Interface not supported"
+msgstr ""
+
+msgid "Exception in safecall method"
+msgstr ""
+
+msgid "Object lock not owned"
+msgstr ""
+
+msgid "Monitor support function not initialized"
+msgstr ""
+
+msgid "Method called on disposed object"
+msgstr ""
+
+msgid "%s (%s, line %d)"
+msgstr ""
+
+msgid "Abstract Error"
+msgstr ""
+
+msgid "Access violation at address %p in module '%s'. %s of address "
+"%p"
+msgstr ""
+
+msgid "Cannot access package information for package "
+"'%s'"
+msgstr ""
+
+msgid "Can't load package %s.\n"
+"%s"
+msgstr ""
+
+msgid "Invalid package file '%s'"
+msgstr ""
+
+msgid "Invalid package handle"
+msgstr ""
+
+msgid "Cannot load package '%s.'  It contains unit '%s', which is also "
+"contained in package '%s'"
+msgstr ""
+
+msgid "System Error.  Code: %d.\n"
+"%s%s"
+msgstr ""
+
+msgid "A call to an OS function failed"
+msgstr ""
+
+msgid "Win32 Error.  Code: %d.\n"
+"%s"
+msgstr ""
+
+msgid "A Win32 API function failed"
+msgstr ""
+
+msgid "Application is not licensed to use this "
+"feature"
+msgstr ""
+
+msgid "Jan"
+msgstr ""
+
+msgid "Feb"
+msgstr ""
+
+msgid "Mar"
+msgstr ""
+
+msgid "Apr"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Jun"
+msgstr ""
+
+msgid "Jul"
+msgstr ""
+
+msgid "Aug"
+msgstr ""
+
+msgid "Sep"
+msgstr ""
+
+msgid "Oct"
+msgstr ""
+
+msgid "Nov"
+msgstr ""
+
+msgid "Dec"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Unable to create directory"
+msgstr ""
+
+msgid "Codeset conversion failure"
+msgstr ""
+
+msgid "Invalid source array"
+msgstr ""
+
+msgid "Invalid destination array"
+msgstr ""
+
+msgid "Character index out of bounds (%d)"
+msgstr ""
+
+msgid "Start index out of bounds (%d)"
+msgstr ""
+
+msgid "Invalid count (%d)"
+msgstr ""
+
+msgid "Invalid destination index (%d)"
+msgstr ""
+
+msgid "Invalid code page"
+msgstr ""
+
+msgid "Invalid encoding name"
+msgstr ""
+
+msgid "No mapping for the Unicode character exists in the target multi-byte "
+"code page"
+msgstr ""
+
+msgid "Error creating system registry entry"
+msgstr ""
+
+msgid "OLE error %.8x"
+msgstr ""
+
+msgid "Object factory for class %s missing"
+msgstr ""
+
+msgid "Type information missing for class %s"
+msgstr ""
+
+msgid "Incorrect type information for class "
+"%s"
+msgstr ""
+
+msgid "Dispatch interface missing from class "
+"%s"
+msgstr ""
+
+msgid "Method '%s' not supported by automation "
+"object"
+msgstr ""
+
+msgid "Variant does not reference an automation "
+"object"
+msgstr ""
+
+msgid "Dispatch methods do not support more than 64 "
+"parameters"
+msgstr ""
+
+msgid "DCOM not installed"
+msgstr ""
+
+msgid "DAX Error"
+msgstr ""
+
+msgid "COM Server Warning"
+msgstr ""
+
+msgid "There are still active COM objects in this application.  One or more "
+"clients may have references to these objects, so manually closing "
+msgstr ""
+
+msgid "this application may cause those client application(s) to fail.\n"
+"\n"
+"Are you sure you want to close this "
+"application?"
+msgstr ""
+
+msgid "Unable to retrieve a pointer to a running object registered with OLE "
+"for %s/%s"
+msgstr ""
+
+msgid "'%s' is not a valid property value"
+msgstr ""
+
+msgid "License information for %s is invalid"
+msgstr ""
+
+msgid "License information for %s not found. You cannot use this control in "
+"design mode"
+msgstr ""
+
+msgid "OLE control activation failed"
+msgstr ""
+
+msgid "Could not obtain OLE control window "
+"handle"
+msgstr ""
+
+msgid "ZLib error: target buffer may be too "
+"small"
+msgstr ""
+
+msgid "Invalid stream operation"
+msgstr ""
+
+msgid "NilToTPicture"
+msgstr ""
+
+msgid "Assign nil to TPicture clears picture"
+msgstr ""
+
+msgid "Failed to clear tab control"
+msgstr ""
+
+msgid "Failed to delete tab at index %d"
+msgstr ""
+
+msgid "Failed to retrieve tab at index %d"
+msgstr ""
+
+msgid "Failed to get object at index %d"
+msgstr ""
+
+msgid "Failed to set tab \"%s\" at index %d"
+msgstr ""
+
+msgid "Failed to set object at index %d"
+msgstr ""
+
+msgid "MultiLine must be True when TabPosition is tpLeft or "
+"tpRight"
+msgstr ""
+
+msgid "Invalid item level assignment"
+msgstr ""
+
+msgid "Invalid level (%d) for item \"%s\""
+msgstr ""
+
+msgid "Invalid index"
+msgstr ""
+
+msgid "Unable to insert an item"
+msgstr ""
+
+msgid "Invalid owner"
+msgstr ""
+
+msgid "Unable to create new column"
+msgstr ""
+
+msgid "Unable to create new item"
+msgstr ""
+
+msgid "RichEdit line insertion error"
+msgstr ""
+
+msgid "Failed to Load Stream"
+msgstr ""
+
+msgid "Failed to Save Stream"
+msgstr ""
+
+msgid "StatusBar cannot have more than 64 panels"
+msgstr ""
+
+msgid "Error assigning Hot-Key to %s. %s"
+msgstr ""
+
+msgid "Hot-Key is invalid"
+msgstr ""
+
+msgid "Window is invalid or a child window"
+msgstr ""
+
+msgid "Hot-Key is assigned to another window"
+msgstr ""
+
+msgid "%s is already associated with %s"
+msgstr ""
+
+msgid "%d is an invalid PageIndex value.  PageIndex must be between 0 and "
+"%d"
+msgstr ""
+
+msgid "This control requires version 4.70 or greater of "
+"COMCTL32.DLL"
+msgstr ""
+
+msgid "Date exceeds maximum of %s"
+msgstr ""
+
+msgid "Date is less than minimum of %s"
+msgstr ""
+
+msgid "You must be in ShowCheckbox mode to set to this "
+"date"
+msgstr ""
+
+msgid "Failed to set calendar date or time"
+msgstr ""
+
+msgid "Failed to set maximum selection range"
+msgstr ""
+
+msgid "Failed to set calendar min/max range"
+msgstr ""
+
+msgid "Date range can only be used in multiselect "
+"mode"
+msgstr ""
+
+msgid "Failed to set calendar selected range"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "WriteObject called twice for the same "
+"instance"
+msgstr ""
+
+msgid "Resource %s is of incorrect class"
+msgstr ""
+
+msgid "Tab index out of bounds"
+msgstr ""
+
+msgid "Tab position incompatible with current tab "
+"style"
+msgstr ""
+
+msgid "Tab style incompatible with current tab "
+"position"
+msgstr ""
+
+msgid "Bitmap image is not valid"
+msgstr ""
+
+msgid "Icon image is not valid"
+msgstr ""
+
+msgid "Metafile is not valid"
+msgstr ""
+
+msgid "Invalid pixel format"
+msgstr ""
+
+msgid "Invalid image"
+msgstr ""
+
+msgid "Bitmap is empty"
+msgstr ""
+
+msgid "Scan line index out of range"
+msgstr ""
+
+msgid "Cannot change the size of an icon"
+msgstr ""
+
+msgid "Cannot change the size of a WIC Image"
+msgstr ""
+
+msgid "Invalid operation on TOleGraphic"
+msgstr ""
+
+msgid "Unknown picture file extension (.%s)"
+msgstr ""
+
+msgid "Unsupported clipboard format"
+msgstr ""
+
+msgid "Out of system resources"
+msgstr ""
+
+msgid "Canvas does not allow drawing"
+msgstr ""
+
+msgid "Text format flag '%s' not supported"
+msgstr ""
+
+msgid "Invalid image size"
+msgstr ""
+
+msgid "Too many images"
+msgstr ""
+
+msgid "Image dimensions do not match image list "
+"dimensions"
+msgstr ""
+
+msgid "Invalid ImageList"
+msgstr ""
+
+msgid "Unable to Replace Image"
+msgstr ""
+
+msgid "Invalid ImageList Index"
+msgstr ""
+
+msgid "Failed to read ImageList data from stream"
+msgstr ""
+
+msgid "Failed to write ImageList data to stream"
+msgstr ""
+
+msgid "Error creating window device context"
+msgstr ""
+
+msgid "Client of TDrag not initialized"
+msgstr ""
+
+msgid "Error creating window class"
+msgstr ""
+
+msgid "Error creating window"
+msgstr ""
+
+msgid "Cannot focus a disabled or invisible "
+"window"
+msgstr ""
+
+msgid "Control '%s' has no parent window"
+msgstr ""
+
+msgid "Parent given is not a parent of '%s'"
+msgstr ""
+
+msgid "Cannot hide an MDI Child Form"
+msgstr ""
+
+msgid "Cannot change Visible in OnShow or OnHide"
+msgstr ""
+
+msgid "Cannot make a visible window modal"
+msgstr ""
+
+msgid "Scrollbar property out of range"
+msgstr ""
+
+msgid "Menu index out of range"
+msgstr ""
+
+msgid "Menu inserted twice"
+msgstr ""
+
+msgid "Sub-menu is not in menu"
+msgstr ""
+
+msgid "GroupIndex cannot be less than a previous menu item's "
+"GroupIndex"
+msgstr ""
+
+msgid "Cannot have more than one MDI form per "
+"application"
+msgstr ""
+
+msgid "Cannot create form. No MDI forms are currently "
+"active"
+msgstr ""
+
+msgid "Can only modify an image if it contains a "
+"bitmap"
+msgstr ""
+
+msgid "A control cannot have itself as its "
+"parent"
+msgstr ""
+
+msgid "&Yes"
+msgstr ""
+
+msgid "&No"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "&Ignore"
+msgstr ""
+
+msgid "&Retry"
+msgstr ""
+
+msgid "&All"
+msgstr ""
+
+msgid "Cannot drag a form"
+msgstr ""
+
+msgid "PutObject to undefined item"
+msgstr ""
+
+msgid "Could not load CARDS.DLL"
+msgstr ""
+
+msgid "Duplicate CardId found"
+msgstr ""
+
+msgid "An error returned from DDE  ($0%x)"
+msgstr ""
+
+msgid "DDE Error - conversation not established "
+"($0%x)"
+msgstr ""
+
+msgid "Error occurred when DDE ran out of memory "
+"($0%x)"
+msgstr ""
+
+msgid "Unable to connect DDE conversation"
+msgstr ""
+
+msgid "FB"
+msgstr ""
+
+msgid "FG"
+msgstr ""
+
+msgid "BG"
+msgstr ""
+
+msgid "Cannot load older version of TShape"
+msgstr ""
+
+msgid "Metafiles"
+msgstr ""
+
+msgid "Enhanced Metafiles"
+msgstr ""
+
+msgid "Invalid numeric value"
+msgstr ""
+
+msgid "Outline index not found"
+msgstr ""
+
+msgid "Parent must be expanded"
+msgstr ""
+
+msgid "Invalid value for current item"
+msgstr ""
+
+msgid "Invalid outline index"
+msgstr ""
+
+msgid "Incorrect level assignment"
+msgstr ""
+
+msgid "Invalid selection"
+msgstr ""
+
+msgid "File load error"
+msgstr ""
+
+msgid "Maximum outline depth exceeded"
+msgstr ""
+
+msgid "&Abort"
+msgstr ""
+
+msgid "N&o to All"
+msgstr ""
+
+msgid "BkSp"
+msgstr ""
+
+msgid "Tab"
+msgstr ""
+
+msgid "Esc"
+msgstr ""
+
+msgid "Enter"
+msgstr ""
+
+msgid "Space"
+msgstr ""
+
+msgid "PgUp"
+msgstr ""
+
+msgid "PgDn"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Down"
+msgstr ""
+
+msgid "Ins"
+msgstr ""
+
+msgid "Del"
+msgstr ""
+
+msgid "Shift+"
+msgstr ""
+
+msgid "Ctrl+"
+msgstr ""
+
+msgid "Alt+"
+msgstr ""
+
+msgid "(None)"
+msgstr ""
+
+msgid "All files (*.*)|*.*"
+msgstr ""
+
+msgid ": [ - no volume label - ]"
+msgstr ""
+
+msgid "Unable to insert a line"
+msgstr ""
+
+msgid "The specified directory does not exist. Create "
+"it?"
+msgstr ""
+
+msgid "Select Directory"
+msgstr ""
+
+msgid "Directory &Name:"
+msgstr ""
+
+msgid "D&rives:"
+msgstr ""
+
+msgid "&Directories:"
+msgstr ""
+
+msgid "&Files: (*.*)"
+msgstr ""
+
+msgid "Ne&twork..."
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "ABCDEFGHIJKLMNOP"
+msgstr ""
+
+msgid "Invalid clipboard format"
+msgstr ""
+
+msgid "Clipboard does not support Icons"
+msgstr ""
+
+msgid "Cannot open clipboard: %s"
+msgstr ""
+
+msgid "Text exceeds memo capacity"
+msgstr ""
+
+msgid "Custom Colors"
+msgstr ""
+
+msgid "(Untitled)"
+msgstr ""
+
+msgid "Unknown RichEdit conversion file extension "
+"(.%s)"
+msgstr ""
+
+msgid "Menu '%s' is already being used by another "
+"form"
+msgstr ""
+
+msgid "Picture:"
+msgstr ""
+
+msgid " (%dx%d)"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Cannot open AVI"
+msgstr ""
+
+msgid "No MCI device open"
+msgstr ""
+
+msgid "All files (*.*)|*.*|Wave files (*.wav)|*.wav|Midi files "
+"(*.mid)|*.mid|Video for Windows (*.avi)|*.avi"
+msgstr ""
+
+msgid "AVIVideo"
+msgstr ""
+
+msgid "CDAudio"
+msgstr ""
+
+msgid "DAT"
+msgstr ""
+
+msgid "DigitalVideo"
+msgstr ""
+
+msgid "MMMovie"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Overlay"
+msgstr ""
+
+msgid "Scanner"
+msgstr ""
+
+msgid "Sequencer"
+msgstr ""
+
+msgid "VCR"
+msgstr ""
+
+msgid "Videodisc"
+msgstr ""
+
+msgid "WaveAudio"
+msgstr ""
+
+msgid "Unknown error code"
+msgstr ""
+
+msgid "Service failed on %s: %s"
+msgstr ""
+
+msgid "execute"
+msgstr ""
+
+msgid "start"
+msgstr ""
+
+msgid "stop"
+msgstr ""
+
+msgid "pause"
+msgstr ""
+
+msgid "continue"
+msgstr ""
+
+msgid "interrogate"
+msgstr ""
+
+msgid "shutdown"
+msgstr ""
+
+msgid "Service failed in custom message(%d): "
+"%s"
+msgstr ""
+
+msgid "Service installed successfully"
+msgstr ""
+
+msgid "Service \"%s\" failed to install with error: "
+"\"%s\""
+msgstr ""
+
+msgid "Service uninstalled successfully"
+msgstr ""
+
+msgid "Service \"%s\" failed to uninstall with error: "
+"\"%s\""
+msgstr ""
+
+msgid "Docked control must have a name"
+msgstr ""
+
+msgid "Error removing control from dock tree"
+msgstr ""
+
+msgid " - Dock zone not found"
+msgstr ""
+
+msgid " - Dock zone has no control"
+msgstr ""
+
+msgid "Error loading dock zone from the stream. Expecting version %d, but "
+"found %d."
+msgstr ""
+
+msgid "All Commands"
+msgstr ""
+
+msgid "Text not found: \"%s\""
+msgstr ""
+
+msgid "No default browser is specified"
+msgstr ""
+
+msgid "Custom..."
+msgstr ""
+
+msgid "Multiselect mode must be on for this "
+"feature"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "A key with the name of \"%s\" already "
+"exists"
+msgstr ""
+
+msgid "Key \"%s\" not found"
+msgstr ""
+
+msgid "goColMoving is not a supported option"
+msgstr ""
+
+msgid "Key may not contain equals sign (\"=\")"
+msgstr ""
+
+msgid "Error sending mail"
+msgstr ""
+
+msgid "Cannot assign a subitem to an actionbar when one of it's parent's is "
+"already assigned to an actionbar"
+msgstr ""
+
+msgid "Item %s has subitems, delete anyway?"
+msgstr ""
+
+msgid "You are not allowed to delete this item"
+msgstr ""
+
+msgid "Item %s is not allowed to be moved"
+msgstr ""
+
+msgid "More Buttons"
+msgstr ""
+
+msgid "Error downloading URL: %s"
+msgstr ""
+
+msgid "Unable to load %s"
+msgstr ""
+
+msgid "(All Actions)"
+msgstr ""
+
+msgid "(No Category)"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "Error setting path: \"%s\""
+msgstr ""
+
+msgid "Attempting to put items into a virtual style "
+"listbox"
+msgstr ""
+
+msgid "Reset all usage data?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+msgid "(No Name)"
+msgstr ""
+
+msgid "ActionManager must first be assigned"
+msgstr ""
+
+msgid "&Add or Remove Buttons"
+msgstr ""
+
+msgid "Reset Toolbar"
+msgstr ""
+
+msgid "&Customize..."
+msgstr ""
+
+msgid "Separator"
+msgstr ""
+
+msgid "Circular references not allowed"
+msgstr ""
+
+msgid "%s does not allow hiding"
+msgstr ""
+
+msgid "Error setting %s.Count"
+msgstr ""
+
+msgid "Listbox (%s) style must be virtual in order to set "
+"Count"
+msgstr ""
+
+msgid "Would you like to reset to the default Priority "
+"Schedule?"
+msgstr ""
+
+msgid "No OnGetItem event handler assigned"
+msgstr ""
+
+msgid "Invalid Colormap this ActionBand requires ColorMaps of type "
+"TCustomActionBarColorMapEx"
+msgstr ""
+
+msgid "A style named %s has already been registered"
+msgstr ""
+
+msgid "A style named %s has not been registered"
+msgstr ""
+
+msgid "Standard Style"
+msgstr ""
+
+msgid "XP Style"
+msgstr ""
+
+msgid "No ActionBand style unit present in the uses clause.\n"
+"Your application must include either XPStyleActnCtrls, "
+"StdStyleActnCtrls or a third party ActionBand style unit in its uses "
+"clause"
+msgstr ""
+
+msgid "%s parameter in call to %s cannot be "
+"nil"
+msgstr ""
+
+msgid "%s ActionManager property has not been "
+"assigned"
+msgstr ""
+
+msgid "\"%s\" is an invalid path"
+msgstr ""
+
+msgid "Invalid path"
+msgstr ""
+
+msgid "ANSI"
+msgstr ""
+
+msgid "ASCII"
+msgstr ""
+
+msgid "Big Endian Unicode"
+msgstr ""
+
+msgid "Encoding:"
+msgstr ""
+
+msgid "Cannot remove shell notification icon"
+msgstr ""
+
+msgid "Cannot create shell notification icon"
+msgstr ""
+
+msgid "PageControl must first be assigned"
+msgstr ""
+
+msgid "%s requires themes to be enabled"
+msgstr ""
+
+msgid "Button%d"
+msgstr ""
+
+msgid "RadioButton%d"
+msgstr ""
+
+msgid "Caption cannot be empty"
+msgstr ""
+
+msgid "CategoryPanel must have a CategoryPanelGroup as its "
+"parent"
+msgstr ""
+
+msgid "Only CategoryPanels can be inserted into a "
+"CategoryPanelGroup"
+msgstr ""
+
+msgid "Invalid canvas operation"
+msgstr ""
+
+msgid "%s has no owner"
+msgstr ""
+
+msgid "Source and destination require the same "
+"owner"
+msgstr ""
+
+msgid "%s cannot be owned by a different canvas"
+msgstr ""
+
+msgid "Not a solid color brush"
+msgstr ""
+
+msgid "Invalid brush style"
+msgstr ""
+
+msgid "Error retrieving locale information"
+msgstr ""
+
+msgid "Failed to change input language"
+msgstr ""
+
+msgid "You can only tab dock TWinControl based "
+"Controls"
+msgstr ""
+
+msgid "No help keyword specified."
+msgstr ""
+
+msgid "Unable to load style '%s'"
+msgstr ""
+
+msgid "Unable to load styles: %s"
+msgstr ""
+
+msgid "Style '%s' already registered"
+msgstr ""
+
+msgid "Style class '%s' already registered"
+msgstr ""
+
+msgid "Style '%s' not found"
+msgstr ""
+
+msgid "Style class '%s' not found"
+msgstr ""
+
+msgid "Invalid style handle"
+msgstr ""
+
+msgid "Invalid style format"
+msgstr ""
+
+msgid "VCL Style File"
+msgstr ""
+
+msgid "Class '%s' is already registered for "
+"'%s'"
+msgstr ""
+
+msgid "Class '%s' is not registered for '%s'"
+msgstr ""
+
+msgid "%s parameter cannot be nil"
+msgstr ""
+
+msgid "A StyleHook class has not been registered for "
+"%s"
+msgstr ""
+
+msgid "Feature not supported by this style"
+msgstr ""
+
+msgid "Style '%s' is not registered"
+msgstr ""
+
+msgid "Cannot unregister the system style"
+msgstr ""
+
+msgid "Style not registered"
+msgstr ""
+
+msgid "Black"
+msgstr ""
+
+msgid "Maroon"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Olive"
+msgstr ""
+
+msgid "Navy"
+msgstr ""
+
+msgid "Purple"
+msgstr ""
+
+msgid "Teal"
+msgstr ""
+
+msgid "Gray"
+msgstr ""
+
+msgid "Silver"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Lime"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Fuchsia"
+msgstr ""
+
+msgid "Aqua"
+msgstr ""
+
+msgid "White"
+msgstr ""
+
+msgid "Money Green"
+msgstr ""
+
+msgid "Sky Blue"
+msgstr ""
+
+msgid "Cream"
+msgstr ""
+
+msgid "Medium Gray"
+msgstr ""
+
+msgid "Active Border"
+msgstr ""
+
+msgid "Active Caption"
+msgstr ""
+
+msgid "Application Workspace"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Button Face"
+msgstr ""
+
+msgid "Button Highlight"
+msgstr ""
+
+msgid "Button Shadow"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Caption Text"
+msgstr ""
+
+msgid "Gradient Active Caption"
+msgstr ""
+
+msgid "Gradient Inactive Caption"
+msgstr ""
+
+msgid "Gray Text"
+msgstr ""
+
+msgid "Highlight Background"
+msgstr ""
+
+msgid "Highlight Text"
+msgstr ""
+
+msgid "Hot Light"
+msgstr ""
+
+msgid "Inactive Border"
+msgstr ""
+
+msgid "Inactive Caption"
+msgstr ""
+
+msgid "Inactive Caption Text"
+msgstr ""
+
+msgid "Info Background"
+msgstr ""
+
+msgid "Info Text"
+msgstr ""
+
+msgid "Menu Background"
+msgstr ""
+
+msgid "Menu Bar"
+msgstr ""
+
+msgid "Menu Highlight"
+msgstr ""
+
+msgid "Menu Text"
+msgstr ""
+
+msgid "Scroll Bar"
+msgstr ""
+
+msgid "3D Dark Shadow"
+msgstr ""
+
+msgid "3D Light"
+msgstr ""
+
+msgid "Window Background"
+msgstr ""
+
+msgid "Window Frame"
+msgstr ""
+
+msgid "Window Text"
+msgstr ""
+
+msgid "Invalid bitmap pixel format, should be a 32 bit "
+"image"
+msgstr ""
+
+msgid "Querying the IPropertyStore interface"
+msgstr ""
+
+msgid "Initializing a variant property"
+msgstr ""
+
+msgid "Setting the value of a property store"
+msgstr ""
+
+msgid "Committing a property store"
+msgstr ""
+
+msgid "Setting the arguments of a jump list "
+"item"
+msgstr ""
+
+msgid "Setting the path of a jump list item"
+msgstr ""
+
+msgid "Setting the icon location of a jump list "
+"item"
+msgstr ""
+
+msgid "Adding an item to an object array"
+msgstr ""
+
+msgid "Querying the IObjectArray interface"
+msgstr ""
+
+msgid "The FriendlyName property of an item must not be "
+"empty"
+msgstr ""
+
+msgid "JumpListItem exception: Error %d: %s"
+msgstr ""
+
+msgid "JumpList exception: Error %d: %s"
+msgstr ""
+
+msgid "Initiating a building session for a new jump "
+"list"
+msgstr ""
+
+msgid "Appending an item to the recent files category of a new jump "
+"list"
+msgstr ""
+
+msgid "Appending an item to the frequent files category of a new jump "
+"list"
+msgstr ""
+
+msgid "Adding your tasks to a new jump list"
+msgstr ""
+
+msgid "Adding a custom category ('%s') and its child items to a new jump "
+"list"
+msgstr ""
+
+msgid "Committing a new jump list"
+msgstr ""
+
+msgid "The current operating system does not support jump "
+"lists"
+msgstr ""
+
+msgid "The current process already has an application ID: "
+"%s"
+msgstr ""
+
+msgid "Cannot call BeginInvoke on a control with no parent or window "
+"handle"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "ControlItem.Control cannot be set to owning "
+"RelativePanel"
+msgstr ""
+
+msgid "Control is not a sibling within RelativePanel"
+msgstr ""
+
+msgid "Control cannot be positioned relative to "
+"itself"
+msgstr ""
+
+msgid "Premature end of data"
+msgstr ""
+
+msgid "Color table overflow"
+msgstr ""
+
+msgid "Invalid color index"
+msgstr ""
+
+msgid "Invalid color index - color map expanded"
+msgstr ""
+
+msgid "Cannot save empty GIF"
+msgstr ""
+
+msgid "Invalid GIF signature"
+msgstr ""
+
+msgid "Invalid number of colors specified in Screen "
+"Descriptor"
+msgstr ""
+
+msgid "Invalid number of colors specified in Image "
+"Descriptor"
+msgstr ""
+
+msgid "Unknown extension type"
+msgstr ""
+
+msgid "Invalid extension introducer"
+msgstr ""
+
+msgid "Failed to allocate memory for GIF DIB"
+msgstr ""
+
+msgid "Failed to create DIB from Bitmap"
+msgstr ""
+
+msgid "Decoder bit buffer under-run"
+msgstr ""
+
+msgid "Circular decoder table entry"
+msgstr ""
+
+msgid "Invalid Image trailer"
+msgstr ""
+
+msgid "Internal error: Extension Instance does not match Extension "
+"Label"
+msgstr ""
+
+msgid "Unsupported Application Extension block "
+"size"
+msgstr ""
+
+msgid "Unknown GIF block type"
+msgstr ""
+
+msgid "Object type not supported for operation"
+msgstr ""
+
+msgid "Invalid GIF data"
+msgstr ""
+
+msgid "Failed to store GIF on clipboard"
+msgstr ""
+
+msgid "Another TGIFImage class has already been registered with "
+"TPicture"
+msgstr ""
+
+msgid "Image exceeds Logical Screen size"
+msgstr ""
+
+msgid "No global or local color table defined"
+msgstr ""
+
+msgid "Invalid pixel coordinates"
+msgstr ""
+
+msgid "Unsupported bitmap format"
+msgstr ""
+
+msgid "Unsupported PixelFormat"
+msgstr ""
+
+msgid "Invalid image dimensions"
+msgstr ""
+
+msgid "Image has no DIB"
+msgstr ""
+
+msgid "Color not in color table"
+msgstr ""
+
+msgid "Invalid Bits Per Pixel value"
+msgstr ""
+
+msgid "Color table is empty"
+msgstr ""
+
+msgid "Image is empty"
+msgstr ""
+
+msgid "Invalid bitmap list"
+msgstr ""
+
+msgid "Invalid reduction method"
+msgstr ""
+
+msgid "Frame contains multiple Graphic Control Extension "
+"blocks"
+msgstr ""
+
+msgid "Missing, invalid or empty palette"
+msgstr ""
+
+msgid "GIF Image"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Saving"
+msgstr ""
+
+msgid "Converting"
+msgstr ""
+
+msgid "Rendering"
+msgstr ""
+
+msgid "Copying"
+msgstr ""
+
+msgid "Optimizing"
+msgstr ""
+
+msgid "Cannot change the size of a JPEG image"
+msgstr ""
+
+msgid "JPEG error #%d"
+msgstr ""
+
+msgid "JPEG Image File"
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is not valid because it "
+"contains invalid pieces of data (crc "
+"error)"
+msgstr ""
+
+msgid "The \"Portable Network Graphics\" image could not be loaded because one "
+"of its main piece of data (ihdr) might be "
+"corrupted"
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is invalid because it has "
+"missing image parts."
+msgstr ""
+
+msgid "Could not decompress the image because it contains invalid compressed "
+"data.\n"
+" Description: "
+msgstr ""
+
+msgid "The \"Portable Network Graphics\" image contains an invalid "
+"palette."
+msgstr ""
+
+msgid "The file being read is not a valid \"Portable Network Graphics\" image "
+"because it contains an invalid header. This file may be corrupted, "
+"try obtaining it again"
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is not supported or it might "
+"be invalid.\n"
+"(IHDR chunk is not the first)"
+msgstr ""
+
+msgid "The png file could not be loaded because it does not "
+"exist."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is not supported because "
+"either its width or height exceeds the maximum size of 65535 "
+"pixels."
+msgstr ""
+
+msgid "There is no such palette entry."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" could not be loaded because it uses "
+"a color table which is missing."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image contains an unknown critical "
+"part which could not be decoded."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is encoded with an unknown "
+"compression scheme which could not be "
+"decoded."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image uses an unknown interlace "
+"scheme which could not be decoded."
+msgstr ""
+
+msgid "The chunks must be compatible to be "
+"assigned."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image is invalid because the decoder "
+"found an unexpected end of the file."
+msgstr ""
+
+msgid "This \"Portable Network Graphics\" image contains no "
+"data."
+msgstr ""
+
+msgid "The program tried to add a existent critical chunk to the current "
+"image which is not allowed."
+msgstr ""
+
+msgid "It's not allowed to add a new chunk because the current image is "
+"invalid."
+msgstr ""
+
+msgid "The png image could not be loaded from the resource "
+"ID."
+msgstr ""
+
+msgid "Some operation could not be performed because the system is out of "
+"resources. Close some windows and try "
+"again."
+msgstr ""
+
+msgid "Setting bit transparency color is not allowed for png images "
+"containing alpha value for each pixel (COLOR_RGBALPHA and "
+"COLOR_GRAYSCALEALPHA)"
+msgstr ""
+
+msgid "This operation is not valid because the current image contains no "
+"valid header."
+msgstr ""
+
+msgid "The new size provided for image resizing is "
+"invalid."
+msgstr ""
+
+msgid "The \"Portable Network Graphics\" could not be created because invalid "
+"image type parameters have being provided."
+msgstr ""
+
+msgid "Variant does not reference an OLE object"
+msgstr ""
+
+msgid "Method '%s' not supported by OLE object"
+msgstr ""
+
+msgid "Link Properties"
+msgstr ""
+
+msgid "Cannot link to an invalid source."
+msgstr ""
+
+msgid "Break link operation is not supported."
+msgstr ""
+
+msgid "Linked %s"
+msgstr ""
+
+msgid "Operation not allowed on an empty OLE "
+"container"
+msgstr ""
+
+msgid "Invalid object verb"
+msgstr ""
+
+msgid "%s Properties"
+msgstr ""
+
+msgid "A page with the caption \"%s\" already "
+"exists"
+msgstr ""
+
+msgid "A Ribbon Pages parent must be TCustomRibbon"
+msgstr ""
+
+msgid "Recent Documents"
+msgstr ""
+
+msgid "Only one Ribbon control on a Form is "
+"allowed"
+msgstr ""
+
+msgid "Specified TabIndex is invalid"
+msgstr ""
+
+msgid "A %s can only be placed on a Ribbon Group with an ActionManager "
+"assigned"
+msgstr ""
+
+msgid "Ribbon Group must have a Ribbon Page as its "
+"parent"
+msgstr ""
+
+msgid "Only Ribbon Groups can be inserted into a Ribbon "
+"Page"
+msgstr ""
+
+msgid "Add to Quick Access Toolbar"
+msgstr ""
+
+msgid "Remove from Quick Access Toolbar"
+msgstr ""
+
+msgid "Customize Quick Access Toolbar..."
+msgstr ""
+
+msgid "More controls"
+msgstr ""
+
+msgid "More Commands..."
+msgstr ""
+
+msgid "Minimize the Ribbon"
+msgstr ""
+
+msgid "Cannot place an item on the Quick Access Toolbar that does not have a "
+"glyph"
+msgstr ""
+
+msgid "Show Above the Ribbon"
+msgstr ""
+
+msgid "Show Below the Ribbon"
+msgstr ""
+
+msgid "Show Quick Access Toolbar Above the "
+"Ribbon"
+msgstr ""
+
+msgid "Show Quick Access Toolbar Below the "
+"Ribbon"
+msgstr ""
+
+msgid "This command is disabled."
+msgstr ""
+
+msgid "Use the glyph property to set an image"
+msgstr ""
+
+msgid "Cannot assign a non-ScreenTipItem to a "
+"ScreenTipItem"
+msgstr ""
+
+msgid "Press F1 for more help."
+msgstr ""
+
+msgid "Unable to generate Screen Tips because there are no linked Action "
+"Lists."
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Unable to retrieve folder details for \"%s\". Error code "
+"$%x"
+msgstr ""
+
+msgid "%s: Missing call to LoadColumnDetails"
+msgstr ""
+
+msgid "Samples"
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+msgid "Rename to %s failed"
+msgstr ""
+
+msgid "Start point"
+msgstr ""
+
+msgid "Start points"
+msgstr ""
+
+msgid "Operation not allowed in a DBCtrlGrid"
+msgstr ""
+
+msgid "Control cannot be used in a DBCtrlGrid"
+msgstr ""
+
+msgid "Property already defined by lookup field"
+msgstr ""
+
+msgid "Remote Login"
+msgstr ""
+
+msgid "Data Bindings..."
+msgstr ""
+
+msgid "Apache version implementation is not registered.  An Apache project "
+"must use a unit such as Web.HTTPD24Impl."
+msgstr ""
+
+msgid "Multiple Apache versions implementations are referenced by this "
+"project.  A project may not reference multiple versions such as "
+"Web.HTTPD22Impl and Web.HTTPD24Impl."
+msgstr ""
+
+msgid "Only one data module per application"
+msgstr ""
+
+msgid "No data modules registered"
+msgstr ""
+
+msgid "No dispatcher component found on data "
+"module"
+msgstr ""
+
+msgid "No automatically activated data modules"
+msgstr ""
+
+msgid "Maximum number of concurrent connections exceeded.  Please try again "
+"later"
+msgstr ""
+
+msgid "<html><title>Internal Server Error 500</title>\n"
+"<h1>Internal Server Error 500</h1><hr>\n"
+"Exception: %s<br>\n"
+"Message: %s<br></html>\n"
+msgstr ""
+
+msgid "<html><title>Document Moved 302</title>\n"
+"<body><h1>Object Moved</h1><hr>\n"
+"This Object may be found <a HREF=\"%s\">here.</a><br>\n"
+"<br></body></html>\n"
+msgstr ""
+
+msgid "%s is not a valid day"
+msgstr ""
+
+msgid "%s is not a valid month"
+msgstr ""
+
+msgid "Duplicate action name"
+msgstr ""
+
+msgid "Only one WebDispatcher per form/data "
+"module"
+msgstr ""
+
+msgid "PathInfo"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Producer"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Too many table columns"
+msgstr ""
+
+msgid "<html><body><h1>Internal Application Error</h1>\n"
+"<p>%0:s\n"
+"<p><hr width=\"100%%\"><i>%1:s</i></body></html>"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Mime Type"
+msgstr ""
+
+msgid "Duplicate mime types for extension: "
+"%s"
+msgstr ""
+
+msgid "Directory Mask"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Mime type: '%0:s', Extensions: '%1:s'"
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Exclude"
+msgstr ""
+
+msgid "Action: %0:s, Mask: '%1:s'"
+msgstr ""
+
+msgid "Error opening directory services"
+msgstr ""
+
+msgid "IIS not properly installed"
+msgstr ""
+
+msgid "To create or access a Website under Vista you must run the IDE as an "
+"Administrator.And you must install the IIS 6 compatibility layer. "
+"Please see the README for more details"
+msgstr ""
+
+msgid "NativeNode cannot be null"
+msgstr ""
+
+msgid "This property or method is not implemented in the Open XML "
+"Parser"
+msgstr ""
+
+msgid "\"%s\" DOMImplementation already registered"
+msgstr ""
+
+msgid "No matching DOM Vendor: \"%s\""
+msgstr ""
+
+msgid "Selected DOM Vendor does not support this property or "
+"method"
+msgstr ""
+
+msgid "Property or Method \"%s\" is not supported by DOM Vendor "
+"\"%s\""
+msgstr ""
+
+msgid "No selected DOM Vendor"
+msgstr ""
+
+msgid "Node cannot be null"
+msgstr ""
+
+msgid "Microsoft MSXML is not installed"
+msgstr ""
+
+msgid "No active document"
+msgstr ""
+
+msgid "Node \"%s\" not found"
+msgstr ""
+
+msgid "IDOMNode required"
+msgstr ""
+
+msgid "Attributes are not supported on this node "
+"type"
+msgstr ""
+
+msgid "Invalid node type"
+msgstr ""
+
+msgid "Mismatched paramaters to RegisterChildNodes"
+msgstr ""
+
+msgid "Element \"%s\" does not contain a single text "
+"node"
+msgstr ""
+
+msgid "DOM Implementation does not support "
+"IDOMParseOptions"
+msgstr ""
+
+msgid "Invalid operation on a hosted node"
+msgstr ""
+
+msgid "ItemTag property is not initialized"
+msgstr ""
+
+msgid "Node is readonly"
+msgstr ""
+
+msgid "Unsupported character encoding \"%s\", try using "
+"LoadFromFile"
+msgstr ""
+
+msgid "Refresh is only supported if the FileName or XML properties are "
+"set"
+msgstr ""
+
+msgid "FileName cannot be blank"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Invalid or unsupported XML Schema document"
+msgstr ""
+
+msgid "Local type declarations cannot have a name.  Element: "
+"%s"
+msgstr ""
+
+msgid "Unknown datatype \"%s\""
+msgstr ""
+
+msgid "Invalid %s value: \"%s\""
+msgstr ""
+
+msgid "Invalid group declaration in \"%s\""
+msgstr ""
+
+msgid "Missing Type name"
+msgstr ""
+
+msgid "Invalid complex type derivation: %s"
+msgstr ""
+
+msgid "Name not allowed on a ref item"
+msgstr ""
+
+msgid "Global schema items may not contain a "
+"ref"
+msgstr ""
+
+msgid "%s cannot be set on a ref item"
+msgstr ""
+
+msgid "Set the GroupRef property for the cmGroupRef content "
+"model"
+msgstr ""
+
+msgid "ContentModel not set"
+msgstr ""
+
+msgid "Facets and Enumeration not allowed on this kind of datatype "
+"\"%s\""
+msgstr ""
+
+msgid "Invalid built-in type name \"%s\""
+msgstr ""
+
+msgid "Included schema file \"%s\" has an invalid targetNamespace.\n"
+"\nExpected: %s\n"
+"Found: %s"
+msgstr ""
+
+msgid "No targetNamespace attribute"
+msgstr ""
+
+msgid "Built-in Type"
+msgstr ""
+
+msgid "XMLData to XML Schema Translator (.xml -> "
+".xsd)"
+msgstr ""
+
+msgid "1999 XML Schema Translator (.xsd <-> "
+".xsd)"
+msgstr ""
+
+msgid "DTD to XML Schema Translator (.dtd <-> "
+".xsd)"
+msgstr ""
+
+msgid "XDR to XML Schema Translator (.xdr <-> "
+".xsd)"
+msgstr ""
+
+msgid "Cannot Read WideString from odd byte "
+"position"
+msgstr ""
+
+msgid "Cannot Write WideString to odd byte "
+"position"
+msgstr ""
+
+msgid "Capacity cannot be less than size"
+msgstr ""
+
+msgid "Odd size not valid for WideString"
+msgstr ""
+
+msgid "Negative stream size invalid"
+msgstr ""
+
+msgid "Odd byte position not valid for WideString"
+msgstr ""
+
+msgid "Child name-value tree is in use elsewhere"
+msgstr ""
+
+msgid "Circular references are not allowed"
+msgstr ""
+
+msgid "%d is not a valid ISO-10646-UCS4 code "
+"point"
+msgstr ""
+
+msgid "List Index out of bounds (%d)"
+msgstr ""
+
+msgid "Operation not allowed on Sorted string "
+"list"
+msgstr ""
+
+msgid "Hierarchy Request Error"
+msgstr ""
+
+msgid "No Modification Allowed Error"
+msgstr ""
+
+msgid "Parameter Node Not Assigned Error"
+msgstr ""
+
+msgid "Node Not Found Error."
+msgstr ""
+
+msgid "Wrong Owner Error"
+msgstr ""
+
+msgid "Specified input encoding does not match byte order "
+"mark."
+msgstr ""
+
+msgid "Default Encoding not specified."
+msgstr ""
+
+msgid "Character encoding scheme not supported."
+msgstr ""
+
+msgid "Input Encoding not specified."
+msgstr ""
+
+msgid "Output Encoding not specified."
+msgstr ""
+
+msgid "Stream not specified."
+msgstr ""
+
+msgid "Index out of range"
+msgstr ""
+
+msgid "Unicode code point $%x has no equivalent in "
+"%s"
+msgstr ""
+
+msgid "Cannot convert $%8.8X to %s"
+msgstr ""
+
+msgid "High surrogate not found"
+msgstr ""
+
+msgid "$%x is not a valid %s code point"
+msgstr ""
+
+msgid "Invalid %s encoding"
+msgstr ""
+
+msgid "Low surrogate not found"
+msgstr ""
+
+msgid "Surrogate value $%x found in %s. Values between $D800 and $DFFF are "
+"reserved for use with UTF-16"
+msgstr ""
+
+msgid "%s encoding out of range"
+msgstr ""
+
+msgid "UTF-8 error %d"
+msgstr ""
+
+msgid "Reason: %s\n"
+msgstr ""
+
+msgid "Error on line %d, position %d"
+msgstr ""
+
+msgid "XML Parse Error:\n"
+msgstr ""
+
+msgid "XMLDataFile must be specified"
+msgstr ""
+
+msgid "TransformationFile must be specified"
+msgstr ""
+
+msgid "Version of Transformation File not supported"
+msgstr ""
+

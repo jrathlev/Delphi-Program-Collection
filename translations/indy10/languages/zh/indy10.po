@@ -1,0 +1,2964 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Indy 10\n"
+"POT-Creation-Date: 2017-01-18 13:05\n"
+"PO-Revision-Date: 2024-09-04 10:44+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: 大眼仔~旭<wcxu21@126.com>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 2.5.1\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Invalid source array"
+msgstr "无效的源数组"
+
+msgid "Invalid destination array"
+msgstr "无效的目标数组"
+
+msgid "Character index out of bounds (%d)"
+msgstr "字符索引越界（%d）"
+
+msgid "Invalid count (%d)"
+msgstr "无效的数量（%d）"
+
+msgid "Invalid destination index (%d)"
+msgstr "无效的目标索引（%d）"
+
+msgid "Invalid codepage (%d)"
+msgstr "无效的代码页（%d）"
+
+msgid "Invalid character set (%s)"
+msgstr "无效的字符集（%s）"
+
+msgid "Invalid character set conversion (%s <-> "
+"%s)"
+msgstr "无效的字符集转换（%s <-> %s）"
+
+msgid "Invalid character set conversion (%s <-> %s, "
+"%s)"
+msgstr "无效的字符集转换（%s <-> %s，%s）"
+
+msgid "Unsupported codepage (%d)"
+msgstr "不受支持的代码页（%d）"
+
+msgid "Unsupported character set (%s)"
+msgstr "不受支持的字符集（%s）"
+
+msgid "Failed attempting to retrieve time zone "
+"information."
+msgstr "尝试获取时区信息失败。"
+
+msgid "Error on call to Winsock2 library function "
+"%s"
+msgstr "调用 Winsock2 库函数 %s 时出错"
+
+msgid "Error on loading Winsock2 library (%s)"
+msgstr "加载 Winsock2 库时出错（%s）"
+
+msgid "Resolving hostname %s."
+msgstr "正在解析主机名 %s。"
+
+msgid "Connecting to %s."
+msgstr "正在连接到 %s。"
+
+msgid "Connected."
+msgstr "已连接。"
+
+msgid "Disconnecting."
+msgstr "正在断开连接。"
+
+msgid "Disconnected."
+msgstr "已断开连接。"
+
+msgid "%s"
+msgstr "%s"
+
+msgid "Socket Error # %d\n"
+"%s"
+msgstr "套接字错误 # %d\n%s"
+
+msgid "Interrupted system call."
+msgstr "系统调用中断。"
+
+msgid "Bad file number."
+msgstr "文件号错误。"
+
+msgid "Access denied."
+msgstr "访问被拒绝。"
+
+msgid "Buffer fault."
+msgstr "缓冲区故障。"
+
+msgid "Invalid argument."
+msgstr "无效参数。"
+
+msgid "Too many open files."
+msgstr "打开的文件过多。"
+
+msgid "Operation would block."
+msgstr "操作将阻塞。"
+
+msgid "Operation now in progress."
+msgstr "操作正在进行中。"
+
+msgid "Operation already in progress."
+msgstr "操作已经在进行中。"
+
+msgid "Socket operation on non-socket."
+msgstr "非套接字上的套接字操作。"
+
+msgid "Destination address required."
+msgstr "需要目标地址。"
+
+msgid "Message too long."
+msgstr "消息过长。"
+
+msgid "Protocol wrong type for socket."
+msgstr "套接字的协议类型错误。"
+
+msgid "Bad protocol option."
+msgstr "协议选项错误。"
+
+msgid "Protocol not supported."
+msgstr "不支持的协议。"
+
+msgid "Socket type not supported."
+msgstr "不支持的套接字类型。"
+
+msgid "Operation not supported on socket."
+msgstr "套接字上不支持的操作。"
+
+msgid "Protocol family not supported."
+msgstr "不支持的协议族。"
+
+msgid "Address family not supported by protocol "
+"family."
+msgstr "协议族不支持的地址族。"
+
+msgid "Address already in use."
+msgstr "地址已在使用中。"
+
+msgid "Cannot assign requested address."
+msgstr "无法分配请求的地址。"
+
+msgid "Network is down."
+msgstr "网络已关闭。"
+
+msgid "Network is unreachable."
+msgstr "网络不可达。"
+
+msgid "Net dropped connection or reset."
+msgstr "网络断开了连接或重置。"
+
+msgid "Software caused connection abort."
+msgstr "软件导致连接中止。"
+
+msgid "Connection reset by peer."
+msgstr "对等方重置连接。"
+
+msgid "No buffer space available."
+msgstr "没有可用的缓冲区空间。"
+
+msgid "Socket is already connected."
+msgstr "套接字已连接。"
+
+msgid "Socket is not connected."
+msgstr "套接字未连接。"
+
+msgid "Cannot send or receive after socket is "
+"closed."
+msgstr "套接字关闭后无法发送或接收。"
+
+msgid "Too many references, cannot splice."
+msgstr "引用过多，无法拼接。"
+
+msgid "Connection timed out."
+msgstr "连接超时。"
+
+msgid "Connection refused."
+msgstr "连接被拒绝。"
+
+msgid "Too many levels of symbolic links."
+msgstr "符号链接级别过多。"
+
+msgid "File name too long."
+msgstr "文件名太长。"
+
+msgid "Host is down."
+msgstr "主机已关闭。"
+
+msgid "No route to host."
+msgstr "无路由到主机。"
+
+msgid "Directory not empty"
+msgstr "目录非空"
+
+msgid "Host not found."
+msgstr "找不到主机。"
+
+msgid "Stack Class is undefined."
+msgstr "堆栈类未定义。"
+
+msgid "Stack already created."
+msgstr "堆栈已创建。"
+
+msgid "Only one TIdAntiFreeze can exist per "
+"application."
+msgstr "每个应用程序只能存在一个 TIdAntiFreeze。"
+
+msgid "Cannot change IPVersion when connected"
+msgstr "连接时无法更改 IPVersion"
+
+msgid "Can not bind in port range (%d - %d)"
+msgstr "无法在端口范围（%d - %d）内绑定"
+
+msgid "Connection Closed Gracefully."
+msgstr "连接优雅地关闭。"
+
+msgid "%s is corrupt."
+msgstr "%s 已损坏。"
+
+msgid "Could not bind socket. Address and port are already in "
+"use."
+msgstr "无法绑定套接字。地址和端口已在使用中。"
+
+msgid "Invalid Port Range (%d - %d)"
+msgstr "无效的端口范围（%d - %d）"
+
+msgid "%s is not a valid service."
+msgstr "%s 不是有效的服务。"
+
+msgid "IPv6 unavailable"
+msgstr "IPv6 不可用"
+
+msgid "%s is not a valid IPv6 address"
+msgstr "%s 不是有效的 IPv6 地址"
+
+msgid "The requested IPVersion / Address family is not "
+"supported."
+msgstr "请求的 IPVersion / 地址族不受支持。"
+
+msgid "Not all bytes sent."
+msgstr "并非所有字节都已发送。"
+
+msgid "Package Size Too Big."
+msgstr "包大小过大。"
+
+msgid "Set Size Exceeded."
+msgstr "集合大小超出。"
+
+msgid "No encoding specified."
+msgstr "未指定编码。"
+
+msgid "End of stream: Class %s at %d"
+msgstr "流结束：类 %s 在 %d"
+
+msgid "Malicious PTR Record"
+msgstr "恶意 PTR 记录"
+
+msgid "No bindings specified."
+msgstr "未指定绑定。"
+
+msgid "Cannot allocate socket."
+msgstr "无法分配套接字。"
+
+msgid "UDP is not support in this SOCKS version."
+msgstr "此 SOCKS 版本不支持 UDP。"
+
+msgid "Request rejected or failed."
+msgstr "请求被拒绝或失败。"
+
+msgid "Request rejected because SOCKS server cannot "
+"connect."
+msgstr "请求因 SOCKS 服务器无法连接而被拒绝。"
+
+msgid "Request rejected because the client program and identd report "
+"different user-ids."
+msgstr "请求因客户端程序和 identd 报告不同的用户 ID 而被拒绝。"
+
+msgid "Unknown socks error."
+msgstr "未知的 SOCKS 错误。"
+
+msgid "Socks server did not respond."
+msgstr "SOCKS 服务器未响应。"
+
+msgid "Invalid socks authentication method."
+msgstr "无效的 SOCKS 认证方法。"
+
+msgid "Authentication error to socks server."
+msgstr "向 SOCKS 服务器认证错误。"
+
+msgid "General SOCKS server failure."
+msgstr "SOCKS 服务器的一般性失败。"
+
+msgid "Connection not allowed by ruleset."
+msgstr "规则集不允许此连接。"
+
+msgid "Network unreachable."
+msgstr "网络不可达。"
+
+msgid "Host unreachable."
+msgstr "主机不可达。"
+
+msgid "TTL expired."
+msgstr "TTL 过期。"
+
+msgid "Command not supported."
+msgstr "命令不受支持。"
+
+msgid "Address type not supported."
+msgstr "地址类型不受支持。"
+
+msgid "Invalid IP Address"
+msgstr "无效的 IP 地址"
+
+msgid "%s: Circular links are not allowed"
+msgstr "%s：不允许循环链接"
+
+msgid "Not enough data in buffer. (%d/%d)"
+msgstr "缓冲区中的数据不足。（%d/%d）"
+
+msgid "Too much data in buffer."
+msgstr "缓冲区中的数据过多。"
+
+msgid "Capacity cannot be smaller than Size."
+msgstr "容量不能小于大小。"
+
+msgid "No bytes in buffer."
+msgstr "缓冲区中没有字节。"
+
+msgid "Index out of bounds."
+msgstr "索引越界。"
+
+msgid "File \"%s\" not found"
+msgstr "文件 \"%s\" 未找到"
+
+msgid "Not Connected"
+msgstr "未连接"
+
+msgid "Object type not supported."
+msgstr "不支持的对象类型。"
+
+msgid "No data to read."
+msgstr "没有可读的数据。"
+
+msgid "Read timed out."
+msgstr "读取超时。"
+
+msgid "Max line read attempts exceeded."
+msgstr "超过最大行读取尝试次数。"
+
+msgid "Accept timed out."
+msgstr "接受超时。"
+
+msgid "Max line length exceeded."
+msgstr "超过最大行长度。"
+
+msgid "Set LargeStream to True to send streams greater than "
+"2GB"
+msgstr "设置 LargeStream 为 True 以发送大于 2GB 的流"
+
+msgid "Data is too large for stream"
+msgstr "数据对于流来说太大"
+
+msgid "Connect timed out."
+msgstr "连接超时。"
+
+msgid "Not enough bytes received"
+msgstr "收到的字节不足"
+
+msgid "Non-echo type response received"
+msgstr "收到了非回显类型的响应"
+
+msgid "Cannot call TerminateAndWaitFor on FreeAndTerminate "
+"threads"
+msgstr "无法在 FreeAndTerminate 线程上调用 TerminateAndWaitFor"
+
+msgid "Already connected."
+msgstr "已经连接。"
+
+msgid "Terminate Thread Timeout"
+msgstr "终止线程超时"
+
+msgid "No execute handler found."
+msgstr "未找到执行处理器。"
+
+msgid "No command handler found."
+msgstr "未找到命令处理器。"
+
+msgid "Cannot perform task while server is "
+"active."
+msgstr "服务器活动期间无法执行任务。"
+
+msgid "Thread Class Not Specified."
+msgstr "未指定线程类。"
+
+msgid "Maximum number of line allowed exceeded"
+msgstr "允许的最大行数超出"
+
+msgid "Cannot create listening thread."
+msgstr "无法创建监听线程。"
+
+msgid "The IOHandler already has a different Intercept "
+"assigned"
+msgstr "IOHandler 已分配有另一个截获"
+
+msgid "The maximum number of threads for this scheduler is "
+"exceeded."
+msgstr "此调度器的最大线程数已超出。"
+
+msgid "Transparent proxy cannot bind."
+msgstr "透明代理无法绑定。"
+
+msgid "UDP Not supported by this proxy."
+msgstr "此代理不支持 UDP。"
+
+msgid "Fibers are not supported on this system."
+msgstr "此系统不支持纤维。"
+
+msgid "The supplied IP address is not a valid multicast address [224.0.0.0 "
+"to 239.255.255.255]."
+msgstr "提供的 IP 地址不是一个有效的多播地址 [224.0.0.0 到 239.255.255.255]。"
+
+msgid "This function is not supported on Win32."
+msgstr "此功能不支持在 Win32 上。"
+
+msgid "IP Broadcast Receive Error = 0."
+msgstr "IP 广播接收错误 = 0。"
+
+msgid "Recv "
+msgstr "接收 "
+
+msgid "Sent "
+msgstr "发送 "
+
+msgid "Stat "
+msgstr "状态 "
+
+msgid "Unable to set Filename while log file is "
+"open."
+msgstr "日志文件打开时无法设置文件名。"
+
+msgid "Buffer terminator must be specified."
+msgstr "必须指定缓冲区终止符。"
+
+msgid "Buffer start position is invalid."
+msgstr "缓冲区起始位置无效。"
+
+msgid "Cannot change a connected IOHandler."
+msgstr "无法更改已连接的 IOHandler。"
+
+msgid "No IOHandler of type %s is installed."
+msgstr "未安装类型为 %s 的 IOHandler。"
+
+msgid "Reply Code is not valid: %s"
+msgstr "回复代码无效：%s"
+
+msgid "Reply Code already exists: %s"
+msgstr "回复代码已存在：%s"
+
+msgid "Thread must be specified for the scheduler."
+msgstr "必须为调度器指定线程。"
+
+msgid "You must have an OnExecute event."
+msgstr "您必须有一个 OnExecute 事件。"
+
+msgid "Cannot set Loop property when the Thread is already "
+"running."
+msgstr "线程已运行时无法设置 Loop 属性。"
+
+msgid "Cannot set ThreadName when the Thread is already "
+"running."
+msgstr "线程已运行时无法设置 ThreadName。"
+
+msgid "A Stack has not been created for converting the data "
+"type."
+msgstr "尚未创建用于转换数据类型的堆栈。"
+
+msgid "Transparent Proxy Cyclic error."
+msgstr "透明代理循环错误。"
+
+msgid "Cannot change the scheduler while the server is "
+"Active."
+msgstr "服务器处于活动状态时无法更改调度器。"
+
+msgid "You must use proxyOpen"
+msgstr "您必须使用 proxyOpen"
+
+msgid "Timeout"
+msgstr "超时"
+
+msgid "net unreachable;"
+msgstr "网络不可达；"
+
+msgid "host unreachable;"
+msgstr "主机不可达；"
+
+msgid "protocol unreachable;"
+msgstr "协议不可达；"
+
+msgid "Port Unreachable"
+msgstr "端口不可达"
+
+msgid "Fragmentation Needed and Don't Fragment was "
+"Set"
+msgstr "需要分片且设置了不分片"
+
+msgid "Source Route Failed"
+msgstr "源路由失败"
+
+msgid "Destination Network Unknown"
+msgstr "目的网络未知"
+
+msgid "Destination Host Unknown"
+msgstr "目的主机未知"
+
+msgid "Source Host Isolated"
+msgstr "源主机隔离"
+
+msgid "Communication with Destination Network is Administratively "
+"Prohibited"
+msgstr "与目的网络的通信被管理禁止"
+
+msgid "Communication with Destination Host is Administratively "
+"Prohibited"
+msgstr "与目的主机的通信被管理禁止"
+
+msgid "Destination Network Unreachable for Type of "
+"Service"
+msgstr "目的网络对于该服务类型不可达"
+
+msgid "Destination Host Unreachable for Type of "
+"Service"
+msgstr "目的主机对于该服务类型不可达"
+
+msgid "Communication Administratively Prohibited"
+msgstr "通信被管理禁止"
+
+msgid "Host Precedence Violation"
+msgstr "主机优先级违规"
+
+msgid "Precedence cutoff in effect"
+msgstr "优先级截止生效"
+
+msgid "no route to destination"
+msgstr "无路由到目的地"
+
+msgid "communication with destination administratively "
+"prohibited"
+msgstr "与目的地的通信被管理禁止"
+
+msgid "source address failed ingress/egress "
+"policy"
+msgstr "源地址未通过入站/出站策略"
+
+msgid "reject route to destination"
+msgstr "拒绝到目的地的路由"
+
+msgid "time to live exceeded in transit"
+msgstr "传输过程中生存时间超限"
+
+msgid "hop limit exceeded in transit"
+msgstr "传输过程中跳数限制超限"
+
+msgid "fragment reassembly time exceeded."
+msgstr "分片重组时间超限。"
+
+msgid "Parameter Problem (offset %d)"
+msgstr "参数问题（偏移 %d）"
+
+msgid "erroneous header field encountered (offset "
+"%d)"
+msgstr "遇到错误的头部字段（偏移 %d）"
+
+msgid "unrecognized Next Header type encountered (offset "
+"%d)"
+msgstr "遇到未知的下一个头部类型（偏移 %d）"
+
+msgid "unrecognized IPv6 option encountered (offset "
+"%d)"
+msgstr "遇到未知的 IPv6 选项（偏移 %d）"
+
+msgid "Source Quench Message"
+msgstr "源抑制消息"
+
+msgid "Redirect datagrams for the Network."
+msgstr "为网络重定向数据报。"
+
+msgid "Redirect datagrams for the Host."
+msgstr "为主机重定向数据报。"
+
+msgid "Redirect datagrams for the Type of Service and "
+"Network."
+msgstr "为服务类型和网络重定向数据报。"
+
+msgid "Redirect datagrams for the Type of Service and "
+"Host."
+msgstr "为服务类型和主机重定向数据报。"
+
+msgid "Echo"
+msgstr "回声"
+
+msgid "Timestamp"
+msgstr "时间戳"
+
+msgid "Information Request"
+msgstr "信息请求"
+
+msgid "Address Mask Request"
+msgstr "地址掩码请求"
+
+msgid "Outbound Packet successfully forwarded"
+msgstr "出站数据包成功转发"
+
+msgid "No route for Outbound Packet; packet "
+"discarded"
+msgstr "出站数据包无路由；数据包丢弃"
+
+msgid "Unknown/unspecified error"
+msgstr "未知/未指定的错误"
+
+msgid "Don't Convert option present"
+msgstr "存在不转换选项"
+
+msgid "Unknown mandatory option present"
+msgstr "存在未知的强制性选项"
+
+msgid "Known unsupported option present"
+msgstr "存在已知的不受支持的选项"
+
+msgid "Unsupported transport protocol"
+msgstr "不受支持的传输协议"
+
+msgid "Overall length exceeded"
+msgstr "总长度超出"
+
+msgid "IP header length exceeded"
+msgstr "IP 头长度超出"
+
+msgid "Transport protocol > 255"
+msgstr "传输协议 > 255"
+
+msgid "Port conversion out of range"
+msgstr "端口转换超出范围"
+
+msgid "Transport header length exceeded"
+msgstr "传输头部长度超出"
+
+msgid "32 Bit Rollover missing and ACK set"
+msgstr "缺少 32 位回滚且 ACK 设置"
+
+msgid "Unknown mandatory transport option present"
+msgstr "存在未知的必需传输选项"
+
+msgid "Mobile Host Redirect"
+msgstr "移动主机重定向"
+
+msgid "IPv6 Where-Are-You"
+msgstr "IPv6 你在哪"
+
+msgid "IPv6 I-Am-Here"
+msgstr "IPv6 我在这"
+
+msgid "Mobile Registration Request"
+msgstr "移动注册请求"
+
+msgid "SKIP"
+msgstr "跳过"
+
+msgid "Bad SPI"
+msgstr "错误的 SPI"
+
+msgid "Authentication Failed"
+msgstr "认证失败"
+
+msgid "Decompression Failed"
+msgstr "解压缩失败"
+
+msgid "Decryption Failed"
+msgstr "解密失败"
+
+msgid "Need Authentication"
+msgstr "需要认证"
+
+msgid "Need Authorization"
+msgstr "需要授权"
+
+msgid "Packet Too Big (MTU = %d)"
+msgstr "数据包太大（MTU = %d）"
+
+msgid "Cannot use a non-socket IOHandler"
+msgstr "无法使用非套接字的 IOHandler"
+
+msgid "Failed to load %s."
+msgstr "加载 %s 失败。"
+
+msgid "Mode has not been set."
+msgstr "模式尚未设置。"
+
+msgid "Could not load SSL library."
+msgstr "无法加载 SSL 库。"
+
+msgid "SSL status: \"%s\""
+msgstr "SSL 状态：\"%s\""
+
+msgid "SSL connection has dropped."
+msgstr "SSL 连接已断开。"
+
+msgid "SSL certificate request error."
+msgstr "SSL 证书请求错误。"
+
+msgid "SSL library internal error."
+msgstr "SSL 库内部错误。"
+
+msgid "%s Alert"
+msgstr "%s 警报"
+
+msgid "%s Read Alert"
+msgstr "%s 读警报"
+
+msgid "%s Write Alert"
+msgstr "%s 写警报"
+
+msgid "Accept Loop"
+msgstr "接受循环"
+
+msgid "Accept Error"
+msgstr "接受错误"
+
+msgid "Accept Failed"
+msgstr "接受失败"
+
+msgid "Accept Exit"
+msgstr "接受退出"
+
+msgid "Connect Loop"
+msgstr "连接循环"
+
+msgid "Connect Error"
+msgstr "连接错误"
+
+msgid "Connect Failed"
+msgstr "连接失败"
+
+msgid "Connect Exit"
+msgstr "连接退出"
+
+msgid "Handshake Start"
+msgstr "握手开始"
+
+msgid "Handshake Done"
+msgstr "握手完成"
+
+msgid "IOHandler value is not valid"
+msgstr "IOHandler 值无效"
+
+msgid "Error "
+msgstr "错误 "
+
+msgid "Algorithm %s not permitted in FIPS mode"
+msgstr "FIPS 模式下不允许算法 %s"
+
+msgid "File Not Found"
+msgstr "文件未找到"
+
+msgid "Packet too small"
+msgstr "数据包太小"
+
+msgid "The specified SASL handlers are not "
+"ready!!"
+msgstr "指定的 SASL 处理器尚未准备好！"
+
+msgid "Doesn't support AUTH or the specified SASL "
+"handlers!!"
+msgstr "不支持 AUTH 或指定的 SASL 处理器！"
+
+msgid "Need SASL mechanisms to login with it!!"
+msgstr "需要 SASL 机制才能登录！"
+
+msgid "missing algorithm in challange."
+msgstr "挑战中缺少算法。"
+
+msgid "invalid algorithm in challange."
+msgstr "挑战中的算法无效。"
+
+msgid "auth-conf not yet supported."
+msgstr "尚未支持 auth-conf。"
+
+msgid "@ Outside address"
+msgstr "@ 外部地址"
+
+msgid "Unable to initialize compressor"
+msgstr "无法初始化压缩器"
+
+msgid "Unable to initialize decompressor"
+msgstr "无法初始化解压缩器"
+
+msgid "Compression error"
+msgstr "压缩错误"
+
+msgid "Decompression error"
+msgstr "解压缩错误"
+
+msgid "Extension is empty"
+msgstr "扩展名为空"
+
+msgid "Mimetype is empty"
+msgstr "MIME 类型为空"
+
+msgid "Extension already exits"
+msgstr "扩展名已存在"
+
+msgid "Indy SASL"
+msgstr "Indy SASL"
+
+msgid "Cannot load message from file %s"
+msgstr "无法从文件 %s 加载消息"
+
+msgid "Encoding text"
+msgstr "编码文本"
+
+msgid "Encoding attachment"
+msgstr "编码附件"
+
+msgid "Invalid Encoding. UU only allows Body and "
+"Attachments."
+msgstr "无效的编码。UU 只允许正文和附件。"
+
+msgid "Message parts cannot be used in a message which has a "
+"ContentTransferEncoding value."
+msgstr "具有 ContentTransferEncoding 值的消息中无法使用消息部分。"
+
+msgid "Connection explicitly refused by NNTP "
+"server."
+msgstr "NNTP 服务器明确拒绝连接。"
+
+msgid "Stringlist not initialized!"
+msgstr "字符串列表未初始化！"
+
+msgid "No OnNewsgroupList event has been defined."
+msgstr "未定义 OnNewsgroupList 事件。"
+
+msgid "No OnNewGroupsList event has been defined."
+msgstr "未定义 OnNewGroupsList 事件。"
+
+msgid "No OnNewNewsList event has been defined."
+msgstr "未定义 OnNewNewsList 事件。"
+
+msgid "No OnXHDREntry event has been defined."
+msgstr "未定义 OnXHDREntry 事件。"
+
+msgid "No OnXOVER event has been defined."
+msgstr "未定义 OnXOVER 事件。"
+
+msgid "Chunk Started"
+msgstr "块开始"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Switching protocols"
+msgstr "切换协议"
+
+msgid "OK"
+msgstr "成功"
+
+msgid "Created"
+msgstr "创建"
+
+msgid "Accepted"
+msgstr "已接受"
+
+msgid "Non-authoritative Information"
+msgstr "非权威信息"
+
+msgid "No Content"
+msgstr "无内容"
+
+msgid "Reset Content"
+msgstr "重置内容"
+
+msgid "Partial Content"
+msgstr "部分内容"
+
+msgid "Moved Permanently"
+msgstr "永久移动"
+
+msgid "Moved Temporarily"
+msgstr "临时移动"
+
+msgid "See Other"
+msgstr "参见其他"
+
+msgid "Not Modified"
+msgstr "未修改"
+
+msgid "Use Proxy"
+msgstr "使用代理"
+
+msgid "Bad Request"
+msgstr "请求错误"
+
+msgid "Unauthorized"
+msgstr "未经授权"
+
+msgid "Forbidden"
+msgstr "禁止"
+
+msgid "Not Found"
+msgstr "未找到"
+
+msgid "Method not allowed"
+msgstr "方法不允许"
+
+msgid "Not Acceptable"
+msgstr "不可接受"
+
+msgid "Proxy Authentication Required"
+msgstr "需要代理认证"
+
+msgid "Request Timeout"
+msgstr "请求超时"
+
+msgid "Conflict"
+msgstr "冲突"
+
+msgid "Gone"
+msgstr "已消失"
+
+msgid "Length Required"
+msgstr "需要长度"
+
+msgid "Precondition Failed"
+msgstr "前提条件失败"
+
+msgid "Precondition Required"
+msgstr "需要前提条件"
+
+msgid "Too Many Requests"
+msgstr "请求过多"
+
+msgid "Request Header Fields Too Large"
+msgstr "请求头字段过大"
+
+msgid "Network Authentication Required"
+msgstr "需要网络认证"
+
+msgid "Request Entity Too Long"
+msgstr "请求实体过长"
+
+msgid "Request-URI Too Long. 256 Chars max"
+msgstr "请求-URI 过长。最多 256 字符"
+
+msgid "Unsupported Media Type"
+msgstr "不支持的媒体类型"
+
+msgid "Expectation Failed"
+msgstr "期望失败"
+
+msgid "Internal Server Error"
+msgstr "内部服务器错误"
+
+msgid "Not Implemented"
+msgstr "未实现"
+
+msgid "Bad Gateway"
+msgstr "错误网关"
+
+msgid "Service Unavailable"
+msgstr "服务不可用"
+
+msgid "Gateway timeout"
+msgstr "网关超时"
+
+msgid "HTTP version not supported"
+msgstr "不支持的 HTTP 版本"
+
+msgid "Unknown Response Code"
+msgstr "未知响应代码"
+
+msgid "Unknown Protocol"
+msgstr "未知协议"
+
+msgid "Request method requires HTTP version "
+"1.1"
+msgstr "请求方法需要 HTTP 版本 1.1"
+
+msgid "Header has already been written."
+msgstr "头部已写入。"
+
+msgid "Error in parsing command."
+msgstr "解析命令时出错。"
+
+msgid "Unsupported authorization scheme."
+msgstr "不支持的授权方案。"
+
+msgid "Cannot change session state when the server is "
+"active."
+msgstr "服务器处于活动状态时无法更改会话状态。"
+
+msgid "Cannot change session list when the server is "
+"active."
+msgstr "服务器处于活动状态时无法更改会话列表。"
+
+msgid "Cannot change session ID cookie name when the server is "
+"active."
+msgstr "服务器处于活动状态时无法更改会话 ID Cookie 名称。"
+
+msgid "This authentication method is already registered with class name "
+"%s."
+msgstr "此认证方法已使用类名 %s 注册。"
+
+msgid "Unsupported hash algorithm. This implementation supports only MD5 "
+"encoding."
+msgstr "不支持的哈希算法。此实现仅支持 MD5 编码。"
+
+msgid "Unsupported cookie version: %d"
+msgstr "不支持的 Cookie 版本：%d"
+
+msgid "Incorrect length in received block (%d)"
+msgstr "接收到的块长度不正确（%d）"
+
+msgid "Invalid number of arguments %s"
+msgstr "参数数量无效 %s"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Connection established"
+msgstr "连接已建立"
+
+msgid "Starting FTP transfer"
+msgstr "开始 FTP 传输"
+
+msgid "Transfer complete"
+msgstr "传输完成"
+
+msgid "Transfer aborted"
+msgstr "传输中断"
+
+msgid "Error in parameters to %s"
+msgstr "参数错误 %s"
+
+msgid "Parameter %s Not Implemented"
+msgstr "参数 %s 尚未实现"
+
+msgid "Invalid port number"
+msgstr "无效的端口号"
+
+msgid "OnCustomFTPProxy required but not assigned"
+msgstr "需要 OnCustomFTPProxy 但未分配"
+
+msgid "Data connection assurance check failed.\n"
+"Server reported IP: %s  Port: %d\n"
+"Our socket IP: %s  Port: %d"
+msgstr "数据连接保证检查失败。\n"
+"服务器报告的 IP：%s 端口：%d\n"
+"我们的套接字 IP：%s 端口：%d"
+
+msgid "Protocol not supported, use"
+msgstr "不支持的协议，请使用"
+
+msgid "UseExtensionDataPort must be true for IPv6 "
+"connections."
+msgstr "对于 IPv6 连接，UseExtensionDataPort 必须为真。"
+
+msgid "UseExtensionDataPort must be true for NAT "
+"fasttracking."
+msgstr "对于 NAT 快速跟踪，UseExtensionDataPort 必须为真。"
+
+msgid "Can not use active transfers with NAT "
+"fastracking."
+msgstr "无法在 NAT 快速跟踪中使用主动传输。"
+
+msgid "Server sent invalid port number (%s)"
+msgstr "服务器发送了无效的端口号（%s）"
+
+msgid "Unknown FTP listing format"
+msgstr "未知的 FTP 列表格式"
+
+msgid "No Site to Site transfers are permitted with a FTP NAT fastracked "
+"connection."
+msgstr "FTP NAT 快速跟踪连接不允许站点到站点传输。"
+
+msgid "Can't use dataprotection on site to site "
+"transfer."
+msgstr "站点到站点传输中无法使用数据保护。"
+
+msgid "Transport protocols must be the same."
+msgstr "传输协议必须相同。"
+
+msgid "SSCN is not supported on both servers."
+msgstr "两个服务器都不支持 SSCN。"
+
+msgid "Can not set DataPortProtection after CCC "
+"issued."
+msgstr "发出 CCC 后无法设置 DataPortProtection。"
+
+msgid "Can not set DataPortProtection with unencrypted "
+"connections."
+msgstr "无法在未加密的连接上设置 DataPortProtection。"
+
+msgid "Can not set CCC without encyption."
+msgstr "没有加密的情况下无法设置 CCC。"
+
+msgid "Can not set AUTH without SSL."
+msgstr "没有 SSL 的情况下无法设置 AUTH。"
+
+msgid "Can not set AUTH while connected."
+msgstr "连接状态下无法设置 AUTH。"
+
+msgid "Transfer modes must be the same."
+msgstr "传输模式必须相同。"
+
+msgid "No FTP list parsers have been registered."
+msgstr "没有注册任何 FTP 列表解析器。"
+
+msgid "No Compressor is assigned."
+msgstr "没有分配压缩器。"
+
+msgid "Compressor is not ready."
+msgstr "压缩器尚未准备就绪。"
+
+msgid "Unsupported transfer mode."
+msgstr "不支持的传输模式。"
+
+msgid "Unsupported transfer type."
+msgstr "不支持的传输类型。"
+
+msgid "command not recognized"
+msgstr "命令未识别"
+
+msgid "%s is not a Gopher+ server"
+msgstr "%s 不是 Gopher+ 服务器"
+
+msgid "RCode NO Error"
+msgstr "RCode 无错误"
+
+msgid "DNS Server Reports Query Server Error"
+msgstr "DNS 服务器报告查询服务器错误"
+
+msgid "DNS Server Reports Query Format Error"
+msgstr "DNS 服务器报告查询格式错误"
+
+msgid "DNS Server Reports Query Name Error"
+msgstr "DNS 服务器报告查询名称错误"
+
+msgid "DNS Server Reports Query Not Implemented "
+"Error"
+msgstr "DNS 服务器报告查询未实现错误"
+
+msgid "DNS Server Reports Query Refused Error"
+msgstr "DNS 服务器报告查询拒绝错误"
+
+msgid "Server Returned Unknown Error"
+msgstr "服务器返回未知错误"
+
+msgid "TimedOut"
+msgstr "超时"
+
+msgid "MF is an Obsolete Command. USE MX."
+msgstr "MF 是过时的命令。使用 MX。"
+
+msgid "MD is an Obsolete Command. Use MX."
+msgstr "MD 是过时的命令。使用 MX。"
+
+msgid "MailA is an Obsolete Command. USE MX."
+msgstr "MailA 是过时的命令。使用 MX。"
+
+msgid "-Err 501 MailB is not implemented"
+msgstr "-Err 501 MailB 尚未实现"
+
+msgid "Invalid Query Count %d"
+msgstr "无效的查询计数 %d"
+
+msgid "Invalid Packet Size %d"
+msgstr "无效的数据包大小 %d"
+
+msgid "Received Packet is too small. Less than 4 bytes. "
+"%d"
+msgstr "接收到的数据包太小。少于 4 字节。%d"
+
+msgid "Invalid Header Id %d"
+msgstr "无效的头部 ID %d"
+
+msgid "Received Packet is too small. Less than 12 bytes. "
+"%d"
+msgstr "接收到的数据包太小。少于 12 字节。%d"
+
+msgid "Received Packet is too small. %d"
+msgstr "接收到的数据包太小。%d"
+
+msgid "Unknown Error %d, Id %d"
+msgstr "未知错误 %d，ID %d"
+
+msgid "Invalid IP V6 Address. %s"
+msgstr "无效的 IPv6 地址。%s"
+
+msgid "You have to provide a TIdRR_SOA object with Serial number and Name to "
+"progress IXFR. %d"
+msgstr "要继续 IXFR，您必须提供一个包含序列号和名称的 TIdRR_SOA 对象。%d"
+
+msgid "Data file saved to %s"
+msgstr "数据文件保存到 %s"
+
+msgid "Control file save to %s"
+msgstr "控制文件保存到 %s"
+
+msgid "Directory %s does not exist"
+msgstr "目录 %s 不存在"
+
+msgid "Winshoes LPD Server %s "
+msgstr "Winshoes LPD 服务器 %s"
+
+msgid "Server status: active"
+msgstr "服务器状态：活动"
+
+msgid "Queue %s status: %s"
+msgstr "队列 %s 状态：%s"
+
+msgid "closing connection"
+msgstr "关闭连接"
+
+msgid "Unknown queue %s"
+msgstr "未知队列 %s"
+
+msgid "connected with %s"
+msgstr "已连接到 %s"
+
+msgid "abort job"
+msgstr "终止任务"
+
+msgid "Receive control file"
+msgstr "接收控制文件"
+
+msgid "Receive data file"
+msgstr "接收数据文件"
+
+msgid "Error: no queues defined"
+msgstr "错误：未定义队列"
+
+msgid "Unexpected operation from %s:%d"
+msgstr "来自 %s:%d 的意外操作"
+
+msgid "Unsupported transfer mode: \"%s\""
+msgstr "不支持的传输模式：\"%s\""
+
+msgid "Unable to complete write request, progress halted at %d "
+"bytes"
+msgstr "无法完成写请求，在 %d 字节处停止"
+
+msgid "Unable to open %s"
+msgstr "无法打开 %s"
+
+msgid "Access to %s denied"
+msgstr "访问 %s 被拒绝"
+
+msgid "Unsupported option: \"%s\""
+msgstr "不支持的选项：\"%s\""
+
+msgid "Unsupported value \"%s\" for option: \"%s\""
+msgstr "选项 \"%s\" 的值 \"%s\" 不受支持"
+
+msgid "Invalid Text count. Must have more than 1 TIdText "
+"object."
+msgstr "文本计数无效。必须有超过 1 个 TIdText 对象。"
+
+msgid "TIdMessagePart can not be created.  Use descendant classes. "
+msgstr "无法创建 TIdMessagePart。使用派生类。"
+
+msgid "Error saving attachment."
+msgstr "保存附件时出错。"
+
+msgid "Attachment %s is blocked."
+msgstr "附件 %s 被阻止。"
+
+msgid " not specified"
+msgstr " 未指定"
+
+msgid "Unrecognized POP3 Response Header:\n"
+"\"%s\""
+msgstr "无法识别的 POP3 响应头：\n\"%s\""
+
+msgid "Server do not support APOP (no timestamp)"
+msgstr "服务器不支持 APOP（无时间戳）"
+
+msgid "Unable to execute command, wrong connection state;Current connection "
+"state: %s."
+msgstr "无法执行命令，连接状态错误；当前连接状态：%s。"
+
+msgid "Unrecognized IMAP4 Response Header."
+msgstr "无法识别的 IMAP4 响应头。"
+
+msgid "Number parameter (relative message number or UID) is invalid; Must be "
+"1 or greater."
+msgstr "数字参数（相对消息编号或 UID）无效；必须大于等于 1。"
+
+msgid "Number parameter (relative message number or UID) is invalid; Cannot "
+"contain an empty string."
+msgstr "数字参数（相对消息编号或 UID）无效；不能包含空字符串。"
+
+msgid "Number parameter (relative message number or UID) is invalid; Cannot "
+"contain non-digit characters."
+msgstr "数字参数（相对消息编号或 UID）无效；不能包含非数字字符。"
+
+msgid "Server has gracefully disconnected you, possibly because the "
+"connection was idle for too long."
+msgstr "服务器已优雅地断开与您的连接，可能是由于连接空闲时间过长。"
+
+msgid "Illegal char #%d in UTF7 sequence."
+msgstr "UTF7 序列中的非法字符 #%d。"
+
+msgid "Illegal bit shifting in MUTF7 string"
+msgstr "MUTF7 字符串中的非法位移"
+
+msgid "US-ASCII char #%d in UTF7 sequence."
+msgstr "UTF7 序列中的 US-ASCII 字符 #%d。"
+
+msgid "Any"
+msgstr "任意"
+
+msgid "Non Authenticated"
+msgstr "未认证"
+
+msgid "Authenticated"
+msgstr "已认证"
+
+msgid "Selected"
+msgstr "已选择"
+
+msgid "Unexpectedly Disconnected"
+msgstr "意外断开连接"
+
+msgid "Username: "
+msgstr "用户名："
+
+msgid "Password: "
+msgstr "密码："
+
+msgid "Invalid Login."
+msgstr "无效登录。"
+
+msgid "Allowed login attempts exceeded, good "
+"bye."
+msgstr "登录尝试次数超出，再见。"
+
+msgid "No authentication handler has been specified."
+msgstr "未指定身份验证处理器。"
+
+msgid "Indy Telnet Server"
+msgstr "Indy Telnet 服务器"
+
+msgid "OnDataAvailable event is nil."
+msgstr "OnDataAvailable 事件为空。"
+
+msgid "server not responding"
+msgstr "服务器未响应"
+
+msgid "Server did not respond."
+msgstr "服务器未响应。"
+
+msgid "The string %s does not translate into a valid "
+"IP."
+msgstr "字符串 %s 无法转换为有效的 IP。"
+
+msgid "Invalid network mask."
+msgstr "无效的子网掩码。"
+
+msgid "Invalid value length: Should be 32."
+msgstr "值长度无效：应为 32。"
+
+msgid "There is too many IP addresses in the specified range (%d) to be "
+"displayed at design time."
+msgstr "指定范围内的 IP 地址太多（%d），无法在设计时显示。"
+
+msgid "Reply Timed Out:  The server did not return a response and the query "
+"has been abandoned"
+msgstr "回复超时：服务器未返回响应，查询已被放弃"
+
+msgid "Invalid Port:  The foreign or local port is not specified correctly "
+"or invalid"
+msgstr "无效端口：外端口或本地端口指定不正确或无效"
+
+msgid "No User:  Port pair is not used or not used by an identifiable "
+"user"
+msgstr "无用户：端口对未被使用或未被可识别的用户使用"
+
+msgid "Hidden User:  Information was not returned at a user's "
+"request"
+msgstr "隐藏用户：信息未按用户请求返回"
+
+msgid "Unknown or other error: Can not determine owner, other error, or the "
+"error can not be revealed."
+msgstr "未知或其他错误：无法确定所有者，其他错误，或错误无法显示。"
+
+msgid "Call to %s.GetByte [property Bytes] with index <> "
+"[0..%d]"
+msgstr "调用 %s.GetByte [Bytes 属性] 的索引 <> [0..%d]"
+
+msgid "Error in transformation before send"
+msgstr "发送前的转换错误"
+
+msgid "Transform failed"
+msgstr "转换失败"
+
+msgid "CRC Failed"
+msgstr "CRC 校验失败"
+
+msgid "Connecting"
+msgstr "正在连接"
+
+msgid "Disconnect"
+msgstr "断开连接"
+
+msgid "Cannt connect to the Master server"
+msgstr "无法连接到主服务器"
+
+msgid "Do not allow connctions now"
+msgstr "现在不允许连接"
+
+msgid "Message type recognition error"
+msgstr "消息类型识别错误"
+
+msgid "Message handling failed"
+msgstr "消息处理失败"
+
+msgid "Interpretation of message failed"
+msgstr "消息解释失败"
+
+msgid "Custom message interpretation failed"
+msgstr "自定义消息解释失败"
+
+msgid "Destination file already exists."
+msgstr "目标文件已存在。"
+
+msgid "Error accepting connection with SSL."
+msgstr "使用 SSL 接受连接时出错。"
+
+msgid "Error connecting with SSL."
+msgstr "使用 SSL 连接时出错。"
+
+msgid "SetCipher failed."
+msgstr "SetCipher 失败。"
+
+msgid "Error creating SSL session."
+msgstr "创建 SSL 会话时出错。"
+
+msgid "Error creating SSL context."
+msgstr "创建 SSL 上下文时出错。"
+
+msgid "Could not load root certificate."
+msgstr "无法加载根证书。"
+
+msgid "Could not load certificate."
+msgstr "无法加载证书。"
+
+msgid "Could not load key, check password."
+msgstr "无法加载密钥，请检查密码。"
+
+msgid "Could not load DH Parameters."
+msgstr "无法加载 DH 参数。"
+
+msgid "Error getting SSL method."
+msgstr "获取 SSL 方法时出错。"
+
+msgid "Error setting File Descriptor for SSL"
+msgstr "为 SSL 设置文件描述符时出错"
+
+msgid "Error binding data to SSL socket."
+msgstr "将数据绑定到 SSL 套接字时出错。"
+
+msgid "EOF was observed that violates the protocol"
+msgstr "观察到了违反协议的 EOF"
+
+msgid "Loading function %s failed"
+msgstr "加载函数 %s 失败"
+
+msgid "&New Message Part..."
+msgstr "&新消息部分..."
+
+msgid "Extra Headers Text Editor"
+msgstr "附加头部文本编辑器"
+
+msgid "Body Text Editor"
+msgstr "正文文本编辑器"
+
+msgid "Command not recognized"
+msgstr "命令未识别"
+
+msgid "Goodbye"
+msgstr "再见"
+
+msgid "Implicit NNTP requires that IOHandler be set to a "
+"TIdSSLIOHandlerSocketBase."
+msgstr "隐式 NNTP 需要将 IOHandler 设置为 TIdSSLIOHandlerSocketBase。"
+
+msgid " article retrieved - head and body follow"
+msgstr "文章已检索 - 标题和正文随后"
+
+msgid " article retrieved - body follows"
+msgstr "文章已检索 - 正文随后"
+
+msgid " article retrieved - head follows"
+msgstr "文章已检索 - 标题随后"
+
+msgid " article retrieved - statistics only"
+msgstr "文章已检索 - 仅统计信息"
+
+msgid "News to me!  <CRLF.CRLF> to end."
+msgstr "对我来说是新闻！<CRLF.CRLF> 结束。"
+
+msgid " article retrieved - request text separately"
+msgstr "文章已检索 - 单独请求文本"
+
+msgid "Not currently in newsgroup"
+msgstr "当前不在新闻组中"
+
+msgid "Extensions supported:"
+msgstr "支持的扩展："
+
+msgid "help text follows"
+msgstr "帮助文本随后"
+
+msgid "debug output"
+msgstr "调试输出"
+
+msgid "server ready - posting allowed"
+msgstr "服务器准备好 - 允许发布"
+
+msgid "server ready - no posting allowed"
+msgstr "服务器准备好 - 不允许发布"
+
+msgid "slave status noted"
+msgstr "记录了从属状态"
+
+msgid "closing connection - goodbye!"
+msgstr "关闭连接 - 再见！"
+
+msgid "list of newsgroups follows"
+msgstr "新闻组列表随后"
+
+msgid "Headers follow"
+msgstr "头部随后"
+
+msgid "Overview information follows"
+msgstr "概览信息随后"
+
+msgid "list of new newsgroups follows"
+msgstr "新的新闻组列表随后"
+
+msgid "article transferred ok"
+msgstr "文章传输成功"
+
+msgid "article posted ok"
+msgstr "文章发布成功"
+
+msgid "Authentication accepted"
+msgstr "认证接受"
+
+msgid "send article to be transferred. End with "
+"<CR-LF>.<CR-LF>"
+msgstr "发送要传输的文章。以 <CR-LF>.<CR-LF> 结束"
+
+msgid "send article to be posted. End with "
+"<CR-LF>.<CR-LF>"
+msgstr "发送要发布的文章。以 <CR-LF>.<CR-LF> 结束"
+
+msgid "More authentication information required"
+msgstr "需要更多认证信息"
+
+msgid "Continue with TLS negotiation"
+msgstr "继续 TLS 协商"
+
+msgid "service discontinued"
+msgstr "服务停止"
+
+msgid "TLS temporarily not available"
+msgstr "TLS 暂时不可用"
+
+msgid "no such news group"
+msgstr "没有这样的新闻组"
+
+msgid "no newsgroup has been selected"
+msgstr "没有选择新闻组"
+
+msgid "no current article has been selected"
+msgstr "没有选择当前文章"
+
+msgid "no next article in this group"
+msgstr "该组中没有下一篇文章"
+
+msgid "no previous article in this group"
+msgstr "该组中没有上一篇文章"
+
+msgid "no such article number in this group"
+msgstr "该组中没有这样的文章编号"
+
+msgid "no such article found"
+msgstr "未找到这样的文章"
+
+msgid "article not wanted - do not send it"
+msgstr "不想要这篇文章 - 不要发送它"
+
+msgid "transfer failed - try again later"
+msgstr "传输失败 - 请稍后再试"
+
+msgid "article rejected - do not try again."
+msgstr "文章被拒绝 - 不要再尝试"
+
+msgid "posting not allowed"
+msgstr "不允许发布"
+
+msgid "posting failed"
+msgstr "发布失败"
+
+msgid "Authorization required for this command"
+msgstr "此命令需要授权"
+
+msgid "Authorization rejected"
+msgstr "授权被拒绝"
+
+msgid "Authentication required"
+msgstr "需要认证"
+
+msgid "Strong encryption layer is required"
+msgstr "需要强加密层"
+
+msgid "command syntax error"
+msgstr "命令语法错误"
+
+msgid "access restriction or permission denied"
+msgstr "访问限制或权限被拒绝"
+
+msgid "program fault - command not performed"
+msgstr "程序故障 - 命令未执行"
+
+msgid "Security layer already active"
+msgstr "安全层已经激活"
+
+msgid "Error: No program code to return request!"
+msgstr "错误：没有程序代码来响应请求！"
+
+msgid "Invalid syslog message: incorrect PRI "
+"section"
+msgstr "无效的 syslog 消息：不正确的 PRI 部分"
+
+msgid "Invalid syslog message: incorrect PRI number "
+"\"%s\""
+msgstr "无效的 syslog 消息：不正确的 PRI 编号 \"%s\""
+
+msgid "Invalid syslog message: incorrect timestamp "
+"\"%s\""
+msgstr "无效的 syslog 消息：不正确的时间戳 \"%s\""
+
+msgid "Invalid Syslog message: packet too large (%d "
+"bytes)"
+msgstr "无效的 syslog 消息：数据包太大（%d 字节）"
+
+msgid "Invalid host name. A SYSLOG host name cannot contain any space "
+"(\"%s\")+"
+msgstr "无效的主机名。SYSLOG 主机名不能包含任何空格（\"%s\"）"
+
+msgid "Winsock stack"
+msgstr "Winsock 栈"
+
+msgid "Command Not Recognised"
+msgstr "命令未识别"
+
+msgid "Signing Off"
+msgstr "注销"
+
+msgid "Ok"
+msgstr "好"
+
+msgid "Start mail input; end with <CRLF>.<CRLF>"
+msgstr "开始邮件输入；以 <CRLF>.<CRLF> 结束"
+
+msgid "%s Address Okay"
+msgstr "%s 地址正确"
+
+msgid "%s Address Error"
+msgstr "%s 地址错误"
+
+msgid "%s Sender Not Permitted"
+msgstr "%s 发送者未被允许"
+
+msgid "We do not relay %s"
+msgstr "我们不转发 %s"
+
+msgid "Welcome to the INDY SMTP Server"
+msgstr "欢迎使用 INDY SMTP 服务器"
+
+msgid "Hello %s"
+msgstr "你好 %s"
+
+msgid "Polite people say HELO"
+msgstr "礼貌的人说 HELO"
+
+msgid "Syntax Error - Command not understood: "
+"%s"
+msgstr "语法错误 - 无法理解命令： %s"
+
+msgid "Indy SMTP Server"
+msgstr "Indy SMTP 服务器"
+
+msgid "by DNSName [127.0.0.1] running Indy "
+"SMTP"
+msgstr "由 DNSName [127.0.0.1] 运行 Indy SMTP"
+
+msgid "%s User not local, Will forward"
+msgstr "%s 用户不是本地的，将会转发"
+
+msgid "Must issue a STARTTLS command first"
+msgstr "必须首先发出 STARTTLS 命令"
+
+msgid "Parameter error! Example: mail from:<user@domain.com>"
+msgstr "参数错误！例如：mail from:<user@domain.com>"
+
+msgid "Command parameter error! Example: rcpt "
+"to:<a@b.c>"
+msgstr "命令参数错误！例如：rcpt to:<a@b.c>"
+
+msgid "Syntax error in parameters or arguments"
+msgstr "参数或参数中的语法错误"
+
+msgid "Syntax error (no parameters allowed)"
+msgstr "语法错误（不允许有参数）"
+
+msgid "Ready to start TLS"
+msgstr "准备开始 TLS"
+
+msgid "Command refused due to lack of security"
+msgstr "由于缺乏安全性而拒绝命令"
+
+msgid "Implicit SMTP TLS requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr "隐式 SMTP TLS 需要将 IOHandler 设置为 TIdServerIOHandlerSSL。"
+
+msgid "Bad sequence of commands"
+msgstr "命令序列错误"
+
+msgid "Not logged in"
+msgstr "未登录"
+
+msgid "Requested action not taken: mailbox "
+"unavailable"
+msgstr "请求的操作未执行：邮箱不可用"
+
+msgid "User %s not local; please try <%s>"
+msgstr "用户 %s 不是本地的；请尝试使用 <%s>"
+
+msgid "User %s not local; no forwarding address"
+msgstr "用户 %s 不是本地的；没有转发地址"
+
+msgid "User %s not local; will forward to <%s>"
+msgstr "用户 %s 不是本地的；将会转发到 <%s>"
+
+msgid "Too Many recipients."
+msgstr "收件人过多。"
+
+msgid "%s Account Disabled"
+msgstr "%s 账户已禁用"
+
+msgid "Local Processing Error"
+msgstr "本地处理错误"
+
+msgid "No OnRcptTo event"
+msgstr "没有 OnRcptTo 事件"
+
+msgid "Requested mail action aborted: exceeded storage "
+"allocation"
+msgstr "请求的邮件操作已取消：超出存储分配"
+
+msgid "Requested action not taken: mailbox name not "
+"allowed"
+msgstr "请求的操作未执行：邮箱名称不允许"
+
+msgid " Transaction failed"
+msgstr "事务失败"
+
+msgid "Requested action aborted: local error in "
+"processing"
+msgstr "请求的操作已取消：处理中的本地错误"
+
+msgid "Requested action not taken: insufficient system storage "
+msgstr "请求的操作未执行：系统存储不足"
+
+msgid "Message length exceeds administrative "
+"limit"
+msgstr "消息长度超过管理限制"
+
+msgid "SPF %s check failed"
+msgstr "SPF %s 检查失败"
+
+msgid "SPF %s check error"
+msgstr "SPF %s 检查错误"
+
+msgid "Implicit POP3 requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr "隐式 POP3 需要将 IOHandler 设置为 TIdServerIOHandlerSSL。"
+
+msgid "Must use STLS"
+msgstr "必须使用 STLS"
+
+msgid "Command Not Handled: %s"
+msgstr "未处理命令：%s"
+
+msgid "Command not permitted when TLS active"
+msgstr "TLS 激活时不允许此命令"
+
+msgid "Command not permitted in this state"
+msgstr "在此状态下不允许此命令"
+
+msgid "Begin TLS negotiation"
+msgstr "开始 TLS 协商"
+
+msgid "Please login first"
+msgstr "请先登录"
+
+msgid "Invalid Syntax"
+msgstr "无效的语法"
+
+msgid "Closing Connection Channel."
+msgstr "关闭连接通道。"
+
+msgid "Password required"
+msgstr "需要密码"
+
+msgid "Login failed"
+msgstr "登录失败"
+
+msgid "Login OK"
+msgstr "登录成功"
+
+msgid "Wrong State"
+msgstr "状态错误"
+
+msgid "Invalid Message Number"
+msgstr "无效的消息编号"
+
+msgid "NOOP"
+msgstr "NOOP"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Capability list follows"
+msgstr "能力列表随后"
+
+msgid "Welcome to Indy POP3 Server"
+msgstr "欢迎使用 Indy POP3 服务器"
+
+msgid "Sorry, Unknown Command"
+msgstr "抱歉，未知命令"
+
+msgid "Sorry, Unknown Command: %s"
+msgstr "抱歉，未知命令：%s"
+
+msgid "Unknown Internal Error"
+msgstr "未知内部错误"
+
+msgid "Help follows"
+msgstr "帮助随后"
+
+msgid "Too many connections. Try again later."
+msgstr "连接过多。请稍后再试。"
+
+msgid "Welcome "
+msgstr "欢迎 "
+
+msgid "Uneven size in DecodeToStream."
+msgstr "DecodeToStream 中大小不匹配。"
+
+msgid "Uneven size in Encode."
+msgstr "编码中大小不匹配。"
+
+msgid "Illegal character in input string."
+msgstr "输入字符串中有非法字符。"
+
+msgid "Message decoder not found"
+msgstr "未找到消息解码器"
+
+msgid "Message encoder not found"
+msgstr "未找到消息编码器"
+
+msgid "Unrecognized content trasnfer encoding."
+msgstr "无法识别的内容传输编码。"
+
+msgid "Unrecognized UUE encoding scheme."
+msgstr "无法识别的 UUE 编码方案。"
+
+msgid "Indy FTP Server ready."
+msgstr "Indy FTP 服务器已准备好。"
+
+msgid "Data connection already open; transfer "
+"starting."
+msgstr "数据连接已打开；开始传输。"
+
+msgid "File status okay; about to open data "
+"connection."
+msgstr "文件状态良好；即将打开数据连接。"
+
+msgid "Opening ASCII mode data connection for "
+"/bin/ls."
+msgstr "为 /bin/ls 打开 ASCII 模式的数据连接。"
+
+msgid "Opening ASCII mode data connection for file "
+"list."
+msgstr "为文件列表打开 ASCII 模式的数据连接。"
+
+msgid "Opening ASCII data connection for directory "
+"listing"
+msgstr "为目录列表打开 ASCII 数据连接"
+
+msgid "%s Command successful."
+msgstr "%s 命令成功。"
+
+msgid "Service ready for new user."
+msgstr "服务已准备好迎接新用户。"
+
+msgid "Service closing control connection."
+msgstr "服务正在关闭控制连接。"
+
+msgid "Data connection open; no transfer in "
+"progress."
+msgstr "数据连接已打开；没有正在进行的传输。"
+
+msgid "Closing data connection."
+msgstr "关闭数据连接。"
+
+msgid "Success."
+msgstr "成功。"
+
+msgid "Data connection closed abnormally."
+msgstr "数据连接异常关闭。"
+
+msgid "Entering Passive Mode (%s)."
+msgstr "进入被动模式 (%s)。"
+
+msgid "User logged in, proceed."
+msgstr "用户已登录，继续。"
+
+msgid "Anonymous user logged in, proceed."
+msgstr "匿名用户已登录，继续。"
+
+msgid "Requested file action okay, completed."
+msgstr "请求的文件操作已完成。"
+
+msgid "\"%s\" created."
+msgstr "\"%s\" 已创建。"
+
+msgid "User name okay, need password."
+msgstr "用户名正确，需要密码。"
+
+msgid "Anonymous login OK, send e-mail as password."
+msgstr "匿名登录成功，请发送电子邮件作为密码。"
+
+msgid "Login with USER first."
+msgstr "请先使用 USER 登录。"
+
+msgid "Not in authorization state, already logged "
+"in."
+msgstr "不在授权状态，已登录。"
+
+msgid "Requested file action pending further "
+"information."
+msgstr "请求的文件操作待进一步信息。"
+
+msgid "Service not available, closing control "
+"connection."
+msgstr "服务不可用，关闭控制连接。"
+
+msgid "Can't open data connection."
+msgstr "无法打开数据连接。"
+
+msgid "Requested file action not taken."
+msgstr "请求的文件操作未执行。"
+
+msgid "Requested action aborted: local error in "
+"processing."
+msgstr "请求的操作已取消：处理中的本地错误。"
+
+msgid "Entering Extended Passive Mode (%s)"
+msgstr "进入扩展被动模式 (%s)"
+
+msgid "PORT/EPRT Command disabled."
+msgstr "PORT/EPRT 命令已禁用。"
+
+msgid "PORT/EPRT Command disabled for reserved port range "
+"(1-1024)."
+msgstr "在保留端口范围 (1-1024) 内禁用 PORT/EPRT 命令。"
+
+msgid "Data port can only be used by the same IP address used by the control "
+"connection."
+msgstr "数据端口只能由用于控制连接的相同 IP 地址使用。"
+
+msgid " EPSV ALL sent, now only accepting EPSV "
+"connections"
+msgstr "已发送 EPSV ALL，现在只接受 EPSV 连接"
+
+msgid "Network protocol not supported, use "
+"(%s)"
+msgstr "不支持的网络协议，请使用 (%s)"
+
+msgid "File Operation Successful"
+msgstr "文件操作成功"
+
+msgid "%s: Is a file."
+msgstr "%s：是一个文件。"
+
+msgid "Invalid %s options"
+msgstr "无效的 %s 选项"
+
+msgid "Option not recognized."
+msgstr "选项未被识别。"
+
+msgid "Property can not be a negative number."
+msgstr "属性不能是负数。"
+
+msgid "Noted."
+msgstr "已记录。"
+
+msgid "Goodbye."
+msgstr "再见。"
+
+msgid "PASVBoundPortMax must be greater than "
+"PASVBoundPortMax."
+msgstr "PASVBoundPortMax 必须大于 PASVBoundPortMax。"
+
+msgid "PASVBoundPortMin must be less than PASVBoundPortMax."
+msgstr "PASVBoundPortMin 必须小于 PASVBoundPortMax。"
+
+msgid "Requested action not taken."
+msgstr "请求的操作未执行。"
+
+msgid "'%s': command not understood."
+msgstr "'%s'：命令未理解。"
+
+msgid "\"%s\" Command not implemented."
+msgstr "\"%s\" 命令未实现。"
+
+msgid "Unknown command %s."
+msgstr "未知命令 %s。"
+
+msgid "Not logged in."
+msgstr "未登录。"
+
+msgid "Requested action aborted: page type "
+"unknown."
+msgstr "请求的操作已取消：页面类型未知。"
+
+msgid "Requested file action aborted."
+msgstr "请求的文件操作已取消。"
+
+msgid "Maximum connections limit exceeded. Try again "
+"later."
+msgstr "超过最大连接限制。请稍后再试。"
+
+msgid "About to open data connection for %s"
+msgstr "即将为 %s 打开数据连接"
+
+msgid "Need account for login."
+msgstr "登录需要账户。"
+
+msgid "AUTH Command OK. Initializing SSL"
+msgstr "AUTH 命令成功。初始化 SSL"
+
+msgid "PBSZ Command OK. Protection buffer size set to "
+"0."
+msgstr "PBSZ 命令成功。保护缓冲区大小设置为 0。"
+
+msgid "Requested PROT level not supported by "
+"mechanism."
+msgstr "请求的 PROT 级别不受机制支持。"
+
+msgid "PROT Command OK. Using Clear data connection"
+msgstr "PROT 命令成功。使用明文数据连接"
+
+msgid "PROT Command OK. Using Private data "
+"connection"
+msgstr "PROT 命令成功。使用私有数据连接"
+
+msgid "Command channel switched to clear-text."
+msgstr "命令通道切换为明文。"
+
+msgid "Clear command channel is not permitted."
+msgstr "不允许使用明文命令通道。"
+
+msgid "AUTH Data required."
+msgstr "需要 AUTH 数据。"
+
+msgid "Not permitted after CCC"
+msgstr "CCC 后不允许"
+
+msgid "PBSZ Data Buffer Size required."
+msgstr "需要 PBSZ 数据缓冲区大小。"
+
+msgid "Command not implemented for that parameter."
+msgstr "该参数对应的命令未实现。"
+
+msgid "%s not allowed after EPSV ALL"
+msgstr "%s 在 EPSV ALL 后不允许"
+
+msgid "Unknown OTP method"
+msgstr "未知的 OTP 方法"
+
+msgid "IOHandler is of wrong type."
+msgstr "IOHandler 类型错误。"
+
+msgid "The destination filename can not be "
+"empty"
+msgstr "目标文件名不能为空"
+
+msgid "\"%s\" is working directory."
+msgstr "\"%s\" 是工作目录。"
+
+msgid "Type set to %s."
+msgstr "类型设置为 %s。"
+
+msgid "Mode set to %s."
+msgstr "模式设置为 %s。"
+
+msgid "Unimplemented mode."
+msgstr "未实现的模式。"
+
+msgid "Structure set to %s."
+msgstr "结构设置为 %s。"
+
+msgid "The following SITE commands are supported:"
+msgstr "以下 SITE 命令被支持："
+
+msgid "%s directory structure."
+msgstr "%s 目录结构。"
+
+msgid "System status"
+msgstr "系统状态"
+
+msgid "End of Status"
+msgstr "状态结束"
+
+msgid "End of extentions."
+msgstr "扩展结束。"
+
+msgid "No OnListDirectory event found!"
+msgstr "未找到 OnListDirectory 事件！"
+
+msgid "Implicit FTP requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr "隐式 FTP 需要将 IOHandler 设置为 TIdServerIOHandlerSSL。"
+
+msgid "site attrib"
+msgstr "站点属性"
+
+msgid " failed, invalid attribute."
+msgstr "失败，无效的属性。"
+
+msgid " done, total %s attributes changed."
+msgstr "完成，总共更改了 %s 个属性。"
+
+msgid "Current UMASK is %.3d"
+msgstr "当前的 UMASK 是 %.3d"
+
+msgid "UMASK set to %.3d (was %.3d)"
+msgstr "UMASK 设置为 %.3d（原为 %.3d）"
+
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+msgid "CHMOD command successful."
+msgstr "CHMOD 命令成功。"
+
+msgid "The following commands are recognized (* => unimplemented, + => "
+"extension)."
+msgstr "以下命令被识别（* => 未实现，+ => 扩展）。"
+
+msgid "on"
+msgstr "开启"
+
+msgid "off"
+msgstr "关闭"
+
+msgid "MSDOS-like directory output is %s"
+msgstr "类似 MSDOS 的目录输出是 %s"
+
+msgid "kernel messages"
+msgstr "内核消息"
+
+msgid "user-level messages"
+msgstr "用户级消息"
+
+msgid "mail system"
+msgstr "邮件系统"
+
+msgid "system daemons"
+msgstr "系统守护进程"
+
+msgid "security/authorization messages (1)"
+msgstr "安全/授权消息（1）"
+
+msgid "messages generated internally by syslogd"
+msgstr "syslogd 内部生成的消息"
+
+msgid "line printer subsystem"
+msgstr "行打印机子系统"
+
+msgid "network news subsystem"
+msgstr "网络新闻子系统"
+
+msgid "UUCP subsystem"
+msgstr "UUCP 子系统"
+
+msgid "clock daemon (1)"
+msgstr "时钟守护进程（1）"
+
+msgid "security/authorization messages (2)"
+msgstr "安全/授权消息（2）"
+
+msgid "FTP daemon"
+msgstr "FTP 守护进程"
+
+msgid "NTP subsystem"
+msgstr "NTP 子系统"
+
+msgid "log audit"
+msgstr "日志审计"
+
+msgid "log alert"
+msgstr "日志警报"
+
+msgid "clock daemon (2)"
+msgstr "时钟守护进程（2）"
+
+msgid "local use 0  (local0)"
+msgstr "本地使用 0 （local0）"
+
+msgid "local use 1  (local1)"
+msgstr "本地使用 1 （local1）"
+
+msgid "local use 2  (local2)"
+msgstr "本地使用 2 （local2）"
+
+msgid "local use 3  (local3)"
+msgstr "本地使用 3 （local3）"
+
+msgid "local use 4  (local4)"
+msgstr "本地使用 4 （local4）"
+
+msgid "local use 5  (local5)"
+msgstr "本地使用 5 （local5）"
+
+msgid "local use 6  (local6)"
+msgstr "本地使用 6 （local6）"
+
+msgid "local use 7  (local7)"
+msgstr "本地使用 7 （local7）"
+
+msgid "Unknown or illegale facility code"
+msgstr "未知或非法的设施代码"
+
+msgid "Emergency: system is unusable"
+msgstr "紧急情况：系统不可用"
+
+msgid "Alert: action must be taken immediately"
+msgstr "警告：必须立即采取行动"
+
+msgid "Critical: critical conditions"
+msgstr "严重：关键条件"
+
+msgid "Error: error conditions"
+msgstr "错误：错误条件"
+
+msgid "Warning: warning conditions"
+msgstr "警告：警告条件"
+
+msgid "Notice: normal but significant condition"
+msgstr "通知：正常但重要的条件"
+
+msgid "Informational: informational messages"
+msgstr "信息：信息性消息"
+
+msgid "Debug: debug-level messages"
+msgstr "调试：调试级别消息"
+
+msgid "Unknown or illegale security code"
+msgstr "未知或非法的安全代码"
+
+msgid "Reply %d on Job ID %s"
+msgstr "任务 ID %s 上的回复 %d"
+
+msgid "Cannot bind to a LPR port from range %d to %d (No free "
+"Port)"
+msgstr "无法从 %d 到 %d 绑定到 LPR 端口（没有可用端口）"
+
+msgid "IRC Connect Failed"
+msgstr "IRC 连接失败"
+
+msgid "Stopped"
+msgstr "已停止"
+
+msgid "Failed to Start: %s"
+msgstr "启动失败：%s"
+
+msgid "Failed to Stop: %s"
+msgstr "停止失败：%s"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Reconnect at %s: %s"
+msgstr "在 %s 重新连接：%s"
+
+msgid "You cannot set %s while the HL7 Component is "
+"working"
+msgstr "HL7 组件工作时您不能设置 %s"
+
+msgid "Attempt to %s while the HL7 Component is not "
+"working"
+msgstr "尝试在 HL7 组件不工作时 %s"
+
+msgid "Interface is unusable due to failure to "
+"stop"
+msgstr "由于停止失败，接口不可用"
+
+msgid "Interface was already started"
+msgstr "接口已被启动"
+
+msgid "Interface was already stopped"
+msgstr "接口已被停止"
+
+msgid "Mode is not initialised"
+msgstr "模式尚未初始化"
+
+msgid "Component is in Asynchronous mode but OnMessageArrive has not been "
+"hooked"
+msgstr "组件处于异步模式，但未挂载 OnMessageArrive"
+
+msgid "Component is in Synchronous mode but  OnMessageReceive has not been "
+"hooked"
+msgstr "组件处于同步模式，但未挂载 OnMessageReceive"
+
+msgid "Assigned Port value %d is invalid"
+msgstr "分配的端口号 %d 无效"
+
+msgid "A message has been received but the commication mode is "
+"unknown"
+msgstr "收到了一条消息，但通信模式未知"
+
+msgid "Unexpected message arrived to an interface that is not "
+"listening"
+msgstr "意外的消息到达了一个未监听的接口"
+
+msgid "Unknown mode"
+msgstr "未知模式"
+
+msgid "Unable to stop client thread"
+msgstr "无法停止客户端线程"
+
+msgid "Send a message"
+msgstr "发送消息"
+
+msgid "Server Connection not locatable when sending "
+"message"
+msgstr "发送消息时找不到服务器连接"
+
+msgid "You cannot send a message while you are still waiting for an "
+"answer"
+msgstr "在等待答复时您不能发送消息"
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned "
+"srNone"
+msgstr "IdHL7.pas 中的内部错误：SynchronousSend 返回 srNone"
+
+msgid "Not connected"
+msgstr "未连接"
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned "
+"srSent"
+msgstr "IdHL7.pas 中的内部错误：SynchronousSend 返回 srSent"
+
+msgid "No response from remote system"
+msgstr "远程系统无响应"
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned an unknown "
+"value "
+msgstr "IdHL7.pas 中的内部错误：SynchronousSend 返回未知值"
+
+msgid "IdHL7 is broken in Indy 10 for the present"
+msgstr "IdHL7 在当前的 Indy 10 中有问题"
+
+msgid "Unsupported object type. You can assign only one of the following "
+"types or their descendants: TStrings, "
+"TStream."
+msgstr "不支持的对象类型。您只能分配以下类型之一或其派生类：TStrings，TStream。"
+
+msgid "Unsupported transfer type. You can assign only an empty string or one "
+"of the following values: 7bit, 8bit, binary, quoted-printable, "
+"base64."
+msgstr "不支持的传输类型。您只能分配空字符串或以下值之一：7bit，8bit，binary，quoted-printable，base64。"
+
+msgid "Unsupported encoding. You can assign only one of the following "
+"values: Q, B, 8."
+msgstr "不支持的编码。您只能分配以下值之一：Q，B，8。"
+
+msgid "Protocol field is empty"
+msgstr "协议字段为空"
+
+msgid "Host field is empty"
+msgstr "主机字段为空"
+
+msgid "You must chain this component to another I/O Handler before using "
+"it"
+msgstr "在使用此组件之前，您必须将其链接到另一个 I/O 处理程序"
+
+msgid "TIdSNPP Mess command only supports single line "
+"Messages."
+msgstr "TIdSNPP Mess 命令仅支持单行消息。"
+
+msgid "Unassigned UserPassProvider!"
+msgstr "未分配 UserPassProvider！"
+
+msgid "Invalid Email Address %s"
+msgstr "无效的电子邮件地址 %s"
+
+msgid "No MX records for the domain %s"
+msgstr "域名 %s 没有 MX 记录"
+
+msgid "Can not connect to MX servers for address "
+"%s"
+msgstr "无法连接到地址 %s 的 MX 服务器"
+
+msgid "Can not assign Host property, it is resolved by IdDirectSMTP on the "
+"fly."
+msgstr "无法分配 Host 属性，它由 IdDirectSMTP 实时解析。"
+
+msgid "File corrupted."
+msgstr "文件损坏。"
+
+msgid "Invalid Size"
+msgstr "无效的大小"
+
+msgid "Invalid CRC"
+msgstr "无效的 CRC"
+
+msgid "Not supported"
+msgstr "不支持"
+
+msgid "Invalid Login"
+msgstr "无效的登录"
+
+msgid "Wrong SOCKS5-ATYP"
+msgstr "错误的 SOCKS5-ATYP"
+
+msgid "Wrong SOCKS-version"
+msgstr "错误的 SOCKS 版本"
+
+msgid "Wrong SOCKS-Command"
+msgstr "错误的 SOCKS 命令"
+
+msgid "Access Denied"
+msgstr "访问被拒"
+
+msgid "Unexpected Close"
+msgstr "意外关闭"
+
+msgid "Peer IP mismatch"
+msgstr "对等 IP 不匹配"
+
+msgid "SSL IOHandler is required for this setting"
+msgstr "此设置需要 SSL IOHandler"
+
+msgid "This value can not be set while the server is "
+"active."
+msgstr "在服务器处于活动状态时不能设置此值。"
+
+msgid "This value can not be set while the client is "
+"connected."
+msgstr "在客户端连接时不能设置此值。"
+
+msgid "SSL is not available on this server."
+msgstr "此服务器上不可用 SSL。"
+
+msgid "Start SSL negotiation command failed."
+msgstr "开始 SSL 协商命令失败。"
+
+msgid "SSL negotiation failed."
+msgstr "SSL 协商失败。"
+
+msgid "Invalid Enhanced Code: "
+msgstr "无效的增强代码："
+
+msgid "Invalid Reply String."
+msgstr "无效的回复字符串。"
+
+msgid "Invalid Reply Class."
+msgstr "无效的回复类别。"
+
+msgid "Unsupported operation."
+msgstr "不支持的操作。"
+
+msgid "Host is empty"
+msgstr "主机为空"
+
+msgid "POP3 proxy ready"
+msgstr "POP3 代理已准备好"
+
+msgid "command must be either USER or QUIT"
+msgstr "命令必须是 USER 或 QUIT"
+
+msgid "POP3 proxy signing off"
+msgstr "POP3 代理注销"
+
+msgid "Begin TLS negotiation now"
+msgstr "现在开始 TLS 协商"
+
+msgid "Implicit IMAP4 requires that IOHandler be set to a "
+"TIdServerIOHandlerSSLBase."
+msgstr "隐式 IMAP4 要求将 IOHandler 设置为 TIdServerIOHandlerSSLBase。"
+
+msgid "Permission Denied"
+msgstr "权限被拒"
+
+msgid "Could not encode header data using charset "
+"\"%s\""
+msgstr "无法使用字符集 \"%s\" 对标题数据进行编码"
+
+msgid "Could not decode header data using charset "
+"\"%s\""
+msgstr "无法使用字符集 \"%s\" 解码头部数据"
+
+msgid "An HTML viewer is required to see this "
+"message"
+msgstr "查看此消息需要 HTML 浏览器"
+
+msgid "An RTF viewer is required to see this "
+"message"
+msgstr "查看此消息需要 RTF 浏览器"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetDateVariable"
+msgstr "TIdHTTPAppResponse.GetDateVariable 中的无效索引 %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetDateVariable"
+msgstr "TIdHTTPAppResponse.SetDateVariable 中的无效索引 %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetIntegerVariable"
+msgstr "TIdHTTPAppResponse.GetIntegerVariable 中的无效索引 %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetIntegerVariable"
+msgstr "TIdHTTPAppResponse.SetIntegerVariable 中的无效索引 %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetStringVariable"
+msgstr "TIdHTTPAppResponse.GetStringVariable 中的无效索引 %s"
+
+msgid "TIdHTTPAppResponse.SetStringVariable: Cannot set the "
+"version"
+msgstr "TIdHTTPAppResponse.SetStringVariable：无法设置版本"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetStringVariable"
+msgstr "TIdHTTPAppResponse.SetStringVariable 中的无效索引 %s"
+
+msgid "Successfull API call"
+msgstr "API 调用成功"
+
+msgid "Not enough memory is available to complete this "
+"request"
+msgstr "没有足够的内存来完成此请求"
+
+msgid "The handle specified is invalid"
+msgstr "指定的句柄无效"
+
+msgid "The function requested is not supported"
+msgstr "请求的功能不受支持"
+
+msgid "The specified target is unknown or unreachable"
+msgstr "指定的目标未知或无法到达"
+
+msgid "The Local Security Authority cannot be "
+"contacted"
+msgstr "无法联系本地安全机构"
+
+msgid "The requested security package does not "
+"exist"
+msgstr "请求的安全包不存在"
+
+msgid "The caller is not the owner of the desired "
+"credentials"
+msgstr "调用者不是所需凭据的所有者"
+
+msgid "The security package failed to initialize, and cannot be "
+"installed"
+msgstr "安全包初始化失败，无法安装"
+
+msgid "The token supplied to the function is "
+"invalid"
+msgstr "提供给函数的令牌无效"
+
+msgid "The security package is not able to marshall the logon buffer, so the "
+"logon attempt has failed"
+msgstr "安全包无法编组登录缓冲区，因此登录尝试失败"
+
+msgid "The per-message Quality of Protection is not supported by the "
+"security package"
+msgstr "安全包不支持每条消息的质量保护"
+
+msgid "The security context does not allow impersonation of the "
+"client"
+msgstr "安全上下文不允许模拟客户端"
+
+msgid "The logon attempt failed"
+msgstr "登录尝试失败"
+
+msgid "The credentials supplied to the package were not "
+"recognized"
+msgstr "提供给包的凭据未被识别"
+
+msgid "No credentials are available in the security "
+"package"
+msgstr "安全包中没有可用的凭据"
+
+msgid "The message or signature supplied for verification has been "
+"altered"
+msgstr "提供的验证消息或签名已被修改"
+
+msgid "The message supplied for verification is out of "
+"sequence"
+msgstr "提供的验证消息顺序不对"
+
+msgid "No authority could be contacted for "
+"authentication."
+msgstr "无法联系任何权威机构进行身份验证"
+
+msgid "The function completed successfully, but must be called again to "
+"complete the context"
+msgstr "函数成功完成，但必须再次调用以完成上下文"
+
+msgid "The function completed successfully, but CompleteToken must be "
+"called"
+msgstr "函数成功完成，但必须调用 CompleteToken"
+
+msgid "The function completed successfully, but both CompleteToken and this "
+"function must be called to complete the "
+"context"
+msgstr "函数成功完成，但必须调用 CompleteToken 和此函数以完成上下文"
+
+msgid "The logon was completed, but no network authority was available. The "
+"logon was made using locally known information"
+msgstr "登录已完成，但没有可用的网络权威。登录使用的是本地已知的信息"
+
+msgid "The context has expired and can no longer be "
+"used."
+msgstr "上下文已过期，无法再使用"
+
+msgid "The supplied message is incomplete.  The signature was not "
+"verified."
+msgstr "提供的消息不完整。签名未被验证"
+
+msgid "The credentials supplied were not complete, and could not be "
+"verified. The context could not be initialized."
+msgstr "提供的凭据不完整，无法验证。上下文无法初始化"
+
+msgid "The buffers supplied to a function was too "
+"small."
+msgstr "提供给函数的缓冲区太小"
+
+msgid "The credentials supplied were not complete, and could not be "
+"verified. Additional information can be returned from the "
+"context."
+msgstr "提供的凭据不完整，无法验证。可以从上下文中返回更多信息"
+
+msgid "The context data must be renegotiated with the "
+"peer."
+msgstr "必须与对等方重新协商上下文数据"
+
+msgid "The target principal name is incorrect."
+msgstr "目标主体名称不正确"
+
+msgid "There is no LSA mode context associated with this "
+"context."
+msgstr "与此上下文无关联任何 LSA 模式上下文"
+
+msgid "The clocks on the client and server machines are "
+"skewed."
+msgstr "客户端和服务器机器上的时钟不同步"
+
+msgid "The certificate chain was issued by an untrusted "
+"authority."
+msgstr "证书链是由一个不受信任的机构颁发的"
+
+msgid "The message received was unexpected or badly "
+"formatted."
+msgstr "收到的消息出乎意料或格式不正确"
+
+msgid "An unknown error occurred while processing the "
+"certificate."
+msgstr "处理证书时发生了未知错误"
+
+msgid "The received certificate has expired."
+msgstr "收到的证书已过期"
+
+msgid "The specified data could not be encrypted."
+msgstr "指定的数据无法加密"
+
+msgid "The specified data could not be decrypted."
+msgstr "指定的数据无法解密"
+
+msgid "The client and server cannot communicate, because they do not possess "
+"a common algorithm."
+msgstr "客户端和服务器无法通信，因为它们不具备共同的算法"
+
+msgid "The security context could not be established due to a failure in the "
+"requested quality of service (e.g. mutual authentication or "
+"delegation)."
+msgstr "由于请求的服务质量（例如相互认证或委托）失败，无法建立安全上下文"
+
+msgid "A security context was deleted before the context was completed. This "
+"is considered a logon failure."
+msgstr "在上下文完成之前删除了一个安全上下文。这被视为登录失败"
+
+msgid "The client is trying to negotiate a context and the server requires "
+"user-to-user but didn't send a TGT reply."
+msgstr "客户端正在尝试协商上下文，而服务器要求用户到用户但未发送 TGT 回复。"
+
+msgid "Unable to accomplish the requested task because the local machine "
+"does not have any IP addresses."
+msgstr "由于本地机器没有任何 IP 地址，无法完成所请求的任务。"
+
+msgid "The supplied credential handle does not match the credential "
+"associated with the security context."
+msgstr "提供的凭证句柄与安全上下文关联的凭证不符。"
+
+msgid "The crypto system or checksum function is invalid because a required "
+"function is unavailable."
+msgstr "加密系统或校验和函数无效，因为所需的函数不可用。"
+
+msgid "The number of maximum ticket referrals has been "
+"exceeded."
+msgstr "最大票证转发次数已超出。"
+
+msgid "The local machine must be a Kerberos KDC (domain controller) and it "
+"is not."
+msgstr "本地机器必须是 Kerberos KDC（域控制器），但它不是。"
+
+msgid "The other end of the security negotiation is requires strong crypto "
+"but it is not supported on the local "
+"machine."
+msgstr "安全协商的另一端需要强加密，但在本地机器上不支持。"
+
+msgid "The KDC reply contained more than one principal "
+"name."
+msgstr "KDC 的回复包含多个主要名称。"
+
+msgid "Expected to find PA data for a hint of what etype to use, but it was "
+"not found."
+msgstr "期望找到 PA 数据以提示使用哪种 etype，但未找到。"
+
+msgid "The client certificate does not contain a valid UPN, or does not "
+"match the client name in the logon request. Please contact your "
+"administrator."
+msgstr "客户端证书中不包含有效的 UPN，或者与登录请求中的客户端名称不匹配。请与您的管理员联系。"
+
+msgid "Smartcard logon is required and was not "
+"used."
+msgstr "需要智能卡登录但未使用。"
+
+msgid "A system shutdown is in progress."
+msgstr "系统正在关机。"
+
+msgid "An invalid request was sent to the KDC."
+msgstr "向 KDC 发送了无效请求。"
+
+msgid "The KDC was unable to generate a referral for the service "
+"requested."
+msgstr "KDC 无法为所请求的服务生成转介。"
+
+msgid "The encryption type requested is not supported by the "
+"KDC."
+msgstr "KDC 不支持所请求的加密类型。"
+
+msgid "An unsupported preauthentication mechanism was presented to the "
+"Kerberos package."
+msgstr "向 Kerberos 包呈现了不受支持的预认证机制。"
+
+msgid "The requested operation cannot be completed. The computer must be "
+"trusted for delegation and the current user account must be "
+"configured to allow delegation."
+msgstr "无法完成所请求的操作。计算机必须被信任以委派，并且当前用户帐户必须配置为允许委派。"
+
+msgid "Client's supplied SSPI channel bindings were "
+"incorrect."
+msgstr "客户端提供的 SSPI 通道绑定不正确。"
+
+msgid "The received certificate was mapped to multiple "
+"accounts."
+msgstr "收到的证书映射到了多个帐户。"
+
+msgid "SEC_E_NO_KERB_KEY"
+msgstr "SEC_E_NO_KERB_KEY"
+
+msgid "The certificate is not valid for the requested "
+"usage."
+msgstr "证书对于所请求的用途无效。"
+
+msgid "The system detected a possible attempt to compromise security. Please "
+"ensure that you can contact the server that authenticated "
+"you."
+msgstr "系统检测到可能的安全性妥协尝试。请确保您可以联系已认证您的服务器。"
+
+msgid "The smartcard certificate used for authentication has been revoked. "
+"Please contact your system administrator. There may be additional "
+"information in the event log."
+msgstr "用于认证的智能卡证书已被撤销。请与您的系统管理员联系。事件日志中可能有附加信息。"
+
+msgid "An untrusted certificate authority was detected While processing the "
+"smartcard certificate used for authentication. Please contact your "
+"system administrator."
+msgstr "在处理用于认证的智能卡证书时检测到不受信任的证书颁发机构。请与您的系统管理员联系。"
+
+msgid "The revocation status of the smartcard certificate used for "
+"authentication could not be determined. Please contact your system "
+"administrator."
+msgstr "无法确定用于认证的智能卡证书的撤销状态。请与您的系统管理员联系。"
+
+msgid "The smartcard certificate used for authentication was not trusted. "
+"Please contact your system administrator."
+msgstr "用于认证的智能卡证书不受信任。请与您的系统管理员联系。"
+
+msgid "The smartcard certificate used for authentication has expired. Please "
+"contact your system administrator."
+msgstr "用于认证的智能卡证书已过期。请与您的系统管理员联系。"
+
+msgid "The Kerberos subsystem encountered an error. A service for user "
+"protocol request was made against a domain controller which does not "
+"support service for user."
+msgstr "Kerberos 子系统遇到错误。对不支持用户服务的域控制器进行了用户服务协议请求。"
+
+msgid "An attempt was made by this server to make a Kerberos constrained "
+"delegation request for a target outside of the server's realm. This "
+"is not supported, and indicates a misconfiguration on this server's "
+"allowed to delegate to list. Please contact your "
+"administrator."
+msgstr "此服务器试图对服务器领域之外的目标进行 Kerberos 受限委派请求。这是不支持的，并表明此服务器的委派列表配置错误。请与您的管理员联系。"
+
+msgid "The revocation status of the domain controller certificate used for "
+"smartcard authentication could not be determined. There is additional "
+"information in the system event log. Please contact your system "
+"administrator."
+msgstr "无法确定用于智能卡认证的域控制器证书的撤销状态。系统事件日志中有附加信息。请与您的系统管理员联系。"
+
+msgid "An untrusted certificate authority was detected while processing the "
+"domain controller certificate used for authentication. There is "
+"additional information in the system event log. Please contact your "
+"system administrator."
+msgstr "在处理用于认证的域控制器证书时检测到不受信任的证书颁发机构。系统事件日志中有附加信息。请与您的系统管理员联系。"
+
+msgid "The domain controller certificate used for smartcard logon has "
+"expired. Please contact your system administrator with the contents "
+"of your system event log."
+msgstr "用于智能卡登录的域控制器证书已过期。请携带您的系统事件日志内容与您的系统管理员联系。"
+
+msgid "The domain controller certificate used for smartcard logon has been "
+"revoked. Please contact your system administrator with the contents "
+"of your system event log."
+msgstr "用于智能卡登录的域控制器证书已被撤销。请携带您的系统事件日志内容与您的系统管理员联系。"
+
+msgid "A signature operation must be performed before the user can "
+"authenticate."
+msgstr "在用户可以认证之前必须执行签名操作。"
+
+msgid "One or more of the parameters passed to the function was "
+"invalid."
+msgstr "传递给函数的一个或多个参数无效。"
+
+msgid "Client policy does not allow credential delegation to target "
+"server."
+msgstr "客户端策略不允许凭证委派到目标服务器。"
+
+msgid "Client policy does not allow credential delegation to target server "
+"with NLTM only authentication."
+msgstr "客户端策略不允许仅使用 NLTM 认证的凭证委派到目标服务器。"
+
+msgid "The recipient rejected the renegotiation "
+"request."
+msgstr "接收者拒绝了重新协商请求。"
+
+msgid "The required security context does not "
+"exist."
+msgstr "所需的安全上下文不存在。"
+
+msgid "The PKU2U protocol encountered an error while attempting to utilize "
+"the associated certificates."
+msgstr "PKU2U 协议在尝试利用相关证书时遇到错误。"
+
+msgid "The identity of the server computer could not be "
+"verified."
+msgstr "无法验证服务器计算机的身份。"
+
+msgid "Unknown error"
+msgstr "未知错误"
+
+msgid "SSPI %s returns error #%d(0x%x): %s"
+msgstr "SSPI %s 返回错误 #%d(0x%x): %s"
+
+msgid "SSPI interface has failed to initialise "
+"properly"
+msgstr "SSPI 接口未能正确初始化"
+
+msgid "No PSecPkgInfo specified"
+msgstr "未指定 PSecPkgInfo"
+
+msgid "No credential handle acquired"
+msgstr "未获取凭证句柄"
+
+msgid "Can not change credentials after handle aquired. Use Release "
+"first"
+msgstr "获取句柄后不能更改凭证。请先使用释放功能"
+
+msgid "Unknown credentials use"
+msgstr "未知的凭证使用"
+
+msgid "Do AcquireCredentialsHandle first"
+msgstr "首先执行 AcquireCredentialsHandle"
+
+msgid "CompleteAuthToken is not supported"
+msgstr "不支持 CompleteAuthToken"
+
+msgid "Error resolving host %s: %s (%d)"
+msgstr "解析主机 %s 时出错: %s (%d)"
+
+msgid "Non-blocking not supported."
+msgstr "不支持非阻塞模式。"
+
+msgid "Character Index %d out of Range, Length = "
+"%d"
+msgstr "字符索引 %d 超出范围，长度 = %d"
+
+msgid "Character at Index %d is not a valid UTF-16 High "
+"Surrogate"
+msgstr "索引 %d 处的字符不是一个有效的 UTF-16 高代理项"
+
+msgid "Character at Index %d is not a valid UTF-16 Low "
+"Surrogate"
+msgstr "索引 %d 处的字符不是一个有效的 UTF-16 低代理项"
+
+msgid "Missing a Low Surrogate in UTF-16 sequence"
+msgstr "UTF-16 序列中缺少低代理项"
+
+msgid "Error resolving Address %s: %s (%d)"
+msgstr "解析地址 %s 时出错: %s (%d)"
+
+msgid "ZLib error: target buffer may be too "
+"small"
+msgstr "ZLib 错误：目标缓冲区可能太小"
+
+msgid "Invalid stream operation"
+msgstr "无效的流操作"
+
+msgid "ZLib Error (%d)"
+msgstr "ZLib 错误 (%d)"
+
+msgid "Error on call to ZLib library function "
+"%s"
+msgstr "调用 ZLib 库函数 %s 时出错"
+

@@ -1,0 +1,2992 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Indy 10\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-05-08 16:56+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Onur Gevinoğlu\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+msgid " EPSV ALL sent, now only accepting EPSV connections"
+msgstr " EPSV TÜMÜ gönderildi, artık yalnızca EPSV bağlantılarını kabul ediyor"
+
+msgid " Transaction failed"
+msgstr " İşlem başarısız oldu"
+
+msgid " article retrieved - body follows"
+msgstr " makale alındı - gövde takip ediyor"
+
+msgid " article retrieved - head and body follow"
+msgstr " makale alındı - baş ve vücut takibi"
+
+msgid " article retrieved - head follows"
+msgstr " makale alındı - başlık aşağıdadır"
+
+msgid " article retrieved - request text separately"
+msgstr " makale alındı - ayrıca metin isteyin"
+
+msgid " article retrieved - statistics only"
+msgstr " makale alındı - yalnızca istatistikler"
+
+msgid " done, total %s attributes changed."
+msgstr " tamamlandı, toplam %s öznitelik değişti."
+
+msgid " failed, invalid attribute."
+msgstr " başarısız, geçersiz öznitelik."
+
+msgid " not specified"
+msgstr " belirtilmemiş"
+
+msgid "\"%s\" Command not implemented."
+msgstr "\"%s\" Komutu uygulanmadı."
+
+msgid "\"%s\" created."
+msgstr "\"%s\" oluşturuldu."
+
+msgid "\"%s\" is working directory."
+msgstr "\"%s\" çalışma dizini."
+
+msgid "%s"
+msgstr "%s"
+
+msgid "%s Account Disabled"
+msgstr "%s Hesabı Devre Dışı Bırakıldı"
+
+msgid "%s Address Error"
+msgstr "%s Adres Hatası"
+
+msgid "%s Address Okay"
+msgstr "%s Adres Tamam"
+
+msgid "%s Alert"
+msgstr "%s Uyarısı"
+
+msgid "%s Command successful."
+msgstr "%s Komut başarılı."
+
+msgid "%s Read Alert"
+msgstr "%s Okuma Uyarısı"
+
+msgid "%s Sender Not Permitted"
+msgstr "%s Gönderene İzin Verilmedi"
+
+msgid "%s User not local, Will forward"
+msgstr "%s Kullanıcı yerel değil, İletilecek"
+
+msgid "%s Write Alert"
+msgstr "%s Yazma Uyarısı"
+
+msgid "%s directory structure."
+msgstr "%s dizin yapısı."
+
+msgid "%s is corrupt."
+msgstr "%s bozuk."
+
+msgid "%s is not a Gopher+ server"
+msgstr "%s bir Gopher+ sunucusu değil"
+
+msgid "%s is not a valid IPv6 address"
+msgstr "%s geçerli bir IPv6 adresi değil"
+
+msgid "%s is not a valid service."
+msgstr "%s geçerli bir hizmet değil."
+
+msgid "%s not allowed after EPSV ALL"
+msgstr "%s EPSV'den sonra HEPSİNE izin verilmiyor"
+
+msgid "%s: Circular links are not allowed"
+msgstr "%s: Dairesel bağlantılara izin verilmez"
+
+msgid "%s: Is a file."
+msgstr "%s: Bir dosyadır."
+
+msgid "&New Message Part..."
+msgstr "&Yeni Mesaj Bölümü..."
+
+msgid "'%s': command not understood."
+msgstr "'%s ': komut anlaşılamadı."
+
+msgid "-Err 501 MailB is not implemented"
+msgstr "- Err 501 MailB uygulanmadı"
+
+msgid "32 Bit Rollover missing and ACK set"
+msgstr "32 Bit Rollover eksik ve ACK seti"
+
+msgid "@ Outside address"
+msgstr "@ Dış adres"
+
+msgid "A Stack has not been created for converting the data type."
+msgstr "Veri türünü dönüştürmek için bir Yığın oluşturulmadı."
+
+msgid "A message has been received but the commication mode is unknown"
+msgstr "Bir mesaj alındı ancak iletişim modu bilinmiyor"
+
+msgid ""
+"A security context was deleted before the context was completed. This is "
+"considered a logon failure."
+msgstr ""
+"Bağlam tamamlanmadan önce bir güvenlik bağlamı silindi. Bu bir oturum açma "
+"hatası olarak kabul edilir."
+
+msgid ""
+"A signature operation must be performed before the user can authenticate."
+msgstr ""
+"Kullanıcı kimlik doğrulaması yapmadan önce bir imza işlemi "
+"gerçekleştirilmelidir."
+
+msgid "A system shutdown is in progress."
+msgstr "Bir sistem kapatma işlemi devam ediyor."
+
+msgid "AUTH Command OK. Initializing SSL"
+msgstr "YETKİLENDİRME Komutu Tamam. SSL Başlatılıyor"
+
+msgid "AUTH Data required."
+msgstr "KİMLİK DOĞRULAMA Verileri gerekli."
+
+msgid "About to open data connection for %s"
+msgstr "%s için veri bağlantısı açılmak üzere"
+
+msgid "Accept Error"
+msgstr "Hatayı Kabul Et"
+
+msgid "Accept Exit"
+msgstr "Çıkışı Kabul Et"
+
+msgid "Accept Failed"
+msgstr "Kabul Edilemedi"
+
+msgid "Accept Loop"
+msgstr "Döngüyü Kabul Et"
+
+msgid "Accept timed out."
+msgstr "Kabul zaman aşımına uğradı."
+
+msgid "Accepted"
+msgstr "Kabul edildi"
+
+msgid "Access Denied"
+msgstr "Erişim Reddedildi"
+
+msgid "Access denied."
+msgstr "Erişim reddedildi."
+
+msgid "Access to %s denied"
+msgstr "%s erişimi reddedildi"
+
+msgid "Address Mask Request"
+msgstr "Adres Maskesi İsteği"
+
+msgid "Address already in use."
+msgstr "Adres zaten kullanılıyor."
+
+msgid "Address family not supported by protocol family."
+msgstr "Protokol ailesi tarafından desteklenmeyen adres ailesi."
+
+msgid "Address type not supported."
+msgstr "Adres türü desteklenmiyor."
+
+msgid "Alert: action must be taken immediately"
+msgstr "Uyarı: derhal harekete geçilmelidir"
+
+msgid "Algorithm %s not permitted in FIPS mode"
+msgstr "Algoritmaya %s FIPS modunda izin verilmiyor"
+
+msgid "Allowed login attempts exceeded, good bye."
+msgstr "İzin verilen oturum açma girişimleri aşıldı, hoşça kalın."
+
+msgid "Already connected."
+msgstr "Zaten bağlı."
+
+msgid "An HTML viewer is required to see this message"
+msgstr "Bu mesajı görmek için bir HTML görüntüleyici gereklidir"
+
+msgid "An RTF viewer is required to see this message"
+msgstr "Bu mesajı görmek için bir RTF görüntüleyici gereklidir"
+
+msgid ""
+"An attempt was made by this server to make a Kerberos constrained delegation "
+"request for a target outside of the server's realm. This is not supported, "
+"and indicates a misconfiguration on this server's allowed to delegate to "
+"list. Please contact your administrator."
+msgstr ""
+"Bu sunucu tarafından, sunucunun alanı dışındaki bir hedef için Kerberos "
+"kısıtlı yetkilendirme isteği yapılmaya çalışılmıştır. Bu desteklenmez ve bu "
+"sunucunun listelemeye temsilci atamasına izin verilen bir yanlış "
+"yapılandırmayı gösterir. Lütfen yöneticinizle iletişime geçin."
+
+msgid "An invalid request was sent to the KDC."
+msgstr "KDC'ye geçersiz bir istek gönderildi."
+
+msgid "An unknown error occurred while processing the certificate."
+msgstr "Sertifika işlenirken bilinmeyen bir hata oluştu."
+
+msgid ""
+"An unsupported preauthentication mechanism was presented to the Kerberos "
+"package."
+msgstr ""
+"Kerberos paketine desteklenmeyen bir ön kimlik doğrulama mekanizması "
+"sunulmuştur."
+
+msgid ""
+"An untrusted certificate authority was detected While processing the "
+"smartcard certificate used for authentication. Please contact your system "
+"administrator."
+msgstr ""
+"Kimlik doğrulama için kullanılan akıllı kart sertifikası işlenirken "
+"güvenilmeyen bir sertifika yetkilisi algılandı. Lütfen sistem yöneticinizle "
+"iletişime geçin."
+
+msgid ""
+"An untrusted certificate authority was detected while processing the domain "
+"controller certificate used for authentication. There is additional "
+"information in the system event log. Please contact your system "
+"administrator."
+msgstr ""
+"Kimlik doğrulama için kullanılan etki alanı denetleyicisi sertifikası "
+"işlenirken güvenilmeyen bir sertifika yetkilisi algılandı. Sistem olay "
+"günlüğünde ek bilgiler vardır. Lütfen sistem yöneticinizle iletişime geçin."
+
+msgid "Anonymous login OK, send e-mail as password."
+msgstr "Anonim giriş Tamam, şifre olarak e - posta gönder."
+
+msgid "Anonymous user logged in, proceed."
+msgstr "Anonim kullanıcı giriş yaptı, devam edin."
+
+msgid "Any"
+msgstr "Herhangi biri"
+
+msgid "Assigned Port value %d is invalid"
+msgstr "Atanan Bağlantı Noktası değeri %d geçersiz"
+
+msgid "Attachment %s is blocked."
+msgstr "%s eki engellendi."
+
+msgid "Attempt to %s while the HL7 Component is not working"
+msgstr "HL7 Bileşeni çalışmıyorken %s yapmayı deneyin"
+
+msgid "Authenticated"
+msgstr "Doğrulandı"
+
+msgid "Authentication Failed"
+msgstr "Kimlik Doğrulama Başarısız"
+
+msgid "Authentication accepted"
+msgstr "Kimlik doğrulama kabul edildi"
+
+msgid "Authentication error to socks server."
+msgstr "Socks sunucusunda kimlik doğrulama hatası."
+
+msgid "Authentication required"
+msgstr "Kimlik doğrulama gerekli"
+
+msgid "Authorization rejected"
+msgstr "Yetkilendirme reddedildi"
+
+msgid "Authorization required for this command"
+msgstr "Bu komut için gerekli yetkilendirme"
+
+msgid "Bad Gateway"
+msgstr "Hatalı Ağ Geçidi"
+
+msgid "Bad Request"
+msgstr "Hatalı İstek"
+
+msgid "Bad SPI"
+msgstr "Kötü SPI"
+
+msgid "Bad file number."
+msgstr "Hatalı dosya numarası."
+
+msgid "Bad protocol option."
+msgstr "Kötü protokol seçeneği."
+
+msgid "Bad sequence of commands"
+msgstr "Hatalı komut dizisi"
+
+msgid "Begin TLS negotiation"
+msgstr "TLS müzakeresine başla"
+
+msgid "Begin TLS negotiation now"
+msgstr "TLS müzakeresine şimdi başlayın"
+
+msgid "Body Text Editor"
+msgstr "Gövde Metni Düzenleyici"
+
+msgid "Buffer fault."
+msgstr "Arabellek hatası."
+
+msgid "Buffer start position is invalid."
+msgstr "Arabellek başlangıç konumu geçersiz."
+
+msgid "Buffer terminator must be specified."
+msgstr "Arabellek sonlandırıcı belirtilmelidir."
+
+msgid "CHMOD command successful."
+msgstr "CHMOD komutu başarılı."
+
+msgid "CRC Failed"
+msgstr "CRC Başarısız"
+
+msgid "Call to %s.GetByte [property Bytes] with index <> [0..%d]"
+msgstr "%s .GetByte [property Bytes] dizinine <>[ 0..%d] çağrı yapın"
+
+msgid ""
+"Can not assign Host property, it is resolved by IdDirectSMTP on the fly."
+msgstr "Host özelliği atanamıyor, anında IdDirectSMTP tarafından çözüldü."
+
+msgid "Can not bind in port range (%d - %d)"
+msgstr "Bağlantı noktası aralığında bağlanılamıyor (%d - %d)"
+
+msgid "Can not change credentials after handle aquired. Use Release first"
+msgstr ""
+"Tanıtıcı edindikten sonra kimlik bilgileri değiştirilemez. Önce Serbest "
+"Bırakmayı kullanın"
+
+msgid "Can not connect to MX servers for address %s"
+msgstr "%s adresi için MX sunucularına bağlanılamıyor"
+
+msgid "Can not set AUTH while connected."
+msgstr "Bağlıyken KİMLİK DOĞRULAMA ayarlanamaz."
+
+msgid "Can not set AUTH without SSL."
+msgstr "SSL olmadan KİMLİK DOĞRULAMA ayarlanamaz."
+
+msgid "Can not set CCC without encyption."
+msgstr "Kodlama olmadan CCC ayarlanamaz."
+
+msgid "Can not set DataPortProtection after CCC issued."
+msgstr "CCC verildikten sonra DataPortProtection ayarlanamıyor."
+
+msgid "Can not set DataPortProtection with unencrypted connections."
+msgstr "Şifrelenmemiş bağlantılarla DataPortProtection ayarlanamıyor."
+
+msgid "Can not use active transfers with NAT fastracking."
+msgstr "Nat fastracking ile aktif transferler kullanılamaz."
+
+msgid "Can't open data connection."
+msgstr "Veri bağlantısı açılamıyor."
+
+msgid "Can't use dataprotection on site to site transfer."
+msgstr "Siteden siteye aktarımda veri koruma kullanılamıyor."
+
+msgid "Cannot allocate socket."
+msgstr "Soket ayrılamıyor."
+
+msgid "Cannot assign requested address."
+msgstr "İstenen adres atanamıyor."
+
+msgid "Cannot bind to a LPR port from range %d to %d (No free Port)"
+msgstr ""
+"%d ila %d aralığındaki bir LPR bağlantı noktasına bağlanılamıyor (Serbest "
+"Bağlantı Noktası Yok)"
+
+msgid "Cannot call TerminateAndWaitFor on FreeAndTerminate threads"
+msgstr "FreeAndTerminate iş parçacığında TerminateAndWaitFor çağrılamıyor"
+
+msgid "Cannot change IPVersion when connected"
+msgstr "Bağlanıldığında IPVersion değiştirilemiyor"
+
+msgid "Cannot change a connected IOHandler."
+msgstr "Bağlı bir IOHandler değiştirilemiyor."
+
+msgid "Cannot change session ID cookie name when the server is active."
+msgstr "Sunucu etkinken oturum kimliği çerez adı değiştirilemez."
+
+msgid "Cannot change session list when the server is active."
+msgstr "Sunucu etkin olduğunda oturum listesi değiştirilemez."
+
+msgid "Cannot change session state when the server is active."
+msgstr "Sunucu etkinken oturum durumu değiştirilemez."
+
+msgid "Cannot change the scheduler while the server is Active."
+msgstr "Sunucu Aktifken zamanlayıcı değiştirilemez."
+
+msgid "Cannot create listening thread."
+msgstr "Dinleme dizisi oluşturulamıyor."
+
+msgid "Cannot load message from file %s"
+msgstr "%s dosyasından mesaj yüklenemiyor"
+
+msgid "Cannot perform task while server is active."
+msgstr "Sunucu etkinken görev gerçekleştirilemez."
+
+msgid "Cannot send or receive after socket is closed."
+msgstr "Soket kapatıldıktan sonra gönderilemez veya alınamaz."
+
+msgid "Cannot set Loop property when the Thread is already running."
+msgstr "Konu zaten çalışıyorken Döngü özelliği ayarlanamaz."
+
+msgid "Cannot set ThreadName when the Thread is already running."
+msgstr "İş Parçacığı zaten çalışıyorken İş Parçacığı Adı ayarlanamaz."
+
+msgid "Cannot use a non-socket IOHandler"
+msgstr "Soket olmayan bir IOH işleyici kullanılamaz"
+
+msgid "Cannt connect to the Master server"
+msgstr "Ana sunucuya bağlanılamıyor"
+
+msgid "Capability list follows"
+msgstr "Kapasite listesi aşağıdadır"
+
+msgid "Capacity cannot be smaller than Size."
+msgstr "Kapasite Boyuttan küçük olamaz."
+
+msgid "Character Index %d out of Range, Length = %d"
+msgstr "Karakter Dizini %d Aralık Dışı, Uzunluk = %d"
+
+msgid "Character at Index %d is not a valid UTF-16 High Surrogate"
+msgstr "Dizin %d 'deki karakter geçerli bir UTF -16 Yüksek Vekil değil"
+
+msgid "Character at Index %d is not a valid UTF-16 Low Surrogate"
+msgstr "%d Endeksindeki karakter geçerli bir UTF -16 Düşük Vekil değil"
+
+msgid "Character index out of bounds (%d)"
+msgstr "Karakter dizini sınırların dışında (%d)"
+
+msgid "Chunk Started"
+msgstr "Parça Başlatıldı"
+
+msgid "Clear command channel is not permitted."
+msgstr "Komut kanalının temizlenmesine izin verilmez."
+
+msgid ""
+"Client policy does not allow credential delegation to target server with "
+"NLTM only authentication."
+msgstr ""
+"İstemci ilkesi, kimlik bilgisi yetkilendirmesinin yalnızca NLTM kimlik "
+"doğrulaması ile sunucuyu hedeflemesine izin vermez."
+
+msgid "Client policy does not allow credential delegation to target server."
+msgstr ""
+"İstemci politikası, hedef sunucuya kimlik bilgisi atamasına izin vermiyor."
+
+msgid "Client's supplied SSPI channel bindings were incorrect."
+msgstr "Müşterinin sağladığı SSPI kanal bağlamaları yanlıştı."
+
+msgid "Closing Connection Channel."
+msgstr "Bağlantı Kanalı Kapatılıyor."
+
+msgid "Closing data connection."
+msgstr "Veri bağlantısı kapatılıyor."
+
+msgid "Command Not Handled: %s"
+msgstr "Komut İşlenmedi: %s"
+
+msgid "Command Not Recognised"
+msgstr "Komut Tanınmadı"
+
+msgid "Command channel switched to clear-text."
+msgstr "Komut kanalı açık metne geçti."
+
+msgid "Command not implemented for that parameter."
+msgstr "Bu parametre için komut uygulanmadı."
+
+msgid "Command not permitted in this state"
+msgstr "Bu durumda komuta izin verilmiyor"
+
+msgid "Command not permitted when TLS active"
+msgstr "TLS etkinken komuta izin verilmez"
+
+msgid "Command not recognized"
+msgstr "Komut tanınmadı"
+
+msgid "Command not supported."
+msgstr "Komut desteklenmiyor."
+
+msgid "Command parameter error! Example: rcpt to:<a@b.c>"
+msgstr "Komut parametresi hatası! Örnek: rcpt to:<a@b.c>"
+
+msgid "Command refused due to lack of security"
+msgstr "Güvenlik eksikliği nedeniyle komuta reddedildi"
+
+msgid "Communication Administratively Prohibited"
+msgstr "İdari Olarak Yasaklanan İletişim"
+
+msgid "Communication with Destination Host is Administratively Prohibited"
+msgstr "Hedef Ana Bilgisayar ile İletişim İdari Olarak Yasaklandı"
+
+msgid "Communication with Destination Network is Administratively Prohibited"
+msgstr "Hedef Ağ ile İletişim İdari Olarak Yasaklandı"
+
+msgid "CompleteAuthToken is not supported"
+msgstr "CompleteAuthToken desteklenmiyor"
+
+msgid ""
+"Component is in Asynchronous mode but OnMessageArrive has not been hooked"
+msgstr "Bileşen Asenkron modda ancak OnMessageArrive bağlanmadı"
+
+msgid ""
+"Component is in Synchronous mode but  OnMessageReceive has not been hooked"
+msgstr "Bileşen Eşzamanlı modda ancak OnMessageReceive bağlanmadı"
+
+msgid "Compression error"
+msgstr "Sıkıştırma hatası"
+
+msgid "Compressor is not ready."
+msgstr "Sıkıştırıcı hazır değil."
+
+msgid "Conflict"
+msgstr "Çatışma"
+
+msgid "Connect Error"
+msgstr "Bağlantı Hatası"
+
+msgid "Connect Exit"
+msgstr "Connect Exit"
+
+msgid "Connect Failed"
+msgstr "Bağlantı Başarısız"
+
+msgid "Connect Loop"
+msgstr "Döngüyü Bağla"
+
+msgid "Connect timed out."
+msgstr "Bağlantı zaman aşımına uğradı."
+
+msgid "Connected"
+msgstr "Bağlı"
+
+msgid "Connected."
+msgstr "Bağlandı."
+
+msgid "Connecting"
+msgstr "Bağlanıyor"
+
+msgid "Connecting to %s."
+msgstr "%s bağlantısı kuruluyor."
+
+msgid "Connection Closed Gracefully."
+msgstr "Bağlantı Zarafetle Kapandı."
+
+msgid "Connection established"
+msgstr "Bağlantı kuruldu"
+
+msgid "Connection explicitly refused by NNTP server."
+msgstr "Bağlantı NNTP sunucusu tarafından açıkça reddedildi."
+
+msgid "Connection not allowed by ruleset."
+msgstr "Kural kümesi bağlantıya izin vermiyor."
+
+msgid "Connection refused."
+msgstr "Bağlantı reddedildi."
+
+msgid "Connection reset by peer."
+msgstr "Bağlantı karşı taraf tarafından sıfırlandı."
+
+msgid "Connection timed out."
+msgstr "Bağlantı zaman aşımına uğradı."
+
+msgid "Continue"
+msgstr "Devam et"
+
+msgid "Continue with TLS negotiation"
+msgstr "TLS müzakeresine devam edin"
+
+msgid "Control file save to %s"
+msgstr "Kontrol dosyası %s konumuna kaydedildi"
+
+msgid "Could not bind socket. Address and port are already in use."
+msgstr "Soket bağlanamadı. Adres ve bağlantı noktası zaten kullanılıyor."
+
+msgid "Could not decode header data using charset \"%s\""
+msgstr "\"%s\" karakter kümesi kullanılarak başlık verilerinin kodu çözülemedi"
+
+msgid "Could not encode header data using charset \"%s\""
+msgstr "\"%s\" karakter kümesi kullanılarak başlık verileri kodlanamadı"
+
+msgid "Could not load DH Parameters."
+msgstr "DH Parametreleri yüklenemedi."
+
+msgid "Could not load SSL library."
+msgstr "SSL kitaplığı yüklenemedi."
+
+msgid "Could not load certificate."
+msgstr "Sertifika yüklenemedi."
+
+msgid "Could not load key, check password."
+msgstr "Anahtar yüklenemedi, şifreyi kontrol edin."
+
+msgid "Could not load root certificate."
+msgstr "Kök sertifika yüklenemedi."
+
+msgid "Created"
+msgstr "Oluşturuldu"
+
+msgid "Critical: critical conditions"
+msgstr "Kritik: kritik koşullar"
+
+msgid "Current UMASK is %.3d"
+msgstr "Mevcut UMASK %.3D"
+
+msgid "Custom message interpretation failed"
+msgstr "Özel mesaj yorumlama başarısız"
+
+msgid "DNS Server Reports Query Format Error"
+msgstr "DNS Sunucu Raporları Sorgu Formatı Hatası"
+
+msgid "DNS Server Reports Query Name Error"
+msgstr "DNS Sunucu Raporları Sorgu Adı Hatası"
+
+msgid "DNS Server Reports Query Not Implemented Error"
+msgstr "DNS Sunucu Raporları Sorgusu Uygulanmadı Hatası"
+
+msgid "DNS Server Reports Query Refused Error"
+msgstr "DNS Sunucu Raporları Sorgusu Reddedildi Hatası"
+
+msgid "DNS Server Reports Query Server Error"
+msgstr "DNS Sunucu Raporları Sorgu Sunucusu Hatası"
+
+msgid "Data connection already open; transfer starting."
+msgstr "Veri bağlantısı zaten açık; aktarım başlıyor."
+
+msgid ""
+"Data connection assurance check failed.\n"
+"Server reported IP: %s  Port: %d\n"
+"Our socket IP: %s  Port: %d"
+msgstr ""
+"Veri bağlantısı güvence kontrolü başarısız oldu.\n"
+"Sunucu tarafından bildirilen IP: %s  Bağlantı noktası: %d\n"
+"Soket IP'miz: %s  Bağlantı Noktası: %d"
+
+msgid "Data connection closed abnormally."
+msgstr "Veri bağlantısı anormal şekilde kapandı."
+
+msgid "Data connection open; no transfer in progress."
+msgstr "Veri bağlantısı açık; aktarım devam etmiyor."
+
+msgid "Data file saved to %s"
+msgstr "Veri dosyası %s konumuna kaydedildi"
+
+msgid "Data is too large for stream"
+msgstr "Veriler akış için çok büyük"
+
+msgid ""
+"Data port can only be used by the same IP address used by the control "
+"connection."
+msgstr ""
+"Veri portu yalnızca kontrol bağlantısı tarafından kullanılan aynı IP adresi "
+"tarafından kullanılabilir."
+
+msgid "Debug: debug-level messages"
+msgstr "Hata ayıklama: hata ayıklama düzeyinde mesajlar"
+
+msgid "Decompression Failed"
+msgstr "Sıkıştırmayı Açma Başarısız"
+
+msgid "Decompression error"
+msgstr "Açma hatası"
+
+msgid "Decryption Failed"
+msgstr "Şifre Çözme Başarısız"
+
+msgid "Destination Host Unknown"
+msgstr "Hedef Ev Sahibi Bilinmiyor"
+
+msgid "Destination Host Unreachable for Type of Service"
+msgstr "Hizmet Türü için Hedef Ana Bilgisayara Ulaşılamıyor"
+
+msgid "Destination Network Unknown"
+msgstr "Hedef Ağ Bilinmiyor"
+
+msgid "Destination Network Unreachable for Type of Service"
+msgstr "Hizmet Türü için Hedef Ağa Erişilemiyor"
+
+msgid "Destination address required."
+msgstr "Hedef adres gerekli."
+
+msgid "Destination file already exists."
+msgstr "Hedef dosya zaten var."
+
+msgid "Directory %s does not exist"
+msgstr "%s dizini mevcut değil"
+
+msgid "Directory not empty"
+msgstr "Dizin boş değil"
+
+msgid "Disconnect"
+msgstr "Bağlantıyı kes"
+
+msgid "Disconnected."
+msgstr "Bağlantı kesildi."
+
+msgid "Disconnecting."
+msgstr "Bağlantı kesiliyor."
+
+msgid "Do AcquireCredentialsHandle first"
+msgstr "Önce AcquireCredentialsHandle'ı Kullanın"
+
+msgid "Do not allow connctions now"
+msgstr "Şimdi bağlantılara izin verme"
+
+msgid "Doesn't support AUTH or the specified SASL handlers!!"
+msgstr "AUTH veya belirtilen SASL işleyicilerini desteklemiyor!!"
+
+msgid "Don't Convert option present"
+msgstr "Mevcut seçeneği dönüştürme"
+
+msgid "EOF was observed that violates the protocol"
+msgstr "EOF'NİN protokolü ihlal ettiği gözlendi"
+
+msgid "Echo"
+msgstr "Yankı"
+
+msgid "Emergency: system is unusable"
+msgstr "Acil durum: sistem kullanılamıyor"
+
+msgid "Encoding attachment"
+msgstr "Kodlama eklentisi"
+
+msgid "Encoding text"
+msgstr "Kodlama metni"
+
+msgid "End of Status"
+msgstr "Durum Sonu"
+
+msgid "End of extentions."
+msgstr "Kapsamların sonu."
+
+msgid "End of stream: Class %s at %d"
+msgstr "Akış sonu: %s sınıfı %d"
+
+msgid "Entering Extended Passive Mode (%s)"
+msgstr "Genişletilmiş Pasif Moda Giriş (%s)"
+
+msgid "Entering Passive Mode (%s)."
+msgstr "Pasif Moda Giriliyor (%s)."
+
+msgid "Error "
+msgstr "Hata "
+
+msgid "Error accepting connection with SSL."
+msgstr "SSL ile bağlantı kabul edilirken hata oluştu."
+
+msgid "Error binding data to SSL socket."
+msgstr "Veriler SSL soketine bağlanırken hata oluştu."
+
+msgid "Error connecting with SSL."
+msgstr "SSL ile bağlanırken hata oluştu."
+
+msgid "Error creating SSL context."
+msgstr "SSL bağlamı oluşturulurken hata oluştu."
+
+msgid "Error creating SSL session."
+msgstr "SSL oturumu oluşturulurken hata oluştu."
+
+msgid "Error getting SSL method."
+msgstr "SSL yöntemi alınırken hata oluştu."
+
+msgid "Error in parameters to %s"
+msgstr "%s parametrelerinde hata"
+
+msgid "Error in parsing command."
+msgstr "Ayrıştırma komutunda hata."
+
+msgid "Error in transformation before send"
+msgstr "Göndermeden önce dönüşümde hata"
+
+msgid "Error on call to Winsock2 library function %s"
+msgstr "Winsock2 kitaplık işlevi %s çağrısında hata"
+
+msgid "Error on call to ZLib library function %s"
+msgstr "%s ZLib kitaplık işlevine çağrıda hata"
+
+msgid "Error on loading Winsock2 library (%s)"
+msgstr "Winsock2 kitaplığı yüklenirken hata oluştu (%s)"
+
+msgid "Error resolving Address %s: %s (%d)"
+msgstr "Adres %s çözümlenirken hata oluştu: %s (%d)"
+
+msgid "Error resolving host %s: %s (%d)"
+msgstr "Ana bilgisayar %s çözümlenirken hata oluştu: %s (%d)"
+
+msgid "Error saving attachment."
+msgstr "Ek kaydedilirken hata oluştu."
+
+msgid "Error setting File Descriptor for SSL"
+msgstr "SSL için Dosya Tanımlayıcısı ayarlanırken hata oluştu"
+
+msgid "Error: No program code to return request!"
+msgstr "Hata: İsteği iade edecek program kodu yok!"
+
+msgid "Error: error conditions"
+msgstr "Hata: hata koşulları"
+
+msgid "Error: no queues defined"
+msgstr "Hata: Kuyruk tanımlanmadı"
+
+msgid "Expectation Failed"
+msgstr "Beklenti Başarısız Oldu"
+
+msgid ""
+"Expected to find PA data for a hint of what etype to use, but it was not "
+"found."
+msgstr ""
+"Hangi etipin kullanılacağına dair bir ipucu için PA verilerini bulması "
+"bekleniyordu, ancak bulunamadı."
+
+msgid "Extension already exits"
+msgstr "Uzantı zaten mevcut"
+
+msgid "Extension is empty"
+msgstr "Uzantı boş"
+
+msgid "Extensions supported:"
+msgstr "Desteklenen uzantılar:"
+
+msgid "Extra Headers Text Editor"
+msgstr "Ekstra Üstbilgiler Metin Düzenleyici"
+
+msgid "FTP daemon"
+msgstr "FTP servisi"
+
+msgid "Failed attempting to retrieve time zone information."
+msgstr "Saat dilimi bilgileri alma başarısız."
+
+msgid "Failed to Start: %s"
+msgstr "Başlatılamadı: %s"
+
+msgid "Failed to Stop: %s"
+msgstr "Durdurulamadı: %s"
+
+msgid "Failed to load %s."
+msgstr "%s yüklenemedi."
+
+msgid "Fibers are not supported on this system."
+msgstr "Fiberler bu sistemde desteklenmez."
+
+msgid "File \"%s\" not found"
+msgstr "\"%s\" dosyası bulunamadı"
+
+msgid "File Not Found"
+msgstr "Dosya Bulunamadı"
+
+msgid "File Operation Successful"
+msgstr "Dosya İşlemi Başarılı"
+
+msgid "File corrupted."
+msgstr "Dosya bozuk."
+
+msgid "File name too long."
+msgstr "Dosya adı çok uzun."
+
+msgid "File status okay; about to open data connection."
+msgstr "Dosya durumu tamam; veri bağlantısı açılmak üzere."
+
+msgid "Forbidden"
+msgstr "Yasak"
+
+msgid "Fragmentation Needed and Don't Fragment was Set"
+msgstr "Parçalama Gerekli ve Parçalama Yapma Ayarlandı"
+
+msgid "Gateway timeout"
+msgstr "Ağ geçidi zaman aşımı"
+
+msgid "General SOCKS server failure."
+msgstr "Genel SOCKS sunucu hatası."
+
+msgid "Gone"
+msgstr "Gitti"
+
+msgid "Goodbye"
+msgstr "Hoşçakalın"
+
+msgid "Goodbye."
+msgstr "Hoşça kalın."
+
+msgid "HTTP version not supported"
+msgstr "Http sürümü desteklenmiyor"
+
+msgid "Handshake Done"
+msgstr "Handshake Bitti"
+
+msgid "Handshake Start"
+msgstr "Handshake Başlat"
+
+msgid "Header has already been written."
+msgstr "Başlık zaten yazıldı."
+
+msgid "Headers follow"
+msgstr "Başlıklar takip ediyor"
+
+msgid "Hello %s"
+msgstr "Merhaba %s"
+
+msgid "Help follows"
+msgstr "Yardım takip ediyor"
+
+msgid "Hidden User:  Information was not returned at a user's request"
+msgstr "Gizli Kullanıcı: Bir kullanıcının isteği üzerine bilgi iade edilmedi"
+
+msgid "Host Precedence Violation"
+msgstr "Ev Sahibi Önceliği İhlali"
+
+msgid "Host field is empty"
+msgstr "Ana bilgisayar alanı boş"
+
+msgid "Host is down."
+msgstr "Host çalışmıyor."
+
+msgid "Host is empty"
+msgstr "Ana bilgisayar boş"
+
+msgid "Host not found."
+msgstr "Ana bilgisayar bulunamadı."
+
+msgid "Host unreachable."
+msgstr "Ev sahibine ulaşılamıyor."
+
+msgid "IOHandler is of wrong type."
+msgstr "IOHandler yanlış türde."
+
+msgid "IOHandler value is not valid"
+msgstr "IOHandler değeri geçerli değil"
+
+msgid "IP Broadcast Receive Error = 0."
+msgstr "IP Yayını Alma Hatası = 0."
+
+msgid "IP header length exceeded"
+msgstr "IP başlık uzunluğu aşıldı"
+
+msgid "IPv6 I-Am-Here"
+msgstr "IPv6 I - Am - Here"
+
+msgid "IPv6 Where-Are-You"
+msgstr "IPv6 Bulunduğunuz Yer"
+
+msgid "IPv6 unavailable"
+msgstr "IPv6 kullanılamıyor"
+
+msgid "IRC Connect Failed"
+msgstr "IRC Bağlantısı Başarısız"
+
+msgid "IdHL7 is broken in Indy 10 for the present"
+msgstr "IdHL7 Indy 10 'da şu an için bozuk"
+
+msgid "Illegal bit shifting in MUTF7 string"
+msgstr "MUTF7 dizesinde geçersiz bit kaydırma"
+
+msgid "Illegal char #%d in UTF7 sequence."
+msgstr "UTF7 dizisinde geçersiz karakter #%d."
+
+msgid "Illegal character in input string."
+msgstr "Giriş dizesinde geçersiz karakter."
+
+msgid "Implicit FTP requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+"Örtük FTP, IOHandler'ın bir TIdServerIOHandlerSSL olarak ayarlanmasını "
+"gerektirir."
+
+msgid ""
+"Implicit IMAP4 requires that IOHandler be set to a TIdServerIOHandlerSSLBase."
+msgstr ""
+"Örtük IMAP4, IOHandler'ın bir TIdServerIOHandlerSSLBase olarak ayarlanmasını "
+"gerektirir."
+
+msgid ""
+"Implicit NNTP requires that IOHandler be set to a TIdSSLIOHandlerSocketBase."
+msgstr ""
+"Örtük NNTP, IOHandler'ın bir TIdSSLIOHandlerSocketBase olarak ayarlanmasını "
+"gerektirir."
+
+msgid ""
+"Implicit POP3 requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+"Örtük POP3, IOHandler'ın bir TIdServerIOHandlerSSL olarak ayarlanmasını "
+"gerektirir."
+
+msgid ""
+"Implicit SMTP TLS requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+"Örtük SMTP TLS, IOHandler'ın bir TIdServerIOHandlerSSL olarak ayarlanmasını "
+"gerektirir."
+
+msgid "Incorrect length in received block (%d)"
+msgstr "Alınan blokta yanlış uzunluk (%d)"
+
+msgid "Index out of bounds."
+msgstr "Sınır dışı dizin."
+
+msgid "Indy FTP Server ready."
+msgstr "Indy FTP Sunucusu hazır."
+
+msgid "Indy SASL"
+msgstr "INDY SASL"
+
+msgid "Indy SMTP Server"
+msgstr "Indy SMTP Sunucusu"
+
+msgid "Indy Telnet Server"
+msgstr "Indy Telnet Sunucusu"
+
+msgid "Information Request"
+msgstr "Bilgi Talebi"
+
+msgid "Informational: informational messages"
+msgstr "Bilgilendirici: bilgilendirici mesajlar"
+
+msgid "Interface is unusable due to failure to stop"
+msgstr "Arabirim durdurulamadığı için kullanılamıyor"
+
+msgid "Interface was already started"
+msgstr "Arabirim zaten başlatıldı"
+
+msgid "Interface was already stopped"
+msgstr "Arabirim zaten durdurulmuş"
+
+msgid "Internal Server Error"
+msgstr "Dahili Sunucu Hatası"
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned an unknown value "
+msgstr ""
+"IdHL7.pas içinde dahili hata: SynchronousSend bilinmeyen bir değer döndürdü "
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned srNone"
+msgstr "IdHL7.pas'da dahili hata: SynchronousSend, srNone döndürdü"
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned srSent"
+msgstr "IdHL7.pas'da dahili hata: SynchronousSend, srSent döndürdü"
+
+msgid "Interpretation of message failed"
+msgstr "Mesajın yorumlanması başarısız oldu"
+
+msgid "Interrupted system call."
+msgstr "Sistem çağrısı kesintiye uğradı."
+
+msgid "Invalid %s options"
+msgstr "Geçersiz %s seçenekleri"
+
+msgid "Invalid CRC"
+msgstr "Geçersiz CRC"
+
+msgid "Invalid Email Address %s"
+msgstr "Geçersiz E - posta Adresi %s"
+
+msgid "Invalid Encoding. UU only allows Body and Attachments."
+msgstr "Geçersiz Kodlama. UU yalnızca Gövde ve Eklere izin verir."
+
+msgid "Invalid Enhanced Code: "
+msgstr "Geçersiz Geliştirilmiş Kod: "
+
+msgid "Invalid Header Id %d"
+msgstr "Geçersiz Üst Bilgi Kimliği %d"
+
+msgid "Invalid IP Address"
+msgstr "Geçersiz IP Adresi"
+
+msgid "Invalid IP V6 Address. %s"
+msgstr "Geçersiz IP V6 Adresi. %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetDateVariable"
+msgstr "TIdHTTPAppResponse.GetDateVariable'da geçersiz Dizin %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetIntegerVariable"
+msgstr "TIdHTTPAppResponse.GetIntegerVariable içinde geçersiz Dizin %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetStringVariable"
+msgstr "TIdHTTPAppResponse.GetStringVariable'da geçersiz Dizin %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetDateVariable"
+msgstr "TIdHTTPAppResponse.SetDateVariable'da geçersiz Dizin %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetIntegerVariable"
+msgstr "TIdHTTPAppResponse.SetIntegerVariable içinde geçersiz Dizin %s"
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetStringVariable"
+msgstr "TIdHTTPAppResponse.SetStringVariable'da geçersiz Dizin %s"
+
+msgid "Invalid Login"
+msgstr "Geçersiz Giriş"
+
+msgid "Invalid Login."
+msgstr "Geçersiz Giriş."
+
+msgid "Invalid Message Number"
+msgstr "Geçersiz Mesaj Numarası"
+
+msgid "Invalid Packet Size %d"
+msgstr "Geçersiz Paket Boyutu %d"
+
+msgid "Invalid Port Range (%d - %d)"
+msgstr "Geçersiz Bağlantı Noktası Aralığı (%d - %d)"
+
+msgid ""
+"Invalid Port:  The foreign or local port is not specified correctly or "
+"invalid"
+msgstr ""
+"Geçersiz Bağlantı Noktası: Yabancı veya yerel bağlantı noktası doğru veya "
+"geçersiz olarak belirtilmemiş"
+
+msgid "Invalid Query Count %d"
+msgstr "Geçersiz Sorgu Sayısı %d"
+
+msgid "Invalid Reply Class."
+msgstr "Geçersiz Yanıt Sınıfı."
+
+msgid "Invalid Reply String."
+msgstr "Geçersiz Yanıt Dizesi."
+
+msgid "Invalid Size"
+msgstr "Geçersiz Boyut"
+
+msgid "Invalid Syntax"
+msgstr "Geçersiz Sözdizimi"
+
+msgid "Invalid Syslog message: packet too large (%d bytes)"
+msgstr "Geçersiz Syslog mesajı: paket çok büyük (%d bayt)"
+
+msgid "Invalid Text count. Must have more than 1 TIdText object."
+msgstr "Geçersiz Metin sayısı. 1 'den fazla TIdText nesnesi içermelidir."
+
+msgid "Invalid argument."
+msgstr "Geçersiz bağımsız değişken."
+
+msgid "Invalid character set (%s)"
+msgstr "Geçersiz karakter kümesi (%s)"
+
+msgid "Invalid character set conversion (%s <-> %s)"
+msgstr "Geçersiz karakter kümesi dönüşümü (%s <-> %s)"
+
+msgid "Invalid character set conversion (%s <-> %s, %s)"
+msgstr "Geçersiz karakter kümesi dönüşümü (%s <-> %s, %s)"
+
+msgid "Invalid codepage (%d)"
+msgstr "Geçersiz kod sayfası (%d)"
+
+msgid "Invalid count (%d)"
+msgstr "Geçersiz sayım (%d)"
+
+msgid "Invalid destination array"
+msgstr "Geçersiz hedef dizi"
+
+msgid "Invalid destination index (%d)"
+msgstr "Geçersiz varış noktası endeksi (%d)"
+
+msgid ""
+"Invalid host name. A SYSLOG host name cannot contain any space (\"%s\")+"
+msgstr ""
+"Geçersiz ana bilgisayar adı. Bir SİSTEM günlüğü ana bilgisayar adı herhangi "
+"bir alan (\" %s \") içeremez +"
+
+msgid "Invalid network mask."
+msgstr "Geçersiz ağ maskesi."
+
+msgid "Invalid number of arguments %s"
+msgstr "Geçersiz bağımsız değişken sayısı %s"
+
+msgid "Invalid port number"
+msgstr "Geçersiz bağlantı noktası numarası"
+
+msgid "Invalid socks authentication method."
+msgstr "Geçersiz Socks kimlik doğrulama yöntemi."
+
+msgid "Invalid source array"
+msgstr "Geçersiz kaynak dizi"
+
+msgid "Invalid stream operation"
+msgstr "Geçersiz akış işlemi"
+
+msgid "Invalid syslog message: incorrect PRI number \"%s\""
+msgstr "Geçersiz sistem günlüğü mesajı: yanlış PRI numarası \"%s\""
+
+msgid "Invalid syslog message: incorrect PRI section"
+msgstr "Geçersiz sistem günlüğü mesajı: yanlış PRI bölümü"
+
+msgid "Invalid syslog message: incorrect timestamp \"%s\""
+msgstr "Geçersiz sistem günlüğü mesajı: yanlış zaman damgası \"%s\""
+
+msgid "Invalid value length: Should be 32."
+msgstr "Geçersiz değer uzunluğu: 32 olmalıdır."
+
+msgid "Known unsupported option present"
+msgstr "Bilinen desteklenmeyen seçenek mevcut"
+
+msgid "Length Required"
+msgstr "Gerekli Uzunluk"
+
+msgid "Loading function %s failed"
+msgstr "%s yükleme işlevi başarısız oldu"
+
+msgid "Local Processing Error"
+msgstr "Yerel İşlem Hatası"
+
+msgid "Login OK"
+msgstr "Oturum açma onayı"
+
+msgid "Login failed"
+msgstr "Oturum açılamadı"
+
+msgid "Login with USER first."
+msgstr "Önce KULLANICIYLA oturum açın."
+
+msgid "MD is an Obsolete Command. Use MX."
+msgstr "MD Eski Bir Komuttur. MX kullanın."
+
+msgid "MF is an Obsolete Command. USE MX."
+msgstr "MF Eski Bir Komuttur. MX KULLANIN."
+
+msgid "MSDOS-like directory output is %s"
+msgstr "MSDOS benzeri dizin çıktısı %s"
+
+msgid "MailA is an Obsolete Command. USE MX."
+msgstr "MailA Eski Bir Komuttur. MX KULLANIN."
+
+msgid "Malicious PTR Record"
+msgstr "Kötü Amaçlı FTR Kaydı"
+
+msgid "Max line length exceeded."
+msgstr "Maks. satır uzunluğu aşıldı."
+
+msgid "Max line read attempts exceeded."
+msgstr "Maksimum satır okuma denemesi aşıldı."
+
+msgid "Maximum connections limit exceeded. Try again later."
+msgstr "Maksimum bağlantı sınırı aşıldı. Daha sonra tekrar deneyin."
+
+msgid "Maximum number of line allowed exceeded"
+msgstr "İzin verilen maksimum satır sayısı aşıldı"
+
+msgid "Message decoder not found"
+msgstr "Mesaj kod çözücü bulunamadı"
+
+msgid "Message encoder not found"
+msgstr "Mesaj kodlayıcı bulunamadı"
+
+msgid "Message handling failed"
+msgstr "Mesaj işleme başarısız oldu"
+
+msgid "Message length exceeds administrative limit"
+msgstr "Mesaj uzunluğu yönetim sınırını aşıyor"
+
+msgid ""
+"Message parts cannot be used in a message which has a "
+"ContentTransferEncoding value."
+msgstr ""
+"ContentTransferEncoding değeri olan bir mesajda mesaj bölümleri kullanılamaz."
+
+msgid "Message too long."
+msgstr "Mesaj çok uzun."
+
+msgid "Message type recognition error"
+msgstr "Mesaj türü tanıma hatası"
+
+msgid "Method not allowed"
+msgstr "Yönteme izin verilmiyor"
+
+msgid "Mimetype is empty"
+msgstr "Mimetype boş"
+
+msgid "Missing a Low Surrogate in UTF-16 sequence"
+msgstr "UTF -16 dizisinde bir Düşük Vekil eksik"
+
+msgid "Mobile Host Redirect"
+msgstr "Mobil Ana Bilgisayar Yönlendirmesi"
+
+msgid "Mobile Registration Request"
+msgstr "Mobil Kayıt Talebi"
+
+msgid "Mode has not been set."
+msgstr "Mod ayarlanmadı."
+
+msgid "Mode is not initialised"
+msgstr "Mod başlatılmadı"
+
+msgid "Mode set to %s."
+msgstr "Mod %s olarak ayarlandı."
+
+msgid "More authentication information required"
+msgstr "Daha fazla kimlik doğrulama bilgisi gerekli"
+
+msgid "Moved Permanently"
+msgstr "Kalıcı Olarak Taşındı"
+
+msgid "Moved Temporarily"
+msgstr "Geçici Olarak Taşındı"
+
+msgid "Must issue a STARTTLS command first"
+msgstr "Önce bir STARTTLS komutu verilmelidir"
+
+msgid "Must use STLS"
+msgstr "STLS kullanılmalıdır"
+
+msgid "NOOP"
+msgstr "NOOP"
+
+msgid "NTP subsystem"
+msgstr "NTP alt sistemi"
+
+msgid "Need Authentication"
+msgstr "Kimlik Doğrulaması Gerekiyor"
+
+msgid "Need Authorization"
+msgstr "Yetki Gerekiyor"
+
+msgid "Need SASL mechanisms to login with it!!"
+msgstr "Onunla giriş yapmak için SASL mekanizmalarına ihtiyaç var!!"
+
+msgid "Need account for login."
+msgstr "Oturum açmak için hesap gerekiyor."
+
+msgid "Net dropped connection or reset."
+msgstr "Ağ bağlantısı kesildi veya sıfırlandı."
+
+msgid "Network Authentication Required"
+msgstr "Ağ Kimlik Doğrulaması Gerekli"
+
+msgid "Network is down."
+msgstr "Şebeke çöktü."
+
+msgid "Network is unreachable."
+msgstr "Ağa ulaşılamıyor."
+
+msgid "Network protocol not supported, use (%s)"
+msgstr "Ağ protokolü desteklenmiyor, (%s) kullanın"
+
+msgid "Network unreachable."
+msgstr "Ağa ulaşılamıyor."
+
+msgid "News to me!  <CRLF.CRLF> to end."
+msgstr "Bana haber!  <CRLF.CRLF> Bitirmek için."
+
+msgid "No Compressor is assigned."
+msgstr "Hiçbir Sıkıştırıcı atanmadı."
+
+msgid "No Content"
+msgstr "İçerik Yok"
+
+msgid "No FTP list parsers have been registered."
+msgstr "Hiçbir FTP listesi ayrıştırıcısı kaydedilmedi."
+
+msgid "No IOHandler of type %s is installed."
+msgstr "%s türünde bir IOHandler kurulu değil."
+
+msgid "No MX records for the domain %s"
+msgstr "%s alan adı için MX kaydı yok"
+
+msgid "No OnListDirectory event found!"
+msgstr "Hiçbir OnListDirectory olayı bulunamadı!"
+
+msgid "No OnNewGroupsList event has been defined."
+msgstr "Hiçbir OnNewGroupsList etkinliği tanımlanmadı."
+
+msgid "No OnNewNewsList event has been defined."
+msgstr "Hiçbir OnNewNewsList etkinliği tanımlanmadı."
+
+msgid "No OnNewsgroupList event has been defined."
+msgstr "Hiçbir OnNewsgroupList olayı tanımlanmadı."
+
+msgid "No OnRcptTo event"
+msgstr "OnRcptTo olayı yok"
+
+msgid "No OnXHDREntry event has been defined."
+msgstr "OnXHDREntry etkinliği tanımlanmadı."
+
+msgid "No OnXOVER event has been defined."
+msgstr "OnXOVER olayı tanımlanmadı."
+
+msgid "No PSecPkgInfo specified"
+msgstr "PSecPkgInfo belirtilmedi"
+
+msgid ""
+"No Site to Site transfers are permitted with a FTP NAT fastracked connection."
+msgstr ""
+"FTP Nat fastrack bağlantısı ile Siteden Siteye aktarımlara izin verilmez."
+
+msgid "No User:  Port pair is not used or not used by an identifiable user"
+msgstr ""
+"Kullanıcı Yok:  Bağlantı noktası çifti kullanılmıyor veya tanımlanabilir bir "
+"kullanıcı tarafından kullanılmıyor"
+
+msgid "No authentication handler has been specified."
+msgstr "Hiçbir kimlik doğrulama işleyicisi belirtilmedi."
+
+msgid "No authority could be contacted for authentication."
+msgstr "Kimlik doğrulama için hiçbir yetkiliyle iletişime geçilemedi."
+
+msgid "No bindings specified."
+msgstr "Hiçbir bağlama belirtilmedi."
+
+msgid "No buffer space available."
+msgstr "Arabellek alanı yok."
+
+msgid "No bytes in buffer."
+msgstr "Arabellekte bayt yok."
+
+msgid "No command handler found."
+msgstr "Komut işleyici bulunamadı."
+
+msgid "No credential handle acquired"
+msgstr "Kimlik bilgisi tanıtıcısı alınmadı"
+
+msgid "No credentials are available in the security package"
+msgstr "Güvenlik paketinde kimlik bilgisi yok"
+
+msgid "No data to read."
+msgstr "Okunacak veri yok."
+
+msgid "No encoding specified."
+msgstr "Kodlama belirtilmedi."
+
+msgid "No execute handler found."
+msgstr "Yürütme işleyicisi bulunamadı."
+
+msgid "No response from remote system"
+msgstr "Uzak sistemden yanıt yok"
+
+msgid "No route for Outbound Packet; packet discarded"
+msgstr "Giden Paket için rota yok; paket atıldı"
+
+msgid "No route to host."
+msgstr "Barındırma yolu yok."
+
+msgid "Non Authenticated"
+msgstr "Doğrulanmamış"
+
+msgid "Non-authoritative Information"
+msgstr "Yetkili Olmayan Bilgiler"
+
+msgid "Non-blocking not supported."
+msgstr "Engellemesiz desteklenmez."
+
+msgid "Non-echo type response received"
+msgstr "Eko türü olmayan yanıt alındı"
+
+msgid "Not Acceptable"
+msgstr "Kabul Edilemez"
+
+msgid "Not Connected"
+msgstr "Bağlı Değil"
+
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+msgid "Not Implemented"
+msgstr "Uygulanmadı"
+
+msgid "Not Modified"
+msgstr "Değiştirilmedi"
+
+msgid "Not all bytes sent."
+msgstr "Tüm baytlar gönderilmedi."
+
+msgid "Not connected"
+msgstr "Bağlı değil"
+
+msgid "Not currently in newsgroup"
+msgstr "Şu anda haber grubunda değil"
+
+msgid "Not enough bytes received"
+msgstr "Yeterli bayt alınmadı"
+
+msgid "Not enough data in buffer. (%d/%d)"
+msgstr "Arabellekte yeterli veri yok. (%d/%d)"
+
+msgid "Not enough memory is available to complete this request"
+msgstr "Bu isteği tamamlamak için yeterli bellek yok"
+
+msgid "Not in authorization state, already logged in."
+msgstr "Yetkilendirme durumunda değil, zaten oturum açmış."
+
+msgid "Not logged in"
+msgstr "Giriş yapılmadı"
+
+msgid "Not logged in."
+msgstr "Giriş yapılmadı."
+
+msgid "Not permitted after CCC"
+msgstr "CCC'den sonra izin verilmez"
+
+msgid "Not supported"
+msgstr "Desteklenmiyor"
+
+msgid "Noted."
+msgstr "Not edildi."
+
+msgid "Notice: normal but significant condition"
+msgstr "Bildirim: normal ancak önemli durum"
+
+msgid ""
+"Number parameter (relative message number or UID) is invalid; Cannot contain "
+"an empty string."
+msgstr ""
+"Numara parametresi (göreceli mesaj numarası veya UID) geçersiz; boş bir dize "
+"içeremez."
+
+msgid ""
+"Number parameter (relative message number or UID) is invalid; Cannot contain "
+"non-digit characters."
+msgstr ""
+"Numara parametresi (göreceli mesaj numarası veya UID) geçersiz; basamaklı "
+"olmayan karakterler içeremez."
+
+msgid ""
+"Number parameter (relative message number or UID) is invalid; Must be 1 or "
+"greater."
+msgstr ""
+"Numara parametresi (göreceli mesaj numarası veya UID) geçersiz; 1 veya daha "
+"büyük olmalıdır."
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Object type not supported."
+msgstr "Nesne türü desteklenmiyor."
+
+msgid "Ok"
+msgstr "Tamam"
+
+msgid "OnCustomFTPProxy required but not assigned"
+msgstr "OnCustomFTPProxy gerekli ancak atanmamış"
+
+msgid "OnDataAvailable event is nil."
+msgstr "OnDataAvailable olayı sıfırdır."
+
+msgid "One or more of the parameters passed to the function was invalid."
+msgstr "Fonksiyona iletilen parametrelerden biri veya daha fazlası geçersizdi."
+
+msgid "Only one TIdAntiFreeze can exist per application."
+msgstr "Uygulama başına yalnızca bir TIdAntiFreeze bulunabilir."
+
+msgid "Opening ASCII data connection for directory listing"
+msgstr "Dizin listesi için ASCII veri bağlantısını açma"
+
+msgid "Opening ASCII mode data connection for /bin/ls."
+msgstr "/bin/ls için ASCII modu veri bağlantısı açılıyor."
+
+msgid "Opening ASCII mode data connection for file list."
+msgstr "Dosya listesi için ASCII modu veri bağlantısı açılıyor."
+
+msgid "Operation already in progress."
+msgstr "İşlem zaten devam ediyor."
+
+msgid "Operation not supported on socket."
+msgstr "İşlem sokette desteklenmiyor."
+
+msgid "Operation now in progress."
+msgstr "İşlem şu anda devam ediyor."
+
+msgid "Operation would block."
+msgstr "İşlem bloke olur."
+
+msgid "Option not recognized."
+msgstr "Seçenek tanınmadı."
+
+msgid "Outbound Packet successfully forwarded"
+msgstr "Giden Paket başarıyla iletildi"
+
+msgid "Overall length exceeded"
+msgstr "Toplam uzunluk aşıldı"
+
+msgid "Overview information follows"
+msgstr "Genel bakış bilgileri aşağıdadır"
+
+msgid "PASVBoundPortMax must be greater than PASVBoundPortMax."
+msgstr "PASVBoundPortMax, PASVBoundPortMax'ten büyük olmalıdır."
+
+msgid "PASVBoundPortMin must be less than PASVBoundPortMax."
+msgstr "PASVBoundPortMin, PASVBoundPortMax değerinden küçük olmalıdır."
+
+msgid "PBSZ Command OK. Protection buffer size set to 0."
+msgstr "PBSZ Komutu Tamam. Koruma arabelleku boyutu 0 olarak ayarlandı."
+
+msgid "PBSZ Data Buffer Size required."
+msgstr "PBSZ Veri Arabelleği Boyutu gerekli."
+
+msgid "POP3 proxy ready"
+msgstr "POP3 proxy hazır"
+
+msgid "POP3 proxy signing off"
+msgstr "POP3 proxy oturumu kapatma"
+
+msgid "PORT/EPRT Command disabled for reserved port range (1-1024)."
+msgstr ""
+"PORT/EPRT Komutu, ayrılmış port aralığı (1 -1024) için devre dışı "
+"bırakılmıştır."
+
+msgid "PORT/EPRT Command disabled."
+msgstr "PORT/EPRT Komutu devre dışı."
+
+msgid "PROT Command OK. Using Clear data connection"
+msgstr "PROT Komutu Tamam. Veri bağlantısını temizle özelliğini kullanma"
+
+msgid "PROT Command OK. Using Private data connection"
+msgstr "PROT Komutu Tamam. Özel veri bağlantısını kullanma"
+
+msgid "Package Size Too Big."
+msgstr "Paket Boyutu Çok Büyük."
+
+msgid "Packet Too Big (MTU = %d)"
+msgstr "Paket Çok Büyük (MTU = %d)"
+
+msgid "Packet too small"
+msgstr "Paket çok küçük"
+
+msgid "Parameter %s Not Implemented"
+msgstr "Parametre %s Uygulanmadı"
+
+msgid "Parameter Problem (offset %d)"
+msgstr "Parametre Sorunu (ofset %d)"
+
+msgid "Parameter error! Example: mail from:<user@domain.com>"
+msgstr "Parametre hatası! Örnek: mail from:<user@domain.com>"
+
+msgid "Partial Content"
+msgstr "Kısmi İçerik"
+
+msgid "Password required"
+msgstr "Parola gerekli"
+
+msgid "Password: "
+msgstr "Parola: "
+
+msgid "Peer IP mismatch"
+msgstr "Akran IP'si uyuşmazlığı"
+
+msgid "Permission Denied"
+msgstr "İzin Verilmedi"
+
+msgid "Permission denied."
+msgstr "İzin verilmedi."
+
+msgid "Please login first"
+msgstr "Lütfen önce giriş yapın"
+
+msgid "Polite people say HELO"
+msgstr "Nazik insanlar HELİKOPTER DİYOR"
+
+msgid "Port Unreachable"
+msgstr "Bağlantı Noktasına Ulaşılamıyor"
+
+msgid "Port conversion out of range"
+msgstr "Liman dönüşümü aralık dışında"
+
+msgid "Precedence cutoff in effect"
+msgstr "Öncelik sınırı yürürlükte"
+
+msgid "Precondition Failed"
+msgstr "Önkoşul Başarısız Oldu"
+
+msgid "Precondition Required"
+msgstr "Önkoşul Gerekli"
+
+msgid "Property can not be a negative number."
+msgstr "Özellik negatif bir sayı olamaz."
+
+msgid "Protocol family not supported."
+msgstr "Protokol ailesi desteklenmiyor."
+
+msgid "Protocol field is empty"
+msgstr "Protokol alanı boş"
+
+msgid "Protocol not supported, use"
+msgstr "Protokol desteklenmiyor, kullanım"
+
+msgid "Protocol not supported."
+msgstr "Protokol desteklenmiyor."
+
+msgid "Protocol wrong type for socket."
+msgstr "Soket için protokol yanlış tür."
+
+msgid "Proxy Authentication Required"
+msgstr "Proxy Kimlik Doğrulaması Gerekiyor"
+
+msgid "Queue %s status: %s"
+msgstr "Kuyruk %s durumu: %s"
+
+msgid "RCode NO Error"
+msgstr "RCode NO Hatası"
+
+msgid "Read timed out."
+msgstr "Okuma zaman aşımına uğradı."
+
+msgid "Ready to start TLS"
+msgstr "TLS'yi başlatmaya hazır"
+
+msgid "Receive control file"
+msgstr "Kontrol dosyasını al"
+
+msgid "Receive data file"
+msgstr "Veri dosyası al"
+
+msgid "Received Packet is too small. %d"
+msgstr "Alınan Paket çok küçük. %d"
+
+msgid "Received Packet is too small. Less than 12 bytes. %d"
+msgstr "Alınan Paket çok küçük. 12 bayttan az. %d"
+
+msgid "Received Packet is too small. Less than 4 bytes. %d"
+msgstr "Alınan Paket çok küçük. 4 bayttan az. %d"
+
+msgid "Reconnect at %s: %s"
+msgstr "%s konumunda yeniden bağlanın: %s"
+
+msgid "Recv "
+msgstr "Al "
+
+msgid "Redirect datagrams for the Host."
+msgstr "Host için datagramları yeniden yönlendirin."
+
+msgid "Redirect datagrams for the Network."
+msgstr "Ağ için datagramları yeniden yönlendirin."
+
+msgid "Redirect datagrams for the Type of Service and Host."
+msgstr "Hizmet Türü ve Ana Bilgisayar için datagramları yeniden yönlendirin."
+
+msgid "Redirect datagrams for the Type of Service and Network."
+msgstr "Hizmet Türü ve Ağ için datagramları yeniden yönlendirin."
+
+msgid "Reply %d on Job ID %s"
+msgstr "İş Kimliği %s üzerinde %d yanıtlayın"
+
+msgid "Reply Code already exists: %s"
+msgstr "Yanıt Kodu zaten var: %s"
+
+msgid "Reply Code is not valid: %s"
+msgstr "Yanıt Kodu geçerli değil: %s"
+
+msgid ""
+"Reply Timed Out:  The server did not return a response and the query has "
+"been abandoned"
+msgstr ""
+"Yanıt Zaman Aşımına Uğradı: Sunucu bir yanıt döndürmedi ve sorgu terk edildi"
+
+msgid "Request Entity Too Long"
+msgstr "İstek Varlığı Çok Uzun"
+
+msgid "Request Header Fields Too Large"
+msgstr "İstek Üst Bilgi Alanları Çok Büyük"
+
+msgid "Request Timeout"
+msgstr "İstek Zaman Aşımı"
+
+msgid "Request method requires HTTP version 1.1"
+msgstr "İstek yöntemi http sürüm 1.1 gerektirir"
+
+msgid "Request rejected because SOCKS server cannot connect."
+msgstr "SOCKS sunucusu bağlanamadığı için istek reddedildi."
+
+msgid ""
+"Request rejected because the client program and identd report different user-"
+"ids."
+msgstr ""
+"İstemci programı ve identd farklı kullanıcı kimlikleri bildirdiği için istek "
+"reddedildi."
+
+msgid "Request rejected or failed."
+msgstr "İstek reddedildi veya başarısız oldu."
+
+msgid "Request-URI Too Long. 256 Chars max"
+msgstr "İstek URI'si Çok Uzun. Maks. 256 Karakter"
+
+msgid "Requested PROT level not supported by mechanism."
+msgstr "Talep edilen PROT seviyesi mekanizma tarafından desteklenmiyor."
+
+msgid "Requested action aborted: local error in processing"
+msgstr "İstenen eylem iptal edildi: işlemde yerel hata"
+
+msgid "Requested action aborted: local error in processing."
+msgstr "İstenen eylem iptal edildi: işlemde yerel hata."
+
+msgid "Requested action aborted: page type unknown."
+msgstr "İstenen işlem iptal edildi: sayfa türü bilinmiyor."
+
+msgid "Requested action not taken."
+msgstr "Talep edilen işlem yapılmadı."
+
+msgid "Requested action not taken: insufficient system storage "
+msgstr "Talep edilen işlem yapılmadı: yetersiz sistem depolaması "
+
+msgid "Requested action not taken: mailbox name not allowed"
+msgstr "İstenen işlem yapılmadı: posta kutusu adına izin verilmiyor"
+
+msgid "Requested action not taken: mailbox unavailable"
+msgstr "İstenen işlem yapılmadı: posta kutusu kullanılamıyor"
+
+msgid "Requested file action aborted."
+msgstr "İstenen dosya eylemi iptal edildi."
+
+msgid "Requested file action not taken."
+msgstr "İstenen dosya eylemi gerçekleştirilmedi."
+
+msgid "Requested file action okay, completed."
+msgstr "Talep edilen dosya eylemi tamam, tamamlandı."
+
+msgid "Requested file action pending further information."
+msgstr "Daha fazla bilgi bekleyen talep edilen dosya eylemi."
+
+msgid "Requested mail action aborted: exceeded storage allocation"
+msgstr "İstenen posta işlemi iptal edildi: depolama alanı tahsisi aşıldı"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Reset Content"
+msgstr "İçeriği Sıfırla"
+
+msgid "Resolving hostname %s."
+msgstr "Ana bilgisayar adı %s çözümleniyor."
+
+msgid "SEC_E_NO_KERB_KEY"
+msgstr "SEC_E_NO_BERB_KEY"
+
+msgid "SKIP"
+msgstr "ATLA"
+
+msgid "SPF %s check error"
+msgstr "SPF %s kontrol hatası"
+
+msgid "SPF %s check failed"
+msgstr "SPF %s kontrolü başarısız oldu"
+
+msgid "SSCN is not supported on both servers."
+msgstr "SSCN her iki sunucuda da desteklenmiyor."
+
+msgid "SSL IOHandler is required for this setting"
+msgstr "Bu ayar için SSL IOHandler gereklidir"
+
+msgid "SSL certificate request error."
+msgstr "SSL sertifikası istek hatası."
+
+msgid "SSL connection has dropped."
+msgstr "SSL bağlantısı kesildi."
+
+msgid "SSL is not available on this server."
+msgstr "SSL bu sunucuda mevcut değil."
+
+msgid "SSL library internal error."
+msgstr "SSL kitaplığı dahili hatası."
+
+msgid "SSL negotiation failed."
+msgstr "SSL görüşmesi başarısız oldu."
+
+msgid "SSL status: \"%s\""
+msgstr "SSL durumu: \"%s\""
+
+msgid "SSPI %s returns error #%d(0x%x): %s"
+msgstr "SSPI %s hata döndürüyor #%d(0x%x): %s"
+
+msgid "SSPI interface has failed to initialise properly"
+msgstr "SSPI arayüzü düzgün bir şekilde başlatılamadı"
+
+msgid "Security layer already active"
+msgstr "Güvenlik katmanı zaten etkin"
+
+msgid "See Other"
+msgstr "Diğerini Gör"
+
+msgid "Selected"
+msgstr "Seçili"
+
+msgid "Send a message"
+msgstr "Mesaj gönderin"
+
+msgid "Sent "
+msgstr "Gönderildi "
+
+msgid "Server Connection not locatable when sending message"
+msgstr "Mesaj gönderilirken Sunucu Bağlantısı konumlandırılamıyor"
+
+msgid "Server Returned Unknown Error"
+msgstr "Sunucu Bilinmeyen Hata Döndürdü"
+
+msgid "Server did not respond."
+msgstr "Sunucu yanıt vermedi."
+
+msgid "Server do not support APOP (no timestamp)"
+msgstr "Sunucu APOP'u desteklemiyor (zaman damgası yok)"
+
+msgid ""
+"Server has gracefully disconnected you, possibly because the connection was "
+"idle for too long."
+msgstr ""
+"Sunucu, muhtemelen bağlantı çok uzun süre boşta kaldığı için bağlantınızı "
+"zarif bir şekilde kesti."
+
+msgid "Server sent invalid port number (%s)"
+msgstr "Sunucu geçersiz bağlantı noktası numarası gönderdi (%s)"
+
+msgid "Server status: active"
+msgstr "Sunucu durumu: etkin"
+
+msgid "Service Unavailable"
+msgstr "Hizmet Kullanılamıyor"
+
+msgid "Service closing control connection."
+msgstr "Servis kapatma kontrol bağlantısı."
+
+msgid "Service not available, closing control connection."
+msgstr "Servis mevcut değil, kontrol bağlantısı kapatılıyor."
+
+msgid "Service ready for new user."
+msgstr "Servis yeni kullanıcı için hazır."
+
+msgid "Set LargeStream to True to send streams greater than 2GB"
+msgstr ""
+"2 GB'den büyük akışlar göndermek için LargeStream'i True olarak ayarlayın"
+
+msgid "Set Size Exceeded."
+msgstr "Ayarlanan Boyut Aşıldı."
+
+msgid "SetCipher failed."
+msgstr "SetCipher başarısız oldu."
+
+msgid "Signing Off"
+msgstr "Oturum Kapatılıyor"
+
+msgid "Smartcard logon is required and was not used."
+msgstr "Akıllı kart girişi gereklidir ve kullanılmamıştır."
+
+msgid ""
+"Socket Error # %d\n"
+"%s"
+msgstr ""
+"Soket Hatası # %d\n"
+"%s"
+
+msgid "Socket is already connected."
+msgstr "Soket zaten bağlı."
+
+msgid "Socket is not connected."
+msgstr "Soket bağlı değil."
+
+msgid "Socket operation on non-socket."
+msgstr "Soket dışı üzerinde soket işlemi."
+
+msgid "Socket type not supported."
+msgstr "Soket türü desteklenmiyor."
+
+msgid "Socks server did not respond."
+msgstr "Socks sunucusu yanıt vermedi."
+
+msgid "Software caused connection abort."
+msgstr "Yazılım bağlantının kesilmesine neden oldu."
+
+msgid "Sorry, Unknown Command"
+msgstr "Üzgünüz, Bilinmeyen Komut"
+
+msgid "Sorry, Unknown Command: %s"
+msgstr "Üzgünüz, Bilinmeyen Komut: %s"
+
+msgid "Source Host Isolated"
+msgstr "Kaynak Ana Bilgisayar İzole Edildi"
+
+msgid "Source Quench Message"
+msgstr "Kaynak Söndürme Mesajı"
+
+msgid "Source Route Failed"
+msgstr "Kaynak Güzergâhı Başarısız"
+
+msgid "Stack Class is undefined."
+msgstr "Yığın Sınıfı tanımsız."
+
+msgid "Stack already created."
+msgstr "Yığın zaten oluşturuldu."
+
+msgid "Start SSL negotiation command failed."
+msgstr "SSL müzakeresini başlatma komutu başarısız oldu."
+
+msgid "Start mail input; end with <CRLF>.<CRLF>"
+msgstr "Posta girişini başlatın; ile bitirin<CRLF>.<CRLF>"
+
+msgid "Starting FTP transfer"
+msgstr "FTP aktarımı başlatılıyor"
+
+msgid "Stat "
+msgstr "STAT "
+
+msgid "Stopped"
+msgstr "Durduruldu"
+
+msgid "Stringlist not initialized!"
+msgstr "Dize listesi başlatılmadı!"
+
+msgid "Strong encryption layer is required"
+msgstr "Güçlü şifreleme katmanı gereklidir"
+
+msgid "Structure set to %s."
+msgstr "Yapı %s olarak ayarlandı."
+
+msgid "Success."
+msgstr "Başarılı."
+
+msgid "Successfull API call"
+msgstr "API çağrısı başarılı"
+
+msgid "Switching protocols"
+msgstr "Anahtarlama protokolleri"
+
+msgid "Syntax Error - Command not understood: %s"
+msgstr "Sözdizimi Hatası - Komut anlaşılmadı: %s"
+
+msgid "Syntax error (no parameters allowed)"
+msgstr "Söz dizimi hatası (parametreye izin verilmez)"
+
+msgid "Syntax error in parameters or arguments"
+msgstr "Parametrelerde veya bağımsız değişkenlerde söz dizimi hatası"
+
+msgid "System status"
+msgstr "Sistem durumu"
+
+msgid "TIdHTTPAppResponse.SetStringVariable: Cannot set the version"
+msgstr "TIdHTTPAppResponse.SetStringVariable: Sürüm ayarlanamıyor"
+
+msgid "TIdMessagePart can not be created.  Use descendant classes. "
+msgstr "TIdMessagePart oluşturulamıyor. Alt sınıfları kullanın. "
+
+msgid "TIdSNPP Mess command only supports single line Messages."
+msgstr "TIdSNPP Mess komutu sadece tek satırlık Mesajları destekler."
+
+msgid "TLS temporarily not available"
+msgstr "TLS geçici olarak kullanılamıyor"
+
+msgid "TTL expired."
+msgstr "TTL süresi doldu."
+
+msgid "Terminate Thread Timeout"
+msgstr "İş Parçacığı Zaman Aşımını Sonlandır"
+
+msgid "The IOHandler already has a different Intercept assigned"
+msgstr "IOHandler zaten atanmış farklı bir Kesişmeye sahip"
+
+msgid "The KDC reply contained more than one principal name."
+msgstr "KDC yanıtı birden fazla ana ad içeriyordu."
+
+msgid "The KDC was unable to generate a referral for the service requested."
+msgstr "KDC, talep edilen hizmet için bir başvuru oluşturamadı."
+
+msgid ""
+"The Kerberos subsystem encountered an error. A service for user protocol "
+"request was made against a domain controller which does not support service "
+"for user."
+msgstr ""
+"Kerberos alt sistemi bir hatayla karşılaştı. Kullanıcı için hizmeti "
+"desteklemeyen bir etki alanı denetleyicisine karşı kullanıcı protokolü "
+"isteği için bir hizmet yapıldı."
+
+msgid "The Local Security Authority cannot be contacted"
+msgstr "Yerel Güvenlik Makamı ile iletişime geçilemez"
+
+msgid ""
+"The PKU2U protocol encountered an error while attempting to utilize the "
+"associated certificates."
+msgstr ""
+"PKU2U protokolü, ilişkili sertifikaları kullanmaya çalışırken bir hatayla "
+"karşılaştı."
+
+msgid "The buffers supplied to a function was too small."
+msgstr "Bir işleve verilen arabelleklar çok küçüktü."
+
+msgid "The caller is not the owner of the desired credentials"
+msgstr "Arayan, istenen kimlik bilgilerinin sahibi değil"
+
+msgid "The certificate chain was issued by an untrusted authority."
+msgstr "Sertifika zinciri, güvenilmeyen bir otorite tarafından düzenlenmiştir."
+
+msgid "The certificate is not valid for the requested usage."
+msgstr "Sertifika istenen kullanım için geçerli değil."
+
+msgid ""
+"The client and server cannot communicate, because they do not possess a "
+"common algorithm."
+msgstr ""
+"İstemci ve sunucu iletişim kuramaz, çünkü ortak bir algoritmaya sahip "
+"değildirler."
+
+msgid ""
+"The client certificate does not contain a valid UPN, or does not match the "
+"client name in the logon request. Please contact your administrator."
+msgstr ""
+"İstemci sertifikası geçerli bir UPN içermiyor veya oturum açma isteğindeki "
+"istemci adıyla eşleşmiyor. Lütfen yöneticinizle iletişime geçin."
+
+msgid ""
+"The client is trying to negotiate a context and the server requires user-to-"
+"user but didn't send a TGT reply."
+msgstr ""
+"İstemci bir bağlamı müzakere etmeye çalışıyor ve sunucu kullanıcıdan "
+"kullanıcıya ihtiyaç duyuyor ancak bir TGT yanıtı göndermedi."
+
+msgid "The clocks on the client and server machines are skewed."
+msgstr "İstemci ve sunucu makinelerindeki saatler çarpıktır."
+
+msgid "The context data must be renegotiated with the peer."
+msgstr "Bağlam verileri akran ile yeniden müzakere edilmelidir."
+
+msgid "The context has expired and can no longer be used."
+msgstr "Bağlamın süresi doldu ve artık kullanılamıyor."
+
+msgid "The credentials supplied to the package were not recognized"
+msgstr "Pakete verilen kimlik bilgileri tanınmadı"
+
+msgid ""
+"The credentials supplied were not complete, and could not be verified. "
+"Additional information can be returned from the context."
+msgstr ""
+"Sağlanan kimlik bilgileri tamamlanmadı ve doğrulanamadı. Ek bilgiler "
+"bağlamdan döndürülebilir."
+
+msgid ""
+"The credentials supplied were not complete, and could not be verified. The "
+"context could not be initialized."
+msgstr ""
+"Sağlanan kimlik bilgileri tamamlanmadı ve doğrulanamadı. Bağlam "
+"başlatılamadı."
+
+msgid ""
+"The crypto system or checksum function is invalid because a required "
+"function is unavailable."
+msgstr ""
+"Kripto sistemi veya sağlama toplamı işlevi geçersiz çünkü gerekli bir işlev "
+"kullanılamıyor."
+
+msgid "The destination filename can not be empty"
+msgstr "Hedef dosya adı boş olamaz"
+
+msgid ""
+"The domain controller certificate used for smartcard logon has been revoked. "
+"Please contact your system administrator with the contents of your system "
+"event log."
+msgstr ""
+"Akıllı kart oturum açma için kullanılan etki alanı denetleyicisi sertifikası "
+"iptal edildi. Lütfen sistem olay günlüğünüzün içeriğini sistem yöneticinize "
+"bildirin."
+
+msgid ""
+"The domain controller certificate used for smartcard logon has expired. "
+"Please contact your system administrator with the contents of your system "
+"event log."
+msgstr ""
+"Akıllı kart oturum açma için kullanılan etki alanı denetleyicisi "
+"sertifikasının süresi doldu. Lütfen sistem olay günlüğünüzün içeriğini "
+"sistem yöneticinize bildirin."
+
+msgid "The encryption type requested is not supported by the KDC."
+msgstr "İstenen şifreleme türü KDC tarafından desteklenmiyor."
+
+msgid "The following SITE commands are supported:"
+msgstr "Aşağıdaki SITE komutları desteklenir:"
+
+msgid ""
+"The following commands are recognized (* => unimplemented, + => extension)."
+msgstr "Aşağıdaki komutlar tanınır (*=> uygulanmamış, +=> uzantı)."
+
+msgid "The function completed successfully, but CompleteToken must be called"
+msgstr "Fonksiyon başarıyla tamamlandı, ancak CompleteToken çağrılmalıdır"
+
+msgid ""
+"The function completed successfully, but both CompleteToken and this "
+"function must be called to complete the context"
+msgstr ""
+"İşlev başarıyla tamamlandı, ancak bağlamı tamamlamak için hem CompleteToken "
+"hem de bu işlev çağrılmalıdır"
+
+msgid ""
+"The function completed successfully, but must be called again to complete "
+"the context"
+msgstr ""
+"Fonksiyon başarıyla tamamlandı, ancak bağlamı tamamlamak için tekrar "
+"çağrılmalıdır"
+
+msgid "The function requested is not supported"
+msgstr "İstenen işlev desteklenmiyor"
+
+msgid "The handle specified is invalid"
+msgstr "Belirtilen tanıtıcı geçersiz"
+
+msgid "The identity of the server computer could not be verified."
+msgstr "Sunucu bilgisayarın kimliği doğrulanamadı."
+
+msgid ""
+"The local machine must be a Kerberos KDC (domain controller) and it is not."
+msgstr ""
+"Yerel makine bir Kerberos KDC (etki alanı denetleyicisi) olmalıdır ve "
+"değildir."
+
+msgid "The logon attempt failed"
+msgstr "Oturum açma denemesi başarısız oldu"
+
+msgid ""
+"The logon was completed, but no network authority was available. The logon "
+"was made using locally known information"
+msgstr ""
+"Oturum açma tamamlandı, ancak ağ yetkisi mevcut değildi. Oturum açma, yerel "
+"olarak bilinen bilgiler kullanılarak yapıldı"
+
+msgid "The maximum number of threads for this scheduler is exceeded."
+msgstr "Bu zamanlayıcı için maksimum iş parçacığı sayısı aşıldı."
+
+msgid "The message or signature supplied for verification has been altered"
+msgstr "Doğrulama için sağlanan mesaj veya imza değiştirildi"
+
+msgid "The message received was unexpected or badly formatted."
+msgstr "Alınan mesaj beklenmiyordu veya kötü biçimlendirilmişti."
+
+msgid "The message supplied for verification is out of sequence"
+msgstr "Doğrulama için verilen mesaj sıra dışı"
+
+msgid "The number of maximum ticket referrals has been exceeded."
+msgstr "Maksimum bilet yönlendirme sayısı aşıldı."
+
+msgid ""
+"The other end of the security negotiation is requires strong crypto but it "
+"is not supported on the local machine."
+msgstr ""
+"Güvenlik müzakeresinin diğer ucu güçlü kripto gerektiriyor ancak yerel "
+"makinede desteklenmiyor."
+
+msgid ""
+"The per-message Quality of Protection is not supported by the security "
+"package"
+msgstr "Mesaj başına Koruma Kalitesi güvenlik paketi tarafından desteklenmiyor"
+
+msgid "The received certificate has expired."
+msgstr "Alınan sertifikanın süresi doldu."
+
+msgid "The received certificate was mapped to multiple accounts."
+msgstr "Alınan sertifika birden fazla hesapla eşleştirildi."
+
+msgid "The recipient rejected the renegotiation request."
+msgstr "Alıcı yeniden müzakere talebini reddetti."
+
+msgid "The requested IPVersion / Address family is not supported."
+msgstr "İstenen IPVersion / Adres ailesi desteklenmiyor."
+
+msgid ""
+"The requested operation cannot be completed. The computer must be trusted "
+"for delegation and the current user account must be configured to allow "
+"delegation."
+msgstr ""
+"İstenen işlem tamamlanamıyor. Yetkilendirme için bilgisayara güvenilmeli ve "
+"mevcut kullanıcı hesabı yetkilendirmeye izin verecek şekilde "
+"yapılandırılmalıdır."
+
+msgid "The requested security package does not exist"
+msgstr "İstenen güvenlik paketi mevcut değil"
+
+msgid "The required security context does not exist."
+msgstr "Gerekli güvenlik bağlamı mevcut değil."
+
+msgid ""
+"The revocation status of the domain controller certificate used for "
+"smartcard authentication could not be determined. There is additional "
+"information in the system event log. Please contact your system "
+"administrator."
+msgstr ""
+"Akıllı kart kimlik doğrulaması için kullanılan etki alanı denetleyici "
+"sertifikasının iptal durumu belirlenemedi. Sistem olay günlüğünde ek "
+"bilgiler vardır. Lütfen sistem yöneticinizle iletişime geçin."
+
+msgid ""
+"The revocation status of the smartcard certificate used for authentication "
+"could not be determined. Please contact your system administrator."
+msgstr ""
+"Kimlik doğrulama için kullanılan akıllı kart sertifikasının iptal durumu "
+"belirlenemedi. Lütfen sistem yöneticinizle iletişime geçin."
+
+msgid ""
+"The security context could not be established due to a failure in the "
+"requested quality of service (e.g. mutual authentication or delegation)."
+msgstr ""
+"Talep edilen hizmet kalitesindeki bir arıza nedeniyle güvenlik bağlamı "
+"oluşturulamadı (örneğin, karşılıklı kimlik doğrulama veya yetkilendirme)."
+
+msgid "The security context does not allow impersonation of the client"
+msgstr "Güvenlik bağlamı, müşterinin kimliğine bürünmeye izin vermez"
+
+msgid "The security package failed to initialize, and cannot be installed"
+msgstr "Güvenlik paketi başlatılamadı ve yüklenemiyor"
+
+msgid ""
+"The security package is not able to marshall the logon buffer, so the logon "
+"attempt has failed"
+msgstr ""
+"Güvenlik paketi oturum açma arabelleğini düzenleyemiyor, bu nedenle oturum "
+"açma girişimi başarısız oldu"
+
+msgid ""
+"The smartcard certificate used for authentication has been revoked. Please "
+"contact your system administrator. There may be additional information in "
+"the event log."
+msgstr ""
+"Kimlik doğrulama için kullanılan akıllı kart sertifikası iptal edildi. "
+"Lütfen sistem yöneticinizle iletişime geçin. Olay günlüğünde ek bilgiler "
+"olabilir."
+
+msgid ""
+"The smartcard certificate used for authentication has expired. Please "
+"contact your system administrator."
+msgstr ""
+"Kimlik doğrulama için kullanılan akıllı kart sertifikasının süresi doldu. "
+"Lütfen sistem yöneticinizle iletişime geçin."
+
+msgid ""
+"The smartcard certificate used for authentication was not trusted. Please "
+"contact your system administrator."
+msgstr ""
+"Kimlik doğrulama için kullanılan akıllı kart sertifikasına güvenilmedi. "
+"Lütfen sistem yöneticinizle iletişime geçin."
+
+msgid "The specified SASL handlers are not ready!!"
+msgstr "Belirtilen SASL işleyicileri hazır değil!!"
+
+msgid "The specified data could not be decrypted."
+msgstr "Belirtilen verilerin şifresi çözülemedi."
+
+msgid "The specified data could not be encrypted."
+msgstr "Belirtilen veriler şifrelenemedi."
+
+msgid "The specified target is unknown or unreachable"
+msgstr "Belirtilen hedef bilinmiyor veya ulaşılamıyor"
+
+msgid "The string %s does not translate into a valid IP."
+msgstr "%s dizesi geçerli bir IP'ye çevrilmiyor."
+
+msgid ""
+"The supplied IP address is not a valid multicast address [224.0.0.0 to "
+"239.255.255.255]."
+msgstr ""
+"Sağlanan IP adresi geçerli bir çok noktaya yayın adresi değil [224.0.0.0 ila "
+"239.255.255.255]."
+
+msgid ""
+"The supplied credential handle does not match the credential associated with "
+"the security context."
+msgstr ""
+"Sağlanan kimlik bilgisi tanıtıcısı, güvenlik bağlamıyla ilişkili kimlik "
+"bilgileriyle eşleşmiyor."
+
+msgid "The supplied message is incomplete.  The signature was not verified."
+msgstr "Verilen mesaj eksik. İmza doğrulanmadı."
+
+msgid ""
+"The system detected a possible attempt to compromise security. Please ensure "
+"that you can contact the server that authenticated you."
+msgstr ""
+"Sistem, güvenliği tehlikeye atmaya yönelik olası bir girişim algıladı. "
+"Lütfen kimliğinizi doğrulayan sunucuyla iletişime geçebildiğinizden emin "
+"olun."
+
+msgid "The target principal name is incorrect."
+msgstr "Hedef asıl ad yanlış."
+
+msgid "The token supplied to the function is invalid"
+msgstr "Fonksiyona sağlanan belirteç geçersiz"
+
+msgid "There is no LSA mode context associated with this context."
+msgstr "Bu bağlamla ilişkili LSA modu bağlamı yoktur."
+
+msgid ""
+"There is too many IP addresses in the specified range (%d) to be displayed "
+"at design time."
+msgstr ""
+"Belirtilen aralıkta (%d) tasarım zamanında görüntülenecek çok fazla IP "
+"adresi var."
+
+msgid "This authentication method is already registered with class name %s."
+msgstr "Bu kimlik doğrulama yöntemi zaten %s sınıf adıyla kayıtlı."
+
+msgid "This function is not supported on Win32."
+msgstr "Bu işlev Win32 'de desteklenmez."
+
+msgid "This value can not be set while the client is connected."
+msgstr "İstemci bağlıyken bu değer ayarlanamaz."
+
+msgid "This value can not be set while the server is active."
+msgstr "Sunucu aktifken bu değer ayarlanamaz."
+
+msgid "Thread Class Not Specified."
+msgstr "İş Parçacığı Sınıfı Belirtilmedi."
+
+msgid "Thread must be specified for the scheduler."
+msgstr "Zamanlayıcı için iş parçacığı belirtilmelidir."
+
+msgid "TimedOut"
+msgstr "Zaman Aşımı"
+
+msgid "Timeout"
+msgstr "Zaman aşımı"
+
+msgid "Timestamp"
+msgstr "Zaman Damgası"
+
+msgid "Too Many Requests"
+msgstr "Çok Fazla İstek"
+
+msgid "Too Many recipients."
+msgstr "Çok fazla alıcı var."
+
+msgid "Too many connections. Try again later."
+msgstr "Çok fazla bağlantı var. Daha sonra tekrar deneyin."
+
+msgid "Too many levels of symbolic links."
+msgstr "Çok fazla sembolik bağlantı seviyesi."
+
+msgid "Too many open files."
+msgstr "Çok fazla açık dosya var."
+
+msgid "Too many references, cannot splice."
+msgstr "Çok fazla referans var, birleştirilemiyor."
+
+msgid "Too much data in buffer."
+msgstr "Arabellekte çok fazla veri var."
+
+msgid "Transfer aborted"
+msgstr "Aktarım iptal edildi"
+
+msgid "Transfer complete"
+msgstr "Aktarım tamamlandı"
+
+msgid "Transfer modes must be the same."
+msgstr "Transfer modları aynı olmalıdır."
+
+msgid "Transform failed"
+msgstr "Dönüştürme başarısız"
+
+msgid "Transparent Proxy Cyclic error."
+msgstr "Şeffaf Proxy Döngüsel hatası."
+
+msgid "Transparent proxy cannot bind."
+msgstr "Şeffaf proxy bağlanamaz."
+
+msgid "Transport header length exceeded"
+msgstr "Taşıma başlığı uzunluğu aşıldı"
+
+msgid "Transport protocol > 255"
+msgstr "Taşıma protokolü > 255"
+
+msgid "Transport protocols must be the same."
+msgstr "Taşıma protokolleri aynı olmalıdır."
+
+msgid "Type set to %s."
+msgstr "Tür %s olarak ayarlandı."
+
+msgid "UDP Not supported by this proxy."
+msgstr "UDP Bu proxy tarafından desteklenmiyor."
+
+msgid "UDP is not support in this SOCKS version."
+msgstr "UDP, bu SOCKS sürümünde desteklenmemektedir."
+
+msgid "UMASK set to %.3d (was %.3d)"
+msgstr "UMASK %.3d olarak ayarlandı (%.3d idi)"
+
+msgid "US-ASCII char #%d in UTF7 sequence."
+msgstr "UTF7 dizisinde US - ASCII karakter #%d."
+
+msgid "UUCP subsystem"
+msgstr "UUCP alt sistemi"
+
+msgid ""
+"Unable to accomplish the requested task because the local machine does not "
+"have any IP addresses."
+msgstr ""
+"Yerel makinenin IP adresi olmadığı için istenen görev yerine getirilemiyor."
+
+msgid "Unable to complete write request, progress halted at %d bytes"
+msgstr "Yazma isteği tamamlanamadı, ilerleme %d baytta durduruldu"
+
+msgid ""
+"Unable to execute command, wrong connection state;Current connection state: "
+"%s."
+msgstr ""
+"Komut çalıştırılamıyor, yanlış bağlantı durumu;Mevcut bağlantı durumu: %s."
+
+msgid "Unable to initialize compressor"
+msgstr "Sıkıştırıcı başlatılamadı"
+
+msgid "Unable to initialize decompressor"
+msgstr "Açıcı başlatılamadı"
+
+msgid "Unable to open %s"
+msgstr "%s açılamıyor"
+
+msgid "Unable to set Filename while log file is open."
+msgstr "Günlük dosyası açıkken Dosya Adı ayarlanamıyor."
+
+msgid "Unable to stop client thread"
+msgstr "İstemci dizisi durdurulamıyor"
+
+msgid "Unassigned UserPassProvider!"
+msgstr "Atanmamış UserPassProvider!"
+
+msgid "Unauthorized"
+msgstr "Yetkisiz"
+
+msgid "Uneven size in DecodeToStream."
+msgstr "DecodeToStream'de eşit olmayan boyut."
+
+msgid "Uneven size in Encode."
+msgstr "Kodlamada eşit olmayan boyut."
+
+msgid "Unexpected Close"
+msgstr "Beklenmedik Kapanış"
+
+msgid "Unexpected message arrived to an interface that is not listening"
+msgstr "Beklenmeyen mesaj, dinlemeyen bir arayüze ulaştı"
+
+msgid "Unexpected operation from %s:%d"
+msgstr "%s konumundan beklenmeyen işlem:%d"
+
+msgid "Unexpectedly Disconnected"
+msgstr "Beklenmedik Şekilde Bağlantı Kesildi"
+
+msgid "Unimplemented mode."
+msgstr "Uygulanmayan mod."
+
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+msgid "Unknown Error %d, Id %d"
+msgstr "Bilinmeyen Hata %d, Kimlik %d"
+
+msgid "Unknown FTP listing format"
+msgstr "Bilinmeyen FTP kayıt formatı"
+
+msgid "Unknown Internal Error"
+msgstr "Bilinmeyen Dahili Hata"
+
+msgid "Unknown OTP method"
+msgstr "Bilinmeyen OTP yöntemi"
+
+msgid "Unknown Protocol"
+msgstr "Bilinmeyen Protokol"
+
+msgid "Unknown Response Code"
+msgstr "Bilinmeyen Yanıt Kodu"
+
+msgid "Unknown command %s."
+msgstr "Bilinmeyen komut %s."
+
+msgid "Unknown credentials use"
+msgstr "Bilinmeyen kimlik bilgileri kullanımı"
+
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+msgid "Unknown mandatory option present"
+msgstr "Bilinmeyen zorunlu seçenek mevcut"
+
+msgid "Unknown mandatory transport option present"
+msgstr "Bilinmeyen zorunlu taşıma seçeneği mevcut"
+
+msgid "Unknown mode"
+msgstr "Bilinmeyen mod"
+
+msgid "Unknown or illegale facility code"
+msgstr "Bilinmeyen veya yasa dışı tesis kodu"
+
+msgid "Unknown or illegale security code"
+msgstr "Bilinmeyen veya yasa dışı güvenlik kodu"
+
+msgid ""
+"Unknown or other error: Can not determine owner, other error, or the error "
+"can not be revealed."
+msgstr ""
+"Bilinmeyen veya başka bir hata: Sahibi belirlenemiyor, başka bir hata veya "
+"hata ortaya çıkarılamıyor."
+
+msgid "Unknown queue %s"
+msgstr "Bilinmeyen sıra %s"
+
+msgid "Unknown socks error."
+msgstr "Bilinmeyen Socks hatası."
+
+msgid "Unknown/unspecified error"
+msgstr "Bilinmeyen/tanımlanmamış hata"
+
+msgid "Unrecognized IMAP4 Response Header."
+msgstr "Tanınmayan IMAP4 Yanıt Başlığı."
+
+msgid ""
+"Unrecognized POP3 Response Header:\n"
+"\"%s\""
+msgstr ""
+"Tanınmayan POP3 Yanıt Başlığı:\n"
+"\"%s\""
+
+msgid "Unrecognized UUE encoding scheme."
+msgstr "Tanınmayan UUE kodlama şeması."
+
+msgid "Unrecognized content trasnfer encoding."
+msgstr "Tanınmayan içerik aktarım kodlaması."
+
+msgid "Unsupported Media Type"
+msgstr "Desteklenmeyen Medya Türü"
+
+msgid "Unsupported authorization scheme."
+msgstr "Desteklenmeyen yetkilendirme şeması."
+
+msgid "Unsupported character set (%s)"
+msgstr "Desteklenmeyen karakter kümesi (%s)"
+
+msgid "Unsupported codepage (%d)"
+msgstr "Desteklenmeyen kod sayfası (%d)"
+
+msgid "Unsupported cookie version: %d"
+msgstr "Desteklenmeyen çerez sürümü: %d"
+
+msgid ""
+"Unsupported encoding. You can assign only one of the following values: Q, B, "
+"8."
+msgstr ""
+"Desteklenmeyen kodlama. Aşağıdaki değerlerden yalnızca birini "
+"atayabilirsiniz: Q, B, 8."
+
+msgid ""
+"Unsupported hash algorithm. This implementation supports only MD5 encoding."
+msgstr ""
+"Desteklenmeyen karma algoritması. Bu uygulama yalnızca MD5 kodlamasını "
+"destekler."
+
+msgid ""
+"Unsupported object type. You can assign only one of the following types or "
+"their descendants: TStrings, TStream."
+msgstr ""
+"Desteklenmeyen nesne türü. Aşağıdaki türlerden yalnızca birini veya alt "
+"öğelerini atayabilirsiniz: TStrings, TStream."
+
+msgid "Unsupported operation."
+msgstr "Desteklenmeyen işlem."
+
+msgid "Unsupported option: \"%s\""
+msgstr "Desteklenmeyen seçenek: \"%s\""
+
+msgid "Unsupported transfer mode."
+msgstr "Desteklenmeyen aktarım modu."
+
+msgid "Unsupported transfer mode: \"%s\""
+msgstr "Desteklenmeyen aktarım modu: \"%s\""
+
+msgid "Unsupported transfer type."
+msgstr "Desteklenmeyen transfer türü."
+
+msgid ""
+"Unsupported transfer type. You can assign only an empty string or one of the "
+"following values: 7bit, 8bit, binary, quoted-printable, base64."
+msgstr ""
+"Desteklenmeyen aktarım türü. Yalnızca boş bir dize veya şu değerlerden "
+"birini atayabilirsiniz: 7bit, 8bit, binary, quoted - printable, base64."
+
+msgid "Unsupported transport protocol"
+msgstr "Desteklenmeyen taşıma protokolü"
+
+msgid "Unsupported value \"%s\" for option: \"%s\""
+msgstr "Seçenek için desteklenmeyen değer \"%s \":\" %s \""
+
+msgid "Use Proxy"
+msgstr "Proxy Kullan"
+
+msgid "UseExtensionDataPort must be true for IPv6 connections."
+msgstr "UseExtensionDataPort, IPv6 bağlantıları için true olmalıdır."
+
+msgid "UseExtensionDataPort must be true for NAT fasttracking."
+msgstr "Nat hızlı izleme için UseExtensionDataPort true olmalıdır."
+
+msgid "User %s not local; no forwarding address"
+msgstr "Kullanıcı %s yerel değil; yönlendirme adresi yok"
+
+msgid "User %s not local; please try <%s>"
+msgstr "Kullanıcı %s yerel değil; lütfen <%s> deneyin"
+
+msgid "User %s not local; will forward to <%s>"
+msgstr "Kullanıcı %s yerel değil; <%s> adresine iletilecek"
+
+msgid "User logged in, proceed."
+msgstr "Kullanıcı giriş yaptı, devam et."
+
+msgid "User name okay, need password."
+msgstr "Kullanıcı adı tamam, şifre gerekiyor."
+
+msgid "Username: "
+msgstr "Kullanıcı adı: "
+
+msgid "Warning: warning conditions"
+msgstr "Uyarı: uyarı koşulları"
+
+msgid "We do not relay %s"
+msgstr "%s aktarmıyoruz"
+
+msgid "Welcome "
+msgstr "Hoş geldiniz "
+
+msgid "Welcome to Indy POP3 Server"
+msgstr "Indy POP3 Sunucusuna Hoş Geldiniz"
+
+msgid "Welcome to the INDY SMTP Server"
+msgstr "INDY SMTP Sunucusuna Hoş Geldiniz"
+
+msgid "Winshoes LPD Server %s "
+msgstr "Winshoes LPD Sunucusu %s "
+
+msgid "Winsock stack"
+msgstr "Winsock yığını"
+
+msgid "Wrong SOCKS-Command"
+msgstr "Yanlış SOCKS - Komut"
+
+msgid "Wrong SOCKS-version"
+msgstr "Yanlış soket sürümü"
+
+msgid "Wrong SOCKS5-ATYP"
+msgstr "Yanlış SOCKS5 - ATYP"
+
+msgid "Wrong State"
+msgstr "Yanlış Eyalet"
+
+msgid "You cannot send a message while you are still waiting for an answer"
+msgstr "Hala bir cevap beklerken mesaj gönderemezsiniz"
+
+msgid "You cannot set %s while the HL7 Component is working"
+msgstr "HL7 Bileşeni çalışırken %s ayarlayamazsınız"
+
+msgid ""
+"You have to provide a TIdRR_SOA object with Serial number and Name to "
+"progress IXFR. %d"
+msgstr ""
+"IXFR'yi ilerletmek için Seri numarası ve Adı olan bir TIdRR_SOA nesnesi "
+"sağlamalısınız. %d"
+
+msgid "You must chain this component to another I/O Handler before using it"
+msgstr ""
+"Bu bileşeni kullanmadan önce başka bir G/Ç İşleyicisine zincirlemelisiniz"
+
+msgid "You must have an OnExecute event."
+msgstr "Bir OnExecute etkinliğiniz olmalıdır."
+
+msgid "You must use proxyOpen"
+msgstr "ProxyOpen kullanmalısınız"
+
+msgid "ZLib Error (%d)"
+msgstr "ZLib Hatası (%d)"
+
+msgid "ZLib error: target buffer may be too small"
+msgstr "ZLib hatası: hedef arabelleği çok küçük olabilir"
+
+msgid "abort job"
+msgstr "işi iptal et"
+
+msgid "access restriction or permission denied"
+msgstr "erişim kısıtlaması veya izni reddedildi"
+
+msgid "article not wanted - do not send it"
+msgstr "makale istenmiyor - göndermeyin"
+
+msgid "article posted ok"
+msgstr "makale gönderildi tamam"
+
+msgid "article rejected - do not try again."
+msgstr "makale reddedildi - tekrar denemeyin."
+
+msgid "article transferred ok"
+msgstr "madde aktarıldı tamam"
+
+msgid "auth-conf not yet supported."
+msgstr "auth - conf henüz desteklenmiyor."
+
+msgid "by DNSName [127.0.0.1] running Indy SMTP"
+msgstr "indy SMTP çalıştıran DNSName [127.0.0.1] tarafından"
+
+msgid "clock daemon (1)"
+msgstr "saat servisi (1)"
+
+msgid "clock daemon (2)"
+msgstr "saat servisi (2)"
+
+msgid "closing connection"
+msgstr "bağlantıyı kapatma"
+
+msgid "closing connection - goodbye!"
+msgstr "kapanış bağlantısı - hoşça kalın!"
+
+msgid "command must be either USER or QUIT"
+msgstr "komut ya KULLANICI olmalı ya da çıkılmalı"
+
+msgid "command not recognized"
+msgstr "komut tanınmadı"
+
+msgid "command syntax error"
+msgstr "komut söz dizimi hatası"
+
+msgid "communication with destination administratively prohibited"
+msgstr "destinasyon ile iletişim idari olarak yasaktır"
+
+msgid "connected with %s"
+msgstr "%s ile bağlandı"
+
+msgid "debug output"
+msgstr "hata ayıklama çıkışı"
+
+msgid "erroneous header field encountered (offset %d)"
+msgstr "hatalı başlık alanıyla karşılaşıldı (ofset %d)"
+
+msgid "fragment reassembly time exceeded."
+msgstr "parça yeniden montaj süresi aşıldı."
+
+msgid "help text follows"
+msgstr "yardım metni takip eder"
+
+msgid "hop limit exceeded in transit"
+msgstr "geçişte atlama sınırı aşıldı"
+
+msgid "host unreachable;"
+msgstr "ana bilgisayara ulaşılamıyor;"
+
+msgid "invalid algorithm in challange."
+msgstr "meydan okumada geçersiz algoritma."
+
+msgid "kernel messages"
+msgstr "çekirdek mesajları"
+
+msgid "line printer subsystem"
+msgstr "satır yazıcı alt sistemi"
+
+msgid "list of new newsgroups follows"
+msgstr "yeni haber gruplarının listesi aşağıdadır"
+
+msgid "list of newsgroups follows"
+msgstr "aşağıdaki haber gruplarının listesi"
+
+msgid "local use 0  (local0)"
+msgstr "yerel kullanım 0  (local0)"
+
+msgid "local use 1  (local1)"
+msgstr "yerel kullanım 1  (yerel1)"
+
+msgid "local use 2  (local2)"
+msgstr "yerel kullanım 2  (local2)"
+
+msgid "local use 3  (local3)"
+msgstr "yerel kullanım 3  (local3)"
+
+msgid "local use 4  (local4)"
+msgstr "yerel kullanım 4  (local4)"
+
+msgid "local use 5  (local5)"
+msgstr "yerel kullanım 5  (local5)"
+
+msgid "local use 6  (local6)"
+msgstr "yerel kullanım 6  (local6)"
+
+msgid "local use 7  (local7)"
+msgstr "yerel kullanım 7  (local7)"
+
+msgid "log alert"
+msgstr "günlük uyarısı"
+
+msgid "log audit"
+msgstr "günlük denetimi"
+
+msgid "mail system"
+msgstr "posta sistemi"
+
+msgid "messages generated internally by syslogd"
+msgstr "syslogd tarafından dahili olarak oluşturulan mesajlar"
+
+msgid "missing algorithm in challange."
+msgstr "meydan okumada eksik algoritma."
+
+msgid "net unreachable;"
+msgstr "net ulaşılamaz;"
+
+msgid "network news subsystem"
+msgstr "ağ haber alt sistemi"
+
+msgid "no current article has been selected"
+msgstr "mevcut makale seçilmedi"
+
+msgid "no newsgroup has been selected"
+msgstr "hiçbir haber grubu seçilmedi"
+
+msgid "no next article in this group"
+msgstr "bu grupta bir sonraki makale yok"
+
+msgid "no previous article in this group"
+msgstr "bu grupta daha önce makale yok"
+
+msgid "no route to destination"
+msgstr "varış noktasına rota yok"
+
+msgid "no such article found"
+msgstr "böyle bir makale bulunamadı"
+
+msgid "no such article number in this group"
+msgstr "bu grupta böyle bir ürün numarası yok"
+
+msgid "no such news group"
+msgstr "böyle bir haber grubu yok"
+
+msgid "off"
+msgstr "kapalı"
+
+msgid "on"
+msgstr "açık"
+
+msgid "posting failed"
+msgstr "gönderilemedi"
+
+msgid "posting not allowed"
+msgstr "gönderime izin verilmiyor"
+
+msgid "program fault - command not performed"
+msgstr "program hatası - komut gerçekleştirilmedi"
+
+msgid "protocol unreachable;"
+msgstr "protokole ulaşılamıyor;"
+
+msgid "reject route to destination"
+msgstr "varış noktasına giden rotayı reddet"
+
+msgid "security/authorization messages (1)"
+msgstr "güvenlik/yetkilendirme mesajları (1)"
+
+msgid "security/authorization messages (2)"
+msgstr "güvenlik/yetkilendirme mesajları (2)"
+
+msgid "send article to be posted. End with <CR-LF>.<CR-LF>"
+msgstr "gönderilecek makaleyi gönderin. ile bitirin<CR-LF>.<CR-LF>"
+
+msgid "send article to be transferred. End with <CR-LF>.<CR-LF>"
+msgstr "aktarılacak makaleyi gönderin. ile bitirin<CR-LF>.<CR-LF>"
+
+msgid "server not responding"
+msgstr "sunucu yanıt vermiyor"
+
+msgid "server ready - no posting allowed"
+msgstr "sunucu hazır - gönderime izin verilmiyor"
+
+msgid "server ready - posting allowed"
+msgstr "sunucu hazır - gönderime izin verildi"
+
+msgid "service discontinued"
+msgstr "hizmet durduruldu"
+
+msgid "site attrib"
+msgstr "site özniteliği"
+
+msgid "slave status noted"
+msgstr "slave durumu not edildi"
+
+msgid "source address failed ingress/egress policy"
+msgstr "kaynak adresi giriş/çıkış politikası başarısız oldu"
+
+msgid "system daemons"
+msgstr "sistem daemonları"
+
+msgid "time to live exceeded in transit"
+msgstr "transitte yaşanacak süre aşıldı"
+
+msgid "transfer failed - try again later"
+msgstr "aktarım başarısız oldu - daha sonra tekrar deneyin"
+
+msgid "unrecognized IPv6 option encountered (offset %d)"
+msgstr "tanınmayan IPv6 seçeneğiyle karşılaşıldı (ofset %d)"
+
+msgid "unrecognized Next Header type encountered (offset %d)"
+msgstr "tanınmayan Sonraki Başlık türüyle karşılaşıldı (ofset %d)"
+
+msgid "user-level messages"
+msgstr "kullanıcı düzeyinde mesajlar"

@@ -1,0 +1,322 @@
+#  Doesn't have any letters
+#. SocketForm..PopupMenu..N1..Caption
+#: ScktMain.dfm:338
+#. SocketForm..MainMenu1..miPorts..N3..Caption
+#: ScktMain.dfm:366
+#. SocketForm..MainMenu1..Connections1..N2..Caption
+#: ScktMain.dfm:385
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sDeleteButton
+#: WbmConst.pas:38
+msgid " - "
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sInsertButton
+#: WbmConst.pas:39
+msgid " + "
+msgstr ""
+
+#  Doesn't have any letters
+#. LoginDialog..Panel..Panel1..Password..PasswordChar
+#: Vcl.DBLogDlg.dfm:102
+#. PasswordDialog..GroupBox1..Edit..PasswordChar
+#: Vcl.DBPWDlg.dfm:47
+msgid "*"
+msgstr ""
+
+#. Programmer's name for it: StrAttach
+#: IBX.IBXConst.pas:54
+msgid ": [Attach]"
+msgstr ""
+
+#. Programmer's name for it: StrCommitHardComm
+#: IBX.IBXConst.pas:65
+msgid ": [Commit (Hard commit)]"
+msgstr ""
+
+#. Programmer's name for it: StrCommitRetaining
+#: IBX.IBXConst.pas:66
+msgid ": [Commit retaining (Soft commit)]"
+msgstr ""
+
+#. Programmer's name for it: StrConnect
+#: IBX.IBXConst.pas:50
+msgid ": [Connect]"
+msgstr ""
+
+#. Programmer's name for it: StrDetach
+#: IBX.IBXConst.pas:55
+msgid ": [Detach]"
+msgstr ""
+
+#. Programmer's name for it: StrDisconnect
+#: IBX.IBXConst.pas:51
+msgid ": [Disconnect]"
+msgstr ""
+
+#. Programmer's name for it: StrExecute
+#: IBX.IBXConst.pas:58
+msgid ": [Execute] "
+msgstr ""
+
+#. Programmer's name for it: StrFetch
+#: IBX.IBXConst.pas:61
+msgid ": [Fetch] "
+msgstr ""
+
+#. Programmer's name for it: StrPrepare
+#: IBX.IBXConst.pas:62
+msgid ": [Prepare] "
+msgstr ""
+
+#. Programmer's name for it: StrQuery
+#: IBX.IBXConst.pas:56
+msgid ": [Query]"
+msgstr ""
+
+#. Programmer's name for it: StrRollbackRetainin
+#: IBX.IBXConst.pas:68
+msgid ": [Rollback retaining (Soft rollback)]"
+msgstr ""
+
+#. Programmer's name for it: StrRollback
+#: IBX.IBXConst.pas:67
+msgid ": [Rollback]"
+msgstr ""
+
+#. Programmer's name for it: StrStartTransaction
+#: IBX.IBXConst.pas:69
+msgid ": [Start transaction]"
+msgstr ""
+
+#. Programmer's name for it: StrStart
+#: IBX.IBXConst.pas:57
+msgid ": [Start]"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: SMissingDateTimeField
+#: System.RTLConsts.pas:125
+msgid "?"
+msgstr ""
+
+#  Doesn't look like text
+#. no longer used
+#. Programmer's name for it: SConvUnknownDescription
+#: System.RTLConsts.pas:136
+msgid "[$%.8x]"
+msgstr ""
+
+#  Doesn't look like text
+#. Programmer's name for it: SConvUnknownDescriptionWithPrefix
+#: System.RTLConsts.pas:137
+msgid "[%s%.8x]"
+msgstr ""
+
+#. Programmer's name for it: StrApplication
+#: IBX.IBXConst.pas:70
+msgid "[Application: "
+msgstr ""
+
+#. Programmer's name for it: StrError
+#: IBX.IBXConst.pas:53
+msgid "[Error] "
+msgstr ""
+
+#. Programmer's name for it: StrMisc
+#: IBX.IBXConst.pas:52
+msgid "[Misc] "
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sFirstButton
+#: WbmConst.pas:32
+msgid "|<"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sPriorButton
+#: WbmConst.pas:34
+msgid "<"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sPriorPageButton
+#: WbmConst.pas:36
+msgid "<<"
+msgstr ""
+
+#. Programmer's name for it: StrBLOB
+#: IBX.IBXConst.pas:60
+msgid "<BLOB>"
+msgstr ""
+
+#. Programmer's name for it: StrNULL
+#: IBX.IBXConst.pas:59
+msgid "<NULL>"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sNextButton
+#: WbmConst.pas:35
+msgid ">"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sLastButton
+#: WbmConst.pas:33
+msgid ">|"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: sNextPageButton
+#: WbmConst.pas:37
+msgid ">>"
+msgstr ""
+
+#  Doesn't have any letters
+#. Programmer's name for it: SIDAPILangID
+#: Bde.Bdeconst.pas:46
+msgid "0009"
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:49
+msgid "cl3DDkShadow "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:50
+msgid "cl3DLight "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:38
+msgid "clActiveBorder "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:30
+msgid "clActiveCaption "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:40
+msgid "clAppWorkSpace "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:29
+msgid "clBackground "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:43
+msgid "clBtnFace "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:48
+msgid "clBtnHighlight "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:44
+msgid "clBtnShadow "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:46
+msgid "clBtnText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:37
+msgid "clCaptionText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:45
+msgid "clGrayText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:41
+msgid "clHighlight "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:42
+msgid "clHighlightText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:39
+msgid "clInactiveBorder "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:31
+msgid "clInactiveCaption "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:47
+msgid "clInactiveCaptionText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:52
+msgid "clInfoBk"
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:51
+msgid "clInfoText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:32
+msgid "clMenu "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:35
+msgid "clMenuText "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:28
+msgid "clScrollBar "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:33
+msgid "clWindow "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:34
+msgid "clWindowFrame "
+msgstr ""
+
+#. ColorPropPage..SysColor....Items.Strings
+#: ColorPP.dfm:36
+msgid "clWindowText "
+msgstr ""
+
+#. Programmer's name for it: SUTF7Encoding
+#: Vcl.Consts.pas:332
+msgid "UTF-7"
+msgstr ""
+
+#  Doesn't look like text
+#. Programmer's name for it: SUTF8Encoding
+#: Vcl.Consts.pas:331
+msgid "UTF-8"
+msgstr ""
+

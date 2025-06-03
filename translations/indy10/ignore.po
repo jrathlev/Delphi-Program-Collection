@@ -1,0 +1,18 @@
+#. Carriage Return
+#. Programmer's name for it: RSLogCR
+#: IdResourceStringsCore.pas:168
+msgid "<CR>"
+msgstr ""
+
+#. End of Line
+#. Programmer's name for it: RSLogEOL
+#: IdResourceStringsCore.pas:167
+msgid "<EOL>"
+msgstr ""
+
+#. Line feed
+#. Programmer's name for it: RSLogLF
+#: IdResourceStringsCore.pas:169
+msgid "<LF>"
+msgstr ""
+

@@ -1,0 +1,2964 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-01-18 13:05\n"
+"PO-Revision-Date: 2017-01-18 13:05\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 2.5.1\n"
+
+msgid "Invalid source array"
+msgstr ""
+
+msgid "Invalid destination array"
+msgstr ""
+
+msgid "Character index out of bounds (%d)"
+msgstr ""
+
+msgid "Invalid count (%d)"
+msgstr ""
+
+msgid "Invalid destination index (%d)"
+msgstr ""
+
+msgid "Invalid codepage (%d)"
+msgstr ""
+
+msgid "Invalid character set (%s)"
+msgstr ""
+
+msgid "Invalid character set conversion (%s <-> "
+"%s)"
+msgstr ""
+
+msgid "Invalid character set conversion (%s <-> %s, "
+"%s)"
+msgstr ""
+
+msgid "Unsupported codepage (%d)"
+msgstr ""
+
+msgid "Unsupported character set (%s)"
+msgstr ""
+
+msgid "Failed attempting to retrieve time zone "
+"information."
+msgstr ""
+
+msgid "Error on call to Winsock2 library function "
+"%s"
+msgstr ""
+
+msgid "Error on loading Winsock2 library (%s)"
+msgstr ""
+
+msgid "Resolving hostname %s."
+msgstr ""
+
+msgid "Connecting to %s."
+msgstr ""
+
+msgid "Connected."
+msgstr ""
+
+msgid "Disconnecting."
+msgstr ""
+
+msgid "Disconnected."
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "Socket Error # %d\n"
+"%s"
+msgstr ""
+
+msgid "Interrupted system call."
+msgstr ""
+
+msgid "Bad file number."
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+msgid "Buffer fault."
+msgstr ""
+
+msgid "Invalid argument."
+msgstr ""
+
+msgid "Too many open files."
+msgstr ""
+
+msgid "Operation would block."
+msgstr ""
+
+msgid "Operation now in progress."
+msgstr ""
+
+msgid "Operation already in progress."
+msgstr ""
+
+msgid "Socket operation on non-socket."
+msgstr ""
+
+msgid "Destination address required."
+msgstr ""
+
+msgid "Message too long."
+msgstr ""
+
+msgid "Protocol wrong type for socket."
+msgstr ""
+
+msgid "Bad protocol option."
+msgstr ""
+
+msgid "Protocol not supported."
+msgstr ""
+
+msgid "Socket type not supported."
+msgstr ""
+
+msgid "Operation not supported on socket."
+msgstr ""
+
+msgid "Protocol family not supported."
+msgstr ""
+
+msgid "Address family not supported by protocol "
+"family."
+msgstr ""
+
+msgid "Address already in use."
+msgstr ""
+
+msgid "Cannot assign requested address."
+msgstr ""
+
+msgid "Network is down."
+msgstr ""
+
+msgid "Network is unreachable."
+msgstr ""
+
+msgid "Net dropped connection or reset."
+msgstr ""
+
+msgid "Software caused connection abort."
+msgstr ""
+
+msgid "Connection reset by peer."
+msgstr ""
+
+msgid "No buffer space available."
+msgstr ""
+
+msgid "Socket is already connected."
+msgstr ""
+
+msgid "Socket is not connected."
+msgstr ""
+
+msgid "Cannot send or receive after socket is "
+"closed."
+msgstr ""
+
+msgid "Too many references, cannot splice."
+msgstr ""
+
+msgid "Connection timed out."
+msgstr ""
+
+msgid "Connection refused."
+msgstr ""
+
+msgid "Too many levels of symbolic links."
+msgstr ""
+
+msgid "File name too long."
+msgstr ""
+
+msgid "Host is down."
+msgstr ""
+
+msgid "No route to host."
+msgstr ""
+
+msgid "Directory not empty"
+msgstr ""
+
+msgid "Host not found."
+msgstr ""
+
+msgid "Stack Class is undefined."
+msgstr ""
+
+msgid "Stack already created."
+msgstr ""
+
+msgid "Only one TIdAntiFreeze can exist per "
+"application."
+msgstr ""
+
+msgid "Cannot change IPVersion when connected"
+msgstr ""
+
+msgid "Can not bind in port range (%d - %d)"
+msgstr ""
+
+msgid "Connection Closed Gracefully."
+msgstr ""
+
+msgid "%s is corrupt."
+msgstr ""
+
+msgid "Could not bind socket. Address and port are already in "
+"use."
+msgstr ""
+
+msgid "Invalid Port Range (%d - %d)"
+msgstr ""
+
+msgid "%s is not a valid service."
+msgstr ""
+
+msgid "IPv6 unavailable"
+msgstr ""
+
+msgid "%s is not a valid IPv6 address"
+msgstr ""
+
+msgid "The requested IPVersion / Address family is not "
+"supported."
+msgstr ""
+
+msgid "Not all bytes sent."
+msgstr ""
+
+msgid "Package Size Too Big."
+msgstr ""
+
+msgid "Set Size Exceeded."
+msgstr ""
+
+msgid "No encoding specified."
+msgstr ""
+
+msgid "End of stream: Class %s at %d"
+msgstr ""
+
+msgid "Malicious PTR Record"
+msgstr ""
+
+msgid "No bindings specified."
+msgstr ""
+
+msgid "Cannot allocate socket."
+msgstr ""
+
+msgid "UDP is not support in this SOCKS version."
+msgstr ""
+
+msgid "Request rejected or failed."
+msgstr ""
+
+msgid "Request rejected because SOCKS server cannot "
+"connect."
+msgstr ""
+
+msgid "Request rejected because the client program and identd report "
+"different user-ids."
+msgstr ""
+
+msgid "Unknown socks error."
+msgstr ""
+
+msgid "Socks server did not respond."
+msgstr ""
+
+msgid "Invalid socks authentication method."
+msgstr ""
+
+msgid "Authentication error to socks server."
+msgstr ""
+
+msgid "General SOCKS server failure."
+msgstr ""
+
+msgid "Connection not allowed by ruleset."
+msgstr ""
+
+msgid "Network unreachable."
+msgstr ""
+
+msgid "Host unreachable."
+msgstr ""
+
+msgid "TTL expired."
+msgstr ""
+
+msgid "Command not supported."
+msgstr ""
+
+msgid "Address type not supported."
+msgstr ""
+
+msgid "Invalid IP Address"
+msgstr ""
+
+msgid "%s: Circular links are not allowed"
+msgstr ""
+
+msgid "Not enough data in buffer. (%d/%d)"
+msgstr ""
+
+msgid "Too much data in buffer."
+msgstr ""
+
+msgid "Capacity cannot be smaller than Size."
+msgstr ""
+
+msgid "No bytes in buffer."
+msgstr ""
+
+msgid "Index out of bounds."
+msgstr ""
+
+msgid "File \"%s\" not found"
+msgstr ""
+
+msgid "Not Connected"
+msgstr ""
+
+msgid "Object type not supported."
+msgstr ""
+
+msgid "No data to read."
+msgstr ""
+
+msgid "Read timed out."
+msgstr ""
+
+msgid "Max line read attempts exceeded."
+msgstr ""
+
+msgid "Accept timed out."
+msgstr ""
+
+msgid "Max line length exceeded."
+msgstr ""
+
+msgid "Set LargeStream to True to send streams greater than "
+"2GB"
+msgstr ""
+
+msgid "Data is too large for stream"
+msgstr ""
+
+msgid "Connect timed out."
+msgstr ""
+
+msgid "Not enough bytes received"
+msgstr ""
+
+msgid "Non-echo type response received"
+msgstr ""
+
+msgid "Cannot call TerminateAndWaitFor on FreeAndTerminate "
+"threads"
+msgstr ""
+
+msgid "Already connected."
+msgstr ""
+
+msgid "Terminate Thread Timeout"
+msgstr ""
+
+msgid "No execute handler found."
+msgstr ""
+
+msgid "No command handler found."
+msgstr ""
+
+msgid "Cannot perform task while server is "
+"active."
+msgstr ""
+
+msgid "Thread Class Not Specified."
+msgstr ""
+
+msgid "Maximum number of line allowed exceeded"
+msgstr ""
+
+msgid "Cannot create listening thread."
+msgstr ""
+
+msgid "The IOHandler already has a different Intercept "
+"assigned"
+msgstr ""
+
+msgid "The maximum number of threads for this scheduler is "
+"exceeded."
+msgstr ""
+
+msgid "Transparent proxy cannot bind."
+msgstr ""
+
+msgid "UDP Not supported by this proxy."
+msgstr ""
+
+msgid "Fibers are not supported on this system."
+msgstr ""
+
+msgid "The supplied IP address is not a valid multicast address [224.0.0.0 "
+"to 239.255.255.255]."
+msgstr ""
+
+msgid "This function is not supported on Win32."
+msgstr ""
+
+msgid "IP Broadcast Receive Error = 0."
+msgstr ""
+
+msgid "Recv "
+msgstr ""
+
+msgid "Sent "
+msgstr ""
+
+msgid "Stat "
+msgstr ""
+
+msgid "Unable to set Filename while log file is "
+"open."
+msgstr ""
+
+msgid "Buffer terminator must be specified."
+msgstr ""
+
+msgid "Buffer start position is invalid."
+msgstr ""
+
+msgid "Cannot change a connected IOHandler."
+msgstr ""
+
+msgid "No IOHandler of type %s is installed."
+msgstr ""
+
+msgid "Reply Code is not valid: %s"
+msgstr ""
+
+msgid "Reply Code already exists: %s"
+msgstr ""
+
+msgid "Thread must be specified for the scheduler."
+msgstr ""
+
+msgid "You must have an OnExecute event."
+msgstr ""
+
+msgid "Cannot set Loop property when the Thread is already "
+"running."
+msgstr ""
+
+msgid "Cannot set ThreadName when the Thread is already "
+"running."
+msgstr ""
+
+msgid "A Stack has not been created for converting the data "
+"type."
+msgstr ""
+
+msgid "Transparent Proxy Cyclic error."
+msgstr ""
+
+msgid "Cannot change the scheduler while the server is "
+"Active."
+msgstr ""
+
+msgid "You must use proxyOpen"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "net unreachable;"
+msgstr ""
+
+msgid "host unreachable;"
+msgstr ""
+
+msgid "protocol unreachable;"
+msgstr ""
+
+msgid "Port Unreachable"
+msgstr ""
+
+msgid "Fragmentation Needed and Don't Fragment was "
+"Set"
+msgstr ""
+
+msgid "Source Route Failed"
+msgstr ""
+
+msgid "Destination Network Unknown"
+msgstr ""
+
+msgid "Destination Host Unknown"
+msgstr ""
+
+msgid "Source Host Isolated"
+msgstr ""
+
+msgid "Communication with Destination Network is Administratively "
+"Prohibited"
+msgstr ""
+
+msgid "Communication with Destination Host is Administratively "
+"Prohibited"
+msgstr ""
+
+msgid "Destination Network Unreachable for Type of "
+"Service"
+msgstr ""
+
+msgid "Destination Host Unreachable for Type of "
+"Service"
+msgstr ""
+
+msgid "Communication Administratively Prohibited"
+msgstr ""
+
+msgid "Host Precedence Violation"
+msgstr ""
+
+msgid "Precedence cutoff in effect"
+msgstr ""
+
+msgid "no route to destination"
+msgstr ""
+
+msgid "communication with destination administratively "
+"prohibited"
+msgstr ""
+
+msgid "source address failed ingress/egress "
+"policy"
+msgstr ""
+
+msgid "reject route to destination"
+msgstr ""
+
+msgid "time to live exceeded in transit"
+msgstr ""
+
+msgid "hop limit exceeded in transit"
+msgstr ""
+
+msgid "fragment reassembly time exceeded."
+msgstr ""
+
+msgid "Parameter Problem (offset %d)"
+msgstr ""
+
+msgid "erroneous header field encountered (offset "
+"%d)"
+msgstr ""
+
+msgid "unrecognized Next Header type encountered (offset "
+"%d)"
+msgstr ""
+
+msgid "unrecognized IPv6 option encountered (offset "
+"%d)"
+msgstr ""
+
+msgid "Source Quench Message"
+msgstr ""
+
+msgid "Redirect datagrams for the Network."
+msgstr ""
+
+msgid "Redirect datagrams for the Host."
+msgstr ""
+
+msgid "Redirect datagrams for the Type of Service and "
+"Network."
+msgstr ""
+
+msgid "Redirect datagrams for the Type of Service and "
+"Host."
+msgstr ""
+
+msgid "Echo"
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+msgid "Information Request"
+msgstr ""
+
+msgid "Address Mask Request"
+msgstr ""
+
+msgid "Outbound Packet successfully forwarded"
+msgstr ""
+
+msgid "No route for Outbound Packet; packet "
+"discarded"
+msgstr ""
+
+msgid "Unknown/unspecified error"
+msgstr ""
+
+msgid "Don't Convert option present"
+msgstr ""
+
+msgid "Unknown mandatory option present"
+msgstr ""
+
+msgid "Known unsupported option present"
+msgstr ""
+
+msgid "Unsupported transport protocol"
+msgstr ""
+
+msgid "Overall length exceeded"
+msgstr ""
+
+msgid "IP header length exceeded"
+msgstr ""
+
+msgid "Transport protocol > 255"
+msgstr ""
+
+msgid "Port conversion out of range"
+msgstr ""
+
+msgid "Transport header length exceeded"
+msgstr ""
+
+msgid "32 Bit Rollover missing and ACK set"
+msgstr ""
+
+msgid "Unknown mandatory transport option present"
+msgstr ""
+
+msgid "Mobile Host Redirect"
+msgstr ""
+
+msgid "IPv6 Where-Are-You"
+msgstr ""
+
+msgid "IPv6 I-Am-Here"
+msgstr ""
+
+msgid "Mobile Registration Request"
+msgstr ""
+
+msgid "SKIP"
+msgstr ""
+
+msgid "Bad SPI"
+msgstr ""
+
+msgid "Authentication Failed"
+msgstr ""
+
+msgid "Decompression Failed"
+msgstr ""
+
+msgid "Decryption Failed"
+msgstr ""
+
+msgid "Need Authentication"
+msgstr ""
+
+msgid "Need Authorization"
+msgstr ""
+
+msgid "Packet Too Big (MTU = %d)"
+msgstr ""
+
+msgid "Cannot use a non-socket IOHandler"
+msgstr ""
+
+msgid "Failed to load %s."
+msgstr ""
+
+msgid "Mode has not been set."
+msgstr ""
+
+msgid "Could not load SSL library."
+msgstr ""
+
+msgid "SSL status: \"%s\""
+msgstr ""
+
+msgid "SSL connection has dropped."
+msgstr ""
+
+msgid "SSL certificate request error."
+msgstr ""
+
+msgid "SSL library internal error."
+msgstr ""
+
+msgid "%s Alert"
+msgstr ""
+
+msgid "%s Read Alert"
+msgstr ""
+
+msgid "%s Write Alert"
+msgstr ""
+
+msgid "Accept Loop"
+msgstr ""
+
+msgid "Accept Error"
+msgstr ""
+
+msgid "Accept Failed"
+msgstr ""
+
+msgid "Accept Exit"
+msgstr ""
+
+msgid "Connect Loop"
+msgstr ""
+
+msgid "Connect Error"
+msgstr ""
+
+msgid "Connect Failed"
+msgstr ""
+
+msgid "Connect Exit"
+msgstr ""
+
+msgid "Handshake Start"
+msgstr ""
+
+msgid "Handshake Done"
+msgstr ""
+
+msgid "IOHandler value is not valid"
+msgstr ""
+
+msgid "Error "
+msgstr ""
+
+msgid "Algorithm %s not permitted in FIPS mode"
+msgstr ""
+
+msgid "File Not Found"
+msgstr ""
+
+msgid "Packet too small"
+msgstr ""
+
+msgid "The specified SASL handlers are not "
+"ready!!"
+msgstr ""
+
+msgid "Doesn't support AUTH or the specified SASL "
+"handlers!!"
+msgstr ""
+
+msgid "Need SASL mechanisms to login with it!!"
+msgstr ""
+
+msgid "missing algorithm in challange."
+msgstr ""
+
+msgid "invalid algorithm in challange."
+msgstr ""
+
+msgid "auth-conf not yet supported."
+msgstr ""
+
+msgid "@ Outside address"
+msgstr ""
+
+msgid "Unable to initialize compressor"
+msgstr ""
+
+msgid "Unable to initialize decompressor"
+msgstr ""
+
+msgid "Compression error"
+msgstr ""
+
+msgid "Decompression error"
+msgstr ""
+
+msgid "Extension is empty"
+msgstr ""
+
+msgid "Mimetype is empty"
+msgstr ""
+
+msgid "Extension already exits"
+msgstr ""
+
+msgid "Indy SASL"
+msgstr ""
+
+msgid "Cannot load message from file %s"
+msgstr ""
+
+msgid "Encoding text"
+msgstr ""
+
+msgid "Encoding attachment"
+msgstr ""
+
+msgid "Invalid Encoding. UU only allows Body and "
+"Attachments."
+msgstr ""
+
+msgid "Message parts cannot be used in a message which has a "
+"ContentTransferEncoding value."
+msgstr ""
+
+msgid "Connection explicitly refused by NNTP "
+"server."
+msgstr ""
+
+msgid "Stringlist not initialized!"
+msgstr ""
+
+msgid "No OnNewsgroupList event has been defined."
+msgstr ""
+
+msgid "No OnNewGroupsList event has been defined."
+msgstr ""
+
+msgid "No OnNewNewsList event has been defined."
+msgstr ""
+
+msgid "No OnXHDREntry event has been defined."
+msgstr ""
+
+msgid "No OnXOVER event has been defined."
+msgstr ""
+
+msgid "Chunk Started"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Switching protocols"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Non-authoritative Information"
+msgstr ""
+
+msgid "No Content"
+msgstr ""
+
+msgid "Reset Content"
+msgstr ""
+
+msgid "Partial Content"
+msgstr ""
+
+msgid "Moved Permanently"
+msgstr ""
+
+msgid "Moved Temporarily"
+msgstr ""
+
+msgid "See Other"
+msgstr ""
+
+msgid "Not Modified"
+msgstr ""
+
+msgid "Use Proxy"
+msgstr ""
+
+msgid "Bad Request"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Method not allowed"
+msgstr ""
+
+msgid "Not Acceptable"
+msgstr ""
+
+msgid "Proxy Authentication Required"
+msgstr ""
+
+msgid "Request Timeout"
+msgstr ""
+
+msgid "Conflict"
+msgstr ""
+
+msgid "Gone"
+msgstr ""
+
+msgid "Length Required"
+msgstr ""
+
+msgid "Precondition Failed"
+msgstr ""
+
+msgid "Precondition Required"
+msgstr ""
+
+msgid "Too Many Requests"
+msgstr ""
+
+msgid "Request Header Fields Too Large"
+msgstr ""
+
+msgid "Network Authentication Required"
+msgstr ""
+
+msgid "Request Entity Too Long"
+msgstr ""
+
+msgid "Request-URI Too Long. 256 Chars max"
+msgstr ""
+
+msgid "Unsupported Media Type"
+msgstr ""
+
+msgid "Expectation Failed"
+msgstr ""
+
+msgid "Internal Server Error"
+msgstr ""
+
+msgid "Not Implemented"
+msgstr ""
+
+msgid "Bad Gateway"
+msgstr ""
+
+msgid "Service Unavailable"
+msgstr ""
+
+msgid "Gateway timeout"
+msgstr ""
+
+msgid "HTTP version not supported"
+msgstr ""
+
+msgid "Unknown Response Code"
+msgstr ""
+
+msgid "Unknown Protocol"
+msgstr ""
+
+msgid "Request method requires HTTP version "
+"1.1"
+msgstr ""
+
+msgid "Header has already been written."
+msgstr ""
+
+msgid "Error in parsing command."
+msgstr ""
+
+msgid "Unsupported authorization scheme."
+msgstr ""
+
+msgid "Cannot change session state when the server is "
+"active."
+msgstr ""
+
+msgid "Cannot change session list when the server is "
+"active."
+msgstr ""
+
+msgid "Cannot change session ID cookie name when the server is "
+"active."
+msgstr ""
+
+msgid "This authentication method is already registered with class name "
+"%s."
+msgstr ""
+
+msgid "Unsupported hash algorithm. This implementation supports only MD5 "
+"encoding."
+msgstr ""
+
+msgid "Unsupported cookie version: %d"
+msgstr ""
+
+msgid "Incorrect length in received block (%d)"
+msgstr ""
+
+msgid "Invalid number of arguments %s"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Connection established"
+msgstr ""
+
+msgid "Starting FTP transfer"
+msgstr ""
+
+msgid "Transfer complete"
+msgstr ""
+
+msgid "Transfer aborted"
+msgstr ""
+
+msgid "Error in parameters to %s"
+msgstr ""
+
+msgid "Parameter %s Not Implemented"
+msgstr ""
+
+msgid "Invalid port number"
+msgstr ""
+
+msgid "OnCustomFTPProxy required but not assigned"
+msgstr ""
+
+msgid "Data connection assurance check failed.\n"
+"Server reported IP: %s  Port: %d\n"
+"Our socket IP: %s  Port: %d"
+msgstr ""
+
+msgid "Protocol not supported, use"
+msgstr ""
+
+msgid "UseExtensionDataPort must be true for IPv6 "
+"connections."
+msgstr ""
+
+msgid "UseExtensionDataPort must be true for NAT "
+"fasttracking."
+msgstr ""
+
+msgid "Can not use active transfers with NAT "
+"fastracking."
+msgstr ""
+
+msgid "Server sent invalid port number (%s)"
+msgstr ""
+
+msgid "Unknown FTP listing format"
+msgstr ""
+
+msgid "No Site to Site transfers are permitted with a FTP NAT fastracked "
+"connection."
+msgstr ""
+
+msgid "Can't use dataprotection on site to site "
+"transfer."
+msgstr ""
+
+msgid "Transport protocols must be the same."
+msgstr ""
+
+msgid "SSCN is not supported on both servers."
+msgstr ""
+
+msgid "Can not set DataPortProtection after CCC "
+"issued."
+msgstr ""
+
+msgid "Can not set DataPortProtection with unencrypted "
+"connections."
+msgstr ""
+
+msgid "Can not set CCC without encyption."
+msgstr ""
+
+msgid "Can not set AUTH without SSL."
+msgstr ""
+
+msgid "Can not set AUTH while connected."
+msgstr ""
+
+msgid "Transfer modes must be the same."
+msgstr ""
+
+msgid "No FTP list parsers have been registered."
+msgstr ""
+
+msgid "No Compressor is assigned."
+msgstr ""
+
+msgid "Compressor is not ready."
+msgstr ""
+
+msgid "Unsupported transfer mode."
+msgstr ""
+
+msgid "Unsupported transfer type."
+msgstr ""
+
+msgid "command not recognized"
+msgstr ""
+
+msgid "%s is not a Gopher+ server"
+msgstr ""
+
+msgid "RCode NO Error"
+msgstr ""
+
+msgid "DNS Server Reports Query Server Error"
+msgstr ""
+
+msgid "DNS Server Reports Query Format Error"
+msgstr ""
+
+msgid "DNS Server Reports Query Name Error"
+msgstr ""
+
+msgid "DNS Server Reports Query Not Implemented "
+"Error"
+msgstr ""
+
+msgid "DNS Server Reports Query Refused Error"
+msgstr ""
+
+msgid "Server Returned Unknown Error"
+msgstr ""
+
+msgid "TimedOut"
+msgstr ""
+
+msgid "MF is an Obsolete Command. USE MX."
+msgstr ""
+
+msgid "MD is an Obsolete Command. Use MX."
+msgstr ""
+
+msgid "MailA is an Obsolete Command. USE MX."
+msgstr ""
+
+msgid "-Err 501 MailB is not implemented"
+msgstr ""
+
+msgid "Invalid Query Count %d"
+msgstr ""
+
+msgid "Invalid Packet Size %d"
+msgstr ""
+
+msgid "Received Packet is too small. Less than 4 bytes. "
+"%d"
+msgstr ""
+
+msgid "Invalid Header Id %d"
+msgstr ""
+
+msgid "Received Packet is too small. Less than 12 bytes. "
+"%d"
+msgstr ""
+
+msgid "Received Packet is too small. %d"
+msgstr ""
+
+msgid "Unknown Error %d, Id %d"
+msgstr ""
+
+msgid "Invalid IP V6 Address. %s"
+msgstr ""
+
+msgid "You have to provide a TIdRR_SOA object with Serial number and Name to "
+"progress IXFR. %d"
+msgstr ""
+
+msgid "Data file saved to %s"
+msgstr ""
+
+msgid "Control file save to %s"
+msgstr ""
+
+msgid "Directory %s does not exist"
+msgstr ""
+
+msgid "Winshoes LPD Server %s "
+msgstr ""
+
+msgid "Server status: active"
+msgstr ""
+
+msgid "Queue %s status: %s"
+msgstr ""
+
+msgid "closing connection"
+msgstr ""
+
+msgid "Unknown queue %s"
+msgstr ""
+
+msgid "connected with %s"
+msgstr ""
+
+msgid "abort job"
+msgstr ""
+
+msgid "Receive control file"
+msgstr ""
+
+msgid "Receive data file"
+msgstr ""
+
+msgid "Error: no queues defined"
+msgstr ""
+
+msgid "Unexpected operation from %s:%d"
+msgstr ""
+
+msgid "Unsupported transfer mode: \"%s\""
+msgstr ""
+
+msgid "Unable to complete write request, progress halted at %d "
+"bytes"
+msgstr ""
+
+msgid "Unable to open %s"
+msgstr ""
+
+msgid "Access to %s denied"
+msgstr ""
+
+msgid "Unsupported option: \"%s\""
+msgstr ""
+
+msgid "Unsupported value \"%s\" for option: \"%s\""
+msgstr ""
+
+msgid "Invalid Text count. Must have more than 1 TIdText "
+"object."
+msgstr ""
+
+msgid "TIdMessagePart can not be created.  Use descendant classes. "
+msgstr ""
+
+msgid "Error saving attachment."
+msgstr ""
+
+msgid "Attachment %s is blocked."
+msgstr ""
+
+msgid " not specified"
+msgstr ""
+
+msgid "Unrecognized POP3 Response Header:\n"
+"\"%s\""
+msgstr ""
+
+msgid "Server do not support APOP (no timestamp)"
+msgstr ""
+
+msgid "Unable to execute command, wrong connection state;Current connection "
+"state: %s."
+msgstr ""
+
+msgid "Unrecognized IMAP4 Response Header."
+msgstr ""
+
+msgid "Number parameter (relative message number or UID) is invalid; Must be "
+"1 or greater."
+msgstr ""
+
+msgid "Number parameter (relative message number or UID) is invalid; Cannot "
+"contain an empty string."
+msgstr ""
+
+msgid "Number parameter (relative message number or UID) is invalid; Cannot "
+"contain non-digit characters."
+msgstr ""
+
+msgid "Server has gracefully disconnected you, possibly because the "
+"connection was idle for too long."
+msgstr ""
+
+msgid "Illegal char #%d in UTF7 sequence."
+msgstr ""
+
+msgid "Illegal bit shifting in MUTF7 string"
+msgstr ""
+
+msgid "US-ASCII char #%d in UTF7 sequence."
+msgstr ""
+
+msgid "Any"
+msgstr ""
+
+msgid "Non Authenticated"
+msgstr ""
+
+msgid "Authenticated"
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Unexpectedly Disconnected"
+msgstr ""
+
+msgid "Username: "
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Invalid Login."
+msgstr ""
+
+msgid "Allowed login attempts exceeded, good "
+"bye."
+msgstr ""
+
+msgid "No authentication handler has been specified."
+msgstr ""
+
+msgid "Indy Telnet Server"
+msgstr ""
+
+msgid "OnDataAvailable event is nil."
+msgstr ""
+
+msgid "server not responding"
+msgstr ""
+
+msgid "Server did not respond."
+msgstr ""
+
+msgid "The string %s does not translate into a valid "
+"IP."
+msgstr ""
+
+msgid "Invalid network mask."
+msgstr ""
+
+msgid "Invalid value length: Should be 32."
+msgstr ""
+
+msgid "There is too many IP addresses in the specified range (%d) to be "
+"displayed at design time."
+msgstr ""
+
+msgid "Reply Timed Out:  The server did not return a response and the query "
+"has been abandoned"
+msgstr ""
+
+msgid "Invalid Port:  The foreign or local port is not specified correctly "
+"or invalid"
+msgstr ""
+
+msgid "No User:  Port pair is not used or not used by an identifiable "
+"user"
+msgstr ""
+
+msgid "Hidden User:  Information was not returned at a user's "
+"request"
+msgstr ""
+
+msgid "Unknown or other error: Can not determine owner, other error, or the "
+"error can not be revealed."
+msgstr ""
+
+msgid "Call to %s.GetByte [property Bytes] with index <> "
+"[0..%d]"
+msgstr ""
+
+msgid "Error in transformation before send"
+msgstr ""
+
+msgid "Transform failed"
+msgstr ""
+
+msgid "CRC Failed"
+msgstr ""
+
+msgid "Connecting"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Cannt connect to the Master server"
+msgstr ""
+
+msgid "Do not allow connctions now"
+msgstr ""
+
+msgid "Message type recognition error"
+msgstr ""
+
+msgid "Message handling failed"
+msgstr ""
+
+msgid "Interpretation of message failed"
+msgstr ""
+
+msgid "Custom message interpretation failed"
+msgstr ""
+
+msgid "Destination file already exists."
+msgstr ""
+
+msgid "Error accepting connection with SSL."
+msgstr ""
+
+msgid "Error connecting with SSL."
+msgstr ""
+
+msgid "SetCipher failed."
+msgstr ""
+
+msgid "Error creating SSL session."
+msgstr ""
+
+msgid "Error creating SSL context."
+msgstr ""
+
+msgid "Could not load root certificate."
+msgstr ""
+
+msgid "Could not load certificate."
+msgstr ""
+
+msgid "Could not load key, check password."
+msgstr ""
+
+msgid "Could not load DH Parameters."
+msgstr ""
+
+msgid "Error getting SSL method."
+msgstr ""
+
+msgid "Error setting File Descriptor for SSL"
+msgstr ""
+
+msgid "Error binding data to SSL socket."
+msgstr ""
+
+msgid "EOF was observed that violates the protocol"
+msgstr ""
+
+msgid "Loading function %s failed"
+msgstr ""
+
+msgid "&New Message Part..."
+msgstr ""
+
+msgid "Extra Headers Text Editor"
+msgstr ""
+
+msgid "Body Text Editor"
+msgstr ""
+
+msgid "Command not recognized"
+msgstr ""
+
+msgid "Goodbye"
+msgstr ""
+
+msgid "Implicit NNTP requires that IOHandler be set to a "
+"TIdSSLIOHandlerSocketBase."
+msgstr ""
+
+msgid " article retrieved - head and body follow"
+msgstr ""
+
+msgid " article retrieved - body follows"
+msgstr ""
+
+msgid " article retrieved - head follows"
+msgstr ""
+
+msgid " article retrieved - statistics only"
+msgstr ""
+
+msgid "News to me!  <CRLF.CRLF> to end."
+msgstr ""
+
+msgid " article retrieved - request text separately"
+msgstr ""
+
+msgid "Not currently in newsgroup"
+msgstr ""
+
+msgid "Extensions supported:"
+msgstr ""
+
+msgid "help text follows"
+msgstr ""
+
+msgid "debug output"
+msgstr ""
+
+msgid "server ready - posting allowed"
+msgstr ""
+
+msgid "server ready - no posting allowed"
+msgstr ""
+
+msgid "slave status noted"
+msgstr ""
+
+msgid "closing connection - goodbye!"
+msgstr ""
+
+msgid "list of newsgroups follows"
+msgstr ""
+
+msgid "Headers follow"
+msgstr ""
+
+msgid "Overview information follows"
+msgstr ""
+
+msgid "list of new newsgroups follows"
+msgstr ""
+
+msgid "article transferred ok"
+msgstr ""
+
+msgid "article posted ok"
+msgstr ""
+
+msgid "Authentication accepted"
+msgstr ""
+
+msgid "send article to be transferred. End with "
+"<CR-LF>.<CR-LF>"
+msgstr ""
+
+msgid "send article to be posted. End with "
+"<CR-LF>.<CR-LF>"
+msgstr ""
+
+msgid "More authentication information required"
+msgstr ""
+
+msgid "Continue with TLS negotiation"
+msgstr ""
+
+msgid "service discontinued"
+msgstr ""
+
+msgid "TLS temporarily not available"
+msgstr ""
+
+msgid "no such news group"
+msgstr ""
+
+msgid "no newsgroup has been selected"
+msgstr ""
+
+msgid "no current article has been selected"
+msgstr ""
+
+msgid "no next article in this group"
+msgstr ""
+
+msgid "no previous article in this group"
+msgstr ""
+
+msgid "no such article number in this group"
+msgstr ""
+
+msgid "no such article found"
+msgstr ""
+
+msgid "article not wanted - do not send it"
+msgstr ""
+
+msgid "transfer failed - try again later"
+msgstr ""
+
+msgid "article rejected - do not try again."
+msgstr ""
+
+msgid "posting not allowed"
+msgstr ""
+
+msgid "posting failed"
+msgstr ""
+
+msgid "Authorization required for this command"
+msgstr ""
+
+msgid "Authorization rejected"
+msgstr ""
+
+msgid "Authentication required"
+msgstr ""
+
+msgid "Strong encryption layer is required"
+msgstr ""
+
+msgid "command syntax error"
+msgstr ""
+
+msgid "access restriction or permission denied"
+msgstr ""
+
+msgid "program fault - command not performed"
+msgstr ""
+
+msgid "Security layer already active"
+msgstr ""
+
+msgid "Error: No program code to return request!"
+msgstr ""
+
+msgid "Invalid syslog message: incorrect PRI "
+"section"
+msgstr ""
+
+msgid "Invalid syslog message: incorrect PRI number "
+"\"%s\""
+msgstr ""
+
+msgid "Invalid syslog message: incorrect timestamp "
+"\"%s\""
+msgstr ""
+
+msgid "Invalid Syslog message: packet too large (%d "
+"bytes)"
+msgstr ""
+
+msgid "Invalid host name. A SYSLOG host name cannot contain any space "
+"(\"%s\")+"
+msgstr ""
+
+msgid "Winsock stack"
+msgstr ""
+
+msgid "Command Not Recognised"
+msgstr ""
+
+msgid "Signing Off"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Start mail input; end with <CRLF>.<CRLF>"
+msgstr ""
+
+msgid "%s Address Okay"
+msgstr ""
+
+msgid "%s Address Error"
+msgstr ""
+
+msgid "%s Sender Not Permitted"
+msgstr ""
+
+msgid "We do not relay %s"
+msgstr ""
+
+msgid "Welcome to the INDY SMTP Server"
+msgstr ""
+
+msgid "Hello %s"
+msgstr ""
+
+msgid "Polite people say HELO"
+msgstr ""
+
+msgid "Syntax Error - Command not understood: "
+"%s"
+msgstr ""
+
+msgid "Indy SMTP Server"
+msgstr ""
+
+msgid "by DNSName [127.0.0.1] running Indy "
+"SMTP"
+msgstr ""
+
+msgid "%s User not local, Will forward"
+msgstr ""
+
+msgid "Must issue a STARTTLS command first"
+msgstr ""
+
+msgid "Parameter error! Example: mail from:<user@domain.com>"
+msgstr ""
+
+msgid "Command parameter error! Example: rcpt "
+"to:<a@b.c>"
+msgstr ""
+
+msgid "Syntax error in parameters or arguments"
+msgstr ""
+
+msgid "Syntax error (no parameters allowed)"
+msgstr ""
+
+msgid "Ready to start TLS"
+msgstr ""
+
+msgid "Command refused due to lack of security"
+msgstr ""
+
+msgid "Implicit SMTP TLS requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr ""
+
+msgid "Bad sequence of commands"
+msgstr ""
+
+msgid "Not logged in"
+msgstr ""
+
+msgid "Requested action not taken: mailbox "
+"unavailable"
+msgstr ""
+
+msgid "User %s not local; please try <%s>"
+msgstr ""
+
+msgid "User %s not local; no forwarding address"
+msgstr ""
+
+msgid "User %s not local; will forward to <%s>"
+msgstr ""
+
+msgid "Too Many recipients."
+msgstr ""
+
+msgid "%s Account Disabled"
+msgstr ""
+
+msgid "Local Processing Error"
+msgstr ""
+
+msgid "No OnRcptTo event"
+msgstr ""
+
+msgid "Requested mail action aborted: exceeded storage "
+"allocation"
+msgstr ""
+
+msgid "Requested action not taken: mailbox name not "
+"allowed"
+msgstr ""
+
+msgid " Transaction failed"
+msgstr ""
+
+msgid "Requested action aborted: local error in "
+"processing"
+msgstr ""
+
+msgid "Requested action not taken: insufficient system storage "
+msgstr ""
+
+msgid "Message length exceeds administrative "
+"limit"
+msgstr ""
+
+msgid "SPF %s check failed"
+msgstr ""
+
+msgid "SPF %s check error"
+msgstr ""
+
+msgid "Implicit POP3 requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr ""
+
+msgid "Must use STLS"
+msgstr ""
+
+msgid "Command Not Handled: %s"
+msgstr ""
+
+msgid "Command not permitted when TLS active"
+msgstr ""
+
+msgid "Command not permitted in this state"
+msgstr ""
+
+msgid "Begin TLS negotiation"
+msgstr ""
+
+msgid "Please login first"
+msgstr ""
+
+msgid "Invalid Syntax"
+msgstr ""
+
+msgid "Closing Connection Channel."
+msgstr ""
+
+msgid "Password required"
+msgstr ""
+
+msgid "Login failed"
+msgstr ""
+
+msgid "Login OK"
+msgstr ""
+
+msgid "Wrong State"
+msgstr ""
+
+msgid "Invalid Message Number"
+msgstr ""
+
+msgid "NOOP"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Capability list follows"
+msgstr ""
+
+msgid "Welcome to Indy POP3 Server"
+msgstr ""
+
+msgid "Sorry, Unknown Command"
+msgstr ""
+
+msgid "Sorry, Unknown Command: %s"
+msgstr ""
+
+msgid "Unknown Internal Error"
+msgstr ""
+
+msgid "Help follows"
+msgstr ""
+
+msgid "Too many connections. Try again later."
+msgstr ""
+
+msgid "Welcome "
+msgstr ""
+
+msgid "Uneven size in DecodeToStream."
+msgstr ""
+
+msgid "Uneven size in Encode."
+msgstr ""
+
+msgid "Illegal character in input string."
+msgstr ""
+
+msgid "Message decoder not found"
+msgstr ""
+
+msgid "Message encoder not found"
+msgstr ""
+
+msgid "Unrecognized content trasnfer encoding."
+msgstr ""
+
+msgid "Unrecognized UUE encoding scheme."
+msgstr ""
+
+msgid "Indy FTP Server ready."
+msgstr ""
+
+msgid "Data connection already open; transfer "
+"starting."
+msgstr ""
+
+msgid "File status okay; about to open data "
+"connection."
+msgstr ""
+
+msgid "Opening ASCII mode data connection for "
+"/bin/ls."
+msgstr ""
+
+msgid "Opening ASCII mode data connection for file "
+"list."
+msgstr ""
+
+msgid "Opening ASCII data connection for directory "
+"listing"
+msgstr ""
+
+msgid "%s Command successful."
+msgstr ""
+
+msgid "Service ready for new user."
+msgstr ""
+
+msgid "Service closing control connection."
+msgstr ""
+
+msgid "Data connection open; no transfer in "
+"progress."
+msgstr ""
+
+msgid "Closing data connection."
+msgstr ""
+
+msgid "Success."
+msgstr ""
+
+msgid "Data connection closed abnormally."
+msgstr ""
+
+msgid "Entering Passive Mode (%s)."
+msgstr ""
+
+msgid "User logged in, proceed."
+msgstr ""
+
+msgid "Anonymous user logged in, proceed."
+msgstr ""
+
+msgid "Requested file action okay, completed."
+msgstr ""
+
+msgid "\"%s\" created."
+msgstr ""
+
+msgid "User name okay, need password."
+msgstr ""
+
+msgid "Anonymous login OK, send e-mail as password."
+msgstr ""
+
+msgid "Login with USER first."
+msgstr ""
+
+msgid "Not in authorization state, already logged "
+"in."
+msgstr ""
+
+msgid "Requested file action pending further "
+"information."
+msgstr ""
+
+msgid "Service not available, closing control "
+"connection."
+msgstr ""
+
+msgid "Can't open data connection."
+msgstr ""
+
+msgid "Requested file action not taken."
+msgstr ""
+
+msgid "Requested action aborted: local error in "
+"processing."
+msgstr ""
+
+msgid "Entering Extended Passive Mode (%s)"
+msgstr ""
+
+msgid "PORT/EPRT Command disabled."
+msgstr ""
+
+msgid "PORT/EPRT Command disabled for reserved port range "
+"(1-1024)."
+msgstr ""
+
+msgid "Data port can only be used by the same IP address used by the control "
+"connection."
+msgstr ""
+
+msgid " EPSV ALL sent, now only accepting EPSV "
+"connections"
+msgstr ""
+
+msgid "Network protocol not supported, use "
+"(%s)"
+msgstr ""
+
+msgid "File Operation Successful"
+msgstr ""
+
+msgid "%s: Is a file."
+msgstr ""
+
+msgid "Invalid %s options"
+msgstr ""
+
+msgid "Option not recognized."
+msgstr ""
+
+msgid "Property can not be a negative number."
+msgstr ""
+
+msgid "Noted."
+msgstr ""
+
+msgid "Goodbye."
+msgstr ""
+
+msgid "PASVBoundPortMax must be greater than "
+"PASVBoundPortMax."
+msgstr ""
+
+msgid "PASVBoundPortMin must be less than PASVBoundPortMax."
+msgstr ""
+
+msgid "Requested action not taken."
+msgstr ""
+
+msgid "'%s': command not understood."
+msgstr ""
+
+msgid "\"%s\" Command not implemented."
+msgstr ""
+
+msgid "Unknown command %s."
+msgstr ""
+
+msgid "Not logged in."
+msgstr ""
+
+msgid "Requested action aborted: page type "
+"unknown."
+msgstr ""
+
+msgid "Requested file action aborted."
+msgstr ""
+
+msgid "Maximum connections limit exceeded. Try again "
+"later."
+msgstr ""
+
+msgid "About to open data connection for %s"
+msgstr ""
+
+msgid "Need account for login."
+msgstr ""
+
+msgid "AUTH Command OK. Initializing SSL"
+msgstr ""
+
+msgid "PBSZ Command OK. Protection buffer size set to "
+"0."
+msgstr ""
+
+msgid "Requested PROT level not supported by "
+"mechanism."
+msgstr ""
+
+msgid "PROT Command OK. Using Clear data connection"
+msgstr ""
+
+msgid "PROT Command OK. Using Private data "
+"connection"
+msgstr ""
+
+msgid "Command channel switched to clear-text."
+msgstr ""
+
+msgid "Clear command channel is not permitted."
+msgstr ""
+
+msgid "AUTH Data required."
+msgstr ""
+
+msgid "Not permitted after CCC"
+msgstr ""
+
+msgid "PBSZ Data Buffer Size required."
+msgstr ""
+
+msgid "Command not implemented for that parameter."
+msgstr ""
+
+msgid "%s not allowed after EPSV ALL"
+msgstr ""
+
+msgid "Unknown OTP method"
+msgstr ""
+
+msgid "IOHandler is of wrong type."
+msgstr ""
+
+msgid "The destination filename can not be "
+"empty"
+msgstr ""
+
+msgid "\"%s\" is working directory."
+msgstr ""
+
+msgid "Type set to %s."
+msgstr ""
+
+msgid "Mode set to %s."
+msgstr ""
+
+msgid "Unimplemented mode."
+msgstr ""
+
+msgid "Structure set to %s."
+msgstr ""
+
+msgid "The following SITE commands are supported:"
+msgstr ""
+
+msgid "%s directory structure."
+msgstr ""
+
+msgid "System status"
+msgstr ""
+
+msgid "End of Status"
+msgstr ""
+
+msgid "End of extentions."
+msgstr ""
+
+msgid "No OnListDirectory event found!"
+msgstr ""
+
+msgid "Implicit FTP requires that IOHandler be set to a "
+"TIdServerIOHandlerSSL."
+msgstr ""
+
+msgid "site attrib"
+msgstr ""
+
+msgid " failed, invalid attribute."
+msgstr ""
+
+msgid " done, total %s attributes changed."
+msgstr ""
+
+msgid "Current UMASK is %.3d"
+msgstr ""
+
+msgid "UMASK set to %.3d (was %.3d)"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "CHMOD command successful."
+msgstr ""
+
+msgid "The following commands are recognized (* => unimplemented, + => "
+"extension)."
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "MSDOS-like directory output is %s"
+msgstr ""
+
+msgid "kernel messages"
+msgstr ""
+
+msgid "user-level messages"
+msgstr ""
+
+msgid "mail system"
+msgstr ""
+
+msgid "system daemons"
+msgstr ""
+
+msgid "security/authorization messages (1)"
+msgstr ""
+
+msgid "messages generated internally by syslogd"
+msgstr ""
+
+msgid "line printer subsystem"
+msgstr ""
+
+msgid "network news subsystem"
+msgstr ""
+
+msgid "UUCP subsystem"
+msgstr ""
+
+msgid "clock daemon (1)"
+msgstr ""
+
+msgid "security/authorization messages (2)"
+msgstr ""
+
+msgid "FTP daemon"
+msgstr ""
+
+msgid "NTP subsystem"
+msgstr ""
+
+msgid "log audit"
+msgstr ""
+
+msgid "log alert"
+msgstr ""
+
+msgid "clock daemon (2)"
+msgstr ""
+
+msgid "local use 0  (local0)"
+msgstr ""
+
+msgid "local use 1  (local1)"
+msgstr ""
+
+msgid "local use 2  (local2)"
+msgstr ""
+
+msgid "local use 3  (local3)"
+msgstr ""
+
+msgid "local use 4  (local4)"
+msgstr ""
+
+msgid "local use 5  (local5)"
+msgstr ""
+
+msgid "local use 6  (local6)"
+msgstr ""
+
+msgid "local use 7  (local7)"
+msgstr ""
+
+msgid "Unknown or illegale facility code"
+msgstr ""
+
+msgid "Emergency: system is unusable"
+msgstr ""
+
+msgid "Alert: action must be taken immediately"
+msgstr ""
+
+msgid "Critical: critical conditions"
+msgstr ""
+
+msgid "Error: error conditions"
+msgstr ""
+
+msgid "Warning: warning conditions"
+msgstr ""
+
+msgid "Notice: normal but significant condition"
+msgstr ""
+
+msgid "Informational: informational messages"
+msgstr ""
+
+msgid "Debug: debug-level messages"
+msgstr ""
+
+msgid "Unknown or illegale security code"
+msgstr ""
+
+msgid "Reply %d on Job ID %s"
+msgstr ""
+
+msgid "Cannot bind to a LPR port from range %d to %d (No free "
+"Port)"
+msgstr ""
+
+msgid "IRC Connect Failed"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Failed to Start: %s"
+msgstr ""
+
+msgid "Failed to Stop: %s"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Reconnect at %s: %s"
+msgstr ""
+
+msgid "You cannot set %s while the HL7 Component is "
+"working"
+msgstr ""
+
+msgid "Attempt to %s while the HL7 Component is not "
+"working"
+msgstr ""
+
+msgid "Interface is unusable due to failure to "
+"stop"
+msgstr ""
+
+msgid "Interface was already started"
+msgstr ""
+
+msgid "Interface was already stopped"
+msgstr ""
+
+msgid "Mode is not initialised"
+msgstr ""
+
+msgid "Component is in Asynchronous mode but OnMessageArrive has not been "
+"hooked"
+msgstr ""
+
+msgid "Component is in Synchronous mode but  OnMessageReceive has not been "
+"hooked"
+msgstr ""
+
+msgid "Assigned Port value %d is invalid"
+msgstr ""
+
+msgid "A message has been received but the commication mode is "
+"unknown"
+msgstr ""
+
+msgid "Unexpected message arrived to an interface that is not "
+"listening"
+msgstr ""
+
+msgid "Unknown mode"
+msgstr ""
+
+msgid "Unable to stop client thread"
+msgstr ""
+
+msgid "Send a message"
+msgstr ""
+
+msgid "Server Connection not locatable when sending "
+"message"
+msgstr ""
+
+msgid "You cannot send a message while you are still waiting for an "
+"answer"
+msgstr ""
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned "
+"srNone"
+msgstr ""
+
+msgid "Not connected"
+msgstr ""
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned "
+"srSent"
+msgstr ""
+
+msgid "No response from remote system"
+msgstr ""
+
+msgid "Internal error in IdHL7.pas: SynchronousSend returned an unknown "
+"value "
+msgstr ""
+
+msgid "IdHL7 is broken in Indy 10 for the present"
+msgstr ""
+
+msgid "Unsupported object type. You can assign only one of the following "
+"types or their descendants: TStrings, "
+"TStream."
+msgstr ""
+
+msgid "Unsupported transfer type. You can assign only an empty string or one "
+"of the following values: 7bit, 8bit, binary, quoted-printable, "
+"base64."
+msgstr ""
+
+msgid "Unsupported encoding. You can assign only one of the following "
+"values: Q, B, 8."
+msgstr ""
+
+msgid "Protocol field is empty"
+msgstr ""
+
+msgid "Host field is empty"
+msgstr ""
+
+msgid "You must chain this component to another I/O Handler before using "
+"it"
+msgstr ""
+
+msgid "TIdSNPP Mess command only supports single line "
+"Messages."
+msgstr ""
+
+msgid "Unassigned UserPassProvider!"
+msgstr ""
+
+msgid "Invalid Email Address %s"
+msgstr ""
+
+msgid "No MX records for the domain %s"
+msgstr ""
+
+msgid "Can not connect to MX servers for address "
+"%s"
+msgstr ""
+
+msgid "Can not assign Host property, it is resolved by IdDirectSMTP on the "
+"fly."
+msgstr ""
+
+msgid "File corrupted."
+msgstr ""
+
+msgid "Invalid Size"
+msgstr ""
+
+msgid "Invalid CRC"
+msgstr ""
+
+msgid "Not supported"
+msgstr ""
+
+msgid "Invalid Login"
+msgstr ""
+
+msgid "Wrong SOCKS5-ATYP"
+msgstr ""
+
+msgid "Wrong SOCKS-version"
+msgstr ""
+
+msgid "Wrong SOCKS-Command"
+msgstr ""
+
+msgid "Access Denied"
+msgstr ""
+
+msgid "Unexpected Close"
+msgstr ""
+
+msgid "Peer IP mismatch"
+msgstr ""
+
+msgid "SSL IOHandler is required for this setting"
+msgstr ""
+
+msgid "This value can not be set while the server is "
+"active."
+msgstr ""
+
+msgid "This value can not be set while the client is "
+"connected."
+msgstr ""
+
+msgid "SSL is not available on this server."
+msgstr ""
+
+msgid "Start SSL negotiation command failed."
+msgstr ""
+
+msgid "SSL negotiation failed."
+msgstr ""
+
+msgid "Invalid Enhanced Code: "
+msgstr ""
+
+msgid "Invalid Reply String."
+msgstr ""
+
+msgid "Invalid Reply Class."
+msgstr ""
+
+msgid "Unsupported operation."
+msgstr ""
+
+msgid "Host is empty"
+msgstr ""
+
+msgid "POP3 proxy ready"
+msgstr ""
+
+msgid "command must be either USER or QUIT"
+msgstr ""
+
+msgid "POP3 proxy signing off"
+msgstr ""
+
+msgid "Begin TLS negotiation now"
+msgstr ""
+
+msgid "Implicit IMAP4 requires that IOHandler be set to a "
+"TIdServerIOHandlerSSLBase."
+msgstr ""
+
+msgid "Permission Denied"
+msgstr ""
+
+msgid "Could not encode header data using charset "
+"\"%s\""
+msgstr ""
+
+msgid "Could not decode header data using charset "
+"\"%s\""
+msgstr ""
+
+msgid "An HTML viewer is required to see this "
+"message"
+msgstr ""
+
+msgid "An RTF viewer is required to see this "
+"message"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetDateVariable"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetDateVariable"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetIntegerVariable"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetIntegerVariable"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetStringVariable"
+msgstr ""
+
+msgid "TIdHTTPAppResponse.SetStringVariable: Cannot set the "
+"version"
+msgstr ""
+
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetStringVariable"
+msgstr ""
+
+msgid "Successfull API call"
+msgstr ""
+
+msgid "Not enough memory is available to complete this "
+"request"
+msgstr ""
+
+msgid "The handle specified is invalid"
+msgstr ""
+
+msgid "The function requested is not supported"
+msgstr ""
+
+msgid "The specified target is unknown or unreachable"
+msgstr ""
+
+msgid "The Local Security Authority cannot be "
+"contacted"
+msgstr ""
+
+msgid "The requested security package does not "
+"exist"
+msgstr ""
+
+msgid "The caller is not the owner of the desired "
+"credentials"
+msgstr ""
+
+msgid "The security package failed to initialize, and cannot be "
+"installed"
+msgstr ""
+
+msgid "The token supplied to the function is "
+"invalid"
+msgstr ""
+
+msgid "The security package is not able to marshall the logon buffer, so the "
+"logon attempt has failed"
+msgstr ""
+
+msgid "The per-message Quality of Protection is not supported by the "
+"security package"
+msgstr ""
+
+msgid "The security context does not allow impersonation of the "
+"client"
+msgstr ""
+
+msgid "The logon attempt failed"
+msgstr ""
+
+msgid "The credentials supplied to the package were not "
+"recognized"
+msgstr ""
+
+msgid "No credentials are available in the security "
+"package"
+msgstr ""
+
+msgid "The message or signature supplied for verification has been "
+"altered"
+msgstr ""
+
+msgid "The message supplied for verification is out of "
+"sequence"
+msgstr ""
+
+msgid "No authority could be contacted for "
+"authentication."
+msgstr ""
+
+msgid "The function completed successfully, but must be called again to "
+"complete the context"
+msgstr ""
+
+msgid "The function completed successfully, but CompleteToken must be "
+"called"
+msgstr ""
+
+msgid "The function completed successfully, but both CompleteToken and this "
+"function must be called to complete the "
+"context"
+msgstr ""
+
+msgid "The logon was completed, but no network authority was available. The "
+"logon was made using locally known information"
+msgstr ""
+
+msgid "The context has expired and can no longer be "
+"used."
+msgstr ""
+
+msgid "The supplied message is incomplete.  The signature was not "
+"verified."
+msgstr ""
+
+msgid "The credentials supplied were not complete, and could not be "
+"verified. The context could not be initialized."
+msgstr ""
+
+msgid "The buffers supplied to a function was too "
+"small."
+msgstr ""
+
+msgid "The credentials supplied were not complete, and could not be "
+"verified. Additional information can be returned from the "
+"context."
+msgstr ""
+
+msgid "The context data must be renegotiated with the "
+"peer."
+msgstr ""
+
+msgid "The target principal name is incorrect."
+msgstr ""
+
+msgid "There is no LSA mode context associated with this "
+"context."
+msgstr ""
+
+msgid "The clocks on the client and server machines are "
+"skewed."
+msgstr ""
+
+msgid "The certificate chain was issued by an untrusted "
+"authority."
+msgstr ""
+
+msgid "The message received was unexpected or badly "
+"formatted."
+msgstr ""
+
+msgid "An unknown error occurred while processing the "
+"certificate."
+msgstr ""
+
+msgid "The received certificate has expired."
+msgstr ""
+
+msgid "The specified data could not be encrypted."
+msgstr ""
+
+msgid "The specified data could not be decrypted."
+msgstr ""
+
+msgid "The client and server cannot communicate, because they do not possess "
+"a common algorithm."
+msgstr ""
+
+msgid "The security context could not be established due to a failure in the "
+"requested quality of service (e.g. mutual authentication or "
+"delegation)."
+msgstr ""
+
+msgid "A security context was deleted before the context was completed. This "
+"is considered a logon failure."
+msgstr ""
+
+msgid "The client is trying to negotiate a context and the server requires "
+"user-to-user but didn't send a TGT reply."
+msgstr ""
+
+msgid "Unable to accomplish the requested task because the local machine "
+"does not have any IP addresses."
+msgstr ""
+
+msgid "The supplied credential handle does not match the credential "
+"associated with the security context."
+msgstr ""
+
+msgid "The crypto system or checksum function is invalid because a required "
+"function is unavailable."
+msgstr ""
+
+msgid "The number of maximum ticket referrals has been "
+"exceeded."
+msgstr ""
+
+msgid "The local machine must be a Kerberos KDC (domain controller) and it "
+"is not."
+msgstr ""
+
+msgid "The other end of the security negotiation is requires strong crypto "
+"but it is not supported on the local "
+"machine."
+msgstr ""
+
+msgid "The KDC reply contained more than one principal "
+"name."
+msgstr ""
+
+msgid "Expected to find PA data for a hint of what etype to use, but it was "
+"not found."
+msgstr ""
+
+msgid "The client certificate does not contain a valid UPN, or does not "
+"match the client name in the logon request. Please contact your "
+"administrator."
+msgstr ""
+
+msgid "Smartcard logon is required and was not "
+"used."
+msgstr ""
+
+msgid "A system shutdown is in progress."
+msgstr ""
+
+msgid "An invalid request was sent to the KDC."
+msgstr ""
+
+msgid "The KDC was unable to generate a referral for the service "
+"requested."
+msgstr ""
+
+msgid "The encryption type requested is not supported by the "
+"KDC."
+msgstr ""
+
+msgid "An unsupported preauthentication mechanism was presented to the "
+"Kerberos package."
+msgstr ""
+
+msgid "The requested operation cannot be completed. The computer must be "
+"trusted for delegation and the current user account must be "
+"configured to allow delegation."
+msgstr ""
+
+msgid "Client's supplied SSPI channel bindings were "
+"incorrect."
+msgstr ""
+
+msgid "The received certificate was mapped to multiple "
+"accounts."
+msgstr ""
+
+msgid "SEC_E_NO_KERB_KEY"
+msgstr ""
+
+msgid "The certificate is not valid for the requested "
+"usage."
+msgstr ""
+
+msgid "The system detected a possible attempt to compromise security. Please "
+"ensure that you can contact the server that authenticated "
+"you."
+msgstr ""
+
+msgid "The smartcard certificate used for authentication has been revoked. "
+"Please contact your system administrator. There may be additional "
+"information in the event log."
+msgstr ""
+
+msgid "An untrusted certificate authority was detected While processing the "
+"smartcard certificate used for authentication. Please contact your "
+"system administrator."
+msgstr ""
+
+msgid "The revocation status of the smartcard certificate used for "
+"authentication could not be determined. Please contact your system "
+"administrator."
+msgstr ""
+
+msgid "The smartcard certificate used for authentication was not trusted. "
+"Please contact your system administrator."
+msgstr ""
+
+msgid "The smartcard certificate used for authentication has expired. Please "
+"contact your system administrator."
+msgstr ""
+
+msgid "The Kerberos subsystem encountered an error. A service for user "
+"protocol request was made against a domain controller which does not "
+"support service for user."
+msgstr ""
+
+msgid "An attempt was made by this server to make a Kerberos constrained "
+"delegation request for a target outside of the server's realm. This "
+"is not supported, and indicates a misconfiguration on this server's "
+"allowed to delegate to list. Please contact your "
+"administrator."
+msgstr ""
+
+msgid "The revocation status of the domain controller certificate used for "
+"smartcard authentication could not be determined. There is additional "
+"information in the system event log. Please contact your system "
+"administrator."
+msgstr ""
+
+msgid "An untrusted certificate authority was detected while processing the "
+"domain controller certificate used for authentication. There is "
+"additional information in the system event log. Please contact your "
+"system administrator."
+msgstr ""
+
+msgid "The domain controller certificate used for smartcard logon has "
+"expired. Please contact your system administrator with the contents "
+"of your system event log."
+msgstr ""
+
+msgid "The domain controller certificate used for smartcard logon has been "
+"revoked. Please contact your system administrator with the contents "
+"of your system event log."
+msgstr ""
+
+msgid "A signature operation must be performed before the user can "
+"authenticate."
+msgstr ""
+
+msgid "One or more of the parameters passed to the function was "
+"invalid."
+msgstr ""
+
+msgid "Client policy does not allow credential delegation to target "
+"server."
+msgstr ""
+
+msgid "Client policy does not allow credential delegation to target server "
+"with NLTM only authentication."
+msgstr ""
+
+msgid "The recipient rejected the renegotiation "
+"request."
+msgstr ""
+
+msgid "The required security context does not "
+"exist."
+msgstr ""
+
+msgid "The PKU2U protocol encountered an error while attempting to utilize "
+"the associated certificates."
+msgstr ""
+
+msgid "The identity of the server computer could not be "
+"verified."
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "SSPI %s returns error #%d(0x%x): %s"
+msgstr ""
+
+msgid "SSPI interface has failed to initialise "
+"properly"
+msgstr ""
+
+msgid "No PSecPkgInfo specified"
+msgstr ""
+
+msgid "No credential handle acquired"
+msgstr ""
+
+msgid "Can not change credentials after handle aquired. Use Release "
+"first"
+msgstr ""
+
+msgid "Unknown credentials use"
+msgstr ""
+
+msgid "Do AcquireCredentialsHandle first"
+msgstr ""
+
+msgid "CompleteAuthToken is not supported"
+msgstr ""
+
+msgid "Error resolving host %s: %s (%d)"
+msgstr ""
+
+msgid "Non-blocking not supported."
+msgstr ""
+
+msgid "Character Index %d out of Range, Length = "
+"%d"
+msgstr ""
+
+msgid "Character at Index %d is not a valid UTF-16 High "
+"Surrogate"
+msgstr ""
+
+msgid "Character at Index %d is not a valid UTF-16 Low "
+"Surrogate"
+msgstr ""
+
+msgid "Missing a Low Surrogate in UTF-16 sequence"
+msgstr ""
+
+msgid "Error resolving Address %s: %s (%d)"
+msgstr ""
+
+msgid "ZLib error: target buffer may be too "
+"small"
+msgstr ""
+
+msgid "Invalid stream operation"
+msgstr ""
+
+msgid "ZLib Error (%d)"
+msgstr ""
+
+msgid "Error on call to ZLib library function "
+"%s"
+msgstr ""
+
