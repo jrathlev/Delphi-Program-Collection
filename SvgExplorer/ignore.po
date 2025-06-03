@@ -50,14 +50,16 @@ msgid "64 px"
 msgstr ""
 
 #  Doesn't have any letters
+#. fmExplorerSVG.pmImages.N2.Caption
+#: FExplorerSVG.dfm:729
 #. fmExplorerSVG.pmDirs.N1.Caption
-#: FExplorerSVG.dfm:783
+#: FExplorerSVG.dfm:798
 msgid "-"
 msgstr ""
 
 #  Looks like a file extension or file mask
 #. fmExplorerSVG.FileOpenDialog.FileMask
-#: FExplorerSVG.dfm:799
+#: FExplorerSVG.dfm:814
 msgid "*.exe"
 msgstr ""
 

@@ -210,7 +210,7 @@ type
     procedure ReloadImages (const ImgName : string);
     procedure UpdateHeader;
     procedure UpdateView(Index: Integer);
-    procedure ShowSelectedItem(Index : integer);
+    procedure ShowSelectedItem(Index : integer = -1);
     procedure SelectDir (const ADir : string);
     procedure SelectOptimizer;
   protected
@@ -611,6 +611,8 @@ var
 begin
   with ImageView do begin
     ClearSelection;
+    if Index<0 then Index:=ItemIndex;
+    if Index<0 then Exit;
     if Index<Items.Count then Items[Index].Selected:=true
     else Items[Items.Count-1].Selected:=true;
     if assigned(Selected) then begin
@@ -833,7 +835,6 @@ begin
   LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
   n:=GetListViewIndex(ImageView,ImgName);
   with ImageView do begin
-    ClearSelection;
     if (n<0) and (Items.Count>0) then n:=0;
     ShowSelectedItem(n);
     end;
@@ -913,8 +914,12 @@ end;
 procedure TfmExplorerSVG.rgSizeClick(Sender: TObject);
 const
   IconSizes : array [0..5] of integer = (16,20,24,32,48,64);
+  var
+    n : integer;
 begin
+  n:=ImageView.ItemIndex;
   SVGIconImageList.Size:=IconSizes[rgSize.ItemIndex];
+  ShowSelectedItem(n);
 end;
 
 procedure TfmExplorerSVG.SearchBoxInvokeSearch(Sender: TObject);
