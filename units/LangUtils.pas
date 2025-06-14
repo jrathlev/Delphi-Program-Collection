@@ -160,7 +160,6 @@ function GetLanguageHint : string;
 function LangIdToCode(id : integer) : TLangCodeString;
 
 var
-  CfgName            : string;
   SelectedLanguage   : TLangCodeString;
   LangFromCfg        : boolean;
 
@@ -458,7 +457,7 @@ function ReadLanguageCode : TLangCodeString;
 var
   s,si  : string;
   j     : integer;
-  ok,po : boolean;
+  po    : boolean;
 
   // replace environment variable
   function ReplacePathPlaceHolder (const ps : string) : string;
@@ -483,8 +482,8 @@ var
     end;
 
 begin
-  ok:=false; po:=false; si:=''; Result:='';
-  for j:=1 to ParamCount do if not ok then begin   // prüfe Befehlszeile
+  po:=false; si:=''; Result:='';
+  for j:=1 to ParamCount do begin   // prüfe Befehlszeile
     s:=ParamStr(j);
     if (s[1]='/') or (s[1]='-') then begin
       delete (s,1,1);
@@ -593,7 +592,6 @@ begin
   end;
 
 initialization
-  CfgName:='';
   SelectedLanguage:=''; // default: system language
 
 end.

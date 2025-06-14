@@ -288,7 +288,7 @@ begin
 
 procedure TMainForm.bbConvertClick(Sender: TObject);
 var
-  sd,sn,sp,s,sv : string;
+  sd,sn,sp,s,sv,ss : string;
   i,m,k      : integer;
   ok         : boolean;
   PngList    : TList;
@@ -354,6 +354,7 @@ begin
     if FileExists(sv) then begin
       try
         LSVG.LoadFromFile(sv);
+        ss:=LSVG.Source;
         ok:=true;
       except
         on Exception do ok:=false;
@@ -364,6 +365,8 @@ begin
           if PngList.Count>0 then s:=','+s else s:=' ('+s;
           with meStatus do Lines[k]:=Lines[k]+s;
           sPng:=TMemoryStream.Create;
+          LSVG.Clear;        // force Img32.SVG.Reader to perform a new rendering
+          LSVG.Source:=ss;
           ok:=ExportToPng(Tag,LSVG,sPng);
           if ok then PngList.Add(sPng) else Break;
           end;

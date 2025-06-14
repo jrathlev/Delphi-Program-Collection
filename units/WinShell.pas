@@ -159,6 +159,8 @@ function GetPicturesFolder : string;
 function GetVideoFolder : string;
 function GetMusicFolder : string;
 function GetPublicFolder : string;
+function GetUserDesktopFolder : string;
+function GetUserStartupFolder : string;
 
 procedure RefreshDesktop;
 
@@ -399,6 +401,16 @@ begin
 function GetPublicFolder : string;
 begin
   Result:=GetKnownFolder(FOLDERID_Public);
+  end;
+
+function GetUserDesktopFolder : string;
+begin
+  Result:=GetKnownFolder(FOLDERID_Desktop);
+  end;
+
+function GetUserStartupFolder : string;
+begin
+  Result:=GetKnownFolder(FOLDERID_Startup);
   end;
 
 { ---------------------------------------------------------------- }

@@ -5,7 +5,7 @@
 #. fmExplorerSVG.paList.paImageList.laFoldername.Font.Name
 #: FExplorerSVG.dfm:230
 #. fmExplorerSVG.paPreview.gbProperties.laImgName.Font.Name
-#: FExplorerSVG.dfm:361
+#: FExplorerSVG.dfm:445
 msgid "Tahoma"
 msgstr ""
 
@@ -51,15 +51,15 @@ msgstr ""
 
 #  Doesn't have any letters
 #. fmExplorerSVG.pmImages.N2.Caption
-#: FExplorerSVG.dfm:729
+#: FExplorerSVG.dfm:813
 #. fmExplorerSVG.pmDirs.N1.Caption
-#: FExplorerSVG.dfm:798
+#: FExplorerSVG.dfm:882
 msgid "-"
 msgstr ""
 
 #  Looks like a file extension or file mask
 #. fmExplorerSVG.FileOpenDialog.FileMask
-#: FExplorerSVG.dfm:814
+#: FExplorerSVG.dfm:898
 msgid "*.exe"
 msgstr ""
 

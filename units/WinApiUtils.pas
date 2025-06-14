@@ -195,7 +195,18 @@ const
   NameCanonicalEx        = 9;
   NameServicePrincipal   = 10;
   NameDnsDomain          = 12;
+  NameGivenName          = 13;
+  NameSurname            = 14;
 
+type
+  TNameFormat = (nfUnknown,nfFullyQualifiedDN,nfSamCompatibl,nfDisplay,
+                 nfUniqueId,nfCanonical,nfUserPrincipal,nfCanonicalEx,
+                 nfServicePrincipal,nfDnsDomain,nfGivenName,nfSurname);
+const
+  TNameValues : array[TNameFormat] of DWORD = (NameUnknown,NameFullyQualifiedDN,
+                 NameSamCompatible,NameDisplay,NameUniqueId,NameCanonical,
+                 NameUserPrincipal,NameCanonicalEx,NameServicePrincipal,
+                 NameDnsDomain,NameGivenName,NameSurname);
 type
   TLuidArray = array of TLuid;
   USHORT = word;
@@ -465,6 +476,7 @@ function PublicFolder : string;
 (* Systeminformationen *)
 function UserName : string;
 function UserFullName : string;
+function ExtendedUserName (nf : TNameFormat) : string;
 function UserProfile : string;
 function AllUsersProfile : string;
 function ComputerName : string;
@@ -821,6 +833,11 @@ begin
 function UserFullName : string;
 begin
   if not GetExtendedUserName(NameSamCompatible,Result) then Result:=UserName;
+  end;
+
+function ExtendedUserName (nf : TNameFormat) : string;
+begin
+  if not GetExtendedUserName(TNameValues[nf],Result) then Result:='???';
   end;
 
 function ComputerName : string;
@@ -1259,9 +1276,11 @@ var
     hp   : dword;
     sBuf : PWideChar;
     n    : dword;
+  const
+    PROCESS_QUERY_LIMITED_INFORMATION = $1000;
   begin
     Result:='';
-    hp:=OpenProcess(PROCESS_QUERY_INFORMATION,false,Id);
+    hp:=OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION,false,Id);
     if hp<>0 then begin
       n:=1024; sBuf:=StrAlloc(n);
       if assigned(@FQueryFullProcessImageName) then begin

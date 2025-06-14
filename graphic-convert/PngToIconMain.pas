@@ -97,7 +97,6 @@ const
   iniLeft     = 'Left';
   iniSrc      = 'Src';
   iniDest     = 'Dest';
-  iniDir      = 'Dir';
 
 { ------------------------------------------------------------------- }
 procedure TMainForm.FormCreate(Sender: TObject);
@@ -268,8 +267,8 @@ begin
 procedure TMainForm.bbConvertClick(Sender: TObject);
 var
   sdi,ssp,
-  sn         : string;
-  pl      : TStringList;
+  sn       : string;
+  pl       : TStringList;
   i        : integer;
 
 begin
@@ -291,7 +290,7 @@ begin
       sn:=Folders[i].DisplayName;
       pl.Add(AddPath(ssp,sn));
       end;
-    if CreateIconFromPng(sdi,pl) then Statusbar.SimpleText:=Format(_('Icon "%s" was created'),[sdi])
+    if CreateIconFromPngFileList(sdi,pl) then Statusbar.SimpleText:=Format(_('Icon "%s" was created'),[sdi])
     else Statusbar.SimpleText:=Format(_('Error writing to "%s"'),[sdi]);
     pl.Free;
     end;

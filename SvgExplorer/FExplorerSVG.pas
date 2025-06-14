@@ -26,7 +26,7 @@
 {                                                                              }
 {******************************************************************************}
 
-// Changes: May 2025, J. Rathlev (kontakt(a)rathlev-home.de)
+// Changes: June 2025, J. Rathlev (kontakt(a)rathlev-home.de)
 
 // Skia support removed, some features added
 // Export to PNG function implemented
@@ -34,6 +34,7 @@
 // ShellTreeView component implemented
 // TIconImage in preview replaced by TPaintBox for improved rendering
 // German localization added
+// Optional entry in Windows folder context menu
 
 unit FExplorerSVG;
 
@@ -75,6 +76,9 @@ resourcestring
   rsSamePath = 'An image cannot be copied to the same path!';
   rsFileExists = 'The image file "%s" already exists!';
   rsOverwrite = 'Overwrite image';
+  rsAddCtx = 'Add SvgExplorer to folder context menu';
+  rsRemCtx = 'Remove SvgExplorer from folder context menu';
+  rsOpenWith = 'Open SvgExplorer with this folder';
 
 type
   TSVGFactory = (svgImage32, svgDirect2D);
@@ -160,6 +164,7 @@ type
     N2: TMenuItem;
     pmiCopyImage: TMenuItem;
     pmiPasteImage: TMenuItem;
+    bbContext: TBitBtn;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -199,11 +204,13 @@ type
     procedure pmImagesPopup(Sender: TObject);
     procedure pmiCopyImageClick(Sender: TObject);
     procedure pmiPasteImageClick(Sender: TObject);
+    procedure bbContextClick(Sender: TObject);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,OptProg : string;
     SelectedIndex,
     ExpWidth,ExpHeight : integer;
+    OldContext         : boolean;
     IconSvg : ISVG;
     procedure SetFactory(AFactory: TSVGFactory);
     procedure LoadFilesDir(const APath: string; const AFilter: string = '');
@@ -227,6 +234,7 @@ implementation
 uses
   System.IniFiles,
   System.Types,
+  System.Win.Registry,
   WinApi.ActiveX,
   WinApi.KnownFolders,
   WinApi.ShellApi,
@@ -275,16 +283,34 @@ const
   SvgClean = 'svgcleaner-cli.exe';
   DirOpt = 'optimized';
 
+  ContextKey = 'Software\Classes\Folder\shell\SvgExplorer';
+
 procedure TfmExplorerSVG.FormCreate(Sender: TObject);
 var
   LFactory: TSVGFactory;
   IniFile : TMemIniFile;
   LastDir,LastExp,LastOpt : string;
-  w,h : integer;
+  i,w,h : integer;
+
+  function CheckUserFolderContext : boolean;
+  begin
+    Result:=false;
+    with TRegistry.Create(KEY_READ) do begin
+      try
+        Result:=OpenKey(ContextKey,False);
+      finally
+        Free;
+        end;
+      end;
+    end;
+
 begin
   TranslateComponent(self);
   AppPath:=GetKnownFolder(FOLDERID_RoamingAppData);
-  fpaPreviewSize := paPreview.Width;
+  fpaPreviewSize := paPreview.Width; LastDir:='';
+  if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
+    if LastDir.IsEmpty then LastDir:=ExpandFileName(ParamStr(i));
+    end;
   IniName:=IncludeTrailingPathDelimiter(AppPath)+ChangeFileExt(ExtractFilename(Application.ExeName),IniExt);
   IniFile:=TMemIniFile.Create(IniName);
   with IniFile do begin
@@ -295,7 +321,7 @@ begin
     with paDir do Width:=ReadInteger(CfgSekt,iniDWdt,Width);
     w:=ReadInteger(CfgSekt,iniPrev,Width);
     rgSize.ItemIndex:=ReadInteger(CfgSekt,iniSize,3);
-    LastDir:=ReadString(CfgSekt,iniLast,'');
+    if LastDir.IsEmpty then LastDir:=ReadString(CfgSekt,iniLast,'');
     LastExp:=ReadString(CfgSekt,iniExp,'png');
     ExpWidth:=ReadInteger(ExpSekt,iniWdt,64);
     ExpHeight:=ReadInteger(ExpSekt,iniHgt,64);
@@ -311,7 +337,6 @@ begin
   h:=ClientHeight-gbProperties.Height-pcTools.Height-grpFactory.Height-paTools.Height-MulDiv(btnOpen.Height,15,10);
   if h>w then paPreview.Width:=w
   else paPreview.Width:=h; //ClientHeight-h;
-  if ParamCount>0 then LastDir:=ParamStr(1);
   for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
     grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
   SetFactory(Low(TSVGFactory));
@@ -323,6 +348,8 @@ begin
   AddToHistory(cbxOptimizeDir,LastOpt);
   cbAspectRatio.Enabled:=false;
   SelectedIndex:=-1;
+  OldContext:=CheckUserFolderContext;
+  with bbContext do if OldContext then Hint:=rsRemCtx else Hint:=rsAddCtx;
   end;
 
 procedure TfmExplorerSVG.FormDestroy(Sender: TObject);
@@ -395,6 +422,39 @@ procedure TfmExplorerSVG.ActionUpdate(Sender: TObject);
 begin
   (Sender as TAction).Enabled := ImageView.Selected <> nil;
 end;
+
+procedure TfmExplorerSVG.bbContextClick(Sender: TObject);
+var
+  s : string;
+begin
+  if OldContext then s:=rsRemCtx else s:=rsAddCtx;
+  if MessageDlg(s,mtConfirmation,mbYesNo,0,mbYes)=mrYes then
+      with TRegistry.Create do begin  // HKEY_CURRENT_USER = default
+    try
+      if OldContext then begin  // remove key
+        DeleteKey(ContextKey+'\command');
+        DeleteKey(ContextKey);
+        bbContext.Hint:=rsAddCtx;
+        OldContext:=false;
+        end
+      else begin   // create new key
+        if OpenKey(ContextKey,true) then begin
+          WriteString('',rsOpenWith);
+          WriteString('Icon',AnsiQuotedStr(Application.ExeName,Quote)+',0');
+          CloseKey;
+          if OpenKey(ContextKey+'\command',true) then begin
+            WriteString('',AnsiQuotedStr(Application.ExeName,Quote)+'"%1"');
+            CloseKey;
+            bbContext.Hint:=rsRemCtx;
+            OldContext:=true;
+            end;
+          end;
+        end;
+    finally
+      Free;
+      end;
+    end;
+  end;
 
 procedure TfmExplorerSVG.btnOptimizeDirClick(Sender: TObject);
 var
@@ -725,6 +785,7 @@ var
   si : TSVGIconItem;
   se : string;
   i,w,h,n : integer;
+
 const
   MinSize = 16;
   MaxSize = 1024;
@@ -758,7 +819,8 @@ begin
       else begin
         w:=round(si.SVG.Width); h:=round(si.SVG.Height);
         end;
-      SVGExportToPng(w,h,si.SVG,se,si.Name+PngExt,cbAspectRatio.Checked);
+      IconSvg.Source:=si.SVG.Source;
+      SVGExportToPng(w,h,IconSvg,se,si.Name+PngExt,cbAspectRatio.Checked);
       inc(n);
       end;
     if n>1 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);

@@ -49,7 +49,8 @@ procedure FixToolBar(tb: TToolBar);
 
 var
   PrgPath,PrgName,
-  AppSubDir        : string;
+  AppSubDir,
+  CfgName          : string;
   VersInfo         : TFileVersionInfo;       // Programm- und Versionsinfo
 
 implementation
@@ -181,5 +182,6 @@ initialization
   PrgPath:=ExtractFilePath(Application.ExeName);
   PrgName:=ExtractFileName(ChangeFileExt(Application.ExeName,''));
   AppSubDir:='';
+  CfgName:='';
 end.
 

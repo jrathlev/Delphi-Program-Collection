@@ -28,7 +28,7 @@ object fmExplorerSVG: TfmExplorerSVG
     ExplicitHeight = 509
   end
   object spRight: TSplitter
-    Left = 779
+    Left = 749
     Top = 0
     Width = 4
     Height = 598
@@ -133,14 +133,14 @@ object fmExplorerSVG: TfmExplorerSVG
   object paList: TPanel
     Left = 220
     Top = 0
-    Width = 559
+    Width = 529
     Height = 598
     Align = alClient
     TabOrder = 1
     object spBottom: TSplitter
       Left = 1
       Top = 453
-      Width = 557
+      Width = 527
       Height = 3
       Cursor = crVSplit
       Align = alBottom
@@ -152,7 +152,7 @@ object fmExplorerSVG: TfmExplorerSVG
     object ImageView: TListView
       Left = 1
       Top = 42
-      Width = 557
+      Width = 527
       Height = 411
       Align = alClient
       Columns = <>
@@ -169,7 +169,7 @@ object fmExplorerSVG: TfmExplorerSVG
     object paSVGText: TPanel
       Left = 1
       Top = 456
-      Width = 557
+      Width = 527
       Height = 100
       Hint = 'SVG Text content'
       Align = alBottom
@@ -177,7 +177,7 @@ object fmExplorerSVG: TfmExplorerSVG
       object SVGMemo: TMemo
         Left = 1
         Top = 1
-        Width = 555
+        Width = 525
         Height = 98
         Align = alClient
         Font.Charset = DEFAULT_CHARSET
@@ -194,7 +194,7 @@ object fmExplorerSVG: TfmExplorerSVG
     object paImageList: TPanel
       Left = 1
       Top = 1
-      Width = 557
+      Width = 527
       Height = 41
       Align = alTop
       Font.Charset = DEFAULT_CHARSET
@@ -206,12 +206,12 @@ object fmExplorerSVG: TfmExplorerSVG
       ParentFont = False
       TabOrder = 3
       DesignSize = (
-        557
+        527
         41)
       object ImageListLabel: TLabel
         Left = 5
         Top = 1
-        Width = 547
+        Width = 517
         Height = 16
         Alignment = taCenter
         Anchors = [akLeft, akTop, akRight]
@@ -235,17 +235,17 @@ object fmExplorerSVG: TfmExplorerSVG
     object paRicerca: TPanel
       Left = 1
       Top = 556
-      Width = 557
+      Width = 527
       Height = 41
       Align = alBottom
       TabOrder = 0
       DesignSize = (
-        557
+        527
         41)
       object SearchBox: TSearchBox
         Left = 130
         Top = 10
-        Width = 326
+        Width = 296
         Height = 21
         Anchors = [akLeft, akTop, akRight]
         TabOrder = 0
@@ -264,7 +264,7 @@ object fmExplorerSVG: TfmExplorerSVG
         OnClick = ShowTextCheckBoxClick
       end
       object btnResetFilter: TButton
-        Left = 460
+        Left = 430
         Top = 8
         Width = 91
         Height = 26
@@ -276,9 +276,9 @@ object fmExplorerSVG: TfmExplorerSVG
     end
   end
   object paPreview: TPanel
-    Left = 783
+    Left = 753
     Top = 0
-    Width = 201
+    Width = 231
     Height = 598
     Align = alRight
     TabOrder = 2
@@ -286,7 +286,7 @@ object fmExplorerSVG: TfmExplorerSVG
     object SVGIconImage: TPaintBox
       Left = 1
       Top = 1
-      Width = 199
+      Width = 229
       Height = 88
       Cursor = crSizeAll
       Hint = 'Left click to enlarge, right click to shrink'
@@ -297,11 +297,12 @@ object fmExplorerSVG: TfmExplorerSVG
       Align = alTop
       OnMouseDown = SVGIconImageMouseDown
       OnPaint = SVGIconImagePaint
+      ExplicitWidth = 199
     end
     object grpFactory: TRadioGroup
       Left = 1
       Top = 483
-      Width = 199
+      Width = 229
       Height = 66
       Margins.Left = 10
       Margins.Top = 5
@@ -315,16 +316,16 @@ object fmExplorerSVG: TfmExplorerSVG
     object paTools: TPanel
       Left = 1
       Top = 549
-      Width = 199
+      Width = 229
       Height = 48
       Align = alBottom
       BevelOuter = bvNone
       TabOrder = 1
       DesignSize = (
-        199
+        229
         48)
       object btnRefresh: TButton
-        Left = 5
+        Left = 35
         Top = 10
         Width = 91
         Height = 26
@@ -333,7 +334,7 @@ object fmExplorerSVG: TfmExplorerSVG
         TabOrder = 0
       end
       object btnExit: TButton
-        Left = 100
+        Left = 130
         Top = 10
         Width = 91
         Height = 26
@@ -341,11 +342,72 @@ object fmExplorerSVG: TfmExplorerSVG
         Anchors = [akTop, akRight]
         TabOrder = 1
       end
+      object bbContext: TBitBtn
+        Left = 6
+        Top = 10
+        Width = 26
+        Height = 26
+        Glyph.Data = {
+          76060000424D7606000000000000360000002800000014000000140000000100
+          2000000000004006000000000000000000000000000000000000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DABD05C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000BFA67C74BE733BE2BD652AFFBF986894C0DCC000C0DCC000BFD0B01ABEA3
+          787AC0D9BC07C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000BD652AFFBFBB9747C0D1B218BD65
+          2AFFC0DCC000C0DCC000BD7640DABD662CFCBD652AFFBFB59052C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000BE8652B9BFB48F54C0DCC000BD6D35ECBD652AFFBD652AFFBD7C48CBC0DC
+          C000BFA97F6EBD652BFEC0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000BFB59052BD652BFEBFBC9745C0C6A52FBD652AFFBFB9944BC0DCC000C0DC
+          C000C0D2B315BFBF9C3DBFD7BA0AC0DCC000BD733CE1BFBC9745C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0D9BC07BD652AFFBFA97F6EBD733CE1BD65
+          2AFFBFBC9844C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000BD652AFFC0C6A52FC0DCC000C0DCC000C0DCC000C0DCC000C0DCC000BEA3
+          787ABD662CFCC0DCC000C0DCC000C0DCC000C0DCC000C0D9BC07BE9C6F8ABD6F
+          37E9BD6D35ECBE9B6E8BC0D8BB08C0DCC000BFBC9844BD652AFFBE8652B9BD65
+          2AFFBFA67C74C0DCC000C0DCC000BFD0B01ABD7640DABD7C48CBBFD7BA0AC0DC
+          C000C0DABD05BD6B31F3BD8C5BACBFC7A52DBFC9A72ABD8A58B0BD6D35EDC0D8
+          BB08C0DCC000BFB9944BBFB48F54BFBB9747BE733BE2C0DCC000C0DCC000C0DC
+          C000C0DCC000BD652AFFBFBF9C3DC0DCC000BF9E7285BE8A59AFC0DCC000C0DC
+          C000C0DCC000C0DCC000BD8A58B0BF9E7285C0DCC000C0DCC000C0DCC000C0D1
+          B218BD652AFFC0DABD05C0DCC000C0DCC000C0DCC000BD652AFFC0D2B315C0DC
+          C000BD723AE3C0C4A233C0DCC000C0DCC000C0DCC000C0DCC000BFC2A036BE73
+          3BE2C0DCC000C0DCC000BD6D35ECBD652AFFBF986894C0DCC000C0DCC000BF98
+          6894BD652AFFBD6D35ECC0DCC000C0DCC000BD723AE3C0C4A233C0DCC000C0DC
+          C000C0DCC000C0DCC000BFC2A036BE733BE2C0DCC000C0D2B315BD652AFFC0DC
+          C000C0DCC000C0DCC000C0DABD05BD652AFFC0D1B218C0DCC000C0DCC000C0DC
+          C000BF9E7285BE8A59AFC0DCC000C0DCC000C0DCC000C0DCC000BD8A58B0BF9E
+          7285C0DCC000BFBF9C3DBD652AFFC0DCC000C0DCC000C0DCC000C0DCC000BE73
+          3BE2BFBB9747BFB48F54BFB9944BC0DCC000C0DABD05BD6B31F3BD8C5BACBFC7
+          A52DBFC9A72ABD8A58B0BD6D35EDC0D8BB08C0DCC000BFD7BA0ABD7C48CBBD76
+          40DABFD0B01AC0DCC000C0DCC000BFA67C74BD652AFFBE8652B9BD652AFFBFBC
+          9844C0DCC000C0D9BC07BE9C6F8ABD6F37E9BD6E36EBBE9B6E8BC0D8BB08C0DC
+          C000C0DCC000C0DCC000C0DCC000BD662CFCBEA3787AC0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0C6A52FBD652AFFC0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000BFBC9844BD652AFFBD733CE1BFA97F6EBD65
+          2AFFC0D9BC07C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000BFBC9745BD73
+          3CE1C0DCC000BFD7BA0ABFBF9C3DC0D2B315C0DCC000C0DCC000BFB9944BBD65
+          2AFFC0C6A52FBFBC9745BD652BFEBFB59052C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000BD652BFEBFA97F6EC0DCC000BD7C48CBBD652AFFBD65
+          2AFFBD6D35ECC0DCC000BFB48F54BE8652B9C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000BFB59052BD65
+          2AFFBD662CFCBD7640DAC0DCC000C0DCC000BD652AFFC0D1B218BFBB9747BD65
+          2AFFC0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0D9BC07BEA3787ABFD0B01AC0DCC000C0DC
+          C000BF986894BD652AFFBE733BE2BFA67C74C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DABD05C0DCC000C0DC
+          C000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000C0DCC000}
+        TabOrder = 2
+        OnClick = bbContextClick
+      end
     end
     object gbProperties: TGroupBox
       Left = 1
       Top = 89
-      Width = 199
+      Width = 229
       Height = 102
       Align = alTop
       Caption = 'Image file properties'
@@ -384,16 +446,16 @@ object fmExplorerSVG: TfmExplorerSVG
     object paCenter: TPanel
       Left = 1
       Top = 191
-      Width = 199
+      Width = 229
       Height = 116
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 3
       DesignSize = (
-        199
+        229
         116)
       object btnOpen: TButton
-        Left = 100
+        Left = 130
         Top = 6
         Width = 91
         Height = 26
@@ -406,19 +468,19 @@ object fmExplorerSVG: TfmExplorerSVG
     object pcTools: TPageControl
       Left = 1
       Top = 307
-      Width = 199
+      Width = 229
       Height = 176
-      ActivePage = tsOptimize
+      ActivePage = tsExport
       Align = alBottom
       TabOrder = 4
       object tsExport: TTabSheet
         Caption = 'Export to PNG'
         ImageIndex = 1
         DesignSize = (
-          191
+          221
           148)
         object btnPngDir: TSpeedButton
-          Left = 160
+          Left = 190
           Top = 17
           Width = 31
           Height = 31
@@ -504,6 +566,7 @@ object fmExplorerSVG: TfmExplorerSVG
             DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
           NumGlyphs = 2
           OnClick = btnPngDirClick
+          ExplicitLeft = 160
         end
         object Label2: TLabel
           Left = 5
@@ -513,7 +576,7 @@ object fmExplorerSVG: TfmExplorerSVG
           Caption = 'Directory'
         end
         object btnExport: TButton
-          Left = 95
+          Left = 125
           Top = 116
           Width = 91
           Height = 26
@@ -532,7 +595,7 @@ object fmExplorerSVG: TfmExplorerSVG
         object cbxExportDir: TComboBox
           Left = 5
           Top = 25
-          Width = 154
+          Width = 184
           Height = 21
           Anchors = [akLeft, akTop, akRight]
           TabOrder = 2
@@ -562,7 +625,7 @@ object fmExplorerSVG: TfmExplorerSVG
       object tsOptimize: TTabSheet
         Caption = 'Optimize'
         DesignSize = (
-          191
+          221
           148)
         object Label1: TLabel
           Left = 5
@@ -572,7 +635,7 @@ object fmExplorerSVG: TfmExplorerSVG
           Caption = 'Directory'
         end
         object btnOptimizeDir: TSpeedButton
-          Left = 160
+          Left = 190
           Top = 17
           Width = 31
           Height = 31
@@ -658,24 +721,26 @@ object fmExplorerSVG: TfmExplorerSVG
             DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
           NumGlyphs = 2
           OnClick = btnOptimizeDirClick
+          ExplicitLeft = 160
         end
         object cbxOptimizeDir: TComboBox
           Left = 5
           Top = 25
-          Width = 154
+          Width = 184
           Height = 21
           Anchors = [akLeft, akTop, akRight]
           TabOrder = 0
           OnCloseUp = cbxExportDirCloseUp
         end
         object btnOptimize: TButton
-          Left = 95
+          Left = 125
           Top = 116
           Width = 91
           Height = 26
           Action = OptimizeAction
           Anchors = [akTop, akRight]
           TabOrder = 1
+          ExplicitLeft = 95
         end
         object btnOptProg: TButton
           Left = 0

@@ -15,7 +15,7 @@
    New compilation: April 2015
    language dependend strings in UnitConsts
 
-   last modified: August 2024
+   last modified: May 2025
    *)
 
 unit WinUtils;
@@ -27,8 +27,9 @@ uses Winapi.Windows, System.SysUtils, System.Classes, System.Types, Vcl.Graphics
   System.IniFiles, Vcl.Dialogs, Vcl.Buttons;
 
 const
-  CenterPos : TPoint = (X : -1; Y : -1);
-  DesignPos : TPoint = (X : 0; Y : -1);
+  CenterPos : TPoint = (X : -1; Y : -1);   // main form center
+  DesignPos : TPoint = (X : 0; Y : -1);    // designed position
+  ScreenPos : TPoint = (X : -1; Y : -0);   // screen center
 
   // Bildschirm-Auflösung bei der Programmentwicklung
   PixelsPerInchOnDesign = 96;
@@ -430,16 +431,15 @@ begin
 procedure AdjustFormPosition (AScreen : TScreen; AForm : TForm;
           APos : TPoint; AtBottom : boolean = false);
 begin
-  with AForm,APos do begin
-    if (Y < 0) or (X < 0) then Position:=poMainFormCenter // poScreenCenter
-    else begin
-      Position:=poDesigned;
-      if X<0 then X:=Left;
-      if Y<0 then Y:=Top;
-      if AtBottom then Y:=Y-Height;
-      CheckScreenBounds(AScreen,x,y,Width,Height);  // DefaultMonitor = dmDesktop
-      Left:=x; Top:=y;
-      end;
+  if APos=ScreenPos then AForm.Position:=poScreenCenter
+  else if (APos.Y < 0) or (APos.X < 0) then AForm.Position:=poMainFormCenter
+  else with AForm,APos do begin
+    Position:=poDesigned;
+    if X<0 then X:=Left;
+    if Y<0 then Y:=Top;
+    if AtBottom then Y:=Y-Height;
+    CheckScreenBounds(AScreen,x,y,Width,Height);  // DefaultMonitor = dmDesktop
+    Left:=x; Top:=y;
     end;
   end;
 

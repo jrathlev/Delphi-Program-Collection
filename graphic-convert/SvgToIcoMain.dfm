@@ -1095,7 +1095,6 @@ object MainForm: TMainForm
       AutoRefresh = True
       ObjectTypes = [otNonFolders]
       Root = 'rfDesktop'
-      ShellComboBox = MainForm.ShellComboBox
       Sorted = True
       OnAddFolder = ShellListViewAddFolder
       Anchors = [akLeft, akTop, akRight, akBottom]
