@@ -2,7 +2,7 @@ object MainForm: TMainForm
   Left = 0
   Top = 0
   Caption = 'Convert SVG images to PNG'
-  ClientHeight = 616
+  ClientHeight = 613
   ClientWidth = 531
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -20,7 +20,7 @@ object MainForm: TMainForm
   TextHeight = 13
   object spStatus: TSplitter
     Left = 0
-    Top = 436
+    Top = 433
     Width = 531
     Height = 3
     Cursor = crVSplit
@@ -30,20 +30,22 @@ object MainForm: TMainForm
   end
   object StatusBar: TStatusBar
     Left = 0
-    Top = 597
+    Top = 594
     Width = 531
     Height = 19
     Panels = <>
     SimplePanel = True
+    ExplicitTop = 597
   end
   object paStatus: TPanel
     Left = 0
-    Top = 439
+    Top = 436
     Width = 531
     Height = 158
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
+    ExplicitTop = 439
     object meStatus: TMemo
       Left = 0
       Top = 0
@@ -59,13 +61,14 @@ object MainForm: TMainForm
     Left = 0
     Top = 0
     Width = 531
-    Height = 436
+    Height = 433
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 2
+    ExplicitHeight = 436
     DesignSize = (
       531
-      436)
+      433)
     object btnImgDir: TSpeedButton
       Left = 495
       Top = 18
@@ -257,10 +260,10 @@ object MainForm: TMainForm
       Caption = 'Directory for PNG images'
     end
     object bbConvert: TBitBtn
-      Left = 435
-      Top = 301
+      Left = 385
+      Top = 345
       Width = 91
-      Height = 76
+      Height = 86
       Anchors = [akRight, akBottom]
       Caption = 'Convert'
       Glyph.Data = {
@@ -465,8 +468,8 @@ object MainForm: TMainForm
       OnClick = bbConvertClick
     end
     object bbExit: TBitBtn
-      Left = 484
-      Top = 381
+      Left = 480
+      Top = 390
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -670,8 +673,8 @@ object MainForm: TMainForm
       OnClick = bbExitClick
     end
     object bbInfo: TBitBtn
-      Left = 434
-      Top = 381
+      Left = 480
+      Top = 345
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -875,12 +878,12 @@ object MainForm: TMainForm
       OnClick = bbInfoClick
     end
     object btSelectAll: TBitBtn
-      Left = 435
-      Top = 90
+      Left = 10
+      Top = 345
       Width = 31
       Height = 31
       Hint = 'Select all'
-      Anchors = [akTop, akRight]
+      Anchors = [akLeft, akBottom]
       Glyph.Data = {
         96090000424D9609000000000000360000002800000028000000140000000100
         18000000000060090000120B0000120B00000000000000000000C0DCC0C0DCC0
@@ -966,12 +969,12 @@ object MainForm: TMainForm
       OnClick = btSelectAllClick
     end
     object btSelectNone: TBitBtn
-      Left = 470
-      Top = 90
+      Left = 45
+      Top = 345
       Width = 31
       Height = 31
       Hint = 'Deselect all'
-      Anchors = [akTop, akRight]
+      Anchors = [akLeft, akBottom]
       Glyph.Data = {
         96090000424D9609000000000000360000002800000028000000140000000100
         18000000000060090000120B0000120B00000000000000000000C0DCC0C0DCC0
@@ -1076,53 +1079,61 @@ object MainForm: TMainForm
       TabOrder = 6
       OnCloseUp = edtPngDirCloseUp
     end
-    object ShellComboBox: TShellComboBox
-      Left = 369
-      Top = 43
-      Width = 81
-      Height = 22
-      Root = 'rfDesktop'
-      ShellListView = ShellListView
-      UseShellImages = True
-      TabOrder = 7
-      Visible = False
-    end
-    object ShellListView: TShellListView
-      Left = 10
-      Top = 91
-      Width = 417
-      Height = 331
-      AutoRefresh = True
-      ObjectTypes = [otNonFolders]
-      Root = 'rfDesktop'
-      ShellComboBox = ShellComboBox
-      Sorted = True
-      OnAddFolder = ShellListViewAddFolder
-      Anchors = [akLeft, akTop, akRight, akBottom]
-      OnClick = ShellListViewClick
-      ReadOnly = False
-      HideSelection = False
-      MultiSelect = True
-      RowSelect = True
-      ShowZip = True
-      TabOrder = 8
-      ViewStyle = vsReport
-    end
     object rgScale: TRadioGroup
-      Left = 435
-      Top = 130
-      Width = 91
-      Height = 116
-      Caption = 'Scale images'
+      Left = 90
+      Top = 345
+      Width = 211
+      Height = 81
+      Anchors = [akLeft, akBottom]
+      Caption = 'Longer side of the images'
+      Columns = 3
       ItemIndex = 2
       Items.Strings = (
-        '50%'
-        '75%'
-        '100%'
-        '150%'
-        '200%')
-      TabOrder = 9
+        '16'
+        '24'
+        '32'
+        '48'
+        '64'
+        '128'
+        '256'
+        '512'
+        '1024')
+      TabOrder = 7
       OnClick = rgScaleClick
+    end
+    object lvFiles: TListView
+      Left = 10
+      Top = 90
+      Width = 511
+      Height = 248
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Columns = <
+        item
+          Caption = 'Name'
+          ImageIndex = 0
+          Width = 150
+        end
+        item
+          Caption = 'Date'
+          Width = 120
+        end
+        item
+          Caption = 'Size'
+          Width = 70
+        end
+        item
+          Caption = 'Image size'
+          Width = 70
+        end>
+      HideSelection = False
+      MultiSelect = True
+      ReadOnly = True
+      SortType = stData
+      TabOrder = 8
+      ViewStyle = vsReport
+      OnColumnClick = lvFilesColumnClick
+      OnCompare = lvFilesCompare
+      ExplicitHeight = 251
     end
   end
   object OpenDialog: TOpenDialog

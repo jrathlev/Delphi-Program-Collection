@@ -49,6 +49,9 @@ uses
   SVGIconImage, Vcl.WinXCtrls, System.Actions, Vcl.ActnList, Vcl.Menus,
   SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces;
 
+const
+  ProgName = 'SvgExplorer';
+
 resourcestring
   rsConfDelFile = 'Do you really want to delete %u selected files?';
   rsLoadTime = 'Load %u images in %u ms';
@@ -78,7 +81,7 @@ resourcestring
   rsOverwrite = 'Overwrite image';
   rsAddCtx = 'Add SvgExplorer to folder context menu';
   rsRemCtx = 'Remove SvgExplorer from folder context menu';
-  rsOpenWith = 'Open SvgExplorer with this folder';
+  rsOpenDirWith = 'Open this folder with SvgExplorer';
 
 type
   TSVGFactory = (svgImage32, svgDirect2D);
@@ -207,13 +210,15 @@ type
     procedure bbContextClick(Sender: TObject);
   private
     fpaPreviewSize: Integer;
-    AppPath,IniName,OptProg : string;
+    AppPath,IniName,
+    CmdImg,OptProg : string;
     SelectedIndex,
     ExpWidth,ExpHeight : integer;
     OldContext         : boolean;
     IconSvg : ISVG;
     procedure SetFactory(AFactory: TSVGFactory);
     procedure LoadFilesDir(const APath: string; const AFilter: string = '');
+    procedure SelectImage (const ImgName : string);
     procedure ReloadImages (const ImgName : string);
     procedure UpdateHeader;
     procedure UpdateView(Index: Integer);
@@ -234,6 +239,7 @@ implementation
 uses
   System.IniFiles,
   System.Types,
+  System.StrUtils,
   System.Win.Registry,
   WinApi.ActiveX,
   WinApi.KnownFolders,
@@ -283,7 +289,8 @@ const
   SvgClean = 'svgcleaner-cli.exe';
   DirOpt = 'optimized';
 
-  ContextKey = 'Software\Classes\Folder\shell\SvgExplorer';
+
+  DirContextKey = 'Software\Classes\Folder\shell\SvgExplorer';
 
 procedure TfmExplorerSVG.FormCreate(Sender: TObject);
 var
@@ -292,12 +299,25 @@ var
   LastDir,LastExp,LastOpt : string;
   i,w,h : integer;
 
+  function CheckGlobalContext : boolean;
+  begin
+    Result:=false;
+    with TRegistry.Create(KEY_READ) do begin
+      try
+        RootKey := HKEY_LOCAL_MACHINE;
+        Result:=KeyExists(DirContextKey);
+      finally
+        Free;
+        end;
+      end;
+    end;
+
   function CheckUserFolderContext : boolean;
   begin
     Result:=false;
     with TRegistry.Create(KEY_READ) do begin
       try
-        Result:=OpenKey(ContextKey,False);
+        Result:=KeyExists(DirContextKey);
       finally
         Free;
         end;
@@ -307,9 +327,12 @@ var
 begin
   TranslateComponent(self);
   AppPath:=GetKnownFolder(FOLDERID_RoamingAppData);
-  fpaPreviewSize := paPreview.Width; LastDir:='';
+  fpaPreviewSize := paPreview.Width; LastDir:=''; CmdImg:='';
   if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
     if LastDir.IsEmpty then LastDir:=ExpandFileName(ParamStr(i));
+    end;
+  if AnsiEndsText(SvgExt,LastDir) then begin
+    CmdImg:=ExtractFileName(LastDir); LastDir:=ExtractFilePath(LastDir);
     end;
   IniName:=IncludeTrailingPathDelimiter(AppPath)+ChangeFileExt(ExtractFilename(Application.ExeName),IniExt);
   IniFile:=TMemIniFile.Create(IniName);
@@ -340,14 +363,13 @@ begin
   for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
     grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
   SetFactory(Low(TSVGFactory));
-  LoadFilesDir('');
   LastDir:=GetExistingParentPath(LastDir,GetKnownFolder(FOLDERID_Documents));
-  if not DirectoryExists(LastDir) then LastDir:=GetKnownFolder(FOLDERID_Documents);
   AddToHistory(cbxSelectedDir,LastDir);
   AddToHistory(cbxExportDir,LastExp);
   AddToHistory(cbxOptimizeDir,LastOpt);
   cbAspectRatio.Enabled:=false;
   SelectedIndex:=-1;
+  bbContext.Visible:=not CheckGlobalContext;
   OldContext:=CheckUserFolderContext;
   with bbContext do if OldContext then Hint:=rsRemCtx else Hint:=rsAddCtx;
   end;
@@ -389,6 +411,7 @@ begin
   pcTools.ActivePageIndex:=0;
   rgSizeClick(Sender);
   SelectDir(cbxSelectedDir.Text);
+  if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
   end;
 
 procedure TfmExplorerSVG.SelectOptimizer;
@@ -410,7 +433,7 @@ begin
       end;
     AddToHistory(cbxSelectedDir,Path);
     end;
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
+  LoadFilesDir(cbxSelectedDir.Text,SearchBox.Text);
   end;
 
 procedure TfmExplorerSVG.ExitActionExecute(Sender: TObject);
@@ -432,17 +455,17 @@ begin
       with TRegistry.Create do begin  // HKEY_CURRENT_USER = default
     try
       if OldContext then begin  // remove key
-        DeleteKey(ContextKey+'\command');
-        DeleteKey(ContextKey);
+        DeleteKey(DirContextKey+'\command');
+        DeleteKey(DirContextKey);
         bbContext.Hint:=rsAddCtx;
         OldContext:=false;
         end
       else begin   // create new key
-        if OpenKey(ContextKey,true) then begin
-          WriteString('',rsOpenWith);
+        if OpenKey(DirContextKey,true) then begin    // directory
+          WriteString('',rsOpenDirWith);
           WriteString('Icon',AnsiQuotedStr(Application.ExeName,Quote)+',0');
           CloseKey;
-          if OpenKey(ContextKey+'\command',true) then begin
+          if OpenKey(DirContextKey+'\command',true) then begin
             WriteString('',AnsiQuotedStr(Application.ExeName,Quote)+'"%1"');
             CloseKey;
             bbContext.Hint:=rsRemCtx;
@@ -617,6 +640,7 @@ begin
       end;
     with IconSvg do begin
       Source:=s;
+//      Width:=SVGIconImage.Width; Height:=SVGIconImage.Height;
 //      Invert:=true;
       PaintTo(SVGIconImage.Canvas.Handle,
         TRectF.Create(0, 0, SVGIconImage.Width, SVGIconImage.Height), true);
@@ -890,16 +914,21 @@ begin
   ReloadImages(sn);
   end;
 
-procedure TfmExplorerSVG.ReloadImages (const ImgName : string);
+procedure TfmExplorerSVG.SelectImage (const ImgName : string);
 var
   n : integer;
 begin
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
   n:=GetListViewIndex(ImageView,ImgName);
   with ImageView do begin
     if (n<0) and (Items.Count>0) then n:=0;
     ShowSelectedItem(n);
     end;
+  end;
+
+procedure TfmExplorerSVG.ReloadImages (const ImgName : string);
+begin
+  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
+  SelectImage(ImgName);
   end;
 
 procedure TfmExplorerSVG.pmiCopyImageClick(Sender: TObject);

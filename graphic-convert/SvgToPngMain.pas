@@ -27,11 +27,9 @@ uses
   Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
 
 const
-  Vers = '2.0.0';
+  Vers = '2.1.0';
   CopRgt = '© 2024-2025 Dr. J. Rathlev, D-24222 Schwentinental';
   EmailAdr = 'kontakt(a)rathlev-home.de';
-
-  MaxSizes = 4;
 
 type
   TMainForm = class(TForm)
@@ -39,8 +37,6 @@ type
     btnImgDir: TSpeedButton;
     edtImgDir: TComboBox;
     bbConvert: TBitBtn;
-    ShellListView: TShellListView;
-    ShellComboBox: TShellComboBox;
     bbInfo: TBitBtn;
     bbExit: TBitBtn;
     StatusBar: TStatusBar;
@@ -55,10 +51,9 @@ type
     spStatus: TSplitter;
     OpenDialog: TOpenDialog;
     rgScale: TRadioGroup;
+    lvFiles: TListView;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
-    procedure ShellListViewAddFolder(Sender: TObject; AFolder: TShellFolder;
-      var CanAdd: Boolean);
     procedure bbInfoClick(Sender: TObject);
     procedure btnImgDirClick(Sender: TObject);
     procedure btSelectAllClick(Sender: TObject);
@@ -70,16 +65,21 @@ type
     procedure btnPngDirClick(Sender: TObject);
     procedure edtPngDirCloseUp(Sender: TObject);
     procedure FormResize(Sender: TObject);
-    procedure ShellListViewClick(Sender: TObject);
     procedure rgScaleClick(Sender: TObject);
+    procedure lvFilesCompare(Sender: TObject; Item1, Item2: TListItem;
+      Data: Integer; var Compare: Integer);
+    procedure lvFilesColumnClick(Sender: TObject; Column: TListColumn);
   private
     { Private-Deklarationen }
     AppPath,IniName,
     LastPath,LastDest,
-    DefPath,FileMask : string;
-    Scale : integer;
+    DefPath : string;
+    ImgSize : integer;
+    FCol: integer;
+    FReverse: boolean;
     procedure ShowStatus;
     procedure UpdateDirList;
+    function GetImageSize (const Filename : string) : string;
   public
     { Public-Deklarationen }
   end;
@@ -91,9 +91,10 @@ implementation
 
 {$R *.dfm}
 
-uses System.Masks, System.IniFiles, SVGInterfaces, SVGIconUtils,
-  GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils, WinUtils,
-  MsgDialogs, StringUtils, GraphUtils;
+uses System.Masks, System.IniFiles, System.DateUtils, System.Math, System.Character,
+  SVGInterfaces, SVGIconUtils,
+  NumberUtils, GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils,
+  WinUtils, MsgDialogs, StringUtils, GraphUtils;
 
 const
   PngExt = 'png';
@@ -114,9 +115,9 @@ const
   iniStatus   = 'StatusHeight';
   iniLast     = 'LastDir';
   iniDest     = 'LastDest';
-  iniSize     = 'Scale';
+  iniSize     = 'PngSize';
 
-  ImgScales : array[0..4] of integer = (50,75,100,159,200);
+  ImgSizes : array[0..8] of integer = (16,24,32,48,64,128,256,512,1024);
 
 { ------------------------------------------------------------------- }
 procedure TMainForm.FormCreate(Sender: TObject);
@@ -136,17 +137,17 @@ begin
     with paStatus do Height:=ReadInteger(CfgSekt,iniStatus,Height);
     LastPath:=ReadString(CfgSekt,IniLast,DefPath);
     LastDest:=ReadString(CfgSekt,IniDest,'png');
-    Scale:=ReadInteger(CfgSekt,iniSize,100);
+    ImgSize:=ReadInteger(CfgSekt,iniSize,256);
     end;
   LoadHistory(IniFile,ImgDirSekt,edtImgDir);
   LoadHistory(IniFile,DestSekt,edtPngDir);
   IniFile.Free;
-  for i:=0 to High(ImgScales) do if Scale=ImgScales[i] then Break;
-  if i>High(ImgScales) then begin
-    i:=2; Scale:=100;
+  for i:=0 to High(ImgSizes) do if ImgSize=ImgSizes[i] then Break;
+  if i>High(ImgSizes) then begin
+    i:=6; ImgSize:=256;
     end;
   rgScale.ItemIndex:=i;
-  FileMask:=SvgMask;
+  FCol:=0; FReverse:=false;
   end;
 
 procedure TMainForm.FormDestroy(Sender: TObject);
@@ -162,7 +163,7 @@ begin
     WriteInteger(CfgSekt,iniStatus,paStatus.Height);
     WriteString(CfgSekt,IniLast,edtImgDir.Text);
     WriteString(CfgSekt,IniDest,edtPngDir.Text);
-    WriteInteger(CfgSekt,iniSize,Scale);
+    WriteInteger(CfgSekt,iniSize,ImgSize);
     end;
   SaveHistory(IniFile,ImgDirSekt,true,edtImgDir);
   SaveHistory(IniFile,DestSekt,true,edtPngDir);
@@ -173,7 +174,12 @@ begin
 
 procedure TMainForm.FormResize(Sender: TObject);
 begin
-  with ShellListView do SetColWidths([GetWidth-46,12,12,18]);
+  with lvFiles do begin
+    Column[1].Width:=120;
+    Column[2].Width:=70;
+    Column[3].Width:=70;
+    Column[0].Width:=Width-285;
+    end;
   end;
 
 procedure TMainForm.FormShow(Sender: TObject);
@@ -181,34 +187,51 @@ begin
   AddToHistory(edtImgDir,LastPath);
   AddToHistory(edtPngDir,LastDest);
   UpdateDirList;
-  with ShellListView do if Items.Count>0 then Items[0].Selected:=true;
+  with lvFiles do if Items.Count>0 then Items[0].Selected:=true;
   ShowStatus;
+  end;
+
+procedure TMainForm.lvFilesColumnClick(Sender: TObject; Column: TListColumn);
+begin
+  if Column.Index=FCol then FReverse:=not FReverse
+  else FReverse:=false;
+  FCol:=Column.Index;
+  lvFiles.AlphaSort;
+  end;
+
+procedure TMainForm.lvFilesCompare(Sender: TObject; Item1, Item2: TListItem;
+  Data: Integer; var Compare: Integer);
+var
+  dt1,dt2 : TDateTime;
+  n1,n2   : int64;
+begin
+  if FCol=0 then Compare:=CompareText(Item1.Caption,Item2.Caption)
+  else if (FCol=1) and (Item1.SubItems.Count>0) then begin  // Date
+    if not TryStrToDateTime(Item1.SubItems[0],dt1) then dt1:=0;
+    if not TryStrToDateTime(Item2.SubItems[0],dt2) then dt2:=0;
+    Compare:=CompareDateTime(dt1,dt2);
+    end
+  else if (Item1.SubItems.Count>1) then begin // Size
+    if not StrToSize(Item1.SubItems[1],n1) then n1:=0;
+    if not StrToSize(Item2.SubItems[1],n2) then n2:=0;
+    Compare:=CompareValue(n1,n2);
+    end;
+  if FReverse then Compare:=-Compare;
   end;
 
 procedure TMainForm.rgScaleClick(Sender: TObject);
 begin
-  Scale:=ImgScales[rgScale.ItemIndex];
+  ImgSize:=ImgSizes[rgScale.ItemIndex];
   end;
 
 procedure TMainForm.ShowStatus;
 begin
-  with ShellListView do if Items.Count>0 then begin
+  with lvFiles do if Items.Count>0 then begin
     if SelCount>0 then Statusbar.SimpleText:=GetPluralString(_('image of'),_('images of'),SelCount)+
       Format(_(' %u selected'),[Items.Count])
     else Statusbar.SimpleText:=GetPluralString(_('matching image'),_('matching images'),Items.Count);
     end
   else Statusbar.SimpleText:='';
-  end;
-
-procedure TMainForm.ShellListViewAddFolder(Sender: TObject;
-  AFolder: TShellFolder; var CanAdd: Boolean);
-begin
-  CanAdd:=MatchesMask(AFolder.DisplayName,FileMask);
-  end;
-
-procedure TMainForm.ShellListViewClick(Sender: TObject);
-begin
-  ShowStatus;
   end;
 
 procedure TMainForm.bbExitClick(Sender: TObject);
@@ -249,12 +272,99 @@ begin
     end;
   end;
 
+function TMainForm.GetImageSize (const Filename : string) : string;
+var
+  sn,sv,s : string;
+  sr  : RawByteString;
+  n,nh,w,h  : integer;
+  fs : TFileStream;
+const
+  vb = 'viewBox';
+  wd = 'width';
+  hg = 'height';
+
+  function GetNxtQuotedStr (const s : string; Pos : integer) : string;
+  var
+    n,m : integer;
+  begin
+    n:=Pos; Result:='';
+    while (n<=length(s)) and (s[n]<>'=') do inc(n);
+    while (n<=length(s)) and (s[n]<>'"') do inc(n);
+    m:=succ(n);
+    if length(s)>=m then begin
+      while (m<=length(s)) and (s[m]<>'"') do inc(m);
+      if s[m]='"' then Result:=TrimRight(copy(s,n+1,m-n-1));
+      end
+    end;
+
+  function ReadNxtInt (var s : string) : integer;
+  var
+    i,ic : integer;
+  begin
+    i:=1;
+    while (i<=length(s)) and TCharacter.IsDigit(s[i]) do inc(i);
+    val(copy(s,1,pred(i)),Result,ic);
+    if ic>0 then ReadNxtInt:=0;
+    while (i<=length(s)) and (s[i]<>' ') do inc(i);
+    delete(s,1,i);
+    end;
+
+begin
+  Result:='';
+  sn:=AddPath(edtImgDir.Text,Filename);
+  if FileExists(sn) then begin
+    fs:=TFileStream.Create(sn,fmOpenRead or fmShareDenyWrite);
+    try
+      with fs do if Size>0 then begin
+        SetLength(sr,Size);
+        Read(sr[1],Size);
+        end
+    finally
+      fs.Free;
+      end;
+    s:=RawByteToUnicode(sr,cpUtf8);
+    n:=TextPos(vb,s);
+    if n>0 then begin
+      sv:=GetNxtQuotedStr(s,n);
+      ReadNxtInt(sv); ReadNxtInt(sv);
+      w:=ReadNxtInt(sv); h:=ReadNxtInt(sv);
+      if (w>0) and (h>0) then Result:=IntToStr(w)+'x'+IntToStr(h);
+      end
+    else begin
+      n:=TextPos(wd,s);
+      if n>0 then begin
+        nh:=TextPos(hg,s);
+        if nh>0 then begin
+          sv:=GetNxtQuotedStr(s,n);
+          w:=ReadNxtInt(sv);
+          sv:=GetNxtQuotedStr(s,nh);
+          h:=ReadNxtInt(sv);
+          if (w>0) and (h>0) then Result:=IntToStr(w)+'x'+IntToStr(h);
+          end
+        end;
+      end;
+    end;
+  end;
+
 procedure TMainForm.UpdateDirList;
 var
-  sp : string;
+  FileInfo   : TSearchRec;
+  Findresult : integer;
 begin
-  with edtImgDir do sp:=Items[ItemIndex];
-  ShellComboBox.Path:=GetExistingParentPath(sp,DefPath);
+  lvFiles.Clear;
+  FindResult:=FindFirst(AddPath(edtImgDir.Text,SvgMask),faArchive+faReadOnly+faHidden+faSysfile+faNormal,FileInfo);
+  while FindResult=0 do with FileInfo do begin
+    if NotSpecialDir(Name) then begin
+      with lvFiles.Items.Add do begin
+        Caption:=Name;
+        SubItems.Add(DateTimeToStr(TimeStamp));
+        SubItems.Add(SizeToStr(Size));
+        SubItems.Add(GetImageSize(Name));
+        end;
+      end;
+    FindResult:=FindNext (FileInfo);
+    end;
+  FindClose(FileInfo);
   end;
 
 procedure TMainForm.edtImgDirCloseUp(Sender: TObject);
@@ -273,7 +383,7 @@ procedure TMainForm.btSelectNoneClick(Sender: TObject);
 var
   i : integer;
 begin
-  with ShellListView do for i:=0 to Items.Count-1 do Items[i].Selected:=false;
+  with lvFiles do for i:=0 to Items.Count-1 do Items[i].Selected:=false;
   ShowStatus;
   end;
 
@@ -281,7 +391,7 @@ procedure TMainForm.btSelectAllClick(Sender: TObject);
 var
   i : integer;
 begin
-  with ShellListView do for i:=0 to Items.Count-1 do Items[i].Selected:=true;
+  with lvFiles do for i:=0 to Items.Count-1 do Items[i].Selected:=true;
   ShowStatus;
   end;
 
@@ -291,13 +401,22 @@ var
   i,n,k  : integer;
   LSVG: ISVG;
 
-  function ConvertToPng (Scale : integer; const SvgName,PngName : string) : boolean;
+  function ConvertToPng (Size : integer; const SvgName,PngName : string) : boolean;
+  var
+    w,h : integer;
   begin
     Result:=false;
     if FileExists(SvgName) then begin
       try
         LSVG.LoadFromFile(SvgName);
-        SVGExportToPng(round(LSVG.Width*Scale/100),round(LSVG.Height*Scale/100),LSVG,PngName);
+        w:=round(LSVG.Width); h:=round(LSVG.Height);
+        if w>h then begin
+          h:=MulDiv(h,Size,w); w:=Size;
+          end
+        else begin
+          w:=MulDiv(w,Size,h); h:=Size;
+          end;
+        SVGExportToPng(w,h,LSVG,PngName);
         Result:=true;
       except
         on E:Exception do se:=E.Message;
@@ -313,12 +432,12 @@ begin
   ForceDirectories(sp);
   meStatus.Clear;
   n:=0;
-  with ShellListView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
-    sn:=Folders[i].DisplayName;
+  with lvFiles do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
+    sn:=Items[i].Caption;
     s:=NewExt(sn,PngExt);
     k:=meStatus.Lines.Add(_('Converting')+ColSpace+sn+' -> '+AddPath(edtPngDir.Text,s));
     s:=AddPath(sp,s); se:='';
-    if ConvertToPng(Scale,AddPath(sd,sn),s) then begin
+    if ConvertToPng(ImgSize,AddPath(sd,sn),s) then begin
       s:=_('Done'); inc(n);
       end
     else s:='*** '+_('Error')+' ***';

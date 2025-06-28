@@ -1082,7 +1082,7 @@ object MainForm: TMainForm
       Width = 81
       Height = 22
       Root = 'rfDesktop'
-      ShellListView = MainForm.ShellListView
+      ShellListView = ShellListView
       UseShellImages = True
       TabOrder = 7
       Visible = False
@@ -1095,6 +1095,7 @@ object MainForm: TMainForm
       AutoRefresh = True
       ObjectTypes = [otNonFolders]
       Root = 'rfDesktop'
+      ShellComboBox = ShellComboBox
       Sorted = True
       OnAddFolder = ShellListViewAddFolder
       Anchors = [akLeft, akTop, akRight, akBottom]
