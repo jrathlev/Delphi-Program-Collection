@@ -15,7 +15,7 @@ unit Img32.SVG.Reader;
   ****************************************************************************** *)
 
 // J. Rathlev, June 2025
-// new function "Reinitialize": force new rendering
+// new function "ReRender": force new rendering
 
 interface
 
@@ -186,7 +186,7 @@ type
     constructor Create;
     destructor Destroy; override;
     procedure Clear;
-    function Reinitialize: Boolean;      // JR
+    function ReRender: Boolean;      // JR
     procedure CalcViewBoxOfRootElement;
     procedure DrawImage(img: TImage32; scaleToImage: Boolean);
     function LoadFromStream(stream: TStream): Boolean;
@@ -5564,8 +5564,6 @@ end;
 procedure TSvgReader.CalcViewBoxOfRootElement;
 begin
   with fRootElement do begin
-    if not elRectWH.IsValid then
-      Exit; // should never happen
     viewboxWH.Width:=elRectWH.Width.GetValue(defaultSvgWidth, 0);
     viewboxWH.Height:=elRectWH.Height.GetValue(defaultSvgHeight, 0);
   end;
@@ -5670,7 +5668,7 @@ begin
 end;
 // ------------------------------------------------------------------------------
 
-function TSvgReader.Reinitialize: Boolean;  // JR
+function TSvgReader.ReRender: Boolean;  // JR
 var
   i : integer;
 begin
@@ -5683,7 +5681,7 @@ begin
   for i:=0 to fSimpleDrawList.Count - 1 do
     Dispose(PSimpleDrawData(fSimpleDrawList[i]));
   fSimpleDrawList.Clear;
-  Result:=LoadInternal;
+  Result:=LoadInternal;              // force new rendering
 end;
 
 // ------------------------------------------------------------------------------
