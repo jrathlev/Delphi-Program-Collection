@@ -1,5 +1,7 @@
 program SvgToIcon;
 
+
+
 {$R 'languages.res' 'languages.rc'}
 
 uses

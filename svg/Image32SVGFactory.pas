@@ -194,11 +194,11 @@ begin
 end;
 
 procedure TImage32SVG.LoadFromStream(Stream: TStream);
-Var
-  OldPos : Int64;
+//Var
+//  OldPos : Int64;
 begin
   // read and save the Source
-  OldPos := Stream.Position;
+//  OldPos := Stream.Position;
   SourceFromStream(Stream);
   // Restore Position
 //  Stream.Position := OldPos;
@@ -215,12 +215,12 @@ var
   dd: TDrawData;
   chg : boolean;
 begin
-  //Define Image32 output size   // JR
+  //Define Image32 output size   // JR see issue #305
   with FImage32 do begin
     w:=Round(R.Width); h:=Round(R.Height);
     chg:=(Width<>w) or (Height<>h);
     SetSize(w,h);
-    if chg then fSvgReader.Reinitialize;
+    if chg then fSvgReader.ReBuild; // force rendering
     end;
 
   //Update FsvgReader BEFORE calling FsvgReader.DrawImage

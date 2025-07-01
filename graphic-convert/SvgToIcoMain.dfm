@@ -25,6 +25,7 @@ object MainForm: TMainForm
     Height = 3
     Cursor = crVSplit
     Align = alBottom
+    OnMoved = spStatusMoved
     ExplicitTop = 0
     ExplicitWidth = 457
   end
@@ -44,11 +45,21 @@ object MainForm: TMainForm
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
-    object meStatus: TMemo
+    object pbxSvg: TPaintBox
       Left = 0
       Top = 0
-      Width = 531
+      Width = 155
       Height = 158
+      Align = alLeft
+      OnPaint = pbxSvgPaint
+      ExplicitWidth = 158
+    end
+    object meStatus: TMemo
+      Left = 155
+      Top = 0
+      Width = 376
+      Height = 158
+      TabStop = False
       Align = alClient
       ScrollBars = ssBoth
       TabOrder = 0
@@ -62,7 +73,8 @@ object MainForm: TMainForm
     Height = 436
     Align = alClient
     BevelOuter = bvNone
-    TabOrder = 2
+    TabOrder = 0
+    TabStop = True
     DesignSize = (
       531
       436)
@@ -460,7 +472,7 @@ object MainForm: TMainForm
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       Layout = blGlyphTop
       NumGlyphs = 2
-      TabOrder = 0
+      TabOrder = 6
       WordWrap = True
       OnClick = bbConvertClick
     end
@@ -666,7 +678,7 @@ object MainForm: TMainForm
         C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       NumGlyphs = 2
-      TabOrder = 1
+      TabOrder = 7
       OnClick = bbExitClick
     end
     object bbInfo: TBitBtn
@@ -871,7 +883,7 @@ object MainForm: TMainForm
         C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       NumGlyphs = 2
-      TabOrder = 2
+      TabOrder = 8
       OnClick = bbInfoClick
     end
     object btSelectAll: TBitBtn
@@ -1063,7 +1075,7 @@ object MainForm: TMainForm
       Height = 21
       Anchors = [akLeft, akTop, akRight]
       DropDownCount = 20
-      TabOrder = 5
+      TabOrder = 0
       OnCloseUp = edtImgDirCloseUp
     end
     object edtIcoDir: TComboBox
@@ -1073,7 +1085,7 @@ object MainForm: TMainForm
       Height = 21
       Anchors = [akLeft, akTop, akRight]
       DropDownCount = 15
-      TabOrder = 6
+      TabOrder = 1
       OnCloseUp = edtIcoDirCloseUp
     end
     object ShellComboBox: TShellComboBox
@@ -1084,7 +1096,8 @@ object MainForm: TMainForm
       Root = 'rfDesktop'
       ShellListView = ShellListView
       UseShellImages = True
-      TabOrder = 7
+      TabOrder = 9
+      TabStop = False
       Visible = False
     end
     object ShellListView: TShellListView
@@ -1105,7 +1118,7 @@ object MainForm: TMainForm
       MultiSelect = True
       RowSelect = True
       ShowZip = True
-      TabOrder = 8
+      TabOrder = 2
       ViewStyle = vsReport
     end
     object gbSizes: TGroupBox
@@ -1115,7 +1128,7 @@ object MainForm: TMainForm
       Height = 126
       Anchors = [akTop, akRight]
       Caption = 'Icon sizes'
-      TabOrder = 9
+      TabOrder = 5
       object cb032: TCheckBox
         Tag = 32
         Left = 10

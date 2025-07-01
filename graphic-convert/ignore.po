@@ -1,0 +1,62 @@
+#. MainForm.paMain.gbSizes.cb032.Caption
+#: SvgToPngMain.dfm:1125
+msgid "32x32"
+msgstr ""
+
+#. MainForm.paMain.gbSizes.cb048.Caption
+#: SvgToPngMain.dfm:1107
+msgid "48x48"
+msgstr ""
+
+#. MainForm.paMain.gbSizes.cb064.Caption
+#: SvgToPngMain.dfm:1134
+msgid "64x64"
+msgstr ""
+
+#. MainForm.paMain.gbSizes.cb128.Caption
+#: SvgToPngMain.dfm:1143
+msgid "128x128"
+msgstr ""
+
+#. MainForm.paMain.gbSizes.cb256.Caption
+#: SvgToPngMain.dfm:1152
+msgid "256x256"
+msgstr ""
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:539
+msgid "0°"
+msgstr ""
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:540
+msgid "90°"
+msgstr ""
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:541
+msgid "180°"
+msgstr ""
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:542
+msgid "270°"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. HauptForm..Font.Name
+#: IconMain.dfm:12
+msgid "Tahoma"
+msgstr ""
+
+#. MainForm..ShellListView..Root
+#: BmpToPngMain.dfm:436
+#. MainForm..ShellComboBox..Root
+#: BmpToPngMain.dfm:454
+#. MainForm..ShellListView..Root
+#: SplitMain.dfm:318
+#. MainForm..ShellComboBox..Root
+#: SplitMain.dfm:1057
+msgid "rfDesktop"
+msgstr ""
+

@@ -25,6 +25,7 @@ object MainForm: TMainForm
     Height = 3
     Cursor = crVSplit
     Align = alBottom
+    OnMoved = spStatusMoved
     ExplicitTop = 0
     ExplicitWidth = 457
   end
@@ -35,7 +36,6 @@ object MainForm: TMainForm
     Height = 19
     Panels = <>
     SimplePanel = True
-    ExplicitTop = 597
   end
   object paStatus: TPanel
     Left = 0
@@ -45,11 +45,18 @@ object MainForm: TMainForm
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitTop = 439
-    object meStatus: TMemo
+    object pbxSvg: TPaintBox
       Left = 0
       Top = 0
-      Width = 531
+      Width = 158
+      Height = 158
+      Align = alLeft
+      OnPaint = pbxSvgPaint
+    end
+    object meStatus: TMemo
+      Left = 158
+      Top = 0
+      Width = 373
       Height = 158
       Align = alClient
       ScrollBars = ssBoth
@@ -64,8 +71,8 @@ object MainForm: TMainForm
     Height = 433
     Align = alClient
     BevelOuter = bvNone
-    TabOrder = 2
-    ExplicitHeight = 436
+    TabOrder = 0
+    TabStop = True
     DesignSize = (
       531
       433)
@@ -261,7 +268,7 @@ object MainForm: TMainForm
     end
     object bbConvert: TBitBtn
       Left = 385
-      Top = 345
+      Top = 340
       Width = 91
       Height = 86
       Anchors = [akRight, akBottom]
@@ -463,13 +470,13 @@ object MainForm: TMainForm
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       Layout = blGlyphTop
       NumGlyphs = 2
-      TabOrder = 0
+      TabOrder = 6
       WordWrap = True
       OnClick = bbConvertClick
     end
     object bbExit: TBitBtn
       Left = 480
-      Top = 390
+      Top = 385
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -669,12 +676,12 @@ object MainForm: TMainForm
         C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       NumGlyphs = 2
-      TabOrder = 1
+      TabOrder = 8
       OnClick = bbExitClick
     end
     object bbInfo: TBitBtn
       Left = 480
-      Top = 345
+      Top = 340
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -874,12 +881,12 @@ object MainForm: TMainForm
         C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       NumGlyphs = 2
-      TabOrder = 2
+      TabOrder = 9
       OnClick = bbInfoClick
     end
     object btSelectAll: TBitBtn
       Left = 10
-      Top = 345
+      Top = 340
       Width = 31
       Height = 31
       Hint = 'Select all'
@@ -969,8 +976,8 @@ object MainForm: TMainForm
       OnClick = btSelectAllClick
     end
     object btSelectNone: TBitBtn
-      Left = 45
-      Top = 345
+      Left = 10
+      Top = 375
       Width = 31
       Height = 31
       Hint = 'Deselect all'
@@ -1066,7 +1073,7 @@ object MainForm: TMainForm
       Height = 21
       Anchors = [akLeft, akTop, akRight]
       DropDownCount = 20
-      TabOrder = 5
+      TabOrder = 0
       OnCloseUp = edtImgDirCloseUp
     end
     object edtPngDir: TComboBox
@@ -1076,16 +1083,16 @@ object MainForm: TMainForm
       Height = 21
       Anchors = [akLeft, akTop, akRight]
       DropDownCount = 15
-      TabOrder = 6
+      TabOrder = 1
       OnCloseUp = edtPngDirCloseUp
     end
-    object rgScale: TRadioGroup
-      Left = 90
-      Top = 345
-      Width = 211
-      Height = 81
-      Anchors = [akLeft, akBottom]
-      Caption = 'Longer side of the images'
+    object rgSize: TRadioGroup
+      Left = 170
+      Top = 340
+      Width = 206
+      Height = 86
+      Anchors = [akRight, akBottom]
+      Caption = 'Length of the selected side'
       Columns = 3
       ItemIndex = 2
       Items.Strings = (
@@ -1099,13 +1106,13 @@ object MainForm: TMainForm
         '512'
         '1024')
       TabOrder = 7
-      OnClick = rgScaleClick
+      OnClick = rgSizeClick
     end
     object lvFiles: TListView
       Left = 10
       Top = 90
       Width = 511
-      Height = 248
+      Height = 246
       Anchors = [akLeft, akTop, akRight, akBottom]
       Columns = <
         item
@@ -1129,11 +1136,25 @@ object MainForm: TMainForm
       MultiSelect = True
       ReadOnly = True
       SortType = stData
-      TabOrder = 8
+      TabOrder = 2
       ViewStyle = vsReport
+      OnClick = lvFilesClick
       OnColumnClick = lvFilesColumnClick
       OnCompare = lvFilesCompare
-      ExplicitHeight = 251
+    end
+    object rgFormat: TRadioGroup
+      Left = 50
+      Top = 340
+      Width = 111
+      Height = 81
+      Anchors = [akRight, akBottom]
+      Caption = 'Fixed value for'
+      ItemIndex = 0
+      Items.Strings = (
+        'Width'
+        'Height'
+        'Longest')
+      TabOrder = 5
     end
   end
   object OpenDialog: TOpenDialog

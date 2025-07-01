@@ -1,5 +1,7 @@
 program SvgToPng;
 
+{$R 'languages.res' 'languages.rc'}
+
 uses
   GnuGetText in '..\Units\GnuGetText.pas',
   LangUtils in '..\Units\LangUtils.pas',

@@ -50,7 +50,11 @@ uses
   SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces;
 
 const
-  ProgName = 'SvgExplorer';
+  ProgName = 'Svg Explorer';
+  Version = '2.1';
+  CopRgt1 = '© 2020-2024 Ethea';
+  CopRgt2 = '© 2025 J. Rathlev';
+  EmailAdr = 'kontakt(a)rathlev-home.de';
 
 resourcestring
   rsConfDelFile = 'Do you really want to delete %u selected files?';
@@ -79,9 +83,10 @@ resourcestring
   rsSamePath = 'An image cannot be copied to the same path!';
   rsFileExists = 'The image file "%s" already exists!';
   rsOverwrite = 'Overwrite image';
-  rsAddCtx = 'Add SvgExplorer to folder context menu';
-  rsRemCtx = 'Remove SvgExplorer from folder context menu';
-  rsOpenDirWith = 'Open this folder with SvgExplorer';
+  rsAddCtx = 'Add Svg Explorer to folder context menu';
+  rsRemCtx = 'Remove Svg Explorer from folder context menu';
+  rsOpenDirWith = 'Open this folder with Svg Explorer';
+  rsPrgNote = 'Based on SVG Icon Explorer (%s)';
 
 type
   TSVGFactory = (svgImage32, svgDirect2D);
@@ -168,6 +173,7 @@ type
     pmiCopyImage: TMenuItem;
     pmiPasteImage: TMenuItem;
     bbContext: TBitBtn;
+    bbInfo: TBitBtn;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -208,6 +214,7 @@ type
     procedure pmiCopyImageClick(Sender: TObject);
     procedure pmiPasteImageClick(Sender: TObject);
     procedure bbContextClick(Sender: TObject);
+    procedure bbInfoClick(Sender: TObject);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
@@ -250,6 +257,8 @@ uses
   ListUtils,
   PathUtils,
   StringUtils,
+  NumberUtils,
+  MsgDialogs,
   NumDlg,
   WinShell,
   WinExecute,
@@ -326,6 +335,7 @@ var
 
 begin
   TranslateComponent(self);
+  Application.Title:=Progname+' ('+Version+')';
   AppPath:=GetKnownFolder(FOLDERID_RoamingAppData);
   fpaPreviewSize := paPreview.Width; LastDir:=''; CmdImg:='';
   if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
@@ -362,6 +372,7 @@ begin
   else paPreview.Width:=h; //ClientHeight-h;
   for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
     grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
+  grpFactory.ItemIndex := integer(Low(TSVGFactory));
   SetFactory(Low(TSVGFactory));
   LastDir:=GetExistingParentPath(LastDir,GetKnownFolder(FOLDERID_Documents));
   AddToHistory(cbxSelectedDir,LastDir);
@@ -412,6 +423,14 @@ begin
   rgSizeClick(Sender);
   SelectDir(cbxSelectedDir.Text);
   if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
+  end;
+
+procedure TfmExplorerSVG.bbInfoClick(Sender: TObject);
+begin
+  InfoDialog(ProgName+' '+Version+' - '
+    +' ('+DateToStr(FileDateToDateTime(FileAge(Application.ExeName)))+')'+sLineBreak
+    +Format(rsPrgNote,[CopRgt1])+sLineBreak
+    +CopRgt2+' ('+EMailAdr+')');
   end;
 
 procedure TfmExplorerSVG.SelectOptimizer;
@@ -581,14 +600,15 @@ begin
 //      SetGlobalSvgFactory(GetSkiaSVGFactory);
   end;
   IconSvg:=GlobalSvgFactory.NewSvg;
-  grpFactory.ItemIndex := Ord(AFactory);
-  Caption := Application.Title + ' - ' + ASVGFactoryNames[AFactory];
+  Caption := Application.Title+' - '+ASVGFactoryNames[AFactory];
 end;
 
 procedure TfmExplorerSVG.grpFactoryClick(Sender: TObject);
 begin
-  SetFactory(TSVGFactory(grpFactory.ItemIndex));
-  if Visible then RefreshActionExecute(Sender);
+  if Visible then begin
+    SetFactory(TSVGFactory(grpFactory.ItemIndex));
+    RefreshActionExecute(Sender);
+    end;
 end;
 
 procedure TfmExplorerSVG.ImageViewKeyDown(Sender: TObject; var Key: Word;
@@ -629,12 +649,12 @@ begin
   if SelectedIndex>= 0 then begin
     with SVGIconImageList.SVGIconItems[SelectedIndex] do begin
       LFileName:=IconName+SvgExt;
-      SVGMemo.Text := CharToCrLf(SVGText,#$0A);
+      SVGMemo.Text := AdjustLineBreaks(SVGText,tlbsCRLF);
       laImgName.Caption:=LFileName;
       LFileName:=IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+LFileName;
       if FileAge(LFileName,dt) then laDate.Caption:=rsModified+DateTimeToStr(dt)
       else laDate.Caption:='';
-      laSize.Caption:=rsSize+IntToDecimal(GetFileSize(LFileName));
+      laSize.Caption:=rsSize+SizeToStr(GetFileSize(LFileName),true);
       laLayout.Caption:=rsLayout+IntToStr(round(SVG.Width))+'x'+IntToStr(round(SVG.Height));
       s:=SVG.Source;
       end;
@@ -843,7 +863,7 @@ begin
       else begin
         w:=round(si.SVG.Width); h:=round(si.SVG.Height);
         end;
-      IconSvg.Source:=si.SVG.Source;
+//      IconSvg.Source:=si.SVG.Source;
       SVGExportToPng(w,h,IconSvg,se,si.Name+PngExt,cbAspectRatio.Checked);
       inc(n);
       end;

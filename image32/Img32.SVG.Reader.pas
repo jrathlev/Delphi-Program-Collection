@@ -15,7 +15,7 @@ unit Img32.SVG.Reader;
   ****************************************************************************** *)
 
 // J. Rathlev, June 2025
-// new function "ReRender": force new rendering
+// new function "ReBuild": force new rendering
 
 interface
 
@@ -186,7 +186,7 @@ type
     constructor Create;
     destructor Destroy; override;
     procedure Clear;
-    function ReRender: Boolean;      // JR
+    function ReBuild: Boolean;      // JR
     procedure CalcViewBoxOfRootElement;
     procedure DrawImage(img: TImage32; scaleToImage: Boolean);
     function LoadFromStream(stream: TStream): Boolean;
@@ -5668,7 +5668,7 @@ begin
 end;
 // ------------------------------------------------------------------------------
 
-function TSvgReader.ReRender: Boolean;  // JR
+function TSvgReader.ReBuild: Boolean;  // JR
 var
   i : integer;
 begin

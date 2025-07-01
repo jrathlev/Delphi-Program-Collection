@@ -1,5 +1,7 @@
 program SVGExplorer;
 
+{$R 'languages.res' 'languages.rc'}
+
 uses
   GnuGetText in '..\units\GnuGetText.pas',
   LangUtils in '..\units\LangUtils.pas',
@@ -17,7 +19,7 @@ begin
   // Subdirectory in AppData for user configuration files and supported languages
   InitTranslation(['delphi10','units']);
 
-  Application.Title := 'SVG Icons Explorer - (c) 2020-2024 Ethea, 2025 J. Rathlev';
+//  Application.Title := 'SVG Icons Explorer - (c) 2020-2024 Ethea, 2025 J. Rathlev';
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfmExplorerSVG, fmExplorerSVG);

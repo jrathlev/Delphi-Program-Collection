@@ -24,7 +24,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Shell.ShellCtrls,
-  Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+  Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, SVGInterfaces;
 
 const
   Vers = '2.0.0';
@@ -60,6 +60,7 @@ type
     cb256: TCheckBox;
     OpenDialog: TOpenDialog;
     cb048: TCheckBox;
+    pbxSvg: TPaintBox;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure ShellListViewAddFolder(Sender: TObject; AFolder: TShellFolder;
@@ -76,12 +77,15 @@ type
     procedure edtIcoDirCloseUp(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure ShellListViewClick(Sender: TObject);
+    procedure pbxSvgPaint(Sender: TObject);
+    procedure spStatusMoved(Sender: TObject);
   private
     { Private-Deklarationen }
     AppPath,IniName,
     LastPath,LastDest,
     DefPath,FileMask : string;
     PngSizes : array [0..MaxSizes] of TCheckBox;
+    IconSvg : ISVG;
     procedure ShowStatus;
     procedure UpdateDirList;
   public
@@ -96,8 +100,7 @@ implementation
 {$R *.dfm}
 
 uses System.Types, System.Masks, System.IniFiles, Vcl.Graphics, Vcl.Imaging.PngImage,
-  SVGInterfaces, SVGIconUtils,
-  GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils, WinUtils,
+  SVGIconUtils, GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils, WinUtils,
   MsgDialogs, StringUtils, GraphUtils;
 
 const
@@ -150,6 +153,8 @@ begin
   FileMask:=SvgMask;
   PngSizes[0]:=cb032; PngSizes[1]:=cb048; PngSizes[2]:=cb064; PngSizes[3]:=cb128; PngSizes[4]:=cb256;
   for i:=0 to MaxSizes do PngSizes[i].Checked:=n and BitMask[i]<>0;
+  with pbxSvg do Width:=Height;
+  IconSvg:=GlobalSVGFactory.NewSvg;
   end;
 
 procedure TMainForm.FormDestroy(Sender: TObject);
@@ -189,6 +194,21 @@ begin
   UpdateDirList;
   with ShellListView do if Items.Count>0 then Items[0].Selected:=true;
   ShowStatus;
+  bbConvert.SetFocus;
+  end;
+
+procedure TMainForm.pbxSvgPaint(Sender: TObject);
+var
+  sn : string;
+begin
+  with ShellListView do if SelCount>0 then begin
+    sn:=SelectedFolder.DisplayName;
+    sn:=AddPath(edtImgDir.Text,sn);
+    with IconSvg do begin
+      LoadFromFile(sn);
+      PaintTo(pbxSvg.Canvas.Handle,TRectF.Create(2,2,pbxSvg.Width-2,pbxSvg.Height-2),true);
+      end;
+    end;
   end;
 
 procedure TMainForm.ShowStatus;
@@ -201,6 +221,11 @@ begin
   else Statusbar.SimpleText:='';
   end;
 
+procedure TMainForm.spStatusMoved(Sender: TObject);
+begin
+  with pbxSvg do Width:=Height;
+  end;
+
 procedure TMainForm.ShellListViewAddFolder(Sender: TObject;
   AFolder: TShellFolder; var CanAdd: Boolean);
 begin
@@ -209,6 +234,7 @@ begin
 
 procedure TMainForm.ShellListViewClick(Sender: TObject);
 begin
+  pbxSvg.Invalidate;
   ShowStatus;
   end;
 
@@ -254,8 +280,11 @@ procedure TMainForm.UpdateDirList;
 var
   sp : string;
 begin
-  with edtImgDir do sp:=Items[ItemIndex];
-  ShellComboBox.Path:=GetExistingParentPath(sp,DefPath);
+  with edtImgDir do sp:=GetExistingParentPath(Items[ItemIndex],DefPath);
+  AddToHistory(edtImgDir,sp);
+  ShellComboBox.Path:=sp;
+  with ShellListView do if FolderCount>0 then ItemIndex:=0;
+  pbxSvg.Invalidate;
   end;
 
 procedure TMainForm.edtImgDirCloseUp(Sender: TObject);
@@ -293,7 +322,6 @@ var
   ok         : boolean;
   PngList    : TList;
   sPng       : TMemoryStream;
-  LSVG       : ISVG;
 
   procedure FreeList (AList : TList);
   var
@@ -341,7 +369,6 @@ var
 
 begin
   Cursor:=crHourglass;
-  LSVG:=GlobalSVGFactory.NewSvg;
   sd:=edtImgDir.Text; sp:=edtIcoDir.Text;
   if not ContainsFullPath(sp) then sp:=AddPath(sd,sp);
   ForceDirectories(sp);
@@ -353,8 +380,8 @@ begin
     k:=meStatus.Lines.Add(_('Creating icon from ')+ColSpace+sn);
     if FileExists(sv) then begin
       try
-        LSVG.LoadFromFile(sv);
-        ss:=LSVG.Source;
+        IconSvg.LoadFromFile(sv);
+        ss:=IconSvg.Source;
         ok:=true;
       except
         on Exception do ok:=false;
@@ -365,9 +392,7 @@ begin
           if PngList.Count>0 then s:=','+s else s:=' ('+s;
           with meStatus do Lines[k]:=Lines[k]+s;
           sPng:=TMemoryStream.Create;
-//          LSVG.Clear;        // force Img32.SVG.Reader to perform a new rendering
-//          LSVG.Source:=ss;
-          ok:=ExportToPng(Tag,LSVG,sPng);
+          ok:=ExportToPng(Tag,IconSvg,sPng);
           if ok then PngList.Add(sPng) else Break;
           end;
         if ok then begin

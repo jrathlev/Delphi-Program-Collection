@@ -1,0 +1,726 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphic converters\n"
+"POT-Creation-Date: 2025-06-30 17:36+0200\n"
+"PO-Revision-Date: 2025-06-30 17:36+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: J. Rathlev <inforathlev-home.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#. MainForm.Caption
+#: BmpToPngMain.dfm:4
+msgid "Convert BMP to PNG"
+msgstr "Konvertiere BMP nach PNG"
+
+#. MainForm.Label1.Caption
+#: BmpToPngMain.dfm:28
+msgid "Folder with BMP images:"
+msgstr "Ordner mit BMP-Bildern:"
+
+#. MainForm.Label2.Caption
+#: BmpToPngMain.dfm:123
+msgid "Destination folder for PNG images:"
+msgstr "Zielordner für die PNG-Bilder"
+
+#. MainForm.bbConvert.Caption
+#. MainForm.paMain.bbConvert.Caption
+#. MainForm.paMain.bbConvert.Caption
+#. MainForm.paMain.bbConvert.Caption
+#: BmpToPngMain.dfm:228 PngToBmpMain.dfm:455 SvgToIcoMain.dfm:276
+#: SvgToPngMain.dfm:276
+msgid "Convert"
+msgstr "Konvertiere"
+
+#. MainForm.btSelectAll.Hint
+#. MainForm.btSelectAll.Hint
+#. MainForm.paMain.btSelectAll.Hint
+#. MainForm.paMain.btSelectAll.Hint
+#: BmpToPngMain.dfm:884 SplitMain.dfm:756 SvgToIcoMain.dfm:893
+#: SvgToPngMain.dfm:893
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#. MainForm.btSelectNone.Hint
+#. MainForm.btSelectNone.Hint
+#. MainForm.paMain.btSelectNone.Hint
+#. MainForm.paMain.btSelectNone.Hint
+#: BmpToPngMain.dfm:975 SplitMain.dfm:847 SvgToIcoMain.dfm:984
+#: SvgToPngMain.dfm:984
+msgid "Deselect all"
+msgstr "Alle abwählen"
+
+#. HauptForm.Caption
+#: IconMain.dfm:4 IconMain.pas:122
+msgid "Convert image to icon"
+msgstr "Konvertiere Bild in Icon"
+
+#. HauptForm.Label1.Caption
+#: IconMain.dfm:27
+msgid "Image:"
+msgstr "Bild:"
+
+#. HauptForm.btnFile.Hint
+#: IconMain.dfm:34
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#. HauptForm.Label2.Caption
+#: IconMain.dfm:125
+msgid "Original size:"
+msgstr "Originalgröße:"
+
+#. HauptForm.btConvert.Caption
+#: IconMain.dfm:165
+msgid "Save as icon"
+msgstr "Als Icon speichern"
+
+#. HauptForm.cbGrid.Caption
+#: IconMain.dfm:589
+msgid "Show grid"
+msgstr "Raster anzeigen"
+
+#. HauptForm.paRight.gbTrans.Caption
+#: IconMain.dfm:606
+msgid "Transparency color"
+msgstr "Transparente Farbe"
+
+#. HauptForm.paRight.gbTrans.rbAuto.Caption
+#: IconMain.dfm:623
+msgid "Automatic"
+msgstr "Automatisch"
+
+#. HauptForm.paRight.gbTrans.rbColor.Caption
+#: IconMain.dfm:634
+msgid "Select:"
+msgstr "Auswählen:"
+
+#. HauptForm.paRight.gbTrans.rbOff.Caption
+#: IconMain.dfm:644
+msgid "Off"
+msgstr "Keine"
+
+#. HauptForm.paRight.rgColor.Caption
+#: IconMain.dfm:655
+msgid "Color format"
+msgstr "Farbformat"
+
+#. HauptForm.paRight.rgColor.Items.Strings
+#: IconMain.dfm:658
+msgid "16 colors"
+msgstr "16 Farben"
+
+#. HauptForm.paRight.rgColor.Items.Strings
+#: IconMain.dfm:659
+msgid "256 colors"
+msgstr "256 Farben"
+
+#. HauptForm.paRight.rgColor.Items.Strings
+#. MainForm.paMain.gbSettings.rb24Bit.Caption
+#: IconMain.dfm:660 PngToBmpMain.dfm:680
+msgid "24-bit color"
+msgstr "24-bit-Farben"
+
+#. HauptForm.paRight.rgColor.Items.Strings
+#. MainForm.paMain.gbSettings.rb32Bit.Caption
+#: IconMain.dfm:661 PngToBmpMain.dfm:691
+msgid "32-bit color"
+msgstr "32-bit-Farben"
+
+#. HauptForm.paRight.rgSize.Caption
+#: IconMain.dfm:671
+msgid "Icon size"
+msgstr "Icon-Größe"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:675
+msgid "Original"
+msgstr "Original"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:676
+msgid "16 x 16 pixel"
+msgstr "16 x 16 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:677
+msgid "24 x 24 pixel"
+msgstr "24 x 24 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:678
+msgid "32 x 32 pixel"
+msgstr "32 x 32 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:679
+msgid "48 x 48 pixel"
+msgstr "48 x 48 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:680
+msgid "64 x 64 pixel"
+msgstr "64 x 64 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:681
+msgid "128 x 128 pixel"
+msgstr "128 x 128 Pixel"
+
+#. HauptForm.paRight.rgSize.Items.Strings
+#: IconMain.dfm:682
+msgid "256 x 256 pixel"
+msgstr "256 x 256 Pixel"
+
+#. HauptForm.OpenPictureDialog.Filter
+#: IconMain.dfm:701
+msgid ""
+"All|*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.tif*|Windows-Bitmap|*.bmp|GIF-Image "
+"(*.gif)|*.gif|JPEG-Image (*.jpg)|*.jpg;*.jpeg|Portable Network Graphics|"
+"*.png|Tiff-Image|*.tif*"
+msgstr ""
+"Alle|*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.tif*|Windows-Bitmap|*.bmp|GIF-Bild "
+"(*.gif)|*.gif|JPEG-Bild (*.jpg)|*.jpg;*.jpeg|Portable Network Grafik|*.png|"
+"Tiff-Bild|*.tif*"
+
+#. HauptForm.SavePictureDialog.DefaultExt
+#. MainForm.sdIcon.DefaultExt
+#: IconMain.dfm:707 PngToIconMain.dfm:917
+msgid "ico"
+msgstr "ico"
+
+#. HauptForm.SavePictureDialog.Filter
+#: IconMain.dfm:708
+msgid "Icons (*.ico)|*.ico"
+msgstr "Symbole (*.ico)|*.ico"
+
+#. frmPic2Eps.Caption
+#: Img2EpsMain.dfm:4
+msgid "Convert images to EPS"
+msgstr "Konvertiere Bilder nach EPS"
+
+#. frmPic2Eps.btnQuit.Caption
+#. MainForm.paBottom.btnQuit.Caption
+#: Img2EpsMain.dfm:122 PngToBmpMain.dfm:816
+msgid "Quit"
+msgstr "Ende"
+
+#. frmPic2Eps.Panel1.Label3.Caption
+#: Img2EpsMain.dfm:216
+msgid "EPS folder:"
+msgstr "EPS-Ordner:"
+
+#. frmPic2Eps.Panel1.Label2.Caption
+#: Img2EpsMain.dfm:223
+msgid "Files:"
+msgstr "Dateien:"
+
+#. frmPic2Eps.Panel1.Label1.Caption
+#. MainForm.Label1.Caption
+#: Img2EpsMain.dfm:230 SplitMain.dfm:28
+msgid "Image folder:"
+msgstr "Bild-Ordner:"
+
+#. frmPic2Eps.Panel1.gpbOptions.Caption
+#: Img2EpsMain.dfm:498
+msgid "Options"
+msgstr "Optionen"
+
+#. frmPic2Eps.Panel1.gpbOptions.cbCompress.Caption
+#: Img2EpsMain.dfm:505
+msgid "Compress"
+msgstr "Komprimieren"
+
+#. frmPic2Eps.Panel1.gpbOptions.cbInvert.Caption
+#: Img2EpsMain.dfm:515
+msgid "Invert grayscale"
+msgstr "Graustufen invertieren"
+
+#. frmPic2Eps.Panel1.gpbOptions.cbColor.Caption
+#: Img2EpsMain.dfm:523
+msgid "Color"
+msgstr "Farbe"
+
+#. frmPic2Eps.Panel1.rgRotate.Caption
+#: Img2EpsMain.dfm:535
+msgid "Rotate to left"
+msgstr "Nach rechts drehen"
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:539
+msgid "0°"
+msgstr "0°"
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:540
+msgid "90°"
+msgstr "90°"
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:541
+msgid "180°"
+msgstr "180°"
+
+#. frmPic2Eps.Panel1.rgRotate.Items.Strings
+#: Img2EpsMain.dfm:542
+msgid "270°"
+msgstr "270°"
+
+#. frmPic2Eps.Panel1.btnStart.Hint
+#: Img2EpsMain.dfm:550
+msgid "Start conversion"
+msgstr "Konvertierung starten"
+
+#. frmPic2Eps.Panel1.btnStart.Caption
+#: Img2EpsMain.dfm:551
+msgid "Start"
+msgstr "Start"
+
+#. frmPic2Eps.OpenDialog.Filter
+#: Img2EpsMain.dfm:657
+msgid ""
+"All supported image formats|*.jpg;*.bmp;*.png;*.pcx;*.tga;*.tif;*.gif|JPEG "
+"images|*.jpg|BMP images|*.bmp|PNG images|*.png|PCX images|*.pcx|TGA images|"
+"*.tga|TIFF images|*.tif|GIF images|*.gif"
+msgstr ""
+"Alle unterstützten Bildformate|*.jpg;*.bmp;*.png;*.pcx;*.tga;*.tif;*.gif| "
+"JPEG-Bilder|*.jpg| BMP-Bilder|*.bmp| PNG-Bilder|*.png| PCX Bilder|*.pcx| TGA "
+"Bilder|*.tga| TIFF-Bilder|*.tif| GIF-Bilder|*.gif"
+
+#. MainForm.Caption
+#: PngToBmpMain.dfm:4
+msgid "Convert PNG to BMP"
+msgstr "Konvertiere PNG nach BMP"
+
+#. MainForm.paTop.Label1.Caption
+#: PngToBmpMain.dfm:35
+msgid "PNG folder:"
+msgstr "PNG-Ordner:"
+
+#. MainForm.paTop.Label2.Caption
+#: PngToBmpMain.dfm:42
+msgid "Images:"
+msgstr "Bilder:"
+
+#. MainForm.paTop.Label3.Caption
+#: PngToBmpMain.dfm:137
+msgid "BMP folder:"
+msgstr "BMP-Ordner:"
+
+#. MainForm.paTop.btnBmpDir.Hint
+#. MainForm.paTop.btnImgDir.Hint
+#: PngToBmpMain.dfm:144 PngToBmpMain.dfm:235
+msgid "Select directory"
+msgstr "Verzeichnis auswählen"
+
+#. MainForm.paTop.btnSubdir.Hint
+#: PngToBmpMain.dfm:326
+msgid "Use same subdirectory"
+msgstr "Gleiches Unterverzeichnis verwenden"
+
+#. MainForm.paMain.gbSettings.Caption
+#: PngToBmpMain.dfm:565
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. MainForm.paMain.gbSettings.Label4.Caption
+#: PngToBmpMain.dfm:575
+msgid "Convert to"
+msgstr "Konvertiere nach"
+
+#. MainForm.paMain.gbSettings.bbBgColor.Caption
+#: PngToBmpMain.dfm:583
+msgid "Background"
+msgstr "Hintergrund"
+
+#. MainForm.paMain.gbSettings.rb8Bit.Caption
+#: PngToBmpMain.dfm:671
+msgid "8-bit color"
+msgstr "8-bit-Farben"
+
+#. MainForm.OpenPictureDialog.Filter
+#: PngToBmpMain.dfm:901
+msgid "PNG images|*.png"
+msgstr "PNG-Bilder|*.png"
+
+#. MainForm.Caption
+#: PngToIconMain.dfm:4
+msgid "Create Icon from PNG"
+msgstr "Icon aus PNG erstellen"
+
+#. MainForm.Label1.Caption
+#: PngToIconMain.dfm:28 PngToIconMain.pas:190
+msgid "Directory with PNG images"
+msgstr "Verzeichnis mit PNG-Bildern"
+
+#. MainForm.bbConvert.Caption
+#: PngToIconMain.dfm:134
+msgid "Create icon"
+msgstr "Icon erstellen"
+
+#. MainForm.gbDest.Caption
+#: PngToIconMain.dfm:791
+msgid "Destination directory of icon"
+msgstr "Zielverzeichnis für Icon"
+
+#. MainForm.gbDest.rbSourceDir.Caption
+#: PngToIconMain.dfm:890
+msgid "Same as PNG"
+msgstr "Gleich wie PNG"
+
+#. MainForm.gbDest.rbOtherDir.Caption
+#: PngToIconMain.dfm:901
+msgid "Select other directory"
+msgstr "Anderes Verzeichnis auswählen"
+
+#. MainForm.sdIcon.Filter
+#: PngToIconMain.dfm:918
+msgid "Icon files|*.ico"
+msgstr "Icon-Dateien|*.ico"
+
+#. MainForm.Caption
+#: SplitMain.dfm:4
+msgid "Split images to Enabled/Disabled"
+msgstr "Bilder aufspalten in Enabled/Disabled"
+
+#. MainForm.rgImgType.Caption
+#: SplitMain.dfm:97
+msgid "Image type"
+msgstr "Bild-Typ"
+
+#. MainForm.rgImgType.Items.Strings
+#: SplitMain.dfm:100
+msgid "BMP"
+msgstr "BMP"
+
+#. MainForm.rgImgType.Items.Strings
+#: SplitMain.dfm:101
+msgid "PNG"
+msgstr "PNG"
+
+#. MainForm.bbConvert.Caption
+#: SplitMain.dfm:111
+msgid "Split selected images"
+msgstr "Ausgewählte Bilder aufspalten"
+
+#. MainForm.bbBgColor.Hint
+#. MainForm.pnColor.Hint
+#: SplitMain.dfm:938 SplitMain.dfm:1029
+msgid "Background color"
+msgstr "Hintergrund-Farbe"
+
+#. MainForm.rgRatio.Caption
+#: SplitMain.dfm:1045
+msgid "Aspect ratio"
+msgstr "Seitenverhältnis"
+
+#. MainForm.rgRatio.Items.Strings
+#: SplitMain.dfm:1048
+msgid "all"
+msgstr "alle"
+
+#. MainForm.rgRatio.Items.Strings
+#: SplitMain.dfm:1049
+msgid "only 2:1"
+msgstr "nur 2:1"
+
+#. MainForm.Caption
+#: SvgToIcoMain.dfm:4
+msgid "Convert SVG images to icons"
+msgstr "Konvertiere SVG-Bilder in Icons"
+
+#. MainForm.paMain.Label1.Caption
+#. MainForm.paMain.Label1.Caption
+#: SvgToIcoMain.dfm:261 SvgToPngMain.dfm:261 SvgToIcoMain.pas:258
+#: SvgToPngMain.pas:289
+msgid "Directory with SVG images"
+msgstr "Verzeichnis mit SVG-Bildern"
+
+#. MainForm.paMain.Label2.Caption
+#: SvgToIcoMain.dfm:268
+msgid "Directory for icons"
+msgstr "Verzeichnis für Icons"
+
+#. MainForm.paMain.gbSizes.Caption
+#: SvgToIcoMain.dfm:1128
+msgid "Icon sizes"
+msgstr "Icon-Größen"
+
+#. MainForm.Caption
+#: SvgToPngMain.dfm:4
+msgid "Convert SVG images to PNG"
+msgstr "Konvertiere SVG-Bilder in PNG-Bilder"
+
+#. MainForm.paMain.Label2.Caption
+#: SvgToPngMain.dfm:268 SvgToIcoMain.pas:272 SvgToPngMain.pas:303
+msgid "Directory for PNG images"
+msgstr "Verzeichnis für PNG-Bilder"
+
+#. MainForm.paMain.rgSize.Caption
+#: SvgToPngMain.dfm:1096
+msgid "Length of the selected side"
+msgstr "Länge der ausgewählten Seite"
+
+#. MainForm.paMain.lvFiles.Caption
+#: SvgToPngMain.dfm:1120
+msgid "Name"
+msgstr "Name"
+
+#. MainForm.paMain.lvFiles.Caption
+#: SvgToPngMain.dfm:1125
+msgid "Date"
+msgstr "Datum"
+
+#. MainForm.paMain.lvFiles.Caption
+#: SvgToPngMain.dfm:1129
+msgid "Size"
+msgstr "Größe"
+
+#. MainForm.paMain.lvFiles.Caption
+#: SvgToPngMain.dfm:1133
+msgid "Image size"
+msgstr "Bildgröße"
+
+#. MainForm.paMain.rgFormat.Caption
+#: SvgToPngMain.dfm:1152
+msgid "Fixed value for"
+msgstr "Fester Wert für"
+
+#. MainForm.paMain.rgFormat.Items.Strings
+#: SvgToPngMain.dfm:1155
+msgid "Width"
+msgstr "Breite"
+
+#. MainForm.paMain.rgFormat.Items.Strings
+#: SvgToPngMain.dfm:1156
+msgid "Height"
+msgstr "Höhe"
+
+#. MainForm.paMain.rgFormat.Items.Strings
+#: SvgToPngMain.dfm:1157
+msgid "Longest"
+msgstr "Längste"
+
+#: BmpToPngMain.pas:232 PngToIconMain.pas:155 SplitMain.pas:181
+#: SvgToIcoMain.pas:216 SvgToPngMain.pas:259
+msgid "image of"
+msgstr "Bild von"
+
+#: BmpToPngMain.pas:232 PngToIconMain.pas:155 SplitMain.pas:181
+#: SvgToIcoMain.pas:216 SvgToPngMain.pas:259
+msgid "images of"
+msgstr "Bilder von"
+
+#: BmpToPngMain.pas:233 PngToIconMain.pas:156 SplitMain.pas:182
+#: SvgToIcoMain.pas:217 SvgToPngMain.pas:260
+msgid " %u selected"
+msgstr " %u ausgewählt"
+
+#: BmpToPngMain.pas:234 PngToIconMain.pas:157 SplitMain.pas:183
+#: SvgToIcoMain.pas:218 SvgToPngMain.pas:261
+msgid "matching image"
+msgstr "passendes Bild"
+
+#: BmpToPngMain.pas:234 PngToIconMain.pas:157 SplitMain.pas:183
+#: SvgToIcoMain.pas:218 SvgToPngMain.pas:261
+msgid "matching images"
+msgstr "passende Bilder"
+
+#: BmpToPngMain.pas:269
+msgid "Folder with BMP images"
+msgstr "Ordner mit BMP-Bildern"
+
+#: BmpToPngMain.pas:282
+msgid "Folder for PNG images"
+msgstr "Ordner für die PNG-Bilder"
+
+#. AddPath(sd,PngSubDir);
+#: BmpToPngMain.pas:391
+msgid "Please select a destination directory!"
+msgstr "Bitte wählen Sie ein Ziel-Verzeichnis aus!"
+
+#: BmpToPngMain.pas:399
+msgid "Converting: %s"
+msgstr "Konvertiere: %s"
+
+#. PngToTransparentBitMap(bm).SaveToFile(AddPath(sdp,NewExt(sn,'png')));
+#: BmpToPngMain.pas:413
+msgid "%u files converted"
+msgstr "%u Dateien konvertiert"
+
+#: Img2EpsMain.pas:161
+msgid "Folder to image files"
+msgstr "Ordner mit Bild-Dateien"
+
+#: Img2EpsMain.pas:181
+msgid "Folder to EPS output"
+msgstr "Ordner für EPS-Ausgabe"
+
+#: Img2EpsMain.pas:200
+msgid "Select image files"
+msgstr "Bild-Dateien auswählen"
+
+#: Img2EpsMain.pas:350
+msgid ""
+"EPS-Directory: \n"
+" %s \n"
+"does not exist - Create?"
+msgstr ""
+"Das EPS-Verzeichnis: \n"
+" %s \n"
+"existiert nicht - anlegen?"
+
+#: Img2EpsMain.pas:362
+msgid "File: %s"
+msgstr "Datei: %s"
+
+#: Img2EpsMain.pas:365
+msgid ""
+"Error converting:\n"
+"%s"
+msgstr ""
+"Fehler beim Konvertieren:\n"
+"%s"
+
+#: Img2EpsMain.pas:370
+msgid "%u files converted!"
+msgstr "%u Dateien konvertiert!"
+
+#: Img2EpsMain.pas:371
+msgid "%s converted!"
+msgstr "%s konvertiert!"
+
+#: Img2EpsMain.pas:373
+msgid "No matching files found!"
+msgstr "Keine passenden Dateien gefunden!"
+
+#: Img2EpsMain.pas:379 PngToBmpMain.pas:243
+msgid ""
+"%s - %s\n"
+"%s\n"
+"E-Mail: %s"
+msgstr ""
+"%s - %s\n"
+"%s\n"
+"E-Mail: %s"
+
+#: PngToBmpMain.pas:265
+msgid "Folder for BMP images"
+msgstr "Ordner für BMP-Bilder"
+
+#: PngToBmpMain.pas:278
+msgid "Folder with PNG images"
+msgstr "Ordner mit PNG-Bildern"
+
+#: PngToBmpMain.pas:299
+msgid "Select PNG images"
+msgstr "PNG-Bilder auswählen"
+
+#: PngToBmpMain.pas:352
+msgid "Sample: "
+msgstr "Beispiel: "
+
+#: PngToBmpMain.pas:352
+msgid " (%ux%u)"
+msgstr " (%ux%u)"
+
+#: PngToBmpMain.pas:356
+msgid "No matching image found!"
+msgstr "Kein passendes Bild gefunden!"
+
+#: PngToBmpMain.pas:390
+msgid ""
+"BMP directory: \n"
+" %s \n"
+"does not exist - Create?"
+msgstr ""
+"BMP-Verzeichnis: \n"
+" %s \n"
+"nicht vorhanden - Erstellen?"
+
+#: PngToBmpMain.pas:402
+msgid "Converting:"
+msgstr "Konvertiere:"
+
+#: PngToBmpMain.pas:411
+msgid "%u images converted!"
+msgstr "%u Bilder konvertiert!"
+
+#: PngToBmpMain.pas:414
+msgid "Converted:"
+msgstr "Konvertiert:"
+
+#: PngToBmpMain.pas:416
+msgid "No matching images found!"
+msgstr "Keine passenden Bilder gefunden!"
+
+#: PngToIconMain.pas:219
+msgid "Directory for Icon"
+msgstr "Verzeichnis für Icon"
+
+#: PngToIconMain.pas:277
+msgid "No PNG imaged selected"
+msgstr "Keine PNG-Bilder ausgewählt"
+
+#: PngToIconMain.pas:293
+msgid "Icon \"%s\" was created"
+msgstr "Icon \"%s\" wurde erstellt"
+
+#: PngToIconMain.pas:294
+msgid "Error writing to \"%s\""
+msgstr "Fehler beim Schreiben nach \"%s\""
+
+#: SplitMain.pas:241
+msgid "Folder with image files"
+msgstr "Ordner mit Bild-Dateien"
+
+#. if NotSpecialDir(Name) then with img do begin
+#: SplitMain.pas:322
+msgid "Processing: %s"
+msgstr "Verarbeite : %s"
+
+#. FindClose(DirInfo);
+#: SplitMain.pas:357
+msgid "%u files processed"
+msgstr "%u Dateien verarbeitet"
+
+#: SvgToIcoMain.pas:379
+msgid "Creating icon from "
+msgstr "Erzeuge Icon aus "
+
+#: SvgToIcoMain.pas:401 SvgToPngMain.pas:486 SvgToPngMain.pas:498
+msgid "Done"
+msgstr "Fertig"
+
+#: SvgToIcoMain.pas:402 SvgToPngMain.pas:488
+msgid "Error"
+msgstr "Fehler"
+
+#: SvgToIcoMain.pas:405
+msgid "Error loading file!"
+msgstr "Fehler beim Laden der Datei!"
+
+#: SvgToIcoMain.pas:408
+msgid "File not found!"
+msgstr "Datei nicht gefunden!"
+
+#: SvgToPngMain.pas:483
+msgid "Converting"
+msgstr "Konvertiere"
+
+#: SvgToPngMain.pas:495
+msgid "%u png images were created"
+msgstr "Es wurden %u png-Bilder erstellt"
+
+#: SvgToPngMain.pas:497
+msgid "No images selected"
+msgstr "Keine Nilder ausgewählt"

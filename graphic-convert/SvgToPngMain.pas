@@ -24,7 +24,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Shell.ShellCtrls,
-  Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+  Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, SVGInterfaces;
 
 const
   Vers = '2.1.0';
@@ -50,8 +50,10 @@ type
     meStatus: TMemo;
     spStatus: TSplitter;
     OpenDialog: TOpenDialog;
-    rgScale: TRadioGroup;
+    rgSize: TRadioGroup;
     lvFiles: TListView;
+    pbxSvg: TPaintBox;
+    rgFormat: TRadioGroup;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure bbInfoClick(Sender: TObject);
@@ -65,10 +67,13 @@ type
     procedure btnPngDirClick(Sender: TObject);
     procedure edtPngDirCloseUp(Sender: TObject);
     procedure FormResize(Sender: TObject);
-    procedure rgScaleClick(Sender: TObject);
+    procedure rgSizeClick(Sender: TObject);
     procedure lvFilesCompare(Sender: TObject; Item1, Item2: TListItem;
       Data: Integer; var Compare: Integer);
     procedure lvFilesColumnClick(Sender: TObject; Column: TListColumn);
+    procedure spStatusMoved(Sender: TObject);
+    procedure pbxSvgPaint(Sender: TObject);
+    procedure lvFilesClick(Sender: TObject);
   private
     { Private-Deklarationen }
     AppPath,IniName,
@@ -77,6 +82,7 @@ type
     ImgSize : integer;
     FCol: integer;
     FReverse: boolean;
+    IconSvg: ISVG;
     procedure ShowStatus;
     procedure UpdateDirList;
     function GetImageSize (const Filename : string) : string;
@@ -91,9 +97,8 @@ implementation
 
 {$R *.dfm}
 
-uses System.Masks, System.IniFiles, System.DateUtils, System.Math, System.Character,
-  SVGInterfaces, SVGIconUtils,
-  NumberUtils, GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils,
+uses System.Types, System.Masks, System.IniFiles, System.DateUtils, System.Math, System.Character,
+  SVGIconUtils, NumberUtils, GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils,
   WinUtils, MsgDialogs, StringUtils, GraphUtils;
 
 const
@@ -116,6 +121,7 @@ const
   iniLast     = 'LastDir';
   iniDest     = 'LastDest';
   iniSize     = 'PngSize';
+  iniFormat   = 'PngFormat';
 
   ImgSizes : array[0..8] of integer = (16,24,32,48,64,128,256,512,1024);
 
@@ -138,6 +144,7 @@ begin
     LastPath:=ReadString(CfgSekt,IniLast,DefPath);
     LastDest:=ReadString(CfgSekt,IniDest,'png');
     ImgSize:=ReadInteger(CfgSekt,iniSize,256);
+    rgFormat.ItemIndex:=ReadInteger(CfgSekt,iniFormat,0);
     end;
   LoadHistory(IniFile,ImgDirSekt,edtImgDir);
   LoadHistory(IniFile,DestSekt,edtPngDir);
@@ -146,8 +153,10 @@ begin
   if i>High(ImgSizes) then begin
     i:=6; ImgSize:=256;
     end;
-  rgScale.ItemIndex:=i;
+  rgSize.ItemIndex:=i;
   FCol:=0; FReverse:=false;
+  with pbxSvg do Width:=Height;
+  IconSvg:=GlobalSVGFactory.NewSvg;
   end;
 
 procedure TMainForm.FormDestroy(Sender: TObject);
@@ -164,6 +173,7 @@ begin
     WriteString(CfgSekt,IniLast,edtImgDir.Text);
     WriteString(CfgSekt,IniDest,edtPngDir.Text);
     WriteInteger(CfgSekt,iniSize,ImgSize);
+    WriteInteger(CfgSekt,iniFormat,rgFormat.ItemIndex);
     end;
   SaveHistory(IniFile,ImgDirSekt,true,edtImgDir);
   SaveHistory(IniFile,DestSekt,true,edtPngDir);
@@ -188,6 +198,13 @@ begin
   AddToHistory(edtPngDir,LastDest);
   UpdateDirList;
   with lvFiles do if Items.Count>0 then Items[0].Selected:=true;
+  ShowStatus;
+  bbConvert.SetFocus;
+  end;
+
+procedure TMainForm.lvFilesClick(Sender: TObject);
+begin
+  pbxSvg.Invalidate;
   ShowStatus;
   end;
 
@@ -219,9 +236,23 @@ begin
   if FReverse then Compare:=-Compare;
   end;
 
-procedure TMainForm.rgScaleClick(Sender: TObject);
+procedure TMainForm.pbxSvgPaint(Sender: TObject);
+var
+  sn : string;
 begin
-  ImgSize:=ImgSizes[rgScale.ItemIndex];
+  with lvFiles do if SelCount>0 then begin
+    sn:=Selected.Caption;
+    sn:=AddPath(edtImgDir.Text,sn);
+    with IconSvg do begin
+      LoadFromFile(sn);
+      PaintTo(pbxSvg.Canvas.Handle,TRectF.Create(2,2,pbxSvg.Width-2,pbxSvg.Height-2),true);
+      end;
+    end;
+  end;
+
+procedure TMainForm.rgSizeClick(Sender: TObject);
+begin
+  ImgSize:=ImgSizes[rgSize.ItemIndex];
   end;
 
 procedure TMainForm.ShowStatus;
@@ -232,6 +263,11 @@ begin
     else Statusbar.SimpleText:=GetPluralString(_('matching image'),_('matching images'),Items.Count);
     end
   else Statusbar.SimpleText:='';
+  end;
+
+procedure TMainForm.spStatusMoved(Sender: TObject);
+begin
+  with pbxSvg do Width:=Height;
   end;
 
 procedure TMainForm.bbExitClick(Sender: TObject);
@@ -350,9 +386,12 @@ procedure TMainForm.UpdateDirList;
 var
   FileInfo   : TSearchRec;
   Findresult : integer;
+  sp : string;
 begin
+  with edtImgDir do sp:=GetExistingParentPath(Items[ItemIndex],DefPath);
+  AddToHistory(edtImgDir,sp);
   lvFiles.Clear;
-  FindResult:=FindFirst(AddPath(edtImgDir.Text,SvgMask),faArchive+faReadOnly+faHidden+faSysfile+faNormal,FileInfo);
+  FindResult:=FindFirst(AddPath(sp,SvgMask),faArchive+faReadOnly+faHidden+faSysfile+faNormal,FileInfo);
   while FindResult=0 do with FileInfo do begin
     if NotSpecialDir(Name) then begin
       with lvFiles.Items.Add do begin
@@ -365,6 +404,8 @@ begin
     FindResult:=FindNext (FileInfo);
     end;
   FindClose(FileInfo);
+  with lvFiles do if Items.Count>0 then ItemIndex:=0;
+  pbxSvg.Invalidate;
   end;
 
 procedure TMainForm.edtImgDirCloseUp(Sender: TObject);
@@ -399,7 +440,6 @@ procedure TMainForm.bbConvertClick(Sender: TObject);
 var
   sd,sn,sp,s,se : string;
   i,n,k  : integer;
-  LSVG: ISVG;
 
   function ConvertToPng (Size : integer; const SvgName,PngName : string) : boolean;
   var
@@ -408,15 +448,23 @@ var
     Result:=false;
     if FileExists(SvgName) then begin
       try
-        LSVG.LoadFromFile(SvgName);
-        w:=round(LSVG.Width); h:=round(LSVG.Height);
-        if w>h then begin
-          h:=MulDiv(h,Size,w); w:=Size;
+        IconSvg.LoadFromFile(SvgName);
+        w:=round(IconSvg.Width); h:=round(IconSvg.Height);
+        if rgFormat.ItemIndex=2 then begin   // check for longest
+          if w>h then begin
+            h:=MulDiv(h,Size,w); w:=Size;
+            end
+          else begin
+            w:=MulDiv(w,Size,h); h:=Size;
+            end;
           end
-        else begin
+        else if rgFormat.ItemIndex=1 then begin // fixed height
           w:=MulDiv(w,Size,h); h:=Size;
+          end
+        else begin     // fixed width
+          h:=MulDiv(h,Size,w); w:=Size;
           end;
-        SVGExportToPng(w,h,LSVG,PngName);
+        SVGExportToPng(w,h,IconSvg,PngName);
         Result:=true;
       except
         on E:Exception do se:=E.Message;
@@ -426,7 +474,6 @@ var
 
 begin
   Cursor:=crHourglass;
-  LSVG:=GlobalSVGFactory.NewSvg;
   sd:=edtImgDir.Text; sp:=edtPngDir.Text;
   if not ContainsFullPath(sp) then sp:=AddPath(sd,sp);
   ForceDirectories(sp);
