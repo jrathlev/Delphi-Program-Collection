@@ -18,5 +18,5 @@ The **installation** provides an option to add entries in the **context menus** 
 
 **Languages:** English and German
 
-[Application download ](https://www.rathlev-home.de/index-e.html?convert-e.html)
+[Application download ](https://www.rathlev-home.de/index-e.html?tools/convert-e.html)
 
