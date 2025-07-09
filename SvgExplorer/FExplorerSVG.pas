@@ -98,10 +98,6 @@ const
     ('Native Image32', 'Direct2D');
 
 type
-  TExtClipboard = class helper for TClipboard
-    procedure PutData(Format: Word; var Buffer; Size: Integer);
-    end;
-
   TfmExplorerSVG = class(TForm)
     paDir: TPanel;
     spVertical: TSplitter;
@@ -275,11 +271,6 @@ uses
   UITypes;
 
 {$R *.dfm}
-
-procedure TExtClipBoard.PutData(Format: Word; var Buffer; Size: Integer);
-begin
-  SetBuffer(Format,Buffer,Size);
-  end;
 
 const
   CfGSekt = 'Config';
