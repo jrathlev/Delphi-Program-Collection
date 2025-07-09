@@ -881,15 +881,15 @@ object fmExplorerSVG: TfmExplorerSVG
     object N2: TMenuItem
       Caption = '-'
     end
-    object pmiCopyImage: TMenuItem
-      Caption = 'Copy image'
+    object pmiCopyImages: TMenuItem
+      Caption = 'Copy images'
       ShortCut = 16451
-      OnClick = pmiCopyImageClick
+      OnClick = pmiCopyImagesClick
     end
-    object pmiPasteImage: TMenuItem
-      Caption = 'Paste image'
+    object pmiPasteImages: TMenuItem
+      Caption = 'Paste images'
       ShortCut = 16470
-      OnClick = pmiPasteImageClick
+      OnClick = pmiPasteImagesClick
     end
   end
   object ActionList: TActionList

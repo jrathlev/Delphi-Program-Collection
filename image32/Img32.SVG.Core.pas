@@ -1758,7 +1758,7 @@ begin
           Result[len + 1] := UTF8Char($80 or (val and $3f));
           inc(len, 2);
         end;
-      $800 .. $7FFF:
+      $800 .. $FFFF:
         begin
           Result[len] := UTF8Char($E0 or (val shr 12));
           Result[len + 1] := UTF8Char($80 or ((val shr 6) and $3f));
@@ -2085,7 +2085,8 @@ begin
   c2 := SkipBlanksEx(c, endC);
   c := ParseNameLength(c2, endC);
   ToAsciiLowerUTF8String(c2, c, name);
-  if AnsiStartsText('svg:',name) then delete(name,1,4);  // JR
+  if AnsiStartsText('svg:',name) then
+    delete(name,1,4);  // JR
 
   //load the class's style (ie undotted style) if found.
   style := owner.classStyles.GetStyle(name);

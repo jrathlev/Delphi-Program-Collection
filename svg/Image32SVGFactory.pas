@@ -7,7 +7,6 @@
 
 // J. Rathlev, June 2025
 // property Invert added
-// bug fix on issue #305: force new rendering after change of image size
 
 unit Image32SVGFactory;
 
@@ -177,10 +176,9 @@ begin
   //nb: default widths should be the target image's dimensions
   //since these values will be used for SVG images that simply
   //specify their widths and heights as percentages
-  if fSvgReader.RootElement.viewboxWH.IsEmpty then
-    fSvgReader.CalcViewBoxOfRootElement;
-  FWidth := fSvgReader.RootElement.viewboxWH.Width;
-  FHeight := fSvgReader.RootElement.viewboxWH.Height;
+  with fSvgReader.GetImageSize do begin
+    FWidth := Width; FHeight := Height;
+    end;
 end;
 
 procedure TImage32SVG.LoadFromSource;
@@ -189,7 +187,7 @@ begin
   begin
     if not fSvgReader.LoadFromString(FSource) then
       raise ESVGException.Create(IMAGE32_ERROR_PARSING_SVG_TEXT);
-    try UpdateSizeInfo except end;  // JR
+    UpdateSizeInfo;  
   end;
 end;
 
@@ -204,24 +202,17 @@ begin
 //  Stream.Position := OldPos;
   // Now create the SVG
 //  fSvgReader.LoadFromStream(Stream);  //  needless because already called in SourceFromStream
-  try UpdateSizeInfo except end;      // JR
+    UpdateSizeInfo;  
 end;
 
 procedure TImage32SVG.PaintTo(DC: HDC; R: TRectF; KeepAspectRatio: Boolean);
 var
   dx,dy: double;
-  w,h : integer;
   LFixedColor: TColor32;
   dd: TDrawData;
-  chg : boolean;
 begin
-  //Define Image32 output size   // JR see issue #305
-  with FImage32 do begin
-    w:=Round(R.Width); h:=Round(R.Height);
-    chg:=(Width<>w) or (Height<>h);
-    SetSize(w,h);
-    if chg then fSvgReader.ReBuild; // force rendering
-    end;
+  //Define Image32 output size
+  FImage32.SetSize(Round(R.Width), Round(R.Height));
 
   //Update FsvgReader BEFORE calling FsvgReader.DrawImage
   //to apply fixed color to root only

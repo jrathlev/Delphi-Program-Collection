@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SVG Explorer\n"
-"POT-Creation-Date: 2025-07-01 11:50+0200\n"
-"PO-Revision-Date: 2025-07-01 11:51+0200\n"
+"POT-Creation-Date: 2025-07-09 13:46+0200\n"
+"PO-Revision-Date: 2025-07-09 13:46+0200\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: J. Rathlev  <kontakt@rathlev-home.de>\n"
 "Language: de\n"
@@ -118,15 +118,15 @@ msgstr "Optionen"
 msgid "Copy name"
 msgstr "Name kopieren"
 
-#. fmExplorerSVG.pmImages.pmiCopyImage.Caption
+#. fmExplorerSVG.pmImages.pmiCopyImages.Caption
 #: FExplorerSVG.dfm:885
-msgid "Copy image"
-msgstr "Bild kopieren"
+msgid "Copy images"
+msgstr "Bilder kopieren"
 
-#. fmExplorerSVG.pmImages.pmiPasteImage.Caption
+#. fmExplorerSVG.pmImages.pmiPasteImages.Caption
 #: FExplorerSVG.dfm:890
-msgid "Paste image"
-msgstr "Bild einfügen"
+msgid "Paste images"
+msgstr "Bilder einfügen"
 
 #. fmExplorerSVG.ActionList.DeleteAction.Caption
 #: FExplorerSVG.dfm:899
@@ -280,8 +280,8 @@ msgstr "Höhe"
 
 #. Programmer's name for it: rsConverted
 #: FExplorerSVG.pas:78
-msgid "%u images converted to PNG"
-msgstr "Es wurden %u PNG-Bilder nach PNG konvertiert"
+msgid "%u SVG image(s) converted to PNG"
+msgstr "%u SVG-Bild(er) in PNG konvertiert"
 
 #. Programmer's name for it: rsExecErr
 #: FExplorerSVG.pas:79
@@ -295,75 +295,59 @@ msgstr "Fehler"
 
 #. Programmer's name for it: rsOptimized
 #: FExplorerSVG.pas:81
-msgid "%u images optimized!"
-msgstr "%u Bilder optimiert!"
+msgid "%u SVG images optimized!"
+msgstr "%u SVG-Bilder optimiert!"
 
-#. Programmer's name for it: rsNotValid
+#. Programmer's name for it: rsSvgPaste
 #: FExplorerSVG.pas:82
-msgid "\"%s\" is not a valid SVG image!"
-msgstr "\"%s\" ist kein gültiges SVG-Bild!"
+msgid "%u SVG image(s) copied!"
+msgstr "%u SVG-Bild(er) kopiert!"
+
+#. Programmer's name for it: rsNotFound
+#: FExplorerSVG.pas:83
+msgid "No SVG image in the clipboard!"
+msgstr "Kein SVG-Bild in der Zwischenablage!"
 
 #. Programmer's name for it: rsSamePath
-#: FExplorerSVG.pas:83
+#: FExplorerSVG.pas:84
 msgid "An image cannot be copied to the same path!"
 msgstr "Ein Bild kann nicht in denselben Pfad kopiert werden!"
 
 #. Programmer's name for it: rsFileExists
-#: FExplorerSVG.pas:84
+#: FExplorerSVG.pas:85
 msgid "The image file \"%s\" already exists!"
 msgstr "Die Bilddatei \"%s\" existiert bereits!"
 
 #. Programmer's name for it: rsOverwrite
-#: FExplorerSVG.pas:85
+#: FExplorerSVG.pas:86
 msgid "Overwrite image"
 msgstr "Bild überschreiben"
 
 #. Programmer's name for it: rsAddCtx
-#: FExplorerSVG.pas:86
+#: FExplorerSVG.pas:87
 msgid "Add Svg Explorer to folder context menu"
 msgstr "Svg_Explorer zum Ordner-Kontextmenü hinzufügen"
 
 #. Programmer's name for it: rsRemCtx
-#: FExplorerSVG.pas:87
+#: FExplorerSVG.pas:88
 msgid "Remove Svg Explorer from folder context menu"
 msgstr "Svg-Explorer aus dem Ordner-Kontextmenü entfernen"
 
 #. Programmer's name for it: rsOpenDirWith
-#: FExplorerSVG.pas:88
+#: FExplorerSVG.pas:89
 msgid "Open this folder with Svg Explorer"
 msgstr "Diesen Ordner mit Svg-Explorer öffnen"
 
 #. Programmer's name for it: rsPrgNote
-#: FExplorerSVG.pas:89
+#: FExplorerSVG.pas:90
 msgid "Based on SVG Icon Explorer (%s)"
 msgstr "Basierend auf SVG Icon Explorer (%s)"
 
+#~ msgid "\"%s\" is not a valid SVG image!"
+#~ msgstr "\"%s\" ist kein gültiges SVG-Bild!"
+
 #~ msgid "Apply To Root Only"
 #~ msgstr "Nur auf Stammverzeichnis anwenden"
-
-#~ msgid "Open SvgExplorer with this folder"
-#~ msgstr "SvgExplorer mit diesem Ordner öffnen"
-
-#~ msgid "20 px"
-#~ msgstr "20 px"
-
-#~ msgid "SVG cleaner"
-#~ msgstr "SVG cleaner"
-
-#~ msgid "SVG image"
-#~ msgstr "SVG-Bild"
-
-#~ msgid "24 px"
-#~ msgstr "24 px"
-
-#~ msgid "32 px"
-#~ msgstr "32 px"
-
-#~ msgid "SVG Image List preview: %d icons"
-#~ msgstr "SVG Image List Vorschau: %d Bilder"
-
-#~ msgid "Rename icon"
-#~ msgstr "Bild umbenennnen"
 
 #~ msgid "48 px"
 #~ msgstr "48 px"
@@ -391,3 +375,36 @@ msgstr "Basierend auf SVG Icon Explorer (%s)"
 
 #~ msgid "Left click to enlarge. Right click to shrink"
 #~ msgstr "Links klicken zum Vergrößern. Rechtsklick zum Verkleinern"
+
+#~ msgid "Open SvgExplorer with this folder"
+#~ msgstr "SvgExplorer mit diesem Ordner öffnen"
+
+#~ msgid "20 px"
+#~ msgstr "20 px"
+
+#~ msgid "SVG cleaner"
+#~ msgstr "SVG cleaner"
+
+#~ msgid "SVG image"
+#~ msgstr "SVG-Bild"
+
+#~ msgid "24 px"
+#~ msgstr "24 px"
+
+#~ msgid "32 px"
+#~ msgstr "32 px"
+
+#~ msgid "SVG Image List preview: %d icons"
+#~ msgstr "SVG Image List Vorschau: %d Bilder"
+
+#~ msgid "Rename icon"
+#~ msgstr "Bild umbenennnen"
+
+#~ msgid "%u images converted to PNG"
+#~ msgstr "Es wurden %u PNG-Bilder nach PNG konvertiert"
+
+#~ msgid "%u images optimized!"
+#~ msgstr "%u Bilder optimiert!"
+
+#~ msgid "Copy image"
+#~ msgstr "Bild kopieren"

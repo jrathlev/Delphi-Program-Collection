@@ -123,7 +123,7 @@ type
     function IsImageIndexStored: Boolean;
     procedure CMEnabledChanged(var Message: TMessage); message CM_ENABLEDCHANGED;
   protected
-    procedure UpdateImage; virtual;
+    procedure UpdateImageName; virtual;
     {$IFDEF D10_4+}
     procedure CheckImageIndexes;
     {$ENDIF}
@@ -392,7 +392,7 @@ end;
 
 procedure TSVGIconImage.ImageListChange(Sender: TObject);
 begin
-  UpdateImage;
+  UpdateImageName;
   Invalidate;
 end;
 
@@ -434,13 +434,13 @@ begin
     FImageName := Value;
     if (FImageList <> nil) and FImageList.IsImageNameAvailable then
       FImageIndex := FImageList.GetIndexByName(FImageName);
-    UpdateImage;
+    UpdateImageName;
     Invalidate;
   end;
 end;
 {$ENDIF}
 
-procedure TSVGIconImage.UpdateImage;
+procedure TSVGIconImage.UpdateImageName;
 begin
 {$IFDEF D10_4+}
   if (FImageList <> nil) and FImageList.IsImageNameAvailable then
@@ -717,7 +717,7 @@ begin
        FImageName := FImageList.GetNameByIndex(FImageIndex);
     {$ENDIF}
     CheckAutoSize;
-    UpdateImage;
+    UpdateImageName;
     Repaint;
 //    Invalidate;
   end;
@@ -738,7 +738,7 @@ begin
       FImageList.RegisterChanges(FImageChangeLink);
       FImageList.FreeNotification(Self);
     end;
-    UpdateImage;
+    UpdateImageName;
     Invalidate;
   end;
 end;

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-07-01 11:50+0200\n"
-"PO-Revision-Date: 2025-07-01 11:50+0200\n"
+"POT-Creation-Date: 2025-07-09 13:46+0200\n"
+"PO-Revision-Date: 2025-07-09 13:46+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,14 +120,14 @@ msgstr ""
 msgid "Copy name"
 msgstr ""
 
-#. fmExplorerSVG.pmImages.pmiCopyImage.Caption
+#. fmExplorerSVG.pmImages.pmiCopyImages.Caption
 #: FExplorerSVG.dfm:885
-msgid "Copy image"
+msgid "Copy images"
 msgstr ""
 
-#. fmExplorerSVG.pmImages.pmiPasteImage.Caption
+#. fmExplorerSVG.pmImages.pmiPasteImages.Caption
 #: FExplorerSVG.dfm:890
-msgid "Paste image"
+msgid "Paste images"
 msgstr ""
 
 #. fmExplorerSVG.ActionList.DeleteAction.Caption
@@ -279,7 +279,7 @@ msgstr ""
 
 #. Programmer's name for it: rsConverted
 #: FExplorerSVG.pas:78
-msgid "%u images converted to PNG"
+msgid "%u SVG image(s) converted to PNG"
 msgstr ""
 
 #. Programmer's name for it: rsExecErr
@@ -294,48 +294,53 @@ msgstr ""
 
 #. Programmer's name for it: rsOptimized
 #: FExplorerSVG.pas:81
-msgid "%u images optimized!"
+msgid "%u SVG images optimized!"
 msgstr ""
 
-#. Programmer's name for it: rsNotValid
+#. Programmer's name for it: rsSvgPaste
 #: FExplorerSVG.pas:82
-msgid "\"%s\" is not a valid SVG image!"
+msgid "%u SVG image(s) copied!"
+msgstr ""
+
+#. Programmer's name for it: rsNotFound
+#: FExplorerSVG.pas:83
+msgid "No SVG image in the clipboard!"
 msgstr ""
 
 #. Programmer's name for it: rsSamePath
-#: FExplorerSVG.pas:83
+#: FExplorerSVG.pas:84
 msgid "An image cannot be copied to the same "
 "path!"
 msgstr ""
 
 #. Programmer's name for it: rsFileExists
-#: FExplorerSVG.pas:84
+#: FExplorerSVG.pas:85
 msgid "The image file \"%s\" already exists!"
 msgstr ""
 
 #. Programmer's name for it: rsOverwrite
-#: FExplorerSVG.pas:85
+#: FExplorerSVG.pas:86
 msgid "Overwrite image"
 msgstr ""
 
 #. Programmer's name for it: rsAddCtx
-#: FExplorerSVG.pas:86
+#: FExplorerSVG.pas:87
 msgid "Add Svg Explorer to folder context menu"
 msgstr ""
 
 #. Programmer's name for it: rsRemCtx
-#: FExplorerSVG.pas:87
+#: FExplorerSVG.pas:88
 msgid "Remove Svg Explorer from folder context "
 "menu"
 msgstr ""
 
 #. Programmer's name for it: rsOpenDirWith
-#: FExplorerSVG.pas:88
+#: FExplorerSVG.pas:89
 msgid "Open this folder with Svg Explorer"
 msgstr ""
 
 #. Programmer's name for it: rsPrgNote
-#: FExplorerSVG.pas:89
+#: FExplorerSVG.pas:90
 msgid "Based on SVG Icon Explorer (%s)"
 msgstr ""
 

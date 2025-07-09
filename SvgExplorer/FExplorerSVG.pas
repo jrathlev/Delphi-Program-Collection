@@ -45,13 +45,13 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.ImageList, Vcl.ImgList,
-  SVGIconImageList, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls,
+  SVGIconImageList, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.ClipBrd,
   SVGIconImage, Vcl.WinXCtrls, System.Actions, Vcl.ActnList, Vcl.Menus,
   SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces;
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1';
+  Version = '2.1.2';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
@@ -75,11 +75,12 @@ resourcestring
   rsWdtHgt = 'Width/Height';
   rsWidth = 'Width';
   rsHeight = 'Height';
-  rsConverted = '%u images converted to PNG';
+  rsConverted = '%u SVG image(s) converted to PNG';
   rsExecErr = 'Exit code %u reported!';
   rsError = 'Error';
-  rsOptimized = '%u images optimized!';
-  rsNotValid = '"%s" is not a valid SVG image!';
+  rsOptimized = '%u SVG images optimized!';
+  rsSvgPaste = '%u SVG image(s) copied!';
+  rsNotFound = 'No SVG image in the clipboard!';
   rsSamePath = 'An image cannot be copied to the same path!';
   rsFileExists = 'The image file "%s" already exists!';
   rsOverwrite = 'Overwrite image';
@@ -97,6 +98,10 @@ const
     ('Native Image32', 'Direct2D');
 
 type
+  TExtClipboard = class helper for TClipboard
+    procedure PutData(Format: Word; var Buffer; Size: Integer);
+    end;
+
   TfmExplorerSVG = class(TForm)
     paDir: TPanel;
     spVertical: TSplitter;
@@ -170,8 +175,8 @@ type
     edOptions: TLabeledEdit;
     OptimizeAction: TAction;
     N2: TMenuItem;
-    pmiCopyImage: TMenuItem;
-    pmiPasteImage: TMenuItem;
+    pmiCopyImages: TMenuItem;
+    pmiPasteImages: TMenuItem;
     bbContext: TBitBtn;
     bbInfo: TBitBtn;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
@@ -211,8 +216,8 @@ type
     procedure btnOptProgClick(Sender: TObject);
     procedure OptimizeActionExecute(Sender: TObject);
     procedure pmImagesPopup(Sender: TObject);
-    procedure pmiCopyImageClick(Sender: TObject);
-    procedure pmiPasteImageClick(Sender: TObject);
+    procedure pmiCopyImagesClick(Sender: TObject);
+    procedure pmiPasteImagesClick(Sender: TObject);
     procedure bbContextClick(Sender: TObject);
     procedure bbInfoClick(Sender: TObject);
   private
@@ -252,7 +257,6 @@ uses
   WinApi.KnownFolders,
   WinApi.ShellApi,
   WinApi.ShlObj,
-  Vcl.ClipBrd,
   GnuGetText,
   ListUtils,
   PathUtils,
@@ -271,6 +275,11 @@ uses
   UITypes;
 
 {$R *.dfm}
+
+procedure TExtClipBoard.PutData(Format: Word; var Buffer; Size: Integer);
+begin
+  SetBuffer(Format,Buffer,Size);
+  end;
 
 const
   CfGSekt = 'Config';
@@ -885,7 +894,7 @@ begin
       Screen.Cursor := crHourGlass; n:=0;
       with ImageView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
         s:= SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt;
-          s:=MakeQuotedStr(OptProg)+Space+edOptions.Text+Space+ MakeQuotedStr(AddPath(cbxSelectedDir.Text,s))
+        s:=MakeQuotedStr(OptProg)+Space+edOptions.Text+Space+ MakeQuotedStr(AddPath(cbxSelectedDir.Text,s))
           +Space+MakeQuotedStr(AddPath(sd,s));
         hr:=ExecuteConsoleProcess(s,'',nil);
         if(hr=0) or ((hr and UserError)<>0) then begin
@@ -951,44 +960,101 @@ begin
   SelectImage(ImgName);
   end;
 
-procedure TfmExplorerSVG.pmiCopyImageClick(Sender: TObject);
+procedure TfmExplorerSVG.pmiCopyImagesClick(Sender: TObject);
+var
+  sl   : TStringList;
+  s    : string;
+  i,sz : integer;
+  df   : PDropFiles;
+  mh   : THandle;
+  buf  : array of byte;
+  mp   : pchar;
 begin
-  if ImageView.Selected <> nil then begin
-    ClipBoard.AsText:=AddPath(cbxSelectedDir.Text,SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt);
+  sl:=TStringList.Create;
+  with ImageView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
+    sl.Add(AddPath(cbxSelectedDir.Text,SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt));
+    end;
+  if sl.Count>0 then begin
+    sl.Delimiter:=#0;
+    s:=sl.DelimitedText+#0#0;
+    mh:=GlobalAlloc(GMEM_SHARE or GMEM_MOVEABLE or GMEM_ZEROINIT,SizeOf(TDropFiles)+ByteLength(s));
+    try
+      df:=GlobalLock(mh);
+      df.pFiles:=SizeOf(TDropFiles);
+      df.fWide:=true;
+      Move(s[1],(PByte(df)+SizeOf(TDropFiles))^,ByteLength(s));
+    finally
+      GlobalUnlock(mh);
+      end;
+    Clipboard.SetAsHandle(CF_HDROP,mh);
+    end;
+  sl.Free;
+  end;
+
+function GetDropList (HDrop : THandle; AList : TStrings) : integer;
+var
+  i,n,sz : integer;
+  fn : PChar;
+begin
+  fn:=nil;
+  n:= DragQueryFile(HDrop,$FFFFFFFF,fn,255);
+  if n>0 then begin
+    for i:=0 to n-1 do begin
+      sz:=DragQueryFile(HDrop,i,nil,0) + 1;
+      fn:=StrAlloc(sz);
+      DragQueryFile(HDrop,i,fn,sz);
+      AList.Add(fn);
+      StrDispose(fn);
+      end;
     end;
   end;
 
-procedure TfmExplorerSVG.pmiPasteImageClick(Sender: TObject);
+procedure TfmExplorerSVG.pmiPasteImagesClick(Sender: TObject);
 var
   ss,sd : string;
   ok    : boolean;
-  mr    : integer;
+  mr,i,n : integer;
+  mh    : THandle;
+  sl    : TStringList;
 begin
-  ss:=ClipBoard.AsText;
-  if AnsiSameText(ExtractFileExt(ss),SvgExt) and FileExists(ss) then begin
-    if SameFileName(ExtractFilePath(ss),IncludeTrailingPathDelimiter(cbxSelectedDir.Text)) then
-      MessageDlg(rsSamePath,mtError,[mbOk],0)
-    else begin
-      sd:=AddPath(cbxSelectedDir.Text,ExtractFileName(ss));
-      ok:= not FileExists(sd);
-      if not ok then begin
-        mr:=SelectOption(Format(rsFileExists,[ExtractFileName(ss)]),mtConfirmation,[fsBold],
-          [rsOverwrite,rsRename]);
-//        mr:=MessageDlg(Format(rsOverwrite,[ExtractFileName(ss)]),mtConfirmation,[mbYes,mbNo,mbCancel],0);
-        if mr=1 then begin // rename
-          sd:=ChangeFileExt(ExtractFileName(ss),'');
-          ok:=InputQuery(rsRename,rsNewFile,sd);
-          if ok then sd:=AddPath(cbxSelectedDir.Text,ChangeFileExt(sd,SvgExt));
-          end
-        else ok:=mr=0;
-        end;
-      if ok then begin  // copy file
-        CopyFileTS(ss,sd);
-        ReloadImages(ChangeFileExt(ExtractFilename(sd),''));
+  sl:=TStringList.Create;
+  if ClipBoard.HasFormat(CF_HDROP) then begin
+    mh:=Clipboard.GetAsHandle(CF_HDROP);
+    GetDropList(mh,sl);
+    end;
+  n:=0;
+  if sl.Count>0 then for i:=0 to sl.Count-1 do begin
+    ss:=sl[i];
+    if AnsiSameText(ExtractFileExt(ss),SvgExt) and FileExists(ss) then begin
+      if SameFileName(ExtractFilePath(ss),IncludeTrailingPathDelimiter(cbxSelectedDir.Text)) then
+        MessageDlg(rsSamePath,mtError,[mbOk],0)
+      else begin
+        sd:=AddPath(cbxSelectedDir.Text,ExtractFileName(ss));
+        ok:= not FileExists(sd);
+        if not ok then begin
+          mr:=SelectOption(Format(rsFileExists,[ExtractFileName(ss)]),mtConfirmation,[fsBold],
+            [rsOverwrite,rsRename]);
+  //        mr:=MessageDlg(Format(rsOverwrite,[ExtractFileName(ss)]),mtConfirmation,[mbYes,mbNo,mbCancel],0);
+          if mr=1 then begin // rename
+            sd:=ChangeFileExt(ExtractFileName(ss),'');
+            ok:=InputQuery(rsRename,rsNewFile,sd);
+            if ok then sd:=AddPath(cbxSelectedDir.Text,ChangeFileExt(sd,SvgExt));
+            end
+          else ok:=mr=0;
+          end;
+        if ok then begin  // copy file
+          CopyFileTS(ss,sd);
+          inc(n);
+          end;
         end;
       end;
+    end;
+  if n>0 then begin
+    ReloadImages(ChangeFileExt(ExtractFilename(sd),''));
+    MessageDlg(Format(rsSvgPaste,[n]),mtInformation,[mbOk],0)
     end
-  else MessageDlg(Format(rsNotValid,[ss]),mtError,[mbOk],0)
+  else MessageDlg(rsNotFound,mtError,[mbOk],0);
+  sl.Free;
   end;
 
 procedure TfmExplorerSVG.pmiCopyNameClick(Sender: TObject);
