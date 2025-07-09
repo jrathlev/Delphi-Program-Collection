@@ -262,6 +262,7 @@ uses
   NumDlg,
   WinShell,
   WinExecute,
+  ClipboardUtils,
   FileUtils,
   SelectDlg,
   Image32SVGFactory,
@@ -816,6 +817,8 @@ begin
     pmiCopyname.Enabled:=Enabled;
     pmiRename.Enabled:=Enabled;
     end;
+  pmiCopyImages.Enabled:=ImageView.SelCount>0;
+  pmiPasteImages.Enabled:=Clipboard.HasFormat(CF_HDROP);
   end;
 
 procedure TfmExplorerSVG.rbUserSizeClick(Sender: TObject);
@@ -954,65 +957,25 @@ begin
 procedure TfmExplorerSVG.pmiCopyImagesClick(Sender: TObject);
 var
   sl   : TStringList;
-  s    : string;
-  i,sz : integer;
-  df   : PDropFiles;
-  mh   : THandle;
-  buf  : array of byte;
-  mp   : pchar;
+  i    : integer;
 begin
   sl:=TStringList.Create;
   with ImageView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
     sl.Add(AddPath(cbxSelectedDir.Text,SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt));
     end;
-  if sl.Count>0 then begin
-    sl.Delimiter:=#0;
-    s:=sl.DelimitedText+#0#0;
-    mh:=GlobalAlloc(GMEM_SHARE or GMEM_MOVEABLE or GMEM_ZEROINIT,SizeOf(TDropFiles)+ByteLength(s));
-    try
-      df:=GlobalLock(mh);
-      df.pFiles:=SizeOf(TDropFiles);
-      df.fWide:=true;
-      Move(s[1],(PByte(df)+SizeOf(TDropFiles))^,ByteLength(s));
-    finally
-      GlobalUnlock(mh);
-      end;
-    Clipboard.SetAsHandle(CF_HDROP,mh);
-    end;
+  WriteFileListToClipboard(sl);
   sl.Free;
-  end;
-
-function GetDropList (HDrop : THandle; AList : TStrings) : integer;
-var
-  i,n,sz : integer;
-  fn : PChar;
-begin
-  fn:=nil;
-  n:= DragQueryFile(HDrop,$FFFFFFFF,fn,255);
-  if n>0 then begin
-    for i:=0 to n-1 do begin
-      sz:=DragQueryFile(HDrop,i,nil,0) + 1;
-      fn:=StrAlloc(sz);
-      DragQueryFile(HDrop,i,fn,sz);
-      AList.Add(fn);
-      StrDispose(fn);
-      end;
-    end;
   end;
 
 procedure TfmExplorerSVG.pmiPasteImagesClick(Sender: TObject);
 var
-  ss,sd : string;
-  ok    : boolean;
+  ss,sd  : string;
+  ok     : boolean;
   mr,i,n : integer;
-  mh    : THandle;
-  sl    : TStringList;
+  sl     : TStringList;
 begin
   sl:=TStringList.Create;
-  if ClipBoard.HasFormat(CF_HDROP) then begin
-    mh:=Clipboard.GetAsHandle(CF_HDROP);
-    GetDropList(mh,sl);
-    end;
+  ReadFileListFromClipboard(sl);
   n:=0;
   if sl.Count>0 then for i:=0 to sl.Count-1 do begin
     ss:=sl[i];

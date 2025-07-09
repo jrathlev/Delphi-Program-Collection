@@ -5,7 +5,6 @@
    - Conversions ANSI <-> OEM
    - Character manipulations (e.g. add/remove charachters)
    - Extract substrings and numbers until next delimiter
-   - Filesize as string
    - Routines to parse commandlines
    - Quicksort
 
@@ -20,7 +19,7 @@
    the specific language governing rights and limitations under the License.
 
    New compilation - May 2007
-   last modified:  December 2022
+   last modified:  June 2025
    *)
 
 unit StringUtils;
