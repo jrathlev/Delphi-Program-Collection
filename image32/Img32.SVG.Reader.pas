@@ -5614,7 +5614,12 @@ var
   i: integer;
 begin
   if el is TShapeElement then
-    TShapeElement(el).pathsLoaded := False;
+    with TShapeElement(el) do
+    begin
+      drawPathsO := nil;
+      drawPathsC := nil;
+      pathsLoaded := False;
+    end;
   for i := 0 to el.ChildCount -1 do
     InternalResetPaths(el[i]);
 end;
