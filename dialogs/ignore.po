@@ -1,6 +1,6 @@
 #  Doesn't have any letters
 #. ShellDirDialog.PopupMenu.N1.Caption
-#: ShellDirDlg.dfm:2295
+#: ShellDirDlg.dfm:2302
 #. ShellFileDialog.PopupMenu.N1.Caption
 #: ShellFileDlg.dfm:2325
 msgid "-"
@@ -546,9 +546,9 @@ msgid "rfDesktop"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.ShellTreeView.Root
-#: ShellDirDlg.dfm:49
+#: ShellDirDlg.dfm:55
 #. ShellDirDialog.PanelRight.ShellListView.Root
-#: ShellDirDlg.dfm:2272
+#: ShellDirDlg.dfm:2279
 msgid "rfMyComputer"
 msgstr ""
 
@@ -851,7 +851,7 @@ msgstr ""
 #. EditHistListDialog.lbDesc.Caption
 #: EditHistListDlg.dfm:537
 #. SelectDialog.stCaption.Caption
-#: SelectDlg.dfm:172
+#: SelectDlg.dfm:100
 #. ShowMsgDialog.stInfo.Caption
 #: ShowMessageDlgST.dfm:209
 #. ShowStringListDialog.paBottom.laStatus.Caption

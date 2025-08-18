@@ -17,7 +17,7 @@
    the specific language governing rights and limitations under the License.
 
    July 2022
-   last modified: June 2025
+   last modified: August 2025
    *)
 
 unit MsgDialogs;
@@ -117,7 +117,8 @@ begin
     DefaultMonitor:=AMonitor;
     try
       with Pos do begin
-        if (Y < 0) and (X < 0) then Position:=poScreenCenter
+        if Pos=ScreenPos then Position:=poScreenCenter
+        else if Pos=CenterPos then Position:=poMainFormCenter
         else begin
           CheckScreenBounds(Screen,x,y,Width,Height);
           Left:=x; Top:=y;

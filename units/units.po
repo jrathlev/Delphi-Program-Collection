@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-10-25 12:37+0200\n"
-"PO-Revision-Date: 2024-10-25 12:37+0200\n"
+"POT-Creation-Date: 2025-07-20 12:19+0200\n"
+"PO-Revision-Date: 2025-07-20 12:19+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: GgtTranslate 3.3.1\n"
+"X-Generator: GgtTranslate 3.3.3\n"
 
 #. Strings from ComPort
 #. Programmer's name for it: rsComNoError
@@ -363,83 +363,88 @@ msgstr ""
 msgid "Error renaming file"
 msgstr ""
 
+#. Programmer's name for it: rsZipFormat
+#: FileConsts.pas:85
+msgid "Invalid zip format"
+msgstr ""
+
 #. Programmer's name for it: rsUserBreak
-#: FileConsts.pas:86
+#: FileConsts.pas:87
 msgid "Terminated by user"
 msgstr ""
 
 #. Programmer's name for it: rsUnknownErrCode
-#: FileConsts.pas:87
+#: FileConsts.pas:88
 msgid "Unknown error code ($%.8x)"
 msgstr ""
 
 #. Programmer's name for it: rsCopy
-#: FileConsts.pas:88
+#: FileConsts.pas:89
 msgid "Copy"
 msgstr ""
 
 #. Programmer's name for it: rsGZip
-#: FileConsts.pas:89
+#: FileConsts.pas:90
 msgid "gzip"
 msgstr ""
 
 #. Programmer's name for it: rsGUnzip
-#: FileConsts.pas:90
+#: FileConsts.pas:91
 msgid "gunzip"
 msgstr ""
 
 #. Programmer's name for it: rsZip
-#: FileConsts.pas:91
+#: FileConsts.pas:92
 msgid "Zip"
 msgstr ""
 
 #. Programmer's name for it: rsUnzip
-#: FileConsts.pas:92
+#: FileConsts.pas:93
 msgid "Unzip"
 msgstr ""
 
 #. Programmer's name for it: rsEnCrypt
-#: FileConsts.pas:93
+#: FileConsts.pas:94
 msgid "Encrypt"
 msgstr ""
 
 #. Programmer's name for it: rsDeCrypt
-#: FileConsts.pas:94
+#: FileConsts.pas:95
 msgid "Decrypt"
 msgstr ""
 
 #. Programmer's name for it: rsNoFileInfo
-#: FileConsts.pas:96
+#: FileConsts.pas:97
 msgid "File information not available"
 msgstr ""
 
 #. Programmer's name for it: rsDescription
-#: FileConsts.pas:97
+#: FileConsts.pas:98
 msgid "Description: "
 msgstr ""
 
 #. Programmer's name for it: rsCompany
-#: FileConsts.pas:98
+#: FileConsts.pas:99
 msgid "Company: "
 msgstr ""
 
 #. Programmer's name for it: rsCopyright
-#: FileConsts.pas:99
+#: FileConsts.pas:100
 msgid "Copyright: "
 msgstr ""
 
 #. Programmer's name for it: rsVersion
-#: FileConsts.pas:100
+#: FileConsts.pas:101
 msgid "File version: "
 msgstr ""
 
 #. Programmer's name for it: rsFileDate
-#: FileConsts.pas:101
+#: FileConsts.pas:102
 msgid "Last modified: "
 msgstr ""
 
 #. Programmer's name for it: rsStrFormatError
-#: FileConsts.pas:103
+#: FileConsts.pas:104
 #. Strings from ExtSysUtils
 #. Programmer's name for it: rsFormatError
 #: UnitConsts.pas:26

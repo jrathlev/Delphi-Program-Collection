@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Delphi units\n"
-"POT-Creation-Date: 2024-10-20 12:58+0200\n"
-"PO-Revision-Date: 2024-10-20 13:29+0200\n"
+"POT-Creation-Date: 2025-07-20 12:19+0200\n"
+"PO-Revision-Date: 2025-07-20 12:25+0200\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: bovirus <bovirus@gmail.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "No errors on COM connection"
@@ -217,6 +217,11 @@ msgstr "Errore durante l'eliminazione del file"
 
 msgid "Error renaming file"
 msgstr "Errore durante la ridenominazione del file"
+
+#. Programmer's name for it: rsZipFormat
+#: FileConsts.pas:85
+msgid "Invalid zip format"
+msgstr "Formato zip non valido"
 
 msgid "Terminated by user"
 msgstr "Terminato dall'utente"
@@ -626,29 +631,18 @@ msgstr "Inizio autunno"
 msgid "Beginning of winter"
 msgstr "Inizio inverno"
 
-#. Strings from PasswordStrength
-#. Programmer's name for it: rsVeryWeak
-#: UnitConsts.pas:123
 msgid "very weak"
 msgstr "molto debole"
 
-#. Programmer's name for it: rsWeak
-#: UnitConsts.pas:124
 msgid "weak"
 msgstr "debole"
 
-#. Programmer's name for it: rsGood
-#: UnitConsts.pas:125
 msgid "good"
 msgstr "buono"
 
-#. Programmer's name for it: rsStrong
-#: UnitConsts.pas:126
 msgid "strong"
 msgstr "forte"
 
-#. Programmer's name for it: rsVeryStrong
-#: UnitConsts.pas:127
 msgid "very strong"
 msgstr "molto forte"
 
@@ -886,8 +880,8 @@ msgstr "Alle %0:s del giorno %1:s di %2:s, a partire dal giorno %3:s"
 
 msgid "Runs on the %0:s %1:s, each %2:s starting %3:s"
 msgstr ""
-"Viene eseguita la %0:s settimana di %1:s di %2:s, a partire dal giorno %3:"
-"s"
+"Viene eseguita la %0:s settimana di %1:s di %2:s, a partire dal giorno "
+"%3:s"
 
 msgid "At logon of any user"
 msgstr "All' accesso utente"

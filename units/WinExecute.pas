@@ -15,7 +15,7 @@
    Vers. 1 - Mai 2005
          1.1 - Aug. 2005 : return process exit code
          2.0 - July 2015 : optional view of console output fixed
-   last modified: July 2023
+   last modified: August 2025
    *)
 
 unit WinExecute;
@@ -342,8 +342,8 @@ begin
 // WaitTime > 0 : Warte auf das Ende des Prozesses für max. "WaitTime" in Millisekunden
 //          = 0 : Warten auf den gestarteten Prozess
 // IgnoreTimeout = true: Timeout nicht als Fehler zurück geben
-// Result: = 0: ok
-//         > 0 :  Bit 29 ($20000000) gesetzt : ExitCode = Result and $FF
+// Result:  = 0 : ok
+//          > 0 : Bit 29 ($20000000) gesetzt : ExitCode = Result and $FF
 //                sonst  Systemfehler von GetLastErr (siehe SysErrorMessage)
 function WaitForProcess (ph : THandle; WaitTime : integer = 0; IgnoreTimeout : boolean = false) : HResult;
 var

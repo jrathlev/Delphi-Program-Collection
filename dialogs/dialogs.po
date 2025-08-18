@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-10-25 12:38+0200\n"
-"PO-Revision-Date: 2024-10-25 12:38+0200\n"
+"POT-Creation-Date: 2025-06-11 11:55+0200\n"
+"PO-Revision-Date: 2025-06-11 11:55+0200\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: GgtTranslate 3.3.1\n"
+"X-Generator: GgtTranslate 3.3.3\n"
 
 #. AccountDialog.pnBottom.btnShow.Hint
 #: AccountDlg.dfm:41
@@ -108,8 +108,8 @@ msgstr ""
 #: NewPwdDlg.dfm:148
 #. InputNumber.CancelBtn.Caption
 #: NumDlg.dfm:111
-#. OpenFilesDialog.CancelBtn.Caption
-#: OpenFilesDlg.dfm:98
+#. OpenFilesDialog.paFiles.CancelBtn.Caption
+#: OpenFilesDlg.dfm:197
 #. PathDialog.CancelBtn.Caption
 #: PathDlg.dfm:151
 #. PrintPageDialog.CancelBtn.Caption
@@ -135,9 +135,9 @@ msgstr ""
 #. SelectListItemsDialog.CancelBtn.Caption
 #: SelectListItems.dfm:103
 #. ShellDirDialog.PanelLeft.Panel1.btbCancel.Caption
-#: ShellDirDlg.dfm:2119
+#: ShellDirDlg.dfm:2126
 #. ShellDirDialog.PopupMenu.cancel1.Caption
-#: ShellDirDlg.dfm:2302
+#: ShellDirDlg.dfm:2309
 #. ShellFileDialog.pnlBottom.btbCancel.Caption
 #: ShellFileDlg.dfm:2227
 #. ShellFileDialog.PopupMenu.cancel1.Caption
@@ -160,7 +160,7 @@ msgstr ""
 #: WebBrowser.dfm:196
 #: ProgWind.pas:155
 #. Spalten in letzter Zeile
-#: SelectDlg.pas:201
+#: SelectDlg.pas:212
 #: TransferStat.pas:242
 msgid "Cancel"
 msgstr ""
@@ -237,8 +237,6 @@ msgstr ""
 #: NewPwdDlg.dfm:210
 #. InputNumber.OKBtn.Caption
 #: NumDlg.dfm:46
-#. OpenFilesDialog.OKBtn.Caption
-#: OpenFilesDlg.dfm:34
 #. PathDialog.OKBtn.Caption
 #: PathDlg.dfm:87
 #. PrintPageDialog.OKBtn.Caption
@@ -262,13 +260,11 @@ msgstr ""
 #. SelectListItemsDialog.OKBtn.Caption
 #: SelectListItems.dfm:39
 #. ShellDirDialog.PanelLeft.Panel1.btbOK.Caption
-#: ShellDirDlg.dfm:2181
+#: ShellDirDlg.dfm:2188
 #. ShellFileDialog.pnlBottom.btbOK.Caption
 #: ShellFileDlg.dfm:2155
 #. frmShow.panButtons.btnOK.Caption
 #: Show.dfm:58
-#. ShowFilesDialog.pnBottom.OKBtn.Caption
-#: ShowFilesDlg.dfm:47
 #. ShowImageDialog.Panel1.Panel2.btnOK.Caption
 #: ShowImage.dfm:52
 #. SizeDialog.OKBtn.Caption
@@ -583,27 +579,29 @@ msgstr ""
 
 #. CsvImportDialog.gbDelim.Caption
 #: CsvImportDlg.dfm:191
+#. ExportDialog.gbDelim.Caption
+#: ExportDlg.dfm:151
 msgid "Column separator"
 msgstr ""
 
 #. CsvImportDialog.gbDelim.rbSpace.Caption
 #: CsvImportDlg.dfm:198
-#. ExportDialog.DelimGroup.Items.Strings
-#: ExportDlg.dfm:155
+#. ExportDialog.gbDelim.rbSpace.Caption
+#: ExportDlg.dfm:158
 msgid "Space"
 msgstr ""
 
 #. CsvImportDialog.gbDelim.rbTab.Caption
 #: CsvImportDlg.dfm:207
-#. ExportDialog.DelimGroup.Items.Strings
-#: ExportDlg.dfm:159
+#. ExportDialog.gbDelim.rbTab.Caption
+#: ExportDlg.dfm:166
 msgid "Tab"
 msgstr ""
 
 #. CsvImportDialog.gbDelim.rbSemi.Caption
 #: CsvImportDlg.dfm:218
-#. ExportDialog.DelimGroup.Items.Strings
-#: ExportDlg.dfm:156
+#. ExportDialog.gbDelim.rbSemi.Caption
+#: ExportDlg.dfm:176
 msgid "Semicolon"
 msgstr ""
 
@@ -611,8 +609,10 @@ msgstr ""
 #: CsvImportDlg.dfm:227
 #. CsvImportDialog.rgDecimal.Items.Strings
 #: CsvImportDlg.dfm:346
-#. ExportDialog.DelimGroup.Items.Strings
-#: ExportDlg.dfm:158
+#. ExportDialog.gbDelim.rbComma.Caption
+#: ExportDlg.dfm:184
+#. ExportDialog.rgDecimal.Items.Strings
+#: ExportDlg.dfm:265
 msgid "Comma"
 msgstr ""
 
@@ -620,21 +620,29 @@ msgstr ""
 #: CsvImportDlg.dfm:236
 #. CsvImportDialog.gbQuote.rbOtherQuote.Caption
 #: CsvImportDlg.dfm:289
+#. ExportDialog.gbDelim.rbOtherDel.Caption
+#: ExportDlg.dfm:192
 msgid "Other"
 msgstr ""
 
 #. CsvImportDialog.gbDelim.rbSlash.Caption
 #: CsvImportDlg.dfm:252
+#. ExportDialog.gbDelim.rbSlash.Caption
+#: ExportDlg.dfm:208
 msgid "Slash"
 msgstr ""
 
 #. CsvImportDialog.gbQuote.Caption
 #: CsvImportDlg.dfm:262
+#. ExportDialog.gbQuote.Caption
+#: ExportDlg.dfm:273
 msgid "Quote character"
 msgstr ""
 
 #. CsvImportDialog.gbQuote.rbNoQuote.Caption
 #: CsvImportDlg.dfm:269
+#. ExportDialog.gbQuote.rbNoQuote.Caption
+#: ExportDlg.dfm:280
 #. MailDialog.GroupBox1.cbSecure.Text
 #: MailDlg.dfm:671
 #. MailDialog.GroupBox1.cbSecure.Items.Strings
@@ -644,6 +652,8 @@ msgstr ""
 
 #. CsvImportDialog.gbQuote.rbQuote.Caption
 #: CsvImportDlg.dfm:280
+#. ExportDialog.gbQuote.rbQuote.Caption
+#: ExportDlg.dfm:290
 msgid "Double quote"
 msgstr ""
 
@@ -659,6 +669,8 @@ msgstr ""
 
 #. CsvImportDialog.rgDecimal.Caption
 #: CsvImportDlg.dfm:341
+#. ExportDialog.rgDecimal.Caption
+#: ExportDlg.dfm:260
 msgid "Decimal separator"
 msgstr ""
 
@@ -908,36 +920,24 @@ msgstr ""
 msgid "Import/export format"
 msgstr ""
 
-#. ExportDialog.DelimGroup.Caption
-#: ExportDlg.dfm:151
-msgid "Character between columns"
-msgstr ""
-
-#. ExportDialog.DelimGroup.Items.Strings
-#: ExportDlg.dfm:157
-#. InputLptPortDialog.LptSel.Items.Strings
-#: LptSelect.dfm:155
-msgid "other"
-msgstr ""
-
-#. ExportDialog.SpaltGroup.Caption
-#: ExportDlg.dfm:175
+#. ExportDialog.gbColWidth.Caption
+#: ExportDlg.dfm:217
 msgid "Column width"
 msgstr ""
 
-#. ExportDialog.SpaltGroup.Items.Strings
-#: ExportDlg.dfm:178
-msgid "fixed"
-msgstr ""
-
-#. ExportDialog.SpaltGroup.Items.Strings
-#: ExportDlg.dfm:179
+#. ExportDialog.gbColWidth.rbVar.Caption
+#: ExportDlg.dfm:243
 msgid "variable"
 msgstr ""
 
-#. ExportDialog.Panel1.EncloseCB.Caption
-#: ExportDlg.dfm:196
-msgid "Use embrace characters  (\")"
+#. ExportDialog.gbColWidth.rbFixed.Caption
+#: ExportDlg.dfm:251
+msgid "fixed"
+msgstr ""
+
+#. ExportDialog.rgDecimal.Items.Strings
+#: ExportDlg.dfm:264
+msgid "Period"
 msgstr ""
 
 #. FileFilterDialog.Label2.Caption
@@ -950,8 +950,8 @@ msgstr ""
 
 #. FileFilterDialog.Label3.Caption
 #: FileFilterDlg.dfm:39
-#. OpenFilesDialog.Label1.Caption
-#: OpenFilesDlg.dfm:26
+#. OpenFilesDialog.paFiles.Label1.Caption
+#: OpenFilesDlg.dfm:60
 msgid "Filter:"
 msgstr ""
 
@@ -1143,6 +1143,8 @@ msgstr ""
 
 #. FindReplDialog.pnlControls.CancelBtn.Caption
 #: FindReplDlg.dfm:128
+#. ShowFilesDialog.pnBottom.OKBtn.Caption
+#: ShowFilesDlg.dfm:47
 #. frmShowHint.btClose.Caption
 #: ShowHint.dfm:169
 #. ShowTextDialog.pnTop.EndeBtn.Caption
@@ -1208,27 +1210,27 @@ msgid "Subdirectories:"
 msgstr ""
 
 #. FtpDirDialog.btnDirUp.Hint
-#: FtpDirDlg.dfm:176
+#: FtpDirDlg.dfm:177
 #. ShowFilesDialog.pnBottom.btnDirUp.Hint
 #: ShowFilesDlg.dfm:109
 msgid "One directory up"
 msgstr ""
 
 #. FtpDirDialog.edBaseDir.EditLabel.Caption
-#: FtpDirDlg.dfm:243
+#: FtpDirDlg.dfm:244
 msgid "Root directory on FTP server"
 msgstr ""
 
 #. FtpDirDialog.edSubDir.EditLabel.Caption
-#: FtpDirDlg.dfm:255
+#: FtpDirDlg.dfm:256
 msgid "Selected subdirectory:"
 msgstr ""
 
 #. FtpDialog.Caption
 #: FtpDlg.dfm:5
 #. Extract parent path
-#: FtpDirDlg.pas:170
-#: FtpDirDlg.pas:201
+#: FtpDirDlg.pas:189
+#: FtpDirDlg.pas:220
 msgid "FTP connection"
 msgstr ""
 
@@ -1642,6 +1644,11 @@ msgstr ""
 msgid "Printer (Port/Irq)"
 msgstr ""
 
+#. InputLptPortDialog.LptSel.Items.Strings
+#: LptSelect.dfm:155
+msgid "other"
+msgstr ""
+
 #. InputLptPortDialog.Panel1.Descriptor1.Caption
 #: LptSelect.dfm:172
 msgid "Port addr.:"
@@ -1744,10 +1751,10 @@ msgstr ""
 msgid "Select files"
 msgstr ""
 
-#. OpenFilesDialog.lePath.EditLabel.Caption
-#: OpenFilesDlg.dfm:163
+#. OpenFilesDialog.paTop.lePath.EditLabel.Caption
+#: OpenFilesDlg.dfm:38
 #. ShellDirDialog.PanelLeft.Panel1.Label1.Caption
-#: ShellDirDlg.dfm:1968
+#: ShellDirDlg.dfm:1975
 #. ShellFileDialog.pnlTop.Label2.Caption
 #: ShellFileDlg.dfm:2034
 #: ShowFilesDlg.pas:116
@@ -1755,18 +1762,40 @@ msgstr ""
 msgid "Directory:"
 msgstr ""
 
-#. OpenFilesDialog.btnAll.Caption
-#: OpenFilesDlg.dfm:193
+#. OpenFilesDialog.paFiles.btnAll.Caption
+#: OpenFilesDlg.dfm:68
 #. SelectListItemsDialog.btSelAll.Hint
 #: SelectListItems.dfm:227
 msgid "Select all"
 msgstr ""
 
-#. OpenFilesDialog.btnNone.Caption
-#: OpenFilesDlg.dfm:257
+#. OpenFilesDialog.paFiles.btnNone.Caption
+#: OpenFilesDlg.dfm:132
 #. SelectListItemsDialog.btSelNone.Hint
 #: SelectListItems.dfm:164
 msgid "Select none"
+msgstr ""
+
+#. OpenFilesDialog.paFiles.FilterComboBox.Filter
+#: OpenFilesDlg.dfm:272
+#. ShellFileDialog.pnlBottom.cbFilter.Filter
+#: ShellFileDlg.dfm:2288
+msgid "All files (*.*)|*.*"
+msgstr ""
+
+#. OpenFilesDialog.paFiles.OKBtn.Caption
+#: OpenFilesDlg.dfm:281
+msgid "Add selected files"
+msgstr ""
+
+#. OpenFilesDialog.paFiles.FilterBtn.Caption
+#: OpenFilesDlg.dfm:372
+msgid "Add selected filter"
+msgstr ""
+
+#. OpenFilesDialog.paSubDir.leSubdir.EditLabel.Caption
+#: OpenFilesDlg.dfm:476
+msgid "Subdirectory:"
 msgstr ""
 
 #. PrintPageDialog.Caption
@@ -1867,7 +1896,7 @@ msgstr ""
 
 #. PasswordDialog.gbEncrypt.rbEncAuto.Caption
 #: PwdDlg.dfm:51
-#: ShowMemo.pas:917
+#: ShowMemo.pas:918
 msgid "Automatic"
 msgstr ""
 
@@ -2060,79 +2089,79 @@ msgid "Select directory"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.panRoot.spbNetwork.Caption
-#: ShellDirDlg.dfm:88
+#: ShellDirDlg.dfm:95
 #. ShellFileDialog.pnlLeft.spbNetwork.Caption
 #: ShellFileDlg.dfm:1380
 msgid "Network"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.panRoot.spbComputer.Caption
-#: ShellDirDlg.dfm:540
+#: ShellDirDlg.dfm:547
 #. ShellFileDialog.pnlLeft.spbComputer.Caption
 #: ShellFileDlg.dfm:36
 msgid "Computer"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.panRoot.spbDesktop.Caption
-#: ShellDirDlg.dfm:991
+#: ShellDirDlg.dfm:998
 #. ShellFileDialog.pnlLeft.spbDesktop.Caption
 #: ShellFileDlg.dfm:484
 msgid "Desktop"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.panRoot.spbMyFiles.Caption
-#: ShellDirDlg.dfm:1442
+#: ShellDirDlg.dfm:1449
 msgid "Documents"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.Panel1.spbHome.Hint
-#: ShellDirDlg.dfm:1903
+#: ShellDirDlg.dfm:1910
 #. ShellFileDialog.pnlTop.spbHome.Hint
 #: ShellFileDlg.dfm:1839
 msgid "Go to default folder"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.Panel1.spbUp.Hint
-#: ShellDirDlg.dfm:1976
+#: ShellDirDlg.dfm:1983
 #. ShellFileDialog.pnlTop.spbUp.Hint
 #: ShellFileDlg.dfm:1904
 msgid "One folder up"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.Panel1.spbNew.Hint
-#: ShellDirDlg.dfm:2042
+#: ShellDirDlg.dfm:2049
 #. ShellFileDialog.pnlTop.spbNew.Hint
 #: ShellFileDlg.dfm:1969
 msgid "Create new folder"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.Panel1.cbxFiles.Caption
-#: ShellDirDlg.dfm:2108
+#: ShellDirDlg.dfm:2115
 #: ShowFilesDlg.pas:131
 msgid "Show files"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.Panel1.cbxSelectedDir.Hint
-#: ShellDirDlg.dfm:2244
+#: ShellDirDlg.dfm:2251
 msgid "Directory"
 msgstr ""
 
 #. ShellDirDialog.PopupMenu.itmCreate.Caption
-#: ShellDirDlg.dfm:2287
+#: ShellDirDlg.dfm:2294
 #. ShellFileDialog.PopupMenu.itmCreate.Caption
 #: ShellFileDlg.dfm:2317
 msgid "Create folder"
 msgstr ""
 
 #. ShellDirDialog.PopupMenu.itmDelete.Caption
-#: ShellDirDlg.dfm:2291
+#: ShellDirDlg.dfm:2298
 #. ShellFileDialog.PopupMenu.itmDelete.Caption
 #: ShellFileDlg.dfm:2321
 msgid "Delete folder"
 msgstr ""
 
 #. ShellDirDialog.PopupMenu.itmUpdate.Caption
-#: ShellDirDlg.dfm:2298
+#: ShellDirDlg.dfm:2305
 #. ShellFileDialog.PopupMenu.itmUpdate.Caption
 #: ShellFileDlg.dfm:2328
 #. ShowTextDialog.pnTop.UpdateBtn.Hint
@@ -2160,11 +2189,6 @@ msgstr ""
 #. ShellFileDialog.pnlBottom.Label3.Caption
 #: ShellFileDlg.dfm:2147
 msgid "File type:"
-msgstr ""
-
-#. ShellFileDialog.pnlBottom.cbFilter.Filter
-#: ShellFileDlg.dfm:2288
-msgid "All files (*.*)|*.*"
 msgstr ""
 
 #. frmShow.Caption
@@ -2515,34 +2539,34 @@ msgstr ""
 msgid "Search for text"
 msgstr ""
 
-#: FtpDirDlg.pas:171
-#: FtpDirDlg.pas:224
+#: FtpDirDlg.pas:190
+#: FtpDirDlg.pas:243
 msgid "Searching for directories"
 msgstr ""
 
-#: FtpDirDlg.pas:204
+#: FtpDirDlg.pas:223
 msgid "Connection to FTP server: %s:%u\n"
 "for user: %s\n"
 "requires a password!"
 msgstr ""
 
-#: FtpDirDlg.pas:213
+#: FtpDirDlg.pas:232
 msgid "Trying to connect to FTP server"
 msgstr ""
 
-#: FtpDirDlg.pas:234
+#: FtpDirDlg.pas:253
 msgid "Connection to FTP server failed"
 msgstr ""
 
-#: FtpDlg.pas:126
+#: FtpDlg.pas:123
 msgid "Secure mode: "
 msgstr ""
 
-#: FtpDlg.pas:268
+#: FtpDlg.pas:265
 msgid "No host specified!"
 msgstr ""
 
-#: FtpDlg.pas:272
+#: FtpDlg.pas:269
 msgid "No user name specified!"
 msgstr ""
 
@@ -2606,6 +2630,19 @@ msgstr ""
 msgid "Edit mail recipient"
 msgstr ""
 
+#: OpenFilesDlg.pas:73
+msgid "No files selected - close anyway?"
+msgstr ""
+
+#. Build filter from all files in the selected directory
+#: OpenFilesDlg.pas:157
+msgid "all"
+msgstr ""
+
+#: OpenFilesDlg.pas:158
+msgid " files"
+msgstr ""
+
 #: ProgWind.pas:163
 msgid "Canceled by user"
 msgstr ""
@@ -2639,60 +2676,60 @@ msgstr ""
 msgid "Remove item: \"%s\"?"
 msgstr ""
 
-#: ShellDirDlg.pas:185
+#: ShellDirDlg.pas:186
 msgid "Default: "
 msgstr ""
 
-#: ShellDirDlg.pas:382
+#: ShellDirDlg.pas:383
 #: ShellFileDlg.pas:284
 #: ShowFilesDlg.pas:141
 msgid "Directory not found:\n"
 "%s!"
 msgstr ""
 
-#: ShellDirDlg.pas:403
+#: ShellDirDlg.pas:404
 #: ShellFileDlg.pas:355
 msgid "New subdirectory:"
 msgstr ""
 
-#: ShellDirDlg.pas:406
+#: ShellDirDlg.pas:407
 #: ShellFileDlg.pas:358
 msgid "Could not create directory:\n"
 "%s!"
 msgstr ""
 
-#: ShellDirDlg.pas:471
+#: ShellDirDlg.pas:472
 msgid "Delete directory"
 msgstr ""
 
-#: ShellDirDlg.pas:472
+#: ShellDirDlg.pas:473
 msgid "Delete \"%s\""
 msgstr ""
 
-#: ShellDirDlg.pas:473
+#: ShellDirDlg.pas:474
 msgid "Definitely"
 msgstr ""
 
-#: ShellDirDlg.pas:473
+#: ShellDirDlg.pas:474
 msgid "To recycle bin"
 msgstr ""
 
-#: ShellDirDlg.pas:480
+#: ShellDirDlg.pas:481
 msgid "%u directories with %u files deleted!"
 msgstr ""
 
 #. IsVista or newer
-#: ShellDirDlg.pas:486
+#: ShellDirDlg.pas:487
 msgid "%s moved to Recycle Bin!"
 msgstr ""
 
-#: ShellDirDlg.pas:488
+#: ShellDirDlg.pas:489
 #: ShellFileDlg.pas:372
 msgid "Error deleting directory:\n"
 "%s!"
 msgstr ""
 
-#: ShellDirDlg.pas:600
+#: ShellDirDlg.pas:601
 msgid " free of "
 msgstr ""
 
@@ -2725,7 +2762,7 @@ msgstr ""
 
 #. textout(PrinterSettings.Margins.Left,y,StripPath(Caption,72));
 #: ShowMemo.pas:465
-#: ShowMemo.pas:925
+#: ShowMemo.pas:926
 msgid "File: "
 msgstr ""
 
@@ -2740,7 +2777,7 @@ msgid "Delete file \"%s\"?"
 msgstr ""
 
 #: ShowMemo.pas:627
-#: ShowMemo.pas:925
+#: ShowMemo.pas:926
 #: ShowText.pas:389
 msgid "\"%s\" not found!"
 msgstr ""
@@ -2751,13 +2788,13 @@ msgid "No further sections!"
 msgstr ""
 
 #. remove zero bytes
-#: ShowMemo.pas:719
+#: ShowMemo.pas:720
 msgid "Invalid code page - Windows default is "
 "used!"
 msgstr ""
 
-#: ShowMemo.pas:760
-#: ShowMemo.pas:775
+#: ShowMemo.pas:761
+#: ShowMemo.pas:776
 msgid "No further errors!"
 msgstr ""
 

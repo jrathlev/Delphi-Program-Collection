@@ -20,7 +20,7 @@
 
    Vers. 1 - Jun. 1989
    Vers. 2 - May 2015
-   last modified:  June 2025
+   last modified: August 2025
    *)
 
 unit NumberUtils;
@@ -1093,7 +1093,7 @@ begin
 
 { ---------------------------------------------------------------- }
 // Umwandeln einer Menge in einen Hex-String und zurück
-// Format des Strings: nnaabb.. (nn = Hexwert der nachfolgenden Bytes)
+// Format des Strings: nnaabb.. (nn = Hexwert der Anzahl der nachfolgenden Bytes)
 function SetToHex (ASet : PSetArray; Low,High : integer) : string;
 var
   i : integer;
