@@ -48,7 +48,7 @@ type
     btSelectNone: TBitBtn;
     edtIcoDir: TComboBox;
     Label2: TLabel;
-    btnPngDir: TSpeedButton;
+    btnIcoDir: TSpeedButton;
     paStatus: TPanel;
     paMain: TPanel;
     meStatus: TMemo;
@@ -73,7 +73,7 @@ type
     procedure bbConvertClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure edtImgDirCloseUp(Sender: TObject);
-    procedure btnPngDirClick(Sender: TObject);
+    procedure btnIcoDirClick(Sender: TObject);
     procedure edtIcoDirCloseUp(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure ShellListViewClick(Sender: TObject);
@@ -263,14 +263,14 @@ begin
     end;
   end;
 
-procedure TMainForm.btnPngDirClick(Sender: TObject);
+procedure TMainForm.btnIcoDirClick(Sender: TObject);
 var
   s : string;
 begin
   s:=edtIcoDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(edtImgDir.Text,s);
   s:=GetExistingParentPath(s,DefPath);
-  if ShellDirDialog.Execute (_('Directory for PNG images'),true,true,false,'',s) then begin
+  if ShellDirDialog.Execute (_('Directory for icons'),true,true,false,'',s) then begin
     s:=MakeRelativePath(edtImgDir.Text,s);
     AddToHistory(edtIcoDir,s);
     end;

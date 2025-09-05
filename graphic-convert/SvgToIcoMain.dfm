@@ -166,7 +166,7 @@ object MainForm: TMainForm
       NumGlyphs = 2
       OnClick = btnImgDirClick
     end
-    object btnPngDir: TSpeedButton
+    object btnIcoDir: TSpeedButton
       Left = 495
       Top = 55
       Width = 31
@@ -252,7 +252,7 @@ object MainForm: TMainForm
         C06C6C6C6C6C6CC0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
         DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
       NumGlyphs = 2
-      OnClick = btnPngDirClick
+      OnClick = btnIcoDirClick
     end
     object Label1: TLabel
       Left = 10
@@ -1094,7 +1094,6 @@ object MainForm: TMainForm
       Width = 81
       Height = 22
       Root = 'rfDesktop'
-      ShellListView = ShellListView
       UseShellImages = True
       TabOrder = 9
       TabStop = False
@@ -1108,7 +1107,6 @@ object MainForm: TMainForm
       AutoRefresh = True
       ObjectTypes = [otNonFolders]
       Root = 'rfDesktop'
-      ShellComboBox = ShellComboBox
       Sorted = True
       OnAddFolder = ShellListViewAddFolder
       Anchors = [akLeft, akTop, akRight, akBottom]
