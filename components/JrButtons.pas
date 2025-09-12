@@ -4,7 +4,8 @@
    designed for older Delphi versions (before 10.4) without ImageList property
    in TSpeedButtton and TBitBtn
 
-   uses modified TSpeedButtton and TBitBtn from unit Vcl.Buttons.pas
+   uses modified TSpeedButtton and TBitBtn from Delphi Visual Component Library (Vcl.Buttons.pas)
+     Copyright(c) 1995-2015 Embarcadero Technologies, Inc. }
 
    © Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de)
 

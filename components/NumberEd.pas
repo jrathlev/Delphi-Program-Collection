@@ -1,27 +1,27 @@
-(* Delphi Komponente
-   Eingabe von Zahlen
-   ==================
-   - TNumberEdit     : Integer (dezimal oder hex)
-   - TRangeEdit      : Integer mit Bereichsüberprüfung
-   - TFloatEdit      : Fließkomma
-   - TFloatRangeEdit : Fließkomma mit Bereichsüberprüfung
-   - TDegreeEdit     : Eingabefeld für Winkelgrade
-   - TNumUpDown      : wie TUpDown für o.g. Komponenten
-   - TFloatComboBox  : Combobox für Fließkommazahlen
-   - TDegreeComboBox : Combobox für Winkelgrade
+(* Delphi component
+   Number input
+   ============
+   - TNumberEdit     : Integer input (decimal, binary, octal or hex)
+   - TRangeEdit      : Integer input with range checking
+   - TFloatEdit      : Floatíng point input
+   - TFloatRangeEdit : Floatíng point input with range checking
+   - TDegreeEdit     : Input for angular degrees
+   - TNumUpDown      : Same as TUpDown but for above components
+   - TFloatComboBox  : Combobox for Floatíng point numbers
+   - TDegreeComboBox : Combobox for angular degrees
 
-   neue Fließkommaformate:
-   - ffNormalized    : Fließkommazahl mit durch 3 teilbarem Exp. (wiss. Format)
-   - ffPrefix        : Fließkommazahl mit angefügten Einheitenpräfix:
+   new floating point formats:
+   - ffNormalized    : Floatíng point number with exponent divisible by 3 (scientific format)
+   - ffPrefix        : Floatíng point number with appended unit prefix
                        f (femto), p (pico), n (nano),µ (mikro), m (milli),
                        k (kilo), M (Mega), G (Giga), T (Tera)
 
-   Winkelgradformate:
-   - afDecDegree     : Winkel als Grade mit Dezimalunterteilung
-   - afDecMinutes    : Winkel als Grade und Minuten mit Dezimalunterteilung
-   - afSeconds       : Winkel als Grade, Minuten und Sekunden mit Dezimalunterteilung
+   Angular degree formats:
+   - afDecDegree     : Angles as degrees with decimals
+   - afDecMinutes    : Angles as degrees and minutes with decimals
+   - afSeconds       : Angles as degrees, minutes and seconds with decimals
 
-   © J. Rathlev 24222 Schwentinental
+   © J. Rathlev D-24222 Schwentinental
      Web:  www.rathlev-home.de
      Mail: kontakt(a)rathlev-home.de
 
@@ -34,14 +34,14 @@
    the specific language governing rights and limitations under the License.
 
    Vers. 1 - Sep. 1998
-         1.1 - Okt. 2001
-         1.2 - Juni 2005  : verbesserte Bereichsüberprüfung
-         1.3 - Mai  2006  : AddValue-Routinen
-         1.4 - Apr. 2007  : Darstellung als Bin. Oktal, Dezimal und Hex
-         2.0 - Mai  2015  : neues TNumUpDown, ffPrefix und div. weitere Umstruktierungen
-         2.1 - Juli 2019  : TDegreeEdit hinzugefügt
+         1.1 - Oct. 2001
+         1.2 - June 2005  : improved rabge checking
+         1.3 - Mai  2006  : AddValue routines
+         1.4 - Apr. 2007  : number notation as binary, octal and hex
+         2.0 - May  2015  : new TNumUpDown, ffPrefix and several other redesign
+         2.1 - July 2019  : TDegreeEdit added
 
-   last changed: Dez. 2019
+   last changed: September 2025
    *)
 
 unit NumberEd;
