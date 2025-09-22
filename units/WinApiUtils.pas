@@ -61,6 +61,7 @@ const
   LOGON_ZERO_PASSWORD_BUFFER = DWORD($80000000);
 
   // constants missing in unit Windows
+  // see: https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c8e77b37-3909-4fe6-a4ea-2b9d423b1ee4
   IO_REPARSE_TAG_MOUNT_POINT         = $A0000003;
   {$EXTERNALSYM IO_REPARSE_TAG_MOUNT_POINT}
   IO_REPARSE_TAG_HSM                 = $C0000004;
