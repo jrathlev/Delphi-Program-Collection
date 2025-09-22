@@ -1,0 +1,664 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-09-20 12:37+0200\n"
+"PO-Revision-Date: 2025-09-20 12:37+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.7\n"
+
+#. MainForm.Caption
+#: FqMain.dfm:4
+msgid "Calculation of frequency responses"
+msgstr "Berechnung von Frequenzgängen"
+
+#. MainForm.pnlTools.btnNewCirc.Hint
+#: FqMain.dfm:39
+msgid "New circuit"
+msgstr "Neue Schaltung"
+
+#. MainForm.pnlTools.btnLoadCirc.Hint
+#: FqMain.dfm:128 FqMain.pas:1007
+msgid "Load circuit"
+msgstr "Schaltung laden"
+
+#. MainForm.pnlTools.btnSaveCirc.Hint
+#: FqMain.dfm:217 FqMain.pas:1036
+msgid "Save circuit"
+msgstr "Schaltung speichern"
+
+#. MainForm.pnlTools.btnCopy.Hint
+#: FqMain.dfm:306
+msgid "Copy diagram to clipboard"
+msgstr "Diagramm in die Zwischenablage kopieren"
+
+#. MainForm.pnlTools.btnDraw.Hint
+#. MainForm.pnlData.gbCircuit.btnShow.Hint
+#: FqMain.dfm:395 FqMain.dfm:947
+msgid "Update view"
+msgstr "Ansicht aktualisieren"
+
+#. MainForm.pnlTools.btnExit.Hint
+#: FqMain.dfm:484
+msgid "Quit program"
+msgstr "Programm beenden"
+
+#. MainForm.pnlTools.btnExport.Hint
+#: FqMain.dfm:574
+msgid "Export diagram as meta file"
+msgstr "Diagramm als Meta-Datei exportieren"
+
+#. MainForm.pnlTools.btnPrint.Hint
+#: FqMain.dfm:663
+msgid "Print diagram"
+msgstr "Diagramm ausdrucken"
+
+#. MainForm.pnlData.gbCircuit.Caption
+#: FqMain.dfm:794
+msgid "Circuit description"
+msgstr "Beschreibung der Schaltung"
+
+#. MainForm.pnlData.gbCircuit.Label1.Caption
+#: FqMain.dfm:807
+msgid "Components:"
+msgstr "Bauteile:"
+
+#. MainForm.pnlData.gbCircuit.lvParts.Caption
+#: FqMain.dfm:817
+msgid "Name"
+msgstr "Name"
+
+#. MainForm.pnlData.gbCircuit.lvParts.Caption
+#. ValueDialog.edValue.EditLabel.Caption
+#: FqMain.dfm:821 ValueDlg.dfm:236
+msgid "Value"
+msgstr "Wert"
+
+#. MainForm.pnlData.gbCircuit.lvParts.Caption
+#. MainForm.pnlData.gbCircuit.gbNodes.Caption
+#: FqMain.dfm:825 FqMain.dfm:889
+msgid "Nodes"
+msgstr "Knoten"
+
+#. MainForm.pnlData.gbCircuit.btnNew.Caption
+#: FqMain.dfm:842
+msgid "New"
+msgstr "Neu"
+
+#. MainForm.pnlData.gbCircuit.btnEdit.Caption
+#: FqMain.dfm:852
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. MainForm.pnlData.gbCircuit.btnDel.Caption
+#: FqMain.dfm:862
+msgid "Delete"
+msgstr "Löschen"
+
+#. MainForm.pnlData.gbCircuit.btnVar.Caption
+#: FqMain.dfm:879
+msgid "Variable"
+msgstr "Variabel"
+
+#. MainForm.pnlData.gbCircuit.gbNodes.Label2.Caption
+#: FqMain.dfm:899
+msgid "Input:"
+msgstr "Eingang:"
+
+#. MainForm.pnlData.gbCircuit.gbNodes.Label4.Caption
+#: FqMain.dfm:906
+msgid "Ref.:"
+msgstr "Bezug:"
+
+#. MainForm.pnlData.gbCircuit.gbNodes.Label3.Caption
+#: FqMain.dfm:913
+msgid "Outputs:"
+msgstr "Ausgänge:"
+
+#. MainForm.pnlData.gbCircuit.btnShow.Caption
+#: FqMain.dfm:949
+msgid "Show"
+msgstr "Anzeigen"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.Caption
+#: FqMain.dfm:1048
+msgid "Bode plot"
+msgstr "Bode-Diagramm"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.Caption
+#: FqMain.dfm:1054
+msgid "Frequency axis"
+msgstr "Frequenzachse"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.Label5.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.Label10.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbPhas.Label11.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.GroupBox1.Label18.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.gbImag.Label23.Caption
+#: FqMain.dfm:1063 FqMain.dfm:1146 FqMain.dfm:1214 FqMain.dfm:1283
+#: FqMain.dfm:1332
+msgid "from:"
+msgstr "von:"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.Label6.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.Label9.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbPhas.Label12.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.GroupBox1.Label19.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.gbImag.Label24.Caption
+#: FqMain.dfm:1072 FqMain.dfm:1137 FqMain.dfm:1223 FqMain.dfm:1292
+#: FqMain.dfm:1341
+msgid "to:"
+msgstr "bis:"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.Label7.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.Label8.Caption
+#. PartDialog.gbValues.lbFreqUn.Caption
+#: FqMain.dfm:1079 FqMain.dfm:1086 PartDlg.dfm:65
+msgid "Hz"
+msgstr "Hz"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.rbFrLin.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.rbAmLin.Caption
+#: FqMain.dfm:1093 FqMain.dfm:1153
+msgid "linear"
+msgstr "linear"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbFreq.rbFrLog.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.rbAmLog.Caption
+#: FqMain.dfm:1102 FqMain.dfm:1161
+msgid "logarithmic"
+msgstr "logarithmisch"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.Caption
+#: FqMain.dfm:1128
+msgid "Amplitude axis"
+msgstr "Amplitudenachse"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.rbAmdB.Caption
+#: FqMain.dfm:1169
+msgid "dB"
+msgstr "dB"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbAmpl.cbAmAuto.Caption
+#. MainForm.pnlData.pcDiagram.tsFreq.gbPhas.cbPhAuto.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.GroupBox1.cbRtAuto.Caption
+#. MainForm.pnlData.pcDiagram.tsOk.gbImag.cbItAuto.Caption
+#: FqMain.dfm:1179 FqMain.dfm:1242 FqMain.dfm:1299 FqMain.dfm:1348
+msgid "Automatic scaling"
+msgstr "Automatische Skalierung"
+
+#. MainForm.pnlData.pcDiagram.tsFreq.gbPhas.Caption
+#: FqMain.dfm:1203
+msgid "Phase axis"
+msgstr "Phasenachse"
+
+#. MainForm.pnlData.pcDiagram.tsOk.Caption
+#: FqMain.dfm:1263
+msgid "Nyquist plot"
+msgstr "Ortskurve"
+
+#. MainForm.pnlData.pcDiagram.tsOk.GroupBox1.Caption
+#: FqMain.dfm:1274
+msgid "Real axis"
+msgstr "Reelle Achse"
+
+#. MainForm.pnlData.pcDiagram.tsOk.gbImag.Caption
+#: FqMain.dfm:1323
+msgid "Imaginary axis"
+msgstr "Imaginäre Achse"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Caption
+#: FqMain.dfm:1369
+msgid "Lines"
+msgstr "Linien"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label20.Caption
+#. VarValueDialog.gbPart.Label2.Caption
+#: FqMain.dfm:1380 VarValDlg.dfm:35
+msgid "Fixed value:"
+msgstr "Fester Wert"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label21.Caption
+#: FqMain.dfm:1387
+msgid "Variable values:"
+msgstr "Variable Werte:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label29.Caption
+#: FqMain.dfm:1394
+msgid "Width/mm:"
+msgstr "Breite/mm:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label28.Caption
+#: FqMain.dfm:1401
+msgid "Output 1:"
+msgstr "Ausgang 1:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label30.Caption
+#: FqMain.dfm:1408
+msgid "Output 2:"
+msgstr "Ausgang 2:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label31.Caption
+#: FqMain.dfm:1415
+msgid "Output 3:"
+msgstr "Ausgang 3:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label32.Caption
+#: FqMain.dfm:1422
+msgid "Output 4:"
+msgstr "Ausgang 4:"
+
+#. MainForm.pnlData.pcDiagram.tsLines.Label33.Caption
+#: FqMain.dfm:1429
+msgid "Style:"
+msgstr "Stil:"
+
+#. MainForm.MainMenu.Schaltung1.Caption
+#: FqMain.dfm:1856
+msgid "&Circuit"
+msgstr "&Schaltung"
+
+#. MainForm.MainMenu.Schaltung1.ItemNew.Caption
+#: FqMain.dfm:1858
+msgid "&New .."
+msgstr "&Neu .."
+
+#. MainForm.MainMenu.Schaltung1.ItemLoad.Caption
+#: FqMain.dfm:1862
+msgid "&Load .."
+msgstr "&Laden .."
+
+#. MainForm.MainMenu.Schaltung1.ItemSave.Caption
+#: FqMain.dfm:1867
+msgid "&Save .."
+msgstr "&Speichern .."
+
+#. MainForm.MainMenu.Schaltung1.ItemSaveAs.Caption
+#: FqMain.dfm:1872
+msgid "Save &as .."
+msgstr "Speichern &als .."
+
+#. MainForm.MainMenu.Schaltung1.Dateiliste.Caption
+#: FqMain.dfm:1879
+msgid "&File list"
+msgstr "&Dateiliste"
+
+#. MainForm.MainMenu.Schaltung1.ItemQuit.Caption
+#: FqMain.dfm:1885
+msgid "&Quit"
+msgstr "&Ende"
+
+#. MainForm.MainMenu.Diagramm1.Caption
+#: FqMain.dfm:1890
+msgid "&Diagram"
+msgstr "&Diagramm"
+
+#. MainForm.MainMenu.Diagramm1.ItemDraw.Caption
+#. MainForm.MainMenu.ItemHelp.ItemShowHelp.Caption
+#: FqMain.dfm:1892 FqMain.dfm:1929
+msgid "&Show"
+msgstr "&Anzeigen"
+
+#. MainForm.MainMenu.Diagramm1.ItemCopy.Caption
+#: FqMain.dfm:1900
+msgid "&Copy"
+msgstr "&Kopieren"
+
+#. MainForm.MainMenu.Diagramm1.ItemExport.Caption
+#: FqMain.dfm:1905
+msgid "&Export"
+msgstr "&Exportieren"
+
+#. MainForm.MainMenu.Diagramm1.ItemPrint.Caption
+#: FqMain.dfm:1910
+msgid "&Print"
+msgstr "&Drucken"
+
+#. MainForm.MainMenu.Einstellungen1.Caption
+#: FqMain.dfm:1916
+msgid "&Settings"
+msgstr "&Einstellungen"
+
+#. MainForm.MainMenu.Einstellungen1.ItemDir.Caption
+#: FqMain.dfm:1918
+msgid "&Directory"
+msgstr "&Verzeichnis"
+
+#. MainForm.MainMenu.Einstellungen1.ItemPrintSetup.Caption
+#: FqMain.dfm:1922
+msgid "&Printer"
+msgstr "&Drucker"
+
+#. MainForm.MainMenu.ItemHelp.Caption
+#: FqMain.dfm:1927
+msgid "&Help"
+msgstr "&Hilfe"
+
+#. MainForm.MainMenu.ItemHelp.ItemInfo.Caption
+#: FqMain.dfm:1937
+msgid "&Information"
+msgstr "&Info"
+
+#. PartDialog.Caption
+#: PartDlg.dfm:6
+msgid "Edit component"
+msgstr "Bauteil bearbeiten"
+
+#. PartDialog.rgTyp.Caption
+#: PartDlg.dfm:22
+msgid "Component type"
+msgstr "Bauteile-Typ"
+
+#. PartDialog.rgTyp.Items.Strings
+#: PartDlg.dfm:25 VarValDlg.pas:63
+msgid "Resistor"
+msgstr "Widerstand"
+
+#. PartDialog.rgTyp.Items.Strings
+#: PartDlg.dfm:26 VarValDlg.pas:64
+msgid "Inductor"
+msgstr "Spule"
+
+#. PartDialog.rgTyp.Items.Strings
+#: PartDlg.dfm:27 VarValDlg.pas:65
+msgid "Capacitor"
+msgstr "Kondensator"
+
+#. PartDialog.rgTyp.Items.Strings
+#: PartDlg.dfm:28
+msgid "Operational amplifier"
+msgstr "Operationsverstärker"
+
+#. PartDialog.gbValues.Caption
+#: PartDlg.dfm:37
+msgid "Component description"
+msgstr "Beschreibung des Bauteils"
+
+#. PartDialog.gbValues.lbValue.Caption
+#. '10n';
+#: PartDlg.dfm:44 PartDlg.pas:151
+msgid "Value:"
+msgstr "Wert:"
+
+#. PartDialog.gbValues.lbUnits.Caption
+#. ValueDialog.lbUnits.Caption
+#. VarValueDialog.gbPart.lbUnits.Caption
+#. VarValueDialog.gbValues.laAllUnits.Caption
+#: PartDlg.dfm:51 ValueDlg.dfm:37 VarValDlg.dfm:42 VarValDlg.dfm:75
+msgid "Ohm"
+msgstr "Ohm"
+
+#. PartDialog.gbValues.lbFreq.Caption
+#: PartDlg.dfm:58
+msgid "f(g):"
+msgstr "f(g):"
+
+#. PartDialog.gbValues.Label1.Caption
+#: PartDlg.dfm:72
+msgid "Note:"
+msgstr "Anm.:"
+
+#. PartDialog.gbValues.btnValue.Hint
+#. VarValueDialog.gbValues.btnEditValue.Hint
+#: PartDlg.dfm:112 VarValDlg.dfm:540
+msgid "Use standard value"
+msgstr "Standardwert verwenden"
+
+#. PartDialog.gbKnoten.Caption
+#: PartDlg.dfm:203
+msgid "Connection nodes:"
+msgstr "Verbindungsknoten:"
+
+#. PartDialog.gbKnoten.lbKnP.Caption
+#: PartDlg.dfm:210 PartDlg.pas:152
+msgid "Pin 1:"
+msgstr "Pin 1:"
+
+#. PartDialog.gbKnoten.lbKnN.Caption
+#: PartDlg.dfm:217 PartDlg.pas:153
+msgid "Pin 2:"
+msgstr "Pin 2:"
+
+#. PartDialog.gbKnoten.lbKnO.Caption
+#: PartDlg.dfm:224
+msgid "Output:"
+msgstr "Ausgang:"
+
+#. PartDialog.gbName.Caption
+#: PartDlg.dfm:289
+msgid "Component name"
+msgstr "Name des Bauteils"
+
+#. PartDialog.gbName.edTyp.Text
+#: PartDlg.dfm:304
+msgid "OP"
+msgstr "OP"
+
+#. PartDialog.OKBtn.Caption
+#. ValueDialog.OKBtn.Caption
+#. VarValueDialog.OKBtn.Caption
+#: PartDlg.dfm:337 ValueDlg.dfm:110 VarValDlg.dfm:631
+msgid "OK"
+msgstr "OK"
+
+#. PartDialog.CancelBtn.Caption
+#. ValueDialog.CancelBtn.Caption
+#. VarValueDialog.CancelBtn.Caption
+#: PartDlg.dfm:401 ValueDlg.dfm:46 VarValDlg.dfm:695
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. ValueDialog.Caption
+#: ValueDlg.dfm:5
+msgid "Select component value"
+msgstr "Bauteile-Wert auswählen"
+
+#. ValueDialog.Label1.Caption
+#: ValueDlg.dfm:29
+msgid "Standard values"
+msgstr "Standardwerte"
+
+#. ValueDialog.rgSeries.Caption
+#: ValueDlg.dfm:176
+msgid "Value series"
+msgstr "Werteserie"
+
+#. ValueDialog.rgPrefix.Caption
+#: ValueDlg.dfm:207
+msgid "Unit prefixes"
+msgstr "Einh.-Vors."
+
+#. ValueDialog.rgFactor.Caption
+#: ValueDlg.dfm:217
+msgid "Factor"
+msgstr "Faktor"
+
+#. VarValueDialog.Caption
+#: VarValDlg.dfm:5 VarValDlg.pas:171
+msgid "Variable values"
+msgstr "Variable Werte"
+
+#. VarValueDialog.gbPart.Caption
+#: VarValDlg.dfm:21
+msgid "Component"
+msgstr "Bauteil"
+
+#. VarValueDialog.gbPart.Label1.Caption
+#: VarValDlg.dfm:28
+msgid "Name:"
+msgstr "Name:"
+
+#. VarValueDialog.gbValues.Caption
+#: VarValDlg.dfm:68
+msgid "Other values"
+msgstr "Andere Werte"
+
+#. VarValueDialog.gbValues.btnAdd.Hint
+#: VarValDlg.dfm:90
+msgid "Add custom value"
+msgstr "Benutzerdefinierten Wert hinzufügen"
+
+#. VarValueDialog.gbValues.btnDelete.Hint
+#: VarValDlg.dfm:180
+msgid "Delete selected value"
+msgstr "Ausgewählten Wert löschen"
+
+#. VarValueDialog.gbValues.btnEdit.Hint
+#: VarValDlg.dfm:270
+msgid "Replace selected value"
+msgstr "Ausgewählten Wert ersetzen"
+
+#. VarValueDialog.gbValues.btnDelAll.Hint
+#: VarValDlg.dfm:360
+msgid "Delete all values"
+msgstr "Alle Werte löschen"
+
+#. VarValueDialog.gbValues.btnAddValue.Hint
+#: VarValDlg.dfm:450
+msgid "Add standard value"
+msgstr "Standardwert hinzufügen"
+
+#. Programmer's name for it: rsCaption
+#: FqMain.pas:33
+msgid "Calculation of frequency responses %s "
+msgstr "Berechnung von Frequenzgängen %s "
+
+#. Programmer's name for it: rsHelpName
+#: FqMain.pas:34
+msgid "fq-help-e.chm"
+msgstr "fq-help-d.chm"
+
+#. Pfad zu Anwendungsdaten
+#: FqMain.pas:418 FqMain.pas:835
+msgid " [unknown]"
+msgstr " [unbekannt]"
+
+#: FqMain.pas:456 FqMain.pas:995 FqMain.pas:1001 FqMain.pas:1048
+msgid "Save circuit?"
+msgstr "Schaltung speichern?"
+
+#: FqMain.pas:518
+msgid " Printer: "
+msgstr " Drucker: "
+
+#: FqMain.pas:523
+msgid " No printer installed"
+msgstr " Kein Drucker installiert"
+
+#: FqMain.pas:740
+msgid "File \"%s\" not found!"
+msgstr "Datei \"%s\" nicht gefunden!"
+
+#: FqMain.pas:1006 FqMain.pas:1035
+msgid "Circuits"
+msgstr "Schaltungen"
+
+#: FqMain.pas:1006 FqMain.pas:1035
+msgid "|all"
+msgstr "|alle"
+
+#: FqMain.pas:1350
+msgid "Error in calculation!"
+msgstr "Fehler bei der Berechnung!"
+
+#. Amplitude
+#: FqMain.pas:1513
+msgid "Amplitude"
+msgstr "Amplitude"
+
+#. Phase
+#: FqMain.pas:1553
+msgid "Phase"
+msgstr "Phase"
+
+#. Position der Y-Achse
+#: FqMain.pas:1624
+msgid "Imaginary part"
+msgstr "Imaginärteil"
+
+#: FqMain.pas:1625
+msgid "Real part"
+msgstr "Realteil"
+
+#: FqMain.pas:1670
+msgid "Error during data processing!"
+msgstr "Fehler bei der Datenverarbeitung!"
+
+#. Teilenummer festlegen
+#: FqMain.pas:1696
+msgid "Max. number of components: "
+msgstr "Max. Anzahl von Bauteilen: "
+
+#: FqMain.pas:1718
+msgid "Remove %s from circuit?"
+msgstr "%s aus der Schaltung entfernen?"
+
+#: FqMain.pas:1807
+msgid "Windows Meta file"
+msgstr "Windows-Metadatei"
+
+#: FqMain.pas:1808
+msgid "Save diagram as Meta file"
+msgstr "Diagramm als Meta-Datei speichern"
+
+#: FqMain.pas:1844
+msgid "Start printing on %s?"
+msgstr "Ausdruck auf %s starten?"
+
+#: FqMain.pas:1859
+msgid "Directory for circuit files"
+msgstr "Verzeichnis mit den Schaltungs-Dateien"
+
+#. 'Fehler bei Werteangabe!';
+#. Programmer's name for it: rsNumError
+#: PartDlg.pas:9
+msgid "Error in value specification!"
+msgstr "Fehler bei der Werteangabe!"
+
+#. 'Mehrfachverwendung von Knoten!';
+#. Programmer's name for it: rsNodeError
+#: PartDlg.pas:10
+msgid "Multiple use of nodes!"
+msgstr "Mehrfachverwendung von Knoten!"
+
+#: PartDlg.pas:131
+msgid "Gain:"
+msgstr "Verstärkung:"
+
+#: PartDlg.pas:132
+msgid "Input (+):"
+msgstr "Eingang (+):"
+
+#: PartDlg.pas:133
+msgid "Input (-):"
+msgstr "Eingang (-):"
+
+#: PartDlg.pas:184 VarValDlg.pas:143
+msgid "Select standard value for %s"
+msgstr "Standardwert für %s auswählen"
+
+#: VarValDlg.pas:115
+msgid "Edit value for %s"
+msgstr "Wert für %s bearbeiten"
+
+#: VarValDlg.pas:129
+msgid "Add value for %s"
+msgstr "Wert für %s hinzufügen"
+
+#: VarValDlg.pas:153
+msgid "Add standard value for %s"
+msgstr "Standardwert für %s hinzufügen"
+
+#: VarValDlg.pas:172
+msgid "All values in "
+msgstr "Alle Werte in "

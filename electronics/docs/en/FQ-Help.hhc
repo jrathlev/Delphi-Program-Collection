@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Overview">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="FQ-Intro.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Installation">
+			<param name="Local" value="FQ-Intro.html#install">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Author">
+			<param name="Local" value="FQ-Intro.html#author">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="License">
+			<param name="Local" value="FQ-Intro.html#license">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Manual">
+		<param name="Local" value="FQ-Manual.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Desktop">
+			<param name="Local" value="FQ-Manual.html#bild">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Menu">
+			<param name="Local" value="FQ-Manual.html#menu">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Circuit">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New">
+				<param name="Local" value="FQ-Manual.html#new">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Load">
+				<param name="Local" value="FQ-Manual.html#load">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save">
+				<param name="Local" value="FQ-Manual.html#save">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit">
+				<param name="Local" value="FQ-Manual.html#schaltung">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sample circuits">
+				<param name="Local" value="FQ-Manual.html#beispiele">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Diagram">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Update">
+				<param name="Local" value="FQ-Manual.html#Show">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Scaling">
+				<param name="Local" value="FQ-Manual.html#Bereiche">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sample plots">
+		<param name="Local" value="FQ-Sample.html#diagramm1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Passive low pass of second order">
+			<param name="Local" value="FQ-Sample.html#diagramm1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bode plot">
+				<param name="Local" value="FQ-Sample.html#diagramm1">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nyquist plot">
+				<param name="Local" value="FQ-Sample.html#ortskurve1">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Active low pass of second order">
+			<param name="Local" value="FQ-Sample.html#diagramm2">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bode plot">
+				<param name="Local" value="FQ-Sample.html#diagramm2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nyquist plot">
+				<param name="Local" value="FQ-Sample.html#ortskurve2">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Parallel resonant circuit">
+			<param name="Local" value="FQ-Sample.html#diagramm3">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bode plot">
+				<param name="Local" value="FQ-Sample.html#diagramm3">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nyquist plot">
+				<param name="Local" value="FQ-Sample.html#ortskurve3">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,342 @@
+<html>
+<head>
+<title>Frequenzgang - Beschreibung (c) 2008 - 2025, Dr. J. Rathlev, D-24222 Schwentinental</title>
+<meta name="description" content="">
+<meta name="author" content="J. Rathlev">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<meta http-equiv="content-language" content="de">
+<link rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body>
+<a href="FQ-Intro.html">
+    <img src="images/arrow-up.png" alt="Anfang" width="22" height="22" align="right" border="0">
+  </a>
+<table>
+<tr>
+  <td valign=top rowspan=2>
+    <img src="images/fq-icon.gif" width="36" height="36" border="0" align="left"></td>
+  <td><h2>Frequenzgang Vers. 4.1</h2></td>
+</tr>
+<tr>
+    <td><b>&copy; 2008 - 2025, Dr. J. Rathlev, D-24222 Schwentinental</b> 
+    <p></td>
+</tr>
+</table>
+<hr>
+<a name="anfang">
+<h2>Übersicht</h2>
+</a>
+<a href="#bild">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Desktop</a>
+<a href="#menu">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Menüs</a>
+<a href="#schaltung">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Schaltung eingeben</a>
+<a href="#bereiche">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Bereiche und Skalierung einstellen</a>
+<a href="fq-sample.html">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Beispiele</a>
+</dl>
+<hr>
+<map name="bild1">
+  <area shape="rect" coords="6,170,36,195" href="#copyclip" alt="Kopieren" title="Kopieren">
+  <area shape="rect" coords="6,242,36,265" href="#savemeta" alt="als EMF exportieren">
+  <area shape="rect" coords="6,279,36,304" href="#show" alt="Anzeige aktualisieren" title="Anzeige aktualisieren">
+  <area shape="rect" coords="6,128,36,153" href="#save" alt="Speichern" title="Speichern">
+  <area shape="rect" coords="6,94,36,119" href="#load" alt="Laden" title="Laden">
+  <area shape="rect" coords="6,60,36,85" href="#new" alt="Neu" title="Neu">
+  <area shape="rect" coords="6,33,259,51" href="#menu" alt="Menü">
+  <area shape="rect" coords="41,51,538,681" href="fq-sample.html" alt="Diagramm" title="Diagramm">
+  <area shape="rect" coords="6,647,36,677" href="#quit" alt="Ende" title="Ende">
+  <area shape="rect" coords="6,682,841,704" href="#status" alt="Statusanzeige">
+  <area shape="rect" coords="538,47,791,355" href="#schaltung" alt="Schaltungsbeschreibung" title="Schaltungsbeschreibung">
+  <area shape="rect" coords="541,358,790,677" href="#bereiche" alt="Skalierung" title="Skalierung">
+  <area shape="rect" coords="6,202,36,225" href="#print" alt="Drucken" title="Drucken">
+</map>
+
+<a name="bild">
+<h2>Desktop</h2>
+<p>Klicken auf einen Desktopbereich führt zur Hilfe.</p><br>
+ 
+<img src="images/fq.png" width="793" height="709" border="0" usemap="#bild1"> 
+</a> <br clear="all">
+<br>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="menu">
+<h2>Menüstruktur</h2></a>
+<dl>
+  <dt><b>Schaltung</b></dt>
+  <dd><a href="#new"><i>Neu</i></a> - Neuanlegen einer Schaltung</dd>
+  <dd><a href="#load"><i>Laden ...</i></a> - Laden einer gespeicherten Schaltung</dd>
+  <dd><a href="#save"><i>Speichern</i></a> - Speichern einer geänderten Schaltung</dd>
+  <dd><a href="#saveas"><i>Speichern als ...</i></a> - Speichern einer Schaltung 
+    unter neuem Namen</dd>
+  <dd><a href="#list"><i>Dateiliste</i></a> - Liste der zuletzt geladenen Schaltungen</dd>
+  <dd><a href="#ende"><i>Ende</i></a> - Programm beenden</dd>
+  <dt><b>Diagramm</b></dt>
+  <dd><a href="#show"><i>Anzeigen</i></a> - Diagramm aktualisieren</dd>
+  <dd><a href="#copyclip"><i>Kopieren</i></a> - Diagramm in Zwischenablage 
+    kopieren</dd>
+  <dd><a href="#savemeta"><i>Exportieren</i></a> - Diagramm als Meta-Datei 
+    speichern</dd>
+  <dd><a href="#print"><i>Drucken</i></a> - Diagramm drucken</dd>
+
+	<dt><b>Einstellungen</b></dt>
+	<dd><a href="#datapath"><i>Verzeichnis</i></a> - Verzeichnis der Schaltungsdaten</dd>
+	<dd><a href="#printsel"><i>Drucker</i></a> - Drucker auswählen</dd>
+
+	<dt><b>Hilfe</b></dt>
+	<dd><em>Anzeigen</em> - diese Hilfe anzeigen</dd>
+	<dd><em>Info</em> - Informationen zum Programm</dd>
+</dl>
+<hr>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="new"> 
+<img src="images/new.png" alt="Neu" width="34" height="34" border="0"> 
+<h3>Neuanlegen einer Schaltung</h3></a>
+<p>Nach Klick auf die Schaltfläche oder den Menüpunkt werden die Diagrammanzeige 
+  und die zugehörigen Daten im rechten Fensterbereich gelöscht. 
+  Zuerst gibt man einen Namen für die neu zu berechnende Schaltung an.
+  Darunter sind in Form einer Liste die Bauteile der Schaltung und ihre Position in der Schaltung
+  in Form von nummerierten Knoten einzugeben (Klick auf die Schaltflächen
+  <i>Neu</i> oder <i>Bearbeiten</i> auf der rechten Seite).<br>
+  Weitere Einzelheiten zu <a href="#schaltung">Schaltungseingabe</a> und
+  zur <a href="#bereiche">Bereichseinstellung</a> findet man weiter unten.  
+</p>
+
+<a name="load">
+<img src="images/open.png" width="34" height="34" border="0" alt="Neu">
+<h3>Schaltung laden</h3></a>
+<p>Eine bereits gespeicherte Schaltung (<i>NWD</i>-Datei) wird geladen, das Diagramm
+  berechnet und angezeigt. Zur Veränderung von <a href="#schaltung">Bauteileigenschaften</a> 
+  wählt man zunächst das gewünschte Bauteil aus und klickt dann auf <i>Bearbeiten</i>-Schaltfläche.
+  Im Bereich ganz unten rechts kann die <a href="#bereiche">Skalierung</a> für das Bode-Diagramm und 
+  die Ortskurve, sowie die <a href="#linien">Linieneigenschaften</a> (Farbe, Stil, etc.)
+  eingestellt werden.</p>
+  
+<a name="save">
+<img src="images/save.png" width="34" height="34" border="0" alt="Neu">
+<h3>Schaltung speichern</h3></a>
+<p>Die Schaltungsdaten und die Skalierungen werden in einer Datei gespeichert und
+  können so jederzeit wieder geladen und angezeigt werden.
+  </p> 
+
+<a name="saveas">
+<h3>Schaltung unter neuem Namen speichern</h3></a>
+<p> Hiermit wird eine bereits vorhandene und evtl. geänderte Schaltung unter einem 
+  anderen Namen in einer Datei gespeichert.</p>
+ 
+<a name="list">
+<h3>Liste der zuletzt geöffneten Schaltungen</h3></a>
+<p>Im Schaltungsmenü wird immer eine Liste der zuletzt geladenen Schaltungen mitgeführt. 
+  Durch Klick auf den Dateinamen wird die entsprechende Schaltung geladen und angezeigt. 
+</p>
+
+<a name="ende">
+<img src="images/exit.png" width="34" height="34" border="0">
+<h3>Programm beenden</h3></a> 
+<p>Das Programm wird beendet. Falls zuvor Änderungen an der Schaltung vorgenommen
+  wurden, wird gefragt, ob diese gespeichert werden sollen.</p>
+
+<a name="show">
+<img src="images/show.png" width="34" height="34" border="0">
+<h3>Anzeige aktualisieren</h3></a>
+<p>Die Schaltung wird neu berechnet und das Ergebnis angezeigt.</p>
+
+<a name="copyclip">
+<img src="images/copy.png" width="34" height="34" border="0">
+<h3>Diagramm in die Zwischenablage kopieren</h3></a>
+<p>Das aktuelle Diagramm (Bode-Diagramm oder Ortskurve) wird in die 
+  Zwischenablage kopiert und kann als Abbildung in anderen Anwendungen
+  eingefügt werden.</p>
+
+<a name="savemeta">
+<img src="images/export.png" width="34" height="34" border="0">
+<h3>Diagramm als Windows-Meta-Datei speichern</h3></a>
+<p>Das Diagramm wird als Meta-Datei gespeichert (<i>EMF</i>. Dieses Format kann von vielen
+  Programmen gelesen werden, um die Abbildung dort einzufügen.</p>
+
+<a name="print">
+<img src="images/print.png" width="34" height="34" border="0">
+<h3>Diagramm drucken</h3></a>
+<p>Das angezeigte Diagranmm (Bode-Diagramm oder Ortskurve) wird auf dem
+  <a href="#printSel">ausgewählten Drucker</a> ausgegeben.</p>
+
+<a name="datapath">
+<h3>Verzeichnis der Schaltungsdaten</h3></a>
+<p>Hier wird das Verzeichnis ausgewählt, in dem die Schaltungen abgespeichert
+  werden sollen.</p>
+
+<a name="printsel">
+<h3>Drucker auswählen</h3></a>
+<p>Hier wird ausgewählt, auf welchem Drucker, die Diagramme ausgegeben werden sollen.</p>
+
+<hr>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="schaltung">
+<h2>Schaltungsbeschreibung eingeben</h2></a>
+<p>Vor der Eingabe einer Schaltung sollte man sich diese zunächst einmal auf Papier
+  aufzeichnen und die Bauteile und Knoten nummerieren (siehe dazu auch die 
+  <a href="#beispiele">Beispiele unten</a>). Es sind bis zu 50 Bauteile und 25 Knoten möglich.
+  Der Bezugspunkt (Masse) erhält immer die Knotennummer <b>0</b>, der Eingang 
+  vorzugsweise die Knotennummer <b>1</b>. Alle anderen Knoten können beliebig 
+  bezeichnet werden.</p>
+<h4>Bauteile:</h4>  
+<img src="images/bauteil-1.png" width="378" height="243" align="right" border="0" hspace="5">
+<p>Dann gibt man über die Schaltfläche <i>neu</i> nacheinander die Eigenschaften der Bauteile
+  ein. Bei Widerständen, Kondensatoren und Spulen sind als notwendige Angaben
+  zu machen:</p>
+<ul>
+  <li>Nummer des Bauteils (z.B. R1, C2 oder L3)</li>
+  <li>Wert des Bauteils (z.B. 10k)</li>
+  <li>Anschlüsse (Nummern der beiden Anschlussknoten)</li>
+</ul>
+<p>Unter <i>Hinweis</i> kann eine zusätzliche Bauteilbeschreibung eingegeben
+  werden. Bei der Eingabe der Werte sind die Einheiten durch den Typ des Bauteils 
+  vorbestimmt (<i>Ohm</i> beim Widerstand, <i>Farad</i> beim Kondensator und 
+  <i>Henry</i> bei der Spule). Bei den Zahlenwerten können die üblichen Präfixe 
+  (µ, m, k, M usw.) verwendet werden. Durch <a href="#standard">Klick auf die Schaltfläche</a> ganz rechts
+  kann ein Wert aus einer Standardreihe (z.B. E12 oder E24) ausgewählte werden.</p>
+<p>Außerdem kann für ein beliebig ausgewähltes passives Bauteil zusätzliche Werte (z.B.
+  verschiedene Widerstände) eingegeben werden (<a href="#varval">Schaltfläche <i>variabel</i></a>). </p>
+
+<img src="images/bauteil-2.png" width="378" height="243" align="right" border="0" hspace="5">
+<p>Bei Operationsverstärkern sind etwas andere Angaben erforderlich:</p>
+<ul>
+  <li>Nummer des Bauteils (z.B. OP1)</li>
+  <li>Verstärkung des OP (Standard = 10<sup>6</sup>)</li>
+  <li>Grenzfrequenz des OP (Standard = 20&nbsp;Hz)</li>
+  <li>Anschlüsse (Nummern der beiden Eingänge +/- und des Ausgangs)</li>
+</ul>
+
+<h4>Schaltung:</h4>
+<p>Anschließend wählt man den Eingangsknoten (üblicherweise Nr. 1) und einen oder 
+  mehrere Ausgangsknoten (max. 4), für die die Frequenzgänge berechnet werden, aus.
+  Als letztes klickt man auf die Schaltfläche <i>Anzeigen</i>. Die Frequenzgänge von Amplitude und
+  Phase werden für den voreingestellten Frequenzbereich 10&nbsp;Hz .. 100&nbsp;kHz
+  berechnet. Die Skalierung für Amplitude und Phase erfolgt automatisch. Frequenz
+  und Amplitude werden im logarithmischen Maßstab dargestellt.</p>
+<p>Die automatische Skalierung kann für jede Kurve abgeschaltet werden, um
+  <a href="#bereiche">individuelle Einstellungen</a> vorzunehmen. Auch die 
+  <a href="#linien">Farbe und der Stil</a> der
+  angezeigten Kurven können angepasst werden. Zu jedem Ausgangsknoten gibt es eine
+  Kurve (durchgezogene Linie) für den Hauptwert und, falls ausgewählt, weitere
+  gestrichelte Kurven für die variablen Werte.</p>
+<br clear="all">
+<hr>
+
+<a name="standard"><img src="images/series.png" width="353" height="283" align="right" border="0" hspace="5">
+<h4>Auswahl von Standardwerten</h4></a>
+<p>Handelsüblicher Bauelemente werden in Werten angeboten, die den international
+  genormten Werten der <a href="https://de.wikipedia.org/wiki/E-Reihe" target="_blank">E-Reihen</a> 
+  entsprechen. Zur erleichterten Eingabe eines solchen Wertes kann im Programm
+  der rechts dargestellte Dialog aufgerufen werden. Es werden die Reihen E6, E12, E24 und
+  E24 mit den Werten aus E48 unterstützt.</p>
+<p>Der gewünschte Wert wird einfach durch Klick auf die selbsterklärenden Auswahloptionen
+  zusammengestellt.</p>  
+<br clear="all">
+<hr>
+
+<a name="varval"><img src="images/varval.png" width="328" height="218" align="right" border="0" hspace="5">
+<h4>Variable Werte für ein ausgewähltes Bauteil</h4></a>
+<p>Für ein beliebig ausgewähltes passives Bauteil können zusätzliche Werte (z.B.
+  verschiedene Widerstände) eingegeben werden. So kann 
+  überprüft werden, welchen Einfluss Änderungen dieses Bauteils auf den Frequenzgang
+  haben. Die Kurven der zusätzlichen Werte werden im Diagramm gestrichelt angezeigt.</p>
+<p>Über die Schaltflächen können individuelle Werte oder Werte aus einer Standardreihe 
+  hinzugefügt oder ausgewählte Werte verändert werden. Eine Sortierung nach der Größe der Werte erfolgt automatisch
+  beim Schließen des Dialogs.</p>  
+<br clear="all">
+<hr>
+
+<a name="beispiele">
+<h4>Beispiel 1: passiver Tiefpass 2. Ordnung</h4></a>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/p-tp2.gif" width="209" height="118" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/pastp2-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/pastp2-2.png" width="328" height="218" align="top" border="0">
+    </td>
+  </tr>
+</table>
+<hr>
+
+<h4>Beispiel 2: aktiver Tiefpass 2. Ordnung</h4>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/a-tp2.gif" width="320" height="189" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/akttp2-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/akttp2-2.png" width="328" height="218" align="top" border="0">
+  </tr>
+</table>
+<hr>
+
+<h4>Beispiel 3: Parallelschwingkreis</h4>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/psk-1.gif" width="249" height="196" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/psk-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/psk-2.png" width="328" height="218" align="top" border="0">
+  </tr>
+</table>
+<hr>
+
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" align="right" border="0"></a>
+<br clear="all">
+<a name="bereiche">
+<h3 style="margin-top:-10px;">Bereiche und Skalierung einstellen</h3></a>
+<img src="images/s-ok.png" width="256" height="326" align="right" border="0" hspace="5">
+<img src="images/s-fq.png" width="256" height="326" align="right" border="0" hspace="5">
+<p>Als erstes wird der gewünschte Frequenzbereich für das Bode-Diagramm
+  und die Skalierung der Frequenzachse eingestellt. Diese Einstellung gilt auch für die 
+  Darstellung der Ortskurve</p>
+  <p>Die Bereiche für Amplitude und Phase werden normalerweise vom Programm so angepasst,
+  dass eine optimal Darstellung erzielt wird. Diese Automatik kann abgeschaltet werden,
+  wenn andere Einstellungen gewünscht sind. 
+  Bei der Amplitude kann die Skalierung linear, logarithmisch oder in dB 
+  erfolgen. Die Bereichseinstellungen sind entsprechend anzupassen.
+  Die Phase wird immer im linearen Maßstab dargestellt.</p>
+  <p>Auch bei der Ortskurve kann die automatische Skalierung abgeschaltet werden.
+  Wenn die Darstellung Ecken aufweist, liegt das daran, dass die Frequenzintervalle
+  bei der Berechnung zu groß waren. Dies kann leider mit der vorliegenden Version noch
+  nicht angepasst werden.
+  </p>
+<br clear="all">
+<a name="Linien"><img src="images/linien.png" width="256" height="326" align="right" border="0" hspace="5" vspace="5">
+<h3>Einstellungen für die Linien</h3></a>
+<p>Farbe, Breite und Stil der Linien können individuell angepasst werden.
+Die Einstellungen für die variablen Werte beziehen sich auf die oben beschriebene
+Möglichkeit für ein Bauteil mehrere zusätzliche Werte anzugeben.
+</p>
+
+<br clear="all">
+<hr>
+<dl>
+	<dt><b>Autor:</b></dt>
+  <dd>Dr. Jürgen Rathlev</dd>
+  <dd>D-24222 Schwentinental</dd>
+  <dd>E-Mail: <a href="mailto:kontakt@rathlev-home.de">kontakt(a)rathlev-home.de</a></dd>
+  <dd><a href="http://www.rathlev-home.de/index.html" title="Web-Seite">
+    <img src="images/home.gif" width="15" height="15" border="0">Web-Seite</a></dd>
+</dl>
+<dl>
+  <dt><b>Hinweise:</b></dt>
+  <dd>Das Programm wurde mit Embarcadero Delphi 10 erstellt.</dd>
+  <dd><br>
+  </dd>
+</dl>
+<hr>
+<i>Stand: September 2025</i>
+
+</body>
+</html>

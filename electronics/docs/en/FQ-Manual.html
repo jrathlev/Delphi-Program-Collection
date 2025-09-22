@@ -1,0 +1,327 @@
+<html>
+<head>
+<title>Frequency response - Description (c) 2008 - 2025, Dr. J. Rathlev, D-24222 Schwentinental</title>
+<meta name="description" content="">
+<meta name="author" content="J. Rathlev">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<meta http-equiv="content-language" content="en-US">
+<link rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body>
+<a href="FQ-Intro.html">
+    <img src="images/arrow-up.png" alt="Anfang" width="22" height="22" align="right" border="0">
+  </a>
+<table>
+<tr>
+  <td valign=top rowspan=2>
+    <img src="images/fq-icon.gif" width="36" height="36" border="0" align="left"></td>
+  <td><h2>Frequency response version 4.1</h2></td>
+</tr>
+<tr>
+    <td><b>&copy; 2008 - 2025, Dr. J. Rathlev, D-24222 Schwentinental</b> 
+    <p></td>
+</tr>
+</table>
+<hr>
+<a name="anfang">
+<h2>Overview</h2>
+</a>
+<a href="#bild">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Desktop</a>
+<a href="#menu">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Menu</a>
+<a href="#schaltung">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Enter circuit description</a>
+<a href="#bereiche">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Set ranges and scaling</a>
+<a href="fq-sample.html">
+  <img src="images/ballblue.gif" width="14" height="14" alt="ballblue.gif" border="0">Examples</a>
+</dl>
+<hr>
+<map name="bild1">
+  <area shape="rect" coords="6,170,36,195" href="#copyclip" alt="Copy" title="Copy">
+  <area shape="rect" coords="6,242,36,265" href="#savemeta" alt="Export as EMF" title="Export as EMF">
+  <area shape="rect" coords="6,279,36,304" href="#show" alt="Update view" title="Update view">
+  <area shape="rect" coords="6,128,36,153" href="#save" alt="Save" title="Save">
+  <area shape="rect" coords="6,94,36,119" href="#load" alt="Load" title="Load">
+  <area shape="rect" coords="6,60,36,85" href="#new" alt="New" title="New">
+  <area shape="rect" coords="6,33,259,51" href="#menu" alt="menu" title="Menu">
+  <area shape="rect" coords="41,51,538,681" href="fq-sample.html" alt="Diagram" title="Diagram">
+  <area shape="rect" coords="6,647,36,677" href="#quit" alt="Quit" title="Quit">
+  <area shape="rect" coords="6,682,841,704" href="#status" alt="Statusanzeige">
+  <area shape="rect" coords="542,46,790,354" href="#schaltung" alt="Circuit description" title="Circuit description">
+  <area shape="rect" coords="541,356,791,677" href="#bereiche" alt="Scaling" title="Scaling">
+  <area shape="rect" coords="6,202,37,232" href="#print" alt="Print" title="Print">
+</map>
+
+<a name="bild">
+<h2>Desktop</h2></a>
+<p>Clicking on a desktop area will bring up help.</p><br>
+ 
+<img src="images/fq.png" width="793" height="709" border="0" usemap="#bild1"> 
+ <br clear="all">
+<br>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="menu">
+<h2>Menu structure</h2></a>
+<dl>
+  <dt><b>Circuit</b></dt>
+  <dd><a href="#new"><i>New</i></a> - Create a new circuit</dd>
+  <dd><a href="#load"><i>Load ...</i></a> - Load a saved circuit description</dd>
+  <dd><a href="#save"><i>Save</i></a> - Save the changed circuit</dd>
+  <dd><a href="#saveas"><i>Save as ...</i></a> - Save the circuit as new file</dd>
+  <dd><a href="#list"><i>File list</i></a> - List of recently loaded circuits</dd>
+  <dd><a href="#ende"><i>Quit</i></a> - Quit the program</dd>
+  <dt><b>Diagram</b></dt>
+  <dd><a href="#show"><i>Show</i></a> - Recalculate diagram</dd>
+  <dd><a href="#copyclip"><i>Copy</i></a> - Copy diagram to clipboard</dd>
+  <dd><a href="#savemeta"><i>Export</i></a> - Export diagram to a Windows meta file</dd>
+  <dd><a href="#print"><i>Print</i></a> - Print diagram</dd>
+
+	<dt><b>Settings</b></dt>
+	<dd><a href="#datapath"><i>Directory</i></a> - Directory with circuit files</dd>
+	<dd><a href="#printsel"><i>Printer</i></a> - Select printer</dd>
+
+	<dt><b>Help</b></dt>
+	<dd><em>Show</em> - show this help</dd>
+	<dd><em>Information</em> - Information about the program</dd>
+</dl>
+<hr>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="new">
+<img src="images/new.png" alt="Neu" width="34" height="34" border="0"> 
+<h3>Creating a new circuit</h3></a> 
+<p>After clicking on the button or menu item, the diagram and the associated data 
+  in the right-hand window area are cleared. First, enter a name for the new circuit 
+  to be calculated. Below this, enter the list of components and their position 
+  in the form of numbered nodes (click on the <i>New</i> or <i>Edit</i> buttons 
+  on the right-hand side).<br>
+  Further details on <a href="#schaltung">circuit input</a> and 
+  <a href="#bereiche">range settings</a> can be found below.
+  </p>
+
+<a name="load">
+<img src="images/open.png" width="34" height="34" border="0" alt="Neu">
+<h3>Load a saved circuit description</h3></a>
+<p>A previously saved circuit (<i>NWD</i> file) is loaded, the diagram is calculated 
+  and displayed. To change <a href="#schaltung">component properties</a>, first select 
+  the desired component and then click on the <i>Edit</i> button. In the area at 
+  the bottom right, you can set the <a href="#bereiche">scaling</a> for the <i>Bode plot</i> 
+  and the <i>Nyquist plot</i>, as well as the <a href="#linien">line properties</a> (color, style, etc.).
+  </p>
+  
+<a name="save">
+<img src="images/save.png" width="34" height="34" border="0" alt="Neu">
+<h3>Save circuit</h3></a>
+<p>The circuit data and scaling are stored in a file and can be reloaded and 
+  displayed at any time again.</p> 
+
+<a name="saveas">
+<h3>Save the circuit as new file</h3></a>
+<p>This saves an existing and possibly modified circuit under a 
+  different name in a file.</p>
+ 
+<a name="list">
+<h3>List of recently loaded circuits</h3></a>
+<p>The circuit menu always contains a list of the most recently loaded circuits. 
+  Clicking on a file name loads and displays the corresponding circuit. 
+</p>
+
+<a name="ende">
+<img src="images/exit.png" width="34" height="34" border="0">
+<h3>Quit program</h3></a> 
+<p>The program is terminated. If changes have been made to the circuit beforehand,
+ you will be asked if you want to save them.</p>
+
+<a name="show">
+<img src="images/show.png" width="34" height="34" border="0">
+<h3>Recalculate diagram</h3></a>
+<p>The circuit is recalculated and the result is displayed.</p>
+
+<a name="copyclip">
+<img src="images/copy.png" width="34" height="34" border="0">
+<h3>Copy diagram to clipboard</h3></a>
+<p>The current diagram (Bode or Nyquist plot) is copied to the 
+  clipboard and can be pasted as an image in other applications.</p>
+
+<a name="savemeta">
+<img src="images/export.png" width="34" height="34" border="0">
+<h3>Export diagram to a Windows meta file</h3></a>
+<p>The diagram is saved as a meta file. This format can be read by many
+  programs in order to insert the image there.</p>
+
+<a name="print">
+<img src="images/print.png" width="34" height="34" border="0">
+<h3>Print diagram</h3></a>
+<p>The current diagram (Bode or Nyquist plot) is printed on the 
+  <a href="#printsel">selected printer</a>.</p>
+
+<a name="datapath">
+<h3>Directory with circuit files</h3></a>
+<p>Here you can select the directory in which the circuits are to be saved.</p>
+
+<a name="printsel">
+<h3>Select printer</h3></a>
+<p>Here you can select the printer on which the diagrams are to be printed.</p>
+
+<hr>
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" border="0" align="right"></a>
+<a name="schaltung">
+<h2>Enter circuit description</h2></a>
+<p>Before entering a circuit, you should first draw it on paper and number the components 
+  and nodes (see also the <a href="#beispiele">examples below</a>). Up to 50 components 
+  and 25 nodes are possible. The reference point (ground) always receives node number <b>0</b>, 
+  and the input preferably receives node number <b>1</b>. All other nodes can be labeled as desired.</p>
+<h4>Components:</h4>  
+<img src="images/bauteil-1.png" width="378" height="243" align="right" border="0" hspace="5">
+<p>Then use the <i>New</i> button to enter the properties of the components one after 
+  the other. For resistors, capacitors, and inductors, the following information 
+  must be provided:</p>
+<ul>
+  <li>Number of component (e.g. R1, C2 oder L3)</li>
+  <li>Value of component (e.g. 10k)</li>
+  <li>Connections (Numbers of the two connection nodes)</li>
+</ul>
+<p>An additional component description can be entered in the <i>Note</i> field. 
+  When entering values, the units are predetermined by the type of component 
+  (<i>Ohm</i> for resistors, <i>Farad</i> for capacitors, and <i>Henry</i> for inductor). 
+  The usual prefixes (µ, m, k, M, etc.) can be used for the numerical values. 
+  By clicking on the button on the far right, a value can be selected from a 
+  <a href="#standard">standard series</a> (e.g. E12 or E24).</p>
+<p>In addition, additional values (e.g., different resistances) can be entered for 
+ any selected passive component (<a href="#varval"><i>Variable</i> button</a>). This allows you to check 
+ the effect of changes to this component on the frequency response. The curves of 
+ the additional values are shown as dashed lines in the diagram..</p>
+
+<img src="images/bauteil-2.png" width="378" height="243" align="right" border="0" hspace="5">
+<p>Slightly different specifications are required for operational amplifiers:</p>
+<ul>
+  <li>Number of component (e.g.. OP1)</li>
+  <li>Gain of the OP (default = 10<sup>6</sup>)</li>
+  <li>Cutoff frequency of the OP (default = 20&nbsp;Hz)</li>
+  <li>Connections (Numbers of the two inputs +/- and the output)</li>
+</ul>
+                                                   
+<h4>Circuit:</h4>
+<p>Next, select the input node (usually No. 1) and one or more output nodes (max. 4) 
+  for which the frequency responses are to be calculated. Finally, click on the 
+  <i>Show</i> button. The frequency responses of amplitude and phase are calculated 
+  for the preset frequency range of 10&nbsp;Hz to 100&nbsp;kHz. The scaling for 
+  amplitude and phase is done automatically. Frequency and amplitude are displayed 
+  on a logarithmic scale.</p>
+<p>Automatic scaling can be disabled for each curve to allow for <a href="#bereiche">individual settings</a>. 
+  The <a href="#linien">color and style</a> of the displayed curves can also be customized. 
+  For each output node, there is a curve (solid line) for the main value and, 
+  if selected, additional dashed curves for the variable values.</p>
+<br clear="all">
+<hr>
+
+<a name="standard"><img src="images/series.png" width="353" height="283" align="right" border="0" hspace="5">
+<h4>Selection of standard values</h4></a>
+<p>Commercially available components are offered in values that correspond to the 
+  internationally standardized values of the 
+  <a href="https://en.wikipedia.org/wiki/E_series_of_preferred_numbers" target="_blank">E series</a>. 
+  To facilitate the entry of such a value, the dialog box shown on the right can be 
+  called up in the program. The E6, E12, E24, and E24 series with values from E48 are supported.</p>
+<p>The desired value is easily compiled by clicking on the self-explanatory selection options.</p>  
+<br clear="all">
+<hr>
+
+<a name="varval"><img src="images/varval.png" width="328" height="218" align="right" border="0" hspace="5">
+<h4>Variable values for a selected component</h4></a>
+<p>Additional values (e.g. different resistances) can be entered for any selected passive 
+  component. This allows you to check the effect of changes to this component on the frequency response.
+  The curves for the additional values are shown as dashed lines in the diagram.</p>
+<p>The buttons can be used to add individual values or values from a standard series 
+  or to change selected values. Values are automatically sorted by size
+  when the dialog box is closed.</p>  
+<br clear="all">
+<hr>
+
+<a name="beispiele">
+<h4>Example 1: Passive low pass filter of second order</h4></a>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/p-tp2.gif" width="209" height="118" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/pastp2-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/pastp2-2.png" width="328" height="218" align="top" border="0">
+    </td>
+  </tr>
+</table>
+<hr>
+
+<h4>Example 2: Active low pass filter of second order</h4>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/a-tp2.gif" width="320" height="189" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/akttp2-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/akttp2-2.png" width="328" height="218" align="top" border="0">
+  </tr>
+</table>
+<hr>
+
+<h4>Example 3: Parallel resonant circuit</h4>
+<table>
+  <tr valign="top">
+    <td width="350">
+    <img src="images/psk-1.gif" width="249" height="196" align="top" border="0">
+    </td>
+    <td>
+    <img src="images/psk-1.png" width="246" height="305" align="top" border="0">
+    <img src="images/psk-2.png" width="328" height="218" align="top" border="0">
+  </tr>
+</table>
+<hr>
+
+<a href="#anfang"><img src="images/arrow-up.png" alt="Anfang" width="22" height="22" align="right" border="0"></a>
+<br clear="all">
+<a name="bereiche">
+<h3 style="margin-top:-10px;">Set ranges and scaling</h3></a>
+<img src="images/s-ok.png" width="256" height="326" align="right" border="0" hspace="5">
+<img src="images/s-fq.png" width="256" height="326" align="right" border="0" hspace="5">
+<p>First, set the desired frequency range for the Bode plot and the scaling of the 
+  frequency axis. This setting also applies to the display of the Nyquist plot.</p>
+<p>The ranges for amplitude and phase are normally adjusted by the program to achieve 
+  optimal display. This automatic function can be switched off if other settings are 
+  desired. For amplitude, the scaling can be linear, logarithmic, or in dB. The range 
+  settings must be adjusted accordingly. The phase is always displayed on a linear scale.</p>
+<p>Automatic scaling can also be disabled for the Nyquist plot. If the curve is displayed as angular,  
+  this is because the frequency intervals were too large during the calculation. 
+  Unfortunately, this cannot yet be adjusted in the current version.</p>
+  </p>
+<br clear="all">
+
+<a name="Linien"><img src="images/linien.png" width="256" height="326" align="right" border="0" hspace="5" vspace="5">
+<h3>Settings for the lines</h3></a>
+<p>The color, width, and style of the lines can be customized. The settings for the 
+  variable values refer to the option described above for specifying several additional 
+  values for a component.</p>
+
+<br clear="all">
+<hr>
+<dl>
+	<dt><b>Author:</b></dt>
+  <dd>Dr. Jürgen Rathlev</dd>
+  <dd>24222 Schwentinental, Germany</dd>
+  <dd>E-Mail: <a href="mailto:kontakt@rathlev-home.de">kontakt(a)rathlev-home.de</a></dd>
+  <dd><a href="http://www.rathlev-home.de/index.html" title="Web-Seite">
+    <img src="images/home.gif" width="15" height="15" border="0">Web-Seite</a></dd>
+</dl>
+<dl>
+  <dt><b>Notes:</b></dt>
+  <dd>This program was created with Embarcadero Delphi 10 Seattle.</dd>
+  <dd><br>
+  </dd>
+</dl>
+<hr>
+<i>Released: September 2025</i>
+
+</body>
+</html>

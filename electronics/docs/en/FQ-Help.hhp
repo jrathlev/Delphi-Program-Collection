@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=FQ-Help-e.chm
+Contents file=FQ-Help.hhc
+Default Window=Main
+Default topic=FQ-Intro.html
+Display compile progress=Yes
+Language=0x409 Englisch (Vereinigte Staaten)
+Title=Frequency responses
+
+
+[FILES]
+FQ-Intro.html
+FQ-Manual.html
+FQ-Sample.html
+
+[INFOTYPES]
+

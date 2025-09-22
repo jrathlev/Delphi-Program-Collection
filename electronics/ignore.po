@@ -1,0 +1,64 @@
+#  Seems like a Font.Name extract
+#. MainForm.Font.Name
+#: FqMain.dfm:11
+#. PartDialog.gbValues.edValue.Font.Name
+#: PartDlg.dfm:82
+#. PartDialog.gbValues.edFreq.Font.Name
+#: PartDlg.dfm:95
+#. PartDialog.gbName.edTyp.Font.Name
+#: PartDlg.dfm:299
+#. PartDialog.gbName.edNumber.Font.Name
+#: PartDlg.dfm:314
+#. ValueDialog.Font.Name
+#: ValueDlg.dfm:12
+#. ValueDialog.lbSeries.Font.Name
+#: ValueDlg.dfm:195
+#. ValueDialog.edValue.Font.Name
+#: ValueDlg.dfm:240
+msgid "Tahoma"
+msgstr ""
+
+#  Doesn't have any letters
+#. MainForm.MainMenu.Schaltung1.N2.Caption
+#: FqMain.dfm:1876
+#. MainForm.MainMenu.Schaltung1.N1.Caption
+#: FqMain.dfm:1882
+#. MainForm.MainMenu.Diagramm1.N4.Caption
+#: FqMain.dfm:1897
+#. MainForm.MainMenu.ItemHelp.N3.Caption
+#: FqMain.dfm:1934
+msgid "-"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. PartDialog.gbName.edTyp.Font.Name
+#: PartDlg.dfm:272
+#. PartDialog.gbName.edNumber.Font.Name
+#: PartDlg.dfm:287
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Doesn't look like text
+#. ValueDialog.rgSeries.Items.Strings
+#: ValueDlg.dfm:179
+msgid "E6"
+msgstr ""
+
+#  Doesn't look like text
+#. ValueDialog.rgSeries.Items.Strings
+#: ValueDlg.dfm:180
+msgid "E12"
+msgstr ""
+
+#  Doesn't look like text
+#. ValueDialog.rgSeries.Items.Strings
+#: ValueDlg.dfm:181
+msgid "E24"
+msgstr ""
+
+#  Doesn't look like text
+#. ValueDialog.rgSeries.Items.Strings
+#: ValueDlg.dfm:182
+msgid "E24/48"
+msgstr ""
+
