@@ -27,7 +27,7 @@ uses
   Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, SVGInterfaces;
 
 const
-  Vers = '2.1.0';
+  Vers = '2.1.2';
   CopRgt = '© 2024-2025 Dr. J. Rathlev, D-24222 Schwentinental';
   EmailAdr = 'kontakt(a)rathlev-home.de';
 
@@ -54,6 +54,7 @@ type
     lvFiles: TListView;
     pbxSvg: TPaintBox;
     rgFormat: TRadioGroup;
+    cbSuffix: TCheckBox;
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure bbInfoClick(Sender: TObject);
@@ -122,6 +123,7 @@ const
   iniDest     = 'LastDest';
   iniSize     = 'PngSize';
   iniFormat   = 'PngFormat';
+  iniSuffix   = 'Suffix';
 
   ImgSizes : array[0..8] of integer = (16,24,32,48,64,128,256,512,1024);
 
@@ -145,6 +147,7 @@ begin
     LastDest:=ReadString(CfgSekt,IniDest,'png');
     ImgSize:=ReadInteger(CfgSekt,iniSize,256);
     rgFormat.ItemIndex:=ReadInteger(CfgSekt,iniFormat,0);
+    cbSuffix.Checked:=ReadBool(CfgSekt,iniSuffix,true);
     end;
   LoadHistory(IniFile,ImgDirSekt,edtImgDir);
   LoadHistory(IniFile,DestSekt,edtPngDir);
@@ -174,6 +177,7 @@ begin
     WriteString(CfgSekt,IniDest,edtPngDir.Text);
     WriteInteger(CfgSekt,iniSize,ImgSize);
     WriteInteger(CfgSekt,iniFormat,rgFormat.ItemIndex);
+    WriteBool(CfgSekt,iniSuffix,cbSuffix.Checked);
     end;
   SaveHistory(IniFile,ImgDirSekt,true,edtImgDir);
   SaveHistory(IniFile,DestSekt,true,edtPngDir);
@@ -482,6 +486,7 @@ begin
   with lvFiles do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
     sn:=Items[i].Caption;
     s:=NewExt(sn,PngExt);
+    if cbSuffix.Checked then s:=InsertNameSuffix(sn,'-'+ZStrInt(ImgSize,4));
     k:=meStatus.Lines.Add(_('Converting')+ColSpace+sn+' -> '+AddPath(edtPngDir.Text,s));
     s:=AddPath(sp,s); se:='';
     if ConvertToPng(ImgSize,AddPath(sd,sn),s) then begin

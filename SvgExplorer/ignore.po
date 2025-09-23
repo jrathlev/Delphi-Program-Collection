@@ -1,16 +1,16 @@
 #. fmExplorerSVG.Font.Name
 #: FExplorerSVG.dfm:11
 #. fmExplorerSVG.paList.paImageList.Font.Name
-#: FExplorerSVG.dfm:203
+#: FExplorerSVG.dfm:225
 #. fmExplorerSVG.paList.paImageList.laFoldername.Font.Name
-#: FExplorerSVG.dfm:230
+#: FExplorerSVG.dfm:252
 #. fmExplorerSVG.paPreview.gbProperties.laImgName.Font.Name
-#: FExplorerSVG.dfm:511
+#: FExplorerSVG.dfm:519
 msgid "Tahoma"
 msgstr ""
 
 #. fmExplorerSVG.paList.paSVGText.SVGMemo.Font.Name
-#: FExplorerSVG.dfm:186
+#: FExplorerSVG.dfm:208
 msgid "Courier New"
 msgstr ""
 
@@ -51,15 +51,51 @@ msgstr ""
 
 #  Doesn't have any letters
 #. fmExplorerSVG.pmImages.N2.Caption
-#: FExplorerSVG.dfm:882
+#: FExplorerSVG.dfm:1072
 #. fmExplorerSVG.pmDirs.N1.Caption
-#: FExplorerSVG.dfm:951
+#: FExplorerSVG.dfm:1145
 msgid "-"
 msgstr ""
 
 #  Looks like a file extension or file mask
 #. fmExplorerSVG.FileOpenDialog.FileMask
-#: FExplorerSVG.dfm:967
+#: FExplorerSVG.dfm:1161
 msgid "*.exe"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb016.Caption
+#: FExplorerSVG.dfm:835
+msgid "16x16"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb032.Caption
+#: FExplorerSVG.dfm:844
+msgid "32x32"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb048.Caption
+#: FExplorerSVG.dfm:853
+msgid "48x48"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb064.Caption
+#: FExplorerSVG.dfm:862
+msgid "64x64"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb128.Caption
+#: FExplorerSVG.dfm:871
+msgid "128x128"
+msgstr ""
+
+#  Doesn't look like text
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb256.Caption
+#: FExplorerSVG.dfm:880
+msgid "256x256"
 msgstr ""
 

@@ -126,9 +126,9 @@ object MainForm: TMainForm
     OnCloseUp = cbImgDirCloseUp
   end
   object bbConvert: TBitBtn
-    Left = 430
-    Top = 304
-    Width = 91
+    Left = 435
+    Top = 305
+    Width = 86
     Height = 126
     Anchors = [akRight, akBottom]
     Caption = 'Create icon'
@@ -329,7 +329,7 @@ object MainForm: TMainForm
       DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
     Layout = blGlyphTop
     NumGlyphs = 2
-    TabOrder = 1
+    TabOrder = 3
     WordWrap = True
     OnClick = bbConvertClick
   end
@@ -341,6 +341,7 @@ object MainForm: TMainForm
     AutoRefresh = True
     ObjectTypes = [otNonFolders]
     Root = 'rfDesktop'
+    ShellComboBox = ShellComboBox
     Sorted = True
     OnAddFolder = ShellListViewAddFolder
     Anchors = [akLeft, akTop, akRight, akBottom]
@@ -359,12 +360,14 @@ object MainForm: TMainForm
     Width = 81
     Height = 22
     Root = 'rfDesktop'
+    ShellListView = ShellListView
     UseShellImages = True
-    TabOrder = 3
+    TabOrder = 6
+    TabStop = False
     Visible = False
   end
   object bbInfo: TBitBtn
-    Left = 429
+    Left = 435
     Top = 434
     Width = 41
     Height = 41
@@ -565,11 +568,11 @@ object MainForm: TMainForm
       C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
       DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
     NumGlyphs = 2
-    TabOrder = 4
+    TabOrder = 5
     OnClick = bbInfoClick
   end
   object bbExit: TBitBtn
-    Left = 479
+    Left = 480
     Top = 434
     Width = 41
     Height = 41
@@ -770,7 +773,7 @@ object MainForm: TMainForm
       C0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0
       DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0C0DCC0}
     NumGlyphs = 2
-    TabOrder = 5
+    TabOrder = 4
     OnClick = bbExitClick
   end
   object StatusBar: TStatusBar
@@ -787,7 +790,7 @@ object MainForm: TMainForm
     Width = 521
     Height = 76
     Caption = 'Destination directory of icon'
-    TabOrder = 7
+    TabOrder = 1
     DesignSize = (
       521
       76)

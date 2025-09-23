@@ -268,7 +268,7 @@ object MainForm: TMainForm
     end
     object bbConvert: TBitBtn
       Left = 385
-      Top = 340
+      Top = 320
       Width = 91
       Height = 86
       Anchors = [akRight, akBottom]
@@ -476,7 +476,7 @@ object MainForm: TMainForm
     end
     object bbExit: TBitBtn
       Left = 480
-      Top = 385
+      Top = 365
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -681,7 +681,7 @@ object MainForm: TMainForm
     end
     object bbInfo: TBitBtn
       Left = 480
-      Top = 340
+      Top = 320
       Width = 41
       Height = 41
       Anchors = [akRight, akBottom]
@@ -886,7 +886,7 @@ object MainForm: TMainForm
     end
     object btSelectAll: TBitBtn
       Left = 10
-      Top = 340
+      Top = 320
       Width = 31
       Height = 31
       Hint = 'Select all'
@@ -977,7 +977,7 @@ object MainForm: TMainForm
     end
     object btSelectNone: TBitBtn
       Left = 10
-      Top = 375
+      Top = 355
       Width = 31
       Height = 31
       Hint = 'Deselect all'
@@ -1088,9 +1088,9 @@ object MainForm: TMainForm
     end
     object rgSize: TRadioGroup
       Left = 170
-      Top = 340
+      Top = 315
       Width = 206
-      Height = 86
+      Height = 91
       Anchors = [akRight, akBottom]
       Caption = 'Length of the selected side'
       Columns = 3
@@ -1112,7 +1112,7 @@ object MainForm: TMainForm
       Left = 10
       Top = 90
       Width = 511
-      Height = 246
+      Height = 221
       Anchors = [akLeft, akTop, akRight, akBottom]
       Columns = <
         item
@@ -1144,9 +1144,9 @@ object MainForm: TMainForm
     end
     object rgFormat: TRadioGroup
       Left = 50
-      Top = 340
+      Top = 315
       Width = 111
-      Height = 81
+      Height = 91
       Anchors = [akRight, akBottom]
       Caption = 'Fixed value for'
       ItemIndex = 0
@@ -1155,6 +1155,15 @@ object MainForm: TMainForm
         'Height'
         'Longest')
       TabOrder = 5
+    end
+    object cbSuffix: TCheckBox
+      Left = 60
+      Top = 410
+      Width = 411
+      Height = 17
+      Anchors = [akLeft, akBottom]
+      Caption = 'Append size suffix to png filenames'
+      TabOrder = 10
     end
   end
   object OpenDialog: TOpenDialog

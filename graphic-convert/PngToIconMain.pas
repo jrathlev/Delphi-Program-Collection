@@ -25,7 +25,7 @@ uses
 
 const
   Vers = '1.0.0';
-  CopRgt = '© 2024 Dr. J. Rathlev, D-24222 Schwentinental';
+  CopRgt = '© 2024-2025 Dr. J. Rathlev, D-24222 Schwentinental';
   EmailAdr = 'kontakt(a)rathlev-home.de';
 
 type
@@ -231,6 +231,8 @@ var
   n : integer;
   s : string;
 begin
+  with cbImgDir do s:=GetExistingParentPath(Items[ItemIndex],DefPath);
+  ShellComboBox.Path:=s;
   s:=GetInfoFromList(cbImgDir);
   if length(s)>0 then with cbDestDir do begin
     n:=Items.IndexOf(s);
@@ -250,7 +252,6 @@ begin
     cbDestDir.Enabled:=false;
     btnDestDir.Enabled:=false;
     end;
-  with cbImgDir do ShellComboBox.Path:=Items[ItemIndex];
   end;
 
 procedure TMainForm.cbImgDirCloseUp(Sender: TObject);

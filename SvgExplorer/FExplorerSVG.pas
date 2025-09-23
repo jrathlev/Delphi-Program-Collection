@@ -62,6 +62,7 @@ resourcestring
   rsDirErr = 'Error creating directory "%s"!';
   rsOptDir = 'Directory for optimized images';
   rsPngDir = 'Directory for PNG images';
+  rsIconDir = 'Directory for icons';
   rsModified = 'Modified: ';
   rsSize = 'Size: ';
   rsLayout = 'Layout: ';
@@ -76,6 +77,8 @@ resourcestring
   rsWidth = 'Width';
   rsHeight = 'Height';
   rsConverted = '%u SVG image(s) converted to PNG';
+  rsIconCreated = '%u icon(s) were created from SVG image(s)';
+  rsIconError = 'Error creating icon from %s';
   rsExecErr = 'Exit code %u reported!';
   rsError = 'Error';
   rsOptimized = '%u SVG images optimized!';
@@ -121,7 +124,6 @@ type
     ShowTextCheckBox: TCheckBox;
     PerformanceStatusBar: TStatusBar;
     TrackBarPanel: TPanel;
-    grpFactory: TRadioGroup;
     btnRefresh: TButton;
     RefreshAction: TAction;
     pmiOpen: TMenuItem;
@@ -140,11 +142,11 @@ type
     paCenter: TPanel;
     btnExport: TButton;
     ExportAction: TAction;
-    cbxSelectedDir: TComboBox;
+    cbSelectedDir: TComboBox;
     ShellTreeView: TShellTreeView;
     DirOpenDialog: TFileOpenDialog;
     Label2: TLabel;
-    cbxExportDir: TComboBox;
+    cbPngDir: TComboBox;
     btnPngDir: TSpeedButton;
     btnExit: TButton;
     ExitAction: TAction;
@@ -163,7 +165,7 @@ type
     tsOptimize: TTabSheet;
     tsExport: TTabSheet;
     Label1: TLabel;
-    cbxOptimizeDir: TComboBox;
+    cbOptimizeDir: TComboBox;
     btnOptimizeDir: TSpeedButton;
     FileOpenDialog: TFileOpenDialog;
     btnOptimize: TButton;
@@ -175,6 +177,21 @@ type
     pmiPasteImages: TMenuItem;
     bbContext: TBitBtn;
     bbInfo: TBitBtn;
+    tsIcon: TTabSheet;
+    gbSizes: TGroupBox;
+    cb032: TCheckBox;
+    cb064: TCheckBox;
+    cb128: TCheckBox;
+    cb256: TCheckBox;
+    cb048: TCheckBox;
+    Label3: TLabel;
+    cbIconDir: TComboBox;
+    btnIconDir: TSpeedButton;
+    cb016: TCheckBox;
+    btnCreateIcon: TButton;
+    grpFactory: TRadioGroup;
+    paFactory: TPanel;
+    IconAction: TAction;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -196,10 +213,10 @@ type
     procedure OpenActionExecute(Sender: TObject);
     procedure rgSizeClick(Sender: TObject);
     procedure ExportActionExecute(Sender: TObject);
-    procedure cbxSelectedDirChange(Sender: TObject);
-    procedure cbxSelectedDirCloseUp(Sender: TObject);
+    procedure cbSelectedDirChange(Sender: TObject);
+    procedure cbSelectedDirCloseUp(Sender: TObject);
     procedure ShellTreeViewClick(Sender: TObject);
-    procedure cbxExportDirCloseUp(Sender: TObject);
+    procedure cbPngDirCloseUp(Sender: TObject);
     procedure btnPngDirClick(Sender: TObject);
     procedure ExitActionExecute(Sender: TObject);
     procedure itmCreateClick(Sender: TObject);
@@ -216,13 +233,18 @@ type
     procedure pmiPasteImagesClick(Sender: TObject);
     procedure bbContextClick(Sender: TObject);
     procedure bbInfoClick(Sender: TObject);
+    procedure btnIconDirClick(Sender: TObject);
+    procedure cbIconDirCloseUp(Sender: TObject);
+    procedure IconActionExecute(Sender: TObject);
+    procedure spRightMoved(Sender: TObject);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
     CmdImg,OptProg : string;
     SelectedIndex,
-    ExpWidth,ExpHeight : integer;
-    OldContext         : boolean;
+    ExpWidth,ExpHeight,
+    ToolHeight     : integer;
+    OldContext     : boolean;
     IconSvg : ISVG;
     procedure SetFactory(AFactory: TSVGFactory);
     procedure LoadFilesDir(const APath: string; const AFilter: string = '');
@@ -253,6 +275,7 @@ uses
   WinApi.KnownFolders,
   WinApi.ShellApi,
   WinApi.ShlObj,
+  Vcl.Imaging.PngImage,
   GnuGetText,
   ListUtils,
   PathUtils,
@@ -265,6 +288,7 @@ uses
   ClipboardUtils,
   FileUtils,
   SelectDlg,
+  GraphUtils,
   Image32SVGFactory,
   D2DSVGFactory,
 //  SkiaSVGFactory,
@@ -279,6 +303,7 @@ const
   ExpSekt = 'Export';
   PngSekt = 'PngDirs';
   OptSekt = 'OptDirs';
+  IconSekt = 'IconDirs';
 
   iniLeft = 'Left';
   iniTop  = 'Top';
@@ -287,27 +312,35 @@ const
   iniSize = 'Size';
   iniDWdt = 'DirWidth';
   iniPrev = 'PreviewWidth';
+  iniSource = 'SourceText';
   iniLast = 'LastDir';
   iniExp  = 'LastExpDir';
   iniOpt  = 'LastOptDir';
+  iniIcon = 'LastIconDir';
   iniOptPrg = 'OptimizeProg';
   iniOptOpt = 'OptimizeOptions';
+  iniSizes  = 'IconSizes';
 
   IniExt = '.ini';
   SvgExt = '.svg';
   PngExt = '.png';
+  IconExt = '.ico';
   SvgClean = 'svgcleaner-cli.exe';
   DirOpt = 'optimized';
 
 
   DirContextKey = 'Software\Classes\Folder\shell\SvgExplorer';
 
+  NumSizes = 6;
+  IconSizes : array [0..NumSizes-1] of integer = (16,32,48,64,128,256);
+  BitMask : array [0..NumSizes-1] of integer = (1,2,4,8,16,32);
+
 procedure TfmExplorerSVG.FormCreate(Sender: TObject);
 var
   LFactory: TSVGFactory;
   IniFile : TMemIniFile;
-  LastDir,LastExp,LastOpt : string;
-  i,w,h : integer;
+  LastDir,LastExp,LastOpt,LastIcon : string;
+  i,w,h,sz : integer;
 
   function CheckGlobalContext : boolean;
   begin
@@ -337,7 +370,7 @@ var
 begin
   TranslateComponent(self);
   Application.Title:=Progname+' ('+Version+')';
-  AppPath:=GetKnownFolder(FOLDERID_RoamingAppData);
+  AppPath:=GetAppDataFolder;
   fpaPreviewSize := paPreview.Width; LastDir:=''; CmdImg:='';
   if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
     if LastDir.IsEmpty then LastDir:=ExpandFileName(ParamStr(i));
@@ -363,11 +396,24 @@ begin
     OptProg:=AddPath(ExtractFilePath(Application.ExeName),SvgClean);
     OptProg:=ReadString(CfgSekt,iniOptPrg,OptProg);
     edOptions.Text:=ReadString(CfgSekt,iniOptOpt,'');
+    LastIcon:=ReadString(CfgSekt,iniIcon,'icons');
+    sz:=ReadInteger(CfgSekt,iniSizes,62);
+    ShowTextCheckBox.Checked:=ReadBool(CfgSekt,iniSource,true);
     end;
-  LoadHistory(IniFile,DirSekt,cbxSelectedDir);
-  LoadHistory(IniFile,PngSekt,cbxExportDir);
-  LoadHistory(IniFile,OptSekt,cbxOptimizeDir);
+  LoadHistory(IniFile,DirSekt,cbSelectedDir);
+  LoadHistory(IniFile,PngSekt,cbPngDir);
+  LoadHistory(IniFile,OptSekt,cbOptimizeDir);
+  LoadHistory(IniFile,IconSekt,cbIconDir);
   IniFile.Free;
+  with gbSizes do for i:=0 to ControlCount-1  do if Controls[i] is TCheckBox then begin
+    with (Controls[i] as TCheckBox) do Checked:=sz and BitMask[Tag] <>0;
+    end;
+  paPreview.Width:=w;
+  with pcTools do begin
+    ToolHeight:=Height;
+    with TabRect(0) do if Top>TabRect(1).Top then h:=Height else h:=0;
+    Height:=Height+h;
+    end;
   h:=ClientHeight-gbProperties.Height-pcTools.Height-grpFactory.Height-paTools.Height-MulDiv(btnOpen.Height,15,10);
   if h>w then paPreview.Width:=w
   else paPreview.Width:=h; //ClientHeight-h;
@@ -375,10 +421,11 @@ begin
     grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
   grpFactory.ItemIndex := integer(Low(TSVGFactory));
   SetFactory(Low(TSVGFactory));
-  LastDir:=GetExistingParentPath(LastDir,GetKnownFolder(FOLDERID_Documents));
-  AddToHistory(cbxSelectedDir,LastDir);
-  AddToHistory(cbxExportDir,LastExp);
-  AddToHistory(cbxOptimizeDir,LastOpt);
+  LastDir:=GetExistingParentPath(LastDir,GetPersonalFolder);
+  AddToHistory(cbSelectedDir,LastDir);
+  AddToHistory(cbPngDir,LastExp);
+  AddToHistory(cbOptimizeDir,LastOpt);
+  AddToHistory(cbIconDir,LastIcon);
   cbAspectRatio.Enabled:=false;
   SelectedIndex:=-1;
   bbContext.Visible:=not CheckGlobalContext;
@@ -389,6 +436,7 @@ begin
 procedure TfmExplorerSVG.FormDestroy(Sender: TObject);
 var
   IniFile : TMemIniFile;
+  i,sz : integer;
 begin
   IniFile:=TMemIniFile.Create(IniName);
   with IniFile do begin
@@ -399,17 +447,25 @@ begin
     WriteInteger(CfgSekt,iniDWdt,paDir.Width);
     WriteInteger(CfgSekt,iniPrev,paPreview.Width);
     WriteInteger(CfgSekt,iniSize,rgSize.ItemIndex);
-    WriteString(CfgSekt,iniLast,cbxSelectedDir.Text);
-    WriteString(CfgSekt,iniExp,cbxExportDir.Text);
+    WriteString(CfgSekt,iniLast,cbSelectedDir.Text);
+    WriteString(CfgSekt,iniExp,cbPngDir.Text);
     WriteInteger(ExpSekt,iniWdt,ExpWidth);
     WriteInteger(ExpSekt,iniHgt,ExpHeight);
-    WriteString(CfgSekt,iniOpt,cbxOptimizeDir.Text);
+    WriteString(CfgSekt,iniOpt,cbOptimizeDir.Text);
     WriteString(CfgSekt,iniOptPrg,OptProg);
     WriteString(CfgSekt,iniOptOpt,edOptions.Text);
+    WriteString(CfgSekt,iniIcon,cbIconDir.Text);
+    sz:=0;
+    with gbSizes do for i:=0 to ControlCount-1  do if Controls[i] is TCheckBox then begin
+      with (Controls[i] as TCheckBox) do if Checked then sz:=sz or BitMask[Tag];
+      end;
+    WriteInteger(CfgSekt,iniSizes,sz);
+    WriteBool(CfgSekt,iniSource,ShowTextCheckBox.Checked);
     end;
-  SaveHistory(IniFile,DirSekt,cbxSelectedDir);
-  SaveHistory(IniFile,PngSekt,cbxExportDir);
-  SaveHistory(IniFile,OptSekt,cbxOptimizeDir);
+  SaveHistory(IniFile,DirSekt,cbSelectedDir);
+  SaveHistory(IniFile,PngSekt,cbPngDir);
+  SaveHistory(IniFile,OptSekt,cbOptimizeDir);
+  SaveHistory(IniFile,IconSekt,cbIconDir);
   with IniFile do begin
     UpdateFile;
     Free;
@@ -422,8 +478,18 @@ begin
   btnOptimize.Enabled:=FileExists(OptProg);
   pcTools.ActivePageIndex:=0;
   rgSizeClick(Sender);
-  SelectDir(cbxSelectedDir.Text);
+  SelectDir(cbSelectedDir.Text);
   if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
+  end;
+
+procedure TfmExplorerSVG.spRightMoved(Sender: TObject);
+var
+  h : integer;
+begin
+  with pcTools do begin
+    with TabRect(0) do if Top>TabRect(1).Top then h:=Height else h:=0;
+    Height:=ToolHeight+h;
+    end;
   end;
 
 procedure TfmExplorerSVG.bbInfoClick(Sender: TObject);
@@ -446,14 +512,14 @@ begin
 procedure TfmExplorerSVG.SelectDir (const ADir : string);
 begin
   with ShellTreeView do begin
-    Path:=GetExistingParentPath(ADir,GetKnownFolder(FOLDERID_Documents));
+    Path:=GetExistingParentPath(ADir,GetPersonalFolder);
     if assigned(Selected) then begin
       try Selected.Expand(false); except end;
       Selected.MakeVisible;
       end;
-    AddToHistory(cbxSelectedDir,Path);
+    AddToHistory(cbSelectedDir,Path);
     end;
-  LoadFilesDir(cbxSelectedDir.Text,SearchBox.Text);
+  LoadFilesDir(cbSelectedDir.Text,SearchBox.Text);
   end;
 
 procedure TfmExplorerSVG.ExitActionExecute(Sender: TObject);
@@ -503,16 +569,16 @@ procedure TfmExplorerSVG.btnOptimizeDirClick(Sender: TObject);
 var
   s : string;
 begin
-  s:=cbxOptimizeDir.Text;
-  if not ContainsFullPath(s) then s:=AddPath(cbxSelectedDir.Text,s);
-  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+DirOpt);
+  s:=cbOptimizeDir.Text;
+  if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
+  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+DirOpt);
   with DirOpenDialog do begin
     Title:=rsOptDir;
     DefaultFolder:=s;
     FileName:=s;
     if Execute then begin
-      s:=MakeRelativePath(cbxSelectedDir.Text,Filename);
-      AddToHistory(cbxOptimizeDir,s);
+      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
+      AddToHistory(cbOptimizeDir,s);
       end;
     end;
   end;
@@ -527,16 +593,34 @@ procedure TfmExplorerSVG.btnPngDirClick(Sender: TObject);
 var
   s : string;
 begin
-  s:=cbxExportDir.Text;
-  if not ContainsFullPath(s) then s:=AddPath(cbxSelectedDir.Text,s);
-  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+PngExt);
+  s:=cbPngDir.Text;
+  if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
+  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+PngExt);
   with DirOpenDialog do begin
     Title:=rsPngDir;
     DefaultFolder:=s;
     FileName:=s;
     if Execute then begin
-      s:=MakeRelativePath(cbxSelectedDir.Text,Filename);
-      AddToHistory(cbxExportDir,s);
+      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
+      AddToHistory(cbPngDir,s);
+      end;
+    end;
+  end;
+
+procedure TfmExplorerSVG.btnIconDirClick(Sender: TObject);
+var
+  s : string;
+begin
+  s:=cbIconDir.Text;
+  if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
+  s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+IconExt);
+  with DirOpenDialog do begin
+    Title:=rsIconDir;
+    DefaultFolder:=s;
+    FileName:=s;
+    if Execute then begin
+      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
+      AddToHistory(cbIconDir,s);
       end;
     end;
   end;
@@ -544,22 +628,27 @@ begin
 procedure TfmExplorerSVG.btnResetFilterClick(Sender: TObject);
 begin
   SearchBox.Text:='';
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
+  LoadFilesDir(cbSelectedDir.Text, SearchBox.Text);
 end;
 
-procedure TfmExplorerSVG.cbxExportDirCloseUp(Sender: TObject);
+procedure TfmExplorerSVG.cbIconDirCloseUp(Sender: TObject);
 begin
-  UpdateHistory(cbxSelectedDir);
+  UpdateHistory(cbIconDir);
   end;
 
-procedure TfmExplorerSVG.cbxSelectedDirChange(Sender: TObject);
+procedure TfmExplorerSVG.cbPngDirCloseUp(Sender: TObject);
 begin
-  SelectDir(cbxSelectedDir.Text);
+  UpdateHistory(cbPngDir);
   end;
 
-procedure TfmExplorerSVG.cbxSelectedDirCloseUp(Sender: TObject);
+procedure TfmExplorerSVG.cbSelectedDirChange(Sender: TObject);
 begin
-  with cbxSelectedDir do SelectDir(Items[ItemIndex]);
+  SelectDir(cbSelectedDir.Text);
+  end;
+
+procedure TfmExplorerSVG.cbSelectedDirCloseUp(Sender: TObject);
+begin
+  with cbSelectedDir do SelectDir(Items[ItemIndex]);
   end;
 
 procedure TfmExplorerSVG.DeleteActionExecute(Sender: TObject);
@@ -575,12 +664,12 @@ begin
         for i:=0 to Items.Count-1 do if Items[i].Selected then begin
           n:=Items[i].ImageIndex;
           if LOldImageIndex<0 then LOldImageIndex:=n;
-          LFileName := IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+
+          LFileName := IncludeTrailingPathDelimiter(cbSelectedDir.Text)+
                        SVGIconImageList.SVGIconItems[n].Name+SvgExt;
           DeleteFile(LFileName);
           SVGIconImageList.Delete(n);
           end;
-        LoadFilesDir(cbxSelectedDir.Text,SearchBox.Text);
+        LoadFilesDir(cbSelectedDir.Text,SearchBox.Text);
         ShowSelectedItem(LOldImageIndex);
         SelectedIndex:=ItemIndex;
         end;
@@ -652,7 +741,7 @@ begin
       LFileName:=IconName+SvgExt;
       SVGMemo.Text := AdjustLineBreaks(SVGText,tlbsCRLF);
       laImgName.Caption:=LFileName;
-      LFileName:=IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+LFileName;
+      LFileName:=IncludeTrailingPathDelimiter(cbSelectedDir.Text)+LFileName;
       if FileAge(LFileName,dt) then laDate.Caption:=rsModified+DateTimeToStr(dt)
       else laDate.Caption:='';
       laSize.Caption:=rsSize+SizeToStr(GetFileSize(LFileName),true);
@@ -677,9 +766,9 @@ end;
 
 procedure TfmExplorerSVG.ShellTreeViewClick(Sender: TObject);
 begin
-  cbxSelectedDir.Text:=ShellTreeView.SelectedFolder.PathName;
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
-  AddToHistory(cbxSelectedDir);
+  cbSelectedDir.Text:=ShellTreeView.SelectedFolder.PathName;
+  LoadFilesDir(cbSelectedDir.Text, SearchBox.Text);
+  AddToHistory(cbSelectedDir);
   end;
 
 procedure TfmExplorerSVG.ShowTextCheckBoxClick(Sender: TObject);
@@ -695,7 +784,7 @@ var
 begin
   LItemsCount := UpdateSVGIconListView(ImageView, '', False);
   ImageListLabel.Caption := Format(rsListPreview,[LItemsCount]);
-  laFoldername.Caption:=cbxSelectedDir.Text;
+  laFoldername.Caption:=cbSelectedDir.Text;
 end;
 
 procedure TfmExplorerSVG.UpdateView(Index: Integer);
@@ -844,8 +933,8 @@ const
     end;
 
 begin
-  se:=cbxExportDir.Text;
-  if not ContainsFullPath(se) then se:=AddPath(cbxSelectedDir.Text,se);
+  se:=cbPngDir.Text;
+  if not ContainsFullPath(se) then se:=AddPath(cbSelectedDir.Text,se);
   if rbUserSize.Checked then begin
     if cbAspectRatio.Checked then begin
       if not NumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWdtHgt,MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
@@ -870,9 +959,102 @@ begin
       SVGExportToPng(w,h,IconSvg,se,si.Name+PngExt,cbAspectRatio.Checked);
       inc(n);
       end;
-    if n>1 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);
+    if n>0 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);
     end
   else MessageDlg(Format(rsDirErr,[se]),mtError,[mbOk],0,mbNo);
+  end;
+
+procedure TfmExplorerSVG.IconActionExecute(Sender: TObject);
+var
+  si : TSVGIconItem;
+  se,s : string;
+  i,n,k : integer;
+  SizeList   : array of integer;
+  PngList    : TList;
+  sPng       : TMemoryStream;
+  ok         : boolean;
+
+  procedure FreeList (AList : TList);
+  var
+    i : integer;
+  begin
+    with AList do begin
+      for i:=0 to Count-1 do if assigned(Items[i]) then begin
+        try TObject(Items[i]).Free; except end;
+        Items[i]:=nil;
+        end;
+      Clear;
+      end;
+    end;
+
+  function ExportToPng (ASize : Integer; FSVG: ISVG; sPng : TMemoryStream) : boolean;
+  var
+    LImagePng: TPngImage;
+    LBitmap: TBitmap;
+  begin
+    Result:=false;
+    LBitmap := nil;
+    LImagePng := nil;
+    try
+      LBitmap := TBitmap.Create;
+      LBitmap.PixelFormat := TPixelFormat.pf32bit;   // 32bit bitmap
+      LBitmap.AlphaFormat := TAlphaFormat.afDefined; // Enable alpha channel
+
+      LBitmap.SetSize(ASize, ASize);
+
+      // Fill background with transparent
+      LBitmap.Canvas.Brush.Color := clNone;
+      LBitmap.Canvas.FillRect(Rect(0, 0, ASize, ASize));
+
+      FSVG.PaintTo(LBitmap.Canvas.Handle, TRectF.Create(0, 0, ASize, ASize));
+
+      LImagePng := PNG4TransparentBitMap(LBitmap);
+      LImagePng.SaveToStream(sPng);
+      sPng.Position:=0;
+      Result:=true;
+    finally
+      LBitmap.Free;
+      LImagePng.Free;
+      end;
+    end;
+
+begin
+  se:=cbIconDir.Text;
+  if not ContainsFullPath(se) then se:=AddPath(cbSelectedDir.Text,se);
+  if ForceDirectories(se) then begin
+    PngList:=TList.Create;
+    n:=0;
+    with ImageView do if SelCount>0 then begin
+      SetLength(SizeList,NumSizes); k:=0;
+      with gbSizes do for i:=0 to ControlCount-1  do if Controls[i] is TCheckBox then begin
+        with (Controls[i] as TCheckBox) do if Checked then begin
+          SizeList[k]:=IconSizes[Tag];
+          inc(k);
+          end
+        end;
+      if k>0 then begin
+        SetLength(SizeList,k);
+        for i:=0 to Items.Count-1 do if Items[i].Selected then begin
+          si:=SVGIconImageList.SVGIconItems[Items[i].ImageIndex];
+          for k:=0 to High(SizeList) do begin
+            sPng:=TMemoryStream.Create;
+            ok:=ExportToPng(SizeList[k],si.SVG,sPng);
+            if ok then PngList.Add(sPng) else Break;
+            end;
+          end;
+        if ok then begin
+          CreateIconFromPngStreamList(AddPath(se,NewExt(si.Name,IconExt)),PngList);
+          inc(n);
+          end
+        else  MessageDlg(Format(rsIconError,[si.Name]),mtError,[mbOk],0,mbNo);
+        FreeList(PngList);
+        end;
+      SizeList:=nil;
+      end;
+    if n>0 then MessageDlg(Format(rsIconCreated,[n]),mtInformation,[mbOk],0,mbNo);
+    end
+  else MessageDlg(Format(rsDirErr,[se]),mtError,[mbOk],0,mbNo);
+  PngList.Free;
   end;
 
 procedure TfmExplorerSVG.OptimizeActionExecute(Sender: TObject);
@@ -881,14 +1063,14 @@ var
   hr : HResult;
   i,n : integer;
 begin
-  sd:=cbxOptimizeDir.Text;
-  if not ContainsFullPath(sd) then sd:=AddPath(cbxSelectedDir.Text,sd);
+  sd:=cbOptimizeDir.Text;
+  if not ContainsFullPath(sd) then sd:=AddPath(cbSelectedDir.Text,sd);
   if ForceDirectories(sd) then begin
     try
       Screen.Cursor := crHourGlass; n:=0;
       with ImageView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
         s:= SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt;
-        s:=MakeQuotedStr(OptProg)+Space+edOptions.Text+Space+ MakeQuotedStr(AddPath(cbxSelectedDir.Text,s))
+        s:=MakeQuotedStr(OptProg)+Space+edOptions.Text+Space+ MakeQuotedStr(AddPath(cbSelectedDir.Text,s))
           +Space+MakeQuotedStr(AddPath(sd,s));
         hr:=ExecuteConsoleProcess(s,'',nil);
         if(hr=0) or ((hr and UserError)<>0) then begin
@@ -906,14 +1088,14 @@ begin
     finally
       Screen.Cursor := crDefault;
       end;
-    if n>1 then MessageDlg(Format(rsOptimized,[n]),mtInformation,[mbOk],0,mbNo);
+    if n>0 then MessageDlg(Format(rsOptimized,[n]),mtInformation,[mbOk],0,mbNo);
     end
   else MessageDlg(Format(rsDirErr,[sd]),mtError,[mbOk],0,mbNo);
   end;
 
 procedure TfmExplorerSVG.OpenActionExecute(Sender: TObject);
 begin
-  ShellExecute(Handle,'open',pchar(IncludeTrailingPathDelimiter(cbxSelectedDir.Text)+
+  ShellExecute(Handle,'open',pchar(IncludeTrailingPathDelimiter(cbSelectedDir.Text)+
     SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt),nil,nil,SW_SHOW);
   end;
 
@@ -950,7 +1132,7 @@ begin
 
 procedure TfmExplorerSVG.ReloadImages (const ImgName : string);
 begin
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
+  LoadFilesDir(cbSelectedDir.Text, SearchBox.Text);
   SelectImage(ImgName);
   end;
 
@@ -961,7 +1143,7 @@ var
 begin
   sl:=TStringList.Create;
   with ImageView do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
-    sl.Add(AddPath(cbxSelectedDir.Text,SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt));
+    sl.Add(AddPath(cbSelectedDir.Text,SVGIconImageList.Names[Items[i].ImageIndex]+SvgExt));
     end;
   WriteFileListToClipboard(sl);
   sl.Free;
@@ -980,10 +1162,10 @@ begin
   if sl.Count>0 then for i:=0 to sl.Count-1 do begin
     ss:=sl[i];
     if AnsiSameText(ExtractFileExt(ss),SvgExt) and FileExists(ss) then begin
-      if SameFileName(ExtractFilePath(ss),IncludeTrailingPathDelimiter(cbxSelectedDir.Text)) then
+      if SameFileName(ExtractFilePath(ss),IncludeTrailingPathDelimiter(cbSelectedDir.Text)) then
         MessageDlg(rsSamePath,mtError,[mbOk],0)
       else begin
-        sd:=AddPath(cbxSelectedDir.Text,ExtractFileName(ss));
+        sd:=AddPath(cbSelectedDir.Text,ExtractFileName(ss));
         ok:= not FileExists(sd);
         if not ok then begin
           mr:=SelectOption(Format(rsFileExists,[ExtractFileName(ss)]),mtConfirmation,[fsBold],
@@ -992,7 +1174,7 @@ begin
           if mr=1 then begin // rename
             sd:=ChangeFileExt(ExtractFileName(ss),'');
             ok:=InputQuery(rsRename,rsNewFile,sd);
-            if ok then sd:=AddPath(cbxSelectedDir.Text,ChangeFileExt(sd,SvgExt));
+            if ok then sd:=AddPath(cbSelectedDir.Text,ChangeFileExt(sd,SvgExt));
             end
           else ok:=mr=0;
           end;
@@ -1030,7 +1212,7 @@ begin
     LNewFileName := InputBox(rsRename,rsNewFile, LFileName);
     if (LNewFileName <> '') and (LNewFileName <> LFileName) then
     begin
-      LPath := IncludeTrailingPathDelimiter(cbxSelectedDir.Text);
+      LPath := IncludeTrailingPathDelimiter(cbSelectedDir.Text);
       if FileExists(LPath+LNewFileName+SvgExt) then
         raise Exception.CreateFmt(rsRenameErr,[LPath+LNewFileName+SvgExt])
       else
@@ -1055,7 +1237,7 @@ end;
 
 procedure TfmExplorerSVG.SearchBoxInvokeSearch(Sender: TObject);
 begin
-  LoadFilesDir(cbxSelectedDir.Text, SearchBox.Text);
+  LoadFilesDir(cbSelectedDir.Text, SearchBox.Text);
 end;
 
 procedure TfmExplorerSVG.SVGIconImageMouseDown(Sender: TObject;
