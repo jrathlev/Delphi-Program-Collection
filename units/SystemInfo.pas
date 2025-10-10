@@ -37,9 +37,11 @@ type
     end;
 
 function GetOSVersionInfo (var vi : TSysVersionInfo) : boolean;
+function ProductStr (ProductType : cardinal) : string;
 function GetOSVersionString  : string;
 function GetOSVersionLongString  : string;
 function GetOSVersionShortString  : string;
+function GetOSVersionAsText : string;
 
 function CheckOSVersion (AMajor : Integer) : boolean; overload;
 function CheckOSVersion (AMajor, AMinor : Integer) : boolean; overload;
@@ -54,9 +56,10 @@ uses System.RTLConsts, System.DateUtils, System.Win.Registry, UnitConsts;
 
 const
   CVersionStr: array[Boolean] of PResStringRec = (@SVersionStr, @SSPVersionStr);
-  CVersionLongStr: array[Boolean] of PResStringRec = (@rSVersionLongStr, @rSSPVersionLongStr);
+  CVersionLongStr: array[Boolean] of PResStringRec = (@rsVersionLongStr, @rSSPVersionLongStr);
   CVersionShortStr: array[Boolean] of PResStringRec = (@rSVersionShortStr, @rSSPVersionShortStr);
   CEditionStr: array[Boolean] of PResStringRec = (@SVersion32, @SVersion64);
+  CVersionText: array[Boolean] of PResStringRec = (@rsVersionText, @rSSPVersionText);
 
   rkCurrentVersion = 'SOFTWARE\Microsoft\Windows NT\CurrentVersion';
   rvProductName = 'ProductName';
@@ -364,6 +367,19 @@ begin
       Result:=TryFormat(LoadResString(CVersionShortStr[ServicePackMajor <> 0]),
         [SystemName, ServicePackMajor, LoadResString(CEditionStr[IsX64])])
     else Result:=TryFormat(rsVersion10ShortStr,[SystemName,SubVersion,LoadResString(CEditionStr[IsX64])]);
+    end
+  else Result:='';
+  end;
+
+function GetOSVersionAsText : string;
+var
+  vi : TSysVersionInfo;
+begin
+  if GetOSVersionInfo(vi) then begin
+    with vi do if length(SubVersion)=0 then
+      Result:=TryFormat(LoadResString(CVersionText[ServicePackMajor <> 0]),
+        [SystemName,ProductStr(ProductType),MajorVersion,MinorVersion,Build,ServicePackMajor,LoadResString(CEditionStr[IsX64])])
+    else Result:=TryFormat(rsVersion10Text,[SystemName,ProductStr(ProductType),SubVersion,Build,LoadResString(CEditionStr[IsX64])]);
     end
   else Result:='';
   end;
