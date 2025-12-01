@@ -552,7 +552,6 @@ begin
 
 procedure SaveLanguage (NewLangCode : TLangCodeString);
 begin
-  SelectedLanguage:=NewLangCode;
   if LangFromCfg then begin
     with TMemIniFile.Create(CfgName) do begin
       WriteString(LangSekt,LangID,SelectedLanguage);
@@ -576,7 +575,10 @@ procedure ChangeLanguage (NewLangCode : TLangCodeString);
 var
   i : integer;
 begin
+  SelectedLanguage:=NewLangCode;
+{$IFDEF RELEASE}
   SaveLanguage(NewLangCode);
+{$EndIf}
   UseLanguage(NewLangCode);
   with Application do for i:=0 to ComponentCount-1 do if (Components[i] is TForm) then begin
     try ReTranslateComponent(Components[i]); except; end;

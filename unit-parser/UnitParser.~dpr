@@ -1,0 +1,34 @@
+program UnitParser;
+
+{$R 'languages.res' 'languages.rc'}
+
+uses
+  GnuGetText in 'Units\GnuGetText.pas',
+  LangUtils in 'Units\LangUtils.pas',
+  Vcl.Forms,
+  Vcl.Graphics,
+  UnitParserMain in 'UnitParserMain.pas' {MainForm},
+  ShellDirDlg in 'dialogs\ShellDirDlg.pas' {ShellDirDialog},
+  SearchPathDlg in 'dialogs\SearchPathDlg.pas' {SearchPathDialog},
+  SelectDlg in 'dialogs\SelectDlg.pas' {SelectDialog},
+  ListUtils in 'Units\ListUtils.pas',
+  UnitDestlDlg in 'UnitDestlDlg.pas' {UnitDestDialog},
+  ShowStringList in 'Dialogs\ShowStringList.pas' {ShowStringListDialog};
+
+{$R *.res}
+
+begin
+  TP_GlobalIgnoreClass(TFont);
+  // Subdirectory in AppData for user configuration files and supported languages
+  InitTranslation('','',['delphi10','units']);
+
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.CreateForm(TShellDirDialog, ShellDirDialog);
+  Application.CreateForm(TSearchPathDialog, SearchPathDialog);
+  Application.CreateForm(TSelectDialog, SelectDialog);
+  Application.CreateForm(TUnitDestDialog, UnitDestDialog);
+  Application.CreateForm(TShowStringListDialog, ShowStringListDialog);
+  Application.Run;
+end.

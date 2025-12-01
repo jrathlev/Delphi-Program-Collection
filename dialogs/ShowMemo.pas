@@ -624,7 +624,7 @@ procedure TShowTextDialog.FindText (Reverse : boolean);
 begin
   with FindDialog do
     if not SearchMemo(Memo,false,FindText,Options,Reverse) then
-      ShowMessage(SafeFormat(dgettext('dialogs','"%s" not found!'),[FindText]))
+      ErrorDialog(SafeFormat(dgettext('dialogs','"%s" not found!'),[FindText]))
     else MemoChange(self);
   end;
 

@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unit-Parser\n"
+"POT-Creation-Date: 2025-11-30 13:11+0100\n"
+"PO-Revision-Date: 2025-11-30 13:12+0100\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: J. Rathlev <info@rathlev-home.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Copy Delphi project files (DPR) to GitHub"
+msgstr "Kopiere Delphi-Projektdateien nach GitHub"
+
+msgid "Project directory"
+msgstr "Projektverzeichnis:"
+
+msgid "GitHub directory"
+msgstr "GitHub-Verzeichnis"
+
+msgid "Copy"
+msgstr "Kopiere"
+
+msgid "Select all"
+msgstr "Alle auswählen"
+
+msgid "Deselect all"
+msgstr "Alle abwählen"
+
+msgid "Parse Delphi DFM files for SVG image names"
+msgstr "Delphi-DFM-Dateien nach SVG-Bildnamen durchsuchen"
+
+msgid "Select Delphi project or source"
+msgstr "Delphi-Projekt oder -Quelle auswählen"
+
+msgid "SVG root directory"
+msgstr "SVG-Stammverzeichnis"
+
+msgid "Select SVG root directory"
+msgstr "SVG-Stammverzeichnis auswählen"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Parse Delphi files and extract image names"
+msgstr "Delphi-Dateien analysieren und Bildnamen extrahieren"
+
+msgid "Copy into zip"
+msgstr "In Zip kopieren"
+
+msgid "Zip"
+msgstr "Zip"
+
+msgid "Copy selected sources"
+msgstr "Ausgewählte Quelltexte kopieren"
+
+msgid "Root directory for destination:"
+msgstr "Stammverzeichnis am Ziel:"
+
+msgid "Start copying?"
+msgstr "Mit dem Kopieren beginnen?"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Delete all existing files at destination"
+msgstr "Alle vorhandenen Dateien am Zielort löschen"
+
+msgid "Copy external units, dialogs, etc. to"
+msgstr "Externe Units, Dialoge usw. kopieren nach"
+
+msgid "Root directory"
+msgstr "Stammverzeichnis"
+
+msgid "Common subdirectory \"units\""
+msgstr "Gemeinsames Unterverzeichnis \"units\""
+
+msgid "Separate directories as in the original"
+msgstr "Getrennte Verzeichnisse wie im Original"
+
+msgid "Parse Delphi project or source for used units"
+msgstr ""
+"Delphi-Projekt oder -Quelle nach verwendeten Units durchsuchen"
+
+msgid "Unit name"
+msgstr "Name der Unit"
+
+msgid "Used in"
+msgstr "Verwendet in"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Search path:"
+msgstr "Suchpfad:"
+
+msgid "Language:"
+msgstr "Sprache:"
+
+msgid "Platform:"
+msgstr "Plattform:"
+
+msgid "Config:"
+msgstr "Konfiguration:"
+
+msgid "Project file , project source or unit:"
+msgstr "Projekt-Datei, Projekt-Quelltext oder Unit:"
+
+msgid "Copy all selected sources to a separate directory"
+msgstr ""
+"Alle ausgewählten Quelltexte in ein getrenntes Verzeichnis "
+"kopieren"
+
+msgid "Copy sources"
+msgstr "Quelltexte kopieren"
+
+msgid "Edit search path"
+msgstr "Suchpfad bearbeiten"
+
+msgid "Collapse all groups"
+msgstr "Alle Gruppen reduzieren"
+
+msgid "Expand all groups"
+msgstr "Alle Gruppen erweitern"
+
+msgid "Parse project"
+msgstr "Projekt durchsuchen"
+
+msgid "Show copy log"
+msgstr "Kopierprotokoll anzeigen"
+
+msgid "project of"
+msgstr "Projekt von"
+
+msgid "projects of"
+msgstr "Projekte von"
+
+msgid " %u selected"
+msgstr " %u ausgewählt"
+
+msgid "project"
+msgstr "Projekt"
+
+msgid "projects"
+msgstr "Projekte"
+
+msgid "file copied"
+msgstr "Datei kopiert"
+
+msgid " files copied"
+msgstr " Dateien kopiert"
+
+msgid "%u images"
+msgstr "%u Bilder"
+
+msgid "<Retrieved from project>"
+msgstr "<Wird aus dem Projekt ermittelt>"
+
+msgid "Delphi projects|*.dproj|Delphi sources|*.pas;*.dpr|all|*.*"
+msgstr "Delphi-Projekte|*.dproj|Delphi-Quellen|*.pas;*.dpr|alle|*.*"
+
+msgid "Define search path for units"
+msgstr "Suchpfad für Units festlegen"
+
+msgid "Copied files"
+msgstr "Kopierte Dateien"
+
+msgid "Destination: "
+msgstr "Ziel:"
+
+msgid "%u files copied"
+msgstr "%u Dateien kopiert"
+
+msgid ""
+"No units selected!\n"
+"Copy only project files?"
+msgstr ""
+"Kein Units ausgewählt!\n"
+"Nur Projekt-Dateien kopieren?"
+
+msgid "Select destination directory"
+msgstr "Zielverzeichnis auswählen"
+
+msgid "Delete all existing files"
+msgstr "Alle vorhanden Dateien löschen"
+
+msgid "Copying: %s"
+msgstr "Kopiere: %s"
+
+msgid "%u files copied to %s"
+msgstr "%u Dateien kopiert nach %s"
+
+msgid "Scanning: %s"
+msgstr "Durchsuche: %s"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "File not found: "
+msgstr "Datei nicht gefunden: "
+
+msgid "Skip"
+msgstr "Überspringen"
+
+msgid "Skip all"
+msgstr "Alle überspringen"
+
+msgid "Searching for units from: %s"
+msgstr "Such nach Units in: %s"
+
+msgid "<File not found>"
+msgstr "<Datei nicht gefunden>"
+
+msgid "%u Units found"
+msgstr "%u Units gefunden"
+
+msgid "Main source not found!"
+msgstr "Haupt-Datei nicht gefunden!"
+
+msgid "Invalid search path!"
+msgstr "Ungültiger Suchpfad!"
+
+msgid "File not found: %s"
+msgstr "Datei nicht gefunden: %s"
