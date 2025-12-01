@@ -3,13 +3,13 @@ program SVGExplorer;
 {$R 'languages.res' 'languages.rc'}
 
 uses
-  GnuGetText in '..\units\GnuGetText.pas',
-  LangUtils in '..\units\LangUtils.pas',
-  SVGIconItems in '..\svg\SVGIconItems.pas',
+  GnuGetText in '..\..\Bibliotheken\Units\GnuGetText.pas',
+  LangUtils in '..\..\Bibliotheken\Units\LangUtils.pas',
+  SVGIconItems in '..\..\Bibliotheken\SVG\SVGIconItems.pas',
   Vcl.Forms,
   Vcl.Graphics,
   FExplorerSVG in 'FExplorerSVG.pas' {fmExplorerSVG},
-  SelectDlg in '..\dialogs\SelectDlg.pas' {SelectDialog};
+  SelectDlg in '..\..\Bibliotheken\Dialogs\SelectDlg.pas' {SelectDialog};
 
 {$R *.res}
 

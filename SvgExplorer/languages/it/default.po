@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SVG Explorer\n"
+"POT-Creation-Date: 2025-09-23 14:09+0200\n"
+"PO-Revision-Date: 2025-11-07 13:47+0100\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-"
+"home.de>\n"
+"Language-Team: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#. fmExplorerSVG.paDir.DirPanel.cbSelectedDir.Hint
+#. fmExplorerSVG.paPreview.pcTools.tsExport.Label2.Caption
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.Label3.Caption
+#. fmExplorerSVG.paPreview.pcTools.tsOptimize.Label1.Caption
+#: FExplorerSVG.dfm:66 FExplorerSVG.dfm:673
+#: FExplorerSVG.dfm:733 FExplorerSVG.dfm:914
+msgid "Directory"
+msgstr "Cartella"
+
+#. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Caption
+#: FExplorerSVG.dfm:99
+msgid "Icons size:"
+msgstr "Dimensioni delle icone:"
+
+#. fmExplorerSVG.paDir.paFactory.grpFactory.Caption
+#: FExplorerSVG.dfm:149
+msgid "SVG Factory"
+msgstr "SVG Factory"
+
+#. fmExplorerSVG.paList.paSVGText.Hint
+#: FExplorerSVG.dfm:196
+msgid "SVG Text content"
+msgstr "Contenuto testo SVG"
+
+#. fmExplorerSVG.paList.paImageList.ImageListLabel.Caption
+#: FExplorerSVG.dfm:241
+msgid "SVG images"
+msgstr "Immagini SVG"
+
+#. fmExplorerSVG.paList.paRicerca.SearchBox.TextHint
+#: FExplorerSVG.dfm:362
+msgid ""
+"Insert filter with wildcards to search icons by "
+"name..."
+msgstr ""
+"Inserisci filtro con caratteri jolly per cercare le "
+"icone in base al nome..."
+
+#. fmExplorerSVG.paList.paRicerca.ShowTextCheckBox.Caption
+#: FExplorerSVG.dfm:370
+msgid "Show Text"
+msgstr "Mostra testo"
+
+#. fmExplorerSVG.paList.paRicerca.btnResetFilter.Caption
+#: FExplorerSVG.dfm:382
+msgid "Reset"
+msgstr "Ripristina"
+
+#. fmExplorerSVG.paPreview.SVGIconImage.Hint
+#: FExplorerSVG.dfm:402
+msgid "Left click to enlarge, right click to shrink"
+msgstr ""
+"Clicca con il tasto sinistro per ingrandire, clicca "
+"con il tasto destro per rimpicciolire"
+
+#. fmExplorerSVG.paPreview.gbProperties.Caption
+#: FExplorerSVG.dfm:509
+msgid "Image file properties"
+msgstr "Proprietà del file immagine"
+
+#. fmExplorerSVG.paPreview.paCenter.btnOpen.Caption
+#. fmExplorerSVG.pmImages.pmiOpen.Caption
+#: FExplorerSVG.dfm:560 FExplorerSVG.dfm:1058
+msgid "Edit"
+msgstr "Modifica"
+
+#. fmExplorerSVG.paPreview.pcTools.tsExport.Caption
+#: FExplorerSVG.dfm:574
+msgid "Export PNG"
+msgstr "Esporta PNG"
+
+#. fmExplorerSVG.paPreview.pcTools.tsExport.cbAspectRatio.Caption
+#: FExplorerSVG.dfm:689
+msgid "Keep aspect ratio"
+msgstr "Mantenere proporzioni"
+
+#. fmExplorerSVG.paPreview.pcTools.tsExport.rbOrgSize.Caption
+#: FExplorerSVG.dfm:706
+msgid "Original size"
+msgstr "Dimensione originale"
+
+#. fmExplorerSVG.paPreview.pcTools.tsExport.rbUserSize.Caption
+#: FExplorerSVG.dfm:717
+msgid "User selected size"
+msgstr "Dimensione selezionata dall'utente"
+
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.Caption
+#: FExplorerSVG.dfm:723
+msgid "Create icon"
+msgstr "Crea icona"
+
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.Caption
+#: FExplorerSVG.dfm:828
+msgid "Icon sizes"
+msgstr "Dimensioni delle icone"
+
+#. fmExplorerSVG.paPreview.pcTools.tsIcon.btnCreateIcon.Caption
+#: FExplorerSVG.dfm:900
+msgid "Create"
+msgstr "Crea"
+
+#. fmExplorerSVG.paPreview.pcTools.tsOptimize.Caption
+#. fmExplorerSVG.ActionList.OptimizeAction.Caption
+#: FExplorerSVG.dfm:905 FExplorerSVG.dfm:1121
+msgid "Optimize"
+msgstr "Ottimizza"
+
+#. fmExplorerSVG.paPreview.pcTools.tsOptimize.btnOptProg.Caption
+#: FExplorerSVG.dfm:1029
+msgid "Program"
+msgstr "Programma"
+
+#. fmExplorerSVG.paPreview.pcTools.tsOptimize.edOptions.EditLabel.Caption
+#: FExplorerSVG.dfm:1040
+msgid "Options"
+msgstr "Opzioni"
+
+#. fmExplorerSVG.pmImages.pmiCopyName.Caption
+#: FExplorerSVG.dfm:1061
+msgid "Copy name"
+msgstr "Copia nome"
+
+#. fmExplorerSVG.pmImages.pmiCopyImages.Caption
+#: FExplorerSVG.dfm:1075
+msgid "Copy images"
+msgstr "Copia le immagini"
+
+#. fmExplorerSVG.pmImages.pmiPasteImages.Caption
+#: FExplorerSVG.dfm:1080
+msgid "Paste images"
+msgstr "Incolla immagini"
+
+#. fmExplorerSVG.ActionList.DeleteAction.Caption
+#: FExplorerSVG.dfm:1089
+msgid "Delete..."
+msgstr "Elimina ..."
+
+#. fmExplorerSVG.ActionList.RenameAction.Caption
+#: FExplorerSVG.dfm:1095
+msgid "Rename..."
+msgstr "Rinominare..."
+
+#. fmExplorerSVG.ActionList.RefreshAction.Caption
+#: FExplorerSVG.dfm:1101
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#. fmExplorerSVG.ActionList.OpenAction.Caption
+#: FExplorerSVG.dfm:1106
+msgid "Open"
+msgstr "Apri"
+
+#. fmExplorerSVG.ActionList.ExportAction.Caption
+#: FExplorerSVG.dfm:1111
+msgid "Export"
+msgstr "Esporta"
+
+#. fmExplorerSVG.ActionList.ExitAction.Caption
+#: FExplorerSVG.dfm:1116
+msgid "Exit"
+msgstr "Uscita"
+
+#. fmExplorerSVG.ActionList.IconAction.Caption
+#: FExplorerSVG.dfm:1126
+msgid "Icon"
+msgstr "Icona"
+
+#. fmExplorerSVG.pmDirs.itmCreate.Caption
+#: FExplorerSVG.dfm:1141
+msgid "Create folder"
+msgstr "Crea cartella"
+
+#. fmExplorerSVG.pmDirs.itmUpdate.Caption
+#: FExplorerSVG.dfm:1148
+msgid "Update tree view"
+msgstr "Aggiorna struttura ad albero"
+
+#. fmExplorerSVG.pmDirs.pmiCancel.Caption
+#: FExplorerSVG.dfm:1152
+msgid "Cancel"
+msgstr "Cancella"
+
+#. fmExplorerSVG.FileOpenDialog.FileNameLabel
+#: FExplorerSVG.dfm:1157
+msgid "SVG Cleaner program"
+msgstr ""
+
+#. fmExplorerSVG.FileOpenDialog.DisplayName
+#: FExplorerSVG.dfm:1160
+msgid "exe files"
+msgstr "file exe"
+
+#. Programmer's name for it: rsConfDelFile
+#: FExplorerSVG.pas:60
+msgid "Do you really want to delete %u selected files?"
+msgstr "Vuoi davvero eliminare %u file selezionati?"
+
+#. Programmer's name for it: rsLoadTime
+#: FExplorerSVG.pas:61
+msgid "Load %u images in %u ms"
+msgstr "Carica %u immagini in %u ms"
+
+#. Programmer's name for it: rsDirErr
+#: FExplorerSVG.pas:62
+msgid "Error creating directory \"%s\"!"
+msgstr ""
+"Errore durante la creazione della directory \"%s\"!"
+
+#. Programmer's name for it: rsOptDir
+#: FExplorerSVG.pas:63
+msgid "Directory for optimized images"
+msgstr "Directory per immagini ottimizzate"
+
+#. Programmer's name for it: rsPngDir
+#: FExplorerSVG.pas:64
+msgid "Directory for PNG images"
+msgstr "Directory per immagini PNG"
+
+#. Programmer's name for it: rsIconDir
+#: FExplorerSVG.pas:65
+msgid "Directory for icons"
+msgstr "Directory per le icone"
+
+#. Programmer's name for it: rsModified
+#: FExplorerSVG.pas:66
+msgid "Modified: "
+msgstr "Modificato: "
+
+#. Programmer's name for it: rsSize
+#: FExplorerSVG.pas:67
+msgid "Size: "
+msgstr "Dimensioni:"
+
+#. Programmer's name for it: rsLayout
+#: FExplorerSVG.pas:68
+msgid "Layout: "
+msgstr "Layout: "
+
+#. Programmer's name for it: rsListPreview
+#: FExplorerSVG.pas:69
+msgid "SVG Image List preview: %u images"
+msgstr "Anteprima elenco immagini SVG: %u immagini"
+
+#. Programmer's name for it: rsSubDir
+#: FExplorerSVG.pas:70
+msgid "New subdirectory:"
+msgstr "Nuova sottodirectory:"
+
+#. Programmer's name for it: rsCreateErr
+#: FExplorerSVG.pas:71
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Impossibile creare la cartella:\n"
+"%s!"
+
+#. Programmer's name for it: rsRename
+#: FExplorerSVG.pas:72
+msgid "Rename image"
+msgstr "Rinominare imagine"
+
+#. Programmer's name for it: rsNewFile
+#: FExplorerSVG.pas:73
+msgid "New filename:"
+msgstr "Nuovo nome file:"
+
+#. Programmer's name for it: rsRenameErr
+#: FExplorerSVG.pas:74
+msgid "Cannot rename: file \"%s\" already exists!"
+msgstr ""
+"Impossibile rinominare: il file \"%s\" esiste già!"
+
+#. Programmer's name for it: rsImgSize
+#: FExplorerSVG.pas:75
+msgid "Image size"
+msgstr "Dimensione immagine"
+
+#. Programmer's name for it: rsWdtHgt
+#: FExplorerSVG.pas:76
+msgid "Width/Height"
+msgstr "Larghezza/Altezza"
+
+#. Programmer's name for it: rsWidth
+#: FExplorerSVG.pas:77
+msgid "Width"
+msgstr "Larghezza"
+
+#. Programmer's name for it: rsHeight
+#: FExplorerSVG.pas:78
+msgid "Height"
+msgstr "Altezza:"
+
+#. Programmer's name for it: rsConverted
+#: FExplorerSVG.pas:79
+msgid "%u SVG image(s) converted to PNG"
+msgstr "%u Immagini SVG convertite in PNG"
+
+#. Programmer's name for it: rsIconCreated
+#: FExplorerSVG.pas:80
+msgid "%u icon(s) were created from SVG image(s)"
+msgstr "%u icone sono state create da immagini SVG"
+
+#. Programmer's name for it: rsIconError
+#: FExplorerSVG.pas:81
+msgid "Error creating icon from %s"
+msgstr "Errore durante la creazione dell'icona da %s"
+
+#. Programmer's name for it: rsExecErr
+#: FExplorerSVG.pas:82
+msgid "Exit code %u reported!"
+msgstr "Codice di uscita %u segnalato!"
+
+#. Programmer's name for it: rsError
+#: FExplorerSVG.pas:83
+msgid "Error"
+msgstr "Errore"
+
+#. Programmer's name for it: rsOptimized
+#: FExplorerSVG.pas:84
+msgid "%u SVG images optimized!"
+msgstr "%u immagini SVG ottimizzate!"
+
+#. Programmer's name for it: rsSvgPaste
+#: FExplorerSVG.pas:85
+msgid "%u SVG image(s) copied!"
+msgstr "%u Immagini SVG copiate!"
+
+#. Programmer's name for it: rsNotFound
+#: FExplorerSVG.pas:86
+msgid "No SVG image in the clipboard!"
+msgstr "Nessuna immagine SVG negli appunti!"
+
+#. Programmer's name for it: rsSamePath
+#: FExplorerSVG.pas:87
+msgid "An image cannot be copied to the same path!"
+msgstr ""
+"Non è possibile copiare un'immagine nello stesso "
+"percorso!"
+
+#. Programmer's name for it: rsFileExists
+#: FExplorerSVG.pas:88
+msgid "The image file \"%s\" already exists!"
+msgstr "Il file immagine \"%s\" esiste già!"
+
+#. Programmer's name for it: rsOverwrite
+#: FExplorerSVG.pas:89
+msgid "Overwrite image"
+msgstr "Sovrascrivi immagine"
+
+#. Programmer's name for it: rsAddCtx
+#: FExplorerSVG.pas:90
+msgid "Add Svg Explorer to folder context menu"
+msgstr ""
+"Aggiungi Svg Explorer al menu contestuale della "
+"cartella"
+
+#. Programmer's name for it: rsRemCtx
+#: FExplorerSVG.pas:91
+msgid "Remove Svg Explorer from folder context menu"
+msgstr ""
+"Rimuovi Svg Explorer dal menu contestuale della "
+"cartella"
+
+#. Programmer's name for it: rsOpenDirWith
+#: FExplorerSVG.pas:92
+msgid "Open this folder with Svg Explorer"
+msgstr "Apri questa cartella con Svg Explorer"
+
+#. Programmer's name for it: rsPrgNote
+#: FExplorerSVG.pas:93
+msgid "Based on SVG Icon Explorer (%s)"
+msgstr "Basato su SVG Icon Explorer (%s)"

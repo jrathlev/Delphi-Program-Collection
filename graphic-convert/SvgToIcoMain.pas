@@ -83,6 +83,7 @@ type
     { Private-Deklarationen }
     AppPath,IniName,
     LastPath,LastDest,
+    ImgName,
     DefPath,FileMask : string;
     PngSizes : array [0..MaxSizes] of TCheckBox;
     IconSvg : ISVG;
@@ -132,6 +133,7 @@ procedure TMainForm.FormCreate(Sender: TObject);
 var
   IniFile : TMemIniFile;
   n,i     : integer;
+  s       : string;
 begin
   TranslateComponent(self);
   InitPaths(AppPath,DefPath);
@@ -150,6 +152,14 @@ begin
   LoadHistory(IniFile,ImgDirSekt,edtImgDir);
   LoadHistory(IniFile,DestSekt,edtIcoDir);
   IniFile.Free;
+  ImgName:='';
+  if ParamCount>0 then begin
+    s:=Paramstr(1);
+    if FileExists(s) then begin
+      ImgName:=ExtractFileName(s);
+      LastPath:=ExtractFilePath(s);
+      end;
+    end;
   FileMask:=SvgMask;
   PngSizes[0]:=cb032; PngSizes[1]:=cb048; PngSizes[2]:=cb064; PngSizes[3]:=cb128; PngSizes[4]:=cb256;
   for i:=0 to MaxSizes do PngSizes[i].Checked:=n and BitMask[i]<>0;
@@ -188,11 +198,26 @@ begin
   end;
 
 procedure TMainForm.FormShow(Sender: TObject);
+var
+  n : integer;
+
+  function GetFolderIndex (const ACaption : string): integer;
+  begin
+    with ShellListView do for Result:=0 to FolderCount-1 do
+      if AnsiSameText(Folders[Result].DisplayName,ACaption) then Exit;
+    Result:=0;
+    end;
+
 begin
   AddToHistory(edtImgDir,LastPath);
   AddToHistory(edtIcoDir,LastDest);
   UpdateDirList;
-  with ShellListView do if Items.Count>0 then Items[0].Selected:=true;
+  with ShellListView do if Items.Count>0 then begin
+    ClearSelection;
+    if length(ImgName)>0 then n:=GetFolderIndex(ImgName) else n:=0;
+    Items[n].Selected:=true;
+    Selected.MakeVisible(false);
+    end;
   ShowStatus;
   bbConvert.SetFocus;
   end;

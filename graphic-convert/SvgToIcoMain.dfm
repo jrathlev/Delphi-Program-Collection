@@ -1094,6 +1094,7 @@ object MainForm: TMainForm
       Width = 81
       Height = 22
       Root = 'rfDesktop'
+      ShellListView = MainForm.ShellListView
       UseShellImages = True
       TabOrder = 9
       TabStop = False

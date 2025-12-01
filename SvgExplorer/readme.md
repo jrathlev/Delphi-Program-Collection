@@ -16,7 +16,7 @@ The program is based on the SVG Icon Explorer by
 
 The **installation** provides an option to add entries in the **context menus** of directories and SVG files
 
-**Languages:** English and German
+**Languages:** English, German, French, Italian, and Spanish
 
 [Application download ](https://www.rathlev-home.de/index-e.html?tools/convert-e.html)
 

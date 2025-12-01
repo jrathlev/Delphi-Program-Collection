@@ -3,3 +3,17 @@ IDR_TRANS_DE_DELPHI10 RCDATA "..\\Common\\Languages\\de\\delphi10.mo"
 IDR_TRANS_DE_DIALOGS RCDATA "..\\Common\\Languages\\de\\dialogs.mo"
 IDR_TRANS_DE_UNITS RCDATA "..\\Common\\Languages\\de\\units.mo"
 
+IDR_TRANS_FR_DEFAULT RCDATA "languages\\fr\\default.mo"
+IDR_TRANS_FR_DELPHI10 RCDATA "..\\Common\\Languages\\fr\\delphi10.mo"
+IDR_TRANS_FR_DIALOGS RCDATA "..\\Common\\Languages\\fr\\dialogs.mo"
+IDR_TRANS_FR_UNITS RCDATA "..\\Common\\Languages\\fr\\units.mo"
+
+IDR_TRANS_IT_DEFAULT RCDATA "languages\\it\\default.mo"
+IDR_TRANS_IT_DELPHI10 RCDATA "..\\Common\\Languages\\it\\delphi10.mo"
+IDR_TRANS_IT_DIALOGS RCDATA "..\\Common\\Languages\\it\\dialogs.mo"
+IDR_TRANS_IT_UNITS RCDATA "..\\Common\\Languages\\it\\units.mo"
+
+IDR_TRANS_ES_DEFAULT RCDATA "languages\\es\\default.mo"
+IDR_TRANS_ES_DELPHI10 RCDATA "..\\Common\\Languages\\es\\delphi10.mo"
+IDR_TRANS_ES_DIALOGS RCDATA "..\\Common\\Languages\\es\\dialogs.mo"
+IDR_TRANS_ES_UNITS RCDATA "..\\Common\\Languages\\es\\units.mo"

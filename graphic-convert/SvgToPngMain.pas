@@ -79,6 +79,7 @@ type
     { Private-Deklarationen }
     AppPath,IniName,
     LastPath,LastDest,
+    ImgName,
     DefPath : string;
     ImgSize : integer;
     FCol: integer;
@@ -132,6 +133,7 @@ procedure TMainForm.FormCreate(Sender: TObject);
 var
   IniFile : TMemIniFile;
   i       : integer;
+  s       : string;
 begin
   TranslateComponent(self);
   InitPaths(AppPath,DefPath);
@@ -152,6 +154,14 @@ begin
   LoadHistory(IniFile,ImgDirSekt,edtImgDir);
   LoadHistory(IniFile,DestSekt,edtPngDir);
   IniFile.Free;
+  ImgName:='';
+  if ParamCount>0 then begin
+    s:=Paramstr(1);
+    if FileExists(s) then begin
+      ImgName:=ExtractFileName(s);
+      LastPath:=ExtractFilePath(s);
+      end;
+    end;
   for i:=0 to High(ImgSizes) do if ImgSize=ImgSizes[i] then Break;
   if i>High(ImgSizes) then begin
     i:=6; ImgSize:=256;
@@ -197,11 +207,19 @@ begin
   end;
 
 procedure TMainForm.FormShow(Sender: TObject);
+var
+  n : integer;
 begin
   AddToHistory(edtImgDir,LastPath);
   AddToHistory(edtPngDir,LastDest);
   UpdateDirList;
-  with lvFiles do if Items.Count>0 then Items[0].Selected:=true;
+  with lvFiles do if Items.Count>0 then begin
+    ClearSelection;
+    if length(ImgName)>0 then n:=GetListViewIndex(lvFiles,ImgName) else n:=-1;
+    if n<0 then n:=0;
+    Items[n].Selected:=true;
+    Selected.MakeVisible(false);
+    end;
   ShowStatus;
   bbConvert.SetFocus;
   end;

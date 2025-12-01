@@ -36,6 +36,8 @@
 // German localization added
 // Optional entry in Windows folder context menu
 
+//  last modified: December 2025
+
 unit FExplorerSVG;
 
 {$INCLUDE SVGIconImageList.inc}
@@ -51,7 +53,7 @@ uses
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1.2';
+  Version = '2.1.5';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
