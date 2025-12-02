@@ -4,4 +4,4 @@
 *.backup
 *.bak
 *.bak
-*.~dpr
+*.~*
