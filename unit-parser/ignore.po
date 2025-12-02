@@ -1,0 +1,77 @@
+#. MainForm.pnTop.edLanguage.Text
+#: UnitParserMain.dfm:1086
+#. MainForm.pnTop.edLanguage.Items.Strings
+#: UnitParserMain.dfm:1089
+msgid "DE"
+msgstr ""
+
+#. MainForm.pnTop.edConfig.Items.Strings
+#: UnitParserMain.dfm:1115
+msgid "DEBUG"
+msgstr ""
+
+#. MainForm.pnTop.edLanguage.Items.Strings
+#: UnitParserMain.dfm:1088
+msgid "EN"
+msgstr ""
+
+#. MainForm.pnTop.edConfig.Text
+#: UnitParserMain.dfm:1112
+#. MainForm.pnTop.edConfig.Items.Strings
+#: UnitParserMain.dfm:1114
+msgid "RELEASE"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. Form1.Font.Name
+#: CopyDpr.dfm:11
+#. MainForm.Font.Name
+#: CopyDprMain.dfm:11
+#. MainForm.Font.Name
+#: SvgParserMain.dfm:11
+#. UnitDestDialog.Font.Name
+#: UnitDestlDlg.dfm:11
+#. UnitDestDialog.Label2.Font.Name
+#: UnitDestlDlg.dfm:41
+#. MainForm.Font.Name
+#: UnitParserMain.dfm:11
+msgid "Tahoma"
+msgstr ""
+
+#  Doesn't look like text
+#. MainForm.pnTop.edPlatform.Text
+#: UnitParserMain.dfm:1099
+#. MainForm.pnTop.edPlatform.Items.Strings
+#: UnitParserMain.dfm:1101
+msgid "WIN32"
+msgstr ""
+
+#  Doesn't look like text
+#. MainForm.pnTop.edPlatform.Items.Strings
+#: UnitParserMain.dfm:1102
+msgid "WIN64"
+msgstr ""
+
+#  Seems like a propertie Value
+#. Form1.ShellListView.Root
+#: CopyDpr.dfm:233
+#. Form1.ShellComboBox.Root
+#: CopyDpr.dfm:250
+#. MainForm.ShellListView.Root
+#: CopyDprMain.dfm:240
+#. MainForm.ShellComboBox.Root
+#: CopyDprMain.dfm:259
+msgid "rfDesktop"
+msgstr ""
+
+#. MainForm.SaveDialog.DefaultExt
+#: SvgParserMain.dfm:1267
+msgid "txt"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. MainForm.StatusBar.Font.Name
+#: UnitParserMain.dfm:1400
+msgid "Segoe UI"
+msgstr ""
+

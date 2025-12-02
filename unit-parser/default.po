@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-11-30 13:11+0100\n"
+"PO-Revision-Date: 2025-11-30 13:11+0100\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GgtTranslate 3.3.4\n"
+
+#. Form1.Caption
+#: CopyDpr.dfm:4
+#. MainForm.Caption
+#: CopyDprMain.dfm:4
+msgid "Copy Delphi project files (DPR) to GitHub"
+msgstr ""
+
+#. Form1.Label1.Caption
+#: CopyDpr.dfm:25
+#. MainForm.Label1.Caption
+#: CopyDprMain.dfm:28
+#. MainForm.paTop.Label5.Caption
+#: SvgParserMain.dfm:35
+#: CopyDprMain.pas:207
+#: SvgParserMain.pas:204
+msgid "Project directory"
+msgstr ""
+
+#. Form1.Label2.Caption
+#: CopyDpr.dfm:119
+#. MainForm.Label2.Caption
+#: CopyDprMain.dfm:123
+#: CopyDprMain.pas:194
+msgid "GitHub directory"
+msgstr ""
+
+#. MainForm.bbConvert.Caption
+#: CopyDprMain.dfm:484
+msgid "Copy"
+msgstr ""
+
+#. MainForm.btSelectAll.Hint
+#: CopyDprMain.dfm:896
+#. MainForm.pnTop.btSelAll.Hint
+#: UnitParserMain.dfm:162
+msgid "Select all"
+msgstr ""
+
+#. MainForm.btSelectNone.Hint
+#: CopyDprMain.dfm:987
+#. MainForm.pnTop.btSelNone.Hint
+#: UnitParserMain.dfm:107
+msgid "Deselect all"
+msgstr ""
+
+#. MainForm.Caption
+#: SvgParserMain.dfm:4
+msgid "Parse Delphi DFM files for SVG image "
+"names"
+msgstr ""
+
+#. MainForm.paTop.bbProject.Hint
+#: SvgParserMain.dfm:42
+#. MainForm.pnTop.bbProject.Hint
+#: UnitParserMain.dfm:428
+#: UnitParserMain.pas:315
+msgid "Select Delphi project or source"
+msgstr ""
+
+#. MainForm.paClient.paZipDirs.Label1.Caption
+#: SvgParserMain.dfm:301
+#: SvgParserMain.pas:214
+msgid "SVG root directory"
+msgstr ""
+
+#. MainForm.paClient.paZipDirs.bbSvgDir.Hint
+#: SvgParserMain.dfm:308
+msgid "Select SVG root directory"
+msgstr ""
+
+#. MainForm.paClient.paZipDirs.lvDirs.Caption
+#: SvgParserMain.dfm:528
+msgid "Name"
+msgstr ""
+
+#. MainForm.paClient.paZipDirs.lvDirs.Caption
+#: SvgParserMain.dfm:533
+#. MainForm.lvwFiles.Caption
+#: UnitParserMain.dfm:39
+msgid "Date"
+msgstr ""
+
+#. MainForm.paClient.paTools.bbParse.Hint
+#: SvgParserMain.dfm:560
+msgid "Parse Delphi files and extract image "
+"names"
+msgstr ""
+
+#. MainForm.paClient.bbZip.Hint
+#: SvgParserMain.dfm:1064
+msgid "Copy into zip"
+msgstr ""
+
+#. MainForm.paClient.bbZip.Caption
+#: SvgParserMain.dfm:1065
+msgid "Zip"
+msgstr ""
+
+#. UnitDestDialog.Caption
+#: UnitDestlDlg.dfm:4
+msgid "Copy selected sources"
+msgstr ""
+
+#. UnitDestDialog.Label1.Caption
+#: UnitDestlDlg.dfm:29
+msgid "Root directory for destination:"
+msgstr ""
+
+#. UnitDestDialog.Label2.Caption
+#: UnitDestlDlg.dfm:37
+msgid "Start copying?"
+msgstr ""
+
+#. UnitDestDialog.OKBtn.Caption
+#: UnitDestlDlg.dfm:52
+msgid "OK"
+msgstr ""
+
+#. UnitDestDialog.CancelBtn.Caption
+#: UnitDestlDlg.dfm:117
+msgid "Cancel"
+msgstr ""
+
+#. UnitDestDialog.cbDeleteAll.Caption
+#: UnitDestlDlg.dfm:180
+msgid "Delete all existing files at destination"
+msgstr ""
+
+#. UnitDestDialog.rgDestOptions.Caption
+#: UnitDestlDlg.dfm:197
+msgid "Copy external units, dialogs, etc. to"
+msgstr ""
+
+#. UnitDestDialog.rgDestOptions.Items.Strings
+#: UnitDestlDlg.dfm:200
+msgid "Root directory"
+msgstr ""
+
+#. UnitDestDialog.rgDestOptions.Items.Strings
+#: UnitDestlDlg.dfm:201
+msgid "Common subdirectory \"units\""
+msgstr ""
+
+#. UnitDestDialog.rgDestOptions.Items.Strings
+#: UnitDestlDlg.dfm:202
+msgid "Separate directories as in the original"
+msgstr ""
+
+#. MainForm.Caption
+#: UnitParserMain.dfm:4
+#. MainForm.bbParse.Hint
+#: UnitParserMain.dfm:1185
+#: UnitParserMain.pas:217
+msgid "Parse Delphi project or source for used "
+"units"
+msgstr ""
+
+#. MainForm.lvwFiles.Caption
+#: UnitParserMain.dfm:31
+msgid "Unit name"
+msgstr ""
+
+#. MainForm.lvwFiles.Caption
+#: UnitParserMain.dfm:35
+msgid "Used in"
+msgstr ""
+
+#. MainForm.lvwFiles.Caption
+#: UnitParserMain.dfm:44
+msgid "Size"
+msgstr ""
+
+#. MainForm.pnTop.Label1.Caption
+#: UnitParserMain.dfm:72
+msgid "Search path:"
+msgstr ""
+
+#. MainForm.pnTop.Label2.Caption
+#: UnitParserMain.dfm:79
+msgid "Language:"
+msgstr ""
+
+#. MainForm.pnTop.Label3.Caption
+#: UnitParserMain.dfm:86
+msgid "Platform:"
+msgstr ""
+
+#. MainForm.pnTop.Label4.Caption
+#: UnitParserMain.dfm:93
+msgid "Config:"
+msgstr ""
+
+#. MainForm.pnTop.Label5.Caption
+#: UnitParserMain.dfm:100
+msgid "Project file , project source or unit:"
+msgstr ""
+
+#. MainForm.pnTop.bbCopy.Hint
+#: UnitParserMain.dfm:217
+msgid "Copy all selected sources to a separate "
+"directory"
+msgstr ""
+
+#. MainForm.pnTop.bbCopy.Caption
+#: UnitParserMain.dfm:219
+msgid "Copy sources"
+msgstr ""
+
+#. MainForm.pnTop.bbSearchPath.Hint
+#: UnitParserMain.dfm:1057
+msgid "Edit search path"
+msgstr ""
+
+#. MainForm.pnTop.bbCollapse.Hint
+#: UnitParserMain.dfm:1132
+msgid "Collapse all groups"
+msgstr ""
+
+#. MainForm.pnTop.bbExpand.Hint
+#: UnitParserMain.dfm:1158
+msgid "Expand all groups"
+msgstr ""
+
+#. MainForm.bbParse.Caption
+#: UnitParserMain.dfm:1187
+msgid "Parse project"
+msgstr ""
+
+#. MainForm.StatusBar.bbShowLog.Hint
+#: UnitParserMain.dfm:1418
+msgid "Show copy log"
+msgstr ""
+
+#: CopyDprMain.pas:159
+msgid "project of"
+msgstr ""
+
+#: CopyDprMain.pas:159
+msgid "projects of"
+msgstr ""
+
+#: CopyDprMain.pas:160
+msgid " %u selected"
+msgstr ""
+
+#: CopyDprMain.pas:161
+msgid "project"
+msgstr ""
+
+#: CopyDprMain.pas:161
+msgid "projects"
+msgstr ""
+
+#: CopyDprMain.pas:326
+msgid "file copied"
+msgstr ""
+
+#: CopyDprMain.pas:326
+msgid " files copied"
+msgstr ""
+
+#: SvgParserMain.pas:365
+msgid "%u images"
+msgstr ""
+
+#: UnitParserMain.pas:302
+msgid "<Retrieved from project>"
+msgstr ""
+
+#: UnitParserMain.pas:314
+msgid "Delphi projects|*.dproj|Delphi sources|*.pas;*.dpr|all|*.*"
+msgstr ""
+
+#: UnitParserMain.pas:399
+msgid "Define search path for units"
+msgstr ""
+
+#: UnitParserMain.pas:418
+msgid "Copied files"
+msgstr ""
+
+#: UnitParserMain.pas:418
+msgid "Destination: "
+msgstr ""
+
+#: UnitParserMain.pas:419
+msgid "%u files copied"
+msgstr ""
+
+#: UnitParserMain.pas:536
+msgid "No units selected!\n"
+"Copy only project files?"
+msgstr ""
+
+#: UnitParserMain.pas:542
+msgid "Select destination directory"
+msgstr ""
+
+#: UnitParserMain.pas:544
+msgid "Delete all existing files"
+msgstr ""
+
+#. copy units
+#: UnitParserMain.pas:576
+msgid "Copying: %s"
+msgstr ""
+
+#: UnitParserMain.pas:589
+msgid "%u files copied to %s"
+msgstr ""
+
+#: UnitParserMain.pas:777
+#. fs : TFileStream;
+#: UnitParserMain.pas:902
+#. analyze project file
+#: UnitParserMain.pas:1140
+msgid "Scanning: %s"
+msgstr ""
+
+#: UnitParserMain.pas:907
+msgid "Error"
+msgstr ""
+
+#: UnitParserMain.pas:907
+#. Scan main source for units
+#: UnitParserMain.pas:1162
+msgid "File not found: "
+msgstr ""
+
+#: UnitParserMain.pas:908
+msgid "Skip"
+msgstr ""
+
+#: UnitParserMain.pas:908
+msgid "Skip all"
+msgstr ""
+
+#: UnitParserMain.pas:1077
+msgid "Searching for units from: %s"
+msgstr ""
+
+#: UnitParserMain.pas:1099
+msgid "<File not found>"
+msgstr ""
+
+#: UnitParserMain.pas:1110
+msgid "%u Units found"
+msgstr ""
+
+#: UnitParserMain.pas:1164
+msgid "Main source not found!"
+msgstr ""
+
+#. Pascal source
+#: UnitParserMain.pas:1198
+msgid "Invalid search path!"
+msgstr ""
+
+#: UnitParserMain.pas:1202
+msgid "File not found: %s"
+msgstr ""
+
