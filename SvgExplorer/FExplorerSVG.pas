@@ -1043,13 +1043,13 @@ begin
             ok:=ExportToPng(SizeList[k],si.SVG,sPng);
             if ok then PngList.Add(sPng) else Break;
             end;
-          end;
-        if ok then begin
-          CreateIconFromPngStreamList(AddPath(se,NewExt(si.Name,IconExt)),PngList);
-          inc(n);
+          if ok then begin
+            CreateIconFromPngStreamList(AddPath(se,NewExt(si.Name,IconExt)),PngList);
+            inc(n);
+            end
+          else  MessageDlg(Format(rsIconError,[si.Name]),mtError,[mbOk],0,mbNo);
+          FreeList(PngList);
           end
-        else  MessageDlg(Format(rsIconError,[si.Name]),mtError,[mbOk],0,mbNo);
-        FreeList(PngList);
         end;
       SizeList:=nil;
       end;

@@ -154,6 +154,7 @@ function GetDesktopFolder (Typ : integer) : string;
 function GetKnownFolder (rfId : TGUID) : string;
 function GetProgramFolder (pfType : TProgramFolder) : string;
 
+function GetUserProfileFolder : string;
 function GetPersonalFolder : string;
 function GetAppDataFolder : string;
 function GetLocalAppDataFolder : string;
@@ -393,6 +394,12 @@ begin
       else Result:=GetDesktopFolder(CSIDL_PROGRAM_FILES);
       end;
     end;
+  end;
+
+function GetUserProfileFolder : string;
+begin
+  if IsVista then Result:=GetKnownFolder(FOLDERID_PROFILE)
+  else Result:=GetDesktopFolder(CSIDL_PROFILE);
   end;
 
 function GetPersonalFolder : string;

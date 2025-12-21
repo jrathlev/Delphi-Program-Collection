@@ -133,13 +133,15 @@ const
 { ------------------------------------------------------------------- }
 function FilenameToXL(const FileName : string) : string;
 begin
-  if (copy(FileName,1,2)='\\') then begin
-    if (copy(FileName,3,2)='?\') then Result:=FileName               // has already prefix
-    else Result:='\\?\UNC\'+Copy(Filename,3,length(Filename)-2);     // network
+  if (copy(FileName,1,2)='\\') then begin             // UNC path
+    if (copy(FileName,3,2)='?\') then Result:=FileName                 // has already prefix
+    else if length(FileName)>=MaxPathLength then
+      Result:='\\?\UNC\'+Copy(Filename,3,length(Filename)-2)           // network
+    else Result:=FileName;                                             // leave unchanged
     end
   else if ((length(FileName)>1) and (FileName[2]<>':')) then Result:=Filename // relative path                                                // relative path
   else if length(FileName)>=MaxPathLength then Result:='\\?\'+FileName  // add prefix
-  else Result:=FileName;                                           // let unchanged
+  else Result:=FileName;                                                // leave unchanged
   end;
 
 { ------------------------------------------------------------------- }

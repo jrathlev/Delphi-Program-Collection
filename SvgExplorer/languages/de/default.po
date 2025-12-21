@@ -318,7 +318,7 @@ msgstr "%u Icon(s) aus SVG-Bilder(n) erstellt"
 #. Programmer's name for it: rsIconError
 #: FExplorerSVG.pas:81
 msgid "Error creating icon from %s"
-msgstr "Fehler beim Erstellen eines Iconss aus %s"
+msgstr "Fehler beim Erstellen eines Icons aus %s"
 
 #. Programmer's name for it: rsExecErr
 #: FExplorerSVG.pas:82
