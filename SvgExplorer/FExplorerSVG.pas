@@ -53,7 +53,7 @@ uses
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1.5';
+  Version = '2.1.6';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025-2026 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
