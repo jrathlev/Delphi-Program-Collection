@@ -55,7 +55,7 @@ const
   ProgName = 'Svg Explorer';
   Version = '2.1.5';
   CopRgt1 = '© 2020-2024 Ethea';
-  CopRgt2 = '© 2025 J. Rathlev';
+  CopRgt2 = '© 2025-2026 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
 
 resourcestring
@@ -208,7 +208,6 @@ type
     procedure RenameActionExecute(Sender: TObject);
     procedure ActionUpdate(Sender: TObject);
     procedure ShowTextCheckBoxClick(Sender: TObject);
-    procedure TrackBarChange(Sender: TObject);
     procedure grpFactoryClick(Sender: TObject);
     procedure RefreshActionExecute(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -239,6 +238,8 @@ type
     procedure cbIconDirCloseUp(Sender: TObject);
     procedure IconActionExecute(Sender: TObject);
     procedure spRightMoved(Sender: TObject);
+    procedure spRightCanResize(Sender: TObject; var NewSize: Integer;
+      var Accept: Boolean);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
@@ -410,15 +411,16 @@ begin
   with gbSizes do for i:=0 to ControlCount-1  do if Controls[i] is TCheckBox then begin
     with (Controls[i] as TCheckBox) do Checked:=sz and BitMask[Tag] <>0;
     end;
+  if w<fpaPreviewSize then w:=fpaPreviewSize;
   paPreview.Width:=w;
   with pcTools do begin
     ToolHeight:=Height;
     with TabRect(0) do if Top>TabRect(1).Top then h:=Height else h:=0;
     Height:=Height+h;
     end;
-  h:=ClientHeight-gbProperties.Height-pcTools.Height-grpFactory.Height-paTools.Height-MulDiv(btnOpen.Height,15,10);
-  if h>w then paPreview.Width:=w
-  else paPreview.Width:=h; //ClientHeight-h;
+//  h:=ClientHeight-gbProperties.Height-pcTools.Height-pcTools.Height-paTools.Height-MulDiv(btnOpen.Height,15,10);
+//  if h<=w then
+//  else paPreview.Width:=h; //ClientHeight-h;
   for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
     grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
   grpFactory.ItemIndex := integer(Low(TSVGFactory));
@@ -482,6 +484,13 @@ begin
   rgSizeClick(Sender);
   SelectDir(cbSelectedDir.Text);
   if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
+  SVGIconImage.Height := SVGIconImage.Width;
+  end;
+
+procedure TfmExplorerSVG.spRightCanResize(Sender: TObject; var NewSize: Integer;
+  var Accept: Boolean);
+begin
+  Accept:=NewSize>=fpaPreviewSize;
   end;
 
 procedure TfmExplorerSVG.spRightMoved(Sender: TObject);
@@ -489,7 +498,7 @@ var
   h : integer;
 begin
   with pcTools do begin
-    with TabRect(0) do if Top>TabRect(1).Top then h:=Height else h:=0;
+    with TabRect(0) do if Top>TabRect(PageCount-1).Top then h:=Height else h:=0;
     Height:=ToolHeight+h;
     end;
   end;
@@ -898,7 +907,7 @@ end;
 
 procedure TfmExplorerSVG.paPreviewResize(Sender: TObject);
 begin
-  SVGIconImage.Height := SVGIconImage.width;
+  SVGIconImage.Height := SVGIconImage.Width;
 end;
 
 procedure TfmExplorerSVG.pmImagesPopup(Sender: TObject);
@@ -1252,13 +1261,7 @@ begin
       paPreview.Width := MulDiv(paPreview.Width,100,150)
     else paPreview.Width := fpaPreviewSize;
     end;
-end;
-
-procedure TfmExplorerSVG.TrackBarChange(Sender: TObject);
-begin
-  //Resize all icons into ImageList
-//  SVGIconImageList.Size := TrackBar.Position;
-//  laIconsSize.Caption:=Format('Icons size: %u',[SVGIconImageList.Size]);
-end;
+  spRightMoved(Sender);
+  end;
 
 end.
