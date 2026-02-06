@@ -856,7 +856,7 @@ function FRect (ax1,ay1,ax2,ay2 : double) : TFRect;
 {-----------------------------------------------------------------------}
 implementation
 
-uses System.Math, DateUtils, MathUtils, NumberUtils;
+uses System.Math, DateUtils, MathUtils, NumberUtils, OEMUtils;
 
 {-----------------------------------------------------------------------}
 (* Koordinatenpaar als Double zuweisen (siehe auch Point) *)

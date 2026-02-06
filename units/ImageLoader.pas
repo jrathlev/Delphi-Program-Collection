@@ -28,6 +28,9 @@
      are created:
      - "InitImageLoader;" if only the default archive is used
      - "InitImageLoader([grp1,grp2,..]);"  if additional groups are used
+   - If the design should be read from a cfg file, the associated filename must be
+     specified either by calling "InitTranslation" (see unit "LangUtils") or
+     by using the overload version of "InitImageLoader(CfgName,...)"
    - Each form of the program must call the procedure LoadImages in the OnCreate
      event. All SVGIconImageList or SVGIconImageCollection used in the form
      must be specified as list: "LoadImages ([AImageIcons1,AImageIcons2,...);"
@@ -52,7 +55,7 @@
    the specific language governing rights and limitations under the License.
 
    May 2025
-   last modified: August 2025
+   last modified: February 2026
    *)
 
 unit ImageLoader;
@@ -72,6 +75,7 @@ procedure InitImageLoader; overload;
 procedure InitImageLoader (const AImgGroups : array of string); overload;
 procedure InitImageLoader (const SubDir : string); overload;
 procedure InitImageLoader (const SubDir : string; const AImgGroups : array of string); overload;
+procedure InitImageLoader (const ConfigName,SubDir : string; const AImgGroups : array of string); overload;
 
 function GetImageStyle : TImageStyle;
 procedure SetImageStyle (AImgStyle  : TImageStyle);
@@ -202,7 +206,7 @@ var
 
 begin
   po:=false; si:=''; st:=''; FStyleType:=stNormal; Result:=isDefault;
-  for j:=1 to ParamCount do begin   // prüfe Befehlszeile
+  for j:=1 to ParamCount do begin   // check command line
     s:=ParamStr(j);
     if (s[1]='/') or (s[1]='-') then begin
       delete (s,1,1);
@@ -215,30 +219,19 @@ begin
       end;
     end;
 
-//  if st.IsEmpty and CfgName.IsEmpty and not si.IsEmpty then begin  // alternate ini path
-//    if AnsiEndsText(PathDelim,si) then CfgName:=si+ExtractFilename(CfgName) // is path
-//    else begin
-//      s:=ExtractFilename(si);
-//      if po then s:=ChangeFileExt(s,'.'+CfgExt)
-//      else s:=ExtractFileName(CfgName);
-//      if ContainsFullPath(si) then si:=ExtractFilePath(si)
-//      else if po then begin
-//        if Pos(PathDelim,si)>0 then
-//          si:=IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName))+si
-//        else si:=ExtractFilePath(Application.ExeName);
-//        end
-//      else begin
-//        if Pos(PathDelim,si)>0 then si:=ExtractFilePath(ExpandFileName(si))
-//        else si:=ExtractFilePath(CfgName);
-//        end;
-//      CfgName:=IncludeTrailingPathDelimiter(si)+s;
-//      end
-//    end;
   if length(st)=0 then begin    // from cfg file
     if FileExists(CfgName) then with TMemIniFile.Create(CfgName) do begin
       Result:=TImageStyle(ReadInteger(CfgSekt,iniStyle,0));
       if not ValueExists(CfgSekt,iniStyle) then FStyleType:=stMiss;
       Free;
+      end
+    else begin // search in install directory
+      st:=PrgPath+ExtractFileName(CfgName);
+      if FileExists(st) then with TMemIniFile.Create(st) do begin
+        Result:=TImageStyle(ReadInteger(CfgSekt,iniStyle,0));
+        if not ValueExists(CfgSekt,iniStyle) then FStyleType:=stMiss;
+        Free;
+        end;
       end;
     end
   else begin    // change default style
@@ -282,6 +275,15 @@ begin
 procedure InitImageLoader;
 begin
   InitImageLoader('',[]);
+  end;
+
+procedure InitImageLoader (const ConfigName,SubDir : string; const AImgGroups : array of string); overload;
+begin
+  if not CfgName.IsEmpty then Exit;  // already defined by InitTranslation
+  if length(ConfigName)>0 then CfgName:=ConfigName
+  else CfgName:=ChangeFileExt(PrgName,'.'+CfgExt);
+  CfgName:=IncludeTrailingPathDelimiter(GetAppPath)+CfgName;
+  InitImageLoader(SubDir,AImgGroups);
   end;
 
 function LoadImageStyle (ACfgFile : TCustomIniFile) : TImageStyle;

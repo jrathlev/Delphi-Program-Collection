@@ -655,7 +655,8 @@ begin
     cbSize := system.sizeof(tnid);     // Größenangabe der Struktur
     Wnd := WinHandle;                  // Handle des Message-Empfängers
     uID := UserId;                     // ID beliebig
-    uFlags := 0;                       // siehe Tabelle
+    uFlags := NIF_STATE;               // siehe Tabelle
+    dwStateMask:=NIS_HIDDEN;
     if MessageID>0 then uFlags:=NIF_MESSAGE;
     uCallbackMessage := MessageID;     // Message Identifier
     if IconHandle<>0 then uFlags:=uFlags or NIF_ICON;
