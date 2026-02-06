@@ -36,7 +36,7 @@
 // German localization added
 // Optional entry in Windows folder context menu
 
-//  last modified: December 2025
+//  last modified: February 2026
 
 unit FExplorerSVG;
 
@@ -53,7 +53,7 @@ uses
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1.6';
+  Version = '2.1.7';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025-2026 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
@@ -1106,8 +1106,9 @@ begin
 
 procedure TfmExplorerSVG.OpenActionExecute(Sender: TObject);
 begin
-  ShellExecute(Handle,'open',pchar(IncludeTrailingPathDelimiter(cbSelectedDir.Text)+
-    SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt),nil,nil,SW_SHOW);
+  if assigned(ImageView.Selected) then
+    ShellExecute(Handle,'open',pchar(IncludeTrailingPathDelimiter(cbSelectedDir.Text)+
+      SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt),nil,nil,SW_SHOW);
   end;
 
 procedure TfmExplorerSVG.RefreshActionExecute(Sender: TObject);
@@ -1230,6 +1231,7 @@ begin
         RenameFile(LPath+LFileName+SvgExt, LPath+LNewFileName+SvgExt);
       SVGIconImageList.Names[LIndex] := LNewFileName;
       UpdateHeader;
+      ImageView.ItemIndex:=LIndex;
       UpdateView(LIndex);
     end;
   end;

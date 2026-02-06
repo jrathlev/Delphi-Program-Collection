@@ -575,10 +575,6 @@ object fmExplorerSVG: TfmExplorerSVG
       object tsExport: TTabSheet
         Caption = 'Export PNG'
         ImageIndex = 1
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         DesignSize = (
           221
           174)
@@ -728,10 +724,6 @@ object fmExplorerSVG: TfmExplorerSVG
       object tsIcon: TTabSheet
         Caption = 'Create icon'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         DesignSize = (
           221
           174)
@@ -913,10 +905,6 @@ object fmExplorerSVG: TfmExplorerSVG
       end
       object tsOptimize: TTabSheet
         Caption = 'Optimize'
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         DesignSize = (
           221
           174)
