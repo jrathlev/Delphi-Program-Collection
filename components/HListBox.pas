@@ -358,7 +358,12 @@ begin
   if Assigned(FMenu) then begin
     (* Änderung - keine Linie, wenn Menü leer *)
     if MenuSizeBefore>0 then begin
-      FMenu.Add(NewLine); { mit einem Separator abtrennen }
+      mi:=NewLine;
+      with mi do begin
+        if assigned(FOnAutoDrawItem) then OnDrawItem:=DoAutoDrawItem;
+        if assigned(FOnAutoMeasureItem) then OnMeasureItem:=DoAutoMeasureItem;
+        end;
+      FMenu.Add(mi); { mit einem Separator abtrennen }
       SeparatorCount:=1;
       end;
     for i:=0 to Count-1 do begin

@@ -1,4 +1,5 @@
-(* Delphi component
+(* Delphi component package
+
    Number input
    ============
    - TNumberEdit     : Integer input (decimal, binary, octal or hex)
@@ -455,7 +456,7 @@ procedure Register;
 (* ----------------------------------------------------------------------- *)
 implementation
 
-uses System.SysConst, Vcl.ComStrs, System.Types, System.Math, StringUtils, MathUtils;
+uses System.SysConst, Vcl.ComStrs, System.Types, System.Math, StringUtils;
 
 {------------------------------------------------------------------}
 function FloatToStrF(Value: Extended; Format: TNumFloatFormat;
@@ -684,8 +685,6 @@ begin
 
 procedure TNumUpDown.MouseUp(Button: TMouseButton; Shift: TShiftState;
   X, Y: Integer);
-var
-  DoClick: Boolean;
 begin
   inherited MouseUp(Button, Shift, X, Y);
   if (Button = mbLeft) and Enabled then begin
@@ -865,7 +864,7 @@ function TNumberEdit.GetValueFromInput : int64;
 var
   s,t : string;
   v   : int64;
-  nm : TNumMode;
+  nm  : TNumMode;
 begin
   t:=Trim(Text);
   if (length(t)=1) and ((t[1]='+') or (t[1]='-')) then t:='';
@@ -885,7 +884,7 @@ begin
         nmHex   : v:=HexStrToInt(s);
         nmOctal : v:=OctalStrToInt(s);
         nmBin   : v:=BinStrToInt(s);
-          else v:=StrToInt(RemoveSpaces(s));
+        else v:=StrToInt(RemoveSpaces(s));
           end;
       except
         on EConvertError do begin
@@ -925,6 +924,15 @@ var
     nmZeroDec : Result:=IntToDecimal(v,n,FGroupDigits,true);
       else Result:=IntToDecimal(v,n,FGroupDigits,false);
       end;
+    end;
+
+  (* Compute power of 2 as integer *)
+  function Pwr2 (exp : integer) : int64;
+  begin
+    if exp>63 then exp:=63;
+    if exp<0 then exp:=0;
+    Result:=1;
+    Result:=Result shl exp;
     end;
 
 begin
@@ -1234,7 +1242,6 @@ begin
 
 procedure TDegreeEdit.SetValue(Value : extended);
 var
-  s : string;
   md : boolean;
 begin
   if FValue<>Value then begin

@@ -3,7 +3,7 @@
    J. Rathlev, Jan. 2007 *)
 
 const
-  CopRgt = '© 2025 - Dr. J. Rathlev, D-24222 Schwentinental';
+  CopRgt = '© 2026 - Dr. J. Rathlev, D-24222 Schwentinental';
   EMailAdr = 'kontakt(a)rathlev-home.de';
   AppSubDir = 'JR-WeicheWare';    // Unterverz. in Anwendungsdaten für Ini-Dateien
 
