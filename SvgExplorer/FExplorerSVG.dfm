@@ -724,6 +724,10 @@ object fmExplorerSVG: TfmExplorerSVG
       object tsIcon: TTabSheet
         Caption = 'Create icon'
         ImageIndex = 2
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         DesignSize = (
           221
           174)
@@ -905,6 +909,10 @@ object fmExplorerSVG: TfmExplorerSVG
       end
       object tsOptimize: TTabSheet
         Caption = 'Optimize'
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         DesignSize = (
           221
           174)
@@ -1063,6 +1071,11 @@ object fmExplorerSVG: TfmExplorerSVG
       Caption = 'Copy name'
       ShortCut = 16462
       OnClick = pmiCopyNameClick
+    end
+    object Copypath1: TMenuItem
+      Caption = 'Copy path '
+      ShortCut = 16464
+      OnClick = Copypath1Click
     end
     object pmiRename: TMenuItem
       Action = RenameAction

@@ -1,101 +1,101 @@
 #. fmExplorerSVG.Font.Name
 #: FExplorerSVG.dfm:11
 #. fmExplorerSVG.paList.paImageList.Font.Name
-#: FExplorerSVG.dfm:225
+#: FExplorerSVG.dfm:227
 #. fmExplorerSVG.paList.paImageList.laFoldername.Font.Name
-#: FExplorerSVG.dfm:252
+#: FExplorerSVG.dfm:254
 #. fmExplorerSVG.paPreview.gbProperties.laImgName.Font.Name
-#: FExplorerSVG.dfm:519
+#: FExplorerSVG.dfm:521
 msgid "Tahoma"
 msgstr ""
 
 #. fmExplorerSVG.paList.paSVGText.SVGMemo.Font.Name
-#: FExplorerSVG.dfm:208
+#: FExplorerSVG.dfm:210
 msgid "Courier New"
 msgstr ""
 
 #. fmExplorerSVG.paDir.ShellTreeView.Root
-#: FExplorerSVG.dfm:119
+#: FExplorerSVG.dfm:121
 msgid "rfDesktop"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:103
+#: FExplorerSVG.dfm:105
 msgid "16 px"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:104
+#: FExplorerSVG.dfm:106
 msgid "20 px"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:105
+#: FExplorerSVG.dfm:107
 msgid "24 px"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:106
+#: FExplorerSVG.dfm:108
 msgid "32 px"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:107
+#: FExplorerSVG.dfm:109
 msgid "48 px"
 msgstr ""
 
 #. fmExplorerSVG.paDir.TrackBarPanel.rgSize.Items.Strings
-#: FExplorerSVG.dfm:108
+#: FExplorerSVG.dfm:110
 msgid "64 px"
 msgstr ""
 
 #  Doesn't have any letters
 #. fmExplorerSVG.pmImages.N2.Caption
-#: FExplorerSVG.dfm:1072
+#: FExplorerSVG.dfm:1087
 #. fmExplorerSVG.pmDirs.N1.Caption
-#: FExplorerSVG.dfm:1145
+#: FExplorerSVG.dfm:1160
 msgid "-"
 msgstr ""
 
 #  Looks like a file extension or file mask
 #. fmExplorerSVG.FileOpenDialog.FileMask
-#: FExplorerSVG.dfm:1161
+#: FExplorerSVG.dfm:1176
 msgid "*.exe"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb016.Caption
-#: FExplorerSVG.dfm:835
+#: FExplorerSVG.dfm:841
 msgid "16x16"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb032.Caption
-#: FExplorerSVG.dfm:844
+#: FExplorerSVG.dfm:850
 msgid "32x32"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb048.Caption
-#: FExplorerSVG.dfm:853
+#: FExplorerSVG.dfm:859
 msgid "48x48"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb064.Caption
-#: FExplorerSVG.dfm:862
+#: FExplorerSVG.dfm:868
 msgid "64x64"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb128.Caption
-#: FExplorerSVG.dfm:871
+#: FExplorerSVG.dfm:877
 msgid "128x128"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb256.Caption
-#: FExplorerSVG.dfm:880
+#: FExplorerSVG.dfm:886
 msgid "256x256"
 msgstr ""
 

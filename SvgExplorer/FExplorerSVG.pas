@@ -194,6 +194,7 @@ type
     grpFactory: TRadioGroup;
     paFactory: TPanel;
     IconAction: TAction;
+    Copypath1: TMenuItem;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -240,6 +241,7 @@ type
     procedure spRightMoved(Sender: TObject);
     procedure spRightCanResize(Sender: TObject; var NewSize: Integer;
       var Accept: Boolean);
+    procedure Copypath1Click(Sender: TObject);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
@@ -1209,6 +1211,13 @@ procedure TfmExplorerSVG.pmiCopyNameClick(Sender: TObject);
 begin
   if ImageView.Selected <> nil then begin
     ClipBoard.AsText:=SVGIconImageList.Names[ImageView.Selected.ImageIndex];
+    end;
+  end;
+
+procedure TfmExplorerSVG.Copypath1Click(Sender: TObject);
+begin
+  if ImageView.Selected <> nil then begin
+    ClipBoard.AsText:=AddPath(cbSelectedDir.Text,SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt);
     end;
   end;
 

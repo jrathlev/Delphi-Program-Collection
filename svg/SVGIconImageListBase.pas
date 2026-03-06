@@ -286,6 +286,7 @@ var
   LSizeScaled: Integer;
   LWidthScaled, LHeightScaled: Integer;
 begin
+  if OldDPI=NewDPI then Exit;
   if Width = Height then
   begin
     LSizeScaled := MulDiv(Size, NewDPI, OldDPI);
