@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Personal Backup 5.9.1\n"
-"POT-Creation-Date: 2024-10-25 12:38+0200\n"
-"PO-Revision-Date: 2025-02-10 17:56+0100\n"
+"POT-Creation-Date: 2025-12-04 16:30+0100\n"
+"PO-Revision-Date: 2025-12-04 16:30+0100\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: Jacek Pazera http://www.pazera-software.com\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: GgtTranslate 3.3.4\n"
 
 msgid "Show password"
 msgstr "Pokaż hasło"
@@ -314,23 +314,14 @@ msgstr "Etykieta w ramce"
 msgid "Import/export format"
 msgstr "Importuj/eksportuj format"
 
-msgid "Character between columns"
-msgstr "Znaki pomiędzy kolumnami"
-
-msgid "other"
-msgstr "inne"
-
 msgid "Column width"
 msgstr "Szerokość kolumn"
-
-msgid "fixed"
-msgstr "stała"
 
 msgid "variable"
 msgstr "zmienna"
 
-msgid "Use embrace characters  (\")"
-msgstr "Użyj znaków  (\")"
+msgid "fixed"
+msgstr "stała"
 
 msgid "Description:"
 msgstr "Opis:"
@@ -547,7 +538,8 @@ msgid "Write communication log to file"
 msgstr "Zapisz log komunikacji do pliku"
 
 msgid "Allow filenames to be enclosed in quotes"
-msgstr "Pozwalaj na ujmowanie nazw plików w cudzysłowy"
+msgstr "Pozwalaj na ujmowanie nazw plików w "
+"cudzysłowy"
 
 msgid "FTP proxy server options"
 msgstr "Opcje serwera proxy FTP"
@@ -713,6 +705,9 @@ msgstr "Wybór LPT"
 msgid "Printer (Port/Irq)"
 msgstr "Drukarka (Port/Irq)"
 
+msgid "other"
+msgstr "inne"
+
 msgid "Port addr.:"
 msgstr "Adres portu:"
 
@@ -781,6 +776,18 @@ msgstr "Zaznacz wszystko"
 
 msgid "Select none"
 msgstr "Odznacz wszystko"
+
+msgid "All files (*.*)|*.*"
+msgstr "Wszystkie pliki (*.*)|*.*"
+
+msgid "Add selected files"
+msgstr ""
+
+msgid "Add selected filter"
+msgstr ""
+
+msgid "Subdirectory:"
+msgstr ""
 
 msgid "Printer settings"
 msgstr "Ustawienia drukarki"
@@ -874,8 +881,6 @@ msgstr "Wybierz kolor"
 msgid "Additional colors:"
 msgstr "Dodatkowe kolory:"
 
-#. SelectColorDialog.Label2.Caption
-#: SelectColorDlg.dfm:32
 msgid "Basic colors:"
 msgstr "Kolory podstawowe:"
 
@@ -990,9 +995,6 @@ msgstr "Nazwa pliku:"
 msgid "File type:"
 msgstr "Typ pliku:"
 
-msgid "All files (*.*)|*.*"
-msgstr "Wszystkie pliki (*.*)|*.*"
-
 msgid "Show text"
 msgstr "Pokaż tekst"
 
@@ -1097,9 +1099,10 @@ msgstr "Porównanie sygnatury czasowej pliku"
 msgid "Time comparison tolerance in s:"
 msgstr "Tolerancja porównywania czasu w s:"
 
-msgid ""
-"Ignore 1 hour time difference from daylight saving time (winter - summer)"
-msgstr "Ignoruj 1 godzinę różnicy czasu od czasu letniego (zima - lato)"
+msgid "Ignore 1 hour time difference from daylight saving time (winter - "
+"summer)"
+msgstr "Ignoruj 1 godzinę różnicy czasu od czasu letniego (zima - "
+"lato)"
 
 msgid "Transfer status"
 msgstr "Status transferu"
@@ -1184,11 +1187,9 @@ msgstr "Opis"
 msgid "Filter"
 msgstr "Filtr"
 
-msgid ""
-"Invalid filter mask!\n"
+msgid "Invalid filter mask!\n"
 "Should resemble %s or %s"
-msgstr ""
-"Nieprawidłowa maska filtru!\n"
+msgstr "Nieprawidłowa maska filtru!\n"
 "Powinna być podobna do %s lub %s"
 
 msgid "Replace text"
@@ -1203,12 +1204,10 @@ msgstr "Szukaj tekstu"
 msgid "Searching for directories"
 msgstr "Wyszukiwanie katalogów"
 
-msgid ""
-"Connection to FTP server: %s:%u\n"
+msgid "Connection to FTP server: %s:%u\n"
 "for user: %s\n"
 "requires a password!"
-msgstr ""
-"Aby połączyć się z serwerem FTP: %s:%u\n"
+msgstr "Aby połączyć się z serwerem FTP: %s:%u\n"
 "jako użytkownik: %s\n"
 "wymagane jest hasło!"
 
@@ -1216,7 +1215,8 @@ msgid "Trying to connect to FTP server"
 msgstr "Próba połączenia z serwerem FTP"
 
 msgid "Connection to FTP server failed"
-msgstr "Połączenie z serwerem FTP nie powiodło się"
+msgstr "Połączenie z serwerem FTP nie powiodło "
+"się"
 
 msgid "Secure mode: "
 msgstr "Tryb bezpieczny: "
@@ -1230,12 +1230,12 @@ msgstr "Nie określono nazwy użytkownika!"
 msgid "Invalid port number (%s)"
 msgstr "Nieprawidłowy adres portu (%s)"
 
-msgid ""
-"Online help is not available on your system\n"
-"You need to install Internet Explorer Vers. 4 or newer"
-msgstr ""
-"Pomoc online nie jest dostępna na twoim systemie\n"
-"Wymagany jest Internet Explorer 4 lub nowszy"
+msgid "Online help is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or "
+"newer"
+msgstr "Pomoc online nie jest dostępna na twoim systemie\n"
+"Wymagany jest Internet Explorer 4 lub "
+"nowszy"
 
 msgid "Error: Out of range (%s)"
 msgstr "Błąd: Przekroczono zakres (%s)"
@@ -1251,7 +1251,8 @@ msgstr "Błąd: Nieprawidłowy adres portu (%s)"
 
 # Fehler: Ungültige Interruptadresse (%s)
 msgid "Error: Invalid interrupt (%s)"
-msgstr "Błąd: Nieprawidłowy adres przerwania (%s)"
+msgstr "Błąd: Nieprawidłowy adres przerwania "
+"(%s)"
 
 msgid "Please specify an SMTP server!"
 msgstr "Proszę podać serwer FTP!"
@@ -1265,17 +1266,24 @@ msgstr "Nowy odbiorca poczty"
 msgid "Address:"
 msgstr "Adres:"
 
-msgid ""
-"Remove recipient:\n"
+msgid "Remove recipient:\n"
 "%s\n"
 "from list?"
-msgstr ""
-"Usunąć odbiorcę:\n"
+msgstr "Usunąć odbiorcę:\n"
 "%s\n"
 "z listy?"
 
 msgid "Edit mail recipient"
 msgstr "Edytuj odbiorcę poczty"
+
+msgid "No files selected - close anyway?"
+msgstr ""
+
+msgid "all"
+msgstr ""
+
+msgid " files"
+msgstr ""
 
 msgid "Canceled by user"
 msgstr "Anulowane przez użytkownika"
@@ -1304,21 +1312,17 @@ msgstr "Usunąć element: \"%s\"?"
 msgid "Default: "
 msgstr "Domyślnie: "
 
-msgid ""
-"Directory not found:\n"
+msgid "Directory not found:\n"
 "%s!"
-msgstr ""
-"Nie znaleziono katalogu:\n"
+msgstr "Nie znaleziono katalogu:\n"
 "%s!"
 
 msgid "New subdirectory:"
 msgstr "Nowy podkatalog:"
 
-msgid ""
-"Could not create directory:\n"
+msgid "Could not create directory:\n"
 "%s!"
-msgstr ""
-"Nie można utworzyć katalogu:\n"
+msgstr "Nie można utworzyć katalogu:\n"
 "%s!"
 
 msgid "Delete directory"
@@ -1343,18 +1347,17 @@ msgstr "Usunięto %u katalogi(ów) z %u plikami!"
 msgid "%s moved to Recycle Bin!"
 msgstr "%s przeniesiono do Kosza!"
 
-msgid ""
-"Error deleting directory:\n"
+msgid "Error deleting directory:\n"
 "%s!"
-msgstr ""
-"Błąd podczas usuwania katalogu:\n"
+msgstr "Błąd podczas usuwania katalogu:\n"
 "%s!"
 
 msgid " free of "
 msgstr " wolne z "
 
 msgid "Directory is not empty, delete anyway?"
-msgstr "Katalog nie jest pusty, czy mimo wszystko usunąć?"
+msgstr "Katalog nie jest pusty, czy mimo wszystko "
+"usunąć?"
 
 msgid " Line: %u of %u"
 msgstr " Linia: %u z %u"
@@ -1383,9 +1386,9 @@ msgstr "Nie znaleziono \"%s\"!"
 msgid "No further sections!"
 msgstr "Brak dalszych sekcji!"
 
-msgid "Invalid code page - Windows default is used!"
-msgstr ""
-"Nieprawidłowa strona kodowa - używana jest domyślna strona systemu "
+msgid "Invalid code page - Windows default is "
+"used!"
+msgstr "Nieprawidłowa strona kodowa - używana jest domyślna strona systemu "
 "Windows!"
 
 msgid "No further errors!"
@@ -1434,11 +1437,9 @@ msgstr "Anulowane przez użytkownika!"
 msgid "Error during file transfer!"
 msgstr "Błąd podczas transferu pliku!"
 
-msgid ""
-"%u file(s) deleted\n"
+msgid "%u file(s) deleted\n"
 "%u file(s) copied!"
-msgstr ""
-"Usunięto %u pliki(ów)\n"
+msgstr "Usunięto %u pliki(ów)\n"
 "skopiowano %u pliki(ów)!"
 
 msgid "%u file(s) deleted!"
@@ -1450,12 +1451,12 @@ msgstr "Skopiowano %u pliki(ów)"
 msgid "Nothing to do!"
 msgstr "Nie ma nic do zrobienia!"
 
-msgid ""
-"The integrated web browser is not available on your system\n"
-"You need to install Internet Explorer Vers. 4 or newer."
-msgstr ""
-"Zintegrowana przeglądarka nie jest dostępna na twoim systemie\n"
-"Wymagany jest Internet Explorer 4 lub nowszy."
+msgid "The integrated web browser is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or "
+"newer."
+msgstr "Zintegrowana przeglądarka nie jest dostępna na twoim systemie\n"
+"Wymagany jest Internet Explorer 4 lub "
+"nowszy."
 
 msgid "%s verification failed!"
 msgstr "Weryfikacja %s zakończyła się niepowodzeniem!"
@@ -1468,3 +1469,4 @@ msgstr "Klasyczna przeglądarka"
 
 msgid "Edge Browser"
 msgstr "Przeglądarka Edge"
+

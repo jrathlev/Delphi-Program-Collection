@@ -30,6 +30,7 @@
    Vers. 3.3 - Mar. 2024 : changed to TMemIniFile
    Vers. 3.4 - Jan. 2025 : uses SVG images for buttons
                            https://github.com/EtheaDev/SVGIconImageList
+   Vers. 3.5 - Jan. 2026 : popmenu for HighDPI
 
    last modified: July 2025
    *)
@@ -106,10 +107,15 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormAfterMonitorDpiChanged(Sender: TObject; OldDPI,
       NewDPI: Integer);
+    procedure pmiMeasureItem(Sender: TObject; ACanvas: TCanvas;
+      var Width, Height: Integer);
+    procedure pmiDrawItem(Sender: TObject; ACanvas: TCanvas;
+      ARect: TRect; Selected: Boolean);
   private
     { Private declarations }
     FDefaultDir,FIniName,FIniSection : string;
     DirList   : TStringList;
+    PixelsPerInchOnCreate : integer;
     procedure SaveToIni;
     function GetDiskInfo (const APath : string) : string;
     procedure ShowFiles (AShow : boolean);
@@ -141,11 +147,11 @@ implementation
 
 uses System.IniFiles, Vcl.Dialogs, System.StrUtils, Winapi.ShlObj, Winapi.Shellapi,
   Winapi.ActiveX, WinShell, WinUtils, ShowMessageDlg, PathUtils, NumberUtils,
-  GnuGetText, SelectDlg
+  GnuGetText, SelectDlg, MenuUtils
 {$IFDEF Trace}
   , FileUtils
 {$EndIf}
-  , ImageLoader;
+  , ImageLoader, StyleUtils;
 
 const
   FMaxLen = 15;
@@ -160,7 +166,10 @@ begin
   WriteDebugLog('Create ShellDirDlg');
 {$EndIf}
   TranslateComponent (self,'dialogs-svg');
+  PixelsPerInchOnCreate:=PixelsPerInch;
   ImageLoader.LoadImages('dialogs',[SVGImgColl.SVGIconItems]);
+  SVGImgLst24.DPIChanged(self,PixelsPerInchOnDesign,PixelsPerInch);
+  SVGImgLst48.DPIChanged(self,PixelsPerInchOnDesign,PixelsPerInch);
   FIniName:=''; FIniSection:='';
   FDefaultDir:='';
   DirList:=TStringList.Create;
@@ -170,8 +179,7 @@ begin
   Left:=(Screen.Width-Width) div 2;
 //  if (Win32Platform=VER_PLATFORM_WIN32_NT) and (Win32MajorVersion>=10) then // Windows 10
 //    spbNetwork.Visible:=Smb1Installed;
-  SVGImgLst24.DPIChanged(self,PixelsPerInchOnDesign,Monitor.PixelsPerInch);
-  SVGImgLst48.DPIChanged(self,PixelsPerInchOnDesign,Monitor.PixelsPerInch);
+  SetOwnerDrawMenu(PopupMenu,pmiDrawItem,pmiMeasureItem);
   end;
 
 { ------------------------------------------------------------------- }
@@ -230,6 +238,35 @@ begin
 procedure TShellDirDialog.FormDestroy(Sender: TObject);
 begin
   DirList.Free;
+  end;
+
+procedure TShellDirDialog.pmiDrawItem(Sender: TObject;
+  ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
+var
+  d : integer;
+begin
+  with ACanvas do begin
+    if Selected then Brush.Color:=GetSysColor(clHighlight) else Brush.Color:=GetSysColor(clMenu);
+    if (Sender as TMenuItem).Caption=cLineCaption then with ARect do begin
+      FillRect(ARect);
+      Pen.Color:=clActiveBorder;
+      d:=Top+Height div 2;
+      MoveTo(Height,d); LineTo(Width-Height,d);
+      end
+    else begin
+      with Font do begin
+        Size:=SizeScale(Size,PixelsPerInchOnCreate,self);
+        if Selected then Color:=clHighlightText else Color:=clMenuText;
+        end;
+      TextRect(ARect,ARect.Height,ARect.Top+MulDiv(ARect.Height,3,22),(Sender as TMenuItem).Caption);
+      end;
+    end;
+  end;
+
+procedure TShellDirDialog.pmiMeasureItem(Sender: TObject;
+  ACanvas: TCanvas; var Width, Height: Integer);
+begin
+  Width:=SizeScale(Width,PixelsPerInchOnCreate,self); Height:=SizeScale(Height,PixelsPerInchOnCreate,self);
   end;
 
 { ------------------------------------------------------------------- }
@@ -667,7 +704,7 @@ begin
     end
   else begin
     spbComputer.Down:=true;
-    if (length(s)=0) or not DirectoryExists(s)then begin
+    if not DirectoryExists(s)then begin
       s:=GetPersonalFolder;
       r:='rfMyComputer';
   //    r:='rfPersonal';

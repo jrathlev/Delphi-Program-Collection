@@ -212,7 +212,7 @@ object ShellDirDialog: TShellDirDialog
       object cbxFiles: TCheckBox
         Left = 95
         Top = 8
-        Width = 141
+        Width = 196
         Height = 17
         Anchors = [akLeft, akTop, akRight]
         Caption = 'Show files'
@@ -294,7 +294,7 @@ object ShellDirDialog: TShellDirDialog
   end
   object PopupMenu: TPopupMenu
     OnPopup = PopupMenuPopup
-    Left = 306
+    Left = 461
     Top = 164
     object itmCreate: TMenuItem
       Caption = 'Create folder'

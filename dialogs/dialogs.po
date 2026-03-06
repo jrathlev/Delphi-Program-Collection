@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-06-11 11:55+0200\n"
-"PO-Revision-Date: 2025-06-11 11:55+0200\n"
+"POT-Creation-Date: 2025-12-04 16:30+0100\n"
+"PO-Revision-Date: 2025-12-04 16:30+0100\n"
 "Last-Translator: Somebody <your.email@address.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: GgtTranslate 3.3.3\n"
+"X-Generator: GgtTranslate 3.3.4\n"
 
 #. AccountDialog.pnBottom.btnShow.Hint
 #: AccountDlg.dfm:41
@@ -24,18 +24,18 @@ msgstr ""
 #. HttpProxyDialog.btnShow.Hint
 #: HttpProxyDlg.dfm:52
 #. MailDialog.Panel3.cbShowPwd.Caption
-#: MailDlg.dfm:641
+#: MailDlg.dfm:640
 #. NewPwdDialog.paPwd.btnShow.Hint
-#: NewPwdDlg.dfm:38
+#: NewPwdDlg.dfm:39
 msgid "Show password"
 msgstr ""
 
 #. AccountDialog.pnBottom.CancelBtn.Caption
 #: AccountDlg.dfm:136
 #. AppListDialog.paButtons.CancelBtn.Caption
-#: AppListDlg.dfm:33
+#: AppListDlg.dfm:35
 #. CharTableDialog.CancelBtn.Caption
-#: CharTableDlg.dfm:91
+#: CharTableDlg.dfm:92
 #. ColumnDialog.btbCancel.Caption
 #: ColumnDlg.dfm:284
 #. ConfirmCheckDialog.CancelBtn.Caption
@@ -51,7 +51,7 @@ msgstr ""
 #. DStringListDialog.CancelBtn.Caption
 #: DStringListDlg.dfm:425
 #. EditHistListDialog.CancelBtn.Caption
-#: EditHistListDlg.dfm:95
+#: EditHistListDlg.dfm:96
 #. EditStringListDialog.CancelBtn.Caption
 #: EditStringListDlg.dfm:98
 #. EtikettenDialog.CancelBtn.Caption
@@ -85,9 +85,9 @@ msgstr ""
 #. InputNumberDialog.CancelBtn.Caption
 #: InpNumber.dfm:118
 #. InputTextDialog.CancelBtn.Caption
-#: InpText.dfm:94
+#: InpText.dfm:96
 #. InputStringDialog.CancelBtn.Caption
-#: InputString.dfm:93
+#: InputString.dfm:94
 #. KalenderDlg.CancelBtn.Caption
 #: Kalender.dfm:292
 #. LanguageDialog.btbCancel.Caption
@@ -99,9 +99,9 @@ msgstr ""
 #. InputLptPortDialog.CancelBtn.Caption
 #: LptSelect.dfm:87
 #. MailDialog.CancelBtn.Caption
-#: MailDlg.dfm:95
+#: MailDlg.dfm:94
 #. MemoDialog.paBottom.CancelBtn.Caption
-#: MemoDlg.dfm:114
+#: MemoDlg.dfm:116
 #. MoveListDialog.CancelBtn.Caption
 #: MoveListDlg.dfm:93
 #. NewPwdDialog.paBottom.CancelBtn.Caption
@@ -117,7 +117,7 @@ msgstr ""
 #. ProgressWindow.Button.Caption
 #: ProgWind.dfm:53
 #. PasswordDialog.pnBottom.CancelBtn.Caption
-#: PwdDlg.dfm:291
+#: PwdDlg.dfm:285
 #. RandDialog.CancelBtn.Caption
 #: RandDlg.dfm:108
 #. SearchPathDialog.CancelBtn.Caption
@@ -129,11 +129,11 @@ msgstr ""
 #. SelectFontDialog.CancelBtn.Caption
 #: SelectFontDlg.dfm:93
 #. SelectFromListDialog.paEdit.CancelBtn.Caption
-#: SelectFromListDlg.dfm:854
+#: SelectFromListDlg.dfm:857
 #. SelectListItemDialog.CancelBtn.Caption
-#: SelectListItemDlg.dfm:98
-#. SelectListItemsDialog.CancelBtn.Caption
-#: SelectListItems.dfm:103
+#: SelectListItemDlg.dfm:99
+#. SelectListItemsDialog.paBottom.CancelBtn.Caption
+#: SelectListItems.dfm:188
 #. ShellDirDialog.PanelLeft.Panel1.btbCancel.Caption
 #: ShellDirDlg.dfm:2126
 #. ShellDirDialog.PopupMenu.cancel1.Caption
@@ -145,13 +145,13 @@ msgstr ""
 #. SizeDialog.CancelBtn.Caption
 #: Sizedlg.dfm:90
 #. StatusWindow.btnCancel.Caption
-#: StatWind.dfm:50
+#: StatWind.dfm:52
 #. KeyboardDialog.CancelBtn.Caption
 #: SynEdKeyDlg.dfm:126
 #. PageFormatDialog.CancelBtn.Caption
 #: SynEdPageDlg.dfm:87
 #. TextEingabe.CancelBtn.Caption
-#: Textdlg.dfm:99
+#: Textdlg.dfm:101
 #. TimeCompareDialog.pnBottom.CancelBtn.Caption
 #: TimeCompDlg.dfm:37
 #. TransferStatus.Panel2.Button.Caption
@@ -160,7 +160,7 @@ msgstr ""
 #: WebBrowser.dfm:196
 #: ProgWind.pas:155
 #. Spalten in letzter Zeile
-#: SelectDlg.pas:212
+#: SelectDlg.pas:179
 #: TransferStat.pas:242
 msgid "Cancel"
 msgstr ""
@@ -168,7 +168,7 @@ msgstr ""
 #. AccountDialog.pnBottom.OKBtn.Caption
 #: AccountDlg.dfm:199
 #. AppListDialog.paButtons.OKBtn.Caption
-#: AppListDlg.dfm:458
+#: AppListDlg.dfm:460
 #. ColumnDialog.btbOK.Caption
 #: ColumnDlg.dfm:221
 #. CsvImportDialog.OKBtn.Caption
@@ -176,13 +176,13 @@ msgstr ""
 #. DateFormatDialog.OKBtn.Caption
 #: DateFormatDlg.dfm:35
 #. DetailInfoDialog.pnTop.OKBtn.Caption
-#: DetailInfoDlg.dfm:72
+#: DetailInfoDlg.dfm:73
 #. WortListDialog.OKBtn.Caption
 #: DListDlg.dfm:491
 #. DStringListDialog.OKBtn.Caption
 #: DStringListDlg.dfm:362
 #. EditHistListDialog.OKBtn.Caption
-#: EditHistListDlg.dfm:31
+#: EditHistListDlg.dfm:32
 #. EditStringListDialog.OKBtn.Caption
 #: EditStringListDlg.dfm:34
 #. EtikettenDialog.OKBtn.Caption
@@ -216,9 +216,9 @@ msgstr ""
 #. InputNumberDialog.OKBtn.Caption
 #: InpNumber.dfm:54
 #. InputTextDialog.OKBtn.Caption
-#: InpText.dfm:30
+#: InpText.dfm:32
 #. InputStringDialog.OKBtn.Caption
-#: InputString.dfm:29
+#: InputString.dfm:30
 #. KalenderDlg.OKBtn.Caption
 #: Kalender.dfm:227
 #. LanguageDialog.btbOK.Caption
@@ -228,9 +228,9 @@ msgstr ""
 #. InputLptPortDialog.OKBtn.Caption
 #: LptSelect.dfm:24
 #. MailDialog.OKBtn.Caption
-#: MailDlg.dfm:31
+#: MailDlg.dfm:30
 #. MemoDialog.paBottom.OKBtn.Caption
-#: MemoDlg.dfm:49
+#: MemoDlg.dfm:51
 #. MoveListDialog.OKBtn.Caption
 #: MoveListDlg.dfm:30
 #. NewPwdDialog.paBottom.OKBtn.Caption
@@ -242,7 +242,7 @@ msgstr ""
 #. PrintPageDialog.OKBtn.Caption
 #: PrintPageDlg.dfm:43
 #. PasswordDialog.pnBottom.OKBtn.Caption
-#: PwdDlg.dfm:354
+#: PwdDlg.dfm:347
 #. RandDialog.OKBtn.Caption
 #: RandDlg.dfm:43
 #. SearchPathDialog.OKBtn.Caption
@@ -254,11 +254,11 @@ msgstr ""
 #. SelectFontDialog.OKBtn.Caption
 #: SelectFontDlg.dfm:29
 #. SelectFromListDialog.paEdit.OKBtn.Caption
-#: SelectFromListDlg.dfm:701
+#: SelectFromListDlg.dfm:704
 #. SelectListItemDialog.OKBtn.Caption
-#: SelectListItemDlg.dfm:34
-#. SelectListItemsDialog.OKBtn.Caption
-#: SelectListItems.dfm:39
+#: SelectListItemDlg.dfm:35
+#. SelectListItemsDialog.paBottom.OKBtn.Caption
+#: SelectListItems.dfm:250
 #. ShellDirDialog.PanelLeft.Panel1.btbOK.Caption
 #: ShellDirDlg.dfm:2188
 #. ShellFileDialog.pnlBottom.btbOK.Caption
@@ -274,7 +274,7 @@ msgstr ""
 #. PageFormatDialog.OKBtn.Caption
 #: SynEdPageDlg.dfm:24
 #. TextEingabe.OKBtn.Caption
-#: Textdlg.dfm:34
+#: Textdlg.dfm:36
 #. TimeCompareDialog.pnBottom.OKBtn.Caption
 #: TimeCompDlg.dfm:99
 #: ProgWind.pas:167
@@ -285,14 +285,14 @@ msgstr ""
 #. AccountDialog.pnCenter.edtRepPwd.EditLabel.Caption
 #: AccountDlg.dfm:277
 #. NewPwdDialog.paConfirm.edtRepPwd.EditLabel.Caption
-#: NewPwdDlg.dfm:288
+#: NewPwdDlg.dfm:287
 msgid "Repeat password:"
 msgstr ""
 
 #. AccountDialog.pnCenter.edtRepPwd.TextHint
 #: AccountDlg.dfm:280
 #. NewPwdDialog.paConfirm.edtRepPwd.TextHint
-#: NewPwdDlg.dfm:291
+#: NewPwdDlg.dfm:290
 msgid "Confirm password"
 msgstr ""
 
@@ -331,9 +331,9 @@ msgstr ""
 #. LogonDialog.PwdEdit.EditLabel.Caption
 #: LogonDlg.dfm:281
 #. MailDialog.Panel3.Label6.Caption
-#: MailDlg.dfm:494
+#: MailDlg.dfm:493
 #. PasswordDialog.pnInput.Label1.Caption
-#: PwdDlg.dfm:97
+#: PwdDlg.dfm:95
 msgid "Password:"
 msgstr ""
 
@@ -342,11 +342,11 @@ msgstr ""
 #. FtpProxyDialog.edProxyPwd.TextHint
 #: FtpProxyDlg.dfm:207
 #. NewPwdDialog.paPwd.edtPwd.TextHint
-#: NewPwdDlg.dfm:109
+#: NewPwdDlg.dfm:110
 #. PasswordDialog.pnInput.edtPwd.Hint
-#: PwdDlg.dfm:110
+#: PwdDlg.dfm:108
 #. PasswordDialog.pnInput.edtPwd.TextHint
-#: PwdDlg.dfm:114
+#: PwdDlg.dfm:112
 msgid "Password"
 msgstr ""
 
@@ -356,61 +356,61 @@ msgid "Edit application list"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxEdit.Caption
-#: AppListDlg.dfm:94
+#: AppListDlg.dfm:96
 msgid "Application"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxEdit.btnAdd.Caption
-#: AppListDlg.dfm:101
+#: AppListDlg.dfm:103
 #. ColumnDialog.btnInsert.Caption
 #: ColumnDlg.dfm:489
 #. EditStringListDialog.btnAdd.Caption
 #: EditStringListDlg.dfm:536
 #. SelectFromListDialog.paEdit.gbxEdit.btnInsert.Caption
-#: SelectFromListDlg.dfm:48
+#: SelectFromListDlg.dfm:51
 msgid "Add"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxEdit.btnDelete.Caption
-#: AppListDlg.dfm:190
+#: AppListDlg.dfm:192
 #. ColumnDialog.btnDelete.Caption
 #: ColumnDlg.dfm:399
 #. DStringListDialog.spdRem.Caption
 #: DStringListDlg.dfm:261
 #. EditHistListDialog.btnDelete.Caption
-#: EditHistListDlg.dfm:168
+#: EditHistListDlg.dfm:169
 #. EditStringListDialog.btnDelete.Caption
 #: EditStringListDlg.dfm:356
 #. SelectFromListDialog.paEdit.gbxEdit.btnDelete.Caption
-#: SelectFromListDlg.dfm:141
+#: SelectFromListDlg.dfm:144
 msgid "Remove"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxEdit.btnEdit.Caption
-#: AppListDlg.dfm:279
+#: AppListDlg.dfm:281
 #. ColumnDialog.btnEdit.Caption
 #: ColumnDlg.dfm:579
 #. SelectFromListDialog.paEdit.gbxEdit.btnEdit.Caption
-#: SelectFromListDlg.dfm:234
+#: SelectFromListDlg.dfm:237
 msgid "Change"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxEdit.btnRename.Caption
-#: AppListDlg.dfm:368
+#: AppListDlg.dfm:370
 msgid "Rename"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxMove.Caption
-#: AppListDlg.dfm:520
+#: AppListDlg.dfm:522
 msgid "Change order"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxMove.UpBtn.Hint
-#: AppListDlg.dfm:529
+#: AppListDlg.dfm:531
 #. ColumnDialog.UpBtn.Hint
 #: ColumnDlg.dfm:120
 #. EditHistListDialog.gbxMove.UpBtn.Hint
-#: EditHistListDlg.dfm:265
+#: EditHistListDlg.dfm:266
 #. EditStringListDialog.gbxMove.UpBtn.Hint
 #: EditStringListDlg.dfm:176
 #. ListenDialog.UpBtn.Hint
@@ -420,16 +420,16 @@ msgstr ""
 #. SearchPathDialog.UpBtn.Hint
 #: SearchPathDlg.dfm:26
 #. SelectFromListDialog.paEdit.gbxMove.UpBtn.Hint
-#: SelectFromListDlg.dfm:519
+#: SelectFromListDlg.dfm:522
 msgid "Move item up"
 msgstr ""
 
 #. AppListDialog.paButtons.gbxMove.DownBtn.Hint
-#: AppListDlg.dfm:567
+#: AppListDlg.dfm:569
 #. ColumnDialog.DownBtn.Hint
 #: ColumnDlg.dfm:29
 #. EditHistListDialog.gbxMove.DownBtn.Hint
-#: EditHistListDlg.dfm:355
+#: EditHistListDlg.dfm:356
 #. EditStringListDialog.gbxMove.DownBtn.Hint
 #: EditStringListDlg.dfm:265
 #. ListenDialog.DownBtn.Hint
@@ -439,12 +439,12 @@ msgstr ""
 #. SearchPathDialog.DownBtn.Hint
 #: SearchPathDlg.dfm:89
 #. SelectFromListDialog.paEdit.gbxMove.DownBtn.Hint
-#: SelectFromListDlg.dfm:609
+#: SelectFromListDlg.dfm:612
 msgid "Move item down"
 msgstr ""
 
 #. AppListDialog.paBottom.edAppPath.EditLabel.Caption
-#: AppListDlg.dfm:639
+#: AppListDlg.dfm:641
 #. PathDialog.lePath.EditLabel.Caption
 #: PathDlg.dfm:214
 #. SearchPathDialog.PathEdit.EditLabel.Caption
@@ -454,31 +454,31 @@ msgid "Path:"
 msgstr ""
 
 #. AppListDialog.OpenDialog.Filter
-#: AppListDlg.dfm:645
+#: AppListDlg.dfm:647
 msgid "Programs|*.exe|all|*.*"
 msgstr ""
 
 #. AppListDialog.OpenDialog.Title
-#: AppListDlg.dfm:647
+#: AppListDlg.dfm:649
 msgid "Select application"
 msgstr ""
 
 #. CharTableDialog.Caption
 #: CharTableDlg.dfm:4
 #. InputTextDialog.CharTabBtn.Caption
-#: InpText.dfm:155
+#: InpText.dfm:157
 #. InputStringDialog.CharTabBtn.Caption
-#: InputString.dfm:154
+#: InputString.dfm:155
 msgid "Character table"
 msgstr ""
 
 #. CharTableDialog.OKBtn.Caption
-#: CharTableDlg.dfm:27
+#: CharTableDlg.dfm:28
 msgid "Select"
 msgstr ""
 
 #. CharTableDialog.leValue.EditLabel.Caption
-#: CharTableDlg.dfm:175
+#: CharTableDlg.dfm:176
 msgid "Hex value:"
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr ""
 #. FtpDialog.pnSettings.gbSecure.rbNone.Caption
 #: FtpDlg.dfm:476
 #. ShowMsgDialog.btLeft.Caption
-#: ShowMessageDlg.dfm:196
+#: ShowMessageDlg.dfm:197
 #. ShowMsgDialog.btLeft.Caption
 #: ShowMessageDlgST.dfm:197
 #: ConfirmCheckDlg.pas:90
@@ -551,7 +551,7 @@ msgstr ""
 #. ConfirmReplDialog.btnYes.Caption
 #: ConfirmReplDlg.dfm:23
 #. ShowMsgDialog.btCenter.Caption
-#: ShowMessageDlg.dfm:184
+#: ShowMessageDlg.dfm:185
 #. ShowMsgDialog.btCenter.Caption
 #: ShowMessageDlgST.dfm:185
 msgid "&Yes"
@@ -644,9 +644,9 @@ msgstr ""
 #. ExportDialog.gbQuote.rbNoQuote.Caption
 #: ExportDlg.dfm:280
 #. MailDialog.GroupBox1.cbSecure.Text
-#: MailDlg.dfm:671
+#: MailDlg.dfm:670
 #. MailDialog.GroupBox1.cbSecure.Items.Strings
-#: MailDlg.dfm:674
+#: MailDlg.dfm:673
 msgid "None"
 msgstr ""
 
@@ -676,6 +676,8 @@ msgstr ""
 
 #. CsvImportDialog.rgDecimal.Items.Strings
 #: CsvImportDlg.dfm:345
+#. ExportDialog.rgDecimal.Items.Strings
+#: ExportDlg.dfm:264
 msgid "Point"
 msgstr ""
 
@@ -720,7 +722,7 @@ msgid "Information"
 msgstr ""
 
 #. DetailInfoDialog.pnTop.btDetails.Caption
-#: DetailInfoDlg.dfm:61
+#: DetailInfoDlg.dfm:62
 msgid "Details"
 msgstr ""
 
@@ -795,7 +797,7 @@ msgstr ""
 #. DStringListDialog.spdEdit.Caption
 #: DStringListDlg.dfm:87
 #. EditHistListDialog.btnEdit.Caption
-#: EditHistListDlg.dfm:448
+#: EditHistListDlg.dfm:449
 #. EditStringListDialog.btnEdit.Caption
 #: EditStringListDlg.dfm:446
 msgid "Edit"
@@ -822,25 +824,25 @@ msgid "Edit list entries"
 msgstr ""
 
 #. EditHistListDialog.btnDelete.Hint
-#: EditHistListDlg.dfm:166
+#: EditHistListDlg.dfm:167
 #. ListenDialog.DeleteBtn.Hint
 #: Listdlg.dfm:210
 msgid "Remove item"
 msgstr ""
 
 #. EditHistListDialog.gbxMove.Caption
-#: EditHistListDlg.dfm:258
+#: EditHistListDlg.dfm:259
 msgid "Move entry"
 msgstr ""
 
 #. EditHistListDialog.btnEdit.Hint
-#: EditHistListDlg.dfm:446
+#: EditHistListDlg.dfm:447
 #. SelectFromListDialog.paEdit.gbxEdit.btnEdit.Hint
-#: SelectFromListDlg.dfm:232
-#: EditHistListDlg.pas:135
+#: SelectFromListDlg.dfm:235
+#: EditHistListDlg.pas:141
 #: EditStringListDlg.pas:120
-#: SelectFromListDlg.pas:195
-#: SelectFromListDlg.pas:218
+#: SelectFromListDlg.pas:209
+#: SelectFromListDlg.pas:232
 msgid "Edit item"
 msgstr ""
 
@@ -854,7 +856,7 @@ msgstr ""
 #. MoveListDialog.gbxMove.Caption
 #: MoveListDlg.dfm:162
 #. SelectFromListDialog.paEdit.gbxMove.Caption
-#: SelectFromListDlg.dfm:512
+#: SelectFromListDlg.dfm:515
 msgid "Move item"
 msgstr ""
 
@@ -935,16 +937,11 @@ msgstr ""
 msgid "fixed"
 msgstr ""
 
-#. ExportDialog.rgDecimal.Items.Strings
-#: ExportDlg.dfm:264
-msgid "Period"
-msgstr ""
-
 #. FileFilterDialog.Label2.Caption
 #: FileFilterDlg.dfm:32
-#: AppListDlg.pas:336
-#: AppListDlg.pas:370
-#: AppListDlg.pas:390
+#: AppListDlg.pas:342
+#: AppListDlg.pas:376
+#: AppListDlg.pas:396
 msgid "Description:"
 msgstr ""
 
@@ -1150,11 +1147,11 @@ msgstr ""
 #. ShowTextDialog.pnTop.EndeBtn.Caption
 #: ShowMemo.dfm:1265
 #. ShowMsgDialog.btClose.Caption
-#: ShowMessageDlg.dfm:173
+#: ShowMessageDlg.dfm:174
 #. ShowMsgDialog.btClose.Caption
 #: ShowMessageDlgST.dfm:174
 #. ShowStringListDialog.paBottom.CancelBtn.Caption
-#: ShowStringList.dfm:56
+#: ShowStringList.dfm:47
 #. ShowtextDialog.Panel2.EndeBtn.Caption
 #: ShowText.dfm:37
 #. WebBrowserWin.ActionList.ActionCancel.Hint
@@ -1168,7 +1165,7 @@ msgstr ""
 #: ShowMemo.dfm:403
 #. ShowtextDialog.Panel2.SearchBtn.Caption
 #: ShowText.dfm:276
-#: FindReplDlg.pas:352
+#: FindReplDlg.pas:361
 msgid "&Search"
 msgstr ""
 
@@ -1252,7 +1249,7 @@ msgstr ""
 #. LogonDialog.Label1.Caption
 #: LogonDlg.dfm:56
 #. MailDialog.Panel3.Label5.Caption
-#: MailDlg.dfm:487
+#: MailDlg.dfm:486
 msgid "User name:"
 msgstr ""
 
@@ -1268,7 +1265,7 @@ msgstr ""
 #. HttpProxyDialog.Label5.Caption
 #: HttpProxyDlg.dfm:45
 #. MailDialog.Panel3.Label7.Caption
-#: MailDlg.dfm:501
+#: MailDlg.dfm:500
 msgid "Port:"
 msgstr ""
 
@@ -1324,7 +1321,7 @@ msgstr ""
 #. FtpDialog.pnSettings.gbSecure.Caption
 #: FtpDlg.dfm:469
 #. MailDialog.GroupBox1.Caption
-#: MailDlg.dfm:661
+#: MailDlg.dfm:660
 msgid "Use secure data connection"
 msgstr ""
 
@@ -1351,7 +1348,7 @@ msgstr ""
 #. FtpDialog.pnSettings.cbFtpLog.Caption
 #: FtpDlg.dfm:516
 #. MailDialog.Panel1.cbMailLog.Caption
-#: MailDlg.dfm:433
+#: MailDlg.dfm:432
 msgid "Write communication log to file"
 msgstr ""
 
@@ -1472,7 +1469,7 @@ msgstr ""
 #. InputTextDialog.Caption
 #: InpText.dfm:5
 #. InputStringDialog.Caption
-#: InputString.dfm:5
+#: InputString.dfm:4
 msgid "Edit text"
 msgstr ""
 
@@ -1608,9 +1605,9 @@ msgstr ""
 #. SelectFromListDialog.Hint
 #: SelectFromListDlg.dfm:4
 #. SelectFromListDialog.paEdit.gbxEdit.btnInsert.Hint
-#: SelectFromListDlg.dfm:46
+#: SelectFromListDlg.dfm:49
 #: EditStringListDlg.pas:96
-#: SelectFromListDlg.pas:155
+#: SelectFromListDlg.pas:169
 msgid "Add item"
 msgstr ""
 
@@ -1665,67 +1662,67 @@ msgid "Mail settings"
 msgstr ""
 
 #. MailDialog.Panel1.Label4.Caption
-#: MailDlg.dfm:163
+#: MailDlg.dfm:162
 msgid "Recipients:"
 msgstr ""
 
 #. MailDialog.Panel1.btnAdd.Hint
-#: MailDlg.dfm:180
+#: MailDlg.dfm:179
 msgid "Add recipient"
 msgstr ""
 
 #. MailDialog.Panel1.btnRemove.Hint
-#: MailDlg.dfm:270
+#: MailDlg.dfm:269
 msgid "Remove recipient"
 msgstr ""
 
 #. MailDialog.Panel1.btnEdit.Hint
-#: MailDlg.dfm:360
+#: MailDlg.dfm:359
 msgid "Edit recipient"
 msgstr ""
 
 #. MailDialog.Panel1.edSubject.EditLabel.Caption
-#: MailDlg.dfm:425
+#: MailDlg.dfm:424
 msgid "Subject:"
 msgstr ""
 
 #. MailDialog.Panel2.Label2.Caption
-#: MailDlg.dfm:449
+#: MailDlg.dfm:448
 msgid "Sender:"
 msgstr ""
 
 #. MailDialog.Panel2.Label3.Caption
-#: MailDlg.dfm:456
+#: MailDlg.dfm:455
 msgid "Reply-To:"
 msgstr ""
 
 #. MailDialog.Panel3.Label1.Caption
-#: MailDlg.dfm:508
+#: MailDlg.dfm:507
 msgid "SMTP server:"
 msgstr ""
 
 #. MailDialog.Panel3.edSmtpPwd.Hint
-#: MailDlg.dfm:515
+#: MailDlg.dfm:514
 msgid "Click button to enter password"
 msgstr ""
 
 #. MailDialog.cbMail.Caption
-#: MailDlg.dfm:652
+#: MailDlg.dfm:651
 msgid "Enable mail delivery"
 msgstr ""
 
 #. MailDialog.GroupBox1.cbSecure.Items.Strings
-#: MailDlg.dfm:675
+#: MailDlg.dfm:674
 msgid "If available (explicit)"
 msgstr ""
 
 #. MailDialog.GroupBox1.cbSecure.Items.Strings
-#: MailDlg.dfm:676
+#: MailDlg.dfm:675
 msgid "Require (explicit)"
 msgstr ""
 
 #. MailDialog.GroupBox1.cbSecure.Items.Strings
-#: MailDlg.dfm:677
+#: MailDlg.dfm:676
 msgid "Always (implicit)"
 msgstr ""
 
@@ -1735,7 +1732,7 @@ msgid "Change order of list items"
 msgstr ""
 
 #. NewPwdDialog.paPwd.edtPwd.EditLabel.Caption
-#: NewPwdDlg.dfm:106
+#: NewPwdDlg.dfm:107
 msgid "Enter password:"
 msgstr ""
 
@@ -1764,15 +1761,15 @@ msgstr ""
 
 #. OpenFilesDialog.paFiles.btnAll.Caption
 #: OpenFilesDlg.dfm:68
-#. SelectListItemsDialog.btSelAll.Hint
-#: SelectListItems.dfm:227
+#. SelectListItemsDialog.paBottom.btSelAll.Hint
+#: SelectListItems.dfm:60
 msgid "Select all"
 msgstr ""
 
 #. OpenFilesDialog.paFiles.btnNone.Caption
 #: OpenFilesDlg.dfm:132
-#. SelectListItemsDialog.btSelNone.Hint
-#: SelectListItems.dfm:164
+#. SelectListItemsDialog.paBottom.btSelNone.Hint
+#: SelectListItems.dfm:123
 msgid "Select none"
 msgstr ""
 
@@ -1880,7 +1877,7 @@ msgid "Status"
 msgstr ""
 
 #. PasswordDialog.gbEncrypt.Caption
-#: PwdDlg.dfm:27
+#: PwdDlg.dfm:28
 msgid "AES encryption depth:"
 msgstr ""
 
@@ -1901,12 +1898,12 @@ msgid "Automatic"
 msgstr ""
 
 #. PasswordDialog.pnInput.bbPaste.Hint
-#: PwdDlg.dfm:122
+#: PwdDlg.dfm:119
 msgid "Paste from clipboard"
 msgstr ""
 
 #. PasswordDialog.pnBottom.btnSkip.Caption
-#: PwdDlg.dfm:227
+#: PwdDlg.dfm:222
 msgid "Skip"
 msgstr ""
 
@@ -1933,7 +1930,7 @@ msgstr ""
 #. SearchPathDialog.sbClearAll.Hint
 #: SearchPathDlg.dfm:216
 #. SelectFromListDialog.paEdit.gbxEdit.btnDelAll.Caption
-#: SelectFromListDlg.dfm:420
+#: SelectFromListDlg.dfm:423
 msgid "Remove all"
 msgstr ""
 
@@ -2048,33 +2045,33 @@ msgid "Select item from list"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.gbxEdit.Caption
-#: SelectFromListDlg.dfm:36
+#: SelectFromListDlg.dfm:39
 msgid "Edit items"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.gbxEdit.btnDelete.Hint
-#: SelectFromListDlg.dfm:139
+#: SelectFromListDlg.dfm:142
 msgid "Remove selected items"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.gbxEdit.btnDefault.Hint
-#: SelectFromListDlg.dfm:325
-#: SelectFromListDlg.pas:205
+#: SelectFromListDlg.dfm:328
+#: SelectFromListDlg.pas:219
 msgid "Reset to default values"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.gbxEdit.btnDefault.Caption
-#: SelectFromListDlg.dfm:327
+#: SelectFromListDlg.dfm:330
 msgid "Default"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.gbxEdit.btnDelAll.Hint
-#: SelectFromListDlg.dfm:418
+#: SelectFromListDlg.dfm:421
 msgid "Remove all items"
 msgstr ""
 
 #. SelectFromListDialog.paEdit.btnPrompt.Caption
-#: SelectFromListDlg.dfm:764
+#: SelectFromListDlg.dfm:767
 msgid "Prompt"
 msgstr ""
 
@@ -2459,22 +2456,22 @@ msgid "Open site"
 msgstr ""
 
 #: AccountDlg.pas:107
-#: NewPwdDlg.pas:146
+#: NewPwdDlg.pas:152
 msgid "Minimum length of password is %u characters"
 msgstr ""
 
 #: AccountDlg.pas:111
-#: NewPwdDlg.pas:150
+#: NewPwdDlg.pas:156
 msgid "Passwords do not match!"
 msgstr ""
 
-#: AppListDlg.pas:335
-#: AppListDlg.pas:369
-#: AppListDlg.pas:389
+#: AppListDlg.pas:341
+#: AppListDlg.pas:375
+#: AppListDlg.pas:395
 msgid "Application (%s)"
 msgstr ""
 
-#: AppListDlg.pas:351
+#: AppListDlg.pas:357
 msgid "Remove application: \"%s\"?"
 msgstr ""
 
@@ -2505,7 +2502,7 @@ msgstr ""
 msgid "Remove group: \"%s\"?"
 msgstr ""
 
-#: EditHistListDlg.pas:138
+#: EditHistListDlg.pas:144
 msgid "Item \"%s\" already exists!"
 msgstr ""
 
@@ -2521,21 +2518,21 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: FilterDlg.pas:164
-#: FilterDlg.pas:167
+#: FilterDlg.pas:165
+#: FilterDlg.pas:168
 msgid "Invalid filter mask!\n"
 "Should resemble %s or %s"
 msgstr ""
 
-#: FindReplDlg.pas:336
+#: FindReplDlg.pas:345
 msgid "Replace text"
 msgstr ""
 
-#: FindReplDlg.pas:342
+#: FindReplDlg.pas:351
 msgid "&Replace"
 msgstr ""
 
-#: FindReplDlg.pas:346
+#: FindReplDlg.pas:355
 msgid "Search for text"
 msgstr ""
 
@@ -2630,7 +2627,7 @@ msgstr ""
 msgid "Edit mail recipient"
 msgstr ""
 
-#: OpenFilesDlg.pas:73
+#: OpenFilesDlg.pas:78
 msgid "No files selected - close anyway?"
 msgstr ""
 
@@ -2647,7 +2644,7 @@ msgstr ""
 msgid "Canceled by user"
 msgstr ""
 
-#: SearchPathDlg.pas:154
+#: SearchPathDlg.pas:163
 msgid "Clear search path list?"
 msgstr ""
 
@@ -2659,20 +2656,20 @@ msgstr ""
 msgid "Select font color"
 msgstr ""
 
-#: SelectFromListDlg.pas:158
-#: SelectFromListDlg.pas:198
+#: SelectFromListDlg.pas:172
+#: SelectFromListDlg.pas:212
 msgid "Invalid entry: \"%s\""
 msgstr ""
 
-#: SelectFromListDlg.pas:164
+#: SelectFromListDlg.pas:178
 msgid "Clear whole list"
 msgstr ""
 
-#: SelectFromListDlg.pas:174
+#: SelectFromListDlg.pas:188
 msgid "Remove all selected items?"
 msgstr ""
 
-#: SelectFromListDlg.pas:180
+#: SelectFromListDlg.pas:194
 msgid "Remove item: \"%s\"?"
 msgstr ""
 
@@ -2820,11 +2817,11 @@ msgstr ""
 msgid "Bold italic"
 msgstr ""
 
-#: Textdlg.pas:248
-#: Textdlg.pas:279
-#: Textdlg.pas:289
-#: Textdlg.pas:319
+#: Textdlg.pas:254
+#: Textdlg.pas:285
+#: Textdlg.pas:295
 #: Textdlg.pas:325
+#: Textdlg.pas:331
 msgid "Invalid input"
 msgstr ""
 

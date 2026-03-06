@@ -584,8 +584,6 @@ begin
 
 { ------------------------------------------------------------------- }
 procedure TShowTextDialog.ExportBtnClick(Sender: TObject);
-var
-  zf : TZipWrite;
 begin
   with SaveDialog do begin
     InitialDir:=ExportPath;
@@ -810,8 +808,6 @@ begin
   end;
 
 function TShowTextDialog.GetCodepageIndex : integer;
-var
-  i : integer;
 begin
   with CodepageList do begin
     for Result:=0 to Count-1 do if word(Objects[Result])=FCodePage then Break;

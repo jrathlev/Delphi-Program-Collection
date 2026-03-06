@@ -106,11 +106,11 @@ procedure TSelectDialog.FormCreate(Sender: TObject);
 begin
   TranslateComponent (self,'dialogs-svg');
   ImageLoader.LoadImages('dialogs',[imlIcons.SVGIconItems]);
+  imlIcons.DPIChanged(self,PixelsPerInchOnDesign,PixelsPerInch);
   ActiveScreenReader:=false;
 {$IFDEF ACCESSIBLE}
   if not SystemParametersInfo(SPI_GETSCREENREADER,0,@ActiveScreenReader,0) then ActiveScreenReader:=false;
 {$ENDIF}
-  imlIcons.DPIChanged(self,PixelsPerInchOnDesign,Monitor.PixelsPerInch);
   end;
 
 procedure TSelectDialog.FormShow(Sender: TObject);
@@ -238,7 +238,7 @@ function TSelectDialog.Execute (const APos : TPoint;
                                 PreSelection   : integer = -1;
                                 const DefaultButton : string = '') : integer;
 var
-  w,h,dh,i,j,n,nr,nl,k,l,bw,ppi,tw,tl : integer;
+  i : integer;
 begin
   if ATitle.IsEmpty then Caption:=LoadResString(Captions[DlgType])
   else Caption:=ATitle;
