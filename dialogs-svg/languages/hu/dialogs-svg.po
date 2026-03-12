@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dialogs\n"
+"POT-Creation-Date: 2025-04-04 11:31+0200\n"
+"PO-Revision-Date: 2025-04-05 12:12+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Robert Kovacs <info@korosoft.hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Show password"
+msgstr "Jelszó megmutatása"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Jelszó ismétlése:"
+
+msgid "Confirm password"
+msgstr "Jelszó megerősítése"
+
+msgid "Name:"
+msgstr "Név:"
+
+msgid "User name"
+msgstr "Felhasználó neve"
+
+msgid "Password:"
+msgstr "Jelszó:"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Edit application list"
+msgstr "Alkalmazáslista szerkesztése"
+
+msgid "Application"
+msgstr "Alkalmazás"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Change"
+msgstr "Változtatás"
+
+msgid "Rename"
+msgstr "Átnevez"
+
+msgid "Change order"
+msgstr "Sorrend módosítása"
+
+msgid "Move item up"
+msgstr "Felfelé mozgatás"
+
+msgid "Move item down"
+msgstr "Lefelé mozgatás"
+
+msgid "Path:"
+msgstr "Útvonal:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Programok|*.exe|összes|*.*"
+
+msgid "Select application"
+msgstr "Alkalmazás kiválasztása"
+
+msgid "Character table"
+msgstr "Betükészlet tábla"
+
+msgid "Hex value:"
+msgstr "Hexaxajz:"
+
+msgid "Select"
+msgstr "Kijelölés"
+
+msgid "Information"
+msgstr "Információ"
+
+msgid "Details"
+msgstr "Részletek"
+
+msgid "Edit list entries"
+msgstr "Bejegyzések szerkesztése"
+
+msgid "Move entry"
+msgstr "Áthelyezni a bejegyzést"
+
+msgid "Remove item"
+msgstr "Elem eltávolítása"
+
+msgid "Edit item"
+msgstr "Lista szerkesztése"
+
+msgid "Edit"
+msgstr "Szerkesztés"
+
+msgid "Description:"
+msgstr "Leírás:"
+
+msgid "Filter:"
+msgstr "Szürő:"
+
+msgid "Move one line up"
+msgstr "Egy lépés fel"
+
+msgid "Move one line down"
+msgstr "Egy lépés le"
+
+msgid "Remove from list"
+msgstr "Eltávolit a listából"
+
+msgid "Add to list"
+msgstr "Hozzáad a listához"
+
+msgid "Replace in list"
+msgstr "Lecserél a listában"
+
+msgid "Text filter dialog"
+msgstr "Szöveg szűrése"
+
+msgid "All matching"
+msgstr "Összes egyező"
+
+msgid "All not matching"
+msgstr "Összes nem egyező"
+
+msgid "All"
+msgstr "Mind"
+
+msgid "Filter expressions:"
+msgstr "Szűrőkifejezések:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Több kifejezés kiértékelése"
+
+msgid "OR operation"
+msgstr "VAGY művelet"
+
+msgid "AND operation"
+msgstr "ÉS működés"
+
+msgid "Edit expressions"
+msgstr "Kifejezések szerkesztése"
+
+msgid "Use regular expressions"
+msgstr "Reguláris kifejezések"
+
+msgid "Select FTP subdirectory"
+msgstr "Választ FTP alkönyvtárakat"
+
+msgid "Subdirectories:"
+msgstr "Alkönyvtárak:"
+
+msgid "Root directory on FTP server"
+msgstr "Főkönyvtár az FTP szerveren"
+
+msgid "Selected subdirectory:"
+msgstr "Kiválaszva alkönyvtár:"
+
+msgid "One directory up"
+msgstr "Könyvtár fel"
+
+msgid "FTP proxy server options"
+msgstr "FTP Proxy szerver lehetőségek"
+
+msgid "Connection method"
+msgstr "Kapcsolat módszer"
+
+msgid "Send command USER user@hostname"
+msgstr "Parancs küldés FELHASZÁLÓ felhasználó@hostnév"
+
+msgid "Send command SITE (with logon)"
+msgstr "Parancs küldés WEBLAP (bejelentkezéssel)"
+
+msgid "Send command OPEN"
+msgstr "Parancs küldés MEGNYITÁS"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "FELHASZNÁLÓ felhasználó@hostnév"
+
+msgid "Transparent"
+msgstr "Átlátszó"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "FELHASZNÁLÓ hostfelhasználóID tűzfalfelhasználó"
+
+msgid "Server name:"
+msgstr "Szerver név:"
+
+msgid "Server name"
+msgstr "Szerver név"
+
+msgid "User name:"
+msgstr "Felhasználó neve:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Edit text"
+msgstr "Szerkesztő"
+
+msgid "Connect to"
+msgstr "Kapcsolatfelvétel"
+
+msgid "Logon"
+msgstr "Bejelentkezés"
+
+msgid "&Skip"
+msgstr "&Üres utasítás"
+
+msgid "Mail settings"
+msgstr "Email beállítások"
+
+msgid "Recipients:"
+msgstr "Címzettek:"
+
+msgid "Subject:"
+msgstr "Tárgy:"
+
+msgid "Add recipient"
+msgstr "Címzett hozzáadása"
+
+msgid "Remove recipient"
+msgstr "Címzett eltávolítása"
+
+msgid "Edit recipient"
+msgstr "Címzett szerkesztése"
+
+msgid "Sender:"
+msgstr "Küldő:"
+
+msgid "Reply-To:"
+msgstr "Válasz:"
+
+msgid "SMTP server:"
+msgstr "SMTP Szerver:"
+
+msgid "Click button to enter password"
+msgstr "Kattintson a gombra a jelszó beírásához"
+
+msgid "Enable mail delivery"
+msgstr "Engedélyez postai kézbesítést"
+
+msgid "Use secure data connection"
+msgstr "Biztonságos adatkapcsolat"
+
+msgid "If available (explicit)"
+msgstr "Ha elérhető (explicit)"
+
+msgid "None"
+msgstr "Nincs"
+
+msgid "Require (explicit)"
+msgstr "Kérés (explicit)"
+
+msgid "Always (implicit)"
+msgstr "Mindig (implicit)"
+
+msgid "Write communication log to file"
+msgstr "Fájl értesítési napló írása"
+
+msgid "Enter password:"
+msgstr "Jelszó megadása:"
+
+msgid "Quality:"
+msgstr "Minőség:"
+
+msgid "AES encryption depth:"
+msgstr "AES titkosítás alapos:"
+
+msgid "128 bit"
+msgstr "128 bit"
+
+msgid "256 bit"
+msgstr "256 bit"
+
+msgid "Automatic"
+msgstr "Automatikus"
+
+msgid "Paste from clipboard"
+msgstr "Beillesztés a vágólapról"
+
+msgid "Skip"
+msgstr "Ugrás"
+
+msgid "Add item"
+msgstr "Hozzáad elemet"
+
+msgid "Select item from list"
+msgstr "Kijelöl tétel a listából"
+
+msgid "Edit items"
+msgstr "Tétel szerkesztése"
+
+msgid "Remove selected items"
+msgstr "Kiválasztott elemek eltávolítása"
+
+msgid "Reset to default values"
+msgstr ""
+"Újraindítja a számítógépet alapértelmezett érték "
+"visszaállításához"
+
+msgid "Default"
+msgstr "Alapért"
+
+msgid "Remove all items"
+msgstr "Az összes elem eltávolítása"
+
+msgid "Remove all"
+msgstr "Mind eltávolít"
+
+msgid "Move item"
+msgstr "Mozgatás"
+
+msgid "Prompt"
+msgstr "Gyors"
+
+msgid "Select items"
+msgstr "Kijelöl tételt"
+
+msgid "Select none"
+msgstr "Nincs kijelölés"
+
+msgid "Select all"
+msgstr "Mind kijelöl"
+
+msgid "Select directory"
+msgstr "Kijelöl mappát"
+
+msgid "Network"
+msgstr "Hálózat"
+
+msgid "Computer"
+msgstr "Számítógép"
+
+msgid "Desktop"
+msgstr "Asztal"
+
+msgid "Documents"
+msgstr "Dokumentum"
+
+msgid "Directory:"
+msgstr "Könyvtár:"
+
+msgid "Go to default folder"
+msgstr "Alapértelmezett mappa"
+
+msgid "One folder up"
+msgstr "Egy mappa fel"
+
+msgid "Create new folder"
+msgstr "Létrehoz új mappát"
+
+msgid "Show files"
+msgstr "Mutat fájlokat"
+
+msgid "Directory"
+msgstr "Könyvtár"
+
+msgid "Create folder"
+msgstr "Létrehoz mappát"
+
+msgid "Delete folder"
+msgstr "Mappa törlése"
+
+msgid "Update"
+msgstr "Frissítés"
+
+msgid "Show text"
+msgstr "Szöveg mutatása"
+
+msgid "Close"
+msgstr "Bezár"
+
+msgid "&Delete"
+msgstr "&Törlés"
+
+msgid "&Print"
+msgstr "&Nyomtatás"
+
+msgid "&Open"
+msgstr "&Megnyitás"
+
+msgid "&Search"
+msgstr "&Keresés"
+
+msgid "Go to previous error"
+msgstr "Előző hibát mutat"
+
+msgid "Go to previous section"
+msgstr "Előző rész mutat"
+
+msgid "Go to next error"
+msgstr "Következő hiba"
+
+msgid "Go to next section"
+msgstr "Következő rész"
+
+msgid "Select font"
+msgstr "Választ betűt"
+
+msgid "Select codepage"
+msgstr "Válassza ki a kódoldalt"
+
+msgid "Save as zip"
+msgstr "Mentés zip-ként"
+
+msgid "&Yes"
+msgstr "&Igen"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "Status"
+msgstr "Státusz"
+
+msgid "Download file"
+msgstr "Fájl letöltése"
+
+msgid "Download from URL:"
+msgstr "Letöltés URL- ből:"
+
+msgid "Save as:"
+msgstr "Mentés mint:"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Jelszó minimális hosszúsága %u karakterek"
+
+msgid "Passwords do not match!"
+msgstr "Jelszavak nem egyeznek!"
+
+msgid "Application (%s)"
+msgstr "Alkalmazás (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Alkalmazás eltávolítása: \"%s\"?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Az elem \"%s\" már létezik!"
+
+msgid "File filter dialog"
+msgstr "Fájlszűrő dialógus"
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "Filter"
+msgstr "Szűrő"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Érvénytelen képszűrő maszk\n"
+"Hasonlíts %s vagy %s"
+
+msgid "FTP connection"
+msgstr "FTP kapcsolat"
+
+msgid "Searching for directories"
+msgstr "Keresés a  mappákban"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Kapcsolat FTP szerverhez: %s:%u\n"
+"használatra: %s\n"
+"megkövetel jelszavat!"
+
+msgid "Trying to connect to FTP server"
+msgstr "Próba kapcsolódás az FTP szerverhez"
+
+msgid "Connection to FTP server failed"
+msgstr "Kapcsolódás az FTP szerverhez sikertelen"
+
+msgid "Invalid port number (%s)"
+msgstr "Érvénytelen port címe (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "Adja meg az SMTP szervert!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Adjon meg egy címzettet!"
+
+msgid "New mail recipient"
+msgstr "Új levelezési címzett"
+
+msgid "Address:"
+msgstr "Cím:"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Címzett eltávolítása:\n"
+"%s\n"
+"listából?"
+
+msgid "Edit mail recipient"
+msgstr "Szerkeszt mail címet"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Érvénytelen bejegyzés: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Teljes lista törlése"
+
+msgid "Remove all selected items?"
+msgstr "Minden kijelölt tétel eltávolítása?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Törölhető a következő elem: \"%s\"?"
+
+msgid "Default: "
+msgstr "Alapértelmezett: "
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Könyvtár nem található:\n"
+"%s!"
+
+msgid "New subdirectory:"
+msgstr "Új alkönyvtárak:"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Nem lehet létrehozni a könyvtárat:\n"
+"%s!"
+
+msgid "Delete directory"
+msgstr "Könyvtár törlés"
+
+msgid "Delete \"%s\""
+msgstr "Törlés \"%s\"?"
+
+msgid "Definitely"
+msgstr "Végleg"
+
+msgid "To recycle bin"
+msgstr "Lomtárig"
+
+msgid "%u directories with %u files deleted!"
+msgstr "%u könyvtár %u fájlok törölve!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s mozgatva lomtárba!"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Hiba a mappar törlésekor:\n"
+"%s!"
+
+msgid " free of "
+msgstr " szabadon "
+
+msgid " Line: %u of %u"
+msgstr " Sor: %u közül %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "Hiba a fájl betöltésében: \"%s\""
+
+msgid "Delete selected text?"
+msgstr "Kijelölt szöveg törlése?"
+
+msgid "Page: %u"
+msgstr "Oldal: %u"
+
+msgid "File: "
+msgstr "Fájl: "
+
+msgid "Print selected lines?"
+msgstr "Kijelölt sor nyomatatása?"
+
+#: ShowMemo.pas:592
+msgid "Save text file as zip archive"
+msgstr "Szöveges fájl mentése zip archívumként"
+
+msgid "Zip archives"
+msgstr "Zip archívumok"
+
+msgid "Delete file \"%s\"?"
+msgstr "Fájl törlés \"%s\"?"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" nem található!"
+
+msgid "No further sections!"
+msgstr "Nincs további szakasz!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr ""
+"Érvénytelen kódlap - a Windows alapértelmezettet "
+"használja!"
+
+msgid "No further errors!"
+msgstr "Nincs további hiba!"
+
+msgid "Invalid input"
+msgstr "Érvénytelen bevitel"
+
+msgid "%s verification failed!"
+msgstr "%s ellenőrzés sikertelen!"
+
+msgid "%s hash file not found!"
+msgstr "Az %s hash-fájl nem található!"

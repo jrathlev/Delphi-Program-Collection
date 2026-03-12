@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi dialogs\n"
+"POT-Creation-Date: 2025-04-04 11:31+0200\n"
+"PO-Revision-Date: 2025-04-05 12:13+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Kopejkin (kopejkin.ru@gmail.com)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Show password"
+msgstr "Показати пароль"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Повторіть пароль:"
+
+msgid "Confirm password"
+msgstr "Підтвердити пароль"
+
+msgid "Name:"
+msgstr "Ім'я:"
+
+msgid "User name"
+msgstr "Користувач"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Edit application list"
+msgstr "Редагування списку програм"
+
+msgid "Application"
+msgstr "Застосунок"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Remove"
+msgstr "Видалити"
+
+msgid "Change"
+msgstr "Змінити"
+
+msgid "Rename"
+msgstr "Перейменувати"
+
+msgid "Change order"
+msgstr "Зміна порядку"
+
+msgid "Move item up"
+msgstr "Перемістити елемент вище"
+
+msgid "Move item down"
+msgstr "Перемістити елемент нижче"
+
+msgid "Path:"
+msgstr "Шлях:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Програми|*.exe|Всі|*.*"
+
+msgid "Select application"
+msgstr "Виберіть програму"
+
+msgid "Character table"
+msgstr "Таблиця символів"
+
+msgid "Hex value:"
+msgstr "Значення Hex:"
+
+msgid "Select"
+msgstr "Вибрати"
+
+msgid "Information"
+msgstr "Інформація"
+
+msgid "Details"
+msgstr "Деталі"
+
+msgid "Edit list entries"
+msgstr "Редагування списку записів"
+
+msgid "Move entry"
+msgstr "Перемістити запис"
+
+msgid "Remove item"
+msgstr "Видалити елемент"
+
+msgid "Edit item"
+msgstr "Редагування елемента"
+
+msgid "Edit"
+msgstr "Змінити"
+
+msgid "Description:"
+msgstr "Опис:"
+
+msgid "Filter:"
+msgstr "Фільтр:"
+
+msgid "Move one line up"
+msgstr "Перемістити на один рядок вище"
+
+msgid "Move one line down"
+msgstr "Перемістити на один рядок нижче"
+
+msgid "Remove from list"
+msgstr "Видалити зі списку"
+
+msgid "Add to list"
+msgstr "Додати до списку"
+
+msgid "Replace in list"
+msgstr "Замінити у списку"
+
+msgid "Text filter dialog"
+msgstr "Діалог фільтру тексту"
+
+msgid "All matching"
+msgstr "Відповідає всім"
+
+msgid "All not matching"
+msgstr "Не відповідає нічому"
+
+msgid "All"
+msgstr "Всі"
+
+msgid "Filter expressions:"
+msgstr "Вирази фільтра:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Оцініть кілька висловів щодо"
+
+msgid "OR operation"
+msgstr "OR операція"
+
+msgid "AND operation"
+msgstr "AND операція"
+
+msgid "Edit expressions"
+msgstr "Редагувати вирази"
+
+msgid "Use regular expressions"
+msgstr "Використовувати регулярні вирази"
+
+msgid "Select FTP subdirectory"
+msgstr "Вибрати FTP підкаталог"
+
+msgid "Subdirectories:"
+msgstr "Підкаталоги:"
+
+msgid "Root directory on FTP server"
+msgstr "Кореневий каталог на FTP-сервері"
+
+msgid "Selected subdirectory:"
+msgstr "Вибраний підкаталог:"
+
+msgid "One directory up"
+msgstr "На рівень вгору"
+
+msgid "FTP proxy server options"
+msgstr "Опції FTP проксі-сервера"
+
+msgid "Connection method"
+msgstr "Метод підключення"
+
+msgid "Send command USER user@hostname"
+msgstr "Надіслати команду USER user@hostname"
+
+msgid "Send command SITE (with logon)"
+msgstr "Надіслати команду SITE (з входом до системи)"
+
+msgid "Send command OPEN"
+msgstr "Надіслати команду OPEN"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Transparent"
+msgstr "Прозорий"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "Server name:"
+msgstr "Ім'я сервера:"
+
+msgid "Server name"
+msgstr "Ім'я сервера"
+
+msgid "User name:"
+msgstr "Користувач:"
+
+msgid "Port:"
+msgstr "Порт:"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Edit text"
+msgstr "Редагувати текст"
+
+msgid "Connect to"
+msgstr "Підключення до"
+
+msgid "Logon"
+msgstr "Вхід в систему"
+
+msgid "&Skip"
+msgstr "&Пропустити"
+
+msgid "Mail settings"
+msgstr "Налаштування пошти"
+
+msgid "Recipients:"
+msgstr "Адресати:"
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "Add recipient"
+msgstr "Додати адресата"
+
+msgid "Remove recipient"
+msgstr "Видалити адресата"
+
+msgid "Edit recipient"
+msgstr "Редагування адресата"
+
+msgid "Sender:"
+msgstr "Відправник:"
+
+msgid "Reply-To:"
+msgstr "Відповідь - Кому:"
+
+msgid "SMTP server:"
+msgstr "SMTP сервер:"
+
+msgid "Click button to enter password"
+msgstr "Натисніть кнопку, щоб ввести пароль"
+
+msgid "Enable mail delivery"
+msgstr "Увімкнути доставку пошти"
+
+msgid "Use secure data connection"
+msgstr "Використовувати безпечне підключення"
+
+msgid "If available (explicit)"
+msgstr "Якщо доступно (явно)"
+
+msgid "None"
+msgstr "Немає"
+
+msgid "Require (explicit)"
+msgstr "Потрібно (явно)"
+
+msgid "Always (implicit)"
+msgstr "Завжди (неявно)"
+
+msgid "Write communication log to file"
+msgstr "Записати журнал підключень до файлу"
+
+msgid "Enter password:"
+msgstr "Введіть пароль:"
+
+msgid "Quality:"
+msgstr "Якість:"
+
+msgid "AES encryption depth:"
+msgstr "Глибина AES-шифрування:"
+
+msgid "128 bit"
+msgstr "128 біт"
+
+msgid "256 bit"
+msgstr "256 біт"
+
+msgid "Automatic"
+msgstr "Автоматично"
+
+msgid "Paste from clipboard"
+msgstr "Вставити з буфера обміну"
+
+msgid "Skip"
+msgstr "Пропустити"
+
+msgid "Add item"
+msgstr "Додати елемент"
+
+msgid "Select item from list"
+msgstr "Виберіть елемент зі списку"
+
+msgid "Edit items"
+msgstr "Редагування"
+
+msgid "Remove selected items"
+msgstr "Видалити вибрані елементи"
+
+msgid "Reset to default values"
+msgstr "Скинути до усталених значень"
+
+msgid "Default"
+msgstr "Як усталено"
+
+msgid "Remove all items"
+msgstr "Видалити всі продукті"
+
+msgid "Remove all"
+msgstr "Видалити всі"
+
+msgid "Move item"
+msgstr "Переміщення"
+
+msgid "Prompt"
+msgstr "Запит"
+
+msgid "Select items"
+msgstr "Вибрати елементи"
+
+msgid "Select none"
+msgstr "Очистити вибір"
+
+msgid "Select all"
+msgstr "Вибрати всі"
+
+msgid "Select directory"
+msgstr "Вибрати каталог"
+
+msgid "Network"
+msgstr "Мережа"
+
+msgid "Computer"
+msgstr "Комп'ютер"
+
+msgid "Desktop"
+msgstr "Робочий стіл"
+
+msgid "Documents"
+msgstr "Документи"
+
+msgid "Directory:"
+msgstr "Каталог:"
+
+msgid "Go to default folder"
+msgstr "Перейти до стандартної папки"
+
+msgid "One folder up"
+msgstr "На рівень вгору"
+
+msgid "Create new folder"
+msgstr "Створити нову папку"
+
+msgid "Show files"
+msgstr "Показати файли"
+
+msgid "Directory"
+msgstr "Каталог"
+
+msgid "Create folder"
+msgstr "Створити папку"
+
+msgid "Delete folder"
+msgstr "Видалити папку"
+
+msgid "Update"
+msgstr "Оновлення"
+
+msgid "Show text"
+msgstr "Показати текст"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "&Delete"
+msgstr "&Видалити"
+
+msgid "&Print"
+msgstr "&Друк"
+
+msgid "&Open"
+msgstr "&Відкрити"
+
+msgid "&Search"
+msgstr "&Пошук"
+
+msgid "Go to previous error"
+msgstr "Перейти до попередньої помилки"
+
+msgid "Go to previous section"
+msgstr "Перейти до попереднього розділу"
+
+msgid "Go to next error"
+msgstr "Перейти до наступної помилки"
+
+msgid "Go to next section"
+msgstr "Перейти до наступного розділу"
+
+msgid "Select font"
+msgstr "Вибрати шрифт"
+
+msgid "Select codepage"
+msgstr "Виберіть кодову сторінку"
+
+msgid "Save as zip"
+msgstr "Зберегти у форматі zip"
+
+msgid "&Yes"
+msgstr "&Так"
+
+msgid "No"
+msgstr "Ні"
+
+msgid "Status"
+msgstr "Стан"
+
+msgid "Download file"
+msgstr "Завантаження файлу"
+
+msgid "Download from URL:"
+msgstr "Завантажити з URL:"
+
+msgid "Save as:"
+msgstr "Зберегти як:"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Мінімальна довжина пароля - %u (симв.)"
+
+msgid "Passwords do not match!"
+msgstr "Паролі не збігаються!"
+
+msgid "Application (%s)"
+msgstr "Застосування (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Видалити програму: \"%s\"?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Елемент \"%s\" вже існує!"
+
+msgid "File filter dialog"
+msgstr "Діалог фільтру файлів"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Filter"
+msgstr "Фільтр"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Неприпустима маска фільтра!\n"
+"Повинен нагадати %s або %s"
+
+msgid "FTP connection"
+msgstr "FTP підключення"
+
+msgid "Searching for directories"
+msgstr "Пошук каталогів"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Для підключення до FTP-серверу: %s: %u\n"
+"користувачу: %s\n"
+"потрібен пароль!"
+
+msgid "Trying to connect to FTP server"
+msgstr "Спроба з'єднатися з сервером FTP"
+
+msgid "Connection to FTP server failed"
+msgstr "Не вдалося підключитися до FTP-сервера"
+
+msgid "Invalid port number (%s)"
+msgstr "Неприпустима адреса порту (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "Вкажіть SMTP-сервер!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Вкажіть щонайменше одного адресата!"
+
+msgid "New mail recipient"
+msgstr "Новий адресат"
+
+msgid "Address:"
+msgstr "Адреса:"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Видалити адресата:\n"
+"%s\n"
+" зі списку?"
+
+msgid "Edit mail recipient"
+msgstr "Редагування адресата"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Неправильний елемент: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Очистити весь список"
+
+msgid "Remove all selected items?"
+msgstr "Видалити всі вибрані елементи?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Видалити елемент: \"%s\"?"
+
+msgid "Default: "
+msgstr "Як усталено: "
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Каталог не знайдено:\n"
+"%s!"
+
+msgid "New subdirectory:"
+msgstr "Новий підкаталог:"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Не вдалося створити каталог:\n"
+"%s!"
+
+msgid "Delete directory"
+msgstr "Видалити каталог"
+
+msgid "Delete \"%s\""
+msgstr "Видалити \"%s\""
+
+msgid "Definitely"
+msgstr "Безумовно"
+
+msgid "To recycle bin"
+msgstr "В Кошик"
+
+msgid "%u directories with %u files deleted!"
+msgstr "Каталоги (%u) із файлами (%u) видалено!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s переміщено в Кошик!"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Помилка видалення каталогу:\n"
+"%s!"
+
+msgid " free of "
+msgstr " вільно з "
+
+msgid " Line: %u of %u"
+msgstr " Рядок: %u з %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "Помилка завантаження файлу: \"%s\""
+
+msgid "Delete selected text?"
+msgstr "Видалити виділений текст?"
+
+msgid "Page: %u"
+msgstr "Сторінка: %u"
+
+msgid "File: "
+msgstr "Файл: "
+
+msgid "Print selected lines?"
+msgstr "Роздрукувати вибрані рядки?"
+
+#: ShowMemo.pas:592
+msgid "Save text file as zip archive"
+msgstr "Збережіть текстовий файл у zip-архіві"
+
+msgid "Zip archives"
+msgstr "Zip-архіви"
+
+msgid "Delete file \"%s\"?"
+msgstr "Видалити файл \"%s\"?"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" не знайдено!"
+
+msgid "No further sections!"
+msgstr "Немає інших розділів!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr ""
+"Невірна сторінка коду - використовується Windows за "
+"замовчуванням!"
+
+msgid "No further errors!"
+msgstr "Немає інших помилок!"
+
+msgid "Invalid input"
+msgstr "Неприпустиме введення"
+
+msgid "%s verification failed!"
+msgstr "%s збій перевірки!"
+
+msgid "%s hash file not found!"
+msgstr "%s хеш-файл не знайдено!"

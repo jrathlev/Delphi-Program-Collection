@@ -1,0 +1,1430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dialogs\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-05-08 16:57+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Onur Gevinoğlu\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: ISO-8859-1\n"
+
+msgid " Line: %u of %u"
+msgstr " Satır: %u'in %u'ı"
+
+msgid " free of "
+msgstr " boş "
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" bulunamadı!"
+
+msgid "%s hash file not found!"
+msgstr "%s hash dosyası bulunamadı!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s Geri Dönüşüm Kutusu'na taşındı!"
+
+msgid "%s of %s copied"
+msgstr "%s'den %s kopyalandı"
+
+msgid "%s verification failed!"
+msgstr "%s doğrulaması başarısız oldu!"
+
+msgid "%u directories with %u files deleted!"
+msgstr "%u dosyası içeren %u dizini silindi!"
+
+msgid "%u file(s) copied"
+msgstr "%u dosya(lar) kopyalandı"
+
+msgid ""
+"%u file(s) deleted\n"
+"%u file(s) copied!"
+msgstr ""
+"%u dosya(lar) silindi\n"
+"%u dosya(lar) kopyalandı!"
+
+msgid "%u file(s) deleted!"
+msgstr "%u dosya(lar) silindi!"
+
+msgid "&All"
+msgstr "&Tümü"
+
+msgid "&Continue"
+msgstr "&Devam et"
+
+msgid "&Copy"
+msgstr "&Kopyala"
+
+msgid "&Delete"
+msgstr "&Sil"
+
+msgid "&Erase"
+msgstr "&Sil"
+
+msgid "&No"
+msgstr "&Hayır"
+
+msgid "&Open"
+msgstr "&Aç"
+
+msgid "&Print"
+msgstr "&Yazdır"
+
+msgid "&Replace"
+msgstr "&Değiştir"
+
+msgid "&Search"
+msgstr "&Ara"
+
+msgid "&Skip"
+msgstr "&Atla"
+
+msgid "&Yes"
+msgstr "&Evet"
+
+msgid "128 bit"
+msgstr "128 bit"
+
+msgid "256 bit"
+msgstr "256 bit"
+
+msgid "3 months back"
+msgstr "3 ay geri"
+
+msgid "3 months forward"
+msgstr "3 ay ileri"
+
+msgid "<none>"
+msgstr "<hiçbiri>"
+
+msgid "AES encryption depth:"
+msgstr "AES şifreleme derinliği:"
+
+msgid "AND operation"
+msgstr "AND işlemi"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Add files"
+msgstr "Dosya ekle"
+
+msgid "Add item"
+msgstr "Öğe ekle"
+
+msgid "Add path"
+msgstr "Yol ekle"
+
+msgid "Add path to search list"
+msgstr "Arama listesine yol ekle"
+
+msgid "Add recipient"
+msgstr "Alıcı ekle"
+
+msgid "Add to list"
+msgstr "Listeye ekle"
+
+msgid "Additional colors:"
+msgstr "Ek renkler:"
+
+msgid "Address:"
+msgstr "Adres:"
+
+msgid "All"
+msgstr "Tümü"
+
+msgid "All files (*.*)|*.*"
+msgstr "Bütün dosyalar (*.*)|*.*"
+
+msgid "All matching"
+msgstr "Tüm eşleşenler"
+
+msgid "All not matching"
+msgstr "Tümü eşleşmiyor"
+
+msgid "Allow filenames to be enclosed in quotes"
+msgstr "Dosya adlarının tırnak işareti içine alınmasına izin ver"
+
+msgid "Always"
+msgstr "Her zaman"
+
+msgid "Always (implicit)"
+msgstr "Her zaman (örtük)"
+
+msgid "Application"
+msgstr "Uygulama"
+
+msgid "Application (%s)"
+msgstr "Uygulama (%s)"
+
+msgid "April"
+msgstr "Nisan"
+
+msgid "August"
+msgstr "Ağustos"
+
+msgid "Automatic"
+msgstr "Otomatik"
+
+msgid "Backward"
+msgstr "Geri"
+
+msgid "Basic colors::"
+msgstr "Temel renkler::"
+
+msgid "Bold"
+msgstr "Kalın"
+
+msgid "Bold italic"
+msgstr "Kalın italik"
+
+msgid "Bottom:"
+msgstr "Alt:"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Canceled by user"
+msgstr "Kullanıcı tarafından iptal edildi"
+
+msgid "Canceled by user!"
+msgstr "Kullanıcı tarafından iptal edildi!"
+
+msgid "Case sensitive"
+msgstr "Büyük/küçük harfe duyarlı"
+
+msgid "Change"
+msgstr "Değiştir"
+
+msgid "Change key code"
+msgstr "Anahtar kodunu değiştir"
+
+msgid "Change order"
+msgstr "Sırayı değiştir"
+
+msgid "Change order of list items"
+msgstr "Liste öğelerinin sırasını değiştir"
+
+msgid "Character between columns"
+msgstr "Sütunlar arasındaki karakter"
+
+msgid "Character table"
+msgstr "Karakter tablosu"
+
+msgid "Classic Browser"
+msgstr "Klasik Tarayıcı"
+
+msgid "Clear search path list?"
+msgstr "Arama yolu listesi temizlensin mi?"
+
+msgid "Clear whole list"
+msgstr "Tüm listeyi temizle"
+
+msgid "Click button to enter password"
+msgstr "Şifreyi girmek için butona tıklayın"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "Color print"
+msgstr "Renkli yazdır"
+
+msgid "Color spectrum"
+msgstr "Renk spektrumu"
+
+msgid "Column 1"
+msgstr "Sütun 1"
+
+msgid "Column 2"
+msgstr "Sütun 2"
+
+msgid "Column 3"
+msgstr "Sütun 3"
+
+msgid "Column 4"
+msgstr "Sütun 4"
+
+msgid "Column separator"
+msgstr "Sütun ayırıcı"
+
+msgid "Column width"
+msgstr "Sütun genişliği"
+
+msgid "Comma"
+msgstr "Virgül"
+
+msgid "Command"
+msgstr "Komut"
+
+msgid "Command:"
+msgstr "Komut:"
+
+msgid "Common path:"
+msgstr "Yaygın yol:"
+
+msgid "Computer"
+msgstr "Bilgisayar"
+
+msgid "Confirm"
+msgstr "Onayla"
+
+msgid "Confirm password"
+msgstr "Şifreyi onaylayın"
+
+msgid "Confirm replacement"
+msgstr "Değişimi onayla"
+
+msgid "Connect to"
+msgstr "Şuraya bağlan"
+
+msgid "Connection method"
+msgstr "Bağlantı yöntemi"
+
+msgid "Connection to FTP server failed"
+msgstr "FTP sunucusuna bağlantı başarısız oldu"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"FTP sunucu bağlantısı: %s:%u\n"
+"kullanıcı: %s\n"
+"şifre gerektirir!"
+
+msgid "Copy files:"
+msgstr "Dosyaları kopyala:"
+
+msgid "Copying to"
+msgstr "Şuraya kopyalanıyor"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Dizin oluşturulamadı:\n"
+"%s!"
+
+msgid "Count:"
+msgstr "Sayım:"
+
+msgid "Create folder"
+msgstr "Klasör oluştur"
+
+msgid "Create new folder"
+msgstr "Yeni klasör oluştur"
+
+msgid "Create texture"
+msgstr "Desen oluştur"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Date format settings"
+msgstr "Tarih biçimi ayarları"
+
+msgid "December"
+msgstr "Aralık"
+
+msgid "Decimal separator"
+msgstr "Ondalık ayırıcı"
+
+msgid "Default"
+msgstr "Varsayılan"
+
+msgid "Default: "
+msgstr "Varsayılan: "
+
+msgid "Definitely"
+msgstr "Mutlaka"
+
+msgid "Delete \"%s\""
+msgstr "Sil \"%s\""
+
+msgid "Delete directory"
+msgstr "Dizini sil"
+
+msgid "Delete file \"%s\"?"
+msgstr "Dosya \"%s\" silinsin mi?"
+
+msgid "Delete files:"
+msgstr "Dosyaları sil:"
+
+msgid "Delete folder"
+msgstr "Klasör sil"
+
+msgid "Delete selected text?"
+msgstr "Seçili metin silinsin mi?"
+
+msgid "Delete word"
+msgstr "Kelimeyi sil"
+
+msgid "Deleting"
+msgstr "Siliniyor"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Description:"
+msgstr "Açıklama:"
+
+msgid "Desktop"
+msgstr "Masaüstü"
+
+msgid "Details"
+msgstr "Detaylar"
+
+msgid "Direction"
+msgstr "Yön"
+
+msgid "Directory"
+msgstr "Dizin"
+
+msgid "Directory is not empty, delete anyway?"
+msgstr "Dizin boş değil, yine de silinsin mi?"
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Dizin bulunamadı:\n"
+"%s!"
+
+msgid "Directory:"
+msgstr "Dizin:"
+
+msgid "Distance (e):"
+msgstr "Uzaklık (e):"
+
+msgid "Distance (f):"
+msgstr "Uzaklık (f):"
+
+msgid "Distance to text:"
+msgstr "Metine uzaklık:"
+
+msgid "Documents"
+msgstr "Belgeler"
+
+msgid "Double quote"
+msgstr "Çift tırnak"
+
+msgid "Download file"
+msgstr "Dosyayı indir"
+
+msgid "Download from URL:"
+msgstr "URL'den indirin:"
+
+msgid "Duplex print"
+msgstr "Çift taraflı yazdırma"
+
+msgid "Edge Browser"
+msgstr "Edge Tarayıcısı"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Edit application list"
+msgstr "Uygulama listesini düzenle"
+
+msgid "Edit columns"
+msgstr "Sütunları düzenle"
+
+msgid "Edit double stringlists"
+msgstr "Çift dize listelerini düzenle"
+
+msgid "Edit expressions"
+msgstr "İfadeleri düzenle"
+
+msgid "Edit item"
+msgstr "Öğeyi düzenle"
+
+msgid "Edit items"
+msgstr "Öğeleri düzenle"
+
+msgid "Edit items from list"
+msgstr "Listeden öğeleri düzenle"
+
+msgid "Edit list"
+msgstr "Listeyi düzenle"
+
+msgid "Edit list entries"
+msgstr "Liste girişlerini düzenle"
+
+msgid "Edit mail recipient"
+msgstr "E-posta alıcısını düzenle"
+
+msgid "Edit recipient"
+msgstr "Alıcı düzenle"
+
+msgid "Edit search path list"
+msgstr "Arama yolu listesini düzenle"
+
+msgid "Edit source text"
+msgstr "Kaynak metni düzenle"
+
+msgid "Edit text"
+msgstr "Metni düzenle"
+
+msgid "Enable mail delivery"
+msgstr "Eposta gönderimini etkinleştir"
+
+msgid "End"
+msgstr "Çıkış"
+
+msgid "Enter password:"
+msgstr "Şifreyi giriniz:"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Dizin silinirken hata oluştu:\n"
+"%s!"
+
+msgid "Error during file transfer!"
+msgstr "Dosya aktarımı sırasında hata oluştu!"
+
+msgid "Error in line %s"
+msgstr "%s satırında hata"
+
+msgid "Error loading file: \"%s\""
+msgstr "Dosya yüklenirken hata oluştu: \"%s\""
+
+msgid "Error: Invalid interrupt (%s)"
+msgstr "Hata: Geçersiz kesinti (%s)"
+
+msgid "Error: Invalid port address (%s)"
+msgstr "Hata: Geçersiz bağlantı noktası adresi (%s)"
+
+msgid "Error: Out of range (%s)"
+msgstr "Hata: Aralık dışında (%s)"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Birden fazla ifadeyi şu şekilde değerlendirin"
+
+msgid "Exit"
+msgstr "Çıkış"
+
+msgid "FTP connection"
+msgstr "FTP bağlantısı"
+
+msgid "FTP proxy server options"
+msgstr "FTP proxy sunucu seçenekleri"
+
+msgid "February"
+msgstr "Şubat"
+
+msgid "Feeder offset:"
+msgstr "Besleyici dengelemesi:"
+
+msgid "File filter dialog"
+msgstr "Dosya filtreleme diyaloğu"
+
+msgid "File timestamp comparison"
+msgstr "Dosya zaman damgası karşılaştırması"
+
+msgid "File type:"
+msgstr "Dosya türü:"
+
+msgid "File: "
+msgstr "Dosya: "
+
+msgid "File: \"%s\" not found!"
+msgstr "Dosya: \"%s\" bulunamadı!"
+
+msgid "Filename:"
+msgstr "Dosya ismi:"
+
+msgid "Filenames:"
+msgstr "Dosya isimleri:"
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "Filter expressions:"
+msgstr "İfadeleri filtrele:"
+
+msgid "Filter:"
+msgstr "Filtre:"
+
+msgid "Font size:"
+msgstr "Yazı tipi boyutu:"
+
+msgid "Font style:"
+msgstr "Yazı tipi stili:"
+
+msgid "Font:"
+msgstr "Yazı tipi:"
+
+msgid "Force UTF-8 encoding"
+msgstr "UTF-8 kodlamasına zorla"
+
+msgid "Forward"
+msgstr "İleri"
+
+msgid "Frame around label"
+msgstr "Etiket etrafındaki çerçeve"
+
+msgid "Global"
+msgstr "Küresel"
+
+msgid "Go to default folder"
+msgstr "Varsayılan klasöre git"
+
+msgid "Go to last folder displayed"
+msgstr "Görüntülenen son klasöre git"
+
+msgid "Go to next error"
+msgstr "Sonraki hataya git"
+
+msgid "Go to next section"
+msgstr "Sonraki bölüme git"
+
+msgid "Go to previous error"
+msgstr "Önceki hataya git"
+
+msgid "Go to previous section"
+msgstr "Önceki bölüme git"
+
+msgid "Groups:"
+msgstr "Gruplar:"
+
+msgid "Gutter:"
+msgstr "Kolon arası:"
+
+msgid "HTTP proxy settings"
+msgstr "HTTP proksi ayarları"
+
+msgid "Height (d):"
+msgstr "Yükseklik (d):"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "Hex value:"
+msgstr "Hex değeri:"
+
+msgid "Home"
+msgstr "Anasayfa"
+
+msgid "Horizontal:"
+msgstr "Yatay:"
+
+msgid "If available"
+msgstr "Eğer mevcutsa"
+
+msgid "If available (explicit)"
+msgstr "Mevcutsa (açık)"
+
+msgid "Ignore 1 hour time difference from daylight saving time (winter - summer)"
+msgstr "Yaz saati uygulamasından (kış - yaz) itibaren 1 saatlik zaman farkını yoksay"
+
+msgid "Import CSV data"
+msgstr "CSV verilerini içe aktar"
+
+msgid "Import file:"
+msgstr "Dosyayı içe aktar:"
+
+msgid "Import/export format"
+msgstr "İçe/dışa aktarma biçimi"
+
+msgid "Information"
+msgstr "Bilgi"
+
+msgid "Insert word"
+msgstr "Kelime ekle"
+
+msgid "Interrupt"
+msgstr "Yarıda kes"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr "Geçersiz kod sayfası - Windows varsayılanı kullanılıyor!"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Geçersiz girdi: \"%s\""
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Geçersiz filtre maskesi!\n"
+"%s veya %s'ye benzemeli"
+
+msgid "Invalid input"
+msgstr "Geçersiz girdi"
+
+msgid "Invalid port number (%s)"
+msgstr "Geçersiz bağlantı noktası numarası (%s)"
+
+msgid "Italic"
+msgstr "İtalik"
+
+msgid "Item \"%s\" already exists!"
+msgstr "\"%s\" öğesi zaten mevcut!"
+
+msgid "January"
+msgstr "Ocak"
+
+msgid "July"
+msgstr "Temmuz"
+
+msgid "June"
+msgstr "Haziran"
+
+msgid "Keep this window opened"
+msgstr "Bu pencereyi açık tut"
+
+msgid "Key code"
+msgstr "Anahtar kodu"
+
+msgid "Key code:"
+msgstr "Anahtar kodu:"
+
+msgid "Keyboard layout"
+msgstr "Klavye düzeni"
+
+msgid "LPT selection"
+msgstr "LPT seçimi"
+
+msgid "Label layout"
+msgstr "Etiket düzeni"
+
+msgid "Landscape"
+msgstr "Yatay"
+
+msgid "Language selection"
+msgstr "Dil seçimi"
+
+msgid "Left:"
+msgstr "Sol:"
+
+msgid "Length:"
+msgstr "Uzunluk:"
+
+msgid "Line break on long lines"
+msgstr "Uzun satırlarda satır sonu"
+
+msgid "Line:"
+msgstr "Satır:"
+
+msgid "List of files:"
+msgstr "Dosyaların listesi:"
+
+msgid "Load from file"
+msgstr "Dosyadan yükle"
+
+msgid "Logon"
+msgstr "Oturum açma"
+
+msgid "Mail settings"
+msgstr "Eposta ayarları"
+
+msgid "March"
+msgstr "Mart"
+
+msgid "Margin (a):"
+msgstr "Kenar boşluğu (a):"
+
+msgid "Margin (b):"
+msgstr "Kenar boşluğu (b):"
+
+msgid "Margins"
+msgstr "Kenar boşlukları"
+
+msgid "May"
+msgstr "Mayıs"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Minimum şifre uzunluğu %u karakterdir"
+
+msgid "Move entry"
+msgstr "Girişi taşı"
+
+msgid "Move file down"
+msgstr "Dosyayı aşağı taşı"
+
+msgid "Move file up"
+msgstr "Dosyayı yukarı taşı"
+
+msgid "Move item"
+msgstr "Öğeyi taşı"
+
+msgid "Move item down"
+msgstr "Öğeyi aşağı taşı"
+
+msgid "Move item up"
+msgstr "Öğeyi yukarı taşı"
+
+msgid "Move one line down"
+msgstr "Bir satır aşağı git"
+
+msgid "Move one line up"
+msgstr "Bir satır yukarı git"
+
+msgid "My Documents"
+msgstr "Belgelerim"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "Name:"
+msgstr "İsim:"
+
+msgid "Navigation"
+msgstr "Gezinme"
+
+msgid "Network"
+msgstr "Ağ"
+
+msgid "New"
+msgstr "Yeni"
+
+msgid "New item:"
+msgstr "Yeni öğe:"
+
+msgid "New mail recipient"
+msgstr "Yeni e-posta alıcısı"
+
+msgid "New subdirectory:"
+msgstr "Yeni alt dizin:"
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "Next page"
+msgstr "Sonraki sayfa"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "No further errors!"
+msgstr "Başka hata yok!"
+
+msgid "No further sections!"
+msgstr "Daha fazla bölüm yok!"
+
+msgid "No host specified!"
+msgstr "Ana bilgisayar belirtilmedi!"
+
+msgid "No user name specified!"
+msgstr "Kullanıcı adı belirtilmedi!"
+
+msgid "No."
+msgstr "Hayır."
+
+msgid "None"
+msgstr "Hiçbiri"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Nothing to do!"
+msgstr "Yapılacak hiçbir şey yok!"
+
+msgid "November"
+msgstr "Kasım"
+
+msgid "Number"
+msgstr "Numara"
+
+msgid "Numeric input"
+msgstr "Sayısal girdi"
+
+msgid "OK"
+msgstr "TAMAM"
+
+msgid "OK and close"
+msgstr "TAMAM"
+
+msgid "OR operation"
+msgstr "OR işlemi"
+
+msgid "October"
+msgstr "Ekim"
+
+msgid "One directory up"
+msgstr "Bir dizin yukarı"
+
+msgid "One folder up"
+msgstr "Bir klasör yukarı"
+
+msgid ""
+"Online help is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer"
+msgstr ""
+"Çevrimiçi yardım sisteminizde mevcut değil\n"
+"Internet Explorer Vers. 4 veya daha yenisini yüklemeniz gerekiyor"
+
+msgid "Open site"
+msgstr "Siteyi açın"
+
+msgid "Options"
+msgstr "Ayarlar"
+
+msgid "Orientation"
+msgstr "Yönlendirme"
+
+msgid "Other"
+msgstr "Diğer"
+
+msgid "Page margins"
+msgstr "Sayfa kenar boşlukları"
+
+msgid "Page: "
+msgstr "Sayfa: "
+
+msgid "Page: %u"
+msgstr "Sayfa: %u"
+
+msgid "Paper margins"
+msgstr "Kağıt kenar boşlukları"
+
+msgid "Paper size:"
+msgstr "Kağıt boyutu:"
+
+msgid "Parts:"
+msgstr "Parçalar:"
+
+msgid "Password"
+msgstr "Şifre"
+
+msgid "Password:"
+msgstr "Şifre:"
+
+msgid "Passwords do not match!"
+msgstr "Şifreler uyuşmuyor!"
+
+msgid "Paste from clipboard"
+msgstr "Panodan yapıştır"
+
+msgid "Path:"
+msgstr "Yol:"
+
+msgid "Please specify an SMTP server!"
+msgstr "Lütfen bir SMTP sunucusu belirtin!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Lütfen en az bir alıcı belirtin!"
+
+msgid "Point"
+msgstr "Nokta"
+
+msgid "Port"
+msgstr "Bağlantı noktası"
+
+msgid "Port addr.:"
+msgstr "Port adr.:"
+
+msgid "Port:"
+msgstr "Bağlantı noktası :"
+
+msgid "Portrait"
+msgstr "Portre"
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Previous"
+msgstr "Önceki"
+
+msgid "Previous page"
+msgstr "Önceki sayfa"
+
+msgid "Print header"
+msgstr "Başlığı yazdır"
+
+msgid "Print line numbers"
+msgstr "Satır numaralarını yazdır"
+
+msgid "Print page margins"
+msgstr "Sayfa kenar boşluklarını yazdır"
+
+msgid "Print selected lines?"
+msgstr "Seçili satırları yazdır?"
+
+msgid "Printer (Port/Irq)"
+msgstr "Yazıcı (Port/Irq)"
+
+msgid "Printer settings"
+msgstr "Yazıcı ayarları"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Programlar|*.exe|all|*.*"
+
+msgid "Prompt"
+msgstr "İstem"
+
+msgid "Protocol:"
+msgstr "Protokol:"
+
+msgid "Proxy server settings"
+msgstr "Proxy sunucu ayarları"
+
+msgid "Quality:"
+msgstr "Kalite:"
+
+msgid "Quote character"
+msgstr "Alıntı karakteri"
+
+msgid "Range"
+msgstr "Aralık"
+
+msgid "Range:"
+msgstr "Aralık:"
+
+msgid "Read data from"
+msgstr "Verileri şuradan oku"
+
+msgid "Recipients:"
+msgstr "Alıcılar:"
+
+msgid "Reload"
+msgstr "Yeniden yükle"
+
+msgid "Remote directory:"
+msgstr "Uzak dizin:"
+
+msgid "Remove"
+msgstr "Sil"
+
+msgid "Remove all"
+msgstr "Tümünü sil"
+
+msgid "Remove all items"
+msgstr "Tüm öğeleri kaldır"
+
+msgid "Remove all selected items?"
+msgstr "Seçili tüm öğeler kaldırılsın mı?"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Uygulamayı kaldır: \"%s\"?"
+
+msgid "Remove file"
+msgstr "Dosyayı sil"
+
+msgid "Remove from list"
+msgstr "Listeden sil"
+
+msgid "Remove group: \"%s\"?"
+msgstr "Grup kaldırılsın mı: \"%s\"?"
+
+msgid "Remove item"
+msgstr "Öğeyi kaldır"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Öğe kaldırılsın mı: \"%s\"?"
+
+msgid "Remove key code"
+msgstr "Anahtar kodunu sil"
+
+msgid "Remove path"
+msgstr "Yolu kaldır"
+
+msgid "Remove path from search list"
+msgstr "Arama listesinden yolu kaldır"
+
+msgid "Remove recipient"
+msgstr "Alıcı sil"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Alıcıyı kaldır:\n"
+"%s\n"
+"listesinden?"
+
+msgid "Remove selected items"
+msgstr "Seçili öğeleri kaldır"
+
+msgid "Rename"
+msgstr "Yeni İsim"
+
+msgid "Repeat password:"
+msgstr "Şifreyi tekrar girin:"
+
+msgid "Replace &all"
+msgstr "Tümünü &değiştir"
+
+msgid "Replace by:"
+msgstr "Şununla değiştir:"
+
+msgid "Replace in list"
+msgstr "Listede değiştir"
+
+msgid "Replace item"
+msgstr "Öğeyi değiştir"
+
+msgid "Replace path"
+msgstr "Yolu değiştir"
+
+msgid "Replace path in search list"
+msgstr "Arama listesindeki yolu değiştir"
+
+msgid "Replace text"
+msgstr "Metni değiştir"
+
+msgid "Replace word"
+msgstr "Kelimeyi değiştir"
+
+msgid "Reply-To:"
+msgstr "Yanıt:"
+
+msgid "Require"
+msgstr "Gerekli"
+
+msgid "Require (explicit)"
+msgstr "Zorunlu (açık)"
+
+msgid "Reset to default values"
+msgstr "Varsayılan değerlere sıfırla"
+
+msgid "Right:"
+msgstr "Sağ:"
+
+msgid "Root directory on FTP server"
+msgstr "FTP sunucusundaki kök dizin"
+
+msgid "SMTP server:"
+msgstr "SMTP sunucusu:"
+
+msgid "Save as:"
+msgstr "Farklı kaydet:"
+
+msgid "Save list as new file"
+msgstr "Listeyi yeni dosya olarak kaydet"
+
+msgid "Search and replace"
+msgstr "Ara ve değiştir"
+
+msgid "Search for text"
+msgstr "Metin arayın"
+
+msgid "Search for:"
+msgstr "Şunu arayın:"
+
+msgid "Searching for directories"
+msgstr "Dizinler aranıyor"
+
+msgid "Secure mode: "
+msgstr "Güvenli mod: "
+
+msgid "Select"
+msgstr "Seç"
+
+msgid "Select FTP subdirectory"
+msgstr "FTP alt dizinini seçin"
+
+msgid "Select all"
+msgstr "Tümünü seç"
+
+msgid "Select application"
+msgstr "Uygulama seç"
+
+msgid "Select codepage"
+msgstr "Kod sayfasını seç"
+
+msgid "Select color"
+msgstr "Renk seçimi"
+
+msgid "Select date"
+msgstr "Tarihi seç"
+
+msgid "Select directory"
+msgstr "Dizini seç"
+
+msgid "Select files"
+msgstr "Dosya seç"
+
+msgid "Select font"
+msgstr "Yazı tipi seçimi"
+
+msgid "Select font color"
+msgstr "Yazı tipi rengini seç"
+
+msgid "Select format:"
+msgstr "Biçimi seçin:"
+
+msgid "Select item from list"
+msgstr "Listeden öğe seçin"
+
+msgid "Select items"
+msgstr "Öğeleri seç"
+
+msgid "Select month"
+msgstr "Ay seç"
+
+msgid "Select none"
+msgstr "Hiçbirini seçme"
+
+msgid "Select other color"
+msgstr "Diğer rengi seç"
+
+msgid "Select path"
+msgstr "Yolu seç"
+
+msgid "Select year"
+msgstr "Yılı seç"
+
+msgid "Selected subdirectory:"
+msgstr "Seçili alt dizin:"
+
+msgid "Selected text"
+msgstr "Seçili metin"
+
+msgid "Selection:"
+msgstr "Seçim:"
+
+msgid "Semicolon"
+msgstr "Noktalı virgül"
+
+msgid "Send command OPEN"
+msgstr "OPEN komutu gönder"
+
+msgid "Send command SITE (with logon)"
+msgstr "SITE komutu gönder (oturum açma ile)"
+
+msgid "Send command USER user@hostname"
+msgstr "USER komutu gönder user@hostname"
+
+msgid "Sender:"
+msgstr "Gönderen:"
+
+msgid "September"
+msgstr "Eylül"
+
+msgid "Server name"
+msgstr "Sunucu ismi"
+
+msgid "Server name:"
+msgstr "Sunucu ismi:"
+
+msgid "Shortcut:"
+msgstr "Kısayol:"
+
+msgid "Show files"
+msgstr "Dosyaları göster"
+
+msgid "Show password"
+msgstr "Şifreyi göster"
+
+msgid "Show text"
+msgstr "Metni göster"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Size:"
+msgstr "Boyut:"
+
+msgid "Skip"
+msgstr "Atla"
+
+msgid "Slash"
+msgstr "Eğik çizgi"
+
+msgid "Sort"
+msgstr "Sırala"
+
+msgid "Sort as"
+msgstr "Şu şekilde sırala"
+
+msgid "Space"
+msgstr "Boşluk"
+
+msgid "Start "
+msgstr "Başlat "
+
+msgid "Start:"
+msgstr "Başlat:"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Subdirectories:"
+msgstr "Alt dizinler:"
+
+msgid "Subject:"
+msgstr "Konu:"
+
+msgid "Synchronizing"
+msgstr "Senkronize ediliyor"
+
+msgid "Syntax highlighting"
+msgstr "Sözdizimi vurgulaması"
+
+msgid "Tab"
+msgstr "Sekme"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Text filter dialog"
+msgstr "Metin filtresi diyaloğu"
+
+msgid ""
+"The integrated web browser is not available on your system\n"
+"You need to install Internet Explorer Vers. 4 or newer."
+msgstr ""
+"Entegre web tarayıcısı sisteminizde mevcut değil\n"
+"Internet Explorer Vers. 4 veya daha yenisini yüklemeniz gerekiyor."
+
+msgid "The quick brown fox jumps .."
+msgstr "Hızlı kahverengi tilki atlar.."
+
+msgid "This option is only for debugging purposes"
+msgstr "Bu seçenek yalnızca hata ayıklama amaçlıdır"
+
+msgid "Time comparison tolerance in s:"
+msgstr "Zaman karşılaştırma toleransı (sn):"
+
+msgid "To recycle bin"
+msgstr "Geri dönüşüm kutusuna"
+
+msgid "Top:"
+msgstr "Üst:"
+
+msgid "Transfer status"
+msgstr "Transfer durumu"
+
+msgid "Transparent"
+msgstr "Saydam"
+
+msgid "Trying to connect to FTP server"
+msgstr "FTP sunucusuna bağlanmaya çalışılıyor"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Update"
+msgstr "Güncelleştir"
+
+msgid "Use HOST command"
+msgstr "HOST komutunu kullan"
+
+msgid "Use embrace characters  (\")"
+msgstr "Benimseme karakterlerini kullan (\")"
+
+msgid "Use passive mode"
+msgstr "Pasif modu kullan"
+
+msgid "Use proxy server"
+msgstr "Proxy sunucusunu kullan"
+
+msgid "Use regular expressions"
+msgstr "Düzenli ifadeleri kullan"
+
+msgid "Use secure data connection"
+msgstr "Güvenli veri bağlantısı kullan"
+
+msgid "User name"
+msgstr "Kullanıcı ismi"
+
+msgid "User name:"
+msgstr "Kullanıcı ismi:"
+
+msgid "Vertical:"
+msgstr "Dikey:"
+
+msgid "Whole text"
+msgstr "Tüm metin"
+
+msgid "Whole words"
+msgstr "Bütün kelimeler"
+
+msgid "Width"
+msgstr "Genişlik"
+
+msgid "Width (c):"
+msgstr "Genişlik (c):"
+
+msgid "Width:"
+msgstr "Genişlik:"
+
+msgid "Window size"
+msgstr "Pencere boyutu"
+
+msgid "With confirmation"
+msgstr "Onay ile"
+
+msgid "Word 1:"
+msgstr "Kelime 1:"
+
+msgid "Word 2:"
+msgstr "Kelime 2:"
+
+msgid "Write communication log to file"
+msgstr "İletişim günlüğünü dosyaya yaz"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "all|*.*"
+msgstr "tümü|*.*"
+
+msgid "change to UPPER CASE"
+msgstr "bÜYÜK HARF'e geç"
+
+msgid "change to lower case"
+msgstr "küçük harfe geç"
+
+msgid "do not change"
+msgstr "değişiklik yapma"
+
+msgid "fixed"
+msgstr "sabit"
+
+msgid "from beginning"
+msgstr "baştan itibaren"
+
+msgid "from cursor"
+msgstr "işaretçiden"
+
+msgid "no color"
+msgstr "renk yok"
+
+msgid "one line down"
+msgstr "bir sıra aşağı"
+
+msgid "one line up"
+msgstr "bir sıra yukarı"
+
+msgid "one month back"
+msgstr "bir ay geri"
+
+msgid "one month forward"
+msgstr "bir ay ileri"
+
+msgid "one year back"
+msgstr "bir yıl geri"
+
+msgid "one year forward"
+msgstr "bir yıl ileri"
+
+msgid "other"
+msgstr "diğer"
+
+msgid "to December"
+msgstr "aralık ayına kadar"
+
+msgid "to January"
+msgstr "ocak ayına kadar"
+
+msgid "to file:"
+msgstr "dosyasına:"
+
+msgid "unknown"
+msgstr "bilinmeyen"
+
+msgid "variable"
+msgstr "değişken"

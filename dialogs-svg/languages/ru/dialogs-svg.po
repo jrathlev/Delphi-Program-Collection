@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delphi dialogs\n"
+"POT-Creation-Date: 2025-04-04 11:31+0200\n"
+"PO-Revision-Date: 2025-04-05 12:12+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
+"Language-Team: Kopejkin, Ivan Laktionov\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 "
+"&& n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+msgid "Show password"
+msgstr "Показать пароль"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Repeat password:"
+msgstr "Повторите пароль:"
+
+msgid "Confirm password"
+msgstr "Подтвердить пароль"
+
+msgid "Name:"
+msgstr "Имя:"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Edit application list"
+msgstr "Отсечение списка приложений"
+
+msgid "Application"
+msgstr "Приложение"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Change"
+msgstr "Изменить"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Change order"
+msgstr "Изменение заказа"
+
+msgid "Move item up"
+msgstr "Переместить элемент выше"
+
+msgid "Move item down"
+msgstr "Переместить элемент ниже"
+
+msgid "Path:"
+msgstr "Путь:"
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "Программы|*.exe|Все|*.*"
+
+msgid "Select application"
+msgstr "Выберите приложение"
+
+msgid "Character table"
+msgstr "Таблица символов"
+
+msgid "Hex value:"
+msgstr "Значение Hex:"
+
+msgid "Select"
+msgstr "Выбрать"
+
+msgid "Information"
+msgstr "Информация"
+
+msgid "Details"
+msgstr "Детали"
+
+msgid "Edit list entries"
+msgstr "Правка списка записей"
+
+msgid "Move entry"
+msgstr "Переместить запись"
+
+msgid "Remove item"
+msgstr "Удалить элемент"
+
+msgid "Edit item"
+msgstr "Правка элемента"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Description:"
+msgstr "Описание:"
+
+msgid "Filter:"
+msgstr "Фильтр:"
+
+msgid "Move one line up"
+msgstr "Переместить на одну строку выше"
+
+msgid "Move one line down"
+msgstr "Переместить на одну строку ниже"
+
+msgid "Remove from list"
+msgstr "Удалить из списка"
+
+msgid "Add to list"
+msgstr "Добавить в список"
+
+msgid "Replace in list"
+msgstr "Заменить в списке"
+
+msgid "Text filter dialog"
+msgstr "Диалог фильтра текста"
+
+msgid "All matching"
+msgstr "Соотв. всем"
+
+msgid "All not matching"
+msgstr "Не соотв. ничему"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Filter expressions:"
+msgstr "Выражения фильтра:"
+
+msgid "Evaluate multiple expressions by"
+msgstr "Оцените несколько выражений по"
+
+msgid "OR operation"
+msgstr "ИЛИ операция"
+
+msgid "AND operation"
+msgstr "И операция"
+
+msgid "Edit expressions"
+msgstr "Редактировать выражения"
+
+msgid "Use regular expressions"
+msgstr "Исп. регулярные выражения"
+
+msgid "Select FTP subdirectory"
+msgstr "Выбрать FTP подкаталог"
+
+msgid "Subdirectories:"
+msgstr "Подкаталоги:"
+
+msgid "Root directory on FTP server"
+msgstr "Корневой каталог на FTP-сервере"
+
+msgid "Selected subdirectory:"
+msgstr "Выбранный подкаталог:"
+
+msgid "One directory up"
+msgstr "На уровень вверх"
+
+msgid "FTP proxy server options"
+msgstr "Опции FTP прокси-сервера"
+
+msgid "Connection method"
+msgstr "Метод подключения"
+
+msgid "Send command USER user@hostname"
+msgstr "Отправить команду USER user@hostname"
+
+msgid "Send command SITE (with logon)"
+msgstr "Отправить команду SITE (с входом в систему)"
+
+msgid "Send command OPEN"
+msgstr "Отправить команду OPEN"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Transparent"
+msgstr "Прозрачный"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "Server name:"
+msgstr "Имя сервера:"
+
+msgid "Server name"
+msgstr "Имя сервера"
+
+msgid "User name:"
+msgstr "Пользователь:"
+
+msgid "Port:"
+msgstr "Порт:"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Edit text"
+msgstr "Редактировать текст"
+
+msgid "Connect to"
+msgstr "Подключение к"
+
+msgid "Logon"
+msgstr "Вход в систему"
+
+msgid "&Skip"
+msgstr "&Пропустить"
+
+msgid "Mail settings"
+msgstr "Настройки почты"
+
+msgid "Recipients:"
+msgstr "Адресаты:"
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "Add recipient"
+msgstr "Добавить адресата"
+
+msgid "Remove recipient"
+msgstr "Удалить адресата"
+
+msgid "Edit recipient"
+msgstr "Правка адресата"
+
+msgid "Sender:"
+msgstr "Отправитель:"
+
+msgid "Reply-To:"
+msgstr "Ответ - Кому:"
+
+msgid "SMTP server:"
+msgstr "SMTP сервер:"
+
+msgid "Click button to enter password"
+msgstr "Нажмите кнопку, чтобы ввести пароль"
+
+msgid "Enable mail delivery"
+msgstr "Включить доставку почты"
+
+msgid "Use secure data connection"
+msgstr "Использовать безопасное подключение"
+
+msgid "If available (explicit)"
+msgstr "Если доступно (явно)"
+
+msgid "None"
+msgstr "Ничего"
+
+msgid "Require (explicit)"
+msgstr "Требуется (явно)"
+
+msgid "Always (implicit)"
+msgstr "Всегда (неявно)"
+
+msgid "Write communication log to file"
+msgstr "Записать журнал подключений в файл"
+
+msgid "Enter password:"
+msgstr "Введите пароль:"
+
+msgid "Quality:"
+msgstr "Качество:"
+
+msgid "AES encryption depth:"
+msgstr "Глубина шифрования AES:"
+
+msgid "128 bit"
+msgstr "128 бит"
+
+msgid "256 bit"
+msgstr "256 бит"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Paste from clipboard"
+msgstr "Паста из буфера обмена"
+
+msgid "Skip"
+msgstr "Пропустить"
+
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgid "Select item from list"
+msgstr "Выберите элемент из списка"
+
+msgid "Edit items"
+msgstr "Редактирование"
+
+msgid "Remove selected items"
+msgstr "Удалить выбранные элементы"
+
+msgid "Reset to default values"
+msgstr "Сброс к типовым значениям"
+
+msgid "Default"
+msgstr "Стандарт"
+
+msgid "Remove all items"
+msgstr "Удалить все элементы"
+
+msgid "Remove all"
+msgstr "Удалить все"
+
+msgid "Move item"
+msgstr "Перемещение"
+
+msgid "Prompt"
+msgstr "Подсказка"
+
+msgid "Select items"
+msgstr "Выбрать элементы"
+
+msgid "Select none"
+msgstr "Очистить выбор"
+
+msgid "Select all"
+msgstr "Выбрать все"
+
+msgid "Select directory"
+msgstr "Выбрать каталог"
+
+msgid "Network"
+msgstr "Сеть"
+
+msgid "Computer"
+msgstr "Компьютер"
+
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+msgid "Documents"
+msgstr "Документы"
+
+msgid "Directory:"
+msgstr "Каталог:"
+
+msgid "Go to default folder"
+msgstr "Перейти к папке по умолчанию"
+
+msgid "One folder up"
+msgstr "На уровень вверх"
+
+msgid "Create new folder"
+msgstr "Создать новую папку"
+
+msgid "Show files"
+msgstr "Показать файлы"
+
+msgid "Directory"
+msgstr "Каталог"
+
+msgid "Create folder"
+msgstr "Создать папку"
+
+msgid "Delete folder"
+msgstr "Удалить папку"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Show text"
+msgstr "Показать текст"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "&Delete"
+msgstr "&Удалить"
+
+msgid "&Print"
+msgstr "&Печать"
+
+msgid "&Open"
+msgstr "&Открыть"
+
+msgid "&Search"
+msgstr "&Поиск"
+
+msgid "Go to previous error"
+msgstr "Перейти к предыдущей ошибке"
+
+msgid "Go to previous section"
+msgstr "Перейти к предыдущему разделу"
+
+msgid "Go to next error"
+msgstr "Перейти к следующей ошибке"
+
+msgid "Go to next section"
+msgstr "Перейти к следующему разделу"
+
+msgid "Select font"
+msgstr "Выбрать шрифт"
+
+msgid "Select codepage"
+msgstr "Выберите кодовую страницу"
+
+msgid "Save as zip"
+msgstr "Сохранить в формате zip"
+
+msgid "&Yes"
+msgstr "&Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Download file"
+msgstr "Загрузка файла"
+
+msgid "Download from URL:"
+msgstr "Загрузить с URL:"
+
+msgid "Save as:"
+msgstr "Сохранить как:"
+
+msgid "Minimum length of password is %u characters"
+msgstr "Минимальная длина пароля - %u (симв.)"
+
+msgid "Passwords do not match!"
+msgstr "Пароли не совпадают!"
+
+msgid "Application (%s)"
+msgstr "Применение (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "Удалить приложение: \"%s\"?"
+
+msgid "Item \"%s\" already exists!"
+msgstr "Элемент \"%s\" уже существует"
+
+msgid "File filter dialog"
+msgstr "Диалог фильтра файлов"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"Недопустимая маска фильтра!\n"
+"Должен напомнить %s или %s"
+
+msgid "FTP connection"
+msgstr "FTP подключение"
+
+msgid "Searching for directories"
+msgstr "Поиск каталогов"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"Для подключения с FTP-серверу: %s: %u\n"
+"пользователю: %s\n"
+"требуется пароль!"
+
+msgid "Trying to connect to FTP server"
+msgstr "Попытка соединиться с FTP-сервером"
+
+msgid "Connection to FTP server failed"
+msgstr "Не удалось подключиться к FTP-серверу"
+
+msgid "Invalid port number (%s)"
+msgstr "Недопустимый адрес порта (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "Укажите SMTP-сервер!"
+
+msgid "Please specify at least one recipient!"
+msgstr "Укажите по крайней мере одного адрессата!"
+
+msgid "New mail recipient"
+msgstr "Новый адресат"
+
+msgid "Address:"
+msgstr "Адрес:"
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"Удалить адрессата:\n"
+"%s\n"
+"из списка?"
+
+msgid "Edit mail recipient"
+msgstr "Редактирование адресата"
+
+msgid "Invalid entry: \"%s\""
+msgstr "Неверный элемент: \"%s\""
+
+msgid "Clear whole list"
+msgstr "Очистить весь список"
+
+msgid "Remove all selected items?"
+msgstr "Удалить все выбранные элементы?"
+
+msgid "Remove item: \"%s\"?"
+msgstr "Удалить элемент: \"%s\"?"
+
+msgid "Default: "
+msgstr "По умолчанию: "
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"Каталог не найден:\n"
+"%s!"
+
+msgid "New subdirectory:"
+msgstr "Новый подкаталог:"
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"Не удалось создать каталог:\n"
+"%s!"
+
+msgid "Delete directory"
+msgstr "Удалить каталог"
+
+msgid "Delete \"%s\""
+msgstr "Удалить \"%s\""
+
+msgid "Definitely"
+msgstr "Определенно"
+
+msgid "To recycle bin"
+msgstr "В Корзину"
+
+msgid "%u directories with %u files deleted!"
+msgstr "Каталоги (%u) с файлами (%u) удалены!"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s перемещено в Корзину!"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"Ошибка удаления каталога:\n"
+"%s!"
+
+msgid " free of "
+msgstr " свободно из "
+
+msgid " Line: %u of %u"
+msgstr " Строка: %u из %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "Ошибка загрузки файла: \"%s\""
+
+msgid "Delete selected text?"
+msgstr "Удалить выделенный текст?"
+
+msgid "Page: %u"
+msgstr "Страница: %u"
+
+msgid "File: "
+msgstr "Файл: "
+
+msgid "Print selected lines?"
+msgstr "Распечатать выбранные строки?"
+
+#: ShowMemo.pas:592
+msgid "Save text file as zip archive"
+msgstr "Сохранить текстовый файл в виде zip-архива"
+
+msgid "Zip archives"
+msgstr "Zip-архивы"
+
+msgid "Delete file \"%s\"?"
+msgstr "Удалить файл \"%s\"?"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" не найден!"
+
+msgid "No further sections!"
+msgstr "Нет других разделов!"
+
+msgid "Invalid code page - Windows default is used!"
+msgstr ""
+"Неверная кодовая страница - используется значение по умолчанию "
+"Windows!"
+
+msgid "No further errors!"
+msgstr "Нет других ошибок!"
+
+msgid "Invalid input"
+msgstr "Недопустимый ввод"
+
+msgid "%s verification failed!"
+msgstr "%s cбой проверки!"
+
+msgid "%s hash file not found!"
+msgstr "%s хеш-файл не найден!"

@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Delphi units\n"
-"POT-Creation-Date: 2025-07-20 12:19+0200\n"
-"PO-Revision-Date: 2025-07-20 12:25+0200\n"
+"POT-Creation-Date: 2025-10-10 13:34+0200\n"
+"PO-Revision-Date: 2025-12-04 17:03+0100\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: bovirus <bovirus@gmail.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "No errors on COM connection"
@@ -218,8 +218,6 @@ msgstr "Errore durante l'eliminazione del file"
 msgid "Error renaming file"
 msgstr "Errore durante la ridenominazione del file"
 
-#. Programmer's name for it: rsZipFormat
-#: FileConsts.pas:85
 msgid "Invalid zip format"
 msgstr "Formato zip non valido"
 
@@ -575,7 +573,7 @@ msgid "%s is not a valid binary value"
 msgstr "%s non è un valore binario valido"
 
 msgid "&System default"
-msgstr "Predefinito &sistema"
+msgstr "&Predefinito &sistema"
 
 msgid "Changing language requires the program to be restarted!"
 msgstr "Per applicare la modifica della lingua va riavviato il programma!"
@@ -606,6 +604,47 @@ msgstr "%s (versione %s, %s)"
 
 msgid "Windows 11"
 msgstr "Windows 11"
+
+#. Programmer's name for it: rsVersionText
+#: UnitConsts.pas:82
+msgid ""
+"Product name        : %s%s\n"
+"Version             : %d.%d\n"
+"Build               : %d\n"
+"Edition             : %6:s"
+msgstr ""
+"Nome del prodotto   : %s%s\n"
+"Versione            : %d.%d\n"
+"Build               : %d\n"
+"Edizione            : %6:s"
+
+#. Programmer's name for it: rsSPVersionText
+#: UnitConsts.pas:87
+msgid ""
+"Product name        : %s%s\n"
+"Service Pack        : %5:d\n"
+"Version             : %2:d.%3:d\n"
+"Build               : %4:d\n"
+"Edition             : %6:s"
+msgstr ""
+"Nome del prodotto   : %s%s\n"
+"Service Pack        : %5:d\n"
+"Versione            : %2:d.%3:d\n"
+"Build               : %4:d\n"
+"Edizione            : %6:s"
+
+#. Programmer's name for it: rsVersion10Text
+#: UnitConsts.pas:91
+msgid ""
+"Product name        : %s%s\n"
+"Version             : %s\n"
+"Build               : %d\n"
+"Edition             : %s"
+msgstr ""
+"Nome del prodotto   : %s%s\n"
+"Versione            : %s\n"
+"Build               : %d\n"
+"Edizione            : %s"
 
 msgid "Professional with Media Center"
 msgstr "Professional con Media Center"

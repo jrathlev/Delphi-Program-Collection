@@ -1,0 +1,632 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal Backup 6.3\n"
+"POT-Creation-Date: 2025-04-04 11:31+0200\n"
+"PO-Revision-Date: 2025-04-05 12:13+0200\n"
+"Last-Translator: J. Rathlev <kontakt@rathlev-"
+"home.de>\n"
+"Language-Team: 大眼仔~旭<wcxu21@126.com>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Show password"
+msgstr "显示密码"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Repeat password:"
+msgstr "重复密码："
+
+msgid "Confirm password"
+msgstr "确认密码"
+
+msgid "Name:"
+msgstr "名称："
+
+msgid "User name"
+msgstr "用户名"
+
+msgid "Password:"
+msgstr "密码："
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Edit application list"
+msgstr "编辑应用程序列表"
+
+msgid "Application"
+msgstr "应用程序"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Change"
+msgstr "更改"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Change order"
+msgstr "更改顺序"
+
+msgid "Move item up"
+msgstr "向上移动"
+
+msgid "Move item down"
+msgstr "向下移动"
+
+msgid "Path:"
+msgstr "路径："
+
+msgid "Programs|*.exe|all|*.*"
+msgstr "程序|*.exe|全部|*.*"
+
+msgid "Select application"
+msgstr "选择应用程序"
+
+msgid "Character table"
+msgstr "字符表"
+
+msgid "Hex value:"
+msgstr "十六进制值："
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Information"
+msgstr "信息"
+
+msgid "Details"
+msgstr "详细信息"
+
+msgid "Edit list entries"
+msgstr "编辑列表项"
+
+msgid "Move entry"
+msgstr "移动项"
+
+msgid "Remove item"
+msgstr "移除项"
+
+msgid "Edit item"
+msgstr "编辑项"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Description:"
+msgstr "描述："
+
+msgid "Filter:"
+msgstr "过滤器："
+
+msgid "Move one line up"
+msgstr "上移一行"
+
+msgid "Move one line down"
+msgstr "下移一行"
+
+msgid "Remove from list"
+msgstr "从列表中移除"
+
+msgid "Add to list"
+msgstr "添加到列表"
+
+msgid "Replace in list"
+msgstr "在列表中替换"
+
+msgid "Text filter dialog"
+msgstr "文本过滤对话框"
+
+msgid "All matching"
+msgstr "所有匹配"
+
+msgid "All not matching"
+msgstr "所有不匹配"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Filter expressions:"
+msgstr "过滤表达式："
+
+msgid "Evaluate multiple expressions by"
+msgstr "按以下方式评估多个表达式"
+
+msgid "OR operation"
+msgstr "或操作"
+
+msgid "AND operation"
+msgstr "与操作"
+
+msgid "Edit expressions"
+msgstr "编辑表达式"
+
+msgid "Use regular expressions"
+msgstr "使用正则表达式"
+
+msgid "Select FTP subdirectory"
+msgstr "选择FTP子目录"
+
+msgid "Subdirectories:"
+msgstr "子目录："
+
+msgid "Root directory on FTP server"
+msgstr "FTP 服务器上的根目录"
+
+msgid "Selected subdirectory:"
+msgstr "所选子目录："
+
+msgid "One directory up"
+msgstr "上一级目录"
+
+msgid "FTP proxy server options"
+msgstr "FTP 代理服务器选项"
+
+msgid "Connection method"
+msgstr "连接方法"
+
+msgid "Send command USER user@hostname"
+msgstr "发送命令 USER user@hostname"
+
+msgid "Send command SITE (with logon)"
+msgstr "发送命令 SITE（带登录）"
+
+msgid "Send command OPEN"
+msgstr "发送命令 OPEN"
+
+msgid "USER user@firewalluser@hostname"
+msgstr "USER user@firewalluser@hostname"
+
+msgid "Transparent"
+msgstr "透明"
+
+msgid "USER hostuserID@hostname firewallUsername"
+msgstr "USER hostuserID@hostname firewallUsername"
+
+msgid "Server name:"
+msgstr "服务器名称："
+
+msgid "Server name"
+msgstr "服务器名称"
+
+msgid "User name:"
+msgstr "用户名："
+
+msgid "Port:"
+msgstr "端口："
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Edit text"
+msgstr "编辑文本"
+
+msgid "Connect to"
+msgstr "连接到"
+
+msgid "Logon"
+msgstr "登录"
+
+msgid "&Skip"
+msgstr "跳过(&S)"
+
+msgid "Mail settings"
+msgstr "邮件设置"
+
+msgid "Recipients:"
+msgstr "收件人："
+
+msgid "Subject:"
+msgstr "主题："
+
+msgid "Add recipient"
+msgstr "添加收件人"
+
+msgid "Remove recipient"
+msgstr "删除收件人"
+
+msgid "Edit recipient"
+msgstr "编辑收件人"
+
+msgid "Sender:"
+msgstr "发件人："
+
+msgid "Reply-To:"
+msgstr "回复至："
+
+msgid "SMTP server:"
+msgstr "SMTP 服务器："
+
+msgid "Click button to enter password"
+msgstr "点击按钮输入密码"
+
+msgid "Enable mail delivery"
+msgstr "启用邮件发送"
+
+msgid "Use secure data connection"
+msgstr "使用安全数据连接"
+
+msgid "If available (explicit)"
+msgstr "如果有提供（显式）"
+
+msgid "None"
+msgstr "无"
+
+msgid "Require (explicit)"
+msgstr "要求（显式）"
+
+msgid "Always (implicit)"
+msgstr "总是（隐式）"
+
+msgid "Write communication log to file"
+msgstr "将通信日志写入文件"
+
+msgid "Enter password:"
+msgstr "输入密码："
+
+msgid "Quality:"
+msgstr "质量："
+
+msgid "AES encryption depth:"
+msgstr "AES 加密强度："
+
+msgid "128 bit"
+msgstr "128 位"
+
+msgid "256 bit"
+msgstr "256 位"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Paste from clipboard"
+msgstr "从剪贴板粘贴"
+
+msgid "Skip"
+msgstr "跳过"
+
+msgid "Add item"
+msgstr "添加项目"
+
+msgid "Select item from list"
+msgstr "从列表中选择项"
+
+msgid "Edit items"
+msgstr "编辑项"
+
+msgid "Remove selected items"
+msgstr "移除选定项"
+
+msgid "Reset to default values"
+msgstr "重置为默认值"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Remove all items"
+msgstr "移除所有项"
+
+msgid "Remove all"
+msgstr "全部移除"
+
+msgid "Move item"
+msgstr "移动项"
+
+msgid "Prompt"
+msgstr "提示"
+
+msgid "Select items"
+msgstr "选择项"
+
+msgid "Select none"
+msgstr "取消全选"
+
+msgid "Select all"
+msgstr "全选"
+
+msgid "Select directory"
+msgstr "选择目录"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "Computer"
+msgstr "计算机"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Documents"
+msgstr "文档"
+
+msgid "Directory:"
+msgstr "目录："
+
+msgid "Go to default folder"
+msgstr "转到默认文件夹"
+
+msgid "One folder up"
+msgstr "上一级文件夹"
+
+msgid "Create new folder"
+msgstr "创建新文件夹"
+
+msgid "Show files"
+msgstr "显示文件"
+
+msgid "Directory"
+msgstr "目录"
+
+msgid "Create folder"
+msgstr "创建文件夹"
+
+msgid "Delete folder"
+msgstr "删除文件夹"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Show text"
+msgstr "显示文本"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "&Delete"
+msgstr "删除(&D)"
+
+msgid "&Print"
+msgstr "打印(&P)"
+
+msgid "&Open"
+msgstr "打开(&O)"
+
+msgid "&Search"
+msgstr "查找(&S)"
+
+msgid "Go to previous error"
+msgstr "转到上一个错误"
+
+msgid "Go to previous section"
+msgstr "转到上一节"
+
+msgid "Go to next error"
+msgstr "转到下一个错误"
+
+msgid "Go to next section"
+msgstr "转到下一节"
+
+msgid "Select font"
+msgstr "选择字体"
+
+msgid "Select codepage"
+msgstr "选择代码页"
+
+msgid "Save as zip"
+msgstr "保存为压缩文件"
+
+msgid "&Yes"
+msgstr "是(&Y)"
+
+msgid "No"
+msgstr "否"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Download file"
+msgstr "下载文件"
+
+msgid "Download from URL:"
+msgstr "从 URL 下载："
+
+msgid "Save as:"
+msgstr "另存为："
+
+msgid "Minimum length of password is %u characters"
+msgstr "密码的最小长度为 %u 个字符"
+
+msgid "Passwords do not match!"
+msgstr "密码不匹配！"
+
+msgid "Application (%s)"
+msgstr "应用程序 (%s)"
+
+msgid "Remove application: \"%s\"?"
+msgstr "移除应用程序：\"%s\"？"
+
+msgid "Item \"%s\" already exists!"
+msgstr "项 \"%s\" 已存在！"
+
+msgid "File filter dialog"
+msgstr "文件过滤对话框"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Filter"
+msgstr "过滤器"
+
+msgid ""
+"Invalid filter mask!\n"
+"Should resemble %s or %s"
+msgstr ""
+"无效的过滤掩码！\n"
+"应类似于 %s 或 %s"
+
+msgid "FTP connection"
+msgstr "FTP 连接"
+
+msgid "Searching for directories"
+msgstr "正在搜索目录"
+
+msgid ""
+"Connection to FTP server: %s:%u\n"
+"for user: %s\n"
+"requires a password!"
+msgstr ""
+"连接到 FTP 服务器： %s:%u\n"
+"用户： %s\n"
+"需要密码！"
+
+msgid "Trying to connect to FTP server"
+msgstr "尝试连接到 FTP 服务器"
+
+msgid "Connection to FTP server failed"
+msgstr "连接到 FTP 服务器失败"
+
+msgid "Invalid port number (%s)"
+msgstr "无效的端口号 (%s)"
+
+msgid "Please specify an SMTP server!"
+msgstr "请指定一个 SMTP 服务器！"
+
+msgid "Please specify at least one recipient!"
+msgstr "请至少指定一个收件人！"
+
+msgid "New mail recipient"
+msgstr "新邮件收件人"
+
+msgid "Address:"
+msgstr "地址："
+
+msgid ""
+"Remove recipient:\n"
+"%s\n"
+"from list?"
+msgstr ""
+"从列表中移除收件人：\n"
+"%s\n"
+"？"
+
+msgid "Edit mail recipient"
+msgstr "编辑邮件收件人"
+
+msgid "Invalid entry: \"%s\""
+msgstr "无效条目：\"%s\""
+
+msgid "Clear whole list"
+msgstr "清空整个列表"
+
+msgid "Remove all selected items?"
+msgstr "移除所有选定项目？"
+
+msgid "Remove item: \"%s\"?"
+msgstr "移除项目：\"%s\"？"
+
+msgid "Default: "
+msgstr "默认："
+
+msgid ""
+"Directory not found:\n"
+"%s!"
+msgstr ""
+"未找到目录：\n"
+"%s！"
+
+msgid "New subdirectory:"
+msgstr "新建子目录："
+
+msgid ""
+"Could not create directory:\n"
+"%s!"
+msgstr ""
+"无法创建目录：\n"
+"%s！"
+
+msgid "Delete directory"
+msgstr "删除目录"
+
+msgid "Delete \"%s\""
+msgstr "删除\"%s\""
+
+msgid "Definitely"
+msgstr "确定"
+
+msgid "To recycle bin"
+msgstr "移到回收站"
+
+msgid "%u directories with %u files deleted!"
+msgstr "已删除 %u 个包含 %u 个文件的目录！"
+
+msgid "%s moved to Recycle Bin!"
+msgstr "%s 移动到了回收站！"
+
+msgid ""
+"Error deleting directory:\n"
+"%s!"
+msgstr ""
+"删除目录时出错：\n"
+"%s！"
+
+msgid " free of "
+msgstr " 共有 "
+
+msgid " Line: %u of %u"
+msgstr " 行：%u / %u"
+
+msgid "Error loading file: \"%s\""
+msgstr "加载文件时出错：\"%s\""
+
+msgid "Delete selected text?"
+msgstr "删除选中的文本？"
+
+msgid "Page: %u"
+msgstr "页：%u"
+
+msgid "File: "
+msgstr "文件："
+
+msgid "Print selected lines?"
+msgstr "打印选中的行？"
+
+#: ShowMemo.pas:592
+msgid "Save text file as zip archive"
+msgstr "将文本文件保存为压缩包"
+
+msgid "Zip archives"
+msgstr "Zip档案"
+
+msgid "Delete file \"%s\"?"
+msgstr "删除文件 \"%s\"？"
+
+msgid "\"%s\" not found!"
+msgstr "\"%s\" 未找到！"
+
+msgid "No further sections!"
+msgstr "没有更多部分！"
+
+msgid ""
+"Invalid code page - Windows default is used!"
+msgstr "无效的代码页 - 使用了 Windows 默认值！"
+
+msgid "No further errors!"
+msgstr "没有更多错误！"
+
+msgid "Invalid input"
+msgstr "无效输入"
+
+msgid "%s verification failed!"
+msgstr "%s 验证失败！"
+
+msgid "%s hash file not found!"
+msgstr "未找到 %s 哈希文件！"

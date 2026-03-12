@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Delphi-Units\n"
-"POT-Creation-Date: 2025-07-20 12:19+0200\n"
-"PO-Revision-Date: 2025-07-20 12:28+0200\n"
+"POT-Creation-Date: 2025-10-10 13:34+0200\n"
+"PO-Revision-Date: 2025-12-04 17:19+0100\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: Kopejkin (kopejkin.ru@gmail.com)\n"
 "Language: uk\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : "
 "((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid "No errors on COM connection"
@@ -215,8 +215,6 @@ msgstr "Помилка видалення файлу"
 msgid "Error renaming file"
 msgstr "Помилка перейменування файлу"
 
-#. Programmer's name for it: rsZipFormat
-#: FileConsts.pas:85
 msgid "Invalid zip format"
 msgstr "Неправильний формат zip-файлу"
 
@@ -596,21 +594,60 @@ msgid "Closing handle failed"
 msgstr "Не вдалося закрити дескриптор"
 
 msgid "%s%s (Version %s, Build %d, %s)"
-msgstr ""
-"%s%s \n"
-"(Version %s, Build %d, %s)"
+msgstr "%s%s (Версія %s, Build %d, %s)"
 
 msgid "%s (Version %s, %s)"
-msgstr "%s (Version %s, %s)"
+msgstr "%s (VВерсія %s, %s)"
 
 msgid "Windows 11"
 msgstr "Windows 11"
 
+#. Programmer's name for it: rsVersionText
+#: UnitConsts.pas:82
+msgid ""
+"Product name        : %s%s\n"
+"Version             : %d.%d\n"
+"Build               : %d\n"
+"Edition             : %6:s"
+msgstr ""
+"Назва продукту      : %s%s\n"
+"Версія              : %d.%d\n"
+"Build               : %d\n"
+"Видання             : %6:s"
+
+#. Programmer's name for it: rsSPVersionText
+#: UnitConsts.pas:87
+msgid ""
+"Product name        : %s%s\n"
+"Service Pack        : %5:d\n"
+"Version             : %2:d.%3:d\n"
+"Build               : %4:d\n"
+"Edition             : %6:s"
+msgstr ""
+"Назва продукту      : %s%s\n"
+"Service Pack        : %5:d\n"
+"Версія              : %2:d.%3:d\n"
+"Build               : %4:d\n"
+"Видання             : %6:s"
+
+#. Programmer's name for it: rsVersion10Text
+#: UnitConsts.pas:91
+msgid ""
+"Product name        : %s%s\n"
+"Version             : %s\n"
+"Build               : %d\n"
+"Edition             : %s"
+msgstr ""
+"Назва продукту      : %s%s\n"
+"Версія              : %s\n"
+"Build               : %d\n"
+"Видання             : %s"
+
 msgid "Professional with Media Center"
-msgstr "Professional with Media Center"
+msgstr "Professional з Media Center"
 
 msgid "Server Enterprise for Itanium-based Systems"
-msgstr "Server Enterprise for Itanium-based Systems"
+msgstr "Server Enterprise для Itanium-based Systems"
 
 msgid "Essential Server without Hyper-V"
 msgstr "Essential Server без Hyper-V"
