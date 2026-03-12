@@ -187,6 +187,7 @@ var
   LImagePng: TPngImage;
   LBitmap: TBitmap;
   LFileName: string;
+  h          : integer;
 begin
   LBitmap := nil;
   LImagePng := nil;
@@ -195,13 +196,14 @@ begin
     LBitmap.PixelFormat := TPixelFormat.pf32bit;   // 32bit bitmap
     LBitmap.AlphaFormat := TAlphaFormat.afDefined; // Enable alpha channel
 
-    LBitmap.SetSize(AWidth, AHeight);
+    if KeepAspectRatio then h:=round(AWidth*FSVG.Height/FSVG.Width) else h:=AHeight;
+    LBitmap.SetSize(AWidth,h);
 
     // Fill background with transparent
     LBitmap.Canvas.Brush.Color := clNone;
-    LBitmap.Canvas.FillRect(Rect(0, 0, AWidth, AHeight));
+    LBitmap.Canvas.FillRect(Rect(0,0,AWidth,h));
 
-    FSVG.PaintTo(LBitmap.Canvas.Handle, TRectF.Create(0, 0, AWidth, AHeight),KeepAspectRatio);
+    FSVG.PaintTo(LBitmap.Canvas.Handle, TRectF.Create(0, 0, AWidth, h),KeepAspectRatio);
 
     LImagePng := PNG4TransparentBitMap(LBitmap);
     LFileName := ChangeFileExt(AFileName,'.png');         // JR
