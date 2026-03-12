@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-06 11:21+0100\n"
-"PO-Revision-Date: 2026-03-06 11:22+0100\n"
+"POT-Creation-Date: 2026-03-09 17:03+0100\n"
+"PO-Revision-Date: 2026-03-09 17:04+0100\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -49,8 +49,14 @@ msgstr ""
 msgid "Image file properties"
 msgstr "Propiedades del archivo de imagen"
 
+msgid "Open SVG image with associated application"
+msgstr "Abrir imagen SVG con la aplicación asociada"
+
 msgid "Edit"
 msgstr "Editar"
+
+msgid "Copy image to clipboard"
+msgstr "Copiar imagen al portapapeles"
 
 msgid "Export PNG"
 msgstr "Exportar PNG"
@@ -85,8 +91,6 @@ msgstr "Opciones"
 msgid "Copy name"
 msgstr "Copiar nombre"
 
-#. fmExplorerSVG.pmImages.Copypath1.Caption
-#: FExplorerSVG.dfm:1076
 msgid "Copy path "
 msgstr "Copiar ruta "
 
@@ -131,6 +135,16 @@ msgstr "Programa SVG Cleaner"
 
 msgid "exe files"
 msgstr "archivos exe"
+
+#. fmExplorerSVG.pmMain.pmiLanguage.Caption
+#: FExplorerSVG.dfm:1271
+msgid "Language"
+msgstr "Lenguaje"
+
+#. fmExplorerSVG.pmMain.pmiInfo.Caption
+#: FExplorerSVG.dfm:1277
+msgid "About the program"
+msgstr "Acerca del programa"
 
 msgid "Do you really want to delete %u selected files?"
 msgstr "¿De verdad quieres eliminar %u archivos seleccionados?"

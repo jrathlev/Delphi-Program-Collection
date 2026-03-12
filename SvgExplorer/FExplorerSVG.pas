@@ -49,11 +49,11 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.ImageList, Vcl.ImgList,
   SVGIconImageList, Vcl.StdCtrls, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.ClipBrd,
   SVGIconImage, Vcl.WinXCtrls, System.Actions, Vcl.ActnList, Vcl.Menus,
-  SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces;
+  SVGIconImageListBase, Vcl.Shell.ShellCtrls, Vcl.Buttons, SVGInterfaces, LangUtils;
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1.7';
+  Version = '2.1.8';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025-2026 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
@@ -194,7 +194,12 @@ type
     grpFactory: TRadioGroup;
     paFactory: TPanel;
     IconAction: TAction;
-    Copypath1: TMenuItem;
+    pmiCopyPath: TMenuItem;
+    bbCopy: TBitBtn;
+    pmMain: TPopupMenu;
+    pmiLanguage: TMenuItem;
+    N3: TMenuItem;
+    pmiInfo: TMenuItem;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -234,23 +239,28 @@ type
     procedure pmiCopyImagesClick(Sender: TObject);
     procedure pmiPasteImagesClick(Sender: TObject);
     procedure bbContextClick(Sender: TObject);
-    procedure bbInfoClick(Sender: TObject);
+    procedure pmiInfoClick(Sender: TObject);
     procedure btnIconDirClick(Sender: TObject);
     procedure cbIconDirCloseUp(Sender: TObject);
     procedure IconActionExecute(Sender: TObject);
     procedure spRightMoved(Sender: TObject);
     procedure spRightCanResize(Sender: TObject; var NewSize: Integer;
       var Accept: Boolean);
-    procedure Copypath1Click(Sender: TObject);
+    procedure pmiCopyPathClick(Sender: TObject);
+    procedure bbCopyClick(Sender: TObject);
+    procedure bbInfoClick(Sender: TObject);
+    procedure SetLanguageClick(Sender : TObject; Language : TLangCodeString);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
     CmdImg,OptProg : string;
+    StatCount,StatTime,
     SelectedIndex,
     ExpWidth,ExpHeight,
     ToolHeight     : integer;
     OldContext     : boolean;
-    IconSvg : ISVG;
+    IconSvg        : ISVG;
+    Languages      : TLanguageList;
     procedure SetFactory(AFactory: TSVGFactory);
     procedure LoadFilesDir(const APath: string; const AFilter: string = '');
     procedure SelectImage (const ImgName : string);
@@ -272,35 +282,28 @@ var
 implementation
 
 uses
-  System.IniFiles,
-  System.Types,
-  System.StrUtils,
-  System.Win.Registry,
-  WinApi.ActiveX,
-  WinApi.KnownFolders,
-  WinApi.ShellApi,
-  WinApi.ShlObj,
+  System.IniFiles, System.Types, System.StrUtils, System.Win.Registry,
+  WinApi.ActiveX, WinApi.KnownFolders, WinApi.ShellApi, WinApi.ShlObj,
   Vcl.Imaging.PngImage,
-  GnuGetText,
-  ListUtils,
-  PathUtils,
-  StringUtils,
-  NumberUtils,
-  MsgDialogs,
-  NumDlg,
-  WinShell,
-  WinExecute,
-  ClipboardUtils,
-  FileUtils,
-  SelectDlg,
-  GraphUtils,
-  Image32SVGFactory,
-  D2DSVGFactory,
+  GnuGetText, ListUtils, PathUtils, StringUtils, NumberUtils, MsgDialogs,
+  NumDlg, WinShell, WinExecute, ClipboardUtils, FileUtils, SelectDlg,
+  GraphUtils, Image32SVGFactory, D2DSVGFactory,
 //  SkiaSVGFactory,
-  SVGIconUtils,
-  UITypes;
+  SVGIconUtils, UITypes;
 
 {$R *.dfm}
+
+function TopLeftPos (AControl : TControl) : TPoint;
+begin
+  with AControl do if assigned(Parent) then Result:=Parent.ClientToScreen(Point(Left,Top))
+  else Result:=Point(Left,Top);
+  end;
+
+function BottomRightPos (AControl : TControl) : TPoint;
+begin
+  with AControl do if assigned(Parent) then Result:=Parent.ClientToScreen(Point(Left+Width,Top+Height))
+  else Result:=Point(Left+Width,Top+Height);
+  end;
 
 const
   CfGSekt = 'Config';
@@ -332,7 +335,6 @@ const
   IconExt = '.ico';
   SvgClean = 'svgcleaner-cli.exe';
   DirOpt = 'optimized';
-
 
   DirContextKey = 'Software\Classes\Folder\shell\SvgExplorer';
 
@@ -382,6 +384,12 @@ begin
     end;
   if AnsiEndsText(SvgExt,LastDir) then begin
     CmdImg:=ExtractFileName(LastDir); LastDir:=ExtractFilePath(LastDir);
+    end;
+  Languages:=TLanguageList.Create(ExtractFilePath(Application.ExeName));
+  with Languages do begin
+    Menu:=pmiLanguage;
+    LoadLanguageNames(SelectedLanguage);
+    OnLanguageItemClick:=SetLanguageClick;
     end;
   IniName:=IncludeTrailingPathDelimiter(AppPath)+ChangeFileExt(ExtractFilename(Application.ExeName),IniExt);
   IniFile:=TMemIniFile.Create(IniName);
@@ -439,6 +447,29 @@ begin
   with bbContext do if OldContext then Hint:=rsRemCtx else Hint:=rsAddCtx;
   end;
 
+procedure TfmExplorerSVG.SetLanguageClick(Sender : TObject; Language : TLangCodeString);
+var
+  sl : TLangCodeString;
+begin
+  if not AnsiSameStr(SelectedLanguage,Language) then begin
+    sl:=ChangeLanguage(Language);
+    Languages.LoadLanguageNames(sl);
+    PerformanceStatusBar.SimpleText := Format(rsLoadTime,[StatCount,StatTime]);
+    SVGIconImage.Invalidate;
+    end;
+  end;
+
+procedure TfmExplorerSVG.FormShow(Sender: TObject);
+begin
+  if not FileExists(OptProg) then SelectOptimizer;
+  btnOptimize.Enabled:=FileExists(OptProg);
+  pcTools.ActivePageIndex:=0;
+  rgSizeClick(Sender);
+  SelectDir(cbSelectedDir.Text);
+  if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
+  SVGIconImage.Height := SVGIconImage.Width;
+  end;
+
 procedure TfmExplorerSVG.FormDestroy(Sender: TObject);
 var
   IniFile : TMemIniFile;
@@ -476,17 +507,7 @@ begin
     UpdateFile;
     Free;
     end;
-  end;
-
-procedure TfmExplorerSVG.FormShow(Sender: TObject);
-begin
-  if not FileExists(OptProg) then SelectOptimizer;
-  btnOptimize.Enabled:=FileExists(OptProg);
-  pcTools.ActivePageIndex:=0;
-  rgSizeClick(Sender);
-  SelectDir(cbSelectedDir.Text);
-  if length(CmdImg)>0 then SelectImage(ChangeFileExt(CmdImg,''));
-  SVGIconImage.Height := SVGIconImage.Width;
+  Languages.Free;
   end;
 
 procedure TfmExplorerSVG.spRightCanResize(Sender: TObject; var NewSize: Integer;
@@ -505,7 +526,7 @@ begin
     end;
   end;
 
-procedure TfmExplorerSVG.bbInfoClick(Sender: TObject);
+procedure TfmExplorerSVG.pmiInfoClick(Sender: TObject);
 begin
   InfoDialog(ProgName+' '+Version+' - '
     +' ('+DateToStr(FileDateToDateTime(FileAge(Application.ExeName)))+')'+sLineBreak
@@ -863,7 +884,7 @@ procedure TfmExplorerSVG.LoadFilesDir(const APath, AFilter: string);
 var
   SR: TSearchRec;
   LFiles: TStringList;
-  LFilter, LTime: string;
+  LFilter : string;
   LStart, LStop: cardinal;
   LErrors: string;
 begin
@@ -892,8 +913,9 @@ begin
       end;
     UpdateHeader;
     LStop := GetTickCount;
-    LTime := Format(rsLoadTime, [LFiles.Count, LStop - LStart]);
-    PerformanceStatusBar.SimpleText := LTime;
+    StatCount:=LFiles.Count;
+    StatTime:=LStop - LStart;
+    PerformanceStatusBar.SimpleText := Format(rsLoadTime,[StatCount,StatTime]);
     if LFiles.Count > 0 then
     begin
       ImageView.ItemIndex := 0;
@@ -929,28 +951,22 @@ begin
   if rbUserSize.Checked then cbAspectRatio.Checked:=false;
   end;
 
+const
+  MinSize = 16;
+  MaxSize = 1024;
+
 procedure TfmExplorerSVG.ExportActionExecute(Sender: TObject);
 var
   si : TSVGIconItem;
   se : string;
   i,w,h,n : integer;
 
-const
-  MinSize = 16;
-  MaxSize = 1024;
-
-  function TopLeftPos (AControl : TControl) : TPoint;
-  begin
-    with AControl do if assigned(Parent) then Result:=Parent.ClientToScreen(Point(Left,Top))
-    else Result:=Point(Left,Top);
-    end;
-
 begin
   se:=cbPngDir.Text;
   if not ContainsFullPath(se) then se:=AddPath(cbSelectedDir.Text,se);
   if rbUserSize.Checked then begin
     if cbAspectRatio.Checked then begin
-      if not NumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWdtHgt,MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
+      if not NumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWidth,MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
       ExpHeight:=ExpWidth;
       end
     else begin
@@ -975,6 +991,32 @@ begin
     if n>0 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);
     end
   else MessageDlg(Format(rsDirErr,[se]),mtError,[mbOk],0,mbNo);
+  end;
+
+procedure TfmExplorerSVG.bbCopyClick(Sender: TObject);
+var
+  bm : TBitmap;
+  ad : THandle;
+  ap : HPALETTE;
+  fm : word;
+  w,h : integer;
+begin
+  bm:=TBitmap.Create;
+  w:=256;
+  if not NumDialog(TopLeftPos(bbCopy),rsImgSize,rsWdtHgt,MinSize,MaxSize,8,imBinAuto,w) then Exit;
+  with IconSVG do h:=round(w*Height/Width);
+  with bm do begin
+    SetSize(w,h);
+    IconSVG.PaintTo(bm.Canvas.Handle,TRectF.Create(0,0,w,h),true);
+    SaveToClipboardFormat(fm,ad,ap);
+    ClipBoard.SetAsHandle(fm,ad);
+    Free;
+    end;
+  end;
+
+procedure TfmExplorerSVG.bbInfoClick(Sender: TObject);
+begin
+  with BottomRightPos(Sender as TControl) do pmMain.Popup(x,y);
   end;
 
 procedure TfmExplorerSVG.IconActionExecute(Sender: TObject);
@@ -1214,7 +1256,7 @@ begin
     end;
   end;
 
-procedure TfmExplorerSVG.Copypath1Click(Sender: TObject);
+procedure TfmExplorerSVG.pmiCopyPathClick(Sender: TObject);
 begin
   if ImageView.Selected <> nil then begin
     ClipBoard.AsText:=AddPath(cbSelectedDir.Text,SVGIconImageList.Names[ImageView.Selected.ImageIndex]+SvgExt);
@@ -1249,8 +1291,8 @@ end;
 procedure TfmExplorerSVG.rgSizeClick(Sender: TObject);
 const
   IconSizes : array [0..5] of integer = (16,20,24,32,48,64);
-  var
-    n : integer;
+var
+  n : integer;
 begin
   n:=ImageView.ItemIndex;
   SVGIconImageList.Size:=IconSizes[rgSize.ItemIndex];

@@ -8,6 +8,7 @@ The program is based on the SVG Icon Explorer by
 - **ShellTreeView** component used for directory selection
 - **Image properties** are displayed for the selected image
 - **Edit button** to start an SVG editor such as [Inkscape](https://inkscape.org/) for the selected image
+- **Copying an image** as a bitmap to the clipboard 
 - **PNG export** in selectable size using the functions of *SVGIconUtils*
 - **Create icon** in selectable sizes from an SVG image
 - **SVG optimizing** by calling the external program [SvgCleaner](https://github.com/RazrFalcon/svgcleaner) to losslessly reduce the sizes of SVG images 
@@ -16,7 +17,7 @@ The program is based on the SVG Icon Explorer by
 
 The **installation** provides an option to add entries in the **context menus** of directories and SVG files
 
-**Languages:** English, German, French, Italian, and Spanish
+**Languages:** German, English, French, Italian and Spanish
 
 [Application download ](https://www.rathlev-home.de/index-e.html?tools/convert-e.html)
 

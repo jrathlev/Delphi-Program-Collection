@@ -5,7 +5,7 @@
 #. fmExplorerSVG.paList.paImageList.laFoldername.Font.Name
 #: FExplorerSVG.dfm:254
 #. fmExplorerSVG.paPreview.gbProperties.laImgName.Font.Name
-#: FExplorerSVG.dfm:521
+#: FExplorerSVG.dfm:522
 msgid "Tahoma"
 msgstr ""
 
@@ -51,51 +51,53 @@ msgstr ""
 
 #  Doesn't have any letters
 #. fmExplorerSVG.pmImages.N2.Caption
-#: FExplorerSVG.dfm:1087
+#: FExplorerSVG.dfm:1172
 #. fmExplorerSVG.pmDirs.N1.Caption
-#: FExplorerSVG.dfm:1160
+#: FExplorerSVG.dfm:1245
+#. fmExplorerSVG.pmMain.N3.Caption
+#: FExplorerSVG.dfm:1274
 msgid "-"
 msgstr ""
 
 #  Looks like a file extension or file mask
 #. fmExplorerSVG.FileOpenDialog.FileMask
-#: FExplorerSVG.dfm:1176
+#: FExplorerSVG.dfm:1261
 msgid "*.exe"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb016.Caption
-#: FExplorerSVG.dfm:841
+#: FExplorerSVG.dfm:929
 msgid "16x16"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb032.Caption
-#: FExplorerSVG.dfm:850
+#: FExplorerSVG.dfm:938
 msgid "32x32"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb048.Caption
-#: FExplorerSVG.dfm:859
+#: FExplorerSVG.dfm:947
 msgid "48x48"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb064.Caption
-#: FExplorerSVG.dfm:868
+#: FExplorerSVG.dfm:956
 msgid "64x64"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb128.Caption
-#: FExplorerSVG.dfm:877
+#: FExplorerSVG.dfm:965
 msgid "128x128"
 msgstr ""
 
 #  Doesn't look like text
 #. fmExplorerSVG.paPreview.pcTools.tsIcon.gbSizes.cb256.Caption
-#: FExplorerSVG.dfm:886
+#: FExplorerSVG.dfm:974
 msgid "256x256"
 msgstr ""
 

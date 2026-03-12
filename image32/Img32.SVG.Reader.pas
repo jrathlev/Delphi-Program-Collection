@@ -14,6 +14,9 @@ unit Img32.SVG.Reader;
 *              https://www.boost.org/LICENSE_1_0.txt                           *
 *******************************************************************************)
 
+// changes: several try/except statements inserted to avoid access violations
+// when processing a few specific SVG images, JR, March 2026
+
 interface
 
 {$I Img32.inc}
@@ -1387,8 +1390,9 @@ begin
       tmpImg.Free;
     end;
   end
-  else
-    DrawChildrenAndFilter(image, drawDat, filterEl, True);
+  else begin
+    try DrawChildrenAndFilter(image, drawDat, filterEl, True); except; end;
+    end;
 end;
 //------------------------------------------------------------------------------
 
@@ -4308,7 +4312,7 @@ var
 begin
   for i := 0 to fChilds.Count -1 do
     with TBaseElement(fChilds[i]) do
-      if fDrawData.visible then Draw(image, drawDat);
+      if fDrawData.visible then try Draw(image, drawDat); except; end;
 end;
 //------------------------------------------------------------------------------
 
@@ -5645,7 +5649,7 @@ end;
 
 destructor TSvgReader.Destroy;
 begin
-  Clear;
+  try Clear; except; end;
   fSvgParser.Free;
   fIdList.Free;
 
