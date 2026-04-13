@@ -13,7 +13,7 @@
    the specific language governing rights and limitations under the License.
 
    Vers. 1 - July 2023
-   last mdified: July 2023
+   last modified: July 2023
    *)
 (* @abstract(Initialization for GnuGetText)
    @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))

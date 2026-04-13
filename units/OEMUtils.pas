@@ -1,6 +1,6 @@
 (* Delphi-Unit
-   collection of routines for string processing
-   ============================================
+   Subroutines to process OEM coded strings
+   ========================================
 
    - Conversions ANSI <-> OEM (removed from StringUtils)
 
@@ -17,6 +17,11 @@
    New compilation - May 2007
    last modified: August 2025
    *)
+(* @abstract(Subroutines to process OEM coded strings)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(May 2007)
+   @lastmod(August 2025)
+*)
 
 unit OEMUtils;
 
@@ -72,9 +77,6 @@ function StrToAnsi (const s : AnsiString) : AnsiString;
 
 // Umwandeln eines ANSI-Strings nach OEM
 function StrToOEM (const s : AnsiString) : AnsiString;
-
-// Umwandeln eines Zeichens in Kleinbuchstaben  (fehlt in Unit System)
-function LowCase(Ch: WideChar): WideChar;
 
 implementation
 
@@ -270,14 +272,6 @@ begin
   for i:=1 to length(Result) do begin
     if Result[i]>=#128 then Result[i]:=TabToOEM[ord(Result[i])-128];
     end;
-  end;
-
-{ ---------------------------------------------------------------- }
-// Umwandeln eines Zeichens in Kleinbuchstaben  (fehlt in Unit System)
-function LowCase(Ch: WideChar): WideChar;
-begin
-  Result:=Ch;
-  if (Ch>='A') and (Ch<='Z') then inc(Result,Ord('a') - Ord('A'));
   end;
 
 end.
