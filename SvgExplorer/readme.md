@@ -1,4 +1,4 @@
-## SVG Explorer 2.1
+## SVG Explorer 2.2
 
 ### Utility to explore SVG Icons on disk
 
@@ -9,8 +9,8 @@ The program is based on the SVG Icon Explorer by
 - **Image properties** are displayed for the selected image
 - **Edit button** to start an SVG editor such as [Inkscape](https://inkscape.org/) for the selected image
 - **Copying an image** as a bitmap to the clipboard 
-- **PNG export** in selectable size using the functions of *SVGIconUtils*
-- **Create icon** in selectable sizes from an SVG image
+- **PNG export** in selectable sizes using the functions of *SVGIconUtils*
+- **Create icons** in selectable sizes from SVG images
 - **SVG optimizing** by calling the external program [SvgCleaner](https://github.com/RazrFalcon/svgcleaner) to losslessly reduce the sizes of SVG images 
 - **Extended context menu** to copy and paste of SVG image files
 - **Localization** using [GnuGettext for Delphi](https://github.com/jrathlev/GnuGetText-for-Delphi)

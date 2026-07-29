@@ -632,7 +632,7 @@ object fmExplorerSVG: TfmExplorerSVG
       Top = 385
       Width = 256
       Height = 202
-      ActivePage = tsOptimize
+      ActivePage = tsExport
       Align = alBottom
       MultiLine = True
       TabOrder = 3
@@ -788,6 +788,10 @@ object fmExplorerSVG: TfmExplorerSVG
       object tsIcon: TTabSheet
         Caption = 'Create icon'
         ImageIndex = 2
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         DesignSize = (
           248
           174)
@@ -970,6 +974,10 @@ object fmExplorerSVG: TfmExplorerSVG
       end
       object tsOptimize: TTabSheet
         Caption = 'Optimize'
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         DesignSize = (
           248
           174)

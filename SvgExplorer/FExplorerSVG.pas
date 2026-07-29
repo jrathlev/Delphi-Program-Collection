@@ -53,7 +53,7 @@ uses
 
 const
   ProgName = 'Svg Explorer';
-  Version = '2.1.8';
+  DefVersion = '2.2';
   CopRgt1 = '© 2020-2024 Ethea';
   CopRgt2 = '© 2025-2026 J. Rathlev';
   EmailAdr = 'kontakt(a)rathlev-home.de';
@@ -75,9 +75,6 @@ resourcestring
   rsNewFile = 'New filename:';
   rsRenameErr = 'Cannot rename: file "%s" already exists!';
   rsImgSize = 'Image size';
-  rsWdtHgt = 'Width/Height';
-  rsWidth = 'Width';
-  rsHeight = 'Height';
   rsConverted = '%u SVG image(s) converted to PNG';
   rsIconCreated = '%u icon(s) were created from SVG image(s)';
   rsIconError = 'Error creating icon from %s';
@@ -249,10 +246,11 @@ type
     procedure pmiCopyPathClick(Sender: TObject);
     procedure bbCopyClick(Sender: TObject);
     procedure bbInfoClick(Sender: TObject);
-    procedure SetLanguageClick(Sender : TObject; Language : TLangCodeString);
+    procedure SetLanguageClick(Sender : TObject; const Language : TLangCodeString);
   private
     fpaPreviewSize: Integer;
     AppPath,IniName,
+    Version,
     CmdImg,OptProg : string;
     StatCount,StatTime,
     SelectedIndex,
@@ -285,8 +283,8 @@ uses
   System.IniFiles, System.Types, System.StrUtils, System.Win.Registry,
   WinApi.ActiveX, WinApi.KnownFolders, WinApi.ShellApi, WinApi.ShlObj,
   Vcl.Imaging.PngImage,
-  GnuGetText, ListUtils, PathUtils, StringUtils, NumberUtils, MsgDialogs,
-  NumDlg, WinShell, WinExecute, ClipboardUtils, FileUtils, SelectDlg,
+  GnuGetText, WinApiUtils, ListUtils, PathUtils, StringUtils, NumberUtils, MsgDialogs,
+  ImgSizeDlg, WinShell, WinExecute, ClipboardUtils, FileUtils, SelectDlg,
   GraphUtils, Image32SVGFactory, D2DSVGFactory,
 //  SkiaSVGFactory,
   SVGIconUtils, UITypes;
@@ -328,6 +326,8 @@ const
   iniOptPrg = 'OptimizeProg';
   iniOptOpt = 'OptimizeOptions';
   iniSizes  = 'IconSizes';
+  iniUser = 'UserSize';
+  iniRatio = 'KeepRatio';
 
   IniExt = '.ini';
   SvgExt = '.svg';
@@ -348,6 +348,7 @@ var
   IniFile : TMemIniFile;
   LastDir,LastExp,LastOpt,LastIcon : string;
   i,w,h,sz : integer;
+  b        : boolean;
 
   function CheckGlobalContext : boolean;
   begin
@@ -376,8 +377,9 @@ var
 
 begin
   TranslateComponent(self);
-  Application.Title:=Progname+' ('+Version+')';
   AppPath:=GetAppDataFolder;
+  if not GetFileVersionString(Application.ExeName,3,Version) then Version:=DefVersion;
+  Application.Title:=Progname+' ('+Version+')';
   fpaPreviewSize := paPreview.Width; LastDir:=''; CmdImg:='';
   if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
     if LastDir.IsEmpty then LastDir:=ExpandFileName(ParamStr(i));
@@ -405,6 +407,17 @@ begin
     LastExp:=ReadString(CfgSekt,iniExp,'png');
     ExpWidth:=ReadInteger(ExpSekt,iniWdt,64);
     ExpHeight:=ReadInteger(ExpSekt,iniHgt,64);
+    b:=ReadBool(ExpSekt,iniUser,false);
+    if b then begin
+      rbUserSize.Checked:=true;
+      cbAspectRatio.Checked:=ReadBool(ExpSekt,iniRatio,true);
+      end
+    else begin
+      rbOrgSize.Checked:=true;
+      cbAspectRatio.Checked:=true;
+      end;
+    cbAspectRatio.Enabled:=rbUserSize.Checked;
+    WriteBool(ExpSekt,iniRatio,b);
     LastOpt:=ReadString(CfgSekt,iniOpt,DirOpt);
     OptProg:=AddPath(ExtractFilePath(Application.ExeName),SvgClean);
     OptProg:=ReadString(CfgSekt,iniOptPrg,OptProg);
@@ -440,14 +453,13 @@ begin
   AddToHistory(cbPngDir,LastExp);
   AddToHistory(cbOptimizeDir,LastOpt);
   AddToHistory(cbIconDir,LastIcon);
-  cbAspectRatio.Enabled:=false;
   SelectedIndex:=-1;
   bbContext.Visible:=not CheckGlobalContext;
   OldContext:=CheckUserFolderContext;
   with bbContext do if OldContext then Hint:=rsRemCtx else Hint:=rsAddCtx;
   end;
 
-procedure TfmExplorerSVG.SetLanguageClick(Sender : TObject; Language : TLangCodeString);
+procedure TfmExplorerSVG.SetLanguageClick(Sender : TObject; const Language : TLangCodeString);
 var
   sl : TLangCodeString;
 begin
@@ -474,6 +486,7 @@ procedure TfmExplorerSVG.FormDestroy(Sender: TObject);
 var
   IniFile : TMemIniFile;
   i,sz : integer;
+  b    : boolean;
 begin
   IniFile:=TMemIniFile.Create(IniName);
   with IniFile do begin
@@ -488,6 +501,9 @@ begin
     WriteString(CfgSekt,iniExp,cbPngDir.Text);
     WriteInteger(ExpSekt,iniWdt,ExpWidth);
     WriteInteger(ExpSekt,iniHgt,ExpHeight);
+    WriteBool(ExpSekt,iniUser,rbUserSize.Checked);
+    if rbUserSize.Checked then b:=cbAspectRatio.Checked else b:=true;
+    WriteBool(ExpSekt,iniRatio,b);
     WriteString(CfgSekt,iniOpt,cbOptimizeDir.Text);
     WriteString(CfgSekt,iniOptPrg,OptProg);
     WriteString(CfgSekt,iniOptOpt,edOptions.Text);
@@ -948,7 +964,7 @@ begin
 procedure TfmExplorerSVG.rbUserSizeClick(Sender: TObject);
 begin
   cbAspectRatio.Enabled:=rbUserSize.Checked;
-  if rbUserSize.Checked then cbAspectRatio.Checked:=false;
+  cbAspectRatio.Checked:=true;
   end;
 
 const
@@ -963,16 +979,17 @@ var
 
 begin
   se:=cbPngDir.Text;
+  with ImageView do if SelCount=1 then begin
+    si:=SVGIconImageList.SVGIconItems[Selected.ImageIndex];
+    w:=round(si.SVG.Width); h:=round(si.SVG.Height);
+    end
+  else begin
+    w:=0; h:=0;
+    end;
   if not ContainsFullPath(se) then se:=AddPath(cbSelectedDir.Text,se);
   if rbUserSize.Checked then begin
-    if cbAspectRatio.Checked then begin
-      if not NumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWidth,MinSize,MaxSize,8,imBinAuto,ExpWidth) then Exit;
-      ExpHeight:=ExpWidth;
-      end
-    else begin
-      if not DNumDialog(TopLeftPos(rbOrgSize),rsImgSize,rsWidth,rsHeight,MinSize,MaxSize,8,imBinAuto,
-        MinSize,MaxSize,8,imBinAuto,ExpWidth,ExpHeight) then Exit;
-      end;
+    if not frmImageSize.Execute(TopLeftPos(rbOrgSize),rsImgSize,cbAspectRatio.Checked,MinSize,MaxSize,8,imBinAuto,
+      w,h,ExpWidth,ExpHeight) then Exit;
     end;
   if ForceDirectories(se) then begin
     n:=0;
@@ -1002,10 +1019,11 @@ var
   w,h : integer;
 begin
   bm:=TBitmap.Create;
-  w:=256;
-  if not NumDialog(TopLeftPos(bbCopy),rsImgSize,rsWdtHgt,MinSize,MaxSize,8,imBinAuto,w) then Exit;
-  with IconSVG do h:=round(w*Height/Width);
-  with bm do begin
+  with IconSVG do begin
+    w:=round(Width); h:=round(Height);
+    end;
+  if frmImageSize.Execute(TopLeftPos(bbCopy),rsImgSize,true,MinSize,MaxSize,8,imBinAuto,w,h,w,h) then
+      with bm do begin
     SetSize(w,h);
     IconSVG.PaintTo(bm.Canvas.Handle,TRectF.Create(0,0,w,h),true);
     SaveToClipboardFormat(fm,ad,ap);

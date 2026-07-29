@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SVG Explorer\n"
-"POT-Creation-Date: 2026-03-09 17:03+0100\n"
-"PO-Revision-Date: 2026-03-09 17:04+0100\n"
+"POT-Creation-Date: 2026-07-27 16:01+0200\n"
+"PO-Revision-Date: 2026-07-27 16:09+0200\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language: it\n"
@@ -137,13 +137,9 @@ msgstr "Programma SVG Cleaner"
 msgid "exe files"
 msgstr "file exe"
 
-#. fmExplorerSVG.pmMain.pmiLanguage.Caption
-#: FExplorerSVG.dfm:1271
 msgid "Language"
 msgstr "Lingua"
 
-#. fmExplorerSVG.pmMain.pmiInfo.Caption
-#: FExplorerSVG.dfm:1277
 msgid "About the program"
 msgstr "Info sul programma"
 
@@ -202,12 +198,6 @@ msgstr "Dimensione immagine"
 msgid "Width/Height"
 msgstr "Larghezza/Altezza"
 
-msgid "Width"
-msgstr "Larghezza"
-
-msgid "Height"
-msgstr "Altezza:"
-
 msgid "%u SVG image(s) converted to PNG"
 msgstr "%u Immagini SVG convertite in PNG"
 
@@ -252,3 +242,18 @@ msgstr "Apri questa cartella con Svg Explorer"
 
 msgid "Based on SVG Icon Explorer (%s)"
 msgstr "Basato su SVG Icon Explorer (%s)"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Fixed value for"
+msgstr "Valore fisso per"
+
+msgid "Width"
+msgstr "Larghezza"
+
+msgid "Height"
+msgstr "Altezza"
+
+msgid "Reset to original size"
+msgstr "Ripristina le dimensioni originali"

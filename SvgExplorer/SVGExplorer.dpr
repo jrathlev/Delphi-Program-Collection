@@ -9,6 +9,7 @@ uses
   Vcl.Forms,
   Vcl.Graphics,
   FExplorerSVG in 'FExplorerSVG.pas' {fmExplorerSVG},
+  ImgSizeDlg in 'ImgSizeDlg.pas' {frmImageSize},
   SelectDlg in '..\dialogs\SelectDlg.pas' {SelectDialog};
 
 {$R *.res}
@@ -19,10 +20,11 @@ begin
   // Subdirectory in AppData for user configuration files and supported languages
   InitTranslation(['delphi10','units']);
 
-//  Application.Title := 'SVG Icons Explorer - (c) 2020-2024 Ethea, 2025 J. Rathlev';
+//  Application.Title := 'SVG Icons Explorer - (c) 2020-2024 Ethea, 2025-2026 J. Rathlev';
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfmExplorerSVG, fmExplorerSVG);
+  Application.CreateForm(TfrmImageSize, frmImageSize);
   Application.CreateForm(TSelectDialog, SelectDialog);
   Application.Run;
 end.
