@@ -14,9 +14,14 @@
    WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
    the specific language governing rights and limitations under the License.
 
-   Created:        July 2025
-   last modified:  July 2025
+   Created:       July 2025
+   last modified: July 2025
    *)
+(* @abstract(Functions to read or write data from or to clipboard)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(July 2025)
+   @lastmod(July 2025)
+*)
 
 unit ClipboardUtils;
 

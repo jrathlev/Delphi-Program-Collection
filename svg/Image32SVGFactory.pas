@@ -177,7 +177,7 @@ begin
   //since these values will be used for SVG images that simply
   //specify their widths and heights as percentages
   with fSvgReader.GetImageSize do begin
-    FWidth := Width; FHeight := Height;
+    FWidth := cx; FHeight := cy;
     end;
 end;
 
@@ -365,5 +365,6 @@ initialization
   FontManager.LoadFontReaderFamily('Times New Roman');
   FontManager.LoadFontReaderFamily('Segoe UI');
   FontManager.LoadFontReaderFamily('Segoe UI Emoji');
+  FontManager.LoadFontReaderFamily('Webdings');
 
 end.

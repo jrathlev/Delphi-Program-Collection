@@ -27,8 +27,8 @@ uses
   Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, SVGInterfaces;
 
 const
-  Vers = '2.1.2';
-  CopRgt = '© 2024-2025 Dr. J. Rathlev, D-24222 Schwentinental';
+  Vers = '2.1.3';
+  CopRgt = '© 2024-2026 Dr. J. Rathlev, D-24222 Schwentinental';
   EmailAdr = 'kontakt(a)rathlev-home.de';
 
 type
@@ -504,7 +504,7 @@ begin
   with lvFiles do for i:=0 to Items.Count-1 do if Items[i].Selected then begin
     sn:=Items[i].Caption;
     s:=NewExt(sn,PngExt);
-    if cbSuffix.Checked then s:=InsertNameSuffix(sn,'-'+ZStrInt(ImgSize,4));
+    if cbSuffix.Checked then s:=InsertNameSuffix(sn,'-'+ZStrInt(ImgSize,3));
     k:=meStatus.Lines.Add(_('Converting')+ColSpace+sn+' -> '+AddPath(edtPngDir.Text,s));
     s:=AddPath(sp,s); se:='';
     if ConvertToPng(ImgSize,AddPath(sd,sn),s) then begin

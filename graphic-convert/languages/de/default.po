@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Graphic converters\n"
-"POT-Creation-Date: 2025-06-30 17:36+0200\n"
-"PO-Revision-Date: 2025-06-30 17:36+0200\n"
+"POT-Creation-Date: 2026-02-21 12:52+0100\n"
+"PO-Revision-Date: 2026-02-21 12:53+0100\n"
 "Last-Translator: J. Rathlev <kontakt@rathlev-home.de>\n"
 "Language-Team: J. Rathlev <inforathlev-home.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. MainForm.Caption
@@ -36,8 +36,8 @@ msgstr "Zielordner für die PNG-Bilder"
 #. MainForm.paMain.bbConvert.Caption
 #. MainForm.paMain.bbConvert.Caption
 #. MainForm.paMain.bbConvert.Caption
-#: BmpToPngMain.dfm:228 PngToBmpMain.dfm:455 SvgToIcoMain.dfm:276
-#: SvgToPngMain.dfm:276
+#: BmpToPngMain.dfm:228 PngToBmpMain.dfm:455 SvgToIcoMain.dfm:277
+#: SvgToPngMain.dfm:275
 msgid "Convert"
 msgstr "Konvertiere"
 
@@ -45,8 +45,8 @@ msgstr "Konvertiere"
 #. MainForm.btSelectAll.Hint
 #. MainForm.paMain.btSelectAll.Hint
 #. MainForm.paMain.btSelectAll.Hint
-#: BmpToPngMain.dfm:884 SplitMain.dfm:756 SvgToIcoMain.dfm:893
-#: SvgToPngMain.dfm:893
+#: BmpToPngMain.dfm:884 SplitMain.dfm:756 SvgToIcoMain.dfm:894
+#: SvgToPngMain.dfm:892
 msgid "Select all"
 msgstr "Alle auswählen"
 
@@ -54,8 +54,8 @@ msgstr "Alle auswählen"
 #. MainForm.btSelectNone.Hint
 #. MainForm.paMain.btSelectNone.Hint
 #. MainForm.paMain.btSelectNone.Hint
-#: BmpToPngMain.dfm:975 SplitMain.dfm:847 SvgToIcoMain.dfm:984
-#: SvgToPngMain.dfm:984
+#: BmpToPngMain.dfm:975 SplitMain.dfm:847 SvgToIcoMain.dfm:985
+#: SvgToPngMain.dfm:983
 msgid "Deselect all"
 msgstr "Alle abwählen"
 
@@ -194,7 +194,7 @@ msgstr ""
 
 #. HauptForm.SavePictureDialog.DefaultExt
 #. MainForm.sdIcon.DefaultExt
-#: IconMain.dfm:707 PngToIconMain.dfm:917
+#: IconMain.dfm:707 PngToIconMain.dfm:918
 msgid "ico"
 msgstr "ico"
 
@@ -368,22 +368,22 @@ msgid "Create icon"
 msgstr "Icon erstellen"
 
 #. MainForm.gbDest.Caption
-#: PngToIconMain.dfm:791
+#: PngToIconMain.dfm:792
 msgid "Destination directory of icon"
 msgstr "Zielverzeichnis für Icon"
 
 #. MainForm.gbDest.rbSourceDir.Caption
-#: PngToIconMain.dfm:890
+#: PngToIconMain.dfm:891
 msgid "Same as PNG"
 msgstr "Gleich wie PNG"
 
 #. MainForm.gbDest.rbOtherDir.Caption
-#: PngToIconMain.dfm:901
+#: PngToIconMain.dfm:902
 msgid "Select other directory"
 msgstr "Anderes Verzeichnis auswählen"
 
 #. MainForm.sdIcon.Filter
-#: PngToIconMain.dfm:918
+#: PngToIconMain.dfm:919
 msgid "Icon files|*.ico"
 msgstr "Icon-Dateien|*.ico"
 
@@ -440,18 +440,18 @@ msgstr "Konvertiere SVG-Bilder in Icons"
 
 #. MainForm.paMain.Label1.Caption
 #. MainForm.paMain.Label1.Caption
-#: SvgToIcoMain.dfm:261 SvgToPngMain.dfm:261 SvgToIcoMain.pas:258
-#: SvgToPngMain.pas:289
+#: SvgToIcoMain.dfm:262 SvgToPngMain.dfm:260 SvgToIcoMain.pas:284
+#: SvgToPngMain.pas:313
 msgid "Directory with SVG images"
 msgstr "Verzeichnis mit SVG-Bildern"
 
 #. MainForm.paMain.Label2.Caption
-#: SvgToIcoMain.dfm:268
+#: SvgToIcoMain.dfm:269 SvgToIcoMain.pas:298
 msgid "Directory for icons"
 msgstr "Verzeichnis für Icons"
 
 #. MainForm.paMain.gbSizes.Caption
-#: SvgToIcoMain.dfm:1128
+#: SvgToIcoMain.dfm:1129
 msgid "Icon sizes"
 msgstr "Icon-Größen"
 
@@ -461,77 +461,82 @@ msgid "Convert SVG images to PNG"
 msgstr "Konvertiere SVG-Bilder in PNG-Bilder"
 
 #. MainForm.paMain.Label2.Caption
-#: SvgToPngMain.dfm:268 SvgToIcoMain.pas:272 SvgToPngMain.pas:303
+#: SvgToPngMain.dfm:267 SvgToPngMain.pas:327
 msgid "Directory for PNG images"
 msgstr "Verzeichnis für PNG-Bilder"
 
 #. MainForm.paMain.rgSize.Caption
-#: SvgToPngMain.dfm:1096
+#: SvgToPngMain.dfm:1095
 msgid "Length of the selected side"
 msgstr "Länge der ausgewählten Seite"
 
 #. MainForm.paMain.lvFiles.Caption
-#: SvgToPngMain.dfm:1120
+#: SvgToPngMain.dfm:1119
 msgid "Name"
 msgstr "Name"
 
 #. MainForm.paMain.lvFiles.Caption
-#: SvgToPngMain.dfm:1125
+#: SvgToPngMain.dfm:1124
 msgid "Date"
 msgstr "Datum"
 
 #. MainForm.paMain.lvFiles.Caption
-#: SvgToPngMain.dfm:1129
+#: SvgToPngMain.dfm:1128
 msgid "Size"
 msgstr "Größe"
 
 #. MainForm.paMain.lvFiles.Caption
-#: SvgToPngMain.dfm:1133
+#: SvgToPngMain.dfm:1132
 msgid "Image size"
 msgstr "Bildgröße"
 
 #. MainForm.paMain.rgFormat.Caption
-#: SvgToPngMain.dfm:1152
+#: SvgToPngMain.dfm:1151
 msgid "Fixed value for"
 msgstr "Fester Wert für"
 
 #. MainForm.paMain.rgFormat.Items.Strings
-#: SvgToPngMain.dfm:1155
+#: SvgToPngMain.dfm:1154
 msgid "Width"
 msgstr "Breite"
 
 #. MainForm.paMain.rgFormat.Items.Strings
-#: SvgToPngMain.dfm:1156
+#: SvgToPngMain.dfm:1155
 msgid "Height"
 msgstr "Höhe"
 
 #. MainForm.paMain.rgFormat.Items.Strings
-#: SvgToPngMain.dfm:1157
+#: SvgToPngMain.dfm:1156
 msgid "Longest"
 msgstr "Längste"
 
+#. MainForm.paMain.cbSuffix.Caption
+#: SvgToPngMain.dfm:1165
+msgid "Append size suffix to png filenames"
+msgstr "Größensuffix an PNG-Dateinamen anhängen"
+
 #: BmpToPngMain.pas:232 PngToIconMain.pas:155 SplitMain.pas:181
-#: SvgToIcoMain.pas:216 SvgToPngMain.pas:259
+#: SvgToIcoMain.pas:242 SvgToPngMain.pas:283
 msgid "image of"
 msgstr "Bild von"
 
 #: BmpToPngMain.pas:232 PngToIconMain.pas:155 SplitMain.pas:181
-#: SvgToIcoMain.pas:216 SvgToPngMain.pas:259
+#: SvgToIcoMain.pas:242 SvgToPngMain.pas:283
 msgid "images of"
 msgstr "Bilder von"
 
 #: BmpToPngMain.pas:233 PngToIconMain.pas:156 SplitMain.pas:182
-#: SvgToIcoMain.pas:217 SvgToPngMain.pas:260
+#: SvgToIcoMain.pas:243 SvgToPngMain.pas:284
 msgid " %u selected"
 msgstr " %u ausgewählt"
 
 #: BmpToPngMain.pas:234 PngToIconMain.pas:157 SplitMain.pas:183
-#: SvgToIcoMain.pas:218 SvgToPngMain.pas:261
+#: SvgToIcoMain.pas:244 SvgToPngMain.pas:285
 msgid "matching image"
 msgstr "passendes Bild"
 
 #: BmpToPngMain.pas:234 PngToIconMain.pas:157 SplitMain.pas:183
-#: SvgToIcoMain.pas:218 SvgToPngMain.pas:261
+#: SvgToIcoMain.pas:244 SvgToPngMain.pas:285
 msgid "matching images"
 msgstr "passende Bilder"
 
@@ -667,15 +672,15 @@ msgstr "Keine passenden Bilder gefunden!"
 msgid "Directory for Icon"
 msgstr "Verzeichnis für Icon"
 
-#: PngToIconMain.pas:277
+#: PngToIconMain.pas:278
 msgid "No PNG imaged selected"
 msgstr "Keine PNG-Bilder ausgewählt"
 
-#: PngToIconMain.pas:293
+#: PngToIconMain.pas:294
 msgid "Icon \"%s\" was created"
 msgstr "Icon \"%s\" wurde erstellt"
 
-#: PngToIconMain.pas:294
+#: PngToIconMain.pas:295
 msgid "Error writing to \"%s\""
 msgstr "Fehler beim Schreiben nach \"%s\""
 
@@ -693,34 +698,34 @@ msgstr "Verarbeite : %s"
 msgid "%u files processed"
 msgstr "%u Dateien verarbeitet"
 
-#: SvgToIcoMain.pas:379
+#: SvgToIcoMain.pas:405
 msgid "Creating icon from "
 msgstr "Erzeuge Icon aus "
 
-#: SvgToIcoMain.pas:401 SvgToPngMain.pas:486 SvgToPngMain.pas:498
+#: SvgToIcoMain.pas:427 SvgToPngMain.pas:511 SvgToPngMain.pas:523
 msgid "Done"
 msgstr "Fertig"
 
-#: SvgToIcoMain.pas:402 SvgToPngMain.pas:488
+#: SvgToIcoMain.pas:428 SvgToPngMain.pas:513
 msgid "Error"
 msgstr "Fehler"
 
-#: SvgToIcoMain.pas:405
+#: SvgToIcoMain.pas:431
 msgid "Error loading file!"
 msgstr "Fehler beim Laden der Datei!"
 
-#: SvgToIcoMain.pas:408
+#: SvgToIcoMain.pas:434
 msgid "File not found!"
 msgstr "Datei nicht gefunden!"
 
-#: SvgToPngMain.pas:483
+#: SvgToPngMain.pas:508
 msgid "Converting"
 msgstr "Konvertiere"
 
-#: SvgToPngMain.pas:495
+#: SvgToPngMain.pas:520
 msgid "%u png images were created"
 msgstr "Es wurden %u png-Bilder erstellt"
 
-#: SvgToPngMain.pas:497
+#: SvgToPngMain.pas:522
 msgid "No images selected"
 msgstr "Keine Nilder ausgewählt"

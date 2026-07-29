@@ -13,7 +13,7 @@
    WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
    the specific language governing rights and limitations under the License.
 
-   Vers. 1 - Okt. 1995
+   Vers. 1 -
    Vers. 2 - Okt. 1996
    Vers. 3 - Jun. 2001
    Vers. 3.1 - Mai 2005 added: TimeAxis
@@ -168,8 +168,14 @@
       end;
 
    *)
+(* @abstract(Universal plotting routines (similar to CALCOMP)  for screen and printer@br
+             Plot coordinates: cm or inches)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(October 1995)
+   @lastmod(September 2025)
+*)
 
-unit Winplot;
+unit WinPlot;
 
 interface
 

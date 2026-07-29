@@ -355,8 +355,8 @@ object MainForm: TMainForm
     ViewStyle = vsReport
   end
   object ShellComboBox: TShellComboBox
-    Left = 444
-    Top = 188
+    Left = 439
+    Top = 193
     Width = 81
     Height = 22
     Root = 'rfDesktop'
@@ -918,7 +918,7 @@ object MainForm: TMainForm
     DefaultExt = 'ico'
     Filter = 'Icon files|*.ico'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
-    Left = 465
-    Top = 145
+    Left = 425
+    Top = 55
   end
 end

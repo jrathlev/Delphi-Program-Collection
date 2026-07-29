@@ -17,8 +17,14 @@
            1.1 - May  2010
            2.0 - Jan. 2016: unit renamed, Unicode routines moved to FileUtils
                             adapted to Delphi 10
-   last updated: Feb. 2017
+   last modified: December 2025
    *)
+(* @abstract(Procedures and functions for file and directory processing@br
+             with prefix to allow extended-length pathnames (>= MAX_PATH))
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(February 2009)
+   @lastmod(December 2025)
+*)
 
 unit XlFileUtils;
 

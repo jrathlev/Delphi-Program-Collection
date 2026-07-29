@@ -14,6 +14,11 @@
 
    Vers. 1 - Nov. 2007
    *)
+(* @abstract(Several subroutines for working with MP3 tags)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(November 2007)
+   @lastmod(November 2007)
+*)
 
 unit Mp3Utils;
 

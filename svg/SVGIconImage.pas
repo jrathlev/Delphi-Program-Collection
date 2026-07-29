@@ -718,7 +718,10 @@ begin
     {$ENDIF}
     CheckAutoSize;
     UpdateImageName;
-    Repaint;
+    if (FImageIndex = -1) {$IFDEF D10_4+}and (FImageName = ''){$ENDIF} then
+      SVG.Clear;
+    Invalidate;
+//        Repaint;
 //    Invalidate;
   end;
 end;

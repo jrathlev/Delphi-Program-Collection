@@ -15,6 +15,11 @@
    Vers. 1.0 - September 2024
    last modified: April 2025
    *)
+(* @abstract(Grahic conversions)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(September 2024)
+   @lastmod(April 2025)
+*)
 
 unit GraphUtils;
 

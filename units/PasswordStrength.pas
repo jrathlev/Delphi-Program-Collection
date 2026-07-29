@@ -19,6 +19,11 @@
 
    Vers. 1 - May 2024
    *)
+(* @abstract(Calculate password strength)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(May 2024)
+   @lastmod(May 2024)
+*)
 
 unit PasswordStrength;
 

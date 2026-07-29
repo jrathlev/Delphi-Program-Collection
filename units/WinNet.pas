@@ -1,7 +1,7 @@
 (* Delphi Unit
    Collection of subroutines for Windows network connections
    =========================================================
-   
+
    © Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de)
 
    The contents of this file may be used under the terms of the
@@ -14,6 +14,11 @@
    Vers. 1 - Sep. 2002
    last updated: June 2022
    *)
+(* @abstract(Collection of subroutines for Windows network connections)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(September 2002)
+   @lastmod(June 2022)
+*)
 
 unit WinNet;
 

@@ -57,6 +57,12 @@
    May 2025
    last modified: February 2026
    *)
+(* @abstract(Load SVG images from zip file and replace in existing SVG image lists
+   @note(requires SVGIconImageList package by Ethea - @url(https://github.com/EtheaDev/SVGIconImageList)))
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(May 2025)
+   @lastmod(February 2026)
+*)
 
 unit ImageLoader;
 

@@ -15,6 +15,11 @@
    Vers. 1 - July 2016
    last updated: January 2024
    *)
+(* @abstract(Subroutines to retrieve information about Windows version)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(July 2016)
+   @lastmod(January 2024)
+*)
 
 unit SystemInfo;
 

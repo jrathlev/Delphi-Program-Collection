@@ -1,5 +1,5 @@
 (* Delphi-Unit
-   Subroutines to start a process 
+   Subroutines to start a process
    ==============================
 
    © Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de)
@@ -17,6 +17,11 @@
          2.0 - July 2015 : optional view of console output fixed
    last modified: August 2025
    *)
+(* @abstract(Subroutines to start a process)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(May 2005)
+   @lastmod(August 2025)
+*)
 
 unit WinExecute;
 

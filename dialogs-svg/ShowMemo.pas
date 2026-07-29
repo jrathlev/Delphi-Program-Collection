@@ -200,7 +200,7 @@ implementation
 
 {$R *.DFM}
 
-uses GnuGetText, PathUtils, System.IniFiles, System.StrUtils,
+uses GnuGetText, PathUtils, System.IniFiles, System.StrUtils, System.WideStrUtils,
   InitProg, WinUtils, ExtFileTools, ShowMessageDlg, ImageLoader;
 
 var
@@ -688,9 +688,9 @@ begin
     FindText:=SectText; Options:=Options-[frDown];
     if not SearchMemo(Memo,false,FindText,Options) then begin
       Memo.SelStart:=0;
-      StatusBar.Panels[1].Text:=dgettext('dialogs-svg','No further sections!');
+      StatusBar.Panels[2].Text:=dgettext('dialogs-svg','No further sections!');
       end
-    else StatusBar.Panels[1].Text:='';
+    else StatusBar.Panels[2].Text:='';
     MemoChange(Sender);
     end;
   end;
@@ -704,9 +704,9 @@ begin
     if not SearchMemo(Memo,true,FindText,Options) then with Memo do begin
       pt.x:=0; pt.y:=Lines.Count; CaretPos:=pt;
       Perform(EM_SCROLLCARET,0,0);
-      StatusBar.Panels[1].Text:=dgettext('dialogs-svg','No further sections!');
+      StatusBar.Panels[2].Text:=dgettext('dialogs-svg','No further sections!');
       end
-    else StatusBar.Panels[1].Text:='';
+    else StatusBar.Panels[2].Text:='';
     MemoChange(Sender);
     end;
   end;
@@ -718,6 +718,46 @@ var
   i,j    : integer;
   Buffer : TBytes;
   Enc    : TEncoding;
+
+  // replacement for TEncoding.GetBufferEncoding
+  // checks for UTF8 if no BOM found
+  function GetEncoding (const Buf : TBytes;  var AEnc : TEncoding; DefEnc : TEncoding) : integer;
+  var
+    bom8,bomu : TBytes;
+  begin
+    Result:=0;
+    if AEnc=nil then begin
+      bom8:=TEncoding.UTF8.GetPreamble;
+      bomu:=TEncoding.Unicode.GetPreamble;
+      if CompareMem(@buf[0],@bomu[0],length(bomu)) then AEnc:=TEncoding.Unicode
+      else if CompareMem(@buf[0],@bom8[0],length(bom8)) then AEnc:=TEncoding.UTF8
+      else begin  // no bom
+        if IsUTF8String(RawByteString(buf)) then AEnc:=TEncoding.UTF8
+        else AEnc:=DefEnc;
+        Exit;   //
+        end;
+      Result:=Length(AEnc.GetPreamble);
+      end
+    else begin
+      bomu:=AEnc.GetPreamble;
+      if CompareMem(@buf[0],@bomu[0],length(bomu)) then Result:=length(bomu);
+      end;
+    end;
+
+  function GetEncodingName (cp : integer) : string;
+  const
+    CP_UTF16 = 1200;
+  var
+    CpInfoEx : TCPInfoEx;
+  begin
+     // CP_UTF16 is not supported by GetCPInfoEx
+    if cp=CP_UTF16 then Result:=IntToStr(CP_UTF16)+' (UTF-16)'
+    else if GetCPInfoEx(cp,0,CpInfoEx) then begin
+      Result:=CPInfoEx.CodePageName;
+      end
+    else Result:='';
+    end;
+
 begin
   Result:=false;
   if length(FName)>0 then TextName:=FName;
@@ -730,24 +770,27 @@ begin
       try
         SetLength(Buffer,Size);
         fs.Read(Buffer,0,Size);
-        // remove zero bytes
-        i:=0; j:=0;
-        while i<Size do begin
-          while (i<Size) and (Buffer[i]=0) do inc(i);
-          if (i<Size) and (j<i) then Buffer[j]:=Buffer[i];
-          inc(i); inc(j);
-          end;
-        SetLength(Buffer,j);
+//        // remove zero bytes
+//        i:=0; j:=0;
+//        while i<Size do begin
+//          while (i<Size) and (Buffer[i]=0) do inc(i);
+//          if (i<Size) and (j<i) then Buffer[j]:=Buffer[i];
+//          inc(i); inc(j);
+//          end;
+//        SetLength(Buffer,j);
         if FCodePage>0 then Enc:=TEncoding.GetEncoding(FCodePage) else Enc:=nil;
-        Size:=TEncoding.GetBufferEncoding(Buffer,Enc,DefaultEncoding);
+//        Size:=TEncoding.GetBufferEncoding(Buffer,Enc,DefaultEncoding);
+        Size:=GetEncoding(Buffer,Enc,DefaultEncoding);
         try
           Text:=Enc.GetString(Buffer,Size,Length(Buffer)-Size);
+          StatusBar.Panels[1].Text:=GetEncodingName(Enc.CodePage);
         except
           on EEncodingError do begin
             ErrorDialog(BottomRightPos(EncBtn),dgettext('dialogs-svg','Invalid code page - Windows default is used!'));
             with TEncoding.ANSI do begin
               FCodePage:=CodePage;
               Text:=GetString(Buffer,Size,Length(Buffer)-Size);
+              StatusBar.Panels[1].Text:=GetEncodingName(Enc.CodePage);
               end;
             end;
           end;
@@ -785,9 +828,9 @@ begin
     FindText:=ErrText; Options:=Options-[frDown];
     if not SearchMemo(Memo,false,FindText,Options) then begin
       Memo.SelStart:=0;
-      StatusBar.Panels[1].Text:=dgettext('dialogs-svg','No further errors!');
+      StatusBar.Panels[2].Text:=dgettext('dialogs-svg','No further errors!');
       end
-    else StatusBar.Panels[1].Text:='';
+    else StatusBar.Panels[2].Text:='';
     MemoChange(Sender);
     end;
   end;
@@ -800,9 +843,9 @@ begin
     FindText:=ErrText; Options:=Options+[frDown];
     if not SearchMemo(Memo,true,FindText,Options) then with Memo do begin
       pt.x:=0; pt.y:=Lines.Count; CaretPos:=pt;
-      StatusBar.Panels[1].Text:=dgettext('dialogs-svg','No further errors!');
+      StatusBar.Panels[2].Text:=dgettext('dialogs-svg','No further errors!');
       end
-    else StatusBar.Panels[1].Text:='';
+    else StatusBar.Panels[2].Text:='';
     MemoChange(Sender);
     end;
   end;
@@ -1012,7 +1055,8 @@ begin
     if (n<0) or (n>1) then n:=ord(defOrientation);
     Orientation:=TPrinterOrientation(n);
     Free;
-    end;
+    end
+  else Result.Init;
   end;
 
 procedure SavePrinterSettings(const AIniName,ASection : string; const ASettings : TPrinterSettings);
@@ -1042,6 +1086,7 @@ begin
     end;
   end;
 
+{ ------------------------------------------------------------------- }
 procedure ShowTextFile (const Title,TextDatei,PrevCap1,NextCap1,SrchText1,PrevCap2,
                     NextCap2,SrchText2,Filter : string;
                     APos    : TPoint; Line : integer;

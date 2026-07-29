@@ -1,6 +1,6 @@
 #  Doesn't have any letters
 #. ShellDirDialog.PopupMenu.N1.Caption
-#: ShellDirDlg.dfm:307
+#: ShellDirDlg.dfm:308
 msgid "-"
 msgstr ""
 
@@ -30,11 +30,11 @@ msgstr ""
 #. LogonDialog.PwdEdit.PasswordChar
 #: LogonDlg.dfm:100
 #. NewPwdDialog.paPwd.edtPwd.PasswordChar
-#: NewPwdDlg.dfm:59
+#: NewPwdDlg.dfm:60
 #. NewPwdDialog.paConfirm.edtRepPwd.PasswordChar
-#: NewPwdDlg.dfm:141
+#: NewPwdDlg.dfm:142
 #. PasswordDialog.pnInput.edtPwd.PasswordChar
-#: PwdDlg.dfm:110
+#: PwdDlg.dfm:111
 msgid "*"
 msgstr ""
 
@@ -280,6 +280,8 @@ msgstr ""
 #  Seems like a Font.Name extract
 #. ShowTextDialog.Memo.Font.Name
 #: ShowMemo.dfm:235
+#. ShowtextDialog.Memo.Font.Name
+#: ShowText.dfm:122
 msgid "Courier New"
 msgstr ""
 
@@ -307,15 +309,15 @@ msgid "DescLabel"
 msgstr ""
 
 #. InputTextDialog.Descriptor.Caption
-#: InpText.dfm:43
+#: InpText.dfm:45
 #. InputStringDialog.Descriptor.Caption
-#: InputString.dfm:29
+#: InputString.dfm:30
 #. MemoDialog.paTop.Descriptor.Caption
-#: MemoDlg.dfm:86
+#: MemoDlg.dfm:88
 #. TextEingabe.Descriptor1.Caption
-#: Textdlg.dfm:58
+#: Textdlg.dfm:60
 #. TextEingabe.Descriptor2.Caption
-#: Textdlg.dfm:67
+#: Textdlg.dfm:69
 msgid "Descriptor"
 msgstr ""
 
@@ -336,6 +338,8 @@ msgstr ""
 #: AccountDlg.dfm:5
 #. FileFilterDialog.Caption
 #: FileFilterDlg.dfm:5
+#. FileListDialog.Caption
+#: FileListDlg.dfm:4
 #. MemoDialog.Caption
 #: MemoDlg.dfm:6
 #. NewPwdDialog.Caption
@@ -344,6 +348,8 @@ msgstr ""
 #: PwdDlg.dfm:5
 #. SelectDialog.Caption
 #: SelectDlg.dfm:5
+#. ShellFileDialog.Caption
+#: ShellFileDlg.dfm:4
 #. ShowFilesDialog.Caption
 #: ShowFilesDlg.dfm:4
 #. TextEingabe.Caption
@@ -484,7 +490,7 @@ msgid "MsgText"
 msgstr ""
 
 #. StatusWindow.ProgLabel.Caption
-#: StatWind.dfm:43
+#: StatWind.dfm:45
 msgid "ProgLabel"
 msgstr ""
 
@@ -494,15 +500,19 @@ msgid "pt"
 msgstr ""
 
 #  Seems like a propertie Value
+#. ShellFileDialog.pnlTop.ShellComboBox.Root
+#: ShellFileDlg.dfm:168
+#. ShellFileDialog.ShellListView.Root
+#: ShellFileDlg.dfm:264
 #. ShowFilesDialog.lvFiles.Root
 #: ShowFilesDlg.dfm:77
 msgid "rfDesktop"
 msgstr ""
 
 #. ShellDirDialog.PanelLeft.ShellTreeView.Root
-#: ShellDirDlg.dfm:50
+#: ShellDirDlg.dfm:51
 #. ShellDirDialog.PanelRight.ShellListView.Root
-#: ShellDirDlg.dfm:284
+#: ShellDirDlg.dfm:285
 msgid "rfMyComputer"
 msgstr ""
 
@@ -512,7 +522,7 @@ msgid "ShowTextDialog"
 msgstr ""
 
 #. StatusWindow.StatusLabel.Caption
-#: StatWind.dfm:30
+#: StatWind.dfm:32
 msgid "StatusLabel"
 msgstr ""
 
@@ -540,13 +550,23 @@ msgstr ""
 #. CharTableDialog.Font.Name
 #: CharTableDlg.dfm:11
 #. CharTableDialog.CharGrid.Font.Name
-#: CharTableDlg.dfm:35
+#: CharTableDlg.dfm:36
 #. DetailInfoDialog.Font.Name
 #: DetailInfoDlg.dfm:12
+#. EditFileListDialog.Font.Name
+#: EditFileListDlg.dfm:12
 #. EditHistListDialog.Font.Name
 #: EditHistListDlg.dfm:13
+#. EditStringListDialog.Font.Name
+#: EditStringListDlg.dfm:12
 #. FileFilterDialog.Font.Name
 #: FileFilterDlg.dfm:12
+#. FileListDialog.Font.Name
+#: FileListDlg.dfm:11
+#. FileListDialog.paTop.lblListfile.Font.Name
+#: FileListDlg.dfm:81
+#. FileListDialog.paCenter.lblPath.Font.Name
+#: FileListDlg.dfm:119
 #. FilterDialog.Font.Name
 #: FilterDlg.dfm:11
 #. FtpDirDialog.Font.Name
@@ -574,11 +594,13 @@ msgstr ""
 #. PasswordDialog.Font.Name
 #: PwdDlg.dfm:12
 #. PasswordDialog.pnTop.lblPrompt.Font.Name
-#: PwdDlg.dfm:72
+#: PwdDlg.dfm:73
 #. PasswordDialog.pnInput.Label1.Font.Name
-#: PwdDlg.dfm:99
+#: PwdDlg.dfm:100
 #. SelectDialog.Font.Name
 #: SelectDlg.dfm:12
+#. SelectFilesDialog.Font.Name
+#: SelectFilesDlg.dfm:11
 #. SelectFromListDialog.Font.Name
 #: SelectFromListDlg.dfm:12
 #. SelectListItemDialog.Font.Name
@@ -587,6 +609,10 @@ msgstr ""
 #: SelectListItems.dfm:11
 #. ShellDirDialog.Font.Name
 #: ShellDirDlg.dfm:12
+#. ShellFileDialog.Font.Name
+#: ShellFileDlg.dfm:11
+#. ShellFileDialog.pnlBottom.Label1.Font.Name
+#: ShellFileDlg.dfm:199
 #. frmShow.Font.Name
 #: Show.dfm:11
 #. frmShow.panButtons.Font.Name
@@ -596,25 +622,27 @@ msgstr ""
 #. frmShowHint.Font.Name
 #: ShowHint.dfm:11
 #. frmShowHint.stInfo.Font.Name
-#: ShowHint.dfm:45
+#: ShowHint.dfm:46
 #. frmShowHint.btClose.Font.Name
-#: ShowHint.dfm:63
+#: ShowHint.dfm:64
 #. ShowTextDialog.Font.Name
 #: ShowMemo.dfm:12
 #. ShowTextDialog.FontDialog.Font.Name
 #: ShowMemo.dfm:265
 #. ShowMsgDialog.Font.Name
-#: ShowMessageDlg.dfm:13
+#: ShowMessageDlg.dfm:12
 #. ShowMsgDialog.stInfo.Font.Name
-#: ShowMessageDlg.dfm:49
+#: ShowMessageDlg.dfm:48
 #. ShowStringListDialog.Font.Name
 #: ShowStringList.dfm:11
+#. ShowtextDialog.Font.Name
+#: ShowText.dfm:10
 #. StatusWindow.Font.Name
 #: StatWind.dfm:12
 #. StatusWindow.StatusLabel.Font.Name
-#: StatWind.dfm:34
+#: StatWind.dfm:36
 #. StatusWindow.btnCancel.Font.Name
-#: StatWind.dfm:69
+#: StatWind.dfm:71
 #. TextEingabe.Font.Name
 #: Textdlg.dfm:13
 #. Download.Font.Name
@@ -663,11 +691,11 @@ msgid "x"
 msgstr ""
 
 #. EditHistListDialog.lbDesc.Caption
-#: EditHistListDlg.dfm:78
+#: EditHistListDlg.dfm:80
 #. SelectDialog.stCaption.Caption
-#: SelectDlg.dfm:45
+#: SelectDlg.dfm:47
 #. ShowStringListDialog.paBottom.laStatus.Caption
-#: ShowStringList.dfm:47
+#: ShowStringList.dfm:39
 msgid "xxx"
 msgstr ""
 
@@ -677,7 +705,7 @@ msgid "WebView"
 msgstr ""
 
 #. ShowTextDialog.SaveDialog.DefaultExt
-#: ShowMemo.dfm:1135
+#: ShowMemo.dfm:1112
 msgid "zip"
 msgstr ""
 

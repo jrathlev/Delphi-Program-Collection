@@ -16,8 +16,13 @@
 
    Vers. 1 - June 1989
    Vers. 2 - May 2015
-   last modified:  July 2018
+   last modified: July 2018
    *)
+(* @abstract(Additional mathematical functions)
+   @author(© Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
+   @created(June 1989)
+   @lastmod(July 2018)
+*)
 
 unit MathUtils;
 
