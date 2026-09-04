@@ -32,7 +32,7 @@ uses
 const
   ProgName = 'Parse Delphi project or source for used units';
   Vers = ' - Vers. 4.0';
-  CopRgt = '© 2013-2025 - J. Rathlev, D-24222 Schwentinental';
+  CopRgt = '© 2013-2026 - J. Rathlev, D-24222 Schwentinental';
   EMailAdr = 'kontakt(a)rathlev-home.de';
 
   defSubDir = 'sources\';

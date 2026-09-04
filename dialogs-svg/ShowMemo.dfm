@@ -248,10 +248,12 @@ object ShowTextDialog: TShowTextDialog
     OnMouseDown = MemoMouseDown
   end
   object PrintDialog: TPrintDialog
+    OnClose = PrintDialogClose
     Left = 530
     Top = 50
   end
   object FindDialog: TFindDialog
+    OnClose = FindDialogClose
     OnFind = FindDialogFind
     Left = 565
     Top = 50

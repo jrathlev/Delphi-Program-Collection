@@ -21,7 +21,7 @@
                         messages accessible to screenreaders
    Vers. 3 - December 2023: code page selection added
              March 2024 : changed TMemIniFile
-   last modified: July 2025
+   last modified: July 2026
    *)
 
 

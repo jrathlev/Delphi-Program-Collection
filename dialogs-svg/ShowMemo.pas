@@ -22,7 +22,7 @@
    Vers. 3 - December 2023: code page selection added
              March 2024 : changed TMemIniFile
    Vers. 4 - Feb. 2025: SVG glyphs
-   last modified: July 2025
+   last modified: July 2026
    *)
 
 
@@ -115,12 +115,15 @@ type
     procedure FormAfterMonitorDpiChanged(Sender: TObject; OldDPI,
       NewDPI: Integer);
     procedure ExportBtnClick(Sender: TObject);
+    procedure PrintDialogClose(Sender: TObject);
+    procedure FindDialogClose(Sender: TObject);
   private
     { Private-Deklarationen }
     LPos             : integer;
     FIniName,ExportPath,
     FTitle,FFilter,
-    SectText,ErrText : string;
+    SectText,ErrText,
+    SrchText   : string;
     PosFromIni : boolean;
     FDlgType : TShowDlgType;
     LWidth,
@@ -224,6 +227,7 @@ const
   IniFontStyle = 'FontStyle';
   IniOrientation = 'Orientation';
   IniExportPath = 'ExportPath';
+  IniSearchStr = 'SearchString';
 
 {------------------------------------------------------------------- }
 // Ersatz für Bibliotheksfunktion, da dort nur 16-bit-Werte verarbeitet werden
@@ -288,7 +292,7 @@ begin
   PrinterSettings.Init;
   LWidth:=Width;
   CodePageList:=TStringList.Create;
-  FCodePage:=0; TextName:='';
+  FCodePage:=0; TextName:=''; SrchText:='';
   ListSelectDialog:=TListSelectDialog.Create(self);
   ExportPath:=GetUserPath;
   imlGlyphs.DPIChanged(self,PixelsPerInchOnDesign,Monitor.PixelsPerInch);
@@ -316,6 +320,7 @@ begin
         fc.Style:=Style;
         WriteInteger(ViewSect,IniFontStyle,fc.Value);
         end;
+      WriteString(ViewSect,IniSearchStr,SrchText);
       UpdateFile;
       Free;
       end;
@@ -582,6 +587,11 @@ begin
     end;
   end;
 
+procedure TShowTextDialog.PrintDialogClose(Sender: TObject);
+begin
+
+end;
+
 { ------------------------------------------------------------------- }
 procedure TShowTextDialog.ExportBtnClick(Sender: TObject);
 begin
@@ -642,6 +652,11 @@ begin
   MemoChange(Sender);
   end;
 
+procedure TShowTextDialog.FindDialogClose(Sender: TObject);
+begin
+  SrchText:=FindDialog.FindText;
+  end;
+
 procedure TShowTextDialog.FindDialogFind(Sender: TObject);
 begin
   FindText(false);
@@ -649,15 +664,18 @@ begin
 
 procedure TShowTextDialog.FindText (Reverse : boolean);
 begin
-  with FindDialog do
+  with FindDialog do begin
     if not SearchMemo(Memo,false,FindText,Options,Reverse) then
       ErrorDialog(SafeFormat(dgettext('dialogs-svg','"%s" not found!'),[FindText]))
     else MemoChange(self);
+    end;
   end;
 
 procedure TShowTextDialog.SearchBtnClick(Sender: TObject);
 begin
   with FindDialog do begin
+    FindText:=SrchText;
+    Options:=Options+[frDown];
     Position:=TopRightPos(SearchBtn);
     Execute;
     end;
@@ -892,6 +910,7 @@ begin
         fc.Value:=ReadInteger(ViewSect,IniFontStyle,0);
         Style:=fc.Style;
         end;
+      SrchText:=ReadString(ViewSect,IniSearchStr,'');
       Free;
       end;
     end;
