@@ -380,7 +380,7 @@ begin
   AppPath:=GetAppDataFolder;
   if not GetFileVersionString(Application.ExeName,3,Version) then Version:=DefVersion;
   Application.Title:=Progname+' ('+Version+')';
-  fpaPreviewSize := paPreview.Width; LastDir:=''; CmdImg:='';
+  fpaPreviewSize:=paPreview.Width; LastDir:=''; CmdImg:='';
   if ParamCount>0 then for i:=1 to ParamCount do if not IsOption(ParamStr(i)) then begin
     if LastDir.IsEmpty then LastDir:=ExpandFileName(ParamStr(i));
     end;
@@ -401,7 +401,7 @@ begin
     ClientWidth:=ReadInteger(CfgSekt,iniWdt,ClientWidth);
     ClientHeight:=ReadInteger(CfgSekt,iniHgt,ClientHeight);
     with paDir do Width:=ReadInteger(CfgSekt,iniDWdt,Width);
-    w:=ReadInteger(CfgSekt,iniPrev,Width);
+    w:=ReadInteger(CfgSekt,iniPrev,paPreView.Width);
     rgSize.ItemIndex:=ReadInteger(CfgSekt,iniSize,3);
     if LastDir.IsEmpty then LastDir:=ReadString(CfgSekt,iniLast,'');
     LastExp:=ReadString(CfgSekt,iniExp,'png');
@@ -444,8 +444,11 @@ begin
 //  h:=ClientHeight-gbProperties.Height-pcTools.Height-pcTools.Height-paTools.Height-MulDiv(btnOpen.Height,15,10);
 //  if h<=w then
 //  else paPreview.Width:=h; //ClientHeight-h;
-  for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
-    grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
+  if WinSvgSupported then begin
+    for LFactory := Low(TSVGFactory) to high(TSVGFactory) do
+      grpFactory.Items.Add(ASVGFactoryNames[LFactory]);
+    end
+  else grpFactory.Items.Add(ASVGFactoryNames[svgImage32]);
   grpFactory.ItemIndex := integer(Low(TSVGFactory));
   SetFactory(Low(TSVGFactory));
   LastDir:=GetExistingParentPath(LastDir,GetPersonalFolder);
