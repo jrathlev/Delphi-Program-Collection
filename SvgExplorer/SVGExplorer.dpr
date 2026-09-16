@@ -10,8 +10,8 @@ uses
   Vcl.Graphics,
   FExplorerSVG in 'FExplorerSVG.pas' {fmExplorerSVG},
   ImgSizeDlg in 'ImgSizeDlg.pas' {frmImageSize},
-  SelectDlg in '..\dialogs\SelectDlg.pas' {SelectDialog};
-
+  SelectDlg in '..\dialogs\SelectDlg.pas' {SelectDialog},
+  ShellDirDlg in '..\dialogs\ShellDirDlg.pas' {ShellDirDialog};
 {$R *.res}
 
 begin
@@ -26,5 +26,6 @@ begin
   Application.CreateForm(TfmExplorerSVG, fmExplorerSVG);
   Application.CreateForm(TfrmImageSize, frmImageSize);
   Application.CreateForm(TSelectDialog, SelectDialog);
+  Application.CreateForm(TShellDirDialog, ShellDirDialog);       
   Application.Run;
 end.

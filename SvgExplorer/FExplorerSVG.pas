@@ -26,17 +26,23 @@
 {                                                                              }
 {******************************************************************************}
 
-// Changes: June 2025, J. Rathlev (kontakt(a)rathlev-home.de)
+(* Version 2 (June 2025)
+  Changes to basic version: J. Rathlev (kontakt(a)rathlev-home.de):
+    Skia support removed, some features added
+    Export to PNG function implemented
+    Calling of external program SvgCleaner implemented
+    ShellTreeView component implemented
+    TIconImage in preview replaced by TPaintBox for improved rendering
+    German localization added
+    Optional entry in Windows folder context menu
 
-// Skia support removed, some features added
-// Export to PNG function implemented
-// Calling of external program SvgCleaner implemented
-// ShellTreeView component implemented
-// TIconImage in preview replaced by TPaintBox for improved rendering
-// German localization added
-// Optional entry in Windows folder context menu
+  Version 2.2  (September 2026):
+     Panel size fixed when starting for the first time
+     Export of multiple images to png fixed
+     Directory selection dialog (TFileOpenDialog) replaced by ShellDirDialog
 
-//  last modified: February 2026
+  last modified: September 2026
+*)
 
 unit FExplorerSVG;
 
@@ -143,7 +149,6 @@ type
     ExportAction: TAction;
     cbSelectedDir: TComboBox;
     ShellTreeView: TShellTreeView;
-    DirOpenDialog: TFileOpenDialog;
     Label2: TLabel;
     cbPngDir: TComboBox;
     btnPngDir: TSpeedButton;
@@ -166,7 +171,6 @@ type
     Label1: TLabel;
     cbOptimizeDir: TComboBox;
     btnOptimizeDir: TSpeedButton;
-    FileOpenDialog: TFileOpenDialog;
     btnOptimize: TButton;
     btnOptProg: TButton;
     edOptions: TLabeledEdit;
@@ -197,6 +201,7 @@ type
     pmiLanguage: TMenuItem;
     N3: TMenuItem;
     pmiInfo: TMenuItem;
+    FileOpenDialog: TOpenDialog;
     procedure ImageViewSelectItem(Sender: TObject; Item: TListItem;
       Selected: Boolean);
     procedure paPreviewResize(Sender: TObject);
@@ -287,7 +292,7 @@ uses
   ImgSizeDlg, WinShell, WinExecute, ClipboardUtils, FileUtils, SelectDlg,
   GraphUtils, Image32SVGFactory, D2DSVGFactory,
 //  SkiaSVGFactory,
-  SVGIconUtils, UITypes;
+  SVGIconUtils, UITypes, ShellDirDlg;
 
 {$R *.dfm}
 
@@ -556,7 +561,9 @@ begin
 procedure TfmExplorerSVG.SelectOptimizer;
 begin
   with FileOpenDialog do begin
-    if ExtractFileDir(OptProg).IsEmpty then DefaultFolder:=GetProgramFolder(pfProgramFiles64);
+    InitialDir:=ExtractFileDir(OptProg);
+    if InitialDir.IsEmpty then InitialDir:=GetProgramFolder(pfProgramFiles64);
+    Filter:=_('exe files')+'|'+_('*.exe');
     Filename:=SvgClean;
     if Execute then OptProg:=Filename;
     end;
@@ -625,15 +632,15 @@ begin
   s:=cbOptimizeDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
   s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+DirOpt);
-  with DirOpenDialog do begin
-    Title:=rsOptDir;
-    DefaultFolder:=s;
-    FileName:=s;
-    if Execute then begin
-      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
-      AddToHistory(cbOptimizeDir,s);
+  if ShellDirDialog.Execute (rsOptDir,true,true,false,'',s) then begin
+//  with DirOpenDialog do begin
+//    Title:=rsOptDir;
+//    DefaultFolder:=s;
+//    FileName:=s;
+//    if Execute then begin
+      AddToHistory(cbOptimizeDir,MakeRelativePath(cbSelectedDir.Text,ExcludeTrailingPathDelimiter(s)));
       end;
-    end;
+//    end;
   end;
 
 procedure TfmExplorerSVG.btnOptProgClick(Sender: TObject);
@@ -649,15 +656,16 @@ begin
   s:=cbPngDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
   s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+PngExt);
-  with DirOpenDialog do begin
-    Title:=rsPngDir;
-    DefaultFolder:=s;
-    FileName:=s;
-    if Execute then begin
-      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
-      AddToHistory(cbPngDir,s);
+  if ShellDirDialog.Execute (rsPngDir,true,true,false,'',s) then begin
+//  with DirOpenDialog do begin
+//    Title:=rsPngDir;
+//    DefaultFolder:=s;
+//    FileName:=s;
+//    if Execute then begin
+//      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
+      AddToHistory(cbPngDir,MakeRelativePath(cbSelectedDir.Text,ExcludeTrailingPathDelimiter(s)));
       end;
-    end;
+//    end;
   end;
 
 procedure TfmExplorerSVG.btnIconDirClick(Sender: TObject);
@@ -667,15 +675,16 @@ begin
   s:=cbIconDir.Text;
   if not ContainsFullPath(s) then s:=AddPath(cbSelectedDir.Text,s);
   s:=GetExistingParentPath(s,IncludeTrailingPathDelimiter(cbSelectedDir.Text)+IconExt);
-  with DirOpenDialog do begin
-    Title:=rsIconDir;
-    DefaultFolder:=s;
-    FileName:=s;
-    if Execute then begin
-      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
-      AddToHistory(cbIconDir,s);
+  if ShellDirDialog.Execute (rsIconDir,true,true,false,'',s) then begin
+//  with DirOpenDialog do begin
+//    Title:=rsIconDir;
+//    DefaultFolder:=s;
+//    FileName:=s;
+//    if Execute then begin
+//      s:=MakeRelativePath(cbSelectedDir.Text,Filename);
+      AddToHistory(cbIconDir,MakeRelativePath(cbSelectedDir.Text,ExcludeTrailingPathDelimiter(s)));
       end;
-    end;
+//    end;
   end;
 
 procedure TfmExplorerSVG.btnResetFilterClick(Sender: TObject);
@@ -1005,7 +1014,7 @@ begin
         w:=round(si.SVG.Width); h:=round(si.SVG.Height);
         end;
 //      IconSvg.Source:=si.SVG.Source;
-      SVGExportToPng(w,h,IconSvg,se,si.Name+PngExt,cbAspectRatio.Checked);
+      SVGExportToPng(w,h,si.SVG,se,si.Name+PngExt,cbAspectRatio.Checked);
       inc(n);
       end;
     if n>0 then MessageDlg(Format(rsConverted,[n]),mtInformation,[mbOk],0,mbNo);

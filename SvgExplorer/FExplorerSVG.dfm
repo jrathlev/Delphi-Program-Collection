@@ -1199,13 +1199,6 @@ object fmExplorerSVG: TfmExplorerSVG
       OnExecute = IconActionExecute
     end
   end
-  object DirOpenDialog: TFileOpenDialog
-    FavoriteLinks = <>
-    FileTypes = <>
-    Options = [fdoPickFolders, fdoForceFileSystem, fdoPathMustExist]
-    Left = 665
-    Top = 155
-  end
   object pmDirs: TPopupMenu
     Left = 306
     Top = 164
@@ -1224,18 +1217,6 @@ object fmExplorerSVG: TfmExplorerSVG
       Caption = 'Cancel'
     end
   end
-  object FileOpenDialog: TFileOpenDialog
-    FavoriteLinks = <>
-    FileNameLabel = 'SVG Cleaner program'
-    FileTypes = <
-      item
-        DisplayName = 'exe files'
-        FileMask = '*.exe'
-      end>
-    Options = [fdoPathMustExist, fdoFileMustExist, fdoForceShowHidden]
-    Left = 665
-    Top = 95
-  end
   object pmMain: TPopupMenu
     Left = 460
     Top = 75
@@ -1249,5 +1230,11 @@ object fmExplorerSVG: TfmExplorerSVG
       Caption = 'About the program'
       OnClick = pmiInfoClick
     end
+  end
+  object FileOpenDialog: TOpenDialog
+    Options = [ofPathMustExist, ofFileMustExist, ofEnableSizing, ofForceShowHidden]
+    Title = 'SVG Cleaner program'
+    Left = 665
+    Top = 95
   end
 end
