@@ -22,7 +22,7 @@ unit SvgToPngMain;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Classes,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.Shell.ShellCtrls,
   Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls, SVGInterfaces;
 
@@ -99,7 +99,7 @@ implementation
 
 {$R *.dfm}
 
-uses System.Types, System.Masks, System.IniFiles, System.DateUtils, System.Math, System.Character,
+uses System.Types, System.Masks, System.IniFiles, System.DateUtils, System.Math,
   SVGIconUtils, NumberUtils, GnuGetText, InitProg, WinShell, ShellDirDlg, PathUtils, ListUtils,
   WinUtils, MsgDialogs, StringUtils, GraphUtils;
 
@@ -360,7 +360,9 @@ const
     i,ic : integer;
   begin
     i:=1;
-    while (i<=length(s)) and TCharacter.IsDigit(s[i]) do inc(i);
+    while (i<=length(s)) and (s[i]>='0') and (s[i]<='9') do inc(i);
+//  System.Character does not work with WindowsXP
+//    while (i<=length(s)) and TCharacter.IsDigit(s[i]) do inc(i);
     val(copy(s,1,pred(i)),Result,ic);
     if ic>0 then ReadNxtInt:=0;
     while (i<=length(s)) and (s[i]<>' ') do inc(i);
