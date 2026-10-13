@@ -19,5 +19,10 @@ The **installation** provides an option to add entries in the **context menus** 
 
 **Languages:** German, English, French, Italian and Spanish
 
+**Acknowledgements:**  This program uses routines from the following sources
+- **SVGIconImageList** package by [Ethea](https://ethea.it/docs/svgiconimagelist)
+- **Image32** library by [Angus Johnson](https://angusj.com/image32/Docs/_Body.htm)
+
+
 [Application download ](https://www.rathlev-home.de/index-e.html?tools/convert-e.html)
 
